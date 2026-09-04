@@ -1,0 +1,1743 @@
+{
+  "GS": {
+    "categories": [
+      {
+        "id": "life-science",
+        "name": {
+          "en": "Life science",
+          "es": "Ciencias de la vida"
+        },
+        "topics": [
+          {
+            "slug": "cells",
+            "name": {
+              "en": "Cell structure, organelles and cell division",
+              "es": "Estructura celular, organelos y división celular"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "genetics",
+            "name": {
+              "en": "Genetics, DNA, heredity and Punnett squares",
+              "es": "Genética, ADN, herencia y cuadros de Punnett"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "taxonomy",
+            "name": {
+              "en": "Classification of living things (kingdoms, species)",
+              "es": "Clasificación de los seres vivos (reinos, especies)"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "evolution",
+            "name": {
+              "en": "Evolution, natural selection and adaptation",
+              "es": "Evolución, selección natural y adaptación"
+            },
+            "weight": 1
+          },
+          {
+            "slug": "photosynthesis",
+            "name": {
+              "en": "Photosynthesis and cellular respiration",
+              "es": "Fotosíntesis y respiración celular"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "ecology",
+            "name": {
+              "en": "Ecology: food chains, ecosystems and biomes",
+              "es": "Ecología: cadenas alimentarias, ecosistemas y biomas"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "body-systems",
+            "name": {
+              "en": "Human body systems overview",
+              "es": "Sistemas del cuerpo humano (visión general)"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "skeletal-muscular",
+            "name": {
+              "en": "Skeletal and muscular systems",
+              "es": "Sistemas esquelético y muscular"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "circulatory-system",
+            "name": {
+              "en": "Heart and circulatory system",
+              "es": "Corazón y sistema circulatorio"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "blood",
+            "name": {
+              "en": "Blood components and blood types",
+              "es": "Componentes de la sangre y grupos sanguíneos"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "respiratory-system",
+            "name": {
+              "en": "Respiratory system and gas exchange",
+              "es": "Sistema respiratorio e intercambio de gases"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "digestion",
+            "name": {
+              "en": "Digestive and excretory systems",
+              "es": "Sistemas digestivo y excretor"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "nervous-system",
+            "name": {
+              "en": "Nervous system, brain and senses",
+              "es": "Sistema nervioso, cerebro y sentidos"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "reproduction",
+            "name": {
+              "en": "Reproduction and human development",
+              "es": "Reproducción y desarrollo humano"
+            },
+            "weight": 1
+          },
+          {
+            "slug": "nutrition",
+            "name": {
+              "en": "Nutrition: vitamins, minerals and macronutrients",
+              "es": "Nutrición: vitaminas, minerales y macronutrientes"
+            },
+            "weight": 3
+          }
+        ]
+      },
+      {
+        "id": "physical-science",
+        "name": {
+          "en": "Physical science (chemistry and physics)",
+          "es": "Ciencias físicas (química y física)"
+        },
+        "topics": [
+          {
+            "slug": "physical-science",
+            "name": {
+              "en": "Physical science fundamentals and vocabulary",
+              "es": "Fundamentos y vocabulario de ciencias físicas"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "units",
+            "name": {
+              "en": "Metric system, SI units and measurement",
+              "es": "Sistema métrico, unidades SI y medición"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "atoms",
+            "name": {
+              "en": "Atomic structure: protons, neutrons, electrons",
+              "es": "Estructura atómica: protones, neutrones, electrones"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "periodic-table",
+            "name": {
+              "en": "Periodic table and element properties",
+              "es": "Tabla periódica y propiedades de los elementos"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "chemical-change",
+            "name": {
+              "en": "Chemical reactions and physical vs. chemical change",
+              "es": "Reacciones químicas y cambio físico vs. químico"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "acids-bases",
+            "name": {
+              "en": "Acids, bases and the pH scale",
+              "es": "Ácidos, bases y la escala de pH"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "states-of-matter",
+            "name": {
+              "en": "States of matter and phase changes",
+              "es": "Estados de la materia y cambios de fase"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "motion",
+            "name": {
+              "en": "Motion: speed, velocity and acceleration",
+              "es": "Movimiento: rapidez, velocidad y aceleración"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "newtons-laws",
+            "name": {
+              "en": "Newton's laws, force, mass and gravity",
+              "es": "Leyes de Newton, fuerza, masa y gravedad"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "energy",
+            "name": {
+              "en": "Forms of energy, work and conservation of energy",
+              "es": "Formas de energía, trabajo y conservación de la energía"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "heat-transfer",
+            "name": {
+              "en": "Heat, temperature and heat transfer",
+              "es": "Calor, temperatura y transferencia de calor"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "sound",
+            "name": {
+              "en": "Sound waves and their properties",
+              "es": "Ondas sonoras y sus propiedades"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "light",
+            "name": {
+              "en": "Light, optics and the electromagnetic spectrum",
+              "es": "Luz, óptica y espectro electromagnético"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "electricity-magnetism",
+            "name": {
+              "en": "Basic electricity and magnetism",
+              "es": "Electricidad básica y magnetismo"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {
+        "id": "earth-space",
+        "name": {
+          "en": "Earth and space science",
+          "es": "Ciencias de la Tierra y el espacio"
+        },
+        "topics": [
+          {
+            "slug": "earth-layers",
+            "name": {
+              "en": "Earth's structure and layers",
+              "es": "Estructura y capas de la Tierra"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "plate-tectonics",
+            "name": {
+              "en": "Plate tectonics, earthquakes and volcanoes",
+              "es": "Tectónica de placas, terremotos y volcanes"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "rock-cycle",
+            "name": {
+              "en": "Rocks, minerals and the rock cycle",
+              "es": "Rocas, minerales y el ciclo de las rocas"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "atmosphere",
+            "name": {
+              "en": "Layers and composition of the atmosphere",
+              "es": "Capas y composición de la atmósfera"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "weather",
+            "name": {
+              "en": "Weather, fronts and air pressure",
+              "es": "Clima, frentes y presión atmosférica"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "clouds",
+            "name": {
+              "en": "Cloud types and precipitation",
+              "es": "Tipos de nubes y precipitación"
+            },
+            "weight": 1
+          },
+          {
+            "slug": "water-cycle",
+            "name": {
+              "en": "Water cycle and oceans",
+              "es": "Ciclo del agua y océanos"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "solar-system",
+            "name": {
+              "en": "Solar system: planets, sun and orbits",
+              "es": "Sistema solar: planetas, sol y órbitas"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "moon-tides",
+            "name": {
+              "en": "Moon phases, eclipses and tides",
+              "es": "Fases de la luna, eclipses y mareas"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "earth-rotation-seasons",
+            "name": {
+              "en": "Earth's rotation, revolution and seasons",
+              "es": "Rotación, traslación y estaciones de la Tierra"
+            },
+            "weight": 2
+          }
+        ]
+      }
+    ]
+  },
+  "AR": {
+    "categories": [
+      {
+        "id": "arithmetic-operations",
+        "name": {
+          "en": "Arithmetic operations and number sense",
+          "es": "Operaciones aritméticas y sentido numérico"
+        },
+        "topics": [
+          {
+            "slug": "whole-numbers",
+            "name": {
+              "en": "Multi-step whole-number word problems",
+              "es": "Problemas verbales de varios pasos con números enteros"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "fractions-decimals",
+            "name": {
+              "en": "Fractions and decimals in word problems",
+              "es": "Fracciones y decimales en problemas verbales"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "remainder",
+            "name": {
+              "en": "Division with remainders and leftover quantities",
+              "es": "División con residuo y cantidades sobrantes"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {
+        "id": "percent-ratio",
+        "name": {
+          "en": "Percents, ratios and proportions",
+          "es": "Porcentajes, razones y proporciones"
+        },
+        "topics": [
+          {
+            "slug": "percent",
+            "name": {
+              "en": "Percent of a number, discount, tax, increase/decrease",
+              "es": "Porcentaje de un número, descuento, impuesto, aumento/disminución"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "ratio",
+            "name": {
+              "en": "Ratios and dividing quantities by ratio",
+              "es": "Razones y reparto de cantidades según una razón"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "proportion",
+            "name": {
+              "en": "Proportions, scale and similar quantities",
+              "es": "Proporciones, escala y cantidades semejantes"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "mixture",
+            "name": {
+              "en": "Mixture and concentration problems",
+              "es": "Problemas de mezclas y concentración"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "id": "rates-money",
+        "name": {
+          "en": "Rates, time and money",
+          "es": "Tasas, tiempo y dinero"
+        },
+        "topics": [
+          {
+            "slug": "rate",
+            "name": {
+              "en": "Distance, rate and time",
+              "es": "Distancia, velocidad y tiempo"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "work-rate",
+            "name": {
+              "en": "Combined work-rate problems",
+              "es": "Problemas de trabajo combinado"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "unit-conversion",
+            "name": {
+              "en": "Unit conversion (time, length, weight, volume)",
+              "es": "Conversión de unidades (tiempo, longitud, peso, volumen)"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "money",
+            "name": {
+              "en": "Money, wages, budgets and total cost",
+              "es": "Dinero, salarios, presupuestos y costo total"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "simple-interest",
+            "name": {
+              "en": "Simple interest and investment problems",
+              "es": "Interés simple y problemas de inversión"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {
+        "id": "data-measurement",
+        "name": {
+          "en": "Data, averages and measurement",
+          "es": "Datos, promedios y medición"
+        },
+        "topics": [
+          {
+            "slug": "average",
+            "name": {
+              "en": "Mean, median, mode and weighted averages",
+              "es": "Media, mediana, moda y promedios ponderados"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "area-perimeter",
+            "name": {
+              "en": "Area, perimeter and volume in context",
+              "es": "Área, perímetro y volumen en contexto"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {
+        "id": "algebraic-reasoning",
+        "name": {
+          "en": "Algebraic reasoning",
+          "es": "Razonamiento algebraico"
+        },
+        "topics": [
+          {
+            "slug": "age",
+            "name": {
+              "en": "Age problems",
+              "es": "Problemas de edades"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "number-relationships",
+            "name": {
+              "en": "Consecutive integers and number relationships",
+              "es": "Enteros consecutivos y relaciones entre números"
+            },
+            "weight": 2
+          }
+        ]
+      }
+    ]
+  },
+  "WK": {
+    "categories": [
+      {
+        "id": "synonyms",
+        "name": {
+          "en": "Synonyms and word meaning",
+          "es": "Sinónimos y significado de palabras"
+        },
+        "topics": [
+          {
+            "slug": "synonym",
+            "name": {
+              "en": "Choose the word closest in meaning",
+              "es": "Elegir la palabra con significado más cercano"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "context",
+            "name": {
+              "en": "Word meaning from a sentence context",
+              "es": "Significado de una palabra según el contexto de la oración"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "multiple-meaning",
+            "name": {
+              "en": "Words with multiple meanings",
+              "es": "Palabras con varios significados"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "id": "word-parts",
+        "name": {
+          "en": "Word parts and origins",
+          "es": "Partes y origen de las palabras"
+        },
+        "topics": [
+          {
+            "slug": "prefix",
+            "name": {
+              "en": "Prefixes",
+              "es": "Prefijos"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "suffix",
+            "name": {
+              "en": "Suffixes",
+              "es": "Sufijos"
+            },
+            "weight": 1
+          },
+          {
+            "slug": "root",
+            "name": {
+              "en": "Greek and Latin roots",
+              "es": "Raíces griegas y latinas"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {
+        "id": "word-relationships",
+        "name": {
+          "en": "Word relationships",
+          "es": "Relaciones entre palabras"
+        },
+        "topics": [
+          {
+            "slug": "antonym",
+            "name": {
+              "en": "Antonyms and opposite meanings",
+              "es": "Antónimos y significados opuestos"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  },
+  "PC": {
+    "categories": [
+      {
+        "id": "literal",
+        "name": {
+          "en": "Literal comprehension",
+          "es": "Comprensión literal"
+        },
+        "topics": [
+          {
+            "slug": "detail",
+            "name": {
+              "en": "Locating specific details and facts",
+              "es": "Localizar detalles y hechos específicos"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "main-idea",
+            "name": {
+              "en": "Main idea and purpose of a passage",
+              "es": "Idea principal y propósito del pasaje"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "sequence",
+            "name": {
+              "en": "Sequence of events and following directions",
+              "es": "Secuencia de eventos y seguir instrucciones"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "id": "inferential",
+        "name": {
+          "en": "Inference and reasoning",
+          "es": "Inferencia y razonamiento"
+        },
+        "topics": [
+          {
+            "slug": "inference",
+            "name": {
+              "en": "Inferences and conclusions",
+              "es": "Inferencias y conclusiones"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "negative",
+            "name": {
+              "en": "EXCEPT / NOT questions",
+              "es": "Preguntas de tipo EXCEPTO / NO"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "author-tone",
+            "name": {
+              "en": "Author's tone, attitude and point of view",
+              "es": "Tono, actitud y punto de vista del autor"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "id": "vocabulary",
+        "name": {
+          "en": "Vocabulary in context",
+          "es": "Vocabulario en contexto"
+        },
+        "topics": [
+          {
+            "slug": "vocab",
+            "name": {
+              "en": "Meaning of a word as used in the passage",
+              "es": "Significado de una palabra según su uso en el pasaje"
+            },
+            "weight": 2
+          }
+        ]
+      }
+    ]
+  },
+  "MK": {
+    "categories": [
+      {
+        "id": "number-operations",
+        "name": {
+          "en": "Numbers and operations",
+          "es": "Números y operaciones"
+        },
+        "topics": [
+          {
+            "slug": "integers",
+            "name": {
+              "en": "Integers, absolute value and signed numbers",
+              "es": "Enteros, valor absoluto y números con signo"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "fractions",
+            "name": {
+              "en": "Fractions and mixed numbers",
+              "es": "Fracciones y números mixtos"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "decimals",
+            "name": {
+              "en": "Decimals and rounding",
+              "es": "Decimales y redondeo"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "order-of-operations",
+            "name": {
+              "en": "Order of operations (PEMDAS)",
+              "es": "Orden de las operaciones (PEMDAS)"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "exponents",
+            "name": {
+              "en": "Exponents and scientific notation",
+              "es": "Exponentes y notación científica"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "roots",
+            "name": {
+              "en": "Square roots and radicals",
+              "es": "Raíces cuadradas y radicales"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "factors-multiples",
+            "name": {
+              "en": "Factors, multiples, primes, GCF and LCM",
+              "es": "Factores, múltiplos, primos, MCD y mcm"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {
+        "id": "algebra",
+        "name": {
+          "en": "Algebra",
+          "es": "Álgebra"
+        },
+        "topics": [
+          {
+            "slug": "linear-equation",
+            "name": {
+              "en": "Solving one-variable linear equations",
+              "es": "Resolver ecuaciones lineales de una variable"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "expressions",
+            "name": {
+              "en": "Simplifying and evaluating algebraic expressions",
+              "es": "Simplificar y evaluar expresiones algebraicas"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "inequalities",
+            "name": {
+              "en": "Inequalities",
+              "es": "Desigualdades"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "systems",
+            "name": {
+              "en": "Systems of equations",
+              "es": "Sistemas de ecuaciones"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "foil",
+            "name": {
+              "en": "Multiplying binomials (FOIL)",
+              "es": "Multiplicar binomios (FOIL)"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "factoring",
+            "name": {
+              "en": "Factoring polynomials",
+              "es": "Factorizar polinomios"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "quadratics",
+            "name": {
+              "en": "Quadratic equations",
+              "es": "Ecuaciones cuadráticas"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "functions",
+            "name": {
+              "en": "Functions and function notation",
+              "es": "Funciones y notación de funciones"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "id": "geometry",
+        "name": {
+          "en": "Geometry",
+          "es": "Geometría"
+        },
+        "topics": [
+          {
+            "slug": "angles",
+            "name": {
+              "en": "Angles, parallel lines and transversals",
+              "es": "Ángulos, rectas paralelas y transversales"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "triangles",
+            "name": {
+              "en": "Triangles and the Pythagorean theorem",
+              "es": "Triángulos y el teorema de Pitágoras"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "quadrilaterals-polygons",
+            "name": {
+              "en": "Quadrilaterals and polygons",
+              "es": "Cuadriláteros y polígonos"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "perimeter",
+            "name": {
+              "en": "Perimeter",
+              "es": "Perímetro"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "area",
+            "name": {
+              "en": "Area of rectangles, triangles and composite shapes",
+              "es": "Área de rectángulos, triángulos y figuras compuestas"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "circle-circumference",
+            "name": {
+              "en": "Circle circumference",
+              "es": "Circunferencia del círculo"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "circle-area",
+            "name": {
+              "en": "Circle area",
+              "es": "Área del círculo"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "volume",
+            "name": {
+              "en": "Volume and surface area of solids",
+              "es": "Volumen y área de superficie de sólidos"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "coordinate-geometry",
+            "name": {
+              "en": "Coordinate geometry: slope, lines, distance",
+              "es": "Geometría analítica: pendiente, rectas, distancia"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {
+        "id": "data-probability",
+        "name": {
+          "en": "Data and probability",
+          "es": "Datos y probabilidad"
+        },
+        "topics": [
+          {
+            "slug": "probability",
+            "name": {
+              "en": "Basic probability",
+              "es": "Probabilidad básica"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  },
+  "EI": {
+    "categories": [
+      {
+        "id": "fundamentals",
+        "name": {
+          "en": "Electrical fundamentals",
+          "es": "Fundamentos eléctricos"
+        },
+        "topics": [
+          {
+            "slug": "circuit-basics",
+            "name": {
+              "en": "Current, voltage, resistance and closed/open circuits",
+              "es": "Corriente, voltaje, resistencia y circuitos cerrados/abiertos"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "units",
+            "name": {
+              "en": "Electrical units and metric prefixes",
+              "es": "Unidades eléctricas y prefijos métricos"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "materials",
+            "name": {
+              "en": "Conductors, insulators and semiconductors",
+              "es": "Conductores, aislantes y semiconductores"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "ohms-law",
+            "name": {
+              "en": "Ohm's law",
+              "es": "Ley de Ohm"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "power",
+            "name": {
+              "en": "Electrical power (watts) and energy",
+              "es": "Potencia eléctrica (vatios) y energía"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "ac-dc",
+            "name": {
+              "en": "AC vs. DC, frequency and rectification",
+              "es": "CA vs. CC, frecuencia y rectificación"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "magnetism",
+            "name": {
+              "en": "Magnetism, electromagnets, motors and generators",
+              "es": "Magnetismo, electroimanes, motores y generadores"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {
+        "id": "circuits",
+        "name": {
+          "en": "Circuits",
+          "es": "Circuitos"
+        },
+        "topics": [
+          {
+            "slug": "series",
+            "name": {
+              "en": "Series circuits",
+              "es": "Circuitos en serie"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "parallel",
+            "name": {
+              "en": "Parallel circuits",
+              "es": "Circuitos en paralelo"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "series-vs-parallel",
+            "name": {
+              "en": "Comparing series and parallel circuits",
+              "es": "Comparar circuitos en serie y en paralelo"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "schematics",
+            "name": {
+              "en": "Schematic symbols and diagrams",
+              "es": "Símbolos y diagramas esquemáticos"
+            },
+            "weight": 3
+          }
+        ]
+      },
+      {
+        "id": "components",
+        "name": {
+          "en": "Components",
+          "es": "Componentes"
+        },
+        "topics": [
+          {
+            "slug": "components",
+            "name": {
+              "en": "Resistors, capacitors, inductors and diodes",
+              "es": "Resistencias, capacitores, inductores y diodos"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "color-code",
+            "name": {
+              "en": "Resistor color code",
+              "es": "Código de colores de resistencias"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "semiconductors",
+            "name": {
+              "en": "Transistors and integrated circuits",
+              "es": "Transistores y circuitos integrados"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "transformer",
+            "name": {
+              "en": "Transformers",
+              "es": "Transformadores"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "batteries",
+            "name": {
+              "en": "Batteries and cells",
+              "es": "Baterías y pilas"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {
+        "id": "wiring-safety",
+        "name": {
+          "en": "Wiring and safety",
+          "es": "Cableado y seguridad"
+        },
+        "topics": [
+          {
+            "slug": "wire-gauge",
+            "name": {
+              "en": "Wire gauge (AWG) and current capacity",
+              "es": "Calibre de cable (AWG) y capacidad de corriente"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "wire-colors",
+            "name": {
+              "en": "Wiring color conventions",
+              "es": "Convenciones de colores del cableado"
+            },
+            "weight": 1
+          },
+          {
+            "slug": "protection",
+            "name": {
+              "en": "Fuses, circuit breakers and grounding",
+              "es": "Fusibles, disyuntores y puesta a tierra"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "safety",
+            "name": {
+              "en": "Electrical safety and shock hazards",
+              "es": "Seguridad eléctrica y riesgos de descarga"
+            },
+            "weight": 2
+          }
+        ]
+      }
+    ]
+  },
+  "AI": {
+    "categories": [
+      {
+        "id": "engine",
+        "name": {
+          "en": "Engine",
+          "es": "Motor"
+        },
+        "topics": [
+          {
+            "slug": "engine-parts",
+            "name": {
+              "en": "Engine parts: pistons, crankshaft, camshaft, valves",
+              "es": "Partes del motor: pistones, cigüeñal, árbol de levas, válvulas"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "four-stroke",
+            "name": {
+              "en": "Four-stroke cycle",
+              "es": "Ciclo de cuatro tiempos"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "diesel-vs-gas",
+            "name": {
+              "en": "Diesel vs. gasoline engines",
+              "es": "Motores diésel vs. gasolina"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "engine-troubleshooting",
+            "name": {
+              "en": "Engine malfunctions and troubleshooting",
+              "es": "Fallas del motor y diagnóstico"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {
+        "id": "fuel-air-exhaust",
+        "name": {
+          "en": "Fuel, air and exhaust",
+          "es": "Combustible, aire y escape"
+        },
+        "topics": [
+          {
+            "slug": "fuel-system",
+            "name": {
+              "en": "Fuel system: pump, injectors, carburetor, filter",
+              "es": "Sistema de combustible: bomba, inyectores, carburador, filtro"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "air-fuel",
+            "name": {
+              "en": "Air-fuel mixture and intake",
+              "es": "Mezcla aire-combustible y admisión"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "exhaust",
+            "name": {
+              "en": "Exhaust system, catalytic converter and emissions",
+              "es": "Sistema de escape, convertidor catalítico y emisiones"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {
+        "id": "electrical-cooling-lube",
+        "name": {
+          "en": "Electrical, cooling and lubrication",
+          "es": "Eléctrico, enfriamiento y lubricación"
+        },
+        "topics": [
+          {
+            "slug": "ignition-electrical",
+            "name": {
+              "en": "Ignition and electrical system: battery, alternator, starter, spark plugs",
+              "es": "Sistema de encendido y eléctrico: batería, alternador, motor de arranque, bujías"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "cooling",
+            "name": {
+              "en": "Cooling system: radiator, thermostat, water pump",
+              "es": "Sistema de enfriamiento: radiador, termostato, bomba de agua"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "lubrication",
+            "name": {
+              "en": "Lubrication system and engine oil",
+              "es": "Sistema de lubricación y aceite de motor"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "dashboard",
+            "name": {
+              "en": "Dashboard gauges and warning lights",
+              "es": "Indicadores del tablero y luces de advertencia"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "id": "drivetrain-chassis",
+        "name": {
+          "en": "Drivetrain and chassis",
+          "es": "Tren motriz y chasis"
+        },
+        "topics": [
+          {
+            "slug": "drivetrain",
+            "name": {
+              "en": "Transmission, clutch, driveshaft and differential",
+              "es": "Transmisión, embrague, eje de transmisión y diferencial"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "brakes",
+            "name": {
+              "en": "Brake system: disc, drum, hydraulics, ABS",
+              "es": "Sistema de frenos: disco, tambor, hidráulico, ABS"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "steering-suspension",
+            "name": {
+              "en": "Steering and suspension",
+              "es": "Dirección y suspensión"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "tires",
+            "name": {
+              "en": "Tires and wheels",
+              "es": "Neumáticos y ruedas"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  },
+  "SI": {
+    "categories": [
+      {
+        "id": "measuring-layout",
+        "name": {
+          "en": "Measuring and layout tools",
+          "es": "Herramientas de medición y trazado"
+        },
+        "topics": [
+          {
+            "slug": "measuring",
+            "name": {
+              "en": "Measuring tools: tape, rule, calipers, micrometer, level, square",
+              "es": "Herramientas de medición: cinta, regla, calibrador, micrómetro, nivel, escuadra"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "shop-math",
+            "name": {
+              "en": "Shop math and reading measurements",
+              "es": "Matemáticas de taller y lectura de medidas"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "id": "cutting-shaping",
+        "name": {
+          "en": "Cutting and shaping tools",
+          "es": "Herramientas de corte y conformado"
+        },
+        "topics": [
+          {
+            "slug": "saws",
+            "name": {
+              "en": "Hand and power saws",
+              "es": "Sierras manuales y eléctricas"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "drilling",
+            "name": {
+              "en": "Drills, bits and boring tools",
+              "es": "Taladros, brocas y herramientas de perforación"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "chisels",
+            "name": {
+              "en": "Chisels and punches",
+              "es": "Cinceles y punzones"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "files",
+            "name": {
+              "en": "Files, rasps and planes",
+              "es": "Limas, escofinas y cepillos"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "grinding-sanding",
+            "name": {
+              "en": "Grinding and sanding",
+              "es": "Esmerilado y lijado"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "id": "turning-gripping-striking",
+        "name": {
+          "en": "Turning, gripping and striking tools",
+          "es": "Herramientas de giro, sujeción y golpe"
+        },
+        "topics": [
+          {
+            "slug": "wrenches",
+            "name": {
+              "en": "Wrenches and sockets",
+              "es": "Llaves y dados"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "screwdrivers",
+            "name": {
+              "en": "Screwdrivers and screw heads",
+              "es": "Destornilladores y tipos de cabeza"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "pliers",
+            "name": {
+              "en": "Pliers, clamps and vises",
+              "es": "Alicates, prensas y tornillos de banco"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "hammers",
+            "name": {
+              "en": "Hammers and mallets",
+              "es": "Martillos y mazos"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {
+        "id": "fastening-joining",
+        "name": {
+          "en": "Fasteners and joining",
+          "es": "Sujetadores y unión"
+        },
+        "topics": [
+          {
+            "slug": "fasteners",
+            "name": {
+              "en": "Screws, bolts, nuts, nails and rivets",
+              "es": "Tornillos, pernos, tuercas, clavos y remaches"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "joining",
+            "name": {
+              "en": "Soldering, brazing and welding",
+              "es": "Soldadura blanda, fuerte y por arco"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "wood-joints",
+            "name": {
+              "en": "Wood joints and adhesives",
+              "es": "Uniones de madera y adhesivos"
+            },
+            "weight": 2
+          }
+        ]
+      },
+      {
+        "id": "materials-safety",
+        "name": {
+          "en": "Materials and safety",
+          "es": "Materiales y seguridad"
+        },
+        "topics": [
+          {
+            "slug": "materials",
+            "name": {
+              "en": "Metals, wood, plastics and their properties",
+              "es": "Metales, madera, plásticos y sus propiedades"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "finishing",
+            "name": {
+              "en": "Finishing: paint, stain, varnish",
+              "es": "Acabados: pintura, tinte, barniz"
+            },
+            "weight": 1
+          },
+          {
+            "slug": "safety",
+            "name": {
+              "en": "Shop safety and protective equipment",
+              "es": "Seguridad en el taller y equipo de protección"
+            },
+            "weight": 2
+          }
+        ]
+      }
+    ]
+  },
+  "MC": {
+    "categories": [
+      {
+        "id": "forces-motion",
+        "name": {
+          "en": "Forces and motion",
+          "es": "Fuerzas y movimiento"
+        },
+        "topics": [
+          {
+            "slug": "force-mass-acceleration",
+            "name": {
+              "en": "Newton's laws: force, mass and acceleration",
+              "es": "Leyes de Newton: fuerza, masa y aceleración"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "friction",
+            "name": {
+              "en": "Friction",
+              "es": "Fricción"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "gravity-weight",
+            "name": {
+              "en": "Gravity, weight and falling objects",
+              "es": "Gravedad, peso y caída de objetos"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "stability",
+            "name": {
+              "en": "Center of gravity and stability",
+              "es": "Centro de gravedad y estabilidad"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "torque",
+            "name": {
+              "en": "Torque and moments",
+              "es": "Torque y momentos"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "springs",
+            "name": {
+              "en": "Springs and elasticity",
+              "es": "Resortes y elasticidad"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "id": "simple-machines",
+        "name": {
+          "en": "Simple machines",
+          "es": "Máquinas simples"
+        },
+        "topics": [
+          {
+            "slug": "levers",
+            "name": {
+              "en": "Levers (three classes)",
+              "es": "Palancas (tres clases)"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "pulleys",
+            "name": {
+              "en": "Pulleys and block-and-tackle",
+              "es": "Poleas y polipastos"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "inclined-plane",
+            "name": {
+              "en": "Inclined planes",
+              "es": "Planos inclinados"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "wedges",
+            "name": {
+              "en": "Wedges",
+              "es": "Cuñas"
+            },
+            "weight": 1
+          },
+          {
+            "slug": "screws",
+            "name": {
+              "en": "Screws",
+              "es": "Tornillos"
+            },
+            "weight": 1
+          },
+          {
+            "slug": "wheel-and-axle",
+            "name": {
+              "en": "Wheel and axle",
+              "es": "Rueda y eje"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "mechanical-advantage",
+            "name": {
+              "en": "Mechanical advantage and efficiency",
+              "es": "Ventaja mecánica y eficiencia"
+            },
+            "weight": 3
+          }
+        ]
+      },
+      {
+        "id": "gears-power-transfer",
+        "name": {
+          "en": "Gears and power transfer",
+          "es": "Engranajes y transmisión de potencia"
+        },
+        "topics": [
+          {
+            "slug": "gears",
+            "name": {
+              "en": "Gears, gear ratios and direction of rotation",
+              "es": "Engranajes, relaciones de engranaje y sentido de giro"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "belts-cams",
+            "name": {
+              "en": "Belts, chains, cams and linkages",
+              "es": "Bandas, cadenas, levas y varillajes"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "id": "energy",
+        "name": {
+          "en": "Work, energy and power",
+          "es": "Trabajo, energía y potencia"
+        },
+        "topics": [
+          {
+            "slug": "work-power-energy",
+            "name": {
+              "en": "Work, power, kinetic and potential energy",
+              "es": "Trabajo, potencia, energía cinética y potencial"
+            },
+            "weight": 3
+          }
+        ]
+      },
+      {
+        "id": "fluids-heat",
+        "name": {
+          "en": "Fluids, pressure and heat",
+          "es": "Fluidos, presión y calor"
+        },
+        "topics": [
+          {
+            "slug": "pressure",
+            "name": {
+              "en": "Pressure and area",
+              "es": "Presión y área"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "hydraulics",
+            "name": {
+              "en": "Hydraulics and Pascal's principle",
+              "es": "Hidráulica y principio de Pascal"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "fluids",
+            "name": {
+              "en": "Fluid flow, tanks and pipes",
+              "es": "Flujo de fluidos, tanques y tuberías"
+            },
+            "weight": 2
+          },
+          {
+            "slug": "buoyancy",
+            "name": {
+              "en": "Buoyancy and density",
+              "es": "Flotabilidad y densidad"
+            },
+            "weight": 1
+          },
+          {
+            "slug": "heat-expansion",
+            "name": {
+              "en": "Heat and thermal expansion",
+              "es": "Calor y dilatación térmica"
+            },
+            "weight": 1
+          },
+          {
+            "slug": "structures",
+            "name": {
+              "en": "Structural support, beams and load",
+              "es": "Soporte estructural, vigas y carga"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  },
+  "AO": {
+    "categories": [
+      {
+        "id": "spatial",
+        "name": {
+          "en": "Spatial reasoning",
+          "es": "Razonamiento espacial"
+        },
+        "topics": [
+          {
+            "slug": "connectors",
+            "name": {
+              "en": "Connecting shapes at labeled points",
+              "es": "Conectar figuras en puntos marcados"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "puzzle",
+            "name": {
+              "en": "Assembling puzzle pieces into a whole shape",
+              "es": "Ensamblar piezas para formar una figura"
+            },
+            "weight": 3
+          },
+          {
+            "slug": "rotation-mirror",
+            "name": {
+              "en": "Distinguishing rotations from mirror images",
+              "es": "Distinguir rotaciones de imágenes espejo"
+            },
+            "weight": 2
+          }
+        ]
+      }
+    ]
+  }
+}

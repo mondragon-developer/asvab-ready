@@ -1,0 +1,2602 @@
+[
+  {
+    "id": "si-0001",
+    "subtest": "SI",
+    "topic": "saws",
+    "difficulty": 2,
+    "stem": {
+      "en": "Which saw is designed to cut curves in wood?",
+      "es": "¿Qué sierra está diseñada para cortar curvas en madera?"
+    },
+    "choices": [
+      {
+        "en": "Rip saw",
+        "es": "Sierra de hilo"
+      },
+      {
+        "en": "Hacksaw",
+        "es": "Sierra para metal"
+      },
+      {
+        "en": "Coping saw",
+        "es": "Sierra de marquetería"
+      },
+      {
+        "en": "Crosscut saw",
+        "es": "Sierra de trocear"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "The coping saw's thin blade turns inside the cut. Rip cuts with the grain, crosscut across it, hacksaw is for metal.",
+      "es": "La hoja delgada de la sierra de marquetería gira dentro del corte. La de hilo corta a favor de la veta, la de trocear en contra y la de metal es para metal."
+    },
+    "trap": {
+      "en": "Eliminate by domain first: the hacksaw is a metal tool, so it goes out immediately.",
+      "es": "Elimina por dominio primero: la sierra para metal no es para madera, así que sale de inmediato."
+    },
+    "strategyRef": "as.domain-elimination",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0002",
+    "subtest": "SI",
+    "topic": "wrenches",
+    "difficulty": 2,
+    "stem": {
+      "en": "Why is a box-end wrench less likely to round off a tight bolt head than an open-end wrench?",
+      "es": "¿Por qué una llave de estrella (box-end wrench) tiene menos riesgo de redondear la cabeza de un perno apretado que una llave de boca (open-end)?"
+    },
+    "choices": [
+      {
+        "en": "It surrounds the head and grips all six corners at once",
+        "es": "Rodea la cabeza y sujeta las seis esquinas a la vez"
+      },
+      {
+        "en": "It is made of a softer steel that will not scratch",
+        "es": "Es de un acero más blando que no raya"
+      },
+      {
+        "en": "Its handle is shorter, so less torque is applied",
+        "es": "Su mango es más corto, así aplica menos torque"
+      },
+      {
+        "en": "It can be adjusted to fit the bolt exactly",
+        "es": "Se puede ajustar para que quede exacta al perno"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "An open-end wrench touches only two flats; a box-end (or a socket) encloses the head and spreads the force over every corner, so it can take much more torque without slipping.",
+      "es": "La llave de boca solo toca dos caras; la de estrella (o un dado) encierra la cabeza y reparte la fuerza en todas las esquinas, así soporta mucho más torque sin resbalar."
+    },
+    "trap": {
+      "en": "Adjustable wrenches are the ones that are adjustable, and they are the most likely to round a fastener.",
+      "es": "Las llaves ajustables son las que se ajustan, y son las que más redondean los tornillos."
+    },
+    "strategyRef": "as.tool-shape",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0003",
+    "subtest": "SI",
+    "topic": "wrenches",
+    "difficulty": 1,
+    "stem": {
+      "en": "A torque wrench is used to:",
+      "es": "Una llave de torque (torque wrench) se usa para:"
+    },
+    "choices": [
+      {
+        "en": "Loosen fasteners that are rusted in place",
+        "es": "Aflojar tornillos oxidados"
+      },
+      {
+        "en": "Tighten a fastener to a specified amount of twisting force",
+        "es": "Apretar un tornillo a una fuerza de giro especificada"
+      },
+      {
+        "en": "Reach nuts in deep recesses",
+        "es": "Alcanzar tuercas en huecos profundos"
+      },
+      {
+        "en": "Cut threads on a bolt",
+        "es": "Hacer rosca en un perno"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Its dial, beam or click mechanism shows or signals when a set torque (for example 90 ft-lb on a wheel nut) is reached, preventing under- or over-tightening.",
+      "es": "Su carátula, barra o mecanismo de clic indica cuándo se alcanza el torque fijado (por ejemplo 90 lb-pie en una tuerca de rueda) y evita apretar de menos o de más."
+    },
+    "trap": {
+      "en": "A torque wrench should not be used to break loose stuck fasteners; that can ruin its calibration.",
+      "es": "La llave de torque no se usa para aflojar tornillos atorados; eso arruina su calibración."
+    },
+    "strategyRef": "as.tool-shape",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0004",
+    "subtest": "SI",
+    "topic": "wrenches",
+    "difficulty": 1,
+    "stem": {
+      "en": "Which tool fits a screw whose head has a hexagonal (six-sided) recess?",
+      "es": "¿Qué herramienta encaja en un tornillo cuya cabeza tiene un hueco hexagonal (de seis lados)?"
+    },
+    "choices": [
+      {
+        "en": "Phillips screwdriver",
+        "es": "Desarmador de cruz (Phillips)"
+      },
+      {
+        "en": "Torx driver",
+        "es": "Punta Torx"
+      },
+      {
+        "en": "Allen (hex) key",
+        "es": "Llave Allen (hexagonal)"
+      },
+      {
+        "en": "Open-end wrench",
+        "es": "Llave de boca (open-end wrench)"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "An Allen key is an L-shaped hexagonal bar that fits inside the socket-head screw. Torx is a six-point star, Phillips is a cross.",
+      "es": "La llave Allen es una barra hexagonal en L que entra en el hueco del tornillo. Torx es una estrella de seis puntas y Phillips es una cruz."
+    },
+    "trap": {
+      "en": "Torx also has six points, but they form a star, not a hexagon.",
+      "es": "Torx también tiene seis puntas, pero forman una estrella, no un hexágono."
+    },
+    "strategyRef": "as.tool-shape",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0005",
+    "subtest": "SI",
+    "topic": "wrenches",
+    "difficulty": 3,
+    "stem": {
+      "en": "When using an adjustable (crescent) wrench, the correct practice is to:",
+      "es": "Al usar una llave ajustable (perica, crescent wrench), la práctica correcta es:"
+    },
+    "choices": [
+      {
+        "en": "Leave a small gap so the jaws do not bind on the nut",
+        "es": "Dejar un pequeño espacio para que las mordazas no se traben en la tuerca"
+      },
+      {
+        "en": "Push the wrench away from you for better control",
+        "es": "Empujar la llave lejos de ti para mejor control"
+      },
+      {
+        "en": "Use it only on rounded-off nuts",
+        "es": "Usarla solo en tuercas ya redondeadas"
+      },
+      {
+        "en": "Snug the jaws tight and pull so the force goes toward the fixed jaw",
+        "es": "Cerrar bien las mordazas y jalar de modo que la fuerza vaya hacia la mordaza fija"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "The movable jaw is the weak part. Tighten the jaws fully and pull so the load bears on the solid fixed jaw; otherwise the wrench can slip and round the nut.",
+      "es": "La mordaza móvil es la parte débil. Cierra bien las mordazas y jala de modo que la carga caiga sobre la mordaza fija; si no, la llave resbala y redondea la tuerca."
+    },
+    "trap": {
+      "en": "A loose fit is exactly what rounds fasteners; the whole point is to remove the play.",
+      "es": "Un ajuste flojo es justo lo que redondea los tornillos; el punto es eliminar el juego."
+    },
+    "strategyRef": "as.tool-shape",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0006",
+    "subtest": "SI",
+    "topic": "materials",
+    "difficulty": 2,
+    "stem": {
+      "en": "Compared with steel, aluminum of the same size is:",
+      "es": "Comparado con el acero, el aluminio del mismo tamaño es:"
+    },
+    "choices": [
+      {
+        "en": "Lighter, more corrosion-resistant, and not attracted to a magnet",
+        "es": "Más ligero, más resistente a la corrosión y no lo atrae un imán"
+      },
+      {
+        "en": "Heavier and stronger",
+        "es": "Más pesado y más fuerte"
+      },
+      {
+        "en": "Lighter but much more prone to rust",
+        "es": "Más ligero pero mucho más propenso a oxidarse"
+      },
+      {
+        "en": "Magnetic and harder to machine",
+        "es": "Magnético y más difícil de maquinar"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Aluminum is about one-third the density of steel, forms a protective oxide skin instead of rust, and is non-magnetic. Steel is stronger and stiffer for the same size.",
+      "es": "El aluminio tiene cerca de un tercio de la densidad del acero, forma una capa de óxido protectora en vez de herrumbre y no es magnético. El acero es más fuerte y rígido al mismo tamaño."
+    },
+    "trap": {
+      "en": "A quick magnet test separates them: steel sticks, aluminum does not.",
+      "es": "Un imán los distingue rápido: el acero se pega, el aluminio no."
+    },
+    "strategyRef": "as.material",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0007",
+    "subtest": "SI",
+    "topic": "pliers",
+    "difficulty": 1,
+    "stem": {
+      "en": "Which pliers can be clamped onto a part and will stay locked without the user holding the handles?",
+      "es": "¿Qué pinzas pueden cerrarse sobre una pieza y quedan trabadas sin que el usuario sostenga los mangos?"
+    },
+    "choices": [
+      {
+        "en": "Slip-joint pliers",
+        "es": "Pinzas de punta ajustable (slip-joint)"
+      },
+      {
+        "en": "Locking pliers",
+        "es": "Pinzas de presión (locking pliers, Vise-Grip)"
+      },
+      {
+        "en": "Needle-nose pliers",
+        "es": "Pinzas de punta fina (needle-nose)"
+      },
+      {
+        "en": "Lineman's pliers",
+        "es": "Pinzas de electricista (lineman's pliers)"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Locking pliers have an over-center lever that clamps the jaws shut at a preset opening; they act like a small portable vise.",
+      "es": "Las pinzas de presión tienen una palanca que traba las mordazas cerradas en una abertura fijada; funcionan como un pequeño tornillo de banco portátil."
+    },
+    "trap": {
+      "en": "Slip-joint pliers adjust their opening but still need hand pressure to grip.",
+      "es": "Las pinzas slip-joint ajustan su abertura pero aún necesitan presión de la mano para sujetar."
+    },
+    "strategyRef": "as.tool-shape",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0008",
+    "subtest": "SI",
+    "topic": "pliers",
+    "difficulty": 2,
+    "stem": {
+      "en": "An electrician needs to cut, twist and pull heavy copper wire. The best choice is:",
+      "es": "Un electricista necesita cortar, torcer y jalar alambre de cobre grueso. La mejor opción es:"
+    },
+    "choices": [
+      {
+        "en": "Needle-nose pliers",
+        "es": "Pinzas de punta fina (needle-nose)"
+      },
+      {
+        "en": "Slip-joint pliers",
+        "es": "Pinzas de punta ajustable (slip-joint)"
+      },
+      {
+        "en": "Lineman's pliers",
+        "es": "Pinzas de electricista (lineman's pliers)"
+      },
+      {
+        "en": "Locking pliers",
+        "es": "Pinzas de presión (locking pliers)"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Lineman's pliers have wide flat gripping jaws plus side cutters near the pivot, giving the leverage needed for heavy wire.",
+      "es": "Las pinzas de electricista tienen mordazas anchas y planas más cortadores laterales cerca del pivote, lo que da la palanca necesaria para alambre grueso."
+    },
+    "trap": {
+      "en": "Needle-nose pliers are for small parts in tight spaces; their thin tips bend under heavy loads.",
+      "es": "Las pinzas de punta fina son para piezas pequeñas en espacios reducidos; sus puntas se doblan con cargas pesadas."
+    },
+    "strategyRef": "as.tool-shape",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0009",
+    "subtest": "SI",
+    "topic": "screwdrivers",
+    "difficulty": 1,
+    "stem": {
+      "en": "A screw head has a six-pointed star-shaped recess. Which driver fits it?",
+      "es": "Una cabeza de tornillo tiene un hueco en forma de estrella de seis puntas. ¿Qué punta le queda?"
+    },
+    "choices": [
+      {
+        "en": "Flat-blade",
+        "es": "Plano (flat)"
+      },
+      {
+        "en": "Phillips",
+        "es": "De cruz (Phillips)"
+      },
+      {
+        "en": "Square (Robertson)",
+        "es": "Cuadrado (Robertson)"
+      },
+      {
+        "en": "Torx",
+        "es": "Torx"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Torx (star) drives transfer torque with little cam-out, so they are common in electronics and vehicles. Phillips is a cross; a flat blade fits a single slot.",
+      "es": "Las puntas Torx (estrella) transmiten el torque sin zafarse, por eso son comunes en electrónica y vehículos. Phillips es una cruz; el plano entra en una sola ranura."
+    },
+    "trap": {
+      "en": "Do not force a Phillips into a Torx recess; it will strip the head.",
+      "es": "No fuerces un Phillips en un hueco Torx; se barre la cabeza."
+    },
+    "strategyRef": "as.tool-shape",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0010",
+    "subtest": "SI",
+    "topic": "saws",
+    "difficulty": 2,
+    "stem": {
+      "en": "A rip saw is designed to cut:",
+      "es": "Una sierra de hilo (rip saw) está diseñada para cortar:"
+    },
+    "choices": [
+      {
+        "en": "Along the grain of the wood",
+        "es": "A lo largo de la veta de la madera"
+      },
+      {
+        "en": "Across the grain of the wood",
+        "es": "A través de la veta de la madera"
+      },
+      {
+        "en": "Metal pipe and bar stock",
+        "es": "Tubo y barra de metal"
+      },
+      {
+        "en": "Tight curves in thin stock",
+        "es": "Curvas cerradas en material delgado"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Rip teeth are filed straight across like tiny chisels that scoop out fibers running parallel to the cut. Crosscut teeth are angled like knives to sever fibers running across the cut.",
+      "es": "Los dientes de hilo están afilados rectos como pequeños formones que arrancan las fibras paralelas al corte. Los dientes de trocear están inclinados como cuchillos para cortar las fibras que cruzan el corte."
+    },
+    "trap": {
+      "en": "\"Rip\" and \"crosscut\" are the pair most often swapped: rip = with the grain.",
+      "es": "\"Rip\" y \"crosscut\" son el par que más se confunde: rip = a favor de la veta."
+    },
+    "strategyRef": "as.domain-elimination",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0011",
+    "subtest": "SI",
+    "topic": "saws",
+    "difficulty": 3,
+    "stem": {
+      "en": "How should a hacksaw blade be installed in its frame?",
+      "es": "¿Cómo debe instalarse la hoja de una sierra para metal (hacksaw) en su arco?"
+    },
+    "choices": [
+      {
+        "en": "Teeth pointing toward the handle, so it cuts on the pull stroke",
+        "es": "Con los dientes hacia el mango, para que corte al jalar"
+      },
+      {
+        "en": "Teeth pointing away from the handle, so it cuts on the push stroke",
+        "es": "Con los dientes apuntando lejos del mango, para que corte al empujar"
+      },
+      {
+        "en": "Either way; the blade cuts in both directions",
+        "es": "De cualquier forma; la hoja corta en ambos sentidos"
+      },
+      {
+        "en": "Teeth facing up so they stay sharp longer",
+        "es": "Con los dientes hacia arriba para que duren afilados"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Hacksaws, like most Western saws, cut on the push stroke. Install the blade with teeth facing forward, tension it tightly, and ease off on the return stroke.",
+      "es": "Las sierras para metal, como casi todas las sierras occidentales, cortan al empujar. Instala la hoja con los dientes hacia adelante, ténsala bien y alivia la presión al regresar."
+    },
+    "trap": {
+      "en": "Japanese pull saws cut on the pull stroke, but a hacksaw is not one of them.",
+      "es": "Las sierras japonesas cortan al jalar, pero la sierra para metal no es una de ellas."
+    },
+    "strategyRef": "as.tool-shape",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0012",
+    "subtest": "SI",
+    "topic": "shop-math",
+    "difficulty": 3,
+    "stem": {
+      "en": "A bolt measures 9/32 inch in diameter. Which of these drill bits makes the smallest hole the bolt will still pass through?",
+      "es": "Un perno mide 9/32 de pulgada de diámetro. ¿Cuál de estas brocas hace el agujero más pequeño por el que aún pasa el perno?"
+    },
+    "choices": [
+      {
+        "en": "1/4 inch",
+        "es": "1/4 de pulgada"
+      },
+      {
+        "en": "3/8 inch",
+        "es": "3/8 de pulgada"
+      },
+      {
+        "en": "5/16 inch",
+        "es": "5/16 de pulgada"
+      },
+      {
+        "en": "7/32 inch",
+        "es": "7/32 de pulgada"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Convert to 32nds: 1/4 = 8/32, 7/32 = 7/32 (both too small), 5/16 = 10/32, 3/8 = 12/32. The smallest size larger than 9/32 is 5/16.",
+      "es": "Convierte a 32avos: 1/4 = 8/32, 7/32 = 7/32 (ambas muy chicas), 5/16 = 10/32, 3/8 = 12/32. La menor mayor que 9/32 es 5/16."
+    },
+    "trap": {
+      "en": "Comparing numerators alone (9 versus 5) makes 5/16 look too small. Always bring fractions to a common denominator.",
+      "es": "Comparar solo numeradores (9 contra 5) hace ver 5/16 como muy chica. Siempre lleva las fracciones a un denominador común."
+    },
+    "strategyRef": "as.material",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0013",
+    "subtest": "SI",
+    "topic": "saws",
+    "difficulty": 2,
+    "stem": {
+      "en": "Which power saw is best for cutting a gentle curve through a 3-inch-thick block of wood?",
+      "es": "¿Qué sierra eléctrica es mejor para cortar una curva suave en un bloque de madera de 3 pulgadas de grosor?"
+    },
+    "choices": [
+      {
+        "en": "Miter saw",
+        "es": "Sierra de inglete (miter saw)"
+      },
+      {
+        "en": "Circular saw",
+        "es": "Sierra circular"
+      },
+      {
+        "en": "Table saw",
+        "es": "Sierra de mesa (table saw)"
+      },
+      {
+        "en": "Band saw",
+        "es": "Sierra de banda (band saw)"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "A band saw's narrow continuous blade can follow curves and has the depth to cut thick stock. Miter, circular and table saws all use round blades that cut only straight lines.",
+      "es": "La hoja continua y angosta de la sierra de banda puede seguir curvas y tiene profundidad para material grueso. Las sierras de inglete, circular y de mesa usan discos que solo cortan en línea recta."
+    },
+    "trap": {
+      "en": "A jigsaw also cuts curves but struggles in thick stock; a miter saw is only for angled crosscuts.",
+      "es": "La caladora también corta curvas pero sufre en material grueso; la sierra de inglete es solo para cortes transversales en ángulo."
+    },
+    "strategyRef": "as.domain-elimination",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0014",
+    "subtest": "SI",
+    "topic": "measuring",
+    "difficulty": 2,
+    "stem": {
+      "en": "Which tool would a machinist use to measure a shaft diameter to the nearest 0.001 inch?",
+      "es": "¿Qué herramienta usaría un maquinista para medir el diámetro de un eje con precisión de 0.001 de pulgada?"
+    },
+    "choices": [
+      {
+        "en": "Outside micrometer",
+        "es": "Micrómetro de exteriores"
+      },
+      {
+        "en": "Steel tape measure",
+        "es": "Cinta métrica de acero"
+      },
+      {
+        "en": "Framing square",
+        "es": "Escuadra de carpintero (framing square)"
+      },
+      {
+        "en": "Folding rule",
+        "es": "Metro plegable"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "A micrometer's fine screw thimble reads to thousandths of an inch (0.0001 with a vernier). Tapes and rules read to 1/16 or 1/32 inch at best.",
+      "es": "El husillo fino del micrómetro lee milésimas de pulgada (diezmilésimas con nonio). Las cintas y reglas leen a lo mucho 1/16 o 1/32 de pulgada."
+    },
+    "trap": {
+      "en": "A caliper also measures diameters but typically reads to 0.001 only in dial or digital form; the micrometer is the classic answer for thousandths.",
+      "es": "Un calibrador también mide diámetros pero suele leer 0.001 solo en versión de carátula o digital; el micrómetro es la respuesta clásica para milésimas."
+    },
+    "strategyRef": "as.tool-shape",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0015",
+    "subtest": "SI",
+    "topic": "measuring",
+    "difficulty": 1,
+    "stem": {
+      "en": "A plumb bob is used to establish a line that is:",
+      "es": "Una plomada (plumb bob) se usa para establecer una línea:"
+    },
+    "choices": [
+      {
+        "en": "Level (horizontal)",
+        "es": "A nivel (horizontal)"
+      },
+      {
+        "en": "Exactly vertical",
+        "es": "Exactamente vertical"
+      },
+      {
+        "en": "At a 45-degree angle",
+        "es": "A 45 grados"
+      },
+      {
+        "en": "Parallel to the floor joists",
+        "es": "Paralela a las vigas del piso"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Gravity pulls the pointed weight straight down, so the string shows true vertical. A spirit level shows horizontal.",
+      "es": "La gravedad jala el peso puntiagudo hacia abajo, así que el hilo marca la vertical exacta. El nivel de burbuja marca la horizontal."
+    },
+    "trap": {
+      "en": "\"Plumb\" means vertical; \"level\" means horizontal. Keep the two words straight.",
+      "es": "\"Plumb\" significa vertical; \"level\" significa horizontal. No confundas las dos palabras."
+    },
+    "strategyRef": "as.tool-shape",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0016",
+    "subtest": "SI",
+    "topic": "measuring",
+    "difficulty": 2,
+    "stem": {
+      "en": "A combination square is especially useful because its head lets you mark lines at:",
+      "es": "Una escuadra combinada (combination square) es muy útil porque su cabezal permite marcar líneas a:"
+    },
+    "choices": [
+      {
+        "en": "Any angle between 0 and 180 degrees",
+        "es": "Cualquier ángulo entre 0 y 180 grados"
+      },
+      {
+        "en": "30 and 60 degrees",
+        "es": "30 y 60 grados"
+      },
+      {
+        "en": "90 and 45 degrees",
+        "es": "90 y 45 grados"
+      },
+      {
+        "en": "Only 90 degrees",
+        "es": "Solo 90 grados"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "The sliding head has one face square to the blade and another at 45 degrees, plus usually a small level vial and scribe. A protractor head is needed for other angles.",
+      "es": "El cabezal deslizante tiene una cara a 90 grados respecto a la regla y otra a 45, además de una pequeña burbuja de nivel y un punzón. Para otros ángulos se necesita un cabezal de transportador."
+    },
+    "trap": {
+      "en": "Any-angle marking is a sliding bevel or protractor, not the standard combination square head.",
+      "es": "Marcar cualquier ángulo es tarea de una falsa escuadra o transportador, no del cabezal estándar."
+    },
+    "strategyRef": "as.tool-shape",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0017",
+    "subtest": "SI",
+    "topic": "measuring",
+    "difficulty": 1,
+    "stem": {
+      "en": "Which measuring tool has jaws for outside dimensions, jaws for inside dimensions, and a rod for depth?",
+      "es": "¿Qué instrumento de medición tiene mordazas para exteriores, mordazas para interiores y una varilla para profundidad?"
+    },
+    "choices": [
+      {
+        "en": "Try square",
+        "es": "Escuadra fija (try square)"
+      },
+      {
+        "en": "Feeler gauge",
+        "es": "Galgas de espesores (feeler gauge)"
+      },
+      {
+        "en": "Spirit level",
+        "es": "Nivel de burbuja"
+      },
+      {
+        "en": "Vernier caliper",
+        "es": "Calibrador vernier (pie de rey)"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "A caliper's large jaws close on outside surfaces, the small upper jaws open inside holes, and a depth rod extends from the end.",
+      "es": "Las mordazas grandes del calibrador cierran sobre superficies exteriores, las mordazas superiores abren dentro de agujeros y una varilla de profundidad sale del extremo."
+    },
+    "trap": {
+      "en": "Feeler gauges measure gaps with fixed-thickness blades; they have no jaws.",
+      "es": "Las galgas miden holguras con láminas de espesor fijo; no tienen mordazas."
+    },
+    "strategyRef": "as.tool-shape",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0018",
+    "subtest": "SI",
+    "topic": "drilling",
+    "difficulty": 2,
+    "stem": {
+      "en": "Which bit is best for quickly boring a rough 1-inch hole through a wooden stud for wiring?",
+      "es": "¿Qué broca es mejor para hacer rápido un agujero tosco de 1 pulgada en un montante de madera para pasar cables?"
+    },
+    "choices": [
+      {
+        "en": "Spade (paddle) bit",
+        "es": "Broca de paleta (spade bit)"
+      },
+      {
+        "en": "Small twist bit",
+        "es": "Broca helicoidal pequeña (twist bit)"
+      },
+      {
+        "en": "Countersink bit",
+        "es": "Avellanador (countersink)"
+      },
+      {
+        "en": "Masonry bit",
+        "es": "Broca para concreto"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "A spade bit's flat blade with a center point clears a large hole in wood fast; finish is rough but that does not matter inside a wall. Twist bits over 1/2 inch are rare and slow in wood.",
+      "es": "La hoja plana con punta central de la broca de paleta abre un agujero grande en madera rápido; el acabado es tosco pero eso no importa dentro de una pared. Las brocas helicoidales de más de 1/2 pulgada son raras y lentas en madera."
+    },
+    "trap": {
+      "en": "An auger bit also bores large wood holes but is slower and cleaner; a hole saw is for even bigger holes.",
+      "es": "La broca de barrena también hace agujeros grandes en madera pero es más lenta y limpia; la sierra de copa es para agujeros aún mayores."
+    },
+    "strategyRef": "as.tool-shape",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0019",
+    "subtest": "SI",
+    "topic": "safety",
+    "difficulty": 1,
+    "stem": {
+      "en": "Before using a bench grinder, the most important personal protection to wear is:",
+      "es": "Antes de usar un esmeril de banco, la protección personal más importante es:"
+    },
+    "choices": [
+      {
+        "en": "Loose leather gloves",
+        "es": "Guantes de cuero holgados"
+      },
+      {
+        "en": "Safety glasses or a face shield",
+        "es": "Lentes de seguridad o careta"
+      },
+      {
+        "en": "A long-sleeved cotton shirt",
+        "es": "Camisa de algodón de manga larga"
+      },
+      {
+        "en": "A dust mask only",
+        "es": "Solo una mascarilla contra polvo"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Grinding throws hot sparks and abrasive fragments at high speed toward the eyes. Also keep the tool rest within 1/8 inch of the wheel and never grind on the wheel's side.",
+      "es": "El esmeril lanza chispas calientes y fragmentos abrasivos a gran velocidad hacia los ojos. Además, mantén el apoyo a 1/8 de pulgada de la piedra y nunca esmeriles por el costado."
+    },
+    "trap": {
+      "en": "Loose gloves and loose sleeves are hazards near rotating tools; they can be caught and pulled in.",
+      "es": "Los guantes holgados y las mangas sueltas son un peligro junto a herramientas giratorias; pueden engancharse y jalarte."
+    },
+    "strategyRef": "as.domain-elimination",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0020",
+    "subtest": "SI",
+    "topic": "drilling",
+    "difficulty": 2,
+    "stem": {
+      "en": "What is the purpose of countersinking a hole?",
+      "es": "¿Cuál es el propósito de avellanar (countersink) un agujero?"
+    },
+    "choices": [
+      {
+        "en": "To make the hole deeper without changing its diameter",
+        "es": "Hacer el agujero más profundo sin cambiar su diámetro"
+      },
+      {
+        "en": "To thread the hole for a machine screw",
+        "es": "Roscar el agujero para un tornillo de máquina"
+      },
+      {
+        "en": "To cut a cone-shaped recess so a flat-head screw sits flush",
+        "es": "Hacer un hueco cónico para que un tornillo de cabeza plana quede al ras"
+      },
+      {
+        "en": "To remove burrs from a metal edge",
+        "es": "Quitar rebabas de un borde metálico"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "The countersink's cone matches the angled underside of a flat-head screw so the top of the head ends up level with the surface. A counterbore is the flat-bottomed version for socket-head screws.",
+      "es": "El cono del avellanador coincide con la parte inferior inclinada del tornillo de cabeza plana, así la cabeza queda al nivel de la superficie. El caja o counterbore es la versión de fondo plano para tornillos de cabeza cilíndrica."
+    },
+    "trap": {
+      "en": "Threading a hole is done with a tap; deburring is a side use of a countersink, not its purpose.",
+      "es": "Roscar un agujero se hace con un machuelo; quitar rebabas es un uso secundario del avellanador, no su propósito."
+    },
+    "strategyRef": "as.tool-shape",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0021",
+    "subtest": "SI",
+    "topic": "fasteners",
+    "difficulty": 3,
+    "stem": {
+      "en": "When driving a wood screw into hardwood, the pilot hole should be:",
+      "es": "Al meter un tornillo para madera en madera dura, el agujero guía (pilot hole) debe ser:"
+    },
+    "choices": [
+      {
+        "en": "The same diameter as the screw threads",
+        "es": "Del mismo diámetro que la rosca del tornillo"
+      },
+      {
+        "en": "Larger than the screw head",
+        "es": "Más grande que la cabeza del tornillo"
+      },
+      {
+        "en": "Skipped; hardwood holds better without one",
+        "es": "Omitirse; la madera dura sujeta mejor sin él"
+      },
+      {
+        "en": "About the diameter of the screw's solid core, smaller than the threads",
+        "es": "Aproximadamente del diámetro del núcleo sólido del tornillo, menor que la rosca"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "The threads must bite into wood, so the hole matches the root (shank without threads). Hardwood needs a pilot hole to avoid splitting the board and snapping the screw.",
+      "es": "La rosca debe morder la madera, así que el agujero coincide con el núcleo (vástago sin rosca). La madera dura necesita agujero guía para no partir la tabla ni quebrar el tornillo."
+    },
+    "trap": {
+      "en": "A hole as big as the threads leaves nothing for them to grip; the screw just spins.",
+      "es": "Un agujero tan grande como la rosca no deja nada que sujetar; el tornillo solo gira."
+    },
+    "strategyRef": "as.material",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0022",
+    "subtest": "SI",
+    "topic": "files",
+    "difficulty": 3,
+    "stem": {
+      "en": "Which statement about using a metal file is correct?",
+      "es": "¿Qué afirmación sobre el uso de una lima para metal es correcta?"
+    },
+    "choices": [
+      {
+        "en": "It cuts on the forward stroke; lift or ease pressure on the return",
+        "es": "Corta al empujar; levanta o alivia la presión al regresar"
+      },
+      {
+        "en": "It cuts equally in both directions, so saw back and forth",
+        "es": "Corta igual en ambos sentidos, así que muévela de ida y vuelta"
+      },
+      {
+        "en": "Clogged teeth should be cleared with a wire wheel on a grinder",
+        "es": "Los dientes tapados se limpian con un cepillo de alambre en el esmeril"
+      },
+      {
+        "en": "A rasp is finer than a file and is used for finishing metal",
+        "es": "La escofina es más fina que la lima y se usa para acabado en metal"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "File teeth point away from the handle. Dragging them backward under pressure dulls them. A file card (stiff brush) clears the teeth. A rasp has coarse individual teeth for wood, not metal.",
+      "es": "Los dientes de la lima apuntan lejos del mango. Arrastrarlos hacia atrás con presión los desafila. Una carda (cepillo rígido) limpia los dientes. La escofina tiene dientes gruesos individuales para madera, no metal."
+    },
+    "trap": {
+      "en": "Rasps look like files, but they are the coarser wood tool, not a finer metal tool.",
+      "es": "Las escofinas parecen limas, pero son la herramienta gruesa para madera, no una lima fina para metal."
+    },
+    "strategyRef": "as.tool-shape",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0023",
+    "subtest": "SI",
+    "topic": "materials",
+    "difficulty": 2,
+    "stem": {
+      "en": "Why does plywood resist warping and splitting better than a solid board of the same thickness?",
+      "es": "¿Por qué el triplay (plywood) resiste mejor el alabeo y la rajadura que una tabla sólida del mismo grosor?"
+    },
+    "choices": [
+      {
+        "en": "It is soaked in resin that hardens the whole sheet",
+        "es": "Está empapado en resina que endurece toda la hoja"
+      },
+      {
+        "en": "Its thin layers are glued with the grain of each running at right angles to the next",
+        "es": "Sus capas delgadas van pegadas con la veta de cada una en ángulo recto respecto a la siguiente"
+      },
+      {
+        "en": "It is made from hardwood only",
+        "es": "Está hecho solo de madera dura"
+      },
+      {
+        "en": "It contains no wood grain at all",
+        "es": "No tiene veta de madera"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Cross-laminating balances the movement of each ply against its neighbors, so the sheet stays flat and holds screws well in every direction. MDF is the sheet product that has no grain, made of compressed fibers.",
+      "es": "El laminado cruzado equilibra el movimiento de cada capa contra las vecinas, así la hoja se mantiene plana y sujeta tornillos bien en toda dirección. El MDF es el tablero sin veta, hecho de fibras comprimidas."
+    },
+    "trap": {
+      "en": "\"No grain\" describes MDF or particleboard, not plywood.",
+      "es": "\"Sin veta\" describe al MDF o aglomerado, no al triplay."
+    },
+    "strategyRef": "as.material",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0024",
+    "subtest": "SI",
+    "topic": "chisels",
+    "difficulty": 1,
+    "stem": {
+      "en": "A cold chisel is struck with a hammer to:",
+      "es": "Un cincel para metal (cold chisel) se golpea con un martillo para:"
+    },
+    "choices": [
+      {
+        "en": "Cut mortises in hardwood",
+        "es": "Hacer cajas (mortises) en madera dura"
+      },
+      {
+        "en": "Carve decorative grooves in wood",
+        "es": "Tallar ranuras decorativas en madera"
+      },
+      {
+        "en": "Cut or shear cold metal such as rivet heads or rusted bolts",
+        "es": "Cortar metal en frío como cabezas de remache o pernos oxidados"
+      },
+      {
+        "en": "Smooth a wood surface like a plane",
+        "es": "Alisar una superficie de madera como un cepillo"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "A cold chisel is hardened steel with a blunt-angled edge for metal. Wood chisels have thin, keen edges and would shatter on metal; a plane smooths wood.",
+      "es": "El cincel para metal es de acero endurecido con filo de ángulo obtuso. Los formones tienen filos delgados y agudos y se romperían en metal; el cepillo alisa la madera."
+    },
+    "trap": {
+      "en": "Eliminate by domain: three of the choices are woodworking tasks.",
+      "es": "Elimina por dominio: tres opciones son trabajos de carpintería."
+    },
+    "strategyRef": "as.domain-elimination",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0025",
+    "subtest": "SI",
+    "topic": "fasteners",
+    "difficulty": 2,
+    "stem": {
+      "en": "You need to hang a heavy shelf on hollow drywall where there is no stud behind it. Which fastener is appropriate?",
+      "es": "Necesitas colgar una repisa pesada en tablaroca hueca donde no hay montante detrás. ¿Qué sujetador es apropiado?"
+    },
+    "choices": [
+      {
+        "en": "A long wood screw driven directly into the drywall",
+        "es": "Un tornillo largo para madera directo en la tablaroca"
+      },
+      {
+        "en": "A finishing nail",
+        "es": "Un clavo sin cabeza"
+      },
+      {
+        "en": "A machine screw with a nut",
+        "es": "Un tornillo de máquina con tuerca"
+      },
+      {
+        "en": "A toggle bolt or expanding hollow-wall anchor",
+        "es": "Un ancla de mariposa (toggle bolt) o taquete expansivo para pared hueca"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Drywall is soft gypsum; a screw alone pulls out. Toggles and hollow-wall anchors open up behind the panel to spread the load over a wide area.",
+      "es": "La tablaroca es yeso blando; un tornillo solo se sale. Las mariposas y anclas huecas se abren detrás del panel y reparten la carga en un área amplia."
+    },
+    "trap": {
+      "en": "A nut needs access to the back side of the panel, which you do not have in a wall.",
+      "es": "Una tuerca necesita acceso al lado trasero del panel, que no tienes en una pared."
+    },
+    "strategyRef": "as.material",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0026",
+    "subtest": "SI",
+    "topic": "fasteners",
+    "difficulty": 2,
+    "stem": {
+      "en": "What is the main difference between a machine screw and a wood screw?",
+      "es": "¿Cuál es la diferencia principal entre un tornillo de máquina y un tornillo para madera?"
+    },
+    "choices": [
+      {
+        "en": "A machine screw has uniform threads to its end and turns into a tapped hole or nut; a wood screw tapers to a point and cuts its own path",
+        "es": "El de máquina tiene rosca uniforme hasta el extremo y entra en un agujero roscado o tuerca; el de madera es cónico con punta y abre su propio camino"
+      },
+      {
+        "en": "A machine screw is always larger",
+        "es": "El de máquina siempre es más grande"
+      },
+      {
+        "en": "A wood screw is made of brass, a machine screw of steel",
+        "es": "El de madera es de latón y el de máquina de acero"
+      },
+      {
+        "en": "They are the same; only the head shape differs",
+        "es": "Son iguales; solo cambia la forma de la cabeza"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Machine screws are essentially small bolts with a blunt end and constant diameter. Wood screws have coarse, tapered threads and a sharp point to bite into wood.",
+      "es": "Los tornillos de máquina son básicamente pernos pequeños de extremo romo y diámetro constante. Los de madera tienen rosca gruesa y cónica con punta afilada para morder la madera."
+    },
+    "trap": {
+      "en": "Head shape alone does not define the type; both come in flat, round and pan heads.",
+      "es": "La cabeza sola no define el tipo; ambos vienen con cabeza plana, redonda y pan."
+    },
+    "strategyRef": "as.material",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0027",
+    "subtest": "SI",
+    "topic": "fasteners",
+    "difficulty": 1,
+    "stem": {
+      "en": "A rivet is best described as a fastener that:",
+      "es": "Un remache (rivet) se describe mejor como un sujetador que:"
+    },
+    "choices": [
+      {
+        "en": "Can be removed and reused many times",
+        "es": "Se puede quitar y reutilizar muchas veces"
+      },
+      {
+        "en": "Forms a permanent joint by deforming one end after insertion",
+        "es": "Forma una unión permanente al deformar un extremo después de insertarlo"
+      },
+      {
+        "en": "Holds by friction in a drilled hole",
+        "es": "Se sujeta por fricción en un agujero"
+      },
+      {
+        "en": "Requires a threaded hole",
+        "es": "Requiere un agujero roscado"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "A rivet is inserted through aligned holes and its tail is hammered or pulled to form a second head, clamping sheets of metal together. Removing it means drilling it out.",
+      "es": "El remache se mete por agujeros alineados y su cola se martilla o se jala para formar una segunda cabeza, sujetando láminas de metal. Quitarlo implica barrenarlo."
+    },
+    "trap": {
+      "en": "Rivets are unthreaded; a threaded hole is for machine screws.",
+      "es": "Los remaches no tienen rosca; el agujero roscado es para tornillos de máquina."
+    },
+    "strategyRef": "as.material",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0028",
+    "subtest": "SI",
+    "topic": "joining",
+    "difficulty": 3,
+    "stem": {
+      "en": "What distinguishes welding from brazing and soldering?",
+      "es": "¿Qué distingue la soldadura por fusión (welding) de la soldadura fuerte (brazing) y la blanda (soldering)?"
+    },
+    "choices": [
+      {
+        "en": "Welding uses no heat",
+        "es": "La soldadura por fusión no usa calor"
+      },
+      {
+        "en": "Welding works only on aluminum",
+        "es": "La soldadura por fusión solo funciona en aluminio"
+      },
+      {
+        "en": "In welding the base metals themselves melt and fuse; in brazing and soldering only a filler metal melts",
+        "es": "En welding los metales base se funden y unen; en brazing y soldering solo se funde un metal de aporte"
+      },
+      {
+        "en": "Welding is always weaker than soldering",
+        "es": "Welding siempre es más débil que soldering"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Arc, MIG, TIG and oxy-acetylene welding melt the parent metal. Brazing (above 840°F) and soldering (below 840°F) flow a lower-melting filler into the joint by capillary action without melting the base parts.",
+      "es": "La soldadura de arco, MIG, TIG y oxiacetilénica funde el metal base. Brazing (arriba de 840°F) y soldering (abajo de 840°F) hacen fluir un metal de aporte de menor punto de fusión en la unión por capilaridad sin fundir las piezas."
+    },
+    "trap": {
+      "en": "The dividing line between brazing and soldering is temperature, but neither melts the base metal.",
+      "es": "La línea entre brazing y soldering es la temperatura, pero ninguna funde el metal base."
+    },
+    "strategyRef": "as.material",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0029",
+    "subtest": "SI",
+    "topic": "wood-joints",
+    "difficulty": 2,
+    "stem": {
+      "en": "Which wood joint uses interlocking fan-shaped pins and tails and is prized for drawer construction because it resists being pulled apart?",
+      "es": "¿Qué unión de madera usa colas y dientes trapezoidales entrelazados y se aprecia en cajones porque resiste que la separen?"
+    },
+    "choices": [
+      {
+        "en": "Butt joint",
+        "es": "Unión a tope (butt joint)"
+      },
+      {
+        "en": "Miter joint",
+        "es": "Unión a inglete (miter joint)"
+      },
+      {
+        "en": "Lap joint",
+        "es": "Unión a media madera (lap joint)"
+      },
+      {
+        "en": "Dovetail joint",
+        "es": "Cola de milano (dovetail)"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "The flared tails lock mechanically against the pins, so the drawer front cannot pull away even if the glue fails. Butt and miter joints rely almost entirely on glue or fasteners.",
+      "es": "Las colas ensanchadas se traban mecánicamente contra los dientes, así que el frente del cajón no se separa aunque falle el pegamento. Las uniones a tope y a inglete dependen casi solo del pegamento o clavos."
+    },
+    "trap": {
+      "en": "A miter hides end grain at a corner but is one of the weakest joints, not one of the strongest.",
+      "es": "El inglete oculta la veta de testa en una esquina, pero es de las uniones más débiles, no de las más fuertes."
+    },
+    "strategyRef": "as.material",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0030",
+    "subtest": "SI",
+    "topic": "wood-joints",
+    "difficulty": 3,
+    "stem": {
+      "en": "A cabinetmaker cuts a flat-bottomed groove across the grain of a bookcase side so a shelf can sit in it. This joint is called a:",
+      "es": "Un ebanista corta una ranura de fondo plano a través de la veta del costado de un librero para que una repisa se apoye en ella. Esta unión se llama:"
+    },
+    "choices": [
+      {
+        "en": "Dado",
+        "es": "Ranura transversal (dado)"
+      },
+      {
+        "en": "Mortise-and-tenon",
+        "es": "Caja y espiga (mortise-and-tenon)"
+      },
+      {
+        "en": "Dovetail",
+        "es": "Cola de milano (dovetail)"
+      },
+      {
+        "en": "Rabbet",
+        "es": "Rebajo (rabbet)"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "A dado is a channel across the grain that supports a shelf on three sides. A rabbet is a step cut along an edge; a mortise is a rectangular hole that receives a tenon.",
+      "es": "El dado es un canal a través de la veta que sostiene la repisa por tres lados. El rabbet es un escalón en un borde; la caja es un hueco rectangular que recibe una espiga."
+    },
+    "trap": {
+      "en": "Dado and rabbet are both grooves; the dado is in the middle of the board, the rabbet is at the edge.",
+      "es": "Dado y rabbet son ranuras; el dado va en medio de la tabla y el rabbet en el borde."
+    },
+    "strategyRef": "as.material",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0031",
+    "subtest": "SI",
+    "topic": "materials",
+    "difficulty": 3,
+    "stem": {
+      "en": "Which statement about hardwood and softwood is accurate?",
+      "es": "¿Qué afirmación sobre la madera dura (hardwood) y la blanda (softwood) es correcta?"
+    },
+    "choices": [
+      {
+        "en": "Hardwood is always harder than softwood",
+        "es": "La madera dura siempre es más dura que la blanda"
+      },
+      {
+        "en": "Hardwood comes from broadleaf trees such as oak; softwood from conifers such as pine",
+        "es": "La madera dura viene de árboles de hoja ancha como el roble; la blanda de coníferas como el pino"
+      },
+      {
+        "en": "Softwood cannot be used for framing houses",
+        "es": "La madera blanda no sirve para estructuras de casas"
+      },
+      {
+        "en": "The terms refer to the moisture content of the lumber",
+        "es": "Los términos se refieren a la humedad de la madera"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "The classification is botanical. Balsa is a hardwood softer than most pines, and softwoods like fir and pine are the standard framing lumber.",
+      "es": "La clasificación es botánica. La balsa es una madera dura más blanda que la mayoría de los pinos, y las blandas como el abeto y el pino son la madera estándar para estructuras."
+    },
+    "trap": {
+      "en": "The names invite the assumption that hardness is the rule; it is the tree type, not a hardness test.",
+      "es": "Los nombres invitan a suponer que la dureza es la regla; es el tipo de árbol, no una prueba de dureza."
+    },
+    "strategyRef": "as.material",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0032",
+    "subtest": "SI",
+    "topic": "hammers",
+    "difficulty": 1,
+    "stem": {
+      "en": "Which hammer has a curved, split claw opposite its striking face for pulling nails?",
+      "es": "¿Qué martillo tiene una uña curva y partida en el lado opuesto a la cara de golpe para sacar clavos?"
+    },
+    "choices": [
+      {
+        "en": "Ball-peen hammer",
+        "es": "Martillo de bola (ball-peen)"
+      },
+      {
+        "en": "Sledgehammer",
+        "es": "Marro (sledgehammer)"
+      },
+      {
+        "en": "Rubber mallet",
+        "es": "Mazo de goma (rubber mallet)"
+      },
+      {
+        "en": "Claw hammer",
+        "es": "Martillo de uña (claw hammer)"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "The claw hammer is the carpenter's standard: one face drives nails and the claw levers them back out. The other three have no nail-pulling feature at all.",
+      "es": "El martillo de uña es el estándar del carpintero: una cara clava y la uña los saca haciendo palanca. Los otros tres no tienen ninguna función para sacar clavos."
+    },
+    "trap": {
+      "en": "The ball-peen is the other common hammer, but its second end is a rounded ball for shaping metal, not a claw.",
+      "es": "El martillo de bola es el otro martillo común, pero su segundo extremo es una bola redondeada para dar forma al metal, no una uña."
+    },
+    "strategyRef": "as.tool-shape",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0033",
+    "subtest": "SI",
+    "topic": "hammers",
+    "difficulty": 2,
+    "stem": {
+      "en": "A ball-peen hammer is designed mainly for which kind of work?",
+      "es": "¿Para qué tipo de trabajo está diseñado principalmente un martillo de bola (ball-peen)?"
+    },
+    "choices": [
+      {
+        "en": "Metalworking, such as striking cold chisels and punches and rounding over rivet heads",
+        "es": "Trabajo en metal, como golpear cinceles fríos y punzones y remachar cabezas de remaches"
+      },
+      {
+        "en": "Driving wooden stakes into the ground",
+        "es": "Clavar estacas de madera en el suelo"
+      },
+      {
+        "en": "Seating wood joints without denting the surface",
+        "es": "Asentar uniones de madera sin abollar la superficie"
+      },
+      {
+        "en": "Driving finishing nails into trim without marking it",
+        "es": "Clavar clavos de acabado en molduras sin marcarlas"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The flat face strikes chisels and punches; the rounded peen spreads and shapes metal, for example when forming the second head on a solid rivet. Its hardened face should not be used on nails or wood.",
+      "es": "La cara plana golpea cinceles y punzones; la bola extiende y da forma al metal, por ejemplo al formar la segunda cabeza de un remache sólido. Su cara endurecida no debe usarse en clavos ni madera."
+    },
+    "trap": {
+      "en": "Nails call for a claw hammer, stakes for a sledge, and joints for a mallet; each wrong option names a job that has its own striking tool.",
+      "es": "Los clavos piden martillo de uña, las estacas un marro y las uniones un mazo; cada opción incorrecta nombra un trabajo que tiene su propia herramienta de golpe."
+    },
+    "strategyRef": "as.tool-shape",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0034",
+    "subtest": "SI",
+    "topic": "hammers",
+    "difficulty": 3,
+    "stem": {
+      "en": "A woodworker is cleaning out a mortise with a wood chisel that has a wooden handle. Which striking tool should be used, and why?",
+      "es": "Un carpintero limpia una caja (mortise) con un formón (wood chisel) de mango de madera. ¿Qué herramienta de golpe debe usar y por qué?"
+    },
+    "choices": [
+      {
+        "en": "A ball-peen hammer, because it is made for striking chisels",
+        "es": "Un martillo de bola, porque está hecho para golpear cinceles"
+      },
+      {
+        "en": "A wooden or soft-faced mallet, because a steel face would split or mushroom the chisel handle",
+        "es": "Un mazo de madera o de cara blanda, porque una cara de acero partiría o deformaría el mango del formón"
+      },
+      {
+        "en": "A sledgehammer, because the chisel needs heavy blows",
+        "es": "Un marro, porque el formón necesita golpes pesados"
+      },
+      {
+        "en": "A claw hammer, because it delivers the most force",
+        "es": "Un martillo de uña, porque da la mayor fuerza"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "A mallet spreads the blow over a broad, soft face that the handle can absorb, and its lighter weight gives the control needed for fine cuts. Ball-peen hammers are correct for steel-headed cold chisels, not for wood chisels.",
+      "es": "Un mazo reparte el golpe en una cara ancha y blanda que el mango puede absorber, y su menor peso da el control necesario para cortes finos. El martillo de bola es correcto para cinceles fríos de cabeza de acero, no para formones."
+    },
+    "trap": {
+      "en": "The ball-peen option is half-true: it is the hammer for cold chisels, which are all steel. The material of the handle decides the tool.",
+      "es": "La opción del martillo de bola es medio cierta: es el martillo para cinceles fríos, que son todo acero. El material del mango decide la herramienta."
+    },
+    "strategyRef": "as.tool-shape",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0035",
+    "subtest": "SI",
+    "topic": "chisels",
+    "difficulty": 2,
+    "stem": {
+      "en": "Which tool is struck to make a small dimple in metal so that a drill bit starts exactly on the mark instead of wandering?",
+      "es": "¿Qué herramienta se golpea para hacer un pequeño hoyuelo en metal y que la broca empiece exactamente en la marca sin desviarse?"
+    },
+    "choices": [
+      {
+        "en": "Cold chisel",
+        "es": "Cincel frío (cold chisel)"
+      },
+      {
+        "en": "Nail set",
+        "es": "Embutidor de clavos (nail set)"
+      },
+      {
+        "en": "Center punch",
+        "es": "Punzón de centrar (center punch)"
+      },
+      {
+        "en": "Pin punch",
+        "es": "Botador (pin punch)"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "The center punch has a hardened conical point of about 90 degrees; one hammer tap leaves a cone-shaped dent that cradles the tip of the twist drill. A prick punch makes a lighter mark for layout lines.",
+      "es": "El punzón de centrar tiene una punta cónica endurecida de unos 90 grados; un golpe de martillo deja un hoyuelo cónico que guía la punta de la broca. El punzón de marcar (prick punch) hace una marca más ligera para líneas de trazo."
+    },
+    "trap": {
+      "en": "A pin punch has a flat, straight tip meant to drive pins out of holes, so it cannot make a starting dimple.",
+      "es": "El botador tiene punta plana y recta para sacar pasadores de agujeros, así que no puede hacer un hoyuelo de inicio."
+    },
+    "strategyRef": "as.tool-shape",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0036",
+    "subtest": "SI",
+    "topic": "chisels",
+    "difficulty": 3,
+    "stem": {
+      "en": "The struck end of a cold chisel has become mushroomed after long use. What should be done before using it again?",
+      "es": "El extremo de golpe de un cincel frío se ha deformado en forma de hongo tras mucho uso. ¿Qué se debe hacer antes de volver a usarlo?"
+    },
+    "choices": [
+      {
+        "en": "Heat it red-hot and quench it in water to harden the head",
+        "es": "Calentarlo al rojo y templarlo en agua para endurecer la cabeza"
+      },
+      {
+        "en": "Wrap the head with tape so the mushroom does not spread",
+        "es": "Envolver la cabeza con cinta para que el hongo no crezca"
+      },
+      {
+        "en": "Nothing; a wider head is easier to hit",
+        "es": "Nada; una cabeza más ancha es más fácil de golpear"
+      },
+      {
+        "en": "Grind the mushroomed edge back to a slight chamfer so chips cannot fly off when it is struck",
+        "es": "Esmerilar el borde deformado hasta dejar un pequeño chaflán para que no salten astillas al golpearlo"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "The rolled-over metal is work-hardened and brittle; a hammer blow can break off a sliver at high speed and cause serious eye or hand injuries. Dressing the head on a grinder restores a safe shape.",
+      "es": "El metal enrollado está endurecido por deformación y es frágil; un martillazo puede desprender una esquirla a alta velocidad y causar lesiones graves en ojos o manos. Rectificar la cabeza en el esmeril devuelve una forma segura."
+    },
+    "trap": {
+      "en": "Hardening the head is the opposite of what you want: the struck end is left softer than the cutting edge on purpose so it deforms rather than shatters.",
+      "es": "Endurecer la cabeza es lo contrario de lo deseado: el extremo de golpe se deja a propósito más blando que el filo para que se deforme en lugar de romperse."
+    },
+    "strategyRef": "as.material",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0037",
+    "subtest": "SI",
+    "topic": "files",
+    "difficulty": 1,
+    "stem": {
+      "en": "What is a hand plane used for?",
+      "es": "¿Para qué se usa un cepillo de carpintero (hand plane)?"
+    },
+    "choices": [
+      {
+        "en": "Shaving thin layers from a wood surface to flatten, smooth or slightly reduce it",
+        "es": "Rebajar capas delgadas de una superficie de madera para aplanarla, alisarla o reducirla un poco"
+      },
+      {
+        "en": "Boring holes for dowels",
+        "es": "Perforar agujeros para espigas"
+      },
+      {
+        "en": "Applying a smooth coat of varnish",
+        "es": "Aplicar una capa uniforme de barniz"
+      },
+      {
+        "en": "Cutting a board to length across the grain",
+        "es": "Cortar una tabla a medida atravesando la veta"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "A plane holds a sharp blade at a fixed angle and depth so each pass removes a controlled shaving, leaving a surface smoother than sawing and often smoother than sanding. Block, jack and smoothing planes differ mainly in length and use.",
+      "es": "El cepillo sostiene una cuchilla afilada a un ángulo y profundidad fijos para que cada pasada quite una viruta controlada, dejando una superficie más lisa que el aserrado y a menudo que el lijado. Los cepillos de bloque, de desbaste y de alisar difieren sobre todo en longitud y uso."
+    },
+    "trap": {
+      "en": "A plane trims and smooths; it does not sever the board, which is a saw's job.",
+      "es": "El cepillo rebaja y alisa; no corta la tabla, eso es trabajo de la sierra."
+    },
+    "strategyRef": "as.tool-shape",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0038",
+    "subtest": "SI",
+    "topic": "files",
+    "difficulty": 2,
+    "stem": {
+      "en": "What is a file card used for?",
+      "es": "¿Para qué sirve una carda para limas (file card)?"
+    },
+    "choices": [
+      {
+        "en": "To hold files in a drawer so they do not touch",
+        "es": "Guardar limas en un cajón sin que se toquen"
+      },
+      {
+        "en": "To brush metal chips out of the file's teeth so it keeps cutting cleanly",
+        "es": "Cepillar las virutas metálicas de los dientes de la lima para que siga cortando limpio"
+      },
+      {
+        "en": "To mark cutting lines on sheet metal",
+        "es": "Marcar líneas de corte en lámina"
+      },
+      {
+        "en": "To measure how coarse a file's teeth are",
+        "es": "Medir qué tan gruesos son los dientes de una lima"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Soft metals such as aluminum and brass pack into the teeth, a condition called pinning, which makes the file slide and scratch the work. The stiff wire bristles of a file card clear the grooves.",
+      "es": "Los metales blandos como el aluminio y el latón se incrustan en los dientes, condición llamada pinning, y hacen que la lima patine y raye la pieza. Las cerdas de alambre de la carda despejan las ranuras."
+    },
+    "trap": {
+      "en": "The name suggests a card for labeling or filing paperwork; it is actually a short-bristled wire brush.",
+      "es": "El nombre sugiere una tarjeta para etiquetar o archivar; en realidad es un cepillo de alambre de cerdas cortas."
+    },
+    "strategyRef": "as.tool-shape",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0039",
+    "subtest": "SI",
+    "topic": "grinding-sanding",
+    "difficulty": 1,
+    "stem": {
+      "en": "Which of these sandpaper grits is the coarsest?",
+      "es": "¿Cuál de estos granos de lija es el más grueso?"
+    },
+    "choices": [
+      {
+        "en": "220",
+        "es": "220"
+      },
+      {
+        "en": "120",
+        "es": "120"
+      },
+      {
+        "en": "60",
+        "es": "60"
+      },
+      {
+        "en": "400",
+        "es": "400"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "The grit number is roughly the number of abrasive particles per inch of screen, so a lower number means bigger, rougher grains. Sixty grit removes material fast; 400 is for final smoothing between finish coats.",
+      "es": "El número de grano es aproximadamente la cantidad de partículas abrasivas por pulgada de malla, así que un número menor significa granos más grandes y ásperos. El grano 60 quita material rápido; el 400 es para el alisado final entre capas de acabado."
+    },
+    "trap": {
+      "en": "The instinct is that a bigger number means more cutting; it is the reverse, bigger numbers are finer.",
+      "es": "La intuición dice que un número mayor corta más; es al revés, los números mayores son más finos."
+    },
+    "strategyRef": "as.material",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0040",
+    "subtest": "SI",
+    "topic": "grinding-sanding",
+    "difficulty": 2,
+    "stem": {
+      "en": "When hand-sanding a wood surface before applying a finish, which practice is correct?",
+      "es": "Al lijar a mano una superficie de madera antes de aplicar acabado, ¿qué práctica es correcta?"
+    },
+    "choices": [
+      {
+        "en": "Sand across the grain so the scratches are easier to see",
+        "es": "Lijar atravesando la veta para que los rayones se vean mejor"
+      },
+      {
+        "en": "Start with the finest grit so the surface is never scratched",
+        "es": "Empezar con el grano más fino para que la superficie nunca se raye"
+      },
+      {
+        "en": "Use a single very fine grit for the whole job",
+        "es": "Usar un solo grano muy fino para todo el trabajo"
+      },
+      {
+        "en": "Sand with the grain, working from a coarser grit to progressively finer grits",
+        "es": "Lijar en el sentido de la veta, pasando de un grano más grueso a granos cada vez más finos"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Each finer grit removes the scratches left by the previous one; skipping straight to fine paper leaves the deep scratches and takes far longer. Scratches made along the grain hide in the wood figure, while cross-grain scratches show clearly once stain is applied.",
+      "es": "Cada grano más fino borra los rayones del anterior; saltar directo al papel fino deja los rayones profundos y tarda mucho más. Los rayones a lo largo de la veta se disimulan en el dibujo de la madera, mientras que los atravesados se notan claramente al aplicar tinte."
+    },
+    "trap": {
+      "en": "Fine paper feels \"safer,\" but it cannot level a rough surface; coarse-to-fine is the sequence.",
+      "es": "El papel fino parece \"más seguro\", pero no puede nivelar una superficie áspera; la secuencia es de grueso a fino."
+    },
+    "strategyRef": "as.material",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0041",
+    "subtest": "SI",
+    "topic": "grinding-sanding",
+    "difficulty": 3,
+    "stem": {
+      "en": "On a bench grinder, how close should the tool rest be adjusted to the face of the wheel, and why?",
+      "es": "En un esmeril de banco, ¿a qué distancia debe ajustarse el apoyo (tool rest) de la cara de la piedra, y por qué?"
+    },
+    "choices": [
+      {
+        "en": "About 1/8 inch or less, so the workpiece cannot be dragged into the gap between rest and wheel",
+        "es": "Como 1/8 de pulgada o menos, para que la pieza no pueda ser arrastrada al espacio entre el apoyo y la piedra"
+      },
+      {
+        "en": "Touching the wheel, so the rest also acts as a brake",
+        "es": "Tocando la piedra, para que el apoyo también frene"
+      },
+      {
+        "en": "About 1/2 inch, to allow the wheel to wear evenly",
+        "es": "Como 1/2 pulgada, para que la piedra se desgaste parejo"
+      },
+      {
+        "en": "About 1 inch, to leave room for sparks to escape",
+        "es": "Como 1 pulgada, para dejar salir las chispas"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "As the wheel wears smaller the gap grows, so the rest must be readjusted regularly. A wide gap can grab a thin part or a finger and jam it between the moving wheel and the rest, which can also shatter the wheel.",
+      "es": "Conforme la piedra se desgasta el espacio crece, así que el apoyo debe reajustarse con frecuencia. Un espacio amplio puede atrapar una pieza delgada o un dedo y trabarlo entre la piedra en movimiento y el apoyo, lo que además puede reventar la piedra."
+    },
+    "trap": {
+      "en": "Touching the wheel is wrong in the other direction: contact would heat the wheel and load it up; the rest should be close but never rubbing.",
+      "es": "Tocar la piedra es el error en sentido contrario: el contacto la calentaría y la taparía; el apoyo debe estar cerca pero nunca rozando."
+    },
+    "strategyRef": "as.domain-elimination",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0042",
+    "subtest": "SI",
+    "topic": "finishing",
+    "difficulty": 1,
+    "stem": {
+      "en": "What is the main difference between applying stain and applying paint to wood?",
+      "es": "¿Cuál es la diferencia principal entre aplicar tinte (stain) y aplicar pintura a la madera?"
+    },
+    "choices": [
+      {
+        "en": "Paint soaks into the wood; stain sits on top as a film",
+        "es": "La pintura penetra en la madera; el tinte queda encima como película"
+      },
+      {
+        "en": "Stain soaks in and colors the wood while the grain stays visible; paint forms an opaque film that covers it",
+        "es": "El tinte penetra y colorea la madera dejando visible la veta; la pintura forma una película opaca que la cubre"
+      },
+      {
+        "en": "Stain is used only on metal; paint only on wood",
+        "es": "El tinte se usa solo en metal; la pintura solo en madera"
+      },
+      {
+        "en": "Stain is thicker and hides the grain; paint is thin and shows it",
+        "es": "El tinte es más espeso y oculta la veta; la pintura es delgada y la muestra"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Stain is mostly pigment or dye carried by a thin solvent, so it changes color without hiding texture. Paint has enough binder and pigment to build a solid coating. Stained wood usually needs a clear topcoat for protection.",
+      "es": "El tinte es sobre todo pigmento o colorante en un solvente delgado, así que cambia el color sin ocultar la textura. La pintura tiene suficiente ligante y pigmento para formar un recubrimiento sólido. La madera teñida normalmente necesita una capa transparente protectora."
+    },
+    "trap": {
+      "en": "The first two options swap the two products; the test is whether the grain shows afterward.",
+      "es": "Las dos primeras opciones intercambian los productos; la clave es si la veta sigue viéndose después."
+    },
+    "strategyRef": "as.material",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0043",
+    "subtest": "SI",
+    "topic": "finishing",
+    "difficulty": 2,
+    "stem": {
+      "en": "Why is primer applied before the finish coat of paint?",
+      "es": "¿Por qué se aplica imprimante (primer) antes de la capa final de pintura?"
+    },
+    "choices": [
+      {
+        "en": "To thin the paint so it flows better",
+        "es": "Para diluir la pintura y que fluya mejor"
+      },
+      {
+        "en": "To strip old paint from the surface",
+        "es": "Para quitar la pintura vieja de la superficie"
+      },
+      {
+        "en": "To seal the surface and give the topcoat something to grip so it adheres evenly and does not soak in",
+        "es": "Para sellar la superficie y darle agarre a la capa final para que se adhiera parejo y no se absorba"
+      },
+      {
+        "en": "To give the surface its final gloss",
+        "es": "Para dar a la superficie su brillo final"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Bare wood, drywall and metal each absorb or repel paint unevenly. Primer bonds to the raw surface, blocks stains and rust, and provides a uniform base, so fewer finish coats are needed and they last longer.",
+      "es": "La madera, el tablarroca y el metal desnudos absorben o rechazan la pintura de forma despareja. El imprimante se adhiere a la superficie cruda, bloquea manchas y óxido y da una base uniforme, así que se necesitan menos capas finales y duran más."
+    },
+    "trap": {
+      "en": "Primer is usually dull, not glossy; gloss is a property of the topcoat.",
+      "es": "El imprimante suele ser mate, no brillante; el brillo es propiedad de la capa final."
+    },
+    "strategyRef": "as.material",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0044",
+    "subtest": "SI",
+    "topic": "finishing",
+    "difficulty": 3,
+    "stem": {
+      "en": "A brush was used to apply oil-based enamel. What should be used to clean it?",
+      "es": "Se usó una brocha para aplicar esmalte de base aceite. ¿Con qué se debe limpiar?"
+    },
+    "choices": [
+      {
+        "en": "Warm water and soap",
+        "es": "Agua tibia con jabón"
+      },
+      {
+        "en": "Household ammonia",
+        "es": "Amoníaco doméstico"
+      },
+      {
+        "en": "Coarse sandpaper",
+        "es": "Lija de grano grueso"
+      },
+      {
+        "en": "Mineral spirits (paint thinner)",
+        "es": "Aguarrás mineral (mineral spirits / paint thinner)"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Oil-based paints dissolve in petroleum solvents, so mineral spirits flush the bristles clean. Water only works on latex (water-based) paint; on oil enamel it beads up and leaves the paint to harden in the brush.",
+      "es": "Las pinturas de base aceite se disuelven en solventes de petróleo, así que el aguarrás mineral limpia las cerdas. El agua solo funciona con pintura látex (base agua); en el esmalte de aceite se separa y deja que la pintura se endurezca en la brocha."
+    },
+    "trap": {
+      "en": "Water is the right answer for latex paint, which is the more common product today; read which paint type the stem names.",
+      "es": "El agua es la respuesta correcta para pintura látex, que hoy es el producto más común; fíjate qué tipo de pintura menciona la pregunta."
+    },
+    "strategyRef": "as.material",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0045",
+    "subtest": "SI",
+    "topic": "safety",
+    "difficulty": 1,
+    "stem": {
+      "en": "Why must long hair be tied back and loose sleeves, gloves and jewelry be removed before operating a drill press or lathe?",
+      "es": "¿Por qué hay que recogerse el cabello largo y quitarse mangas sueltas, guantes y joyas antes de operar un taladro de banco o un torno?"
+    },
+    "choices": [
+      {
+        "en": "They can be pulled into the rotating spindle or chuck and drag the operator with them",
+        "es": "Pueden ser atrapados por el husillo o el mandril giratorio y arrastrar al operador"
+      },
+      {
+        "en": "They block the operator's view of the cutting area",
+        "es": "Bloquean la vista del operador sobre la zona de corte"
+      },
+      {
+        "en": "They collect sparks and may catch fire",
+        "es": "Acumulan chispas y pueden incendiarse"
+      },
+      {
+        "en": "They insulate the operator and cause static shocks",
+        "es": "Aíslan al operador y causan descargas de estática"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Rotating machinery wraps anything it touches. Unlike a saw, a spinning chuck does not cut and release; it keeps winding, which makes entanglement injuries severe. Gloves are also removed for the same reason, even though they seem protective.",
+      "es": "La maquinaria giratoria enreda todo lo que toca. A diferencia de una sierra, un mandril girando no corta y suelta; sigue enrollando, lo que hace graves las lesiones por atrapamiento. Los guantes se quitan por la misma razón, aunque parezcan protección."
+    },
+    "trap": {
+      "en": "Gloves feel like the safe choice, but on rotating tools they are the item most often caught.",
+      "es": "Los guantes parecen la opción segura, pero en herramientas giratorias son lo que más se atrapa."
+    },
+    "strategyRef": "as.domain-elimination",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0046",
+    "subtest": "SI",
+    "topic": "safety",
+    "difficulty": 2,
+    "stem": {
+      "en": "Gasoline spilled in a shop has caught fire. Which class of fire extinguisher is designed for this fire?",
+      "es": "Gasolina derramada en un taller se prendió. ¿Qué clase de extintor está diseñado para este fuego?"
+    },
+    "choices": [
+      {
+        "en": "Class A",
+        "es": "Clase A"
+      },
+      {
+        "en": "Class B",
+        "es": "Clase B"
+      },
+      {
+        "en": "Class C",
+        "es": "Clase C"
+      },
+      {
+        "en": "Class D",
+        "es": "Clase D"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Class B covers flammable liquids and gases such as gasoline, oil, grease and solvents. Class A is ordinary combustibles like wood and paper, Class C is energized electrical equipment, and Class D is combustible metals such as magnesium. Never use water on a fuel fire; it spreads the burning liquid.",
+      "es": "La clase B cubre líquidos y gases inflamables como gasolina, aceite, grasa y solventes. La clase A es para combustibles ordinarios como madera y papel, la C para equipo eléctrico energizado y la D para metales combustibles como el magnesio. Nunca uses agua en un fuego de combustible; esparce el líquido encendido."
+    },
+    "trap": {
+      "en": "A shop fire near a car invites \"electrical,\" but the burning material here is a liquid fuel, which sets the class.",
+      "es": "Un incendio en taller cerca de un auto invita a pensar en \"eléctrico\", pero el material que arde aquí es un combustible líquido, y eso define la clase."
+    },
+    "strategyRef": "as.domain-elimination",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0047",
+    "subtest": "SI",
+    "topic": "safety",
+    "difficulty": 3,
+    "stem": {
+      "en": "Before mounting a new grinding wheel, a mechanic hangs it on a finger and taps it lightly with a screwdriver handle, listening to the sound. What is this for?",
+      "es": "Antes de montar una piedra de esmeril nueva, un mecánico la cuelga de un dedo y la golpea suavemente con el mango de un desarmador, escuchando el sonido. ¿Para qué es esto?"
+    },
+    "choices": [
+      {
+        "en": "To check whether the wheel is balanced",
+        "es": "Para verificar si la piedra está balanceada"
+      },
+      {
+        "en": "To find out the grit size of the wheel",
+        "es": "Para saber el tamaño de grano de la piedra"
+      },
+      {
+        "en": "To perform a ring test: a cracked wheel gives a dull thud instead of a clear ring and could burst at operating speed",
+        "es": "Para hacer la prueba de sonido (ring test): una piedra fisurada suena sorda en vez de clara y podría reventar a la velocidad de trabajo"
+      },
+      {
+        "en": "To confirm the wheel is made of aluminum oxide",
+        "es": "Para confirmar que la piedra es de óxido de aluminio"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "A grinding wheel is a bonded abrasive that stores a lot of energy at several thousand rpm. A hidden crack can let it fly apart, so the ring test is a required check before mounting. The wheel must be dry and clean for the sound to be trustworthy.",
+      "es": "La piedra de esmeril es un abrasivo aglomerado que almacena mucha energía a varios miles de rpm. Una fisura oculta puede hacer que se desintegre, así que la prueba de sonido es una revisión obligatoria antes de montarla. La piedra debe estar seca y limpia para que el sonido sea confiable."
+    },
+    "trap": {
+      "en": "Balance is checked by spinning, and grit and abrasive type are printed on the wheel label; only cracks are found by sound.",
+      "es": "El balance se revisa girando, y el grano y el tipo de abrasivo vienen impresos en la etiqueta; solo las fisuras se detectan por el sonido."
+    },
+    "strategyRef": "as.domain-elimination",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0048",
+    "subtest": "SI",
+    "topic": "drilling",
+    "difficulty": 1,
+    "stem": {
+      "en": "Which bit is the standard general-purpose bit for drilling round holes in metal?",
+      "es": "¿Qué broca es la estándar de uso general para perforar agujeros redondos en metal?"
+    },
+    "choices": [
+      {
+        "en": "Spade bit",
+        "es": "Broca de paleta (spade bit)"
+      },
+      {
+        "en": "Hole saw",
+        "es": "Sierra copa (hole saw)"
+      },
+      {
+        "en": "Auger bit",
+        "es": "Broca salomónica (auger bit)"
+      },
+      {
+        "en": "Twist drill bit",
+        "es": "Broca helicoidal (twist drill)"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "The twist drill's two spiral flutes lift chips out of the hole while its cutting lips shear the metal. Spade and auger bits are wood bits, and a hole saw cuts a large ring rather than a solid hole.",
+      "es": "Las dos ranuras helicoidales de la broca sacan la viruta del agujero mientras sus filos cortan el metal. Las brocas de paleta y salomónicas son para madera, y la sierra copa corta un anillo grande en lugar de un agujero sólido."
+    },
+    "trap": {
+      "en": "The spade bit is fast and familiar, but its flat blade is meant for wood and would dull or snag immediately in steel.",
+      "es": "La broca de paleta es rápida y conocida, pero su hoja plana es para madera y se desafilaría o se trabaría de inmediato en acero."
+    },
+    "strategyRef": "as.tool-shape",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0049",
+    "subtest": "SI",
+    "topic": "drilling",
+    "difficulty": 2,
+    "stem": {
+      "en": "You need to drill a 1/2-inch hole through a thick steel plate with a drill press. Which approach is correct?",
+      "es": "Necesitas perforar un agujero de 1/2 pulgada en una placa gruesa de acero con un taladro de banco. ¿Qué método es correcto?"
+    },
+    "choices": [
+      {
+        "en": "Center-punch the mark, drill a smaller pilot hole first, and run the large bit at a slow speed with cutting oil",
+        "es": "Marcar con punzón de centrar, hacer primero un agujero piloto más pequeño y correr la broca grande a baja velocidad con aceite de corte"
+      },
+      {
+        "en": "Use the highest speed available so the bit cuts before it heats up",
+        "es": "Usar la velocidad más alta para que la broca corte antes de calentarse"
+      },
+      {
+        "en": "Drill dry and lean hard on the feed handle to finish quickly",
+        "es": "Perforar en seco y apoyarse fuerte en la palanca para terminar rápido"
+      },
+      {
+        "en": "Hold the plate by hand so you can feel the bit break through",
+        "es": "Sujetar la placa con la mano para sentir cuando la broca atraviesa"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Large bits need low rpm because the outer edge of the bit travels much faster than the center; the pilot hole gives the big bit's web a path and reduces the force needed. Oil carries heat away and keeps the edge sharp, and the work must be clamped, since a bit breaking through will spin the plate.",
+      "es": "Las brocas grandes necesitan pocas rpm porque el borde exterior viaja mucho más rápido que el centro; el agujero piloto da paso al alma de la broca grande y reduce la fuerza necesaria. El aceite retira calor y conserva el filo, y la pieza debe sujetarse con prensa, porque una broca al atravesar hace girar la placa."
+    },
+    "trap": {
+      "en": "Speed feels like productivity, but heat is what ruins bits in steel; bigger bit means slower speed.",
+      "es": "La velocidad parece productividad, pero el calor es lo que arruina las brocas en acero; broca más grande significa menor velocidad."
+    },
+    "strategyRef": "as.material",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0050",
+    "subtest": "SI",
+    "topic": "drilling",
+    "difficulty": 3,
+    "stem": {
+      "en": "Which bit bores a clean, flat-bottomed hole in wood, such as the recess for a cabinet hinge cup?",
+      "es": "¿Qué broca hace un agujero limpio y de fondo plano en madera, como el hueco para la cazoleta de una bisagra de gabinete?"
+    },
+    "choices": [
+      {
+        "en": "Spade bit",
+        "es": "Broca de paleta (spade bit)"
+      },
+      {
+        "en": "Forstner bit",
+        "es": "Broca Forstner"
+      },
+      {
+        "en": "Auger bit",
+        "es": "Broca salomónica (auger bit)"
+      },
+      {
+        "en": "Twist drill bit",
+        "es": "Broca helicoidal (twist drill)"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "A Forstner bit is guided by its rim rather than a long center point, so it leaves a smooth wall and a nearly flat floor and can even bore overlapping or angled holes. Twist and spade bits leave a cone or a deep center spur; augers are for long, deep holes.",
+      "es": "La broca Forstner se guía por su borde en lugar de una punta central larga, así que deja pared lisa y fondo casi plano, y hasta puede hacer agujeros traslapados o en ángulo. Las helicoidales y de paleta dejan un cono o una punta central profunda; las salomónicas son para agujeros largos y profundos."
+    },
+    "trap": {
+      "en": "A spade bit also makes large wood holes, but its long center point and flat blade leave a rough, pointed bottom.",
+      "es": "La broca de paleta también hace agujeros grandes en madera, pero su punta central larga y hoja plana dejan un fondo áspero y con pico."
+    },
+    "strategyRef": "as.tool-shape",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0051",
+    "subtest": "SI",
+    "topic": "screwdrivers",
+    "difficulty": 1,
+    "stem": {
+      "en": "Which screwdriver tip fits a screw head that has a single straight groove across it?",
+      "es": "¿Qué punta de desarmador encaja en una cabeza de tornillo con una sola ranura recta?"
+    },
+    "choices": [
+      {
+        "en": "Hex (Allen)",
+        "es": "Hexagonal (Allen)"
+      },
+      {
+        "en": "Phillips",
+        "es": "Phillips (de cruz)"
+      },
+      {
+        "en": "Flat-blade (slotted)",
+        "es": "Plano (flat-blade / slotted)"
+      },
+      {
+        "en": "Torx",
+        "es": "Torx"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "The slotted head is the oldest design. The blade should be as wide as the slot and fit snugly so it does not twist out and chew the head. Phillips fits a cross, Torx a six-pointed star and Allen a hexagonal socket.",
+      "es": "La cabeza ranurada es el diseño más antiguo. La hoja debe ser tan ancha como la ranura y ajustar bien para que no se salga girando y dañe la cabeza. Phillips encaja en una cruz, Torx en una estrella de seis puntas y Allen en un hueco hexagonal."
+    },
+    "trap": {
+      "en": "A Phillips tip will sit in a slot, which tempts people to use it there, but it only contacts two tiny points and slips.",
+      "es": "Una punta Phillips se apoya en una ranura, lo que tienta a usarla ahí, pero solo toca dos puntos diminutos y se resbala."
+    },
+    "strategyRef": "as.tool-shape",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0052",
+    "subtest": "SI",
+    "topic": "screwdrivers",
+    "difficulty": 2,
+    "stem": {
+      "en": "A screw head has a square recess. Which driver is designed for it?",
+      "es": "Una cabeza de tornillo tiene un hueco cuadrado. ¿Qué punta está diseñada para ella?"
+    },
+    "choices": [
+      {
+        "en": "Pozidriv driver",
+        "es": "Punta Pozidriv"
+      },
+      {
+        "en": "Torx driver",
+        "es": "Punta Torx"
+      },
+      {
+        "en": "Clutch-head driver",
+        "es": "Punta de embrague (clutch head)"
+      },
+      {
+        "en": "Robertson (square) driver",
+        "es": "Punta Robertson (cuadrada)"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "The Robertson drive is a tapered square socket common on deck screws and in Canadian construction; the tight fit lets the screw stay on the driver tip one-handed and resists cam-out. Pozidriv looks like a Phillips with extra small ribs, and clutch heads are an hourglass shape.",
+      "es": "La punta Robertson es un hueco cuadrado cónico común en tornillos para deck y en la construcción canadiense; el ajuste apretado permite que el tornillo se quede en la punta con una sola mano y resiste el zafado. Pozidriv parece un Phillips con nervaduras pequeñas extra, y la clutch tiene forma de reloj de arena."
+    },
+    "trap": {
+      "en": "Torx is the other \"special\" recess tested often, but it is a six-lobed star, not a square.",
+      "es": "Torx es el otro hueco \"especial\" que preguntan seguido, pero es una estrella de seis lóbulos, no un cuadrado."
+    },
+    "strategyRef": "as.tool-shape",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0053",
+    "subtest": "SI",
+    "topic": "pliers",
+    "difficulty": 1,
+    "stem": {
+      "en": "Which pliers have long, slender, tapering jaws for reaching into tight spaces and forming small loops in wire?",
+      "es": "¿Qué pinzas tienen mordazas largas, delgadas y afiladas para llegar a espacios estrechos y formar pequeños ganchos en alambre?"
+    },
+    "choices": [
+      {
+        "en": "Needle-nose pliers",
+        "es": "Pinzas de punta (needle-nose)"
+      },
+      {
+        "en": "Slip-joint pliers",
+        "es": "Pinzas de punta ajustable (slip-joint)"
+      },
+      {
+        "en": "Diagonal cutters",
+        "es": "Pinzas de corte diagonal (diagonal cutters)"
+      },
+      {
+        "en": "Tongue-and-groove (channel-lock) pliers",
+        "es": "Pinzas de extensión (channel-lock)"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Needle-nose jaws are thin enough to hold a small part or wire where fingers and wide pliers cannot fit, and the round outer edges of the tips make neat hook bends for terminal screws. They are not meant for heavy gripping, which bends the jaws.",
+      "es": "Las mordazas de punta son lo bastante delgadas para sostener una pieza pequeña o alambre donde no caben los dedos ni pinzas anchas, y los bordes redondeados de las puntas hacen ganchos limpios para tornillos de terminal. No sirven para agarre fuerte, que dobla las mordazas."
+    },
+    "trap": {
+      "en": "Diagonal cutters also have pointed jaws, but they are cutting edges with no gripping surface.",
+      "es": "Las pinzas de corte diagonal también tienen puntas afiladas, pero son filos de corte sin superficie de agarre."
+    },
+    "strategyRef": "as.tool-shape",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0054",
+    "subtest": "SI",
+    "topic": "pliers",
+    "difficulty": 2,
+    "stem": {
+      "en": "A machinist needs to hold a finished aluminum part in a bench vise for filing without marking its surface. What should be done?",
+      "es": "Un mecánico necesita sujetar una pieza de aluminio acabada en un tornillo de banco (bench vise) para limarla sin marcar su superficie. ¿Qué debe hacer?"
+    },
+    "choices": [
+      {
+        "en": "Tighten the vise as hard as possible so the part cannot shift and rub",
+        "es": "Apretar el tornillo al máximo para que la pieza no se mueva ni roce"
+      },
+      {
+        "en": "Fit soft jaw covers of copper, aluminum, wood or leather over the vise's serrated steel jaws",
+        "es": "Colocar cubiertas de mordaza blandas de cobre, aluminio, madera o cuero sobre las mordazas de acero estriadas"
+      },
+      {
+        "en": "Wrap the part in coarse sandpaper for extra grip",
+        "es": "Envolver la pieza en lija gruesa para más agarre"
+      },
+      {
+        "en": "Clamp the part in the vise's pipe jaws instead",
+        "es": "Sujetar la pieza en las mordazas para tubo del tornillo"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "The hardened, serrated jaws of a bench vise bite into anything softer than themselves. Soft jaws spread the clamping force and deform instead of the workpiece. This is also standard practice for threads and plated parts.",
+      "es": "Las mordazas endurecidas y estriadas de un tornillo de banco muerden todo lo que sea más blando que ellas. Las mordazas blandas reparten la fuerza y se deforman en lugar de la pieza. Es la práctica estándar también para roscas y piezas cromadas."
+    },
+    "trap": {
+      "en": "More clamping force makes the damage worse, not better; the serrations sink deeper.",
+      "es": "Más fuerza de apriete empeora el daño; las estrías se hunden más."
+    },
+    "strategyRef": "as.material",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0055",
+    "subtest": "SI",
+    "topic": "wrenches",
+    "difficulty": 3,
+    "stem": {
+      "en": "Which wrench is the correct choice for loosening the soft tubing nut on a brake line, and why?",
+      "es": "¿Qué llave es la elección correcta para aflojar la tuerca blanda de una línea de freno, y por qué?"
+    },
+    "choices": [
+      {
+        "en": "A pipe wrench, because its teeth bite into the soft metal",
+        "es": "Una llave de tubo (pipe wrench), porque sus dientes muerden el metal blando"
+      },
+      {
+        "en": "An adjustable wrench, because it can be set to the exact size",
+        "es": "Una llave ajustable (adjustable wrench), porque se puede ajustar al tamaño exacto"
+      },
+      {
+        "en": "A flare-nut (line) wrench, because it grips five sides of the nut like a box end while its small gap slips over the tubing",
+        "es": "Una llave para tuercas de línea (flare-nut wrench), porque agarra cinco lados de la tuerca como una estriada y su pequeña abertura pasa sobre el tubo"
+      },
+      {
+        "en": "An open-end wrench, because it slips over the line easily",
+        "es": "Una llave española (open-end), porque entra fácil sobre la línea"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Tubing nuts are small, soft and often corroded. An open-end wrench touches only two flats and rounds them off; a flare-nut wrench wraps almost all the way around, yet the slot lets it pass over the line that a box-end wrench could not clear.",
+      "es": "Las tuercas de línea son pequeñas, blandas y a menudo corroídas. Una llave española toca solo dos caras y las redondea; la llave flare-nut envuelve casi todo el contorno, y su ranura le permite pasar sobre el tubo que una llave estriada cerrada no podría librar."
+    },
+    "trap": {
+      "en": "The open-end wrench fits, which makes it tempting, but the two-point contact is exactly what strips these nuts.",
+      "es": "La llave española entra, y eso la hace tentadora, pero el contacto en dos puntos es justo lo que barre estas tuercas."
+    },
+    "strategyRef": "as.tool-shape",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0056",
+    "subtest": "SI",
+    "topic": "fasteners",
+    "difficulty": 2,
+    "stem": {
+      "en": "The head of a hex bolt has three raised radial lines. What do these markings tell you?",
+      "es": "La cabeza de un tornillo hexagonal tiene tres líneas radiales en relieve. ¿Qué indican estas marcas?"
+    },
+    "choices": [
+      {
+        "en": "Its diameter in eighths of an inch",
+        "es": "Su diámetro en octavos de pulgada"
+      },
+      {
+        "en": "The number of threads per inch",
+        "es": "El número de hilos por pulgada"
+      },
+      {
+        "en": "The month it was manufactured",
+        "es": "El mes en que se fabricó"
+      },
+      {
+        "en": "Its strength grade (SAE grade 5), which is stronger than an unmarked bolt",
+        "es": "Su grado de resistencia (SAE grado 5), más fuerte que un tornillo sin marcas"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "SAE marks grade by counting lines: none for grade 2, three for grade 5 and six for grade 8. Metric bolts print a number such as 8.8 or 10.9 instead. Using a low-grade bolt where a graded one is specified, as in suspension or brake parts, can lead to failure.",
+      "es": "SAE marca el grado contando líneas: ninguna para grado 2, tres para grado 5 y seis para grado 8. Los tornillos métricos imprimen un número como 8.8 o 10.9. Usar un tornillo de bajo grado donde se especifica uno graduado, como en suspensión o frenos, puede llevar a una falla."
+    },
+    "trap": {
+      "en": "The lines do not count anything physical about the bolt like diameter or threads; those are measured, not marked.",
+      "es": "Las líneas no cuentan nada físico del tornillo como diámetro o hilos; eso se mide, no se marca."
+    },
+    "strategyRef": "as.material",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0057",
+    "subtest": "SI",
+    "topic": "joining",
+    "difficulty": 1,
+    "stem": {
+      "en": "When soldering electrical wires, what is the purpose of the flux?",
+      "es": "Al soldar cables eléctricos con estaño, ¿para qué sirve el fundente (flux)?"
+    },
+    "choices": [
+      {
+        "en": "To remove oxides from the metal so the solder wets and flows into the joint",
+        "es": "Quitar óxidos del metal para que la soldadura moje y fluya en la unión"
+      },
+      {
+        "en": "To insulate the finished connection",
+        "es": "Aislar la conexión terminada"
+      },
+      {
+        "en": "To add strength as the main filler material",
+        "es": "Dar resistencia como material principal de relleno"
+      },
+      {
+        "en": "To cool the joint quickly after soldering",
+        "es": "Enfriar la unión rápido después de soldar"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Solder will not stick to oxidized copper; flux chemically cleans the surface as it heats and keeps air away until the solder bonds. Rosin flux is used for electronics because acid flux would corrode the wiring later.",
+      "es": "La soldadura no se pega al cobre oxidado; el fundente limpia químicamente la superficie mientras se calienta y aleja el aire hasta que la soldadura se adhiere. Para electrónica se usa fundente de resina, porque el ácido corroería el cableado después."
+    },
+    "trap": {
+      "en": "The solder itself is the filler; flux is a cleaner that mostly burns off and adds nothing to the joint's strength.",
+      "es": "La soldadura misma es el relleno; el fundente es un limpiador que en su mayoría se consume y no aporta resistencia a la unión."
+    },
+    "strategyRef": "as.material",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0058",
+    "subtest": "SI",
+    "topic": "joining",
+    "difficulty": 2,
+    "stem": {
+      "en": "In arc welding, what protects the molten weld pool from the oxygen and nitrogen in the air?",
+      "es": "En la soldadura por arco, ¿qué protege el charco de metal fundido del oxígeno y el nitrógeno del aire?"
+    },
+    "choices": [
+      {
+        "en": "The dark lens in the welding helmet",
+        "es": "El cristal oscuro de la careta de soldar"
+      },
+      {
+        "en": "A shielding gas, or the gas and slag produced by the flux coating on the electrode",
+        "es": "Un gas de protección, o el gas y la escoria que produce el recubrimiento de fundente del electrodo"
+      },
+      {
+        "en": "A thin layer of oil applied to the base metal",
+        "es": "Una capa delgada de aceite aplicada al metal base"
+      },
+      {
+        "en": "A mist of water sprayed on the joint",
+        "es": "Una neblina de agua rociada sobre la unión"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Hot metal reacts with air and the weld becomes porous and brittle. Stick (SMAW) electrodes carry a flux coating that burns into a protective gas and a slag blanket; MIG and TIG feed a bottled gas such as argon or CO2 over the arc instead.",
+      "es": "El metal caliente reacciona con el aire y la soldadura queda porosa y frágil. Los electrodos revestidos (SMAW) llevan un recubrimiento de fundente que se convierte en gas protector y una capa de escoria; MIG y TIG alimentan en su lugar un gas embotellado como argón o CO2 sobre el arco."
+    },
+    "trap": {
+      "en": "The helmet protects the welder's eyes, not the weld; and water or oil near an arc would cause spatter and porosity.",
+      "es": "La careta protege los ojos del soldador, no la soldadura; y agua o aceite cerca del arco causarían salpicaduras y porosidad."
+    },
+    "strategyRef": "as.material",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0059",
+    "subtest": "SI",
+    "topic": "wood-joints",
+    "difficulty": 1,
+    "stem": {
+      "en": "Two boards are joined by simply gluing and nailing the square-cut end of one against the face of the other. What is this joint called?",
+      "es": "Dos tablas se unen simplemente pegando y clavando el extremo cortado a escuadra de una contra la cara de la otra. ¿Cómo se llama esta unión?"
+    },
+    "choices": [
+      {
+        "en": "Mortise-and-tenon joint",
+        "es": "Caja y espiga (mortise-and-tenon)"
+      },
+      {
+        "en": "Dado joint",
+        "es": "Ranura (dado)"
+      },
+      {
+        "en": "Butt joint",
+        "es": "Unión a tope (butt joint)"
+      },
+      {
+        "en": "Dovetail joint",
+        "es": "Cola de milano (dovetail)"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "The butt joint is the simplest and weakest joint because glue holds poorly on end grain and nothing interlocks. It depends on fasteners, dowels, biscuits or corner blocks for strength.",
+      "es": "La unión a tope es la más simple y débil porque el pegamento agarra mal en la veta de extremo y nada se entrelaza. Depende de sujetadores, espigas, galletas o bloques de esquina para su resistencia."
+    },
+    "trap": {
+      "en": "Every other option requires cutting a shaped recess or projection; a butt joint has none.",
+      "es": "Todas las demás opciones requieren cortar un hueco o saliente con forma; la unión a tope no tiene ninguno."
+    },
+    "strategyRef": "as.tool-shape",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0060",
+    "subtest": "SI",
+    "topic": "wood-joints",
+    "difficulty": 2,
+    "stem": {
+      "en": "The end of a chair rail is cut into a rectangular tongue that fits snugly into a matching rectangular hole in the leg. What joint is this?",
+      "es": "El extremo del travesaño de una silla se corta en una lengüeta rectangular que entra justa en un hueco rectangular de la pata. ¿Qué unión es?"
+    },
+    "choices": [
+      {
+        "en": "Lap joint",
+        "es": "Unión a media madera (lap joint)"
+      },
+      {
+        "en": "Rabbet joint",
+        "es": "Rebajo (rabbet)"
+      },
+      {
+        "en": "Miter joint",
+        "es": "Inglete (miter)"
+      },
+      {
+        "en": "Mortise-and-tenon joint",
+        "es": "Caja y espiga (mortise-and-tenon)"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "The tongue is the tenon and the hole is the mortise. Because the tenon's long-grain cheeks glue against the mortise walls, this joint is very strong and has been used in chairs, tables and timber frames for centuries.",
+      "es": "La lengüeta es la espiga y el hueco es la caja. Como las caras de veta larga de la espiga se pegan contra las paredes de la caja, esta unión es muy fuerte y se ha usado en sillas, mesas y estructuras de madera durante siglos."
+    },
+    "trap": {
+      "en": "A lap joint also overlaps two pieces, but each is notched to half its thickness and laid over the other; nothing goes into a hole.",
+      "es": "La unión a media madera también traslapa dos piezas, pero cada una se rebaja a la mitad de su grosor y se monta sobre la otra; nada entra en un hueco."
+    },
+    "strategyRef": "as.tool-shape",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0061",
+    "subtest": "SI",
+    "topic": "measuring",
+    "difficulty": 2,
+    "stem": {
+      "en": "Which tool is used to measure the small gap between two parts, such as a spark plug gap or valve clearance?",
+      "es": "¿Qué herramienta se usa para medir el pequeño espacio entre dos piezas, como el gap de una bujía o la holgura de una válvula?"
+    },
+    "choices": [
+      {
+        "en": "Feeler gauge",
+        "es": "Galga de espesores (feeler gauge)"
+      },
+      {
+        "en": "Depth gauge",
+        "es": "Medidor de profundidad (depth gauge)"
+      },
+      {
+        "en": "Protractor",
+        "es": "Transportador (protractor)"
+      },
+      {
+        "en": "Thread pitch gauge",
+        "es": "Galga de roscas (thread pitch gauge)"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "A feeler gauge is a fan of thin steel blades, each marked with its thickness in thousandths of an inch or in millimeters. You slide blades into the gap until one drags slightly; that blade's thickness is the gap.",
+      "es": "La galga de espesores es un abanico de láminas delgadas de acero, cada una marcada con su grosor en milésimas de pulgada o en milímetros. Se introducen láminas en el espacio hasta que una roza ligeramente; el grosor de esa lámina es el gap."
+    },
+    "trap": {
+      "en": "A thread pitch gauge is also a fan of thin blades, but each blade is a toothed profile for identifying threads, not a thickness.",
+      "es": "La galga de roscas también es un abanico de láminas delgadas, pero cada una es un perfil dentado para identificar roscas, no un grosor."
+    },
+    "strategyRef": "as.tool-shape",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0062",
+    "subtest": "SI",
+    "topic": "shop-math",
+    "difficulty": 1,
+    "stem": {
+      "en": "An 8-foot board is cut into two pieces of 30 inches each. Ignoring the saw kerf, how long is the leftover piece?",
+      "es": "Una tabla de 8 pies se corta en dos piezas de 30 pulgadas cada una. Sin contar el ancho del corte, ¿cuánto mide el sobrante?"
+    },
+    "choices": [
+      {
+        "en": "2.5 feet",
+        "es": "2.5 pies"
+      },
+      {
+        "en": "3 feet",
+        "es": "3 pies"
+      },
+      {
+        "en": "5 feet",
+        "es": "5 pies"
+      },
+      {
+        "en": "2 feet",
+        "es": "2 pies"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Convert to one unit first: 8 feet is 96 inches. Two pieces use 60 inches, leaving 96 - 60 = 36 inches, which is 3 feet.",
+      "es": "Primero convierte a una sola unidad: 8 pies son 96 pulgadas. Dos piezas usan 60 pulgadas, quedan 96 - 60 = 36 pulgadas, es decir 3 pies."
+    },
+    "trap": {
+      "en": "Subtracting 30 twice from 8 without converting, or converting only one of the numbers, gives nonsense; always match units before subtracting.",
+      "es": "Restar 30 dos veces de 8 sin convertir, o convertir solo uno de los números, da un disparate; iguala las unidades antes de restar."
+    },
+    "strategyRef": "as.domain-elimination",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0063",
+    "subtest": "SI",
+    "topic": "shop-math",
+    "difficulty": 2,
+    "stem": {
+      "en": "A drill bit is labeled 3/8 inch. What is that size as a decimal?",
+      "es": "Una broca está marcada 3/8 de pulgada. ¿Cuál es ese tamaño en decimal?"
+    },
+    "choices": [
+      {
+        "en": "0.4375 inch",
+        "es": "0.4375 pulgada"
+      },
+      {
+        "en": "0.5 inch",
+        "es": "0.5 pulgada"
+      },
+      {
+        "en": "0.375 inch",
+        "es": "0.375 pulgada"
+      },
+      {
+        "en": "0.312 inch",
+        "es": "0.312 pulgada"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Divide the numerator by the denominator: 3 divided by 8 is 0.375. A quick check is that 1/8 is 0.125, so 3/8 is three times that.",
+      "es": "Divide el numerador entre el denominador: 3 entre 8 es 0.375. Una comprobación rápida: 1/8 es 0.125, así que 3/8 es tres veces eso."
+    },
+    "trap": {
+      "en": "The 0.312 and 0.4375 choices are the neighboring sizes 5/16 and 7/16; a slip of one sixteenth in either direction lands on them.",
+      "es": "Las opciones 0.312 y 0.4375 son los tamaños vecinos 5/16 y 7/16; un error de un dieciseisavo en cualquier dirección cae en ellas."
+    },
+    "strategyRef": "as.domain-elimination",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0064",
+    "subtest": "SI",
+    "topic": "shop-math",
+    "difficulty": 3,
+    "stem": {
+      "en": "A metric bolt is marked M8 x 1.25. What does this designation mean?",
+      "es": "Un tornillo métrico está marcado M8 x 1.25. ¿Qué significa esta designación?"
+    },
+    "choices": [
+      {
+        "en": "8 threads per inch on a 1.25-inch bolt",
+        "es": "8 hilos por pulgada en un tornillo de 1.25 pulgadas"
+      },
+      {
+        "en": "8 mm diameter and 1.25 inches long",
+        "es": "8 mm de diámetro y 1.25 pulgadas de largo"
+      },
+      {
+        "en": "8 mm long with a 1.25 mm diameter",
+        "es": "8 mm de largo con 1.25 mm de diámetro"
+      },
+      {
+        "en": "8 mm nominal diameter with 1.25 mm between adjacent threads (the pitch)",
+        "es": "8 mm de diámetro nominal con 1.25 mm entre hilos consecutivos (el paso)"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Metric threads are described by diameter and pitch, both in millimeters; length is given separately when needed, for example M8 x 1.25 x 40. Inch-system bolts instead list threads per inch, such as 5/16-18.",
+      "es": "Las roscas métricas se describen por diámetro y paso, ambos en milímetros; el largo se indica aparte cuando hace falta, por ejemplo M8 x 1.25 x 40. Los tornillos en pulgadas indican en cambio hilos por pulgada, como 5/16-18."
+    },
+    "trap": {
+      "en": "Habit from the inch system makes the second number look like a thread count; in metric it is the distance between threads, so a bigger number means a coarser thread.",
+      "es": "La costumbre del sistema en pulgadas hace que el segundo número parezca un conteo de hilos; en métrico es la distancia entre hilos, así que un número mayor significa rosca más gruesa."
+    },
+    "strategyRef": "as.domain-elimination",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "si-0065",
+    "subtest": "SI",
+    "topic": "saws",
+    "difficulty": 3,
+    "stem": {
+      "en": "The teeth of a handsaw are bent alternately to the left and right, a feature called set. What is the purpose of set?",
+      "es": "Los dientes de un serrucho están doblados alternadamente a la izquierda y a la derecha, característica llamada traba (set). ¿Para qué sirve la traba?"
+    },
+    "choices": [
+      {
+        "en": "It makes the kerf slightly wider than the blade so the blade does not bind in the cut",
+        "es": "Hace el corte (kerf) un poco más ancho que la hoja para que no se trabe en el corte"
+      },
+      {
+        "en": "It keeps the blade from rusting",
+        "es": "Evita que la hoja se oxide"
+      },
+      {
+        "en": "It makes each tooth sharper",
+        "es": "Hace más afilado cada diente"
+      },
+      {
+        "en": "It lets the saw cut on both the push and pull strokes",
+        "es": "Permite que la sierra corte al empujar y al jalar"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Because the teeth stick out past the blade on both sides, the slot they cut has clearance around the steel behind them. Without set the wood pinches the blade, the saw drags and heats up, and the cut wanders.",
+      "es": "Como los dientes sobresalen de la hoja por ambos lados, la ranura que cortan deja holgura alrededor del acero. Sin traba la madera aprieta la hoja, la sierra arrastra y se calienta, y el corte se desvía."
+    },
+    "trap": {
+      "en": "Sharpness comes from filing the tooth bevel, and cutting direction from which way the teeth lean; set is only about clearance.",
+      "es": "El filo viene de limar el bisel del diente, y la dirección de corte de hacia dónde se inclinan los dientes; la traba solo tiene que ver con la holgura."
+    },
+    "strategyRef": "as.tool-shape",
+    "source": "original",
+    "version": 1
+  }
+]

@@ -1,0 +1,2602 @@
+[
+  {
+    "id": "ai-0001",
+    "subtest": "AI",
+    "topic": "four-stroke",
+    "difficulty": 2,
+    "stem": {
+      "en": "In a four-stroke gasoline engine, the spark plug fires at the start of which stroke?",
+      "es": "En un motor de gasolina de cuatro tiempos, la bujía salta al inicio de qué tiempo?"
+    },
+    "choices": [
+      {
+        "en": "Intake",
+        "es": "Admisión"
+      },
+      {
+        "en": "Compression",
+        "es": "Compresión"
+      },
+      {
+        "en": "Power",
+        "es": "Explosión (potencia)"
+      },
+      {
+        "en": "Exhaust",
+        "es": "Escape"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Intake → Compression → Power → Exhaust. The spark ignites the compressed mixture and drives the piston down on the power stroke.",
+      "es": "Admisión → Compresión → Explosión → Escape. La chispa enciende la mezcla comprimida y empuja el pistón en el tiempo de explosión."
+    },
+    "trap": {
+      "en": "\"Suck, squeeze, bang, blow.\" The bang is the power stroke.",
+      "es": "\"Aspira, aprieta, explota, expulsa.\" La explosión es el tiempo de potencia."
+    },
+    "strategyRef": "as.four-stroke",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0002",
+    "subtest": "AI",
+    "topic": "four-stroke",
+    "difficulty": 1,
+    "stem": {
+      "en": "During the intake stroke of a four-stroke gasoline engine, what is the piston doing and which valve is open?",
+      "es": "Durante el tiempo de admisión de un motor de gasolina de cuatro tiempos, ¿qué hace el pistón y qué válvula está abierta?"
+    },
+    "choices": [
+      {
+        "en": "Moving down; the intake valve is open",
+        "es": "Baja; la válvula de admisión está abierta"
+      },
+      {
+        "en": "Moving up; the intake valve is open",
+        "es": "Sube; la válvula de admisión está abierta"
+      },
+      {
+        "en": "Moving down; the exhaust valve is open",
+        "es": "Baja; la válvula de escape está abierta"
+      },
+      {
+        "en": "Moving up; both valves are closed",
+        "es": "Sube; ambas válvulas están cerradas"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "On intake the piston travels down, creating low pressure that pulls the air-fuel mixture in through the open intake valve. The exhaust valve stays closed.",
+      "es": "En la admisión el pistón baja y crea baja presión que aspira la mezcla de aire y combustible por la válvula de admisión abierta. La válvula de escape permanece cerrada."
+    },
+    "trap": {
+      "en": "Piston moving down with the exhaust valve open describes nothing in the cycle; piston up with both valves closed is compression.",
+      "es": "Pistón bajando con la válvula de escape abierta no describe ningún tiempo; pistón subiendo con ambas válvulas cerradas es la compresión."
+    },
+    "strategyRef": "as.four-stroke",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0003",
+    "subtest": "AI",
+    "topic": "four-stroke",
+    "difficulty": 1,
+    "stem": {
+      "en": "In which stroke are both valves closed while the piston rises to squeeze the air-fuel mixture?",
+      "es": "¿En qué tiempo están cerradas ambas válvulas mientras el pistón sube para comprimir la mezcla de aire y combustible?"
+    },
+    "choices": [
+      {
+        "en": "Intake",
+        "es": "Admisión"
+      },
+      {
+        "en": "Compression",
+        "es": "Compresión"
+      },
+      {
+        "en": "Power",
+        "es": "Explosión (potencia)"
+      },
+      {
+        "en": "Exhaust",
+        "es": "Escape"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Compression is the second stroke: both valves are shut and the rising piston packs the mixture into a small space so it burns with more force.",
+      "es": "La compresión es el segundo tiempo: ambas válvulas están cerradas y el pistón que sube comprime la mezcla en un espacio pequeño para que arda con más fuerza."
+    },
+    "trap": {
+      "en": "The exhaust stroke also has the piston rising, but the exhaust valve is open then.",
+      "es": "En el escape el pistón también sube, pero en ese tiempo la válvula de escape está abierta."
+    },
+    "strategyRef": "as.four-stroke",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0004",
+    "subtest": "AI",
+    "topic": "diesel-vs-gas",
+    "difficulty": 1,
+    "stem": {
+      "en": "How is the fuel ignited in a diesel engine?",
+      "es": "¿Cómo se enciende el combustible en un motor diésel?"
+    },
+    "choices": [
+      {
+        "en": "A spark plug fires at the top of the compression stroke",
+        "es": "Una bujía salta al final de la compresión"
+      },
+      {
+        "en": "A glow plug fires on every cycle like a spark plug",
+        "es": "Una bujía incandescente salta en cada ciclo como una bujía normal"
+      },
+      {
+        "en": "The fuel is lit by the hot exhaust gases from the previous cycle",
+        "es": "El combustible lo encienden los gases de escape calientes del ciclo anterior"
+      },
+      {
+        "en": "Heat from highly compressed air ignites the injected fuel",
+        "es": "El calor del aire muy comprimido enciende el combustible inyectado"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "A diesel compresses only air to a very high ratio; the air gets hot enough that fuel sprayed in at the top of the stroke ignites by itself. No spark plug is used.",
+      "es": "El diésel comprime solo aire a una relación muy alta; el aire se calienta tanto que el combustible inyectado al final de la carrera se enciende solo. No usa bujía."
+    },
+    "trap": {
+      "en": "Glow plugs only warm the chamber for cold starts; they are not the ignition source in normal running.",
+      "es": "Las bujías incandescentes solo calientan la cámara para arranques en frío; no son la fuente de encendido en marcha normal."
+    },
+    "strategyRef": "as.system-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0005",
+    "subtest": "AI",
+    "topic": "air-fuel",
+    "difficulty": 2,
+    "stem": {
+      "en": "The chemically ideal (stoichiometric) air-fuel ratio for a gasoline engine is closest to:",
+      "es": "La relación aire-combustible químicamente ideal (estequiométrica) de un motor de gasolina es aproximadamente:"
+    },
+    "choices": [
+      {
+        "en": "1 part air to 14.7 parts fuel",
+        "es": "1 parte de aire por 14.7 de combustible"
+      },
+      {
+        "en": "14.7 parts air to 1 part fuel",
+        "es": "14.7 partes de aire por 1 de combustible"
+      },
+      {
+        "en": "7 parts air to 1 part fuel",
+        "es": "7 partes de aire por 1 de combustible"
+      },
+      {
+        "en": "25 parts air to 1 part fuel",
+        "es": "25 partes de aire por 1 de combustible"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "By mass, about 14.7 units of air burn one unit of gasoline completely. The engine computer aims for this ratio for clean combustion.",
+      "es": "En masa, unas 14.7 unidades de aire queman por completo una unidad de gasolina. La computadora del motor busca esta relación para una combustión limpia."
+    },
+    "trap": {
+      "en": "Reversing the ratio (1:14.7) is the classic slip; air is always the much larger number.",
+      "es": "Invertir la relación (1:14.7) es el error clásico; el aire siempre es el número mucho mayor."
+    },
+    "strategyRef": "as.system-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0006",
+    "subtest": "AI",
+    "topic": "air-fuel",
+    "difficulty": 2,
+    "stem": {
+      "en": "A mechanic says the engine is running \"rich.\" What does that mean?",
+      "es": "Un mecánico dice que el motor está funcionando \"rico\" (rich). ¿Qué significa?"
+    },
+    "choices": [
+      {
+        "en": "The fuel has a higher octane rating than required",
+        "es": "El combustible tiene un octanaje mayor del necesario"
+      },
+      {
+        "en": "There is too much air for the amount of fuel",
+        "es": "Hay demasiado aire para la cantidad de combustible"
+      },
+      {
+        "en": "There is more fuel than the air can burn completely",
+        "es": "Hay más combustible del que el aire puede quemar por completo"
+      },
+      {
+        "en": "The engine is running hotter than normal",
+        "es": "El motor está más caliente de lo normal"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Rich means excess fuel relative to air. Symptoms include black smoke, fouled plugs, and poor fuel economy. Too much air is a lean mixture.",
+      "es": "Rico significa exceso de combustible respecto al aire. Los síntomas incluyen humo negro, bujías sucias y mayor consumo. Demasiado aire es una mezcla pobre."
+    },
+    "trap": {
+      "en": "\"Rich\" has nothing to do with octane or temperature; it is purely about the proportion of fuel to air.",
+      "es": "\"Rico\" no tiene que ver con el octanaje ni la temperatura; se refiere solo a la proporción de combustible y aire."
+    },
+    "strategyRef": "as.symptom-cause",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0007",
+    "subtest": "AI",
+    "topic": "engine-parts",
+    "difficulty": 1,
+    "stem": {
+      "en": "Which engine part converts the up-and-down motion of the pistons into rotation?",
+      "es": "¿Qué pieza del motor convierte el movimiento de subida y bajada de los pistones en rotación?"
+    },
+    "choices": [
+      {
+        "en": "Crankshaft",
+        "es": "Cigüeñal (crankshaft)"
+      },
+      {
+        "en": "Camshaft",
+        "es": "Árbol de levas (camshaft)"
+      },
+      {
+        "en": "Connecting rod",
+        "es": "Biela (connecting rod)"
+      },
+      {
+        "en": "Flywheel",
+        "es": "Volante de inercia (flywheel)"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The connecting rods push on offset throws of the crankshaft, turning reciprocating motion into the rotation that drives the transmission.",
+      "es": "Las bielas empujan los muñones descentrados del cigüeñal, convirtiendo el movimiento alternativo en la rotación que mueve la transmisión."
+    },
+    "trap": {
+      "en": "Camshaft and crankshaft sound alike; the camshaft works the valves, not the pistons.",
+      "es": "Árbol de levas y cigüeñal suenan parecido en inglés; el árbol de levas mueve las válvulas, no los pistones."
+    },
+    "strategyRef": "as.system-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0008",
+    "subtest": "AI",
+    "topic": "engine-parts",
+    "difficulty": 1,
+    "stem": {
+      "en": "What is the job of the camshaft?",
+      "es": "¿Cuál es la función del árbol de levas (camshaft)?"
+    },
+    "choices": [
+      {
+        "en": "Store rotational energy between power strokes",
+        "es": "Almacenar energía de rotación entre explosiones"
+      },
+      {
+        "en": "Deliver spark to the cylinders in the right order",
+        "es": "Enviar la chispa a los cilindros en el orden correcto"
+      },
+      {
+        "en": "Pump oil to the bearings",
+        "es": "Bombear aceite a los cojinetes"
+      },
+      {
+        "en": "Open and close the intake and exhaust valves at the right time",
+        "es": "Abrir y cerrar las válvulas de admisión y escape en el momento correcto"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Egg-shaped lobes on the camshaft press the valves open as it turns; springs close them. It turns at half crankshaft speed so each valve opens once per four-stroke cycle.",
+      "es": "Las levas ovaladas del árbol abren las válvulas al girar; los resortes las cierran. Gira a la mitad de la velocidad del cigüeñal para que cada válvula abra una vez por ciclo."
+    },
+    "trap": {
+      "en": "Storing energy is the flywheel; ordering the spark is the distributor or ignition module.",
+      "es": "Almacenar energía es el volante; ordenar la chispa es el distribuidor o módulo de encendido."
+    },
+    "strategyRef": "as.system-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0009",
+    "subtest": "AI",
+    "topic": "engine-parts",
+    "difficulty": 3,
+    "stem": {
+      "en": "A timing belt snaps while an \"interference\" engine is running. What is the most likely result?",
+      "es": "La banda de distribución (timing belt) se rompe con un motor \"de interferencia\" en marcha. ¿Cuál es el resultado más probable?"
+    },
+    "choices": [
+      {
+        "en": "The engine keeps running but loses power",
+        "es": "El motor sigue andando pero pierde potencia"
+      },
+      {
+        "en": "Pistons strike open valves and cause internal damage",
+        "es": "Los pistones golpean válvulas abiertas y causan daño interno"
+      },
+      {
+        "en": "The alternator stops charging but the engine is unharmed",
+        "es": "El alternador deja de cargar pero el motor no sufre daño"
+      },
+      {
+        "en": "Coolant stops circulating and the engine overheats",
+        "es": "El refrigerante deja de circular y el motor se sobrecalienta"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "The timing belt or chain keeps the camshaft synchronized with the crankshaft. In an interference engine, losing that sync lets pistons hit valves that are still open, bending them.",
+      "es": "La banda o cadena de distribución sincroniza el árbol de levas con el cigüeñal. En un motor de interferencia, perder esa sincronía hace que los pistones golpeen válvulas aún abiertas y las doblen."
+    },
+    "trap": {
+      "en": "Confusing the timing belt with the serpentine (accessory) belt leads to the alternator or water pump answers.",
+      "es": "Confundir la banda de distribución con la banda serpentina (de accesorios) lleva a las respuestas del alternador o la bomba de agua."
+    },
+    "strategyRef": "as.symptom-cause",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0010",
+    "subtest": "AI",
+    "topic": "cooling",
+    "difficulty": 2,
+    "stem": {
+      "en": "Why does the thermostat in the cooling system stay closed when the engine is cold?",
+      "es": "¿Por qué el termostato del sistema de enfriamiento permanece cerrado cuando el motor está frío?"
+    },
+    "choices": [
+      {
+        "en": "To keep coolant from freezing in the radiator",
+        "es": "Para evitar que el refrigerante se congele en el radiador"
+      },
+      {
+        "en": "To build pressure so the water pump can start",
+        "es": "Para acumular presión y que arranque la bomba de agua"
+      },
+      {
+        "en": "To keep coolant out of the radiator so the engine warms up quickly",
+        "es": "Para que el refrigerante no pase al radiador y el motor se caliente rápido"
+      },
+      {
+        "en": "To protect the heater core from cold water",
+        "es": "Para proteger el radiador de la calefacción del agua fría"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "A closed thermostat makes coolant circulate only inside the engine until it reaches operating temperature; then it opens and lets hot coolant flow to the radiator.",
+      "es": "Con el termostato cerrado, el refrigerante circula solo dentro del motor hasta llegar a temperatura de operación; luego se abre y deja pasar el refrigerante caliente al radiador."
+    },
+    "trap": {
+      "en": "A thermostat stuck closed causes overheating; stuck open causes a slow warm-up and poor heater performance.",
+      "es": "Un termostato trabado cerrado causa sobrecalentamiento; trabado abierto causa calentamiento lento y mala calefacción."
+    },
+    "strategyRef": "as.system-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0011",
+    "subtest": "AI",
+    "topic": "cooling",
+    "difficulty": 2,
+    "stem": {
+      "en": "What is the main reason antifreeze is mixed with the water in a cooling system instead of using plain water?",
+      "es": "¿Cuál es la razón principal de mezclar anticongelante con el agua del sistema de enfriamiento en vez de usar solo agua?"
+    },
+    "choices": [
+      {
+        "en": "Antifreeze is thinner, so the water pump works less",
+        "es": "El anticongelante es más ligero, así la bomba trabaja menos"
+      },
+      {
+        "en": "Antifreeze makes the coolant conduct electricity for the temperature sensor",
+        "es": "El anticongelante hace que el refrigerante conduzca electricidad para el sensor"
+      },
+      {
+        "en": "Antifreeze lets the radiator be made smaller",
+        "es": "El anticongelante permite un radiador más pequeño"
+      },
+      {
+        "en": "It lowers the freezing point, raises the boiling point, and slows corrosion",
+        "es": "Baja el punto de congelación, sube el de ebullición y frena la corrosión"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Ethylene-glycol coolant protects against freezing in winter, resists boiling under pressure in summer, and contains corrosion inhibitors for the metal passages.",
+      "es": "El refrigerante con etilenglicol protege contra la congelación en invierno, resiste la ebullición bajo presión en verano y lleva inhibidores de corrosión para los conductos metálicos."
+    },
+    "trap": {
+      "en": "Do not stop at \"anti-freeze\"; the boiling-point and corrosion benefits are part of the same correct answer.",
+      "es": "No te quedes solo en \"anticongelante\"; el punto de ebullición y la anticorrosión son parte de la misma respuesta correcta."
+    },
+    "strategyRef": "as.system-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0012",
+    "subtest": "AI",
+    "topic": "lubrication",
+    "difficulty": 3,
+    "stem": {
+      "en": "On a bottle of 5W-30 motor oil, what does the \"5W\" indicate?",
+      "es": "En un envase de aceite de motor 5W-30, ¿qué indica el \"5W\"?"
+    },
+    "choices": [
+      {
+        "en": "The oil weighs 5 pounds per quart",
+        "es": "El aceite pesa 5 libras por cuarto"
+      },
+      {
+        "en": "The oil's viscosity grade at cold (winter) temperatures",
+        "es": "El grado de viscosidad del aceite a temperaturas frías (winter)"
+      },
+      {
+        "en": "The oil should be changed every 5,000 miles",
+        "es": "El aceite debe cambiarse cada 5,000 millas"
+      },
+      {
+        "en": "The oil contains 5 percent synthetic base",
+        "es": "El aceite tiene un 5 por ciento de base sintética"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "The number before the W (for winter) rates how easily the oil flows when cold; the 30 rates its thickness at operating temperature. A lower first number means easier cold starts.",
+      "es": "El número antes de la W (de winter, invierno) indica qué tan fácil fluye el aceite en frío; el 30 indica su espesor a temperatura de operación. Un primer número más bajo facilita el arranque en frío."
+    },
+    "trap": {
+      "en": "\"W\" is often misread as \"weight.\" It stands for winter, i.e., cold-flow rating.",
+      "es": "La \"W\" suele leerse como \"weight\" (peso). Significa winter, es decir, comportamiento en frío."
+    },
+    "strategyRef": "as.system-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0013",
+    "subtest": "AI",
+    "topic": "ignition-electrical",
+    "difficulty": 2,
+    "stem": {
+      "en": "An engine idles roughly and misfires on one cylinder, but runs smoothly at highway speed. Which part is the most likely cause?",
+      "es": "Un motor tiembla en ralentí y falla en un cilindro, pero funciona suave en carretera. ¿Cuál es la causa más probable?"
+    },
+    "choices": [
+      {
+        "en": "A weak alternator",
+        "es": "Un alternador débil"
+      },
+      {
+        "en": "A clogged muffler",
+        "es": "Un silenciador tapado"
+      },
+      {
+        "en": "A worn or fouled spark plug",
+        "es": "Una bujía desgastada o sucia"
+      },
+      {
+        "en": "A faulty starter solenoid",
+        "es": "Un solenoide de arranque defectuoso"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "A single-cylinder misfire points to whatever feeds that one cylinder: its spark plug, plug wire or coil, or injector. A fouled plug is the most common and cheapest culprit.",
+      "es": "Una falla en un solo cilindro apunta a lo que alimenta ese cilindro: su bujía, cable o bobina, o inyector. Una bujía sucia es la causa más común y barata."
+    },
+    "trap": {
+      "en": "The alternator and starter affect the whole car's electrical supply, not one cylinder; a plugged muffler would hurt high-speed power, not idle.",
+      "es": "El alternador y el motor de arranque afectan toda la electricidad del auto, no un cilindro; un silenciador tapado afectaría la potencia en carretera, no el ralentí."
+    },
+    "strategyRef": "as.symptom-cause",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0014",
+    "subtest": "AI",
+    "topic": "fuel-system",
+    "difficulty": 1,
+    "stem": {
+      "en": "What does a fuel injector do?",
+      "es": "¿Qué hace un inyector de combustible?"
+    },
+    "choices": [
+      {
+        "en": "Sprays a measured amount of fuel as a fine mist",
+        "es": "Rocía una cantidad medida de combustible en forma de neblina fina"
+      },
+      {
+        "en": "Pressurizes fuel in the tank",
+        "es": "Presuriza el combustible en el tanque"
+      },
+      {
+        "en": "Removes dirt from the fuel before it reaches the engine",
+        "es": "Quita la suciedad del combustible antes de que llegue al motor"
+      },
+      {
+        "en": "Ignites the fuel inside the cylinder",
+        "es": "Enciende el combustible dentro del cilindro"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Injectors are electrically controlled valves that open for a precise number of milliseconds, atomizing fuel so it mixes well with air. Pressure comes from the fuel pump, cleaning from the filter.",
+      "es": "Los inyectores son válvulas controladas eléctricamente que abren por milisegundos exactos y atomizan el combustible para que se mezcle bien con el aire. La presión la da la bomba y la limpieza el filtro."
+    },
+    "trap": {
+      "en": "Each fuel-system part has one job: pump pushes, filter cleans, injector meters and sprays.",
+      "es": "Cada parte del sistema de combustible tiene una tarea: la bomba empuja, el filtro limpia, el inyector dosifica y rocía."
+    },
+    "strategyRef": "as.system-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0015",
+    "subtest": "AI",
+    "topic": "fuel-system",
+    "difficulty": 3,
+    "stem": {
+      "en": "A car starts and idles normally but hesitates and loses power when accelerating hard or climbing hills. Which is the most likely cause?",
+      "es": "Un auto arranca y funciona bien en ralentí, pero titubea y pierde potencia al acelerar fuerte o subir cuestas. ¿Cuál es la causa más probable?"
+    },
+    "choices": [
+      {
+        "en": "A dead battery cell",
+        "es": "Una celda muerta de la batería"
+      },
+      {
+        "en": "Worn brake pads",
+        "es": "Pastillas de freno gastadas"
+      },
+      {
+        "en": "A stuck-open thermostat",
+        "es": "Un termostato trabado abierto"
+      },
+      {
+        "en": "A partially clogged fuel filter",
+        "es": "Un filtro de combustible parcialmente tapado"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "At idle the engine needs little fuel, so a restricted filter passes enough. Under heavy load demand rises and the restriction starves the engine, causing hesitation.",
+      "es": "En ralentí el motor necesita poco combustible, así que un filtro restringido deja pasar suficiente. Con carga fuerte la demanda sube y la restricción deja al motor sin combustible, causando el titubeo."
+    },
+    "trap": {
+      "en": "A dead battery would affect starting, not power under load; the engine runs off the alternator once started.",
+      "es": "Una batería mala afectaría el arranque, no la potencia bajo carga; ya encendido, el motor funciona con el alternador."
+    },
+    "strategyRef": "as.symptom-cause",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0016",
+    "subtest": "AI",
+    "topic": "ignition-electrical",
+    "difficulty": 1,
+    "stem": {
+      "en": "While the engine is running, which component recharges the 12-volt battery and powers the electrical system?",
+      "es": "Con el motor en marcha, ¿qué componente recarga la batería de 12 voltios y alimenta el sistema eléctrico?"
+    },
+    "choices": [
+      {
+        "en": "Starter motor",
+        "es": "Motor de arranque (starter)"
+      },
+      {
+        "en": "Alternator",
+        "es": "Alternador"
+      },
+      {
+        "en": "Ignition coil",
+        "es": "Bobina de encendido"
+      },
+      {
+        "en": "Voltage regulator alone",
+        "es": "Solo el regulador de voltaje"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "The alternator is belt-driven by the engine and produces electricity (typically 13.5 to 14.5 volts) that runs accessories and tops up the battery. The regulator only controls its output.",
+      "es": "El alternador es movido por banda desde el motor y produce electricidad (normalmente 13.5 a 14.5 voltios) que alimenta los accesorios y recarga la batería. El regulador solo controla su salida."
+    },
+    "trap": {
+      "en": "Starter and alternator are opposites: the starter uses battery power to crank; the alternator makes power once running.",
+      "es": "El motor de arranque y el alternador son opuestos: el arranque usa la batería para girar el motor; el alternador genera energía una vez encendido."
+    },
+    "strategyRef": "as.system-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0017",
+    "subtest": "AI",
+    "topic": "ignition-electrical",
+    "difficulty": 2,
+    "stem": {
+      "en": "When the key is turned, you hear rapid clicking but the engine does not crank. The headlights are dim. What is the most likely problem?",
+      "es": "Al girar la llave se oye un clic rápido repetido pero el motor no gira. Los faros se ven débiles. ¿Cuál es el problema más probable?"
+    },
+    "choices": [
+      {
+        "en": "The fuel pump has failed",
+        "es": "La bomba de combustible falló"
+      },
+      {
+        "en": "The spark plugs are worn out",
+        "es": "Las bujías están gastadas"
+      },
+      {
+        "en": "The battery is discharged or its connections are poor",
+        "es": "La batería está descargada o sus conexiones están mal"
+      },
+      {
+        "en": "The catalytic converter is clogged",
+        "es": "El convertidor catalítico está tapado"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Rapid clicking is the starter solenoid engaging and dropping out because there is not enough current to spin the starter. Dim lights confirm a weak battery or corroded terminals.",
+      "es": "El clic rápido es el solenoide del arranque que se activa y se suelta porque no hay corriente suficiente para girar el motor. Los faros débiles confirman batería baja o bornes corroídos."
+    },
+    "trap": {
+      "en": "Fuel and spark problems only show up after the engine cranks; if it will not crank, think battery, cables, starter.",
+      "es": "Los problemas de combustible o chispa aparecen después de que el motor gira; si no gira, piensa en batería, cables, arranque."
+    },
+    "strategyRef": "as.symptom-cause",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0018",
+    "subtest": "AI",
+    "topic": "ignition-electrical",
+    "difficulty": 2,
+    "stem": {
+      "en": "A 15-amp fuse for the radio keeps blowing. Why should you NOT replace it with a 30-amp fuse?",
+      "es": "Un fusible de 15 amperios de la radio se sigue quemando. ¿Por qué NO debes reemplazarlo con uno de 30 amperios?"
+    },
+    "choices": [
+      {
+        "en": "The wiring could overheat and start a fire before the fuse blows",
+        "es": "El cableado podría sobrecalentarse e incendiarse antes de que el fusible se queme"
+      },
+      {
+        "en": "A 30-amp fuse will not fit in a 15-amp slot",
+        "es": "Un fusible de 30 amperios no cabe en la ranura de 15"
+      },
+      {
+        "en": "The radio would receive double the voltage",
+        "es": "La radio recibiría el doble de voltaje"
+      },
+      {
+        "en": "It would drain the battery twice as fast",
+        "es": "Descargaría la batería el doble de rápido"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "A fuse is sized to the wire it protects. A blowing fuse signals a short or overload; a bigger fuse lets the fault current flow through wire not rated for it.",
+      "es": "El fusible se elige según el cable que protege. Un fusible que se quema indica un corto o sobrecarga; uno mayor deja pasar esa corriente por un cable no diseñado para ella."
+    },
+    "trap": {
+      "en": "Fuses limit current, not voltage. The system is 12 volts no matter what fuse is installed.",
+      "es": "Los fusibles limitan corriente, no voltaje. El sistema sigue siendo de 12 voltios sin importar el fusible."
+    },
+    "strategyRef": "as.system-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0019",
+    "subtest": "AI",
+    "topic": "exhaust",
+    "difficulty": 2,
+    "stem": {
+      "en": "What does the catalytic converter do?",
+      "es": "¿Qué hace el convertidor catalítico?"
+    },
+    "choices": [
+      {
+        "en": "Cools the exhaust before it reaches the muffler",
+        "es": "Enfría el escape antes de que llegue al silenciador"
+      },
+      {
+        "en": "Recovers unburned fuel and returns it to the tank",
+        "es": "Recupera combustible sin quemar y lo regresa al tanque"
+      },
+      {
+        "en": "Reduces engine noise",
+        "es": "Reduce el ruido del motor"
+      },
+      {
+        "en": "Chemically changes harmful gases into less harmful ones",
+        "es": "Transforma químicamente gases dañinos en otros menos dañinos"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Precious-metal coatings inside the converter turn carbon monoxide, unburned hydrocarbons and nitrogen oxides into carbon dioxide, water and nitrogen.",
+      "es": "Los metales preciosos del convertidor transforman el monóxido de carbono, los hidrocarburos sin quemar y los óxidos de nitrógeno en dióxido de carbono, agua y nitrógeno."
+    },
+    "trap": {
+      "en": "Noise reduction is the muffler's job; the converter is about emissions.",
+      "es": "Reducir el ruido es tarea del silenciador; el convertidor se ocupa de las emisiones."
+    },
+    "strategyRef": "as.system-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0020",
+    "subtest": "AI",
+    "topic": "exhaust",
+    "difficulty": 3,
+    "stem": {
+      "en": "What does the oxygen (O2) sensor in the exhaust pipe measure, and why?",
+      "es": "¿Qué mide el sensor de oxígeno (O2) en el tubo de escape y para qué?"
+    },
+    "choices": [
+      {
+        "en": "Exhaust temperature, to protect the catalytic converter",
+        "es": "La temperatura del escape, para proteger el convertidor"
+      },
+      {
+        "en": "Leftover oxygen in the exhaust, so the computer can correct the air-fuel mixture",
+        "es": "El oxígeno sobrante en el escape, para que la computadora corrija la mezcla"
+      },
+      {
+        "en": "Exhaust back-pressure, to detect a clogged muffler",
+        "es": "La contrapresión del escape, para detectar un silenciador tapado"
+      },
+      {
+        "en": "Airflow into the engine, to set idle speed",
+        "es": "El flujo de aire que entra al motor, para fijar el ralentí"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Lots of leftover oxygen means the mixture was lean; very little means rich. The engine computer uses this feedback many times per second to trim fuel delivery.",
+      "es": "Mucho oxígeno sobrante significa mezcla pobre; muy poco, mezcla rica. La computadora usa esta señal muchas veces por segundo para ajustar el combustible."
+    },
+    "trap": {
+      "en": "Airflow into the engine is the mass airflow (MAF) sensor's job; the O2 sensor sits downstream in the exhaust.",
+      "es": "El flujo de aire que entra lo mide el sensor MAF; el sensor de O2 está río abajo, en el escape."
+    },
+    "strategyRef": "as.system-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0021",
+    "subtest": "AI",
+    "topic": "exhaust",
+    "difficulty": 1,
+    "stem": {
+      "en": "The main purpose of the muffler is to:",
+      "es": "El propósito principal del silenciador (muffler) es:"
+    },
+    "choices": [
+      {
+        "en": "Trap soot particles",
+        "es": "Atrapar partículas de hollín"
+      },
+      {
+        "en": "Increase exhaust gas velocity",
+        "es": "Aumentar la velocidad de los gases de escape"
+      },
+      {
+        "en": "Reduce the noise of the exhaust pulses",
+        "es": "Reducir el ruido de los pulsos del escape"
+      },
+      {
+        "en": "Cool the catalytic converter",
+        "es": "Enfriar el convertidor catalítico"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Baffles and chambers inside the muffler cancel and absorb the sound waves created by each exhaust pulse.",
+      "es": "Los deflectores y cámaras dentro del silenciador cancelan y absorben las ondas sonoras que produce cada pulso de escape."
+    },
+    "trap": {
+      "en": "Soot trapping is a diesel particulate filter; gasoline cars do not have one.",
+      "es": "Atrapar hollín lo hace el filtro de partículas de los diésel; los autos de gasolina no lo tienen."
+    },
+    "strategyRef": "as.system-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0022",
+    "subtest": "AI",
+    "topic": "drivetrain",
+    "difficulty": 1,
+    "stem": {
+      "en": "In a manual-transmission car, what does pressing the clutch pedal do?",
+      "es": "En un auto de transmisión manual, ¿qué hace pisar el pedal del embrague (clutch)?"
+    },
+    "choices": [
+      {
+        "en": "Disconnects the engine from the transmission so gears can be changed",
+        "es": "Desconecta el motor de la transmisión para poder cambiar de marcha"
+      },
+      {
+        "en": "Locks the transmission in the current gear",
+        "es": "Bloquea la transmisión en la marcha actual"
+      },
+      {
+        "en": "Applies the brakes to the drive wheels",
+        "es": "Aplica los frenos a las ruedas motrices"
+      },
+      {
+        "en": "Increases engine speed for a smoother shift",
+        "es": "Sube las revoluciones del motor para un cambio más suave"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The pedal pulls the pressure plate away from the clutch disc, so the spinning engine no longer drives the transmission input shaft. Releasing it reconnects them.",
+      "es": "El pedal separa el plato de presión del disco de embrague, así el motor deja de mover el eje de entrada de la transmisión. Al soltarlo, se vuelven a conectar."
+    },
+    "trap": {
+      "en": "Think of the clutch as a switch between engine and gearbox, not as a brake or a lock.",
+      "es": "Piensa en el embrague como un interruptor entre el motor y la caja, no como un freno ni un bloqueo."
+    },
+    "strategyRef": "as.system-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0023",
+    "subtest": "AI",
+    "topic": "drivetrain",
+    "difficulty": 2,
+    "stem": {
+      "en": "Why does a car need a differential?",
+      "es": "¿Por qué un auto necesita un diferencial?"
+    },
+    "choices": [
+      {
+        "en": "To let the driver select forward or reverse",
+        "es": "Para que el conductor elija avance o reversa"
+      },
+      {
+        "en": "To reduce driveshaft vibration",
+        "es": "Para reducir la vibración del eje cardán"
+      },
+      {
+        "en": "To multiply engine torque in low gear",
+        "es": "Para multiplicar el par motor en marcha baja"
+      },
+      {
+        "en": "To let the two drive wheels turn at different speeds in a curve",
+        "es": "Para que las dos ruedas motrices giren a distinta velocidad en una curva"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "In a turn the outer wheel travels farther than the inner one. The differential's gears split power while allowing that speed difference; without it, tires would scrub and hop.",
+      "es": "En una curva la rueda exterior recorre más distancia que la interior. Los engranes del diferencial reparten la potencia permitiendo esa diferencia; sin él, las llantas patinarían y saltarían."
+    },
+    "trap": {
+      "en": "Torque multiplication and forward/reverse are transmission functions, not the differential's.",
+      "es": "Multiplicar el par y elegir avance o reversa son funciones de la transmisión, no del diferencial."
+    },
+    "strategyRef": "as.system-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0024",
+    "subtest": "AI",
+    "topic": "drivetrain",
+    "difficulty": 3,
+    "stem": {
+      "en": "A front-wheel-drive car makes a clicking or popping noise only while turning. Which part is most likely worn?",
+      "es": "Un auto de tracción delantera hace un clic o chasquido solo al girar. ¿Qué pieza está probablemente desgastada?"
+    },
+    "choices": [
+      {
+        "en": "Wheel bearing",
+        "es": "Balero de rueda (wheel bearing)"
+      },
+      {
+        "en": "Outer CV joint",
+        "es": "Junta homocinética exterior (CV joint)"
+      },
+      {
+        "en": "Universal joint on the driveshaft",
+        "es": "Cruceta (universal joint) del eje cardán"
+      },
+      {
+        "en": "Brake caliper",
+        "es": "Mordaza de freno (caliper)"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "CV (constant-velocity) joints let the front axles deliver power while the wheels steer and bounce. When the grease is lost and the joint wears, it clicks under the extra angle of a turn.",
+      "es": "Las juntas homocinéticas (CV) permiten que los semiejes delanteros transmitan potencia mientras las ruedas giran y rebotan. Cuando pierden grasa y se desgastan, chasquean con el ángulo extra de una curva."
+    },
+    "trap": {
+      "en": "A wheel bearing usually hums or growls with speed, not just in turns; U-joints belong to rear-drive driveshafts.",
+      "es": "Un balero de rueda suele zumbar con la velocidad, no solo al girar; las crucetas van en los cardanes de tracción trasera."
+    },
+    "strategyRef": "as.symptom-cause",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0025",
+    "subtest": "AI",
+    "topic": "brakes",
+    "difficulty": 1,
+    "stem": {
+      "en": "In a hydraulic brake system, what does the master cylinder do?",
+      "es": "En un sistema de frenos hidráulico, ¿qué hace el cilindro maestro?"
+    },
+    "choices": [
+      {
+        "en": "Stores brake fluid for the calipers to draw on",
+        "es": "Almacena líquido de frenos para que lo tomen las mordazas"
+      },
+      {
+        "en": "Presses the pads against the rotor directly",
+        "es": "Presiona las pastillas contra el disco directamente"
+      },
+      {
+        "en": "Converts pedal force into fluid pressure sent to each wheel",
+        "es": "Convierte la fuerza del pedal en presión de líquido enviada a cada rueda"
+      },
+      {
+        "en": "Prevents the wheels from locking during hard braking",
+        "es": "Evita que las ruedas se bloqueen en una frenada fuerte"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "The pedal pushes a piston in the master cylinder; that pressure travels through the brake lines to the wheel cylinders or calipers, which apply the friction.",
+      "es": "El pedal empuja un pistón en el cilindro maestro; esa presión viaja por las líneas de freno hasta los cilindros de rueda o mordazas, que aplican la fricción."
+    },
+    "trap": {
+      "en": "The reservoir on top stores fluid, but storing is not the cylinder's function; anti-lock is the ABS module.",
+      "es": "El depósito superior almacena líquido, pero almacenar no es la función del cilindro; evitar el bloqueo es tarea del ABS."
+    },
+    "strategyRef": "as.system-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0026",
+    "subtest": "AI",
+    "topic": "brakes",
+    "difficulty": 2,
+    "stem": {
+      "en": "Compared with drum brakes, what is a key advantage of disc brakes?",
+      "es": "Comparados con los frenos de tambor, ¿cuál es una ventaja clave de los frenos de disco?"
+    },
+    "choices": [
+      {
+        "en": "They shed heat faster, so they resist fade during repeated hard stops",
+        "es": "Disipan el calor más rápido y resisten la pérdida de eficacia en frenadas repetidas"
+      },
+      {
+        "en": "They need no hydraulic fluid",
+        "es": "No necesitan líquido hidráulico"
+      },
+      {
+        "en": "They provide a built-in parking brake at no extra cost",
+        "es": "Incluyen freno de estacionamiento sin costo extra"
+      },
+      {
+        "en": "They wear more slowly because the pads never touch the rotor at rest",
+        "es": "Se gastan menos porque las pastillas nunca tocan el disco en reposo"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "A disc rotor is exposed to air, so heat escapes quickly. Drum brakes trap heat inside the drum, and hot shoes lose grip, a condition called brake fade.",
+      "es": "El disco está expuesto al aire, así que el calor escapa rápido. Los tambores atrapan el calor dentro, y las zapatas calientes pierden agarre, lo que se llama fatiga de freno."
+    },
+    "trap": {
+      "en": "Both types are hydraulic; and drums are actually the ones that make a cheap parking brake easy.",
+      "es": "Ambos tipos son hidráulicos; y son los tambores los que facilitan un freno de estacionamiento barato."
+    },
+    "strategyRef": "as.system-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0027",
+    "subtest": "AI",
+    "topic": "brakes",
+    "difficulty": 3,
+    "stem": {
+      "en": "During a hard stop on a wet road, the brake pedal pulses rapidly under your foot. What does this most likely indicate?",
+      "es": "En una frenada fuerte sobre pavimento mojado, el pedal del freno vibra rápidamente bajo tu pie. ¿Qué indica esto probablemente?"
+    },
+    "choices": [
+      {
+        "en": "Air in the brake lines",
+        "es": "Aire en las líneas de freno"
+      },
+      {
+        "en": "A leaking master cylinder",
+        "es": "Un cilindro maestro con fuga"
+      },
+      {
+        "en": "Worn-out brake pads",
+        "es": "Pastillas de freno gastadas"
+      },
+      {
+        "en": "The ABS is working normally to keep the wheels from locking",
+        "es": "El ABS está funcionando normalmente para evitar que las ruedas se bloqueen"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Anti-lock braking rapidly releases and reapplies pressure at any wheel about to lock. The driver feels that as pulsing and should keep firm pressure on the pedal.",
+      "es": "El sistema antibloqueo suelta y vuelve a aplicar presión rápidamente en la rueda a punto de bloquearse. El conductor lo siente como una vibración y debe mantener el pedal firme."
+    },
+    "trap": {
+      "en": "Air in the lines gives a spongy pedal, a leak gives a sinking pedal; neither pulses. A warped rotor pulses but not only in hard stops on wet roads.",
+      "es": "Aire en las líneas da un pedal esponjoso; una fuga, un pedal que se hunde; ninguno vibra. Un disco alabeado vibra, pero no solo en frenadas fuertes sobre mojado."
+    },
+    "strategyRef": "as.symptom-cause",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0028",
+    "subtest": "AI",
+    "topic": "steering-suspension",
+    "difficulty": 2,
+    "stem": {
+      "en": "After hitting a bump, a car keeps bouncing up and down several times. Which part is most likely worn?",
+      "es": "Después de pasar un bache, el auto sigue rebotando varias veces. ¿Qué pieza está probablemente desgastada?"
+    },
+    "choices": [
+      {
+        "en": "Tie rod ends",
+        "es": "Terminales de dirección (tie rod ends)"
+      },
+      {
+        "en": "Shock absorbers or struts",
+        "es": "Amortiguadores (shocks) o puntales (struts)"
+      },
+      {
+        "en": "Power steering pump",
+        "es": "Bomba de dirección hidráulica"
+      },
+      {
+        "en": "Wheel bearings",
+        "es": "Baleros de rueda"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Springs absorb the bump; shocks and struts are dampers that turn the spring's bounce into heat so it stops after one cycle. Worn dampers let the car oscillate.",
+      "es": "Los resortes absorben el golpe; los amortiguadores y puntales son los que convierten el rebote del resorte en calor para que pare tras un ciclo. Si están gastados, el auto sigue oscilando."
+    },
+    "trap": {
+      "en": "The springs are still doing their job; the missing piece is damping, which is the shock's role.",
+      "es": "Los resortes siguen haciendo su trabajo; lo que falta es la amortiguación, que es tarea del shock."
+    },
+    "strategyRef": "as.symptom-cause",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0029",
+    "subtest": "AI",
+    "topic": "steering-suspension",
+    "difficulty": 3,
+    "stem": {
+      "en": "On a straight, level road a car steadily pulls to the right even though tire pressures are equal. What is the most likely cause?",
+      "es": "En una carretera recta y plana, el auto se va constantemente a la derecha aunque la presión de las llantas es igual. ¿Cuál es la causa más probable?"
+    },
+    "choices": [
+      {
+        "en": "A worn clutch",
+        "es": "Un embrague gastado"
+      },
+      {
+        "en": "Low engine oil",
+        "es": "Poco aceite de motor"
+      },
+      {
+        "en": "Wheel alignment is out of specification",
+        "es": "La alineación de las ruedas está fuera de especificación"
+      },
+      {
+        "en": "A failing alternator",
+        "es": "Un alternador fallando"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Alignment angles (camber, caster, toe) keep the wheels tracking straight. Once tire pressure is ruled out, a steady pull usually means alignment or a dragging brake.",
+      "es": "Los ángulos de alineación (camber, caster, convergencia) mantienen las ruedas derechas. Descartada la presión de las llantas, un jalón constante suele ser alineación o un freno que arrastra."
+    },
+    "trap": {
+      "en": "Engine and electrical parts cannot steer the car; eliminate anything that is not steering, suspension, tires or brakes.",
+      "es": "Las piezas del motor y eléctricas no pueden desviar el auto; elimina todo lo que no sea dirección, suspensión, llantas o frenos."
+    },
+    "strategyRef": "as.symptom-cause",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0030",
+    "subtest": "AI",
+    "topic": "tires",
+    "difficulty": 3,
+    "stem": {
+      "en": "A tire shows heavy wear on both outer edges while the center tread is still deep. What caused this pattern?",
+      "es": "Una llanta muestra desgaste fuerte en ambos bordes exteriores mientras el centro sigue con buen dibujo. ¿Qué causó este patrón?"
+    },
+    "choices": [
+      {
+        "en": "The tire has been run underinflated",
+        "es": "La llanta ha rodado con poca presión"
+      },
+      {
+        "en": "The tire has been run overinflated",
+        "es": "La llanta ha rodado con exceso de presión"
+      },
+      {
+        "en": "The tires were rotated too often",
+        "es": "Las llantas se rotaron con demasiada frecuencia"
+      },
+      {
+        "en": "The wheel has too much camber",
+        "es": "La rueda tiene demasiado camber"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "With low pressure the center of the tread sags and the edges carry the load, wearing both shoulders. Overinflation does the opposite: it bulges the center and wears it.",
+      "es": "Con poca presión el centro de la banda se hunde y los bordes cargan el peso, gastando ambos hombros. El exceso de presión hace lo contrario: abulta el centro y lo desgasta."
+    },
+    "trap": {
+      "en": "Camber problems wear only one edge, not both. Rotation spreads wear evenly; it cannot create a pattern.",
+      "es": "Los problemas de camber gastan un solo borde, no ambos. La rotación reparte el desgaste; no puede crear un patrón."
+    },
+    "strategyRef": "as.symptom-cause",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0031",
+    "subtest": "AI",
+    "topic": "dashboard",
+    "difficulty": 2,
+    "stem": {
+      "en": "While driving, the red engine-temperature warning light comes on. What should you do first?",
+      "es": "Mientras manejas se enciende la luz roja de temperatura del motor. ¿Qué debes hacer primero?"
+    },
+    "choices": [
+      {
+        "en": "Drive faster so more air flows through the radiator",
+        "es": "Manejar más rápido para que pase más aire por el radiador"
+      },
+      {
+        "en": "Turn on the air conditioner to cool the engine",
+        "es": "Encender el aire acondicionado para enfriar el motor"
+      },
+      {
+        "en": "Open the radiator cap right away to release pressure",
+        "es": "Abrir de inmediato la tapa del radiador para soltar presión"
+      },
+      {
+        "en": "Pull over safely and shut the engine off to let it cool",
+        "es": "Orillarte con seguridad y apagar el motor para que se enfríe"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "A red light means stop now. Continued running can warp the cylinder head or blow the head gasket. Turning the heater on full can help briefly, but stopping is the correct first step.",
+      "es": "Una luz roja significa detenerse ya. Seguir andando puede alabear la culata o quemar la junta. Poner la calefacción al máximo ayuda un momento, pero detenerse es el primer paso correcto."
+    },
+    "trap": {
+      "en": "Never open a hot radiator cap: the pressurized coolant can boil out and cause severe burns. The A/C adds load and heat.",
+      "es": "Nunca abras la tapa de un radiador caliente: el refrigerante a presión puede salir hirviendo y causar quemaduras graves. El A/C agrega carga y calor."
+    },
+    "strategyRef": "as.symptom-cause",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0032",
+    "subtest": "AI",
+    "topic": "engine-troubleshooting",
+    "difficulty": 1,
+    "stem": {
+      "en": "A gasoline engine cranks at normal speed but never fires. Which three basics should a mechanic confirm first?",
+      "es": "Un motor de gasolina gira (cranks) a velocidad normal pero nunca arranca. ¿Qué tres elementos básicos debe confirmar primero el mecánico?"
+    },
+    "choices": [
+      {
+        "en": "Oil level, coolant level and tire pressure",
+        "es": "Nivel de aceite, nivel de refrigerante y presión de las llantas"
+      },
+      {
+        "en": "Alternator output, brake fluid and belt tension",
+        "es": "Salida del alternador, líquido de frenos y tensión de la banda"
+      },
+      {
+        "en": "Exhaust backpressure, wheel alignment and battery water",
+        "es": "Contrapresión del escape, alineación y agua de la batería"
+      },
+      {
+        "en": "Spark, fuel delivery and compression",
+        "es": "Chispa, llegada de combustible y compresión"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "An engine that turns over needs only three things to fire: a spark at the right time, fuel reaching the cylinders, and enough compression. Checking these narrows the fault to one system.",
+      "es": "Un motor que gira solo necesita tres cosas para encender: chispa en el momento correcto, combustible que llegue a los cilindros y compresión suficiente. Revisarlas reduce la falla a un sistema."
+    },
+    "trap": {
+      "en": "Oil and coolant matter for a running engine, but low levels do not stop a cranking engine from firing. The battery is fine if it cranks at normal speed.",
+      "es": "El aceite y el refrigerante importan cuando el motor funciona, pero un nivel bajo no impide que un motor que gira encienda. La batería está bien si gira a velocidad normal."
+    },
+    "strategyRef": "as.symptom-cause",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0033",
+    "subtest": "AI",
+    "topic": "engine-troubleshooting",
+    "difficulty": 2,
+    "stem": {
+      "en": "A car puffs blue-gray smoke from the tailpipe, worst right after a cold start. What is the most likely cause?",
+      "es": "Un auto suelta humo azul-gris por el escape, sobre todo justo después de arrancar en frío. ¿Cuál es la causa más probable?"
+    },
+    "choices": [
+      {
+        "en": "Engine oil is leaking into the combustion chambers past worn valve seals or piston rings",
+        "es": "Aceite de motor entra a las cámaras de combustión por sellos de válvula o anillos desgastados"
+      },
+      {
+        "en": "Coolant is leaking into a cylinder through a failed head gasket",
+        "es": "Refrigerante entra a un cilindro por una junta de culata dañada"
+      },
+      {
+        "en": "The catalytic converter is clogged",
+        "es": "El convertidor catalítico está tapado"
+      },
+      {
+        "en": "The fuel mixture is far too rich",
+        "es": "La mezcla de combustible es demasiado rica"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Smoke color is the clue: blue means burning oil, black means too much fuel, and white (sweet-smelling) means coolant. Oil that seeps past the valve seals while the engine sits burns off in a puff at start-up.",
+      "es": "El color del humo es la pista: azul es aceite quemándose, negro es exceso de combustible y blanco (con olor dulce) es refrigerante. El aceite que pasa por los sellos mientras el motor está apagado se quema en una bocanada al arrancar."
+    },
+    "trap": {
+      "en": "A rich mixture gives black smoke and a head gasket gives white steam; matching the color to the fluid solves the item.",
+      "es": "Una mezcla rica da humo negro y una junta de culata da vapor blanco; relacionar el color con el fluido resuelve la pregunta."
+    },
+    "strategyRef": "as.symptom-cause",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0034",
+    "subtest": "AI",
+    "topic": "engine-troubleshooting",
+    "difficulty": 3,
+    "stem": {
+      "en": "A deep, heavy metallic knock comes from the bottom of the engine, gets louder as rpm rises, and the oil-pressure gauge reads low. Which is the most likely cause?",
+      "es": "Se oye un golpeteo metálico grave desde la parte baja del motor, se hace más fuerte al subir las rpm y el manómetro de presión de aceite marca bajo. ¿Cuál es la causa más probable?"
+    },
+    "choices": [
+      {
+        "en": "Spark knock (pinging) from low-octane fuel",
+        "es": "Detonación (cascabeleo) por gasolina de bajo octanaje"
+      },
+      {
+        "en": "Worn connecting-rod or crankshaft bearings",
+        "es": "Cojinetes (metales) de biela o de cigüeñal desgastados"
+      },
+      {
+        "en": "A noisy valve lifter in the cylinder head",
+        "es": "Un buzo (lifter) de válvula ruidoso en la culata"
+      },
+      {
+        "en": "A loose exhaust heat shield rattling",
+        "es": "Un protector térmico del escape suelto que vibra"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Worn bearings let the crankshaft and rods hammer against each other, producing a deep knock that follows engine speed. Extra clearance also lets oil escape, which is why pressure drops. Lifter tick is a light, fast click from the top of the engine.",
+      "es": "Los cojinetes desgastados dejan que el cigüeñal y las bielas golpeen entre sí, produciendo un golpeteo grave que sigue las rpm. La holgura extra también deja escapar aceite, por eso baja la presión. El ruido de buzos es un clic ligero y rápido en la parte alta del motor."
+    },
+    "trap": {
+      "en": "Pinging is a light rattle heard only under load and does not lower oil pressure; low oil pressure plus a bottom-end knock points to bearings.",
+      "es": "El cascabeleo es un traqueteo ligero que solo se oye bajo carga y no baja la presión de aceite; presión baja más golpeteo en la parte baja apunta a los cojinetes."
+    },
+    "strategyRef": "as.symptom-cause",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0035",
+    "subtest": "AI",
+    "topic": "dashboard",
+    "difficulty": 1,
+    "stem": {
+      "en": "The red oil-can warning light comes on while you are driving. What does it mean?",
+      "es": "La luz roja con forma de aceitera se enciende mientras manejas. ¿Qué significa?"
+    },
+    "choices": [
+      {
+        "en": "The oil level is slightly overfilled",
+        "es": "El nivel de aceite está un poco por encima del máximo"
+      },
+      {
+        "en": "The oil temperature is high but safe",
+        "es": "La temperatura del aceite está alta pero es segura"
+      },
+      {
+        "en": "Oil pressure has dropped dangerously low and the engine should be shut off",
+        "es": "La presión de aceite bajó peligrosamente y hay que apagar el motor"
+      },
+      {
+        "en": "The oil is due for a change soon",
+        "es": "Pronto toca cambiar el aceite"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "That light is driven by a pressure switch, not a level sensor. Without pressure the bearings run dry within seconds, so the engine should be stopped as soon as it is safe.",
+      "es": "Esa luz la activa un interruptor de presión, no un sensor de nivel. Sin presión los cojinetes quedan sin aceite en segundos, así que hay que apagar el motor en cuanto sea seguro."
+    },
+    "trap": {
+      "en": "Many drivers confuse the red pressure light with a maintenance reminder; a red light always means stop, not \"service soon.\"",
+      "es": "Muchos conductores confunden la luz roja de presión con un recordatorio de mantenimiento; una luz roja siempre significa detenerse, no \"servicio pronto\"."
+    },
+    "strategyRef": "as.symptom-cause",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0036",
+    "subtest": "AI",
+    "topic": "dashboard",
+    "difficulty": 2,
+    "stem": {
+      "en": "The battery-shaped warning light comes on while the engine is running. Which is the most likely fault?",
+      "es": "La luz de advertencia con forma de batería se enciende con el motor en marcha. ¿Cuál es la falla más probable?"
+    },
+    "choices": [
+      {
+        "en": "The battery is overcharged and must be disconnected",
+        "es": "La batería está sobrecargada y hay que desconectarla"
+      },
+      {
+        "en": "The starter motor is still engaged",
+        "es": "El motor de arranque sigue engranado"
+      },
+      {
+        "en": "The battery needs distilled water",
+        "es": "A la batería le falta agua destilada"
+      },
+      {
+        "en": "The alternator or its drive belt has stopped charging",
+        "es": "El alternador o su banda dejaron de cargar"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "The light compares alternator output with battery voltage; it glows when the charging system is not keeping up. The car will run on the battery alone only until it drains, so it should be checked promptly.",
+      "es": "La luz compara la salida del alternador con el voltaje de la batería; se enciende cuando el sistema de carga no da abasto. El auto funcionará solo con la batería hasta que se agote, así que hay que revisarlo pronto."
+    },
+    "trap": {
+      "en": "The symbol shows a battery, but the battery is usually the victim, not the cause. Think \"charging system,\" not \"battery.\"",
+      "es": "El símbolo muestra una batería, pero la batería suele ser la víctima, no la causa. Piensa en \"sistema de carga\", no en \"batería\"."
+    },
+    "strategyRef": "as.system-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0037",
+    "subtest": "AI",
+    "topic": "dashboard",
+    "difficulty": 3,
+    "stem": {
+      "en": "While driving, the check-engine light changes from glowing steadily to flashing rapidly. What does the flashing indicate?",
+      "es": "Mientras manejas, la luz de check engine pasa de estar fija a parpadear rápido. ¿Qué indica el parpadeo?"
+    },
+    "choices": [
+      {
+        "en": "A severe misfire is occurring that can overheat and destroy the catalytic converter",
+        "es": "Hay una falla de encendido severa que puede sobrecalentar y destruir el convertidor catalítico"
+      },
+      {
+        "en": "The emissions inspection is due",
+        "es": "Toca la verificación de emisiones"
+      },
+      {
+        "en": "The bulb behind the light is failing",
+        "es": "El foco detrás de la luz está fallando"
+      },
+      {
+        "en": "The gas cap is loose and should be tightened",
+        "es": "La tapa del tanque está floja y hay que apretarla"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "A steady light stores a fault code for later; a flashing light is the computer telling you that raw fuel from misfiring cylinders is entering the exhaust. Reduce speed and load and have it repaired right away.",
+      "es": "Una luz fija guarda un código de falla para después; una luz parpadeante es la computadora avisando que combustible sin quemar de cilindros que fallan está entrando al escape. Reduce velocidad y carga y repáralo de inmediato."
+    },
+    "trap": {
+      "en": "A loose gas cap produces a steady light, not a flashing one; the flashing pattern is reserved for the urgent case.",
+      "es": "Una tapa de tanque floja produce luz fija, no parpadeante; el parpadeo se reserva para el caso urgente."
+    },
+    "strategyRef": "as.symptom-cause",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0038",
+    "subtest": "AI",
+    "topic": "diesel-vs-gas",
+    "difficulty": 1,
+    "stem": {
+      "en": "Which component is part of a gasoline engine but is NOT found on a diesel engine?",
+      "es": "¿Qué componente forma parte de un motor de gasolina pero NO existe en un motor diésel?"
+    },
+    "choices": [
+      {
+        "en": "Pistons",
+        "es": "Pistones"
+      },
+      {
+        "en": "Spark plugs",
+        "es": "Bujías (spark plugs)"
+      },
+      {
+        "en": "Crankshaft",
+        "es": "Cigüeñal"
+      },
+      {
+        "en": "Fuel injectors",
+        "es": "Inyectores de combustible"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "A diesel ignites its fuel with the heat of compression, so it needs no spark. Both engine types use pistons, a crankshaft and, on modern designs, fuel injectors.",
+      "es": "El diésel enciende el combustible con el calor de la compresión, así que no necesita chispa. Ambos motores usan pistones, cigüeñal y, en diseños modernos, inyectores."
+    },
+    "trap": {
+      "en": "Fuel injectors are the tempting wrong pick because they are strongly associated with diesels; in fact nearly all modern gasoline engines use them too.",
+      "es": "Los inyectores son la opción incorrecta tentadora porque se asocian con el diésel; en realidad casi todos los motores de gasolina modernos también los usan."
+    },
+    "strategyRef": "as.domain-elimination",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0039",
+    "subtest": "AI",
+    "topic": "diesel-vs-gas",
+    "difficulty": 3,
+    "stem": {
+      "en": "Why must a diesel engine block, pistons and rods be built heavier than those of a gasoline engine of similar size?",
+      "es": "¿Por qué el bloque, los pistones y las bielas de un motor diésel deben ser más robustos que los de un motor de gasolina de tamaño similar?"
+    },
+    "choices": [
+      {
+        "en": "Diesel fuel is heavier, so the tank loads the frame more",
+        "es": "El diésel pesa más, así que el tanque carga más el chasis"
+      },
+      {
+        "en": "Diesel engines need larger spark plugs and coils",
+        "es": "Los motores diésel necesitan bujías y bobinas más grandes"
+      },
+      {
+        "en": "Diesel compression ratios of roughly 15:1 to 22:1 create much higher cylinder pressures",
+        "es": "Las relaciones de compresión diésel de unos 15:1 a 22:1 generan presiones de cilindro mucho mayores"
+      },
+      {
+        "en": "Diesel engines run at much higher rpm",
+        "es": "Los motores diésel giran a muchas más rpm"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "A gasoline engine compresses its mixture around 8:1 to 12:1; a diesel compresses air alone far harder so it gets hot enough to ignite the fuel. The resulting pressures demand stronger parts, which is also why diesels are heavier and turn slower.",
+      "es": "Un motor de gasolina comprime la mezcla alrededor de 8:1 a 12:1; el diésel comprime solo aire mucho más para que se caliente lo suficiente y encienda el combustible. Esas presiones exigen piezas más fuertes, por eso los diésel pesan más y giran más despacio."
+    },
+    "trap": {
+      "en": "Diesels actually rev lower than gasoline engines and have no spark plugs at all; both distractors reverse a real difference.",
+      "es": "Los diésel en realidad giran menos que los de gasolina y no tienen bujías; ambos distractores invierten una diferencia real."
+    },
+    "strategyRef": "as.domain-elimination",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0040",
+    "subtest": "AI",
+    "topic": "lubrication",
+    "difficulty": 1,
+    "stem": {
+      "en": "Which part of the lubrication system forces oil under pressure to the crankshaft bearings and other moving parts?",
+      "es": "¿Qué parte del sistema de lubricación envía aceite a presión a los cojinetes del cigüeñal y demás piezas móviles?"
+    },
+    "choices": [
+      {
+        "en": "Oil filter",
+        "es": "Filtro de aceite"
+      },
+      {
+        "en": "Dipstick tube",
+        "es": "Tubo de la varilla (dipstick)"
+      },
+      {
+        "en": "Oil pan (sump)",
+        "es": "Cárter (oil pan)"
+      },
+      {
+        "en": "Oil pump",
+        "es": "Bomba de aceite"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "The pump, usually driven off the crankshaft or camshaft, draws oil from the pan and pushes it through the filter and oil galleries. The pan only stores oil; the filter only cleans it.",
+      "es": "La bomba, movida normalmente por el cigüeñal o el árbol de levas, toma aceite del cárter y lo empuja por el filtro y los conductos. El cárter solo almacena el aceite; el filtro solo lo limpia."
+    },
+    "trap": {
+      "en": "The pan holds the oil, so it feels like the source, but it has no way to move oil uphill to the bearings.",
+      "es": "El cárter contiene el aceite, así que parece la fuente, pero no tiene manera de subirlo a los cojinetes."
+    },
+    "strategyRef": "as.system-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0041",
+    "subtest": "AI",
+    "topic": "lubrication",
+    "difficulty": 2,
+    "stem": {
+      "en": "Besides reducing friction, what other important job does engine oil perform?",
+      "es": "Además de reducir la fricción, ¿qué otra función importante cumple el aceite de motor?"
+    },
+    "choices": [
+      {
+        "en": "Carries heat away from hot parts and holds dirt and combustion by-products in suspension",
+        "es": "Retira calor de las piezas calientes y mantiene en suspensión la suciedad y los residuos de combustión"
+      },
+      {
+        "en": "Cools the exhaust before it reaches the catalytic converter",
+        "es": "Enfría el escape antes de que llegue al convertidor catalítico"
+      },
+      {
+        "en": "Raises the octane rating of the fuel",
+        "es": "Sube el octanaje de la gasolina"
+      },
+      {
+        "en": "Keeps the coolant from freezing",
+        "es": "Evita que el refrigerante se congele"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Oil sprayed on the underside of the pistons removes a large share of their heat, and detergent additives trap soot and acids so the filter can catch them. That is why dirty oil turns black.",
+      "es": "El aceite que baña la parte inferior de los pistones retira gran parte de su calor, y los aditivos detergentes atrapan hollín y ácidos para que el filtro los retenga. Por eso el aceite usado se pone negro."
+    },
+    "trap": {
+      "en": "Oil and coolant are separate circuits; the antifreeze option belongs to the cooling system.",
+      "es": "El aceite y el refrigerante son circuitos separados; la opción del anticongelante pertenece al sistema de enfriamiento."
+    },
+    "strategyRef": "as.system-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0042",
+    "subtest": "AI",
+    "topic": "lubrication",
+    "difficulty": 3,
+    "stem": {
+      "en": "Most spin-on oil filters contain a bypass valve. What is its purpose?",
+      "es": "La mayoría de los filtros de aceite de rosca tienen una válvula de derivación (bypass). ¿Para qué sirve?"
+    },
+    "choices": [
+      {
+        "en": "To send extra oil to the turbocharger",
+        "es": "Enviar aceite adicional al turbocargador"
+      },
+      {
+        "en": "To let unfiltered oil flow around a clogged or cold-thick element so the engine is never starved of oil",
+        "es": "Dejar pasar aceite sin filtrar alrededor de un elemento tapado o espeso por frío para que el motor nunca se quede sin aceite"
+      },
+      {
+        "en": "To drain oil back to the pan when the engine is shut off",
+        "es": "Devolver el aceite al cárter cuando se apaga el motor"
+      },
+      {
+        "en": "To limit the maximum pressure the oil pump can produce",
+        "es": "Limitar la presión máxima que puede dar la bomba de aceite"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Dirty oil is better than no oil. If the paper element plugs up, or cold oil is too thick to pass through it, the spring-loaded valve opens and keeps the bearings supplied. This is one reason to change filters on schedule.",
+      "es": "Aceite sucio es mejor que nada de aceite. Si el elemento de papel se tapa, o el aceite frío es demasiado espeso para atravesarlo, la válvula con resorte se abre y mantiene alimentados los cojinetes. Es una razón para cambiar el filtro a tiempo."
+    },
+    "trap": {
+      "en": "The anti-drainback valve keeps oil from draining out at shutdown, and the pressure-relief valve inside the pump limits pressure; those are different valves with different jobs.",
+      "es": "La válvula antirretorno evita que el aceite se vacíe al apagar, y la válvula de alivio dentro de la bomba limita la presión; son válvulas distintas con funciones distintas."
+    },
+    "strategyRef": "as.system-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0043",
+    "subtest": "AI",
+    "topic": "tires",
+    "difficulty": 1,
+    "stem": {
+      "en": "Where should you look to find the correct cold inflation pressure for a car's tires?",
+      "es": "¿Dónde debes buscar la presión de inflado correcta (en frío) para las llantas de un auto?"
+    },
+    "choices": [
+      {
+        "en": "The inside of the fuel filler door",
+        "es": "El interior de la tapa del tanque de gasolina"
+      },
+      {
+        "en": "The tire's speed-rating letter",
+        "es": "La letra de índice de velocidad de la llanta"
+      },
+      {
+        "en": "The placard on the driver's door jamb or the owner's manual",
+        "es": "La etiqueta en el marco de la puerta del conductor o el manual del propietario"
+      },
+      {
+        "en": "The maximum pressure molded into the tire sidewall",
+        "es": "La presión máxima grabada en el costado de la llanta"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "The vehicle maker sets the pressure for that car's weight and handling. The sidewall number is the most the tire can safely hold, which is usually well above the recommended pressure.",
+      "es": "El fabricante del vehículo fija la presión según el peso y el manejo de ese auto. El número del costado es lo máximo que la llanta soporta con seguridad, normalmente muy por encima de la recomendada."
+    },
+    "trap": {
+      "en": "The sidewall number is a limit, not a recommendation; inflating to it gives a harsh ride and center-tread wear.",
+      "es": "El número del costado es un límite, no una recomendación; inflar a ese valor da un andar duro y desgaste en el centro de la banda."
+    },
+    "strategyRef": "as.domain-elimination",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0044",
+    "subtest": "AI",
+    "topic": "tires",
+    "difficulty": 2,
+    "stem": {
+      "en": "A tire is marked P215/65R15. What does the number 65 represent?",
+      "es": "Una llanta está marcada P215/65R15. ¿Qué representa el número 65?"
+    },
+    "choices": [
+      {
+        "en": "The maximum inflation pressure in psi",
+        "es": "La presión máxima de inflado en psi"
+      },
+      {
+        "en": "The rim diameter in centimeters",
+        "es": "El diámetro del rin en centímetros"
+      },
+      {
+        "en": "The sidewall height in millimeters",
+        "es": "La altura del costado en milímetros"
+      },
+      {
+        "en": "The aspect ratio: the sidewall height is 65 percent of the tread width",
+        "es": "La relación de aspecto: la altura del costado es el 65 por ciento del ancho de la banda"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Reading left to right: P is passenger, 215 is the section width in millimeters, 65 is the aspect ratio, R is radial construction and 15 is the rim diameter in inches. A lower aspect ratio means a shorter, stiffer sidewall.",
+      "es": "De izquierda a derecha: P es pasajero, 215 es el ancho en milímetros, 65 es la relación de aspecto, R es construcción radial y 15 es el diámetro del rin en pulgadas. Una relación menor significa un costado más bajo y rígido."
+    },
+    "trap": {
+      "en": "The 65 is a percentage of the 215 width, not a measurement by itself; the sidewall here is about 140 mm tall.",
+      "es": "El 65 es un porcentaje del ancho de 215, no una medida por sí sola; aquí el costado mide unos 140 mm."
+    },
+    "strategyRef": "as.domain-elimination",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0045",
+    "subtest": "AI",
+    "topic": "tires",
+    "difficulty": 3,
+    "stem": {
+      "en": "A steering-wheel vibration appears at about 55 to 65 mph and mostly fades at higher speed. What is the most likely cause?",
+      "es": "Aparece una vibración en el volante a unas 55 a 65 mph y casi desaparece a mayor velocidad. ¿Cuál es la causa más probable?"
+    },
+    "choices": [
+      {
+        "en": "A front wheel and tire assembly that is out of balance",
+        "es": "Un conjunto de rin y llanta delantero desbalanceado"
+      },
+      {
+        "en": "Wheel alignment that is out of specification",
+        "es": "Alineación fuera de especificación"
+      },
+      {
+        "en": "Worn front brake pads",
+        "es": "Pastillas de freno delanteras gastadas"
+      },
+      {
+        "en": "Low tire pressure on all four tires",
+        "es": "Presión baja en las cuatro llantas"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "A heavy spot on a tire shakes hardest when its rotation rate matches the suspension's natural frequency, which happens in a narrow speed band. Front-wheel imbalance is felt in the steering wheel; rear imbalance is felt in the seat.",
+      "es": "Un punto pesado en la llanta sacude más cuando su giro coincide con la frecuencia natural de la suspensión, lo que ocurre en un rango estrecho de velocidad. El desbalance delantero se siente en el volante; el trasero en el asiento."
+    },
+    "trap": {
+      "en": "Alignment problems cause pulling and uneven wear at any speed, and worn pads vibrate only while braking; the speed-specific shake is the balance signature.",
+      "es": "La mala alineación causa jalón y desgaste desparejo a cualquier velocidad, y las pastillas gastadas vibran solo al frenar; el temblor a una velocidad específica es la firma del desbalance."
+    },
+    "strategyRef": "as.symptom-cause",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0046",
+    "subtest": "AI",
+    "topic": "air-fuel",
+    "difficulty": 1,
+    "stem": {
+      "en": "What is the job of the engine air filter?",
+      "es": "¿Cuál es la función del filtro de aire del motor?"
+    },
+    "choices": [
+      {
+        "en": "To clean the exhaust gases",
+        "es": "Limpiar los gases de escape"
+      },
+      {
+        "en": "To stop dust and grit from entering the cylinders with the intake air",
+        "es": "Impedir que polvo y arenilla entren a los cilindros con el aire de admisión"
+      },
+      {
+        "en": "To cool the incoming air so it is denser",
+        "es": "Enfriar el aire que entra para que sea más denso"
+      },
+      {
+        "en": "To add extra oxygen to the mixture",
+        "es": "Agregar oxígeno extra a la mezcla"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "An engine breathes thousands of cubic feet of air per hour; without the filter, abrasive dust would scour the cylinder walls and rings. A clogged filter restricts airflow and can cause a rich mixture and lost power.",
+      "es": "Un motor respira miles de pies cúbicos de aire por hora; sin el filtro, el polvo abrasivo rayaría las paredes de cilindro y los anillos. Un filtro tapado restringe el aire y puede causar mezcla rica y pérdida de potencia."
+    },
+    "trap": {
+      "en": "The intercooler, not the air filter, cools intake air on turbocharged engines; a paper filter does nothing to temperature.",
+      "es": "El intercooler, no el filtro de aire, enfría el aire de admisión en motores turbo; un filtro de papel no cambia la temperatura."
+    },
+    "strategyRef": "as.system-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0047",
+    "subtest": "AI",
+    "topic": "air-fuel",
+    "difficulty": 3,
+    "stem": {
+      "en": "How does a turbocharger increase the power of an engine?",
+      "es": "¿Cómo aumenta la potencia de un motor un turbocargador?"
+    },
+    "choices": [
+      {
+        "en": "It spins the crankshaft faster using exhaust pressure",
+        "es": "Hace girar el cigüeñal más rápido usando la presión del escape"
+      },
+      {
+        "en": "It injects pure oxygen stored in a tank",
+        "es": "Inyecta oxígeno puro almacenado en un tanque"
+      },
+      {
+        "en": "An exhaust-driven turbine spins a compressor that packs more air into each cylinder, allowing more fuel to be burned",
+        "es": "Una turbina movida por el escape gira un compresor que mete más aire en cada cilindro, permitiendo quemar más combustible"
+      },
+      {
+        "en": "A belt-driven pump raises the compression ratio of the engine",
+        "es": "Una bomba movida por banda eleva la relación de compresión del motor"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Power depends on how much air-fuel mixture an engine can burn each cycle. Forcing in denser air lets the computer add proportionally more fuel. A turbo uses otherwise-wasted exhaust energy; a supercharger does the same job but is driven by a belt.",
+      "es": "La potencia depende de cuánta mezcla puede quemar el motor por ciclo. Meter aire más denso permite que la computadora agregue proporcionalmente más combustible. El turbo aprovecha energía del escape que se perdería; el supercargador hace lo mismo pero movido por banda."
+    },
+    "trap": {
+      "en": "The belt-driven option describes a supercharger, and neither device changes the mechanical compression ratio; they raise the pressure of the air going in.",
+      "es": "La opción de la banda describe un supercargador, y ninguno de los dos cambia la relación de compresión mecánica; elevan la presión del aire que entra."
+    },
+    "strategyRef": "as.system-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0048",
+    "subtest": "AI",
+    "topic": "cooling",
+    "difficulty": 1,
+    "stem": {
+      "en": "What does the water pump in a cooling system do?",
+      "es": "¿Qué hace la bomba de agua del sistema de enfriamiento?"
+    },
+    "choices": [
+      {
+        "en": "Sprays water on the windshield",
+        "es": "Rocía agua en el parabrisas"
+      },
+      {
+        "en": "Pressurizes the fuel before it reaches the injectors",
+        "es": "Presuriza el combustible antes de los inyectores"
+      },
+      {
+        "en": "Automatically refills the radiator when coolant is low",
+        "es": "Rellena el radiador automáticamente cuando falta refrigerante"
+      },
+      {
+        "en": "Circulates coolant through the engine passages and the radiator",
+        "es": "Hace circular el refrigerante por los conductos del motor y el radiador"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Driven by a belt or the timing chain, the pump impeller keeps coolant moving so heat picked up around the cylinders is carried to the radiator. A failed pump or broken belt causes rapid overheating.",
+      "es": "Movida por banda o por la cadena de tiempo, la turbina de la bomba mantiene el refrigerante en movimiento para llevar al radiador el calor recogido alrededor de los cilindros. Una bomba dañada o una banda rota causan sobrecalentamiento rápido."
+    },
+    "trap": {
+      "en": "The washer pump for the windshield and the fuel pump share the word \"pump,\" but neither has anything to do with engine temperature.",
+      "es": "La bomba del limpiaparabrisas y la bomba de combustible comparten la palabra \"bomba\", pero ninguna tiene que ver con la temperatura del motor."
+    },
+    "strategyRef": "as.system-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0049",
+    "subtest": "AI",
+    "topic": "cooling",
+    "difficulty": 2,
+    "stem": {
+      "en": "Why is a radiator cap designed to hold the cooling system under pressure, typically around 15 psi?",
+      "es": "¿Por qué la tapa del radiador está diseñada para mantener el sistema bajo presión, típicamente unos 15 psi?"
+    },
+    "choices": [
+      {
+        "en": "To raise the boiling point of the coolant so it stays liquid at higher temperatures",
+        "es": "Para elevar el punto de ebullición del refrigerante y que siga líquido a mayor temperatura"
+      },
+      {
+        "en": "To keep the thermostat closed until the engine is warm",
+        "es": "Para mantener cerrado el termostato hasta que el motor se caliente"
+      },
+      {
+        "en": "To force coolant into the heater core",
+        "es": "Para forzar el refrigerante hacia el núcleo de la calefacción"
+      },
+      {
+        "en": "To keep dust out of the radiator",
+        "es": "Para que no entre polvo al radiador"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Each psi of pressure raises the boiling point roughly 3 degrees F, so a 15-psi cap lets a 50/50 mix run well above 250 degrees F without boiling. Boiling coolant carries away far less heat than liquid, which is why a weak cap can cause overheating.",
+      "es": "Cada psi de presión eleva el punto de ebullición unos 3 grados F, así que una tapa de 15 psi permite que una mezcla 50/50 trabaje muy por encima de 250 grados F sin hervir. El refrigerante hirviendo retira mucho menos calor que el líquido, por eso una tapa débil puede causar sobrecalentamiento."
+    },
+    "trap": {
+      "en": "The water pump moves coolant and a wax pellet opens the thermostat; the cap's pressure has nothing to do with either.",
+      "es": "La bomba mueve el refrigerante y una pastilla de cera abre el termostato; la presión de la tapa no tiene que ver con ninguno."
+    },
+    "strategyRef": "as.system-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0050",
+    "subtest": "AI",
+    "topic": "cooling",
+    "difficulty": 3,
+    "stem": {
+      "en": "The heater blows only cool air even after a long drive, and at the same time the temperature gauge reads higher than normal. What is the most likely cause?",
+      "es": "La calefacción sopla solo aire fresco incluso después de un viaje largo, y al mismo tiempo el indicador de temperatura marca más alto de lo normal. ¿Cuál es la causa más probable?"
+    },
+    "choices": [
+      {
+        "en": "The air-conditioning compressor has seized",
+        "es": "El compresor del aire acondicionado se trabó"
+      },
+      {
+        "en": "The coolant level is low, so the heater core is not filling",
+        "es": "El nivel de refrigerante está bajo, así que el núcleo de la calefacción no se llena"
+      },
+      {
+        "en": "The thermostat is stuck open",
+        "es": "El termostato está pegado abierto"
+      },
+      {
+        "en": "The blower motor has failed",
+        "es": "El motor del ventilador (blower) falló"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "The heater core is a small radiator that sits high in the system; when coolant is low, it is the first part left with air instead of hot liquid, and the shortage also lets the engine run hot. A stuck-open thermostat would give a cold heater but a low gauge, not a high one.",
+      "es": "El núcleo de la calefacción es un radiador pequeño que queda alto en el sistema; cuando falta refrigerante, es la primera pieza que se queda con aire en vez de líquido caliente, y la falta también hace que el motor trabaje caliente. Un termostato pegado abierto daría calefacción fría pero el indicador bajo, no alto."
+    },
+    "trap": {
+      "en": "The stuck-open thermostat is the classic \"cold heater\" answer, but the high gauge reading rules it out; use both symptoms together.",
+      "es": "El termostato pegado abierto es la respuesta clásica de \"calefacción fría\", pero el indicador alto la descarta; usa los dos síntomas juntos."
+    },
+    "strategyRef": "as.symptom-cause",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0051",
+    "subtest": "AI",
+    "topic": "fuel-system",
+    "difficulty": 1,
+    "stem": {
+      "en": "Which part of the fuel system traps rust and dirt particles before they can reach the injectors or carburetor?",
+      "es": "¿Qué parte del sistema de combustible atrapa partículas de óxido y suciedad antes de que lleguen a los inyectores o al carburador?"
+    },
+    "choices": [
+      {
+        "en": "Air filter",
+        "es": "Filtro de aire"
+      },
+      {
+        "en": "Catalytic converter",
+        "es": "Convertidor catalítico"
+      },
+      {
+        "en": "Fuel filter",
+        "es": "Filtro de combustible"
+      },
+      {
+        "en": "Fuel pressure regulator",
+        "es": "Regulador de presión de combustible"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "The filter sits in the line between the tank and the engine. Injector openings are extremely small, so even fine particles can block them, which is why the filter is a scheduled maintenance item.",
+      "es": "El filtro va en la línea entre el tanque y el motor. Los orificios de los inyectores son diminutos, así que hasta partículas finas pueden taparlos; por eso el filtro es un elemento de mantenimiento programado."
+    },
+    "trap": {
+      "en": "The air filter cleans air, not fuel, and the catalytic converter treats gases leaving the engine, not fuel entering it.",
+      "es": "El filtro de aire limpia aire, no combustible, y el convertidor catalítico trata los gases que salen del motor, no el combustible que entra."
+    },
+    "strategyRef": "as.system-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0052",
+    "subtest": "AI",
+    "topic": "fuel-system",
+    "difficulty": 2,
+    "stem": {
+      "en": "What is the purpose of the choke on a carbureted engine?",
+      "es": "¿Para qué sirve el ahogador (choke) en un motor con carburador?"
+    },
+    "choices": [
+      {
+        "en": "To shut off fuel when the ignition is turned off",
+        "es": "Cortar el combustible cuando se apaga el encendido"
+      },
+      {
+        "en": "To keep exhaust gases from flowing back into the intake",
+        "es": "Impedir que los gases de escape regresen a la admisión"
+      },
+      {
+        "en": "To limit engine speed when the throttle is fully open",
+        "es": "Limitar la velocidad del motor cuando el acelerador está a fondo"
+      },
+      {
+        "en": "To restrict airflow so a richer mixture is delivered for cold starting",
+        "es": "Restringir el paso de aire para entregar una mezcla más rica al arrancar en frío"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Cold fuel does not vaporize well, so the engine needs extra fuel to fire. Closing the choke plate above the venturi increases the vacuum that pulls fuel from the bowl. As the engine warms, the choke opens and the mixture leans back out.",
+      "es": "El combustible frío no se vaporiza bien, así que el motor necesita combustible extra para encender. Cerrar la placa del ahogador sobre el venturi aumenta el vacío que saca combustible de la cuba. Al calentarse el motor, el ahogador se abre y la mezcla vuelve a empobrecerse."
+    },
+    "trap": {
+      "en": "The throttle, not the choke, controls engine speed; the choke acts on the mixture, and only while cold.",
+      "es": "El acelerador, no el ahogador, controla la velocidad del motor; el ahogador actúa sobre la mezcla, y solo en frío."
+    },
+    "strategyRef": "as.system-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0053",
+    "subtest": "AI",
+    "topic": "fuel-system",
+    "difficulty": 2,
+    "stem": {
+      "en": "On a fuel-injected engine, what does the fuel pressure regulator do?",
+      "es": "En un motor de inyección, ¿qué hace el regulador de presión de combustible?"
+    },
+    "choices": [
+      {
+        "en": "Holds the fuel-rail pressure at the specified value, routing excess fuel back to the tank",
+        "es": "Mantiene la presión del riel de combustible en el valor especificado y regresa el sobrante al tanque"
+      },
+      {
+        "en": "Warms the fuel in cold weather",
+        "es": "Calienta el combustible en clima frío"
+      },
+      {
+        "en": "Mixes the fuel with air before injection",
+        "es": "Mezcla el combustible con aire antes de inyectarlo"
+      },
+      {
+        "en": "Measures fuel consumption for the dashboard gauge",
+        "es": "Mide el consumo de combustible para el indicador del tablero"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The electric pump delivers more fuel than the engine can use. The regulator is a spring-loaded valve that bleeds off the extra so pressure stays constant; because injectors are opened for a set time, a steady pressure is what makes the delivered amount predictable.",
+      "es": "La bomba eléctrica entrega más combustible del que el motor puede usar. El regulador es una válvula con resorte que deja escapar el exceso para que la presión sea constante; como los inyectores se abren por un tiempo fijo, una presión estable es lo que hace predecible la cantidad entregada."
+    },
+    "trap": {
+      "en": "The injectors, not the regulator, meter fuel; the regulator only sets the pressure they work against.",
+      "es": "Los inyectores, no el regulador, dosifican el combustible; el regulador solo fija la presión con la que trabajan."
+    },
+    "strategyRef": "as.system-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0054",
+    "subtest": "AI",
+    "topic": "four-stroke",
+    "difficulty": 1,
+    "stem": {
+      "en": "During which stroke does the rising piston push burned gases out through the open exhaust valve?",
+      "es": "¿En qué tiempo el pistón sube y empuja los gases quemados hacia afuera por la válvula de escape abierta?"
+    },
+    "choices": [
+      {
+        "en": "Power",
+        "es": "Explosión (potencia)"
+      },
+      {
+        "en": "Exhaust",
+        "es": "Escape"
+      },
+      {
+        "en": "Intake",
+        "es": "Admisión"
+      },
+      {
+        "en": "Compression",
+        "es": "Compresión"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "The cycle is intake, compression, power, exhaust. On the fourth stroke the exhaust valve opens and the piston sweeps the spent gases out so fresh mixture can enter on the next intake stroke.",
+      "es": "El ciclo es admisión, compresión, explosión y escape. En el cuarto tiempo se abre la válvula de escape y el pistón barre los gases quemados para que entre mezcla fresca en la siguiente admisión."
+    },
+    "trap": {
+      "en": "Compression is the other stroke where the piston rises, but both valves are closed then; the open exhaust valve is the giveaway.",
+      "es": "La compresión es el otro tiempo en que el pistón sube, pero ahí las dos válvulas están cerradas; la válvula de escape abierta es la pista."
+    },
+    "strategyRef": "as.four-stroke",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0055",
+    "subtest": "AI",
+    "topic": "four-stroke",
+    "difficulty": 3,
+    "stem": {
+      "en": "In one complete four-stroke cycle of a single cylinder, how many revolutions do the crankshaft and camshaft each make?",
+      "es": "En un ciclo completo de cuatro tiempos de un cilindro, ¿cuántas vueltas dan el cigüeñal y el árbol de levas respectivamente?"
+    },
+    "choices": [
+      {
+        "en": "Crankshaft four revolutions, camshaft two revolutions",
+        "es": "Cigüeñal cuatro vueltas, árbol de levas dos vueltas"
+      },
+      {
+        "en": "Crankshaft two revolutions, camshaft two revolutions",
+        "es": "Cigüeñal dos vueltas, árbol de levas dos vueltas"
+      },
+      {
+        "en": "Crankshaft two revolutions, camshaft one revolution",
+        "es": "Cigüeñal dos vueltas, árbol de levas una vuelta"
+      },
+      {
+        "en": "Crankshaft one revolution, camshaft one revolution",
+        "es": "Cigüeñal una vuelta, árbol de levas una vuelta"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Each stroke is a half turn of the crank, so four strokes take two turns. Each valve must open once per cycle, so the cam turns once, which is why the cam gear has twice as many teeth as the crank gear.",
+      "es": "Cada tiempo es media vuelta del cigüeñal, así que cuatro tiempos son dos vueltas. Cada válvula debe abrir una vez por ciclo, así que el árbol de levas gira una vez; por eso el engrane del árbol tiene el doble de dientes que el del cigüeñal."
+    },
+    "trap": {
+      "en": "Counting four strokes as four turns is the common slip; remember a stroke is one piston travel, which is only half a crank revolution.",
+      "es": "Contar cuatro tiempos como cuatro vueltas es el error común; recuerda que un tiempo es un recorrido del pistón, apenas media vuelta del cigüeñal."
+    },
+    "strategyRef": "as.four-stroke",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0056",
+    "subtest": "AI",
+    "topic": "engine-parts",
+    "difficulty": 2,
+    "stem": {
+      "en": "What is the main purpose of the piston rings?",
+      "es": "¿Cuál es la función principal de los anillos del pistón?"
+    },
+    "choices": [
+      {
+        "en": "To open and close the valves",
+        "es": "Abrir y cerrar las válvulas"
+      },
+      {
+        "en": "To dampen crankshaft vibration",
+        "es": "Amortiguar la vibración del cigüeñal"
+      },
+      {
+        "en": "To connect the piston to the connecting rod",
+        "es": "Conectar el pistón con la biela"
+      },
+      {
+        "en": "To seal combustion pressure between the piston and cylinder wall and control the oil film",
+        "es": "Sellar la presión de combustión entre el pistón y la pared del cilindro y controlar la película de aceite"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Compression rings keep the expanding gases pushing on the piston instead of leaking into the crankcase; the oil control ring scrapes excess oil back down. Worn rings cause low compression, oil burning and blow-by.",
+      "es": "Los anillos de compresión mantienen los gases en expansión empujando el pistón en lugar de fugarse al cárter; el anillo de aceite raspa el exceso hacia abajo. Los anillos gastados causan baja compresión, quema de aceite y blow-by."
+    },
+    "trap": {
+      "en": "The wrist pin, not the rings, links piston to rod; rings ride in grooves around the piston's outer surface.",
+      "es": "El perno (wrist pin), no los anillos, une el pistón con la biela; los anillos van en ranuras alrededor de la superficie exterior del pistón."
+    },
+    "strategyRef": "as.system-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0057",
+    "subtest": "AI",
+    "topic": "engine-parts",
+    "difficulty": 2,
+    "stem": {
+      "en": "Which heavy disc bolted to the rear of the crankshaft smooths out the power pulses between firings and carries the ring gear the starter engages?",
+      "es": "¿Qué disco pesado atornillado a la parte trasera del cigüeñal suaviza los pulsos de potencia entre encendidos y lleva la corona dentada que engrana el motor de arranque?"
+    },
+    "choices": [
+      {
+        "en": "Flywheel",
+        "es": "Volante (flywheel)"
+      },
+      {
+        "en": "Torque converter",
+        "es": "Convertidor de torque"
+      },
+      {
+        "en": "Harmonic balancer",
+        "es": "Amortiguador de vibraciones (harmonic balancer)"
+      },
+      {
+        "en": "Camshaft sprocket",
+        "es": "Engrane del árbol de levas"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The flywheel stores rotating energy so the crank keeps turning steadily between power strokes, and in a manual car it also serves as the clutch friction surface. On an automatic the same starter ring gear rides on a thin flexplate.",
+      "es": "El volante almacena energía de giro para que el cigüeñal siga girando parejo entre tiempos de explosión, y en un auto manual también es la superficie de fricción del clutch. En un automático la misma corona va en una placa flexible (flexplate)."
+    },
+    "trap": {
+      "en": "The harmonic balancer is also a heavy disc on the crank, but it sits at the front and damps twisting vibration; it has no ring gear.",
+      "es": "El amortiguador de vibraciones también es un disco pesado en el cigüeñal, pero va adelante y amortigua la vibración torsional; no tiene corona dentada."
+    },
+    "strategyRef": "as.system-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0058",
+    "subtest": "AI",
+    "topic": "ignition-electrical",
+    "difficulty": 2,
+    "stem": {
+      "en": "What is the job of the ignition coil?",
+      "es": "¿Cuál es la función de la bobina de encendido?"
+    },
+    "choices": [
+      {
+        "en": "To cool the spark plugs between firings",
+        "es": "Enfriar las bujías entre encendidos"
+      },
+      {
+        "en": "To step the 12-volt supply up to tens of thousands of volts so a spark can jump the plug gap",
+        "es": "Elevar los 12 voltios a decenas de miles de voltios para que la chispa salte el espacio de la bujía"
+      },
+      {
+        "en": "To store electricity for starting the engine",
+        "es": "Almacenar electricidad para arrancar el motor"
+      },
+      {
+        "en": "To regulate the alternator's output voltage",
+        "es": "Regular el voltaje de salida del alternador"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "The coil is a transformer: current in the primary winding builds a magnetic field, and when that current is switched off the field collapses and induces a very high voltage in the secondary winding. That pulse travels to the spark plug.",
+      "es": "La bobina es un transformador: la corriente en el devanado primario crea un campo magnético, y al cortarse esa corriente el campo colapsa e induce un voltaje muy alto en el secundario. Ese pulso viaja a la bujía."
+    },
+    "trap": {
+      "en": "Storing energy is the battery's role and regulating charge is the voltage regulator's; the coil transforms voltage rather than storing it.",
+      "es": "Almacenar energía es tarea de la batería y regular la carga del regulador de voltaje; la bobina transforma el voltaje, no lo almacena."
+    },
+    "strategyRef": "as.system-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0059",
+    "subtest": "AI",
+    "topic": "drivetrain",
+    "difficulty": 2,
+    "stem": {
+      "en": "In a rear-wheel-drive car, which part carries power from the transmission to the rear axle assembly?",
+      "es": "En un auto de tracción trasera, ¿qué pieza lleva la potencia de la transmisión al conjunto del eje trasero?"
+    },
+    "choices": [
+      {
+        "en": "Steering shaft",
+        "es": "Columna de dirección"
+      },
+      {
+        "en": "Torque converter",
+        "es": "Convertidor de torque"
+      },
+      {
+        "en": "Driveshaft (propeller shaft)",
+        "es": "Flecha cardán (driveshaft)"
+      },
+      {
+        "en": "Timing chain",
+        "es": "Cadena de tiempo"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "The driveshaft is a long tube with a universal joint at each end so it can keep spinning as the rear axle moves up and down on the suspension. The differential at the axle then splits the power between the two wheels.",
+      "es": "La flecha cardán es un tubo largo con una junta universal en cada extremo para seguir girando mientras el eje trasero sube y baja con la suspensión. El diferencial en el eje reparte luego la potencia entre las dos ruedas."
+    },
+    "trap": {
+      "en": "The torque converter is part of the drivetrain but sits between the engine and an automatic transmission, before the power leaves the transmission.",
+      "es": "El convertidor de torque es parte del tren motriz pero va entre el motor y la transmisión automática, antes de que la potencia salga de la transmisión."
+    },
+    "strategyRef": "as.system-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0060",
+    "subtest": "AI",
+    "topic": "drivetrain",
+    "difficulty": 2,
+    "stem": {
+      "en": "What does the torque converter in an automatic transmission do?",
+      "es": "¿Qué hace el convertidor de torque en una transmisión automática?"
+    },
+    "choices": [
+      {
+        "en": "Locks the differential for better traction",
+        "es": "Bloquea el diferencial para mejor tracción"
+      },
+      {
+        "en": "Boosts hydraulic pressure for the brakes",
+        "es": "Aumenta la presión hidráulica de los frenos"
+      },
+      {
+        "en": "Converts battery voltage into torque for the starter",
+        "es": "Convierte el voltaje de la batería en torque para el arranque"
+      },
+      {
+        "en": "Uses fluid to transfer engine power to the transmission, letting the engine idle while the car is stopped in gear",
+        "es": "Usa fluido para transmitir la potencia del motor a la transmisión y deja que el motor esté en ralentí con el auto detenido en marcha"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "A pump fan driven by the engine throws fluid at a turbine connected to the transmission. At idle the fluid slips, so nothing stalls; as engine speed rises the coupling tightens and the stator even multiplies torque. It replaces the clutch of a manual car.",
+      "es": "Una bomba movida por el motor lanza fluido contra una turbina conectada a la transmisión. En ralentí el fluido patina y nada se ahoga; al subir las rpm el acoplamiento se aprieta y el estator incluso multiplica el torque. Sustituye el clutch de un auto manual."
+    },
+    "trap": {
+      "en": "The word \"converter\" invites the electrical answer, but the device is purely hydraulic and sits in the bell housing.",
+      "es": "La palabra \"convertidor\" invita a la respuesta eléctrica, pero el dispositivo es puramente hidráulico y va en la campana de la transmisión."
+    },
+    "strategyRef": "as.system-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0061",
+    "subtest": "AI",
+    "topic": "brakes",
+    "difficulty": 1,
+    "stem": {
+      "en": "In a drum brake, what are the curved friction parts that press outward against the inside of the drum called?",
+      "es": "En un freno de tambor, ¿cómo se llaman las piezas curvas de fricción que se abren contra el interior del tambor?"
+    },
+    "choices": [
+      {
+        "en": "Brake shoes",
+        "es": "Zapatas (brake shoes)"
+      },
+      {
+        "en": "Rotors",
+        "es": "Discos (rotors)"
+      },
+      {
+        "en": "Brake pads",
+        "es": "Pastillas de freno"
+      },
+      {
+        "en": "Calipers",
+        "es": "Cálipers (mordazas)"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "A wheel cylinder pushes the two shoes apart so their linings rub the spinning drum. Pads, calipers and rotors are the equivalent parts of a disc brake.",
+      "es": "Un cilindro de rueda separa las dos zapatas para que sus forros rocen el tambor que gira. Pastillas, cálipers y discos son las piezas equivalentes de un freno de disco."
+    },
+    "trap": {
+      "en": "Pads and shoes both carry friction lining, but pads squeeze a disc from the outside while shoes push a drum from the inside.",
+      "es": "Pastillas y zapatas llevan forro de fricción, pero las pastillas aprietan un disco por fuera y las zapatas empujan un tambor por dentro."
+    },
+    "strategyRef": "as.system-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0062",
+    "subtest": "AI",
+    "topic": "brakes",
+    "difficulty": 3,
+    "stem": {
+      "en": "While stopped at a light with steady foot pressure, the brake pedal slowly sinks toward the floor. No fluid leak is visible anywhere. What is the most likely cause?",
+      "es": "Detenido en un semáforo con presión constante del pie, el pedal de freno se hunde lentamente hacia el piso. No se ve ninguna fuga. ¿Cuál es la causa más probable?"
+    },
+    "choices": [
+      {
+        "en": "The ABS is activating",
+        "es": "El ABS se está activando"
+      },
+      {
+        "en": "The master cylinder is leaking internally, letting fluid bypass its piston seals",
+        "es": "El cilindro maestro tiene fuga interna y el fluido pasa por los sellos del pistón"
+      },
+      {
+        "en": "Air trapped in the brake lines",
+        "es": "Aire atrapado en las líneas de freno"
+      },
+      {
+        "en": "Worn brake pads",
+        "es": "Pastillas de freno gastadas"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "When the seals inside the master cylinder wear, fluid seeps past them back toward the reservoir instead of holding pressure, so the pedal creeps down without any fluid leaving the system. Air makes a pedal spongy, not sinking, and worn pads give a low but firm pedal.",
+      "es": "Cuando los sellos internos del cilindro maestro se desgastan, el fluido se cuela hacia el depósito en lugar de mantener la presión, así que el pedal baja despacio sin que salga fluido del sistema. El aire hace un pedal esponjoso, no que se hunde, y las pastillas gastadas dan un pedal bajo pero firme."
+    },
+    "trap": {
+      "en": "The absence of an external leak is what separates this from a line or wheel-cylinder leak; the fluid is going backward, not out.",
+      "es": "La ausencia de fuga externa es lo que distingue esto de una fuga en línea o cilindro de rueda; el fluido regresa, no sale."
+    },
+    "strategyRef": "as.symptom-cause",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0063",
+    "subtest": "AI",
+    "topic": "steering-suspension",
+    "difficulty": 1,
+    "stem": {
+      "en": "What is the main function of the springs in a car's suspension?",
+      "es": "¿Cuál es la función principal de los resortes de la suspensión de un auto?"
+    },
+    "choices": [
+      {
+        "en": "To turn the wheels when the steering wheel moves",
+        "es": "Girar las ruedas cuando se mueve el volante"
+      },
+      {
+        "en": "To keep the wheels pointed straight ahead",
+        "es": "Mantener las ruedas apuntando al frente"
+      },
+      {
+        "en": "To support the vehicle's weight and absorb the impact of bumps",
+        "es": "Soportar el peso del vehículo y absorber el impacto de los baches"
+      },
+      {
+        "en": "To stop the body from bouncing after a bump",
+        "es": "Detener el rebote de la carrocería después de un bache"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Coil, leaf or torsion-bar springs carry the load and let the wheel move up over a bump. Shock absorbers do the separate job of damping the spring's bounce; steering parts handle direction.",
+      "es": "Los resortes helicoidales, de hojas o barras de torsión cargan el peso y dejan que la rueda suba sobre el bache. Los amortiguadores hacen el trabajo aparte de frenar el rebote del resorte; las piezas de dirección se encargan de la orientación."
+    },
+    "trap": {
+      "en": "Stopping the bounce sounds like a spring job, but that is exactly what shocks and struts are for.",
+      "es": "Detener el rebote suena a trabajo del resorte, pero para eso están precisamente los amortiguadores."
+    },
+    "strategyRef": "as.system-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0064",
+    "subtest": "AI",
+    "topic": "steering-suspension",
+    "difficulty": 2,
+    "stem": {
+      "en": "In rack-and-pinion steering, what happens when the driver turns the steering wheel?",
+      "es": "En una dirección de cremallera (rack-and-pinion), ¿qué ocurre cuando el conductor gira el volante?"
+    },
+    "choices": [
+      {
+        "en": "A cable tightens to pull one wheel inward",
+        "es": "Un cable se tensa para jalar una rueda hacia adentro"
+      },
+      {
+        "en": "A worm gear moves a pitman arm that swings the steering linkage",
+        "es": "Un tornillo sinfín mueve un brazo pitman que desplaza las varillas"
+      },
+      {
+        "en": "Hydraulic fluid is pumped to cylinders at each wheel",
+        "es": "Se bombea fluido hidráulico a cilindros en cada rueda"
+      },
+      {
+        "en": "A small pinion gear rotates and slides a toothed bar sideways, pushing the tie rods",
+        "es": "Un piñón pequeño gira y desliza lateralmente una barra dentada que empuja las varillas (tie rods)"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "The pinion on the end of the steering shaft meshes with the rack; turning it converts rotation into straight-line motion, and the tie rods at each end of the rack turn the wheels. The worm-and-pitman-arm description is the older recirculating-ball design.",
+      "es": "El piñón al final de la columna engrana con la cremallera; al girar convierte la rotación en movimiento lineal, y las varillas en cada extremo de la cremallera giran las ruedas. La descripción del sinfín y brazo pitman corresponde al diseño antiguo de bolas recirculantes."
+    },
+    "trap": {
+      "en": "Power steering only assists the rack with fluid; it does not replace the gear action, and there are no cylinders at the wheels.",
+      "es": "La dirección hidráulica solo asiste a la cremallera con fluido; no reemplaza la acción del engrane, y no hay cilindros en las ruedas."
+    },
+    "strategyRef": "as.system-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ai-0065",
+    "subtest": "AI",
+    "topic": "steering-suspension",
+    "difficulty": 3,
+    "stem": {
+      "en": "In wheel alignment, what does \"toe\" describe?",
+      "es": "En la alineación de ruedas, ¿qué describe la convergencia (toe)?"
+    },
+    "choices": [
+      {
+        "en": "The difference in distance between the front edges and the rear edges of a pair of tires, seen from above",
+        "es": "La diferencia de distancia entre los bordes delanteros y traseros de un par de llantas, vista desde arriba"
+      },
+      {
+        "en": "The inward or outward tilt of the top of the tire, seen from the front",
+        "es": "La inclinación hacia adentro o afuera de la parte alta de la llanta, vista de frente"
+      },
+      {
+        "en": "The forward or backward tilt of the steering axis, seen from the side",
+        "es": "La inclinación hacia adelante o atrás del eje de dirección, vista de lado"
+      },
+      {
+        "en": "The height of the vehicle above the ground",
+        "es": "La altura del vehículo sobre el suelo"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Toe-in means the fronts of the tires are closer together than the rears; toe-out is the opposite. Even a small toe error drags the tires sideways every mile and scrubs a feathered wear pattern into the tread. Camber is the tilt seen from the front and caster is the tilt seen from the side.",
+      "es": "Convergencia positiva significa que el frente de las llantas está más junto que la parte trasera; la divergencia es lo contrario. Hasta un error pequeño arrastra las llantas de lado en cada milla y deja un desgaste en forma de plumas. Camber es la inclinación vista de frente y caster la inclinación vista de lado."
+    },
+    "trap": {
+      "en": "All three angles are alignment settings, so the question is really about which view each is measured from.",
+      "es": "Los tres ángulos son ajustes de alineación, así que la pregunta en realidad es desde qué vista se mide cada uno."
+    },
+    "strategyRef": "as.domain-elimination",
+    "source": "original",
+    "version": 1
+  }
+]

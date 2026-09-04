@@ -1,0 +1,3202 @@
+[
+  {
+    "id": "gs-0001",
+    "subtest": "GS",
+    "topic": "cells",
+    "difficulty": 2,
+    "stem": {
+      "en": "Which part of the cell contains the genetic material in a plant or animal cell?",
+      "es": "¿Qué parte de la célula contiene el material genético en una célula vegetal o animal?"
+    },
+    "choices": [
+      {
+        "en": "Ribosome",
+        "es": "Ribosoma"
+      },
+      {
+        "en": "Nucleus",
+        "es": "Núcleo"
+      },
+      {
+        "en": "Cell wall",
+        "es": "Pared celular"
+      },
+      {
+        "en": "Mitochondrion",
+        "es": "Mitocondria"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "The nucleus holds the chromosomes (DNA). Ribosomes build proteins, mitochondria release energy, and only plant cells have a cell wall.",
+      "es": "El núcleo contiene los cromosomas (ADN). Los ribosomas fabrican proteínas, las mitocondrias liberan energía y solo las células vegetales tienen pared celular."
+    },
+    "trap": {
+      "en": "\"Mitochondrion\" is the popular distractor: it is the powerhouse, not the library.",
+      "es": "\"Mitocondria\" es el distractor típico: es la central de energía, no la biblioteca."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0002",
+    "subtest": "GS",
+    "topic": "physical-science",
+    "difficulty": 3,
+    "stem": {
+      "en": "At sea level, water boils at",
+      "es": "A nivel del mar, el agua hierve a"
+    },
+    "choices": [
+      {
+        "en": "212 °C",
+        "es": "212 °C"
+      },
+      {
+        "en": "100 °F",
+        "es": "100 °F"
+      },
+      {
+        "en": "100 °C",
+        "es": "100 °C"
+      },
+      {
+        "en": "32 °F",
+        "es": "32 °F"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "100 °C = 212 °F is the boiling point; 0 °C = 32 °F is freezing.",
+      "es": "100 °C = 212 °F es el punto de ebullición; 0 °C = 32 °F es la congelación."
+    },
+    "trap": {
+      "en": "Unit trap. Read the unit before the number: \"212 °C\" pairs the right number with the wrong scale.",
+      "es": "Trampa de unidades. Lee la unidad antes que el número: \"212 °C\" junta el número correcto con la escala equivocada."
+    },
+    "strategyRef": "gs.units",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0003",
+    "subtest": "GS",
+    "topic": "cells",
+    "difficulty": 1,
+    "stem": {
+      "en": "Which organelle releases usable energy from glucose during cellular respiration?",
+      "es": "¿Qué organelo libera energía utilizable a partir de la glucosa durante la respiración celular?"
+    },
+    "choices": [
+      {
+        "en": "Nucleus",
+        "es": "Núcleo"
+      },
+      {
+        "en": "Chloroplast",
+        "es": "Cloroplasto"
+      },
+      {
+        "en": "Mitochondrion",
+        "es": "Mitocondria"
+      },
+      {
+        "en": "Vacuole",
+        "es": "Vacuola"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Mitochondria carry out cellular respiration, turning glucose and oxygen into ATP, carbon dioxide and water. Chloroplasts do the opposite job (photosynthesis) and exist only in plant cells.",
+      "es": "Las mitocondrias realizan la respiración celular: convierten glucosa y oxígeno en ATP, dióxido de carbono y agua. Los cloroplastos hacen el trabajo inverso (fotosíntesis) y solo existen en células vegetales."
+    },
+    "trap": {
+      "en": "\"Chloroplast\" is the mirror-image confusion: it captures energy from light; the mitochondrion releases it from food.",
+      "es": "\"Cloroplasto\" es la confusión en espejo: capta energía de la luz; la mitocondria la libera de los alimentos."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0004",
+    "subtest": "GS",
+    "topic": "circulatory-system",
+    "difficulty": 1,
+    "stem": {
+      "en": "Blood vessels that carry blood away from the heart are called",
+      "es": "Los vasos sanguíneos que llevan la sangre desde el corazón hacia el cuerpo se llaman"
+    },
+    "choices": [
+      {
+        "en": "veins",
+        "es": "venas"
+      },
+      {
+        "en": "capillaries",
+        "es": "capilares"
+      },
+      {
+        "en": "lymph vessels",
+        "es": "vasos linfáticos"
+      },
+      {
+        "en": "arteries",
+        "es": "arterias"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Arteries carry blood Away from the heart; veins return it. Capillaries are the tiny vessels where exchange with tissues happens.",
+      "es": "Las arterias llevan la sangre desde el corazón hacia afuera; las venas la devuelven. Los capilares son los vasos diminutos donde ocurre el intercambio con los tejidos."
+    },
+    "trap": {
+      "en": "Do not define arteries by oxygen: the pulmonary artery carries oxygen-poor blood, yet it is still an artery because of direction.",
+      "es": "No definas las arterias por el oxígeno: la arteria pulmonar lleva sangre pobre en oxígeno y sigue siendo arteria por su dirección."
+    },
+    "strategyRef": "gs.mnemonic",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0005",
+    "subtest": "GS",
+    "topic": "blood",
+    "difficulty": 1,
+    "stem": {
+      "en": "Which component of blood is responsible for transporting oxygen to the tissues?",
+      "es": "¿Qué componente de la sangre se encarga de transportar oxígeno a los tejidos?"
+    },
+    "choices": [
+      {
+        "en": "Red blood cells",
+        "es": "Glóbulos rojos"
+      },
+      {
+        "en": "White blood cells",
+        "es": "Glóbulos blancos"
+      },
+      {
+        "en": "Platelets",
+        "es": "Plaquetas"
+      },
+      {
+        "en": "Plasma",
+        "es": "Plasma"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Red blood cells contain hemoglobin, the iron-rich protein that binds oxygen. White cells fight infection, platelets start clotting, and plasma is the liquid that carries everything.",
+      "es": "Los glóbulos rojos contienen hemoglobina, la proteína rica en hierro que se une al oxígeno. Los glóbulos blancos combaten infecciones, las plaquetas inician la coagulación y el plasma es el líquido que transporta todo."
+    },
+    "trap": {
+      "en": "\"Plasma\" tempts because it does carry dissolved gases, but the oxygen supply to tissues is almost entirely hemoglobin in red cells.",
+      "es": "\"Plasma\" tienta porque sí transporta gases disueltos, pero el oxígeno para los tejidos viaja casi por completo en la hemoglobina de los glóbulos rojos."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0006",
+    "subtest": "GS",
+    "topic": "digestion",
+    "difficulty": 2,
+    "stem": {
+      "en": "Most absorption of digested nutrients into the bloodstream takes place in the",
+      "es": "La mayor parte de la absorción de nutrientes digeridos hacia la sangre ocurre en"
+    },
+    "choices": [
+      {
+        "en": "stomach",
+        "es": "el estómago"
+      },
+      {
+        "en": "small intestine",
+        "es": "el intestino delgado"
+      },
+      {
+        "en": "large intestine",
+        "es": "el intestino grueso"
+      },
+      {
+        "en": "esophagus",
+        "es": "el esófago"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "The small intestine is long and lined with villi, giving a huge surface area for absorption. The stomach mainly mixes and begins protein digestion; the large intestine mostly reabsorbs water.",
+      "es": "El intestino delgado es largo y está revestido de vellosidades, lo que le da una enorme superficie de absorción. El estómago principalmente mezcla e inicia la digestión de proteínas; el intestino grueso sobre todo reabsorbe agua."
+    },
+    "trap": {
+      "en": "\"Large intestine\" sounds like it should do the big job, but its main role is water reabsorption, not nutrient uptake.",
+      "es": "\"Intestino grueso\" suena a que hace el trabajo grande, pero su función principal es reabsorber agua, no captar nutrientes."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0007",
+    "subtest": "GS",
+    "topic": "digestion",
+    "difficulty": 3,
+    "stem": {
+      "en": "The enzyme in saliva (amylase) begins the digestion of which type of nutrient?",
+      "es": "La enzima de la saliva (amilasa) inicia la digestión de ¿qué tipo de nutriente?"
+    },
+    "choices": [
+      {
+        "en": "Protein",
+        "es": "Proteína"
+      },
+      {
+        "en": "Fat",
+        "es": "Grasa"
+      },
+      {
+        "en": "Vitamins",
+        "es": "Vitaminas"
+      },
+      {
+        "en": "Starch (carbohydrate)",
+        "es": "Almidón (carbohidrato)"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Salivary amylase breaks starch into smaller sugars, which is why a cracker starts to taste sweet if you chew it long enough. Protein digestion begins in the stomach and fat digestion mainly in the small intestine.",
+      "es": "La amilasa salival rompe el almidón en azúcares más pequeños; por eso una galleta salada empieza a saber dulce si la masticas mucho. La digestión de proteínas comienza en el estómago y la de grasas principalmente en el intestino delgado."
+    },
+    "trap": {
+      "en": "\"Protein\" is the trap: students remember that the stomach's acid and pepsin digest protein and assume the mouth starts the same job.",
+      "es": "\"Proteína\" es la trampa: se recuerda que el ácido y la pepsina del estómago digieren proteínas y se supone que la boca empieza ese mismo trabajo."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0008",
+    "subtest": "GS",
+    "topic": "genetics",
+    "difficulty": 3,
+    "stem": {
+      "en": "In pea plants, tall (T) is dominant over short (t). If two heterozygous plants (Tt × Tt) are crossed, what fraction of the offspring is expected to be short?",
+      "es": "En las plantas de guisante, alto (T) es dominante sobre bajo (t). Si se cruzan dos plantas heterocigotas (Tt × Tt), ¿qué fracción de la descendencia se espera que sea baja?"
+    },
+    "choices": [
+      {
+        "en": "1/2",
+        "es": "1/2"
+      },
+      {
+        "en": "3/4",
+        "es": "3/4"
+      },
+      {
+        "en": "1/4",
+        "es": "1/4"
+      },
+      {
+        "en": "0",
+        "es": "0"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "A Punnett square for Tt × Tt gives TT, Tt, Tt, tt. Only tt is short: 1 of 4. Three of four show the dominant tall trait.",
+      "es": "El cuadro de Punnett para Tt × Tt da TT, Tt, Tt, tt. Solo tt es bajo: 1 de 4. Tres de cada cuatro muestran el rasgo dominante alto."
+    },
+    "trap": {
+      "en": "\"3/4\" is the fraction of tall plants. Read which phenotype the question asks for before answering.",
+      "es": "\"3/4\" es la fracción de plantas altas. Lee qué fenotipo pregunta el enunciado antes de responder."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0009",
+    "subtest": "GS",
+    "topic": "genetics",
+    "difficulty": 2,
+    "stem": {
+      "en": "An organism described as heterozygous for a trait has",
+      "es": "Un organismo descrito como heterocigoto para un rasgo tiene"
+    },
+    "choices": [
+      {
+        "en": "two identical alleles for that gene",
+        "es": "dos alelos idénticos para ese gen"
+      },
+      {
+        "en": "two different alleles for that gene",
+        "es": "dos alelos diferentes para ese gen"
+      },
+      {
+        "en": "only one copy of the chromosome",
+        "es": "una sola copia del cromosoma"
+      },
+      {
+        "en": "a trait that cannot be expressed",
+        "es": "un rasgo que no puede expresarse"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Hetero- means \"different\": one dominant and one recessive allele, such as Tt. Homozygous (homo- = same) means TT or tt.",
+      "es": "Hetero- significa \"diferente\": un alelo dominante y uno recesivo, como Tt. Homocigoto (homo- = igual) significa TT o tt."
+    },
+    "trap": {
+      "en": "\"Two identical alleles\" is the definition of homozygous. Use the prefix: hetero = different, homo = same.",
+      "es": "\"Dos alelos idénticos\" es la definición de homocigoto. Usa el prefijo: hetero = diferente, homo = igual."
+    },
+    "strategyRef": "gs.mnemonic",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0010",
+    "subtest": "GS",
+    "topic": "taxonomy",
+    "difficulty": 3,
+    "stem": {
+      "en": "In the classification hierarchy, which level comes immediately above genus?",
+      "es": "En la jerarquía de clasificación, ¿qué nivel está inmediatamente por encima de género?"
+    },
+    "choices": [
+      {
+        "en": "Family",
+        "es": "Familia"
+      },
+      {
+        "en": "Order",
+        "es": "Orden"
+      },
+      {
+        "en": "Species",
+        "es": "Especie"
+      },
+      {
+        "en": "Class",
+        "es": "Clase"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "From broad to specific: kingdom, phylum, class, order, family, genus, species. Family sits directly above genus.",
+      "es": "De general a específico: reino, filo, clase, orden, familia, género, especie. Familia está justo encima de género."
+    },
+    "trap": {
+      "en": "\"Species\" is below genus, not above. A mnemonic such as \"King Philip Came Over For Good Soup\" fixes the order.",
+      "es": "\"Especie\" está debajo de género, no encima. Una regla como \"Rey Fiel Cazó Orugas Fritas Gigantes Enteras\" fija el orden."
+    },
+    "strategyRef": "gs.mnemonic",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0011",
+    "subtest": "GS",
+    "topic": "taxonomy",
+    "difficulty": 2,
+    "stem": {
+      "en": "In the scientific name Homo sapiens, the word Homo identifies the organism's",
+      "es": "En el nombre científico Homo sapiens, la palabra Homo identifica el"
+    },
+    "choices": [
+      {
+        "en": "species",
+        "es": "especie del organismo"
+      },
+      {
+        "en": "genus",
+        "es": "género del organismo"
+      },
+      {
+        "en": "family",
+        "es": "familia del organismo"
+      },
+      {
+        "en": "kingdom",
+        "es": "reino del organismo"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Binomial names are written genus first (capitalized) and species second (lowercase). Homo is the genus; sapiens is the species.",
+      "es": "Los nombres binomiales se escriben primero el género (con mayúscula) y luego la especie (con minúscula). Homo es el género; sapiens es la especie."
+    },
+    "trap": {
+      "en": "\"Species\" is the second word, not the first. Capital letter = genus.",
+      "es": "\"Especie\" es la segunda palabra, no la primera. Mayúscula = género."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0012",
+    "subtest": "GS",
+    "topic": "ecology",
+    "difficulty": 1,
+    "stem": {
+      "en": "In the food chain grass → rabbit → fox, the rabbit is a",
+      "es": "En la cadena alimentaria pasto → conejo → zorro, el conejo es un"
+    },
+    "choices": [
+      {
+        "en": "primary consumer",
+        "es": "consumidor primario"
+      },
+      {
+        "en": "producer",
+        "es": "productor"
+      },
+      {
+        "en": "secondary consumer",
+        "es": "consumidor secundario"
+      },
+      {
+        "en": "decomposer",
+        "es": "descomponedor"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Producers (grass) make their own food. The first animal that eats them is the primary consumer; the animal that eats that one is the secondary consumer.",
+      "es": "Los productores (pasto) fabrican su propio alimento. El primer animal que los come es el consumidor primario; el que se come a ese es el consumidor secundario."
+    },
+    "trap": {
+      "en": "\"Secondary consumer\" is the fox. Count links from the producer: first eater = primary.",
+      "es": "\"Consumidor secundario\" es el zorro. Cuenta eslabones desde el productor: el primero que come = primario."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0013",
+    "subtest": "GS",
+    "topic": "ecology",
+    "difficulty": 1,
+    "stem": {
+      "en": "Which group of organisms breaks down dead plants and animals, returning nutrients to the soil?",
+      "es": "¿Qué grupo de organismos descompone plantas y animales muertos, devolviendo nutrientes al suelo?"
+    },
+    "choices": [
+      {
+        "en": "Producers such as grasses",
+        "es": "Productores como los pastos"
+      },
+      {
+        "en": "Herbivores such as deer",
+        "es": "Herbívoros como los ciervos"
+      },
+      {
+        "en": "Carnivores such as wolves",
+        "es": "Carnívoros como los lobos"
+      },
+      {
+        "en": "Decomposers such as fungi and bacteria",
+        "es": "Descomponedores como hongos y bacterias"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Decomposers recycle matter by breaking dead material into simple nutrients that producers can reuse. Without them, nutrients would stay locked in dead bodies.",
+      "es": "Los descomponedores reciclan la materia al convertir el material muerto en nutrientes simples que los productores pueden reutilizar. Sin ellos, los nutrientes quedarían atrapados en los cuerpos muertos."
+    },
+    "trap": {
+      "en": "Scavengers (vultures) eat dead animals too, but the choices here name the true recyclers: fungi and bacteria.",
+      "es": "Los carroñeros (buitres) también comen animales muertos, pero las opciones aquí nombran a los verdaderos recicladores: hongos y bacterias."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0014",
+    "subtest": "GS",
+    "topic": "photosynthesis",
+    "difficulty": 1,
+    "stem": {
+      "en": "Which gas do green plants release into the air as a product of photosynthesis?",
+      "es": "¿Qué gas liberan las plantas verdes al aire como producto de la fotosíntesis?"
+    },
+    "choices": [
+      {
+        "en": "Carbon dioxide",
+        "es": "Dióxido de carbono"
+      },
+      {
+        "en": "Nitrogen",
+        "es": "Nitrógeno"
+      },
+      {
+        "en": "Oxygen",
+        "es": "Oxígeno"
+      },
+      {
+        "en": "Hydrogen",
+        "es": "Hidrógeno"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Photosynthesis: carbon dioxide + water + light energy → glucose + oxygen. Plants take in CO₂ and give off O₂.",
+      "es": "Fotosíntesis: dióxido de carbono + agua + energía luminosa → glucosa + oxígeno. Las plantas absorben CO₂ y liberan O₂."
+    },
+    "trap": {
+      "en": "\"Carbon dioxide\" is what plants take in for photosynthesis (and what animals breathe out), not what they release.",
+      "es": "\"Dióxido de carbono\" es lo que las plantas absorben para la fotosíntesis (y lo que exhalan los animales), no lo que liberan."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0015",
+    "subtest": "GS",
+    "topic": "photosynthesis",
+    "difficulty": 2,
+    "stem": {
+      "en": "Which pair lists the raw materials a plant uses to build glucose during photosynthesis?",
+      "es": "¿Qué par indica las materias primas que usa una planta para fabricar glucosa durante la fotosíntesis?"
+    },
+    "choices": [
+      {
+        "en": "Carbon dioxide and water",
+        "es": "Dióxido de carbono y agua"
+      },
+      {
+        "en": "Oxygen and glucose",
+        "es": "Oxígeno y glucosa"
+      },
+      {
+        "en": "Oxygen and water",
+        "es": "Oxígeno y agua"
+      },
+      {
+        "en": "Nitrogen and glucose",
+        "es": "Nitrógeno y glucosa"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Plants combine CO₂ (from air) and H₂O (from soil) using light energy captured by chlorophyll. Glucose and oxygen are the products, not the inputs.",
+      "es": "Las plantas combinan CO₂ (del aire) y H₂O (del suelo) usando la energía luminosa que capta la clorofila. La glucosa y el oxígeno son los productos, no los insumos."
+    },
+    "trap": {
+      "en": "\"Oxygen and glucose\" reverses the equation: those are the outputs of photosynthesis and the inputs of respiration.",
+      "es": "\"Oxígeno y glucosa\" invierte la ecuación: esos son los productos de la fotosíntesis y los insumos de la respiración."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0016",
+    "subtest": "GS",
+    "topic": "nutrition",
+    "difficulty": 2,
+    "stem": {
+      "en": "A long-term shortage of which vitamin causes scurvy, marked by bleeding gums and poor wound healing?",
+      "es": "La falta prolongada de ¿qué vitamina causa escorbuto, con encías sangrantes y mala cicatrización?"
+    },
+    "choices": [
+      {
+        "en": "Vitamin A",
+        "es": "Vitamina A"
+      },
+      {
+        "en": "Vitamin C",
+        "es": "Vitamina C"
+      },
+      {
+        "en": "Vitamin D",
+        "es": "Vitamina D"
+      },
+      {
+        "en": "Vitamin K",
+        "es": "Vitamina K"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Vitamin C is needed to make collagen; without it, gums, skin and blood vessels weaken. Sailors historically prevented scurvy with citrus fruit.",
+      "es": "La vitamina C es necesaria para producir colágeno; sin ella, las encías, la piel y los vasos sanguíneos se debilitan. Históricamente, los marineros evitaban el escorbuto con cítricos."
+    },
+    "trap": {
+      "en": "\"Vitamin K\" tempts because it relates to blood clotting, but scurvy is a collagen problem, not a clotting-factor problem.",
+      "es": "\"Vitamina K\" tienta porque se relaciona con la coagulación, pero el escorbuto es un problema de colágeno, no de factores de coagulación."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0017",
+    "subtest": "GS",
+    "topic": "body-systems",
+    "difficulty": 3,
+    "stem": {
+      "en": "Which organ produces the hormone insulin, which lowers blood sugar?",
+      "es": "¿Qué órgano produce la hormona insulina, que reduce el azúcar en la sangre?"
+    },
+    "choices": [
+      {
+        "en": "Liver",
+        "es": "Hígado"
+      },
+      {
+        "en": "Kidney",
+        "es": "Riñón"
+      },
+      {
+        "en": "Pancreas",
+        "es": "Páncreas"
+      },
+      {
+        "en": "Gallbladder",
+        "es": "Vesícula biliar"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "The pancreas has islet cells that secrete insulin and glucagon. The liver stores glucose as glycogen in response to insulin, but it does not make the hormone.",
+      "es": "El páncreas tiene células de los islotes que secretan insulina y glucagón. El hígado almacena glucosa como glucógeno en respuesta a la insulina, pero no fabrica la hormona."
+    },
+    "trap": {
+      "en": "\"Liver\" is the common mix-up: it responds to insulin and stores sugar, but the pancreas is the producer.",
+      "es": "\"Hígado\" es la confusión común: responde a la insulina y almacena azúcar, pero el productor es el páncreas."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0018",
+    "subtest": "GS",
+    "topic": "atoms",
+    "difficulty": 1,
+    "stem": {
+      "en": "Which subatomic particle carries a negative electric charge?",
+      "es": "¿Qué partícula subatómica tiene carga eléctrica negativa?"
+    },
+    "choices": [
+      {
+        "en": "Proton",
+        "es": "Protón"
+      },
+      {
+        "en": "Neutron",
+        "es": "Neutrón"
+      },
+      {
+        "en": "Nucleus",
+        "es": "Núcleo"
+      },
+      {
+        "en": "Electron",
+        "es": "Electrón"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Electrons (−) orbit the nucleus; protons (+) and neutrons (no charge) make up the nucleus.",
+      "es": "Los electrones (−) orbitan el núcleo; los protones (+) y los neutrones (sin carga) forman el núcleo."
+    },
+    "trap": {
+      "en": "\"Neutron\" is the no-charge particle: the name itself says neutral.",
+      "es": "\"Neutrón\" es la partícula sin carga: el propio nombre dice neutro."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0019",
+    "subtest": "GS",
+    "topic": "atoms",
+    "difficulty": 3,
+    "stem": {
+      "en": "An atom has 6 protons, 6 neutrons and 6 electrons. What are its atomic number and mass number?",
+      "es": "Un átomo tiene 6 protones, 6 neutrones y 6 electrones. ¿Cuáles son su número atómico y su número de masa?"
+    },
+    "choices": [
+      {
+        "en": "Atomic number 12, mass number 6",
+        "es": "Número atómico 12, número de masa 6"
+      },
+      {
+        "en": "Atomic number 6, mass number 18",
+        "es": "Número atómico 6, número de masa 18"
+      },
+      {
+        "en": "Atomic number 6, mass number 12",
+        "es": "Número atómico 6, número de masa 12"
+      },
+      {
+        "en": "Atomic number 12, mass number 18",
+        "es": "Número atómico 12, número de masa 18"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Atomic number = number of protons (6, so this is carbon). Mass number = protons + neutrons = 12. Electrons add essentially no mass and are not counted.",
+      "es": "Número atómico = número de protones (6, así que es carbono). Número de masa = protones + neutrones = 12. Los electrones casi no aportan masa y no se cuentan."
+    },
+    "trap": {
+      "en": "\"Mass number 18\" adds the electrons. Only the particles in the nucleus count toward mass number.",
+      "es": "\"Número de masa 18\" suma los electrones. Solo las partículas del núcleo cuentan para el número de masa."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0020",
+    "subtest": "GS",
+    "topic": "periodic-table",
+    "difficulty": 3,
+    "stem": {
+      "en": "Elements in the same vertical column (group) of the periodic table tend to have",
+      "es": "Los elementos de una misma columna vertical (grupo) de la tabla periódica tienden a tener"
+    },
+    "choices": [
+      {
+        "en": "the same number of protons",
+        "es": "el mismo número de protones"
+      },
+      {
+        "en": "the same atomic mass",
+        "es": "la misma masa atómica"
+      },
+      {
+        "en": "the same number of electron shells",
+        "es": "el mismo número de capas electrónicas"
+      },
+      {
+        "en": "similar chemical properties because they have the same number of valence electrons",
+        "es": "propiedades químicas similares porque tienen el mismo número de electrones de valencia"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Groups share outer-electron counts, so they react similarly (all alkali metals react with water, all noble gases are inert). Rows (periods) share the number of electron shells.",
+      "es": "Los grupos comparten la cantidad de electrones externos, así que reaccionan de forma parecida (todos los metales alcalinos reaccionan con el agua, todos los gases nobles son inertes). Las filas (periodos) comparten el número de capas electrónicas."
+    },
+    "trap": {
+      "en": "\"Same number of electron shells\" describes a row (period), not a column. Column = family, row = shell count.",
+      "es": "\"El mismo número de capas electrónicas\" describe una fila (periodo), no una columna. Columna = familia; fila = número de capas."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0021",
+    "subtest": "GS",
+    "topic": "states-of-matter",
+    "difficulty": 2,
+    "stem": {
+      "en": "Dry ice (solid carbon dioxide) disappears at room temperature without leaving a puddle. This change of state is called",
+      "es": "El hielo seco (dióxido de carbono sólido) desaparece a temperatura ambiente sin dejar un charco. Este cambio de estado se llama"
+    },
+    "choices": [
+      {
+        "en": "sublimation",
+        "es": "sublimación"
+      },
+      {
+        "en": "evaporation",
+        "es": "evaporación"
+      },
+      {
+        "en": "condensation",
+        "es": "condensación"
+      },
+      {
+        "en": "melting",
+        "es": "fusión"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Sublimation is solid → gas directly, skipping the liquid stage. Melting is solid → liquid; evaporation is liquid → gas; condensation is gas → liquid.",
+      "es": "La sublimación es sólido → gas directamente, sin pasar por líquido. Fusión es sólido → líquido; evaporación es líquido → gas; condensación es gas → líquido."
+    },
+    "trap": {
+      "en": "\"Evaporation\" starts from a liquid. The clue \"without leaving a puddle\" tells you no liquid ever formed.",
+      "es": "\"Evaporación\" parte de un líquido. La pista \"sin dejar un charco\" te dice que nunca hubo líquido."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0022",
+    "subtest": "GS",
+    "topic": "chemical-change",
+    "difficulty": 1,
+    "stem": {
+      "en": "Which of the following is a chemical change?",
+      "es": "¿Cuál de los siguientes es un cambio químico?"
+    },
+    "choices": [
+      {
+        "en": "Ice melting",
+        "es": "El hielo se derrite"
+      },
+      {
+        "en": "Iron rusting",
+        "es": "El hierro se oxida"
+      },
+      {
+        "en": "Paper being torn",
+        "es": "El papel se rompe"
+      },
+      {
+        "en": "Sugar dissolving in water",
+        "es": "El azúcar se disuelve en agua"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Rust is a new substance (iron oxide) formed by reaction with oxygen. Melting, tearing and dissolving change form or mixture but leave the substance itself unchanged and reversible.",
+      "es": "El óxido es una sustancia nueva (óxido de hierro) formada por reacción con el oxígeno. Derretir, romper y disolver cambian la forma o la mezcla, pero la sustancia sigue siendo la misma y el cambio es reversible."
+    },
+    "trap": {
+      "en": "\"Sugar dissolving\" fools many because the sugar seems to vanish, but evaporate the water and the same sugar returns: physical change.",
+      "es": "\"El azúcar se disuelve\" engaña porque parece desaparecer, pero evapora el agua y vuelve la misma azúcar: cambio físico."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0023",
+    "subtest": "GS",
+    "topic": "acids-bases",
+    "difficulty": 2,
+    "stem": {
+      "en": "Lemon juice has a pH of about 2 and milk a pH of about 6.5. Which statement is correct?",
+      "es": "El jugo de limón tiene un pH cercano a 2 y la leche un pH cercano a 6.5. ¿Qué afirmación es correcta?"
+    },
+    "choices": [
+      {
+        "en": "Both are acidic, and milk is the stronger acid",
+        "es": "Ambos son ácidos, y la leche es el ácido más fuerte"
+      },
+      {
+        "en": "Lemon juice is acidic and milk is basic",
+        "es": "El jugo de limón es ácido y la leche es básica"
+      },
+      {
+        "en": "Both are basic",
+        "es": "Ambos son básicos"
+      },
+      {
+        "en": "Both are acidic, and lemon juice is the stronger acid",
+        "es": "Ambos son ácidos, y el jugo de limón es el ácido más fuerte"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "On the pH scale 7 is neutral; anything below 7 is acidic and lower numbers mean stronger acids. Both values are below 7, and 2 is far lower than 6.5.",
+      "es": "En la escala de pH, 7 es neutro; todo lo que está por debajo de 7 es ácido y los números más bajos indican ácidos más fuertes. Ambos valores están por debajo de 7, y 2 es mucho menor que 6.5."
+    },
+    "trap": {
+      "en": "\"Milk is basic\" comes from treating 6.5 as high. Anything under 7 is still acidic, even if only slightly.",
+      "es": "\"La leche es básica\" surge de tratar 6.5 como alto. Todo lo que está por debajo de 7 sigue siendo ácido, aunque sea apenas."
+    },
+    "strategyRef": "gs.eliminate-absolutes",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0024",
+    "subtest": "GS",
+    "topic": "newtons-laws",
+    "difficulty": 2,
+    "stem": {
+      "en": "A hockey puck slides across ice at a constant speed in a straight line until it hits the boards. Which of Newton's laws best explains why it keeps moving before the impact?",
+      "es": "Un disco de hockey se desliza sobre el hielo a velocidad constante en línea recta hasta chocar con la valla. ¿Cuál ley de Newton explica mejor por qué sigue moviéndose antes del impacto?"
+    },
+    "choices": [
+      {
+        "en": "Second law (F = ma)",
+        "es": "Segunda ley (F = ma)"
+      },
+      {
+        "en": "Third law (action–reaction)",
+        "es": "Tercera ley (acción y reacción)"
+      },
+      {
+        "en": "First law (inertia)",
+        "es": "Primera ley (inercia)"
+      },
+      {
+        "en": "Law of universal gravitation",
+        "es": "Ley de gravitación universal"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Newton's first law: an object keeps its velocity unless an unbalanced force acts on it. With almost no friction, nothing changes the puck's motion until the boards push on it.",
+      "es": "Primera ley de Newton: un objeto conserva su velocidad a menos que actúe sobre él una fuerza no equilibrada. Casi sin fricción, nada cambia el movimiento del disco hasta que la valla lo empuja."
+    },
+    "trap": {
+      "en": "\"Third law\" describes the push between puck and boards at impact, not the steady glide before it.",
+      "es": "\"Tercera ley\" describe el empuje entre el disco y la valla en el impacto, no el deslizamiento constante previo."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0025",
+    "subtest": "GS",
+    "topic": "newtons-laws",
+    "difficulty": 2,
+    "stem": {
+      "en": "What net force is needed to accelerate a 10 kg cart at 2 m/s²?",
+      "es": "¿Qué fuerza neta se necesita para acelerar un carrito de 10 kg a 2 m/s²?"
+    },
+    "choices": [
+      {
+        "en": "5 N",
+        "es": "5 N"
+      },
+      {
+        "en": "20 N",
+        "es": "20 N"
+      },
+      {
+        "en": "12 N",
+        "es": "12 N"
+      },
+      {
+        "en": "200 N",
+        "es": "200 N"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "F = m × a = 10 kg × 2 m/s² = 20 newtons.",
+      "es": "F = m × a = 10 kg × 2 m/s² = 20 newtons."
+    },
+    "trap": {
+      "en": "\"5 N\" divides instead of multiplying; \"12 N\" adds. Force = mass times acceleration.",
+      "es": "\"5 N\" divide en lugar de multiplicar; \"12 N\" suma. Fuerza = masa por aceleración."
+    },
+    "strategyRef": "gs.units",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0026",
+    "subtest": "GS",
+    "topic": "energy",
+    "difficulty": 1,
+    "stem": {
+      "en": "A drawn bow, held still just before the arrow is released, stores what form of energy?",
+      "es": "Un arco tensado, quieto justo antes de soltar la flecha, almacena ¿qué forma de energía?"
+    },
+    "choices": [
+      {
+        "en": "Potential energy",
+        "es": "Energía potencial"
+      },
+      {
+        "en": "Kinetic energy",
+        "es": "Energía cinética"
+      },
+      {
+        "en": "Thermal energy",
+        "es": "Energía térmica"
+      },
+      {
+        "en": "Chemical energy",
+        "es": "Energía química"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Energy stored because of position or shape is potential energy (here, elastic potential). When released it converts to the arrow's kinetic energy.",
+      "es": "La energía almacenada por posición o forma es energía potencial (aquí, potencial elástica). Al soltarse, se convierte en energía cinética de la flecha."
+    },
+    "trap": {
+      "en": "\"Kinetic energy\" belongs to the arrow in flight. \"Held still\" is the clue that nothing is moving yet.",
+      "es": "\"Energía cinética\" corresponde a la flecha en vuelo. \"Quieto\" es la pista de que todavía nada se mueve."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0027",
+    "subtest": "GS",
+    "topic": "heat-transfer",
+    "difficulty": 2,
+    "stem": {
+      "en": "Heat from the Sun reaches Earth across empty space mainly by",
+      "es": "El calor del Sol llega a la Tierra a través del espacio vacío principalmente por"
+    },
+    "choices": [
+      {
+        "en": "conduction",
+        "es": "conducción"
+      },
+      {
+        "en": "radiation",
+        "es": "radiación"
+      },
+      {
+        "en": "convection",
+        "es": "convección"
+      },
+      {
+        "en": "insulation",
+        "es": "aislamiento"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Conduction needs touching matter and convection needs a moving fluid; space has neither. Radiation carries energy as electromagnetic waves and needs no medium.",
+      "es": "La conducción necesita materia en contacto y la convección un fluido en movimiento; el espacio no tiene ninguno. La radiación transporta energía como ondas electromagnéticas y no necesita medio."
+    },
+    "trap": {
+      "en": "\"Convection\" is the common guess because it moves heat through air, but between the Sun and Earth there is no air to move.",
+      "es": "\"Convección\" es la respuesta común porque mueve calor por el aire, pero entre el Sol y la Tierra no hay aire que se mueva."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0028",
+    "subtest": "GS",
+    "topic": "sound",
+    "difficulty": 3,
+    "stem": {
+      "en": "Sound waves travel fastest through which of the following?",
+      "es": "¿A través de cuál de los siguientes viajan más rápido las ondas sonoras?"
+    },
+    "choices": [
+      {
+        "en": "Steel",
+        "es": "Acero"
+      },
+      {
+        "en": "Air",
+        "es": "Aire"
+      },
+      {
+        "en": "Water",
+        "es": "Agua"
+      },
+      {
+        "en": "A vacuum",
+        "es": "El vacío"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Sound is a vibration passed between particles, so it moves fastest where particles are tightly linked: solids > liquids > gases. It cannot travel through a vacuum at all.",
+      "es": "El sonido es una vibración que se transmite entre partículas, así que va más rápido donde las partículas están más unidas: sólidos > líquidos > gases. No puede viajar por el vacío."
+    },
+    "trap": {
+      "en": "\"A vacuum\" is the trap for people thinking of light, which is fastest in a vacuum. Sound needs matter.",
+      "es": "\"El vacío\" es la trampa para quien piensa en la luz, que es más rápida en el vacío. El sonido necesita materia."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0029",
+    "subtest": "GS",
+    "topic": "units",
+    "difficulty": 2,
+    "stem": {
+      "en": "In the SI (metric) system, the base unit of mass is the",
+      "es": "En el sistema SI (métrico), la unidad base de masa es el"
+    },
+    "choices": [
+      {
+        "en": "gram",
+        "es": "gramo"
+      },
+      {
+        "en": "newton",
+        "es": "newton"
+      },
+      {
+        "en": "pound",
+        "es": "libra"
+      },
+      {
+        "en": "kilogram",
+        "es": "kilogramo"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "The kilogram is the SI base unit; the gram is a derived fraction of it. The newton is the unit of force, and the pound is not SI.",
+      "es": "El kilogramo es la unidad base del SI; el gramo es una fracción derivada de él. El newton es la unidad de fuerza y la libra no pertenece al SI."
+    },
+    "trap": {
+      "en": "\"Newton\" confuses mass with weight: weight is a force measured in newtons; mass is in kilograms.",
+      "es": "\"Newton\" confunde masa con peso: el peso es una fuerza que se mide en newtons; la masa, en kilogramos."
+    },
+    "strategyRef": "gs.units",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0030",
+    "subtest": "GS",
+    "topic": "light",
+    "difficulty": 3,
+    "stem": {
+      "en": "Which color of visible light has the longest wavelength?",
+      "es": "¿Qué color de la luz visible tiene la longitud de onda más larga?"
+    },
+    "choices": [
+      {
+        "en": "Violet",
+        "es": "Violeta"
+      },
+      {
+        "en": "Blue",
+        "es": "Azul"
+      },
+      {
+        "en": "Red",
+        "es": "Rojo"
+      },
+      {
+        "en": "Green",
+        "es": "Verde"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Across the visible spectrum (ROY G BIV), wavelength decreases from red to violet. Red has the longest wavelength and lowest frequency; violet the shortest and highest.",
+      "es": "En el espectro visible (rojo, naranja, amarillo, verde, azul, índigo, violeta), la longitud de onda disminuye del rojo al violeta. El rojo tiene la longitud de onda más larga y la frecuencia más baja; el violeta, la más corta y la más alta."
+    },
+    "trap": {
+      "en": "\"Violet\" is the highest-energy, shortest-wavelength end. Longer wavelength means lower frequency, not higher.",
+      "es": "\"Violeta\" es el extremo de mayor energía y menor longitud de onda. Longitud de onda más larga significa frecuencia más baja, no más alta."
+    },
+    "strategyRef": "gs.mnemonic",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0031",
+    "subtest": "GS",
+    "topic": "earth-layers",
+    "difficulty": 2,
+    "stem": {
+      "en": "Which layer of Earth is liquid?",
+      "es": "¿Qué capa de la Tierra es líquida?"
+    },
+    "choices": [
+      {
+        "en": "Outer core",
+        "es": "Núcleo externo"
+      },
+      {
+        "en": "Crust",
+        "es": "Corteza"
+      },
+      {
+        "en": "Mantle",
+        "es": "Manto"
+      },
+      {
+        "en": "Inner core",
+        "es": "Núcleo interno"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The outer core is molten iron and nickel; its motion generates Earth's magnetic field. The inner core is solid because of extreme pressure, and the mantle is hot but mostly solid rock that flows very slowly.",
+      "es": "El núcleo externo es hierro y níquel fundidos; su movimiento genera el campo magnético terrestre. El núcleo interno es sólido por la presión extrema, y el manto es roca caliente, en su mayor parte sólida, que fluye muy lentamente."
+    },
+    "trap": {
+      "en": "\"Mantle\" is the tempting choice because lava comes from it, but the mantle as a whole is solid rock that creeps, not a liquid layer.",
+      "es": "\"Manto\" tienta porque la lava proviene de él, pero el manto en conjunto es roca sólida que se desplaza lentamente, no una capa líquida."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0032",
+    "subtest": "GS",
+    "topic": "plate-tectonics",
+    "difficulty": 3,
+    "stem": {
+      "en": "At a mid-ocean ridge, new crust forms as molten rock rises between plates that are moving apart. This is an example of which type of plate boundary?",
+      "es": "En una dorsal oceánica se forma corteza nueva cuando la roca fundida sube entre placas que se separan. ¿De qué tipo de límite de placas es ejemplo?"
+    },
+    "choices": [
+      {
+        "en": "Convergent",
+        "es": "Convergente"
+      },
+      {
+        "en": "Divergent",
+        "es": "Divergente"
+      },
+      {
+        "en": "Transform",
+        "es": "Transformante"
+      },
+      {
+        "en": "Subduction zone",
+        "es": "Zona de subducción"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Divergent boundaries spread apart and create crust. Convergent boundaries collide (one plate may subduct and be destroyed), and transform boundaries slide past each other.",
+      "es": "Los límites divergentes se separan y crean corteza. Los convergentes chocan (una placa puede subducir y destruirse) y los transformantes se deslizan uno junto al otro."
+    },
+    "trap": {
+      "en": "\"Subduction zone\" is where crust is consumed, the opposite of what the stem describes. \"Moving apart\" = diverge.",
+      "es": "\"Zona de subducción\" es donde se consume corteza, lo opuesto a lo que describe el enunciado. \"Se separan\" = divergen."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0033",
+    "subtest": "GS",
+    "topic": "rock-cycle",
+    "difficulty": 1,
+    "stem": {
+      "en": "Rock that forms when magma or lava cools and hardens is classified as",
+      "es": "La roca que se forma cuando el magma o la lava se enfría y endurece se clasifica como"
+    },
+    "choices": [
+      {
+        "en": "sedimentary",
+        "es": "sedimentaria"
+      },
+      {
+        "en": "metamorphic",
+        "es": "metamórfica"
+      },
+      {
+        "en": "igneous",
+        "es": "ígnea"
+      },
+      {
+        "en": "fossil",
+        "es": "fósil"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Igneous rock (granite, basalt) crystallizes from molten rock. Sedimentary rock forms from compacted layers of sediment, and metamorphic rock is changed by heat and pressure without melting.",
+      "es": "La roca ígnea (granito, basalto) cristaliza a partir de roca fundida. La sedimentaria se forma por capas de sedimento compactadas, y la metamórfica cambia por calor y presión sin fundirse."
+    },
+    "trap": {
+      "en": "\"Metamorphic\" involves heat too, but the rock never melts; if it melted and re-solidified, the result is igneous.",
+      "es": "\"Metamórfica\" también involucra calor, pero la roca nunca se funde; si se fundió y volvió a solidificar, el resultado es ígnea."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0034",
+    "subtest": "GS",
+    "topic": "weather",
+    "difficulty": 3,
+    "stem": {
+      "en": "A cold front is passing through a region. Which weather pattern is most typical as it passes?",
+      "es": "Un frente frío está pasando por una región. ¿Qué patrón de clima es más típico a su paso?"
+    },
+    "choices": [
+      {
+        "en": "Many hours of light, steady drizzle, followed by warmer air",
+        "es": "Muchas horas de llovizna ligera y constante, seguidas de aire más cálido"
+      },
+      {
+        "en": "Gradually rising temperatures with no precipitation",
+        "es": "Temperaturas que suben poco a poco sin precipitación"
+      },
+      {
+        "en": "No change in temperature, only a change in wind direction",
+        "es": "Ningún cambio de temperatura, solo un cambio en la dirección del viento"
+      },
+      {
+        "en": "A short period of heavy showers or thunderstorms, followed by cooler, clearer air",
+        "es": "Un breve periodo de chubascos fuertes o tormentas, seguido de aire más fresco y despejado"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Dense cold air wedges under warm air and lifts it quickly, building tall cumulonimbus clouds and brief intense storms. Behind the front, the air is cooler and drier.",
+      "es": "El aire frío, más denso, se mete debajo del aire cálido y lo levanta rápidamente, formando cumulonimbos altos y tormentas breves e intensas. Detrás del frente, el aire es más fresco y seco."
+    },
+    "trap": {
+      "en": "\"Steady drizzle followed by warmer air\" describes a warm front, where warm air slides slowly over cold air.",
+      "es": "\"Llovizna constante seguida de aire más cálido\" describe un frente cálido, donde el aire cálido sube lentamente sobre el aire frío."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0035",
+    "subtest": "GS",
+    "topic": "clouds",
+    "difficulty": 2,
+    "stem": {
+      "en": "Thin, wispy, feather-like clouds made of ice crystals at very high altitude are called",
+      "es": "Las nubes delgadas, tenues y con aspecto de plumas, formadas por cristales de hielo a gran altitud, se llaman"
+    },
+    "choices": [
+      {
+        "en": "cumulus",
+        "es": "cúmulos"
+      },
+      {
+        "en": "stratus",
+        "es": "estratos"
+      },
+      {
+        "en": "cirrus",
+        "es": "cirros"
+      },
+      {
+        "en": "nimbostratus",
+        "es": "nimboestratos"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Cirrus clouds sit high where it is cold enough for ice. Cumulus are puffy fair-weather clouds, stratus are flat gray layers, and nimbostratus are thick rain layers.",
+      "es": "Los cirros están muy alto, donde hace suficiente frío para el hielo. Los cúmulos son nubes esponjosas de buen tiempo, los estratos son capas grises planas y los nimboestratos son capas gruesas de lluvia."
+    },
+    "trap": {
+      "en": "\"Stratus\" also means a thin layer, but stratus clouds are low and gray, not high and icy.",
+      "es": "\"Estratos\" también sugiere una capa delgada, pero son nubes bajas y grises, no altas y de hielo."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0036",
+    "subtest": "GS",
+    "topic": "water-cycle",
+    "difficulty": 1,
+    "stem": {
+      "en": "In the water cycle, the step in which water vapor cools and turns into the tiny droplets that make up clouds is",
+      "es": "En el ciclo del agua, el paso en que el vapor se enfría y se convierte en las gotitas que forman las nubes es"
+    },
+    "choices": [
+      {
+        "en": "evaporation",
+        "es": "la evaporación"
+      },
+      {
+        "en": "precipitation",
+        "es": "la precipitación"
+      },
+      {
+        "en": "transpiration",
+        "es": "la transpiración"
+      },
+      {
+        "en": "condensation",
+        "es": "la condensación"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Evaporation and transpiration put vapor into the air, condensation turns it back into liquid droplets (clouds), and precipitation brings it down as rain or snow.",
+      "es": "La evaporación y la transpiración llevan vapor al aire, la condensación lo convierte de nuevo en gotas líquidas (nubes) y la precipitación lo devuelve como lluvia o nieve."
+    },
+    "trap": {
+      "en": "\"Precipitation\" is the falling water, one step after the clouds already exist.",
+      "es": "\"Precipitación\" es el agua que cae, un paso después de que las nubes ya existen."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0037",
+    "subtest": "GS",
+    "topic": "solar-system",
+    "difficulty": 1,
+    "stem": {
+      "en": "Which planet orbits the Sun between Mars and Saturn?",
+      "es": "¿Qué planeta orbita el Sol entre Marte y Saturno?"
+    },
+    "choices": [
+      {
+        "en": "Jupiter",
+        "es": "Júpiter"
+      },
+      {
+        "en": "Venus",
+        "es": "Venus"
+      },
+      {
+        "en": "Uranus",
+        "es": "Urano"
+      },
+      {
+        "en": "Neptune",
+        "es": "Neptuno"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Order from the Sun: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune. Jupiter is fifth, right after Mars.",
+      "es": "Orden desde el Sol: Mercurio, Venus, Tierra, Marte, Júpiter, Saturno, Urano, Neptuno. Júpiter es el quinto, justo después de Marte."
+    },
+    "trap": {
+      "en": "\"Uranus\" comes after Saturn. Use a mnemonic such as \"My Very Educated Mother Just Served Us Noodles\".",
+      "es": "\"Urano\" viene después de Saturno. Usa una regla como \"Mi Vecina Tiene Muchas Joyas, Solo Usa Nueve\"."
+    },
+    "strategyRef": "gs.mnemonic",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0038",
+    "subtest": "GS",
+    "topic": "moon-tides",
+    "difficulty": 3,
+    "stem": {
+      "en": "Spring tides, when the difference between high and low tide is greatest, occur",
+      "es": "Las mareas vivas, cuando la diferencia entre marea alta y baja es mayor, ocurren"
+    },
+    "choices": [
+      {
+        "en": "only at first quarter",
+        "es": "solo en cuarto creciente"
+      },
+      {
+        "en": "at both new moon and full moon",
+        "es": "tanto en luna nueva como en luna llena"
+      },
+      {
+        "en": "only at third quarter",
+        "es": "solo en cuarto menguante"
+      },
+      {
+        "en": "only when the Moon is farthest from Earth",
+        "es": "solo cuando la Luna está más lejos de la Tierra"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "At new and full moon, the Sun, Earth and Moon line up so the solar and lunar pulls add together. At the quarter moons they work at right angles, giving weaker neap tides.",
+      "es": "En luna nueva y luna llena, el Sol, la Tierra y la Luna se alinean y las atracciones solar y lunar se suman. En los cuartos actúan en ángulo recto y producen mareas muertas, más débiles."
+    },
+    "trap": {
+      "en": "\"Spring\" has nothing to do with the season; it refers to the tide springing up, and it happens twice a month, not once.",
+      "es": "\"Vivas\" no tiene que ver con la estación; se refiere a que la marea sube con fuerza, y ocurre dos veces al mes, no una."
+    },
+    "strategyRef": "gs.eliminate-absolutes",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0039",
+    "subtest": "GS",
+    "topic": "atmosphere",
+    "difficulty": 1,
+    "stem": {
+      "en": "Which gas makes up the largest share (about 78 %) of Earth's atmosphere?",
+      "es": "¿Qué gas constituye la mayor parte (cerca del 78 %) de la atmósfera terrestre?"
+    },
+    "choices": [
+      {
+        "en": "Oxygen",
+        "es": "Oxígeno"
+      },
+      {
+        "en": "Carbon dioxide",
+        "es": "Dióxido de carbono"
+      },
+      {
+        "en": "Argon",
+        "es": "Argón"
+      },
+      {
+        "en": "Nitrogen",
+        "es": "Nitrógeno"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Dry air is roughly 78 % nitrogen, 21 % oxygen, about 1 % argon, and only about 0.04 % carbon dioxide.",
+      "es": "El aire seco es aproximadamente 78 % nitrógeno, 21 % oxígeno, cerca de 1 % argón y solo alrededor de 0.04 % dióxido de carbono."
+    },
+    "trap": {
+      "en": "\"Oxygen\" is what we use, so it feels like the main gas, but it is only about one fifth of the air.",
+      "es": "\"Oxígeno\" es lo que usamos, así que parece el gas principal, pero es solo cerca de una quinta parte del aire."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0040",
+    "subtest": "GS",
+    "topic": "atmosphere",
+    "difficulty": 2,
+    "stem": {
+      "en": "Nearly all weather, including clouds and storms, occurs in which layer of the atmosphere?",
+      "es": "Casi todo el clima, incluidas las nubes y las tormentas, ocurre en ¿qué capa de la atmósfera?"
+    },
+    "choices": [
+      {
+        "en": "Stratosphere",
+        "es": "Estratosfera"
+      },
+      {
+        "en": "Mesosphere",
+        "es": "Mesosfera"
+      },
+      {
+        "en": "Troposphere",
+        "es": "Troposfera"
+      },
+      {
+        "en": "Thermosphere",
+        "es": "Termosfera"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "The troposphere is the lowest layer, holding most of the air's mass and water vapor. Above it, the stratosphere contains the ozone layer and is where jets cruise to avoid weather.",
+      "es": "La troposfera es la capa más baja y contiene la mayor parte de la masa del aire y del vapor de agua. Encima, la estratosfera contiene la capa de ozono y es donde vuelan los aviones para evitar el clima."
+    },
+    "trap": {
+      "en": "\"Stratosphere\" is associated with the ozone layer and high-flying aircraft, not with weather.",
+      "es": "\"Estratosfera\" se asocia con la capa de ozono y los aviones a gran altura, no con el clima."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0041",
+    "subtest": "GS",
+    "topic": "evolution",
+    "difficulty": 1,
+    "stem": {
+      "en": "Natural selection is best described as the process in which",
+      "es": "La selección natural se describe mejor como el proceso en el que"
+    },
+    "choices": [
+      {
+        "en": "individuals change their own traits during their lifetime to fit the environment",
+        "es": "los individuos cambian sus propios rasgos durante su vida para adaptarse al ambiente"
+      },
+      {
+        "en": "organisms whose inherited traits suit the environment survive and reproduce more than others",
+        "es": "los organismos cuyos rasgos heredados se ajustan al ambiente sobreviven y se reproducen más que los demás"
+      },
+      {
+        "en": "every member of a species gradually becomes identical",
+        "es": "todos los miembros de una especie se vuelven gradualmente idénticos"
+      },
+      {
+        "en": "traits gained through practice are passed directly to offspring",
+        "es": "los rasgos adquiridos con la práctica pasan directamente a la descendencia"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Selection acts on inherited variation that already exists in a population: the better-suited individuals leave more offspring, so their traits become more common over generations.",
+      "es": "La selección actúa sobre la variación heredada que ya existe en una población: los individuos mejor adaptados dejan más descendencia, así que sus rasgos se vuelven más comunes con las generaciones."
+    },
+    "trap": {
+      "en": "\"Change their own traits during their lifetime\" and \"traits gained through practice\" describe the discarded idea of inheriting acquired characteristics, not natural selection.",
+      "es": "\"Cambian sus propios rasgos durante su vida\" y \"rasgos adquiridos con la práctica\" describen la idea descartada de heredar caracteres adquiridos, no la selección natural."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0042",
+    "subtest": "GS",
+    "topic": "evolution",
+    "difficulty": 2,
+    "stem": {
+      "en": "Birds living on separate islands have beaks of different shapes, each suited to the food available on its island. A beak shape that helps a bird survive in its habitat is an example of",
+      "es": "Aves que viven en islas separadas tienen picos de formas distintas, cada una adecuada al alimento disponible en su isla. Una forma de pico que ayuda al ave a sobrevivir en su hábitat es un ejemplo de"
+    },
+    "choices": [
+      {
+        "en": "an adaptation",
+        "es": "una adaptación"
+      },
+      {
+        "en": "an acquired characteristic",
+        "es": "un carácter adquirido"
+      },
+      {
+        "en": "homeostasis",
+        "es": "homeostasis"
+      },
+      {
+        "en": "symbiosis",
+        "es": "simbiosis"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "An adaptation is an inherited trait that improves survival or reproduction in a particular environment. Homeostasis is internal balance and symbiosis is a relationship between two species.",
+      "es": "Una adaptación es un rasgo heredado que mejora la supervivencia o la reproducción en un ambiente particular. La homeostasis es el equilibrio interno y la simbiosis es una relación entre dos especies."
+    },
+    "trap": {
+      "en": "\"Acquired characteristic\" sounds right because the beak fits the food, but the beak shape is inherited, not learned or developed by use.",
+      "es": "\"Carácter adquirido\" suena bien porque el pico se ajusta al alimento, pero la forma del pico se hereda, no se aprende ni se desarrolla con el uso."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0043",
+    "subtest": "GS",
+    "topic": "skeletal-muscular",
+    "difficulty": 1,
+    "stem": {
+      "en": "The muscle in the walls of the stomach and intestines, which works without conscious control, is",
+      "es": "El músculo de las paredes del estómago y los intestinos, que trabaja sin control consciente, es"
+    },
+    "choices": [
+      {
+        "en": "cardiac muscle",
+        "es": "músculo cardíaco"
+      },
+      {
+        "en": "skeletal muscle",
+        "es": "músculo esquelético"
+      },
+      {
+        "en": "smooth muscle",
+        "es": "músculo liso"
+      },
+      {
+        "en": "voluntary muscle",
+        "es": "músculo voluntario"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Smooth muscle lines hollow organs and blood vessels and is involuntary. Cardiac muscle is found only in the heart; skeletal (voluntary) muscle moves the bones.",
+      "es": "El músculo liso recubre los órganos huecos y los vasos sanguíneos y es involuntario. El músculo cardíaco solo está en el corazón; el músculo esquelético (voluntario) mueve los huesos."
+    },
+    "trap": {
+      "en": "\"Cardiac muscle\" is also involuntary, which is the hook; but it exists only in the heart, never in the digestive tract.",
+      "es": "\"Músculo cardíaco\" también es involuntario, y ahí está el anzuelo; pero solo existe en el corazón, nunca en el tubo digestivo."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0044",
+    "subtest": "GS",
+    "topic": "skeletal-muscular",
+    "difficulty": 3,
+    "stem": {
+      "en": "The tough bands of connective tissue that hold bone to bone at a joint are called",
+      "es": "Las bandas resistentes de tejido conectivo que unen hueso con hueso en una articulación se llaman"
+    },
+    "choices": [
+      {
+        "en": "tendons",
+        "es": "tendones"
+      },
+      {
+        "en": "ligaments",
+        "es": "ligamentos"
+      },
+      {
+        "en": "cartilage",
+        "es": "cartílago"
+      },
+      {
+        "en": "marrow",
+        "es": "médula ósea"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Ligaments link bone to bone and stabilize joints. Tendons attach muscle to bone, cartilage cushions the ends of bones, and marrow fills the inside of bones.",
+      "es": "Los ligamentos unen hueso con hueso y estabilizan las articulaciones. Los tendones unen músculo con hueso, el cartílago amortigua los extremos de los huesos y la médula llena el interior de los huesos."
+    },
+    "trap": {
+      "en": "\"Tendons\" is the classic mix-up. Memory hook: Tendon = muscle Tugs bone; Ligament Links bone to bone.",
+      "es": "\"Tendones\" es la confusión clásica. Truco: Tendón = Tira del hueso desde el músculo; Ligamento = Liga hueso con hueso."
+    },
+    "strategyRef": "gs.mnemonic",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0045",
+    "subtest": "GS",
+    "topic": "respiratory-system",
+    "difficulty": 1,
+    "stem": {
+      "en": "In the lungs, oxygen passes into the blood and carbon dioxide leaves it across the thin walls of the",
+      "es": "En los pulmones, el oxígeno pasa a la sangre y el dióxido de carbono sale de ella a través de las delgadas paredes de los"
+    },
+    "choices": [
+      {
+        "en": "bronchi",
+        "es": "bronquios"
+      },
+      {
+        "en": "trachea",
+        "es": "tráquea"
+      },
+      {
+        "en": "diaphragm",
+        "es": "diafragma"
+      },
+      {
+        "en": "alveoli",
+        "es": "alvéolos"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Alveoli are the tiny air sacs surrounded by capillaries where gas exchange happens. The trachea and bronchi are only passageways, and the diaphragm is the muscle that drives breathing.",
+      "es": "Los alvéolos son los pequeños sacos de aire rodeados de capilares donde ocurre el intercambio de gases. La tráquea y los bronquios son solo conductos, y el diafragma es el músculo que impulsa la respiración."
+    },
+    "trap": {
+      "en": "\"Bronchi\" tempts because they are inside the lungs, but they are tubes that carry air, not the site of exchange.",
+      "es": "\"Bronquios\" tienta porque están dentro de los pulmones, pero son tubos que transportan aire, no el sitio del intercambio."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0046",
+    "subtest": "GS",
+    "topic": "respiratory-system",
+    "difficulty": 2,
+    "stem": {
+      "en": "When the diaphragm contracts and flattens downward,",
+      "es": "Cuando el diafragma se contrae y se aplana hacia abajo,"
+    },
+    "choices": [
+      {
+        "en": "the chest cavity enlarges, pressure in the lungs drops and air flows in",
+        "es": "la cavidad torácica se agranda, la presión en los pulmones baja y el aire entra"
+      },
+      {
+        "en": "the chest cavity shrinks and air is forced out",
+        "es": "la cavidad torácica se reduce y el aire es expulsado"
+      },
+      {
+        "en": "the lungs contract on their own to pull air in",
+        "es": "los pulmones se contraen por sí mismos para atraer el aire"
+      },
+      {
+        "en": "pressure inside the lungs rises above the outside air",
+        "es": "la presión dentro de los pulmones sube por encima de la del aire exterior"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Inhalation is a pressure effect: a larger chest cavity lowers lung pressure below atmospheric pressure, so air rushes in. Relaxation of the diaphragm reverses this and air leaves.",
+      "es": "La inhalación es un efecto de presión: una cavidad torácica más grande baja la presión pulmonar por debajo de la atmosférica, y el aire entra. Al relajarse el diafragma ocurre lo contrario y el aire sale."
+    },
+    "trap": {
+      "en": "\"Chest cavity shrinks and air is forced out\" describes exhalation, which happens when the diaphragm relaxes, not when it contracts.",
+      "es": "\"La cavidad torácica se reduce y el aire es expulsado\" describe la exhalación, que ocurre cuando el diafragma se relaja, no cuando se contrae."
+    },
+    "strategyRef": "gs.eliminate-absolutes",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0047",
+    "subtest": "GS",
+    "topic": "nervous-system",
+    "difficulty": 3,
+    "stem": {
+      "en": "Which part of a neuron carries the electrical impulse away from the cell body toward the next cell?",
+      "es": "¿Qué parte de una neurona conduce el impulso eléctrico desde el cuerpo celular hacia la siguiente célula?"
+    },
+    "choices": [
+      {
+        "en": "Dendrite",
+        "es": "Dendrita"
+      },
+      {
+        "en": "Myelin sheath",
+        "es": "Vaina de mielina"
+      },
+      {
+        "en": "Axon",
+        "es": "Axón"
+      },
+      {
+        "en": "Synapse",
+        "es": "Sinapsis"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Dendrites receive signals and bring them to the cell body; the axon sends the signal onward. The myelin sheath insulates the axon and the synapse is the gap between neurons.",
+      "es": "Las dendritas reciben señales y las llevan al cuerpo celular; el axón envía la señal hacia adelante. La vaina de mielina aísla el axón y la sinapsis es el espacio entre neuronas."
+    },
+    "trap": {
+      "en": "\"Dendrite\" is the direction mistake: dendrites carry signals toward the cell body, axons carry them away.",
+      "es": "\"Dendrita\" es el error de dirección: las dendritas llevan señales hacia el cuerpo celular; los axones las alejan."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0048",
+    "subtest": "GS",
+    "topic": "nervous-system",
+    "difficulty": 3,
+    "stem": {
+      "en": "Which part of the brain coordinates balance and the smooth timing of voluntary movements?",
+      "es": "¿Qué parte del cerebro coordina el equilibrio y la sincronización fina de los movimientos voluntarios?"
+    },
+    "choices": [
+      {
+        "en": "Cerebrum",
+        "es": "Cerebro (corteza cerebral)"
+      },
+      {
+        "en": "Cerebellum",
+        "es": "Cerebelo"
+      },
+      {
+        "en": "Brain stem",
+        "es": "Tronco encefálico"
+      },
+      {
+        "en": "Hypothalamus",
+        "es": "Hipotálamo"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "The cerebellum (\"little brain\") fine-tunes movement and balance. The cerebrum handles thought and senses, the brain stem controls breathing and heartbeat, and the hypothalamus regulates temperature and hunger.",
+      "es": "El cerebelo (\"cerebro pequeño\") afina el movimiento y el equilibrio. La corteza cerebral maneja el pensamiento y los sentidos, el tronco encefálico controla la respiración y el latido, y el hipotálamo regula la temperatura y el hambre."
+    },
+    "trap": {
+      "en": "\"Cerebrum\" and \"cerebellum\" look alike. The cerebrum decides to move; the cerebellum makes the move graceful.",
+      "es": "\"Cerebro\" y \"cerebelo\" se parecen. La corteza cerebral decide moverse; el cerebelo hace que el movimiento sea preciso."
+    },
+    "strategyRef": "gs.mnemonic",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0049",
+    "subtest": "GS",
+    "topic": "reproduction",
+    "difficulty": 1,
+    "stem": {
+      "en": "In humans, the sperm normally fertilizes the egg in the",
+      "es": "En los seres humanos, el espermatozoide normalmente fecunda al óvulo en"
+    },
+    "choices": [
+      {
+        "en": "uterus",
+        "es": "el útero"
+      },
+      {
+        "en": "ovary",
+        "es": "el ovario"
+      },
+      {
+        "en": "vagina",
+        "es": "la vagina"
+      },
+      {
+        "en": "fallopian tube",
+        "es": "la trompa de Falopio"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "The egg is released from the ovary and fertilized in the fallopian tube (oviduct). The fertilized egg then travels to the uterus, where it implants and develops.",
+      "es": "El óvulo se libera del ovario y se fecunda en la trompa de Falopio (oviducto). El óvulo fecundado viaja luego al útero, donde se implanta y se desarrolla."
+    },
+    "trap": {
+      "en": "\"Uterus\" is where the embryo grows, which makes it feel like the answer; fertilization itself happens earlier, in the tube.",
+      "es": "\"Útero\" es donde crece el embrión, y por eso parece la respuesta; pero la fecundación ocurre antes, en la trompa."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0050",
+    "subtest": "GS",
+    "topic": "reproduction",
+    "difficulty": 3,
+    "stem": {
+      "en": "Human body cells contain 46 chromosomes. How many chromosomes does a normal human sperm or egg cell contain?",
+      "es": "Las células del cuerpo humano contienen 46 cromosomas. ¿Cuántos cromosomas contiene un espermatozoide u óvulo humano normal?"
+    },
+    "choices": [
+      {
+        "en": "92",
+        "es": "92"
+      },
+      {
+        "en": "46",
+        "es": "46"
+      },
+      {
+        "en": "23",
+        "es": "23"
+      },
+      {
+        "en": "12",
+        "es": "12"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Gametes are formed by meiosis, which halves the chromosome number to 23. When sperm and egg unite, the fertilized egg is back to 46.",
+      "es": "Los gametos se forman por meiosis, que reduce a la mitad el número de cromosomas: 23. Al unirse el espermatozoide y el óvulo, el cigoto vuelve a tener 46."
+    },
+    "trap": {
+      "en": "\"46\" is the body-cell number. If gametes also had 46, each generation would double its chromosomes.",
+      "es": "\"46\" es el número de las células del cuerpo. Si los gametos también tuvieran 46, cada generación duplicaría sus cromosomas."
+    },
+    "strategyRef": "gs.units",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0051",
+    "subtest": "GS",
+    "topic": "motion",
+    "difficulty": 2,
+    "stem": {
+      "en": "A truck covers 150 km in 2.5 hours. Its average speed is",
+      "es": "Un camión recorre 150 km en 2.5 horas. Su rapidez promedio es"
+    },
+    "choices": [
+      {
+        "en": "375 km/h",
+        "es": "375 km/h"
+      },
+      {
+        "en": "60 km/h",
+        "es": "60 km/h"
+      },
+      {
+        "en": "75 km/h",
+        "es": "75 km/h"
+      },
+      {
+        "en": "152.5 km/h",
+        "es": "152.5 km/h"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Average speed = distance ÷ time = 150 km ÷ 2.5 h = 60 km/h.",
+      "es": "Rapidez promedio = distancia ÷ tiempo = 150 km ÷ 2.5 h = 60 km/h."
+    },
+    "trap": {
+      "en": "\"375 km/h\" comes from multiplying instead of dividing; \"75 km/h\" from dividing by 2 instead of 2.5.",
+      "es": "\"375 km/h\" sale de multiplicar en vez de dividir; \"75 km/h\" de dividir entre 2 en lugar de 2.5."
+    },
+    "strategyRef": "gs.units",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0052",
+    "subtest": "GS",
+    "topic": "motion",
+    "difficulty": 2,
+    "stem": {
+      "en": "Velocity differs from speed because velocity",
+      "es": "La velocidad se diferencia de la rapidez porque la velocidad"
+    },
+    "choices": [
+      {
+        "en": "is measured only in meters per second",
+        "es": "se mide únicamente en metros por segundo"
+      },
+      {
+        "en": "is always a larger number than speed",
+        "es": "siempre es un número mayor que la rapidez"
+      },
+      {
+        "en": "applies only to objects moving at a constant rate",
+        "es": "solo se aplica a objetos que se mueven a ritmo constante"
+      },
+      {
+        "en": "includes the direction of motion",
+        "es": "incluye la dirección del movimiento"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Speed is a scalar (how fast). Velocity is a vector: how fast and in which direction. Two cars at 50 km/h heading north and south have the same speed but different velocities.",
+      "es": "La rapidez es un escalar (qué tan rápido). La velocidad es un vector: qué tan rápido y en qué dirección. Dos autos a 50 km/h, uno al norte y otro al sur, tienen la misma rapidez pero distinta velocidad."
+    },
+    "trap": {
+      "en": "\"Only in meters per second\" confuses the unit with the concept; both quantities can use any distance/time unit.",
+      "es": "\"Únicamente en metros por segundo\" confunde la unidad con el concepto; ambas magnitudes pueden usar cualquier unidad de distancia/tiempo."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0053",
+    "subtest": "GS",
+    "topic": "electricity-magnetism",
+    "difficulty": 1,
+    "stem": {
+      "en": "When the north poles of two bar magnets are brought close together, they",
+      "es": "Cuando se acercan los polos norte de dos imanes de barra, estos"
+    },
+    "choices": [
+      {
+        "en": "repel each other",
+        "es": "se repelen"
+      },
+      {
+        "en": "attract each other",
+        "es": "se atraen"
+      },
+      {
+        "en": "cancel each other's magnetism",
+        "es": "cancelan su magnetismo mutuamente"
+      },
+      {
+        "en": "have no effect on each other",
+        "es": "no se afectan entre sí"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Like poles repel and unlike poles attract. This is the same rule as for electric charges: same sign pushes apart, opposite sign pulls together.",
+      "es": "Los polos iguales se repelen y los polos opuestos se atraen. Es la misma regla que para las cargas eléctricas: mismo signo se separan, signo opuesto se atraen."
+    },
+    "trap": {
+      "en": "\"Attract\" is the reflex answer because magnets are known for sticking, but they stick only north-to-south.",
+      "es": "\"Se atraen\" es la respuesta refleja porque los imanes se conocen por pegarse, pero solo se pegan norte con sur."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0054",
+    "subtest": "GS",
+    "topic": "electricity-magnetism",
+    "difficulty": 2,
+    "stem": {
+      "en": "Which of the following would produce an electromagnet?",
+      "es": "¿Cuál de las siguientes opciones produciría un electroimán?"
+    },
+    "choices": [
+      {
+        "en": "Rubbing an iron nail repeatedly with wool cloth",
+        "es": "Frotar repetidamente un clavo de hierro con un paño de lana"
+      },
+      {
+        "en": "Leaving an iron nail in direct sunlight",
+        "es": "Dejar un clavo de hierro bajo la luz directa del sol"
+      },
+      {
+        "en": "Wrapping insulated wire around an iron nail and passing current through the wire",
+        "es": "Enrollar alambre aislado alrededor de un clavo de hierro y hacer pasar corriente por el alambre"
+      },
+      {
+        "en": "Placing an iron nail between the plates of a charged capacitor",
+        "es": "Colocar un clavo de hierro entre las placas de un capacitor cargado"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "An electric current in a coil creates a magnetic field, and an iron core concentrates it. Switch the current off and the magnetism largely disappears.",
+      "es": "Una corriente eléctrica en una bobina crea un campo magnético, y un núcleo de hierro lo concentra. Al cortar la corriente, el magnetismo prácticamente desaparece."
+    },
+    "trap": {
+      "en": "\"Rubbing with wool\" produces static electric charge, not magnetism. The capacitor option mixes up stored charge with a moving current.",
+      "es": "\"Frotar con lana\" produce carga eléctrica estática, no magnetismo. La opción del capacitor confunde carga almacenada con corriente en movimiento."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0055",
+    "subtest": "GS",
+    "topic": "earth-rotation-seasons",
+    "difficulty": 1,
+    "stem": {
+      "en": "The cycle of day and night on Earth is caused by",
+      "es": "El ciclo de día y noche en la Tierra es causado por"
+    },
+    "choices": [
+      {
+        "en": "Earth's revolution around the Sun",
+        "es": "la traslación de la Tierra alrededor del Sol"
+      },
+      {
+        "en": "the Moon's orbit around Earth",
+        "es": "la órbita de la Luna alrededor de la Tierra"
+      },
+      {
+        "en": "the Sun's rotation on its own axis",
+        "es": "la rotación del Sol sobre su propio eje"
+      },
+      {
+        "en": "Earth's rotation on its own axis",
+        "es": "la rotación de la Tierra sobre su propio eje"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Earth spins once on its axis about every 24 hours, turning each location into and out of sunlight. Revolution around the Sun takes a year and gives us the seasons.",
+      "es": "La Tierra gira una vez sobre su eje cada 24 horas aproximadamente, llevando cada lugar hacia la luz solar y fuera de ella. La traslación alrededor del Sol tarda un año y produce las estaciones."
+    },
+    "trap": {
+      "en": "\"Revolution around the Sun\" swaps the two motions. Rotation = spin = day; revolution = orbit = year.",
+      "es": "\"Traslación alrededor del Sol\" intercambia los dos movimientos. Rotación = giro = día; traslación = órbita = año."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0056",
+    "subtest": "GS",
+    "topic": "earth-rotation-seasons",
+    "difficulty": 2,
+    "stem": {
+      "en": "Earth has seasons mainly because",
+      "es": "La Tierra tiene estaciones principalmente porque"
+    },
+    "choices": [
+      {
+        "en": "its axis is tilted about 23.5°, so each hemisphere leans toward the Sun for part of the year",
+        "es": "su eje está inclinado unos 23.5°, así que cada hemisferio se inclina hacia el Sol durante parte del año"
+      },
+      {
+        "en": "it is much closer to the Sun in summer than in winter",
+        "es": "está mucho más cerca del Sol en verano que en invierno"
+      },
+      {
+        "en": "the Sun gives off more energy during summer months",
+        "es": "el Sol emite más energía durante los meses de verano"
+      },
+      {
+        "en": "the Moon blocks sunlight during the winter",
+        "es": "la Luna bloquea la luz solar durante el invierno"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The tilt changes how directly sunlight strikes each hemisphere and how long the days are. Earth's distance from the Sun varies only slightly; it is actually closest in early January, during northern winter.",
+      "es": "La inclinación cambia qué tan directamente llega la luz solar a cada hemisferio y cuánto duran los días. La distancia al Sol varía muy poco; de hecho, la Tierra está más cerca a comienzos de enero, en pleno invierno del norte."
+    },
+    "trap": {
+      "en": "\"Closer to the Sun in summer\" is the most common misconception. If distance were the cause, both hemispheres would have summer at the same time.",
+      "es": "\"Más cerca del Sol en verano\" es la idea errónea más común. Si la distancia fuera la causa, ambos hemisferios tendrían verano al mismo tiempo."
+    },
+    "strategyRef": "gs.eliminate-absolutes",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0057",
+    "subtest": "GS",
+    "topic": "physical-science",
+    "difficulty": 2,
+    "stem": {
+      "en": "Which quantity measures the amount of matter in an object and stays the same whether the object is on Earth or on the Moon?",
+      "es": "¿Qué magnitud mide la cantidad de materia de un objeto y se mantiene igual tanto en la Tierra como en la Luna?"
+    },
+    "choices": [
+      {
+        "en": "Weight",
+        "es": "Peso"
+      },
+      {
+        "en": "Volume",
+        "es": "Volumen"
+      },
+      {
+        "en": "Mass",
+        "es": "Masa"
+      },
+      {
+        "en": "Density",
+        "es": "Densidad"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Mass is the amount of matter and does not depend on gravity. Weight is the force of gravity on that mass, so it drops to about one-sixth on the Moon.",
+      "es": "La masa es la cantidad de materia y no depende de la gravedad. El peso es la fuerza de la gravedad sobre esa masa, por eso se reduce a cerca de un sexto en la Luna."
+    },
+    "trap": {
+      "en": "\"Weight\" is used interchangeably with mass in everyday speech, but on the test weight is a force that changes with location.",
+      "es": "\"Peso\" se usa como sinónimo de masa en el habla cotidiana, pero en el examen el peso es una fuerza que cambia según el lugar."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0058",
+    "subtest": "GS",
+    "topic": "circulatory-system",
+    "difficulty": 3,
+    "stem": {
+      "en": "Oxygen-poor blood returning from the body enters the right atrium, passes to the right ventricle, and is then pumped to the",
+      "es": "La sangre pobre en oxígeno que regresa del cuerpo entra a la aurícula derecha, pasa al ventrículo derecho y luego es bombeada hacia"
+    },
+    "choices": [
+      {
+        "en": "aorta and out to the body",
+        "es": "la aorta y de ahí al cuerpo"
+      },
+      {
+        "en": "left atrium",
+        "es": "la aurícula izquierda"
+      },
+      {
+        "en": "left ventricle",
+        "es": "el ventrículo izquierdo"
+      },
+      {
+        "en": "lungs through the pulmonary artery",
+        "es": "los pulmones a través de la arteria pulmonar"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "The right side of the heart handles blood going to the lungs; the left side receives oxygen-rich blood from the lungs and pumps it through the aorta to the body.",
+      "es": "El lado derecho del corazón maneja la sangre que va a los pulmones; el lado izquierdo recibe la sangre rica en oxígeno de los pulmones y la bombea por la aorta hacia el cuerpo."
+    },
+    "trap": {
+      "en": "\"Left atrium\" seems like the next stop, but blood cannot cross directly from right to left; it must go through the lungs first. Memory hook: Right → Respiratory, Left → Life (body).",
+      "es": "\"Aurícula izquierda\" parece la siguiente parada, pero la sangre no puede cruzar directamente de derecha a izquierda; primero debe pasar por los pulmones. Truco: Derecho → pulmones (Respiración), Izquierdo → cuerpo (vIda)."
+    },
+    "strategyRef": "gs.mnemonic",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0059",
+    "subtest": "GS",
+    "topic": "blood",
+    "difficulty": 3,
+    "stem": {
+      "en": "A person with blood type O negative is often called a universal donor because their red blood cells",
+      "es": "Una persona con sangre tipo O negativo suele llamarse donante universal porque sus glóbulos rojos"
+    },
+    "choices": [
+      {
+        "en": "carry neither the A antigen, the B antigen nor the Rh factor",
+        "es": "no tienen el antígeno A, ni el antígeno B, ni el factor Rh"
+      },
+      {
+        "en": "carry both the A and B antigens",
+        "es": "tienen tanto el antígeno A como el B"
+      },
+      {
+        "en": "contain no hemoglobin",
+        "es": "no contienen hemoglobina"
+      },
+      {
+        "en": "clot more quickly than other blood types",
+        "es": "coagulan más rápido que los de otros tipos"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Transfusion reactions happen when the recipient's antibodies attack antigens on donated cells. O negative cells have none of the A, B or Rh antigens, so most recipients tolerate them.",
+      "es": "Las reacciones a la transfusión ocurren cuando los anticuerpos del receptor atacan los antígenos de las células donadas. Las células O negativo no tienen antígenos A, B ni Rh, por eso la mayoría de los receptores las toleran."
+    },
+    "trap": {
+      "en": "\"Both A and B antigens\" describes type AB, the universal recipient, the exact opposite role.",
+      "es": "\"Tanto el antígeno A como el B\" describe el tipo AB, el receptor universal, justo el papel contrario."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0060",
+    "subtest": "GS",
+    "topic": "nutrition",
+    "difficulty": 3,
+    "stem": {
+      "en": "Which macronutrient supplies the most energy per gram, about 9 kilocalories?",
+      "es": "¿Qué macronutriente aporta más energía por gramo, unas 9 kilocalorías?"
+    },
+    "choices": [
+      {
+        "en": "Carbohydrate",
+        "es": "Carbohidrato"
+      },
+      {
+        "en": "Protein",
+        "es": "Proteína"
+      },
+      {
+        "en": "Fat",
+        "es": "Grasa"
+      },
+      {
+        "en": "Fiber",
+        "es": "Fibra"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Fats provide about 9 kcal per gram, while carbohydrates and proteins each provide about 4 kcal per gram. Fiber passes through mostly undigested.",
+      "es": "Las grasas aportan unas 9 kcal por gramo, mientras que los carbohidratos y las proteínas aportan unas 4 kcal por gramo cada uno. La fibra pasa en gran parte sin digerirse."
+    },
+    "trap": {
+      "en": "\"Carbohydrate\" is chosen because carbs are the body's quickest fuel, but quick is not the same as most energy-dense.",
+      "es": "\"Carbohidrato\" se elige porque los carbohidratos son el combustible más rápido del cuerpo, pero rápido no es lo mismo que más energético por gramo."
+    },
+    "strategyRef": "gs.units",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0061",
+    "subtest": "GS",
+    "topic": "periodic-table",
+    "difficulty": 1,
+    "stem": {
+      "en": "Helium, neon and argon sit in the far right column of the periodic table and rarely react with other elements. They are called",
+      "es": "El helio, el neón y el argón se ubican en la columna del extremo derecho de la tabla periódica y rara vez reaccionan con otros elementos. Se llaman"
+    },
+    "choices": [
+      {
+        "en": "alkali metals",
+        "es": "metales alcalinos"
+      },
+      {
+        "en": "noble gases",
+        "es": "gases nobles"
+      },
+      {
+        "en": "halogens",
+        "es": "halógenos"
+      },
+      {
+        "en": "transition metals",
+        "es": "metales de transición"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Noble gases have full outer electron shells, so they have little tendency to gain, lose or share electrons. Halogens (one column to the left) are highly reactive.",
+      "es": "Los gases nobles tienen la capa externa de electrones completa, por lo que casi no tienden a ganar, perder ni compartir electrones. Los halógenos (una columna a la izquierda) son muy reactivos."
+    },
+    "trap": {
+      "en": "\"Halogens\" are also nonmetals near the right edge, but they are among the most reactive elements, the opposite of inert.",
+      "es": "\"Halógenos\" también son no metales cerca del borde derecho, pero están entre los elementos más reactivos, lo contrario de inertes."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0062",
+    "subtest": "GS",
+    "topic": "states-of-matter",
+    "difficulty": 2,
+    "stem": {
+      "en": "A puddle slowly disappears on a warm day even though the water never reaches its boiling point. The process turning the liquid into vapor at the surface is",
+      "es": "Un charco desaparece poco a poco en un día cálido aunque el agua nunca llega a su punto de ebullición. El proceso que convierte el líquido en vapor en la superficie es"
+    },
+    "choices": [
+      {
+        "en": "condensation",
+        "es": "condensación"
+      },
+      {
+        "en": "sublimation",
+        "es": "sublimación"
+      },
+      {
+        "en": "freezing",
+        "es": "congelación"
+      },
+      {
+        "en": "evaporation",
+        "es": "evaporación"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Evaporation happens at the surface at any temperature when the fastest molecules escape. Boiling happens throughout the liquid at the boiling point. Condensation is the reverse (gas to liquid).",
+      "es": "La evaporación ocurre en la superficie a cualquier temperatura cuando las moléculas más rápidas escapan. La ebullición ocurre en todo el líquido a la temperatura de ebullición. La condensación es el proceso inverso (gas a líquido)."
+    },
+    "trap": {
+      "en": "\"Sublimation\" is solid straight to gas (like dry ice); it skips the liquid state, which is exactly what the puddle is.",
+      "es": "\"Sublimación\" es de sólido directamente a gas (como el hielo seco); salta el estado líquido, que es justamente lo que es el charco."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0063",
+    "subtest": "GS",
+    "topic": "chemical-change",
+    "difficulty": 1,
+    "stem": {
+      "en": "In the reaction 2H₂ + O₂ → 2H₂O, hydrogen and oxygen are the",
+      "es": "En la reacción 2H₂ + O₂ → 2H₂O, el hidrógeno y el oxígeno son los"
+    },
+    "choices": [
+      {
+        "en": "reactants",
+        "es": "reactivos"
+      },
+      {
+        "en": "products",
+        "es": "productos"
+      },
+      {
+        "en": "catalysts",
+        "es": "catalizadores"
+      },
+      {
+        "en": "solvents",
+        "es": "solventes"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Substances on the left of the arrow are consumed (reactants); those on the right are formed (products). A catalyst speeds a reaction without being used up and would not appear as a reactant.",
+      "es": "Las sustancias a la izquierda de la flecha se consumen (reactivos); las de la derecha se forman (productos). Un catalizador acelera la reacción sin consumirse y no aparecería como reactivo."
+    },
+    "trap": {
+      "en": "\"Products\" is the arrow-direction slip: read left to right, reactants react to give products.",
+      "es": "\"Productos\" es el error de dirección de la flecha: leída de izquierda a derecha, los reactivos reaccionan para dar productos."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0064",
+    "subtest": "GS",
+    "topic": "acids-bases",
+    "difficulty": 2,
+    "stem": {
+      "en": "When hydrochloric acid reacts completely with sodium hydroxide (a base), the products are",
+      "es": "Cuando el ácido clorhídrico reacciona por completo con hidróxido de sodio (una base), los productos son"
+    },
+    "choices": [
+      {
+        "en": "hydrogen gas and chlorine gas",
+        "es": "gas hidrógeno y gas cloro"
+      },
+      {
+        "en": "a salt (sodium chloride) and water",
+        "es": "una sal (cloruro de sodio) y agua"
+      },
+      {
+        "en": "a stronger acid",
+        "es": "un ácido más fuerte"
+      },
+      {
+        "en": "carbon dioxide and sodium metal",
+        "es": "dióxido de carbono y sodio metálico"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "This is neutralization: acid + base → salt + water. The H⁺ from the acid and the OH⁻ from the base combine into water, and the remaining ions form the salt.",
+      "es": "Esto es una neutralización: ácido + base → sal + agua. El H⁺ del ácido y el OH⁻ de la base se combinan en agua, y los iones restantes forman la sal."
+    },
+    "trap": {
+      "en": "\"Hydrogen gas and chlorine gas\" pulls the acid apart element by element instead of recognizing the neutralization pattern.",
+      "es": "\"Gas hidrógeno y gas cloro\" separa el ácido elemento por elemento en vez de reconocer el patrón de neutralización."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0065",
+    "subtest": "GS",
+    "topic": "energy",
+    "difficulty": 3,
+    "stem": {
+      "en": "A 2 kg book is lifted onto a shelf 1.5 m above the floor. Using g ≈ 10 m/s², how much gravitational potential energy does the book gain?",
+      "es": "Un libro de 2 kg se coloca en un estante a 1.5 m del piso. Usando g ≈ 10 m/s², ¿cuánta energía potencial gravitatoria gana el libro?"
+    },
+    "choices": [
+      {
+        "en": "3 J",
+        "es": "3 J"
+      },
+      {
+        "en": "15 J",
+        "es": "15 J"
+      },
+      {
+        "en": "30 J",
+        "es": "30 J"
+      },
+      {
+        "en": "300 J",
+        "es": "300 J"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "PE = m × g × h = 2 kg × 10 m/s² × 1.5 m = 30 J.",
+      "es": "EP = m × g × h = 2 kg × 10 m/s² × 1.5 m = 30 J."
+    },
+    "trap": {
+      "en": "\"3 J\" forgets g entirely (2 × 1.5); \"15 J\" forgets the mass (10 × 1.5). All three factors must be multiplied.",
+      "es": "\"3 J\" olvida g por completo (2 × 1.5); \"15 J\" olvida la masa (10 × 1.5). Hay que multiplicar los tres factores."
+    },
+    "strategyRef": "gs.units",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0066",
+    "subtest": "GS",
+    "topic": "heat-transfer",
+    "difficulty": 1,
+    "stem": {
+      "en": "A metal spoon left in a pot of hot soup soon feels hot at the handle. Heat reached the handle mainly by",
+      "es": "Una cuchara de metal dejada en una olla de sopa caliente pronto se siente caliente en el mango. El calor llegó al mango principalmente por"
+    },
+    "choices": [
+      {
+        "en": "convection",
+        "es": "convección"
+      },
+      {
+        "en": "radiation",
+        "es": "radiación"
+      },
+      {
+        "en": "evaporation",
+        "es": "evaporación"
+      },
+      {
+        "en": "conduction",
+        "es": "conducción"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Conduction is heat moving through a solid by direct contact between vibrating particles. Convection needs a moving fluid, and radiation travels as electromagnetic waves.",
+      "es": "La conducción es el calor que se mueve a través de un sólido por contacto directo entre partículas que vibran. La convección requiere un fluido en movimiento, y la radiación viaja como ondas electromagnéticas."
+    },
+    "trap": {
+      "en": "\"Convection\" is what heats the soup itself (moving liquid), but a solid spoon cannot circulate; it conducts.",
+      "es": "\"Convección\" es lo que calienta la sopa en sí (líquido en movimiento), pero una cuchara sólida no puede circular; conduce."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0067",
+    "subtest": "GS",
+    "topic": "sound",
+    "difficulty": 1,
+    "stem": {
+      "en": "Whether a sound is heard as high-pitched or low-pitched depends on the wave's",
+      "es": "Que un sonido se escuche agudo o grave depende de la onda en cuanto a su"
+    },
+    "choices": [
+      {
+        "en": "frequency",
+        "es": "frecuencia"
+      },
+      {
+        "en": "amplitude",
+        "es": "amplitud"
+      },
+      {
+        "en": "speed",
+        "es": "rapidez"
+      },
+      {
+        "en": "loudness",
+        "es": "volumen"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Pitch is set by frequency (vibrations per second, in hertz): higher frequency means higher pitch. Amplitude determines loudness, and speed depends on the medium, not the note.",
+      "es": "El tono lo determina la frecuencia (vibraciones por segundo, en hertz): a mayor frecuencia, sonido más agudo. La amplitud determina el volumen, y la rapidez depende del medio, no de la nota."
+    },
+    "trap": {
+      "en": "\"Amplitude\" is the loudness trap: a louder note is not a higher note.",
+      "es": "\"Amplitud\" es la trampa del volumen: una nota más fuerte no es una nota más aguda."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0068",
+    "subtest": "GS",
+    "topic": "units",
+    "difficulty": 2,
+    "stem": {
+      "en": "In the SI system, force is measured in",
+      "es": "En el sistema SI, la fuerza se mide en"
+    },
+    "choices": [
+      {
+        "en": "joules",
+        "es": "julios"
+      },
+      {
+        "en": "newtons",
+        "es": "newtons"
+      },
+      {
+        "en": "watts",
+        "es": "vatios"
+      },
+      {
+        "en": "pascals",
+        "es": "pascales"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "One newton is the force that gives a 1 kg mass an acceleration of 1 m/s². The joule measures energy or work, the watt power, and the pascal pressure.",
+      "es": "Un newton es la fuerza que da a una masa de 1 kg una aceleración de 1 m/s². El julio mide energía o trabajo, el vatio potencia y el pascal presión."
+    },
+    "trap": {
+      "en": "\"Joules\" is close because work = force × distance, but that extra distance factor makes it energy, not force.",
+      "es": "\"Julios\" está cerca porque trabajo = fuerza × distancia, pero ese factor extra de distancia lo convierte en energía, no en fuerza."
+    },
+    "strategyRef": "gs.units",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0069",
+    "subtest": "GS",
+    "topic": "units",
+    "difficulty": 3,
+    "stem": {
+      "en": "How many centimeters are in 1 kilometer?",
+      "es": "¿Cuántos centímetros hay en 1 kilómetro?"
+    },
+    "choices": [
+      {
+        "en": "100",
+        "es": "100"
+      },
+      {
+        "en": "1,000",
+        "es": "1,000"
+      },
+      {
+        "en": "10,000",
+        "es": "10,000"
+      },
+      {
+        "en": "100,000",
+        "es": "100,000"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "1 km = 1,000 m and 1 m = 100 cm, so 1 km = 1,000 × 100 = 100,000 cm.",
+      "es": "1 km = 1,000 m y 1 m = 100 cm, así que 1 km = 1,000 × 100 = 100,000 cm."
+    },
+    "trap": {
+      "en": "\"1,000\" stops at meters; \"100\" uses only the meter-to-centimeter step. Chain both conversions.",
+      "es": "\"1,000\" se detiene en metros; \"100\" usa solo el paso de metro a centímetro. Hay que encadenar ambas conversiones."
+    },
+    "strategyRef": "gs.units",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0070",
+    "subtest": "GS",
+    "topic": "light",
+    "difficulty": 2,
+    "stem": {
+      "en": "A straw standing in a glass of water looks bent where it enters the water. This happens because light",
+      "es": "Un popote (pajilla) dentro de un vaso con agua parece doblado justo donde entra al agua. Esto ocurre porque la luz"
+    },
+    "choices": [
+      {
+        "en": "reflects off the surface of the water",
+        "es": "se refleja en la superficie del agua"
+      },
+      {
+        "en": "is absorbed by the water",
+        "es": "es absorbida por el agua"
+      },
+      {
+        "en": "refracts as it passes between water and air",
+        "es": "se refracta al pasar entre el agua y el aire"
+      },
+      {
+        "en": "diffracts around the edge of the glass",
+        "es": "se difracta alrededor del borde del vaso"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Refraction is the bending of light when it changes speed moving from one medium to another. Reflection would send the light back and could not make the submerged part look shifted.",
+      "es": "La refracción es la desviación de la luz cuando cambia de rapidez al pasar de un medio a otro. La reflexión devolvería la luz y no podría hacer que la parte sumergida se viera desplazada."
+    },
+    "trap": {
+      "en": "\"Reflects\" is the everyday word people reach for; reflection makes mirrors, refraction makes lenses and the bent-straw effect.",
+      "es": "\"Se refleja\" es la palabra cotidiana que suele elegirse; la reflexión produce los espejos, la refracción produce las lentes y el efecto del popote doblado."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0071",
+    "subtest": "GS",
+    "topic": "earth-layers",
+    "difficulty": 3,
+    "stem": {
+      "en": "Which layer of Earth is the thickest, making up most of the planet's volume?",
+      "es": "¿Qué capa de la Tierra es la más gruesa y ocupa la mayor parte del volumen del planeta?"
+    },
+    "choices": [
+      {
+        "en": "Mantle",
+        "es": "Manto"
+      },
+      {
+        "en": "Crust",
+        "es": "Corteza"
+      },
+      {
+        "en": "Outer core",
+        "es": "Núcleo externo"
+      },
+      {
+        "en": "Inner core",
+        "es": "Núcleo interno"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The mantle is about 2,900 km thick and holds roughly 84 % of Earth's volume. The crust is a thin skin of only about 5 to 70 km, and the two core layers together are smaller than the mantle.",
+      "es": "El manto tiene unos 2,900 km de espesor y contiene cerca del 84 % del volumen terrestre. La corteza es una capa delgada de solo 5 a 70 km, y las dos capas del núcleo juntas son menores que el manto."
+    },
+    "trap": {
+      "en": "\"Crust\" is the layer we live on and know best, but it is by far the thinnest.",
+      "es": "\"Corteza\" es la capa en la que vivimos y mejor conocemos, pero es con mucho la más delgada."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0072",
+    "subtest": "GS",
+    "topic": "plate-tectonics",
+    "difficulty": 1,
+    "stem": {
+      "en": "Most earthquakes occur",
+      "es": "La mayoría de los terremotos ocurren"
+    },
+    "choices": [
+      {
+        "en": "in the centers of large continents",
+        "es": "en el centro de los grandes continentes"
+      },
+      {
+        "en": "along the boundaries between tectonic plates",
+        "es": "a lo largo de los límites entre placas tectónicas"
+      },
+      {
+        "en": "only beneath the oceans",
+        "es": "únicamente bajo los océanos"
+      },
+      {
+        "en": "only where volcanoes are erupting",
+        "es": "únicamente donde hay volcanes en erupción"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Plates grind past, collide with or pull away from each other at their edges; the stress that builds and suddenly releases there is what causes most earthquakes.",
+      "es": "Las placas se deslizan, chocan o se separan en sus bordes; el esfuerzo que se acumula y se libera de golpe allí es lo que causa la mayoría de los terremotos."
+    },
+    "trap": {
+      "en": "The two choices with \"only\" are absolute statements; earthquakes do occur under oceans and near volcanoes, but not exclusively there.",
+      "es": "Las dos opciones con \"únicamente\" son afirmaciones absolutas; sí hay terremotos bajo los océanos y cerca de volcanes, pero no exclusivamente allí."
+    },
+    "strategyRef": "gs.eliminate-absolutes",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0073",
+    "subtest": "GS",
+    "topic": "rock-cycle",
+    "difficulty": 2,
+    "stem": {
+      "en": "Marble forms when limestone is buried and changed by intense heat and pressure without melting. Marble is therefore classified as",
+      "es": "El mármol se forma cuando la caliza queda enterrada y se transforma por calor y presión intensos sin fundirse. Por lo tanto, el mármol se clasifica como roca"
+    },
+    "choices": [
+      {
+        "en": "igneous rock",
+        "es": "ígnea"
+      },
+      {
+        "en": "sedimentary rock",
+        "es": "sedimentaria"
+      },
+      {
+        "en": "metamorphic rock",
+        "es": "metamórfica"
+      },
+      {
+        "en": "volcanic rock",
+        "es": "volcánica"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Metamorphic rock is any rock transformed by heat and pressure while staying solid. Igneous rock forms from melted rock, and sedimentary rock from compacted sediments.",
+      "es": "Una roca metamórfica es cualquier roca transformada por calor y presión sin dejar de ser sólida. La roca ígnea se forma a partir de roca fundida, y la sedimentaria a partir de sedimentos compactados."
+    },
+    "trap": {
+      "en": "\"Sedimentary\" is the parent rock (limestone), not the result. The stem tells you a change happened, which is the clue for metamorphic.",
+      "es": "\"Sedimentaria\" es la roca original (caliza), no el resultado. El enunciado dice que ocurrió un cambio, y esa es la pista de metamórfica."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0074",
+    "subtest": "GS",
+    "topic": "weather",
+    "difficulty": 3,
+    "stem": {
+      "en": "A barometer reading has been falling steadily for several hours. This most likely means",
+      "es": "La lectura de un barómetro ha bajado de forma constante durante varias horas. Esto significa muy probablemente que"
+    },
+    "choices": [
+      {
+        "en": "fair, settled weather will continue",
+        "es": "continuará el tiempo estable y despejado"
+      },
+      {
+        "en": "humidity is dropping",
+        "es": "la humedad está bajando"
+      },
+      {
+        "en": "temperatures will rise sharply",
+        "es": "las temperaturas subirán bruscamente"
+      },
+      {
+        "en": "a low-pressure system with clouds or storms is approaching",
+        "es": "se aproxima un sistema de baja presión con nubes o tormentas"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Falling pressure signals an approaching low, where air rises, cools and forms clouds and precipitation. Rising pressure signals a high and clearing skies.",
+      "es": "La caída de presión indica que se acerca una baja, donde el aire asciende, se enfría y forma nubes y precipitación. La presión en aumento indica una alta y cielos despejados."
+    },
+    "trap": {
+      "en": "\"Fair, settled weather\" is what rising or high pressure brings; falling means the opposite.",
+      "es": "\"Tiempo estable y despejado\" es lo que trae una presión alta o en aumento; la caída indica lo contrario."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0075",
+    "subtest": "GS",
+    "topic": "clouds",
+    "difficulty": 1,
+    "stem": {
+      "en": "Low, gray, sheet-like clouds that cover the whole sky and often bring light drizzle are called",
+      "es": "Las nubes bajas, grises, en forma de capa que cubren todo el cielo y suelen traer llovizna ligera se llaman"
+    },
+    "choices": [
+      {
+        "en": "stratus",
+        "es": "estratos"
+      },
+      {
+        "en": "cumulus",
+        "es": "cúmulos"
+      },
+      {
+        "en": "cirrus",
+        "es": "cirros"
+      },
+      {
+        "en": "cumulonimbus",
+        "es": "cumulonimbos"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "\"Stratus\" means layer. Cumulus clouds are puffy fair-weather clouds, cirrus are high wispy ice clouds, and cumulonimbus are towering thunderstorm clouds.",
+      "es": "\"Estrato\" significa capa. Los cúmulos son nubes esponjosas de buen tiempo, los cirros son nubes altas y delgadas de hielo, y los cumulonimbos son nubes de tormenta muy altas."
+    },
+    "trap": {
+      "en": "\"Cumulonimbus\" also brings rain, but as heavy, violent showers from a tall tower, not gentle drizzle from a flat gray blanket.",
+      "es": "\"Cumulonimbos\" también traen lluvia, pero como chubascos fuertes y violentos desde una torre alta, no llovizna suave desde un manto gris y plano."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0076",
+    "subtest": "GS",
+    "topic": "water-cycle",
+    "difficulty": 2,
+    "stem": {
+      "en": "Approximately what fraction of Earth's surface is covered by ocean?",
+      "es": "¿Aproximadamente qué fracción de la superficie de la Tierra está cubierta por océanos?"
+    },
+    "choices": [
+      {
+        "en": "About 30 %",
+        "es": "Cerca del 30 %"
+      },
+      {
+        "en": "About 50 %",
+        "es": "Cerca del 50 %"
+      },
+      {
+        "en": "About 70 %",
+        "es": "Cerca del 70 %"
+      },
+      {
+        "en": "About 90 %",
+        "es": "Cerca del 90 %"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Oceans cover roughly 71 % of the surface, which is why Earth looks blue from space. The other 29 % is land.",
+      "es": "Los océanos cubren aproximadamente el 71 % de la superficie, por eso la Tierra se ve azul desde el espacio. El 29 % restante es tierra firme."
+    },
+    "trap": {
+      "en": "\"About 30 %\" is the land share turned upside down.",
+      "es": "\"Cerca del 30 %\" es la proporción de tierra firme, invertida."
+    },
+    "strategyRef": "gs.units",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0077",
+    "subtest": "GS",
+    "topic": "solar-system",
+    "difficulty": 1,
+    "stem": {
+      "en": "Which is the largest planet in our solar system?",
+      "es": "¿Cuál es el planeta más grande de nuestro sistema solar?"
+    },
+    "choices": [
+      {
+        "en": "Saturn",
+        "es": "Saturno"
+      },
+      {
+        "en": "Jupiter",
+        "es": "Júpiter"
+      },
+      {
+        "en": "Neptune",
+        "es": "Neptuno"
+      },
+      {
+        "en": "Earth",
+        "es": "Tierra"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Jupiter is a gas giant with more than twice the mass of all the other planets combined. Saturn is second largest.",
+      "es": "Júpiter es un gigante gaseoso con más del doble de la masa de todos los demás planetas juntos. Saturno es el segundo más grande."
+    },
+    "trap": {
+      "en": "\"Saturn\" is the famous ringed giant and is often mistaken for the biggest, but it is smaller and far less massive than Jupiter.",
+      "es": "\"Saturno\" es el famoso gigante con anillos y a menudo se cree que es el mayor, pero es más pequeño y mucho menos masivo que Júpiter."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0078",
+    "subtest": "GS",
+    "topic": "solar-system",
+    "difficulty": 2,
+    "stem": {
+      "en": "Which list gives the four planets closest to the Sun in order, starting nearest the Sun?",
+      "es": "¿Qué lista da los cuatro planetas más cercanos al Sol en orden, empezando por el más cercano?"
+    },
+    "choices": [
+      {
+        "en": "Mercury, Venus, Earth, Mars",
+        "es": "Mercurio, Venus, Tierra, Marte"
+      },
+      {
+        "en": "Venus, Mercury, Earth, Mars",
+        "es": "Venus, Mercurio, Tierra, Marte"
+      },
+      {
+        "en": "Mercury, Earth, Venus, Mars",
+        "es": "Mercurio, Tierra, Venus, Marte"
+      },
+      {
+        "en": "Mars, Earth, Venus, Mercury",
+        "es": "Marte, Tierra, Venus, Mercurio"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The inner rocky planets in order are Mercury, Venus, Earth, Mars, followed by Jupiter, Saturn, Uranus and Neptune. Memory hook: \"My Very Educated Mother Just Served Us Noodles.\"",
+      "es": "Los planetas rocosos interiores en orden son Mercurio, Venus, Tierra, Marte, seguidos por Júpiter, Saturno, Urano y Neptuno. Truco: \"Mi Vecina Tiene Muchas Joyas, Solo Usa Nueve\"."
+    },
+    "trap": {
+      "en": "\"Venus, Mercury, Earth, Mars\" swaps the first two; Venus is hottest, but Mercury is closest.",
+      "es": "\"Venus, Mercurio, Tierra, Marte\" intercambia los dos primeros; Venus es el más caliente, pero Mercurio es el más cercano."
+    },
+    "strategyRef": "gs.mnemonic",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0079",
+    "subtest": "GS",
+    "topic": "moon-tides",
+    "difficulty": 3,
+    "stem": {
+      "en": "A lunar eclipse, when Earth's shadow falls on the Moon, can occur only during which phase?",
+      "es": "Un eclipse lunar, cuando la sombra de la Tierra cae sobre la Luna, solo puede ocurrir durante cuál fase?"
+    },
+    "choices": [
+      {
+        "en": "New moon",
+        "es": "Luna nueva"
+      },
+      {
+        "en": "First quarter",
+        "es": "Cuarto creciente"
+      },
+      {
+        "en": "Third quarter",
+        "es": "Cuarto menguante"
+      },
+      {
+        "en": "Full moon",
+        "es": "Luna llena"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "For Earth's shadow to reach the Moon, the Sun, Earth and Moon must line up with Earth in the middle, which is the full-moon geometry. A solar eclipse needs the Moon in the middle: new moon.",
+      "es": "Para que la sombra de la Tierra alcance la Luna, el Sol, la Tierra y la Luna deben alinearse con la Tierra en medio, que es la geometría de luna llena. Un eclipse solar necesita a la Luna en medio: luna nueva."
+    },
+    "trap": {
+      "en": "\"New moon\" is the solar-eclipse phase. Swap test: who is in the middle? Earth in the middle = lunar eclipse = full moon.",
+      "es": "\"Luna nueva\" es la fase del eclipse solar. Prueba rápida: ¿quién está en medio? Tierra en medio = eclipse lunar = luna llena."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "gs-0080",
+    "subtest": "GS",
+    "topic": "body-systems",
+    "difficulty": 1,
+    "stem": {
+      "en": "Which body system uses glands to release hormones that regulate growth, metabolism and blood sugar?",
+      "es": "¿Qué sistema del cuerpo usa glándulas para liberar hormonas que regulan el crecimiento, el metabolismo y el azúcar en la sangre?"
+    },
+    "choices": [
+      {
+        "en": "Lymphatic system",
+        "es": "Sistema linfático"
+      },
+      {
+        "en": "Endocrine system",
+        "es": "Sistema endocrino"
+      },
+      {
+        "en": "Integumentary system",
+        "es": "Sistema tegumentario"
+      },
+      {
+        "en": "Excretory system",
+        "es": "Sistema excretor"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "The endocrine system (thyroid, pancreas, adrenal and pituitary glands, among others) sends chemical messengers through the blood. The lymphatic system fights infection, the integumentary system is the skin, and the excretory system removes wastes.",
+      "es": "El sistema endocrino (tiroides, páncreas, suprarrenales e hipófisis, entre otras glándulas) envía mensajeros químicos por la sangre. El sistema linfático combate infecciones, el tegumentario es la piel y el excretor elimina desechos."
+    },
+    "trap": {
+      "en": "\"Lymphatic\" is picked because it also has glands (lymph nodes), but those filter fluid and fight germs; they do not make hormones.",
+      "es": "\"Linfático\" se elige porque también tiene glándulas (ganglios linfáticos), pero esas filtran líquido y combaten gérmenes; no producen hormonas."
+    },
+    "strategyRef": "gs.flashcards",
+    "source": "original",
+    "version": 1
+  }
+]

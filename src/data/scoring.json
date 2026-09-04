@@ -1,0 +1,38 @@
+{
+  "lastChecked": "2026-09-03",
+  "ve": { "wk": 0.655, "pc": 0.406, "intercept": -3.03, "note": "VE ≈ 0.655·WK + 0.406·PC − 3.03 (standard scores); prep-site approximation of the official VE table." },
+  "afqt": { "formula": "2*VE + AR + MK", "rawMin": 80, "rawMax": 320 },
+  "categories": [
+    { "cat": "I", "min": 93, "max": 99 },
+    { "cat": "II", "min": 65, "max": 92 },
+    { "cat": "IIIA", "min": 50, "max": 64 },
+    { "cat": "IIIB", "min": 31, "max": 49 },
+    { "cat": "IVA", "min": 21, "max": 30 },
+    { "cat": "IVB", "min": 16, "max": 20 },
+    { "cat": "IVC", "min": 10, "max": 15 },
+    { "cat": "V", "min": 1, "max": 9 }
+  ],
+  "minimums": [
+    { "branch": "army", "name": { "en": "Army", "es": "Ejército" }, "diploma": 31, "ged": 50 },
+    { "branch": "navy", "name": { "en": "Navy", "es": "Armada" }, "diploma": 31, "ged": 50 },
+    { "branch": "airforce", "name": { "en": "Air Force / Space Force", "es": "Fuerza Aérea / Fuerza Espacial" }, "diploma": 31, "ged": 50 },
+    { "branch": "marines", "name": { "en": "Marine Corps", "es": "Infantería de Marina" }, "diploma": 31, "ged": 50 },
+    { "branch": "coastguard", "name": { "en": "Coast Guard", "es": "Guardia Costera" }, "diploma": 40, "ged": 50 }
+  ],
+  "composites": [
+    { "branch": "army", "code": "GT", "name": { "en": "General Technical", "es": "Técnico general" }, "sum": ["VE", "AR"] },
+    { "branch": "army", "code": "CL", "name": { "en": "Clerical", "es": "Administrativo" }, "sum": ["VE", "AR", "MK"] },
+    { "branch": "army", "code": "EL", "name": { "en": "Electronics", "es": "Electrónica" }, "sum": ["GS", "AR", "MK", "EI"] },
+    { "branch": "army", "code": "GM", "name": { "en": "General Maintenance", "es": "Mantenimiento general" }, "sum": ["GS", "AS", "MK", "EI"] },
+    { "branch": "army", "code": "ST", "name": { "en": "Skilled Technical", "es": "Técnico especializado" }, "sum": ["GS", "VE", "MK", "MC"] },
+    { "branch": "army", "code": "SC", "name": { "en": "Surveillance & Communications", "es": "Vigilancia y comunicaciones" }, "sum": ["VE", "AR", "AS", "MC"] },
+    { "branch": "airforce", "code": "M", "name": { "en": "Mechanical", "es": "Mecánico" }, "sum": ["AR", "AS", "MC", "VE"] },
+    { "branch": "airforce", "code": "A", "name": { "en": "Administrative", "es": "Administrativo" }, "sum": ["MK", "VE"] },
+    { "branch": "airforce", "code": "G", "name": { "en": "General", "es": "General" }, "sum": ["AR", "VE"] },
+    { "branch": "airforce", "code": "E", "name": { "en": "Electronics", "es": "Electrónica" }, "sum": ["AR", "EI", "GS", "MK"] },
+    { "branch": "marines", "code": "GT", "name": { "en": "General Technical", "es": "Técnico general" }, "sum": ["VE", "AR", "MC"] },
+    { "branch": "marines", "code": "EL", "name": { "en": "Electronics", "es": "Electrónica" }, "sum": ["GS", "AR", "MK", "EI"] },
+    { "branch": "marines", "code": "MM", "name": { "en": "Mechanical Maintenance", "es": "Mantenimiento mecánico" }, "sum": ["AR", "MC", "AS", "EI"] },
+    { "branch": "marines", "code": "CL", "name": { "en": "Clerical", "es": "Administrativo" }, "sum": ["VE", "MK"] }
+  ]
+}

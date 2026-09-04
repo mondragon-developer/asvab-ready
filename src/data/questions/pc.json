@@ -1,0 +1,2642 @@
+[
+  {
+    "id": "pc-0001",
+    "subtest": "PC",
+    "topic": "detail",
+    "difficulty": 2,
+    "passage": {
+      "en": "Night-vision devices do not create light; they amplify it. A tube collects the faint light of stars or the moon, converts it to electrons, multiplies those electrons thousands of times, and turns them back into a visible green image. On a night with no light at all, the device shows nothing.",
+      "es": "Los dispositivos de visión nocturna no crean luz: la amplifican. Un tubo recoge la luz tenue de las estrellas o la luna, la convierte en electrones, los multiplica miles de veces y los vuelve a convertir en una imagen verde visible. En una noche sin luz alguna, el dispositivo no muestra nada."
+    },
+    "stem": {
+      "en": "According to the passage, why would a night-vision device fail inside a sealed, unlit room?",
+      "es": "Según el pasaje, ¿por qué fallaría un dispositivo de visión nocturna dentro de un cuarto sellado y sin luz?"
+    },
+    "choices": [
+      {
+        "en": "The tube overheats in closed spaces",
+        "es": "El tubo se sobrecalienta en espacios cerrados"
+      },
+      {
+        "en": "There is no light to amplify",
+        "es": "No hay luz que amplificar"
+      },
+      {
+        "en": "Green images need moonlight specifically",
+        "es": "Las imágenes verdes necesitan luz de luna específicamente"
+      },
+      {
+        "en": "Electrons cannot be multiplied indoors",
+        "es": "Los electrones no pueden multiplicarse en interiores"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "The passage says the device amplifies existing light and \"shows nothing\" with no light at all.",
+      "es": "El pasaje dice que el dispositivo amplifica la luz existente y \"no muestra nada\" sin luz."
+    },
+    "trap": {
+      "en": "Read the question first, then hunt for the sentence that answers it. Choices A, C, D add outside claims the passage never makes.",
+      "es": "Lee la pregunta primero y luego busca la oración que la responde. Las opciones A, C y D añaden afirmaciones que el pasaje nunca hace."
+    },
+    "strategyRef": "pc.question-first",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0002",
+    "subtest": "PC",
+    "topic": "main-idea",
+    "difficulty": 1,
+    "passage": {
+      "en": "Ocean tides are caused mainly by the pull of the moon's gravity on Earth's water. As the moon passes over an ocean, the water beneath it bulges slightly toward it, producing a high tide. A second bulge forms on the opposite side of the planet, where the water is pulled less strongly than the solid Earth. Because Earth rotates once a day while the moon barely moves in its orbit, most coasts experience two high tides and two low tides roughly every twenty-five hours. The sun also tugs on the oceans, but its effect is less than half that of the moon, since the sun is so much farther away. When the sun and moon line up, their pulls combine and tides are unusually large.",
+      "es": "Las mareas oceánicas se deben principalmente a la atracción de la gravedad de la Luna sobre el agua de la Tierra. Cuando la Luna pasa sobre un océano, el agua que está debajo se abulta ligeramente hacia ella y produce una marea alta. Un segundo abultamiento se forma en el lado opuesto del planeta, donde el agua es atraída con menos fuerza que la Tierra sólida. Como la Tierra gira una vez al día mientras la Luna apenas avanza en su órbita, la mayoría de las costas tienen dos mareas altas y dos bajas aproximadamente cada veinticinco horas. El Sol también tira de los océanos, pero su efecto es menos de la mitad del de la Luna, porque está mucho más lejos. Cuando el Sol y la Luna se alinean, sus fuerzas se suman y las mareas son inusualmente grandes."
+    },
+    "stem": {
+      "en": "Which title best fits the passage?",
+      "es": "¿Qué título se ajusta mejor al pasaje?"
+    },
+    "choices": [
+      {
+        "en": "How the Moon Drives the Tides",
+        "es": "Cómo la Luna produce las mareas"
+      },
+      {
+        "en": "Why the Sun Is Farther Than the Moon",
+        "es": "Por qué el Sol está más lejos que la Luna"
+      },
+      {
+        "en": "The Dangers of High Tide",
+        "es": "Los peligros de la marea alta"
+      },
+      {
+        "en": "Earth's Daily Rotation",
+        "es": "La rotación diaria de la Tierra"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Every sentence explains how gravity, mostly the moon's, produces tides; the sun and rotation are supporting details.",
+      "es": "Cada oración explica cómo la gravedad, sobre todo la de la Luna, produce las mareas; el Sol y la rotación son detalles de apoyo."
+    },
+    "trap": {
+      "en": "\"Earth's Daily Rotation\" is the detail-as-title trap: rotation is mentioned once to explain timing, not as the subject.",
+      "es": "\"La rotación diaria de la Tierra\" es la trampa del detalle como título: la rotación se menciona una vez para explicar el ritmo, no como tema."
+    },
+    "strategyRef": "pc.main-idea",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0003",
+    "subtest": "PC",
+    "topic": "detail",
+    "difficulty": 2,
+    "passage": {
+      "en": "Ocean tides are caused mainly by the pull of the moon's gravity on Earth's water. As the moon passes over an ocean, the water beneath it bulges slightly toward it, producing a high tide. A second bulge forms on the opposite side of the planet, where the water is pulled less strongly than the solid Earth. Because Earth rotates once a day while the moon barely moves in its orbit, most coasts experience two high tides and two low tides roughly every twenty-five hours. The sun also tugs on the oceans, but its effect is less than half that of the moon, since the sun is so much farther away. When the sun and moon line up, their pulls combine and tides are unusually large.",
+      "es": "Las mareas oceánicas se deben principalmente a la atracción de la gravedad de la Luna sobre el agua de la Tierra. Cuando la Luna pasa sobre un océano, el agua que está debajo se abulta ligeramente hacia ella y produce una marea alta. Un segundo abultamiento se forma en el lado opuesto del planeta, donde el agua es atraída con menos fuerza que la Tierra sólida. Como la Tierra gira una vez al día mientras la Luna apenas avanza en su órbita, la mayoría de las costas tienen dos mareas altas y dos bajas aproximadamente cada veinticinco horas. El Sol también tira de los océanos, pero su efecto es menos de la mitad del de la Luna, porque está mucho más lejos. Cuando el Sol y la Luna se alinean, sus fuerzas se suman y las mareas son inusualmente grandes."
+    },
+    "stem": {
+      "en": "According to the passage, why is the sun's effect on tides smaller than the moon's?",
+      "es": "Según el pasaje, ¿por qué el efecto del Sol sobre las mareas es menor que el de la Luna?"
+    },
+    "choices": [
+      {
+        "en": "The sun rotates more slowly",
+        "es": "El Sol gira más despacio"
+      },
+      {
+        "en": "The sun pulls only on solid Earth",
+        "es": "El Sol solo atrae a la Tierra sólida"
+      },
+      {
+        "en": "The sun is much farther away",
+        "es": "El Sol está mucho más lejos"
+      },
+      {
+        "en": "The sun's pull cancels out the moon's",
+        "es": "La fuerza del Sol anula la de la Luna"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "The passage states the sun's effect is smaller \"since the sun is so much farther away.\"",
+      "es": "El pasaje dice que el efecto del Sol es menor \"porque está mucho más lejos\"."
+    },
+    "trap": {
+      "en": "\"Cancels out\" contradicts the last sentence, where the two pulls combine; scan for the word \"since\" to find the stated reason.",
+      "es": "\"Anula\" contradice la última oración, donde las dos fuerzas se suman; busca la palabra \"porque\" para hallar la razón indicada."
+    },
+    "strategyRef": "pc.question-first",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0004",
+    "subtest": "PC",
+    "topic": "detail",
+    "difficulty": 1,
+    "passage": {
+      "en": "At the end of every shift, the outgoing operator writes a handover note before leaving the control room. The note lists any equipment that was taken out of service, alarms that were silenced and why, and tasks left unfinished. The incoming operator reads the note aloud with the outgoing operator present, so questions can be answered on the spot rather than by phone an hour later. Managers review the logbook weekly, not to assign blame but to spot patterns: a pump that appears in three notes in a row is a pump that needs a work order. Plants that skip this ritual tend to discover problems only after they have already caused a shutdown.",
+      "es": "Al final de cada turno, el operador saliente escribe una nota de relevo antes de dejar la sala de control. La nota enumera los equipos que se sacaron de servicio, las alarmas que se silenciaron y por qué, y las tareas que quedaron sin terminar. El operador entrante lee la nota en voz alta con el operador saliente presente, para que las dudas se resuelvan en el momento y no por teléfono una hora después. Los gerentes revisan la bitácora cada semana, no para culpar a alguien sino para detectar patrones: una bomba que aparece en tres notas seguidas es una bomba que necesita una orden de trabajo. Las plantas que omiten este ritual suelen descubrir los problemas solo cuando ya han causado una parada."
+    },
+    "stem": {
+      "en": "According to the passage, the handover note is read aloud so that",
+      "es": "Según el pasaje, la nota de relevo se lee en voz alta para que"
+    },
+    "choices": [
+      {
+        "en": "managers can hear it",
+        "es": "los gerentes puedan escucharla"
+      },
+      {
+        "en": "the note can be copied into the logbook",
+        "es": "la nota pueda copiarse en la bitácora"
+      },
+      {
+        "en": "the outgoing operator can leave sooner",
+        "es": "el operador saliente pueda irse antes"
+      },
+      {
+        "en": "questions can be answered immediately",
+        "es": "las dudas se resuelvan de inmediato"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "The passage says the note is read with the outgoing operator present \"so questions can be answered on the spot.\"",
+      "es": "El pasaje dice que la nota se lee con el operador saliente presente \"para que las dudas se resuelvan en el momento\"."
+    },
+    "trap": {
+      "en": "\"Managers can hear it\" mixes two details: managers review the logbook weekly; they are not present at the reading.",
+      "es": "\"Los gerentes puedan escucharla\" mezcla dos detalles: los gerentes revisan la bitácora cada semana; no están presentes en la lectura."
+    },
+    "strategyRef": "pc.question-first",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0005",
+    "subtest": "PC",
+    "topic": "inference",
+    "difficulty": 2,
+    "passage": {
+      "en": "At the end of every shift, the outgoing operator writes a handover note before leaving the control room. The note lists any equipment that was taken out of service, alarms that were silenced and why, and tasks left unfinished. The incoming operator reads the note aloud with the outgoing operator present, so questions can be answered on the spot rather than by phone an hour later. Managers review the logbook weekly, not to assign blame but to spot patterns: a pump that appears in three notes in a row is a pump that needs a work order. Plants that skip this ritual tend to discover problems only after they have already caused a shutdown.",
+      "es": "Al final de cada turno, el operador saliente escribe una nota de relevo antes de dejar la sala de control. La nota enumera los equipos que se sacaron de servicio, las alarmas que se silenciaron y por qué, y las tareas que quedaron sin terminar. El operador entrante lee la nota en voz alta con el operador saliente presente, para que las dudas se resuelvan en el momento y no por teléfono una hora después. Los gerentes revisan la bitácora cada semana, no para culpar a alguien sino para detectar patrones: una bomba que aparece en tres notas seguidas es una bomba que necesita una orden de trabajo. Las plantas que omiten este ritual suelen descubrir los problemas solo cuando ya han causado una parada."
+    },
+    "stem": {
+      "en": "It can be inferred that a pump mentioned in several consecutive notes",
+      "es": "Se puede inferir que una bomba mencionada en varias notas seguidas"
+    },
+    "choices": [
+      {
+        "en": "has already been replaced",
+        "es": "ya fue reemplazada"
+      },
+      {
+        "en": "probably has a recurring problem",
+        "es": "probablemente tiene un problema recurrente"
+      },
+      {
+        "en": "was silenced by a manager",
+        "es": "fue silenciada por un gerente"
+      },
+      {
+        "en": "belongs to a plant that skips handovers",
+        "es": "pertenece a una planta que omite los relevos"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "The passage says such a pump \"needs a work order,\" which implies a fault that keeps coming back.",
+      "es": "El pasaje dice que esa bomba \"necesita una orden de trabajo\", lo que implica una falla que se repite."
+    },
+    "trap": {
+      "en": "\"Has already been replaced\" goes one step beyond the text: needing a work order is not the same as having been fixed.",
+      "es": "\"Ya fue reemplazada\" va un paso más allá del texto: necesitar una orden de trabajo no es lo mismo que ya estar reparada."
+    },
+    "strategyRef": "pc.inference",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0006",
+    "subtest": "PC",
+    "topic": "detail",
+    "difficulty": 2,
+    "passage": {
+      "en": "Before radio and satellite positioning, sailors approaching a coast at night depended on lighthouses. Each light was given a distinct pattern, or characteristic: one might flash twice every ten seconds, another shine steadily with a red sector. By timing the flashes, a navigator could identify which lighthouse was in view and fix the ship's position on a chart. Keepers lived on site, trimming wicks, polishing lenses, and winding the clockwork that rotated the lamp. The invention of the Fresnel lens in the early nineteenth century was a turning point; its rings of glass gathered light that older mirrors wasted and threw a beam visible more than twenty miles out to sea.",
+      "es": "Antes de la radio y del posicionamiento por satélite, los marineros que se acercaban a una costa de noche dependían de los faros. A cada luz se le asignaba un patrón propio, o característica: uno podía destellar dos veces cada diez segundos, otro brillar de forma continua con un sector rojo. Al cronometrar los destellos, un navegante podía identificar qué faro tenía a la vista y fijar la posición del barco en una carta. Los fareros vivían en el lugar, recortando mechas, puliendo lentes y dando cuerda al mecanismo que hacía girar la lámpara. La invención de la lente de Fresnel a principios del siglo XIX fue un punto de inflexión; sus anillos de vidrio captaban luz que los espejos antiguos desperdiciaban y lanzaban un haz visible a más de veinte millas mar adentro."
+    },
+    "stem": {
+      "en": "According to the passage, a navigator identified a particular lighthouse by",
+      "es": "Según el pasaje, un navegante identificaba un faro en particular"
+    },
+    "choices": [
+      {
+        "en": "timing its pattern of flashes",
+        "es": "cronometrando su patrón de destellos"
+      },
+      {
+        "en": "measuring its height above the sea",
+        "es": "midiendo su altura sobre el mar"
+      },
+      {
+        "en": "reading its name on a chart",
+        "es": "leyendo su nombre en una carta"
+      },
+      {
+        "en": "signaling the keeper by radio",
+        "es": "llamando al farero por radio"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The passage states that \"by timing the flashes, a navigator could identify which lighthouse was in view.\"",
+      "es": "El pasaje dice que \"al cronometrar los destellos, un navegante podía identificar qué faro tenía a la vista\"."
+    },
+    "trap": {
+      "en": "\"Signaling by radio\" ignores the first sentence: this was before radio existed. The chart was used after identifying the light, not to identify it.",
+      "es": "\"Llamando por radio\" ignora la primera oración: esto era antes de que existiera la radio. La carta se usaba después de identificar la luz, no para identificarla."
+    },
+    "strategyRef": "pc.question-first",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0007",
+    "subtest": "PC",
+    "topic": "vocab",
+    "difficulty": 3,
+    "passage": {
+      "en": "Before radio and satellite positioning, sailors approaching a coast at night depended on lighthouses. Each light was given a distinct pattern, or characteristic: one might flash twice every ten seconds, another shine steadily with a red sector. By timing the flashes, a navigator could identify which lighthouse was in view and fix the ship's position on a chart. Keepers lived on site, trimming wicks, polishing lenses, and winding the clockwork that rotated the lamp. The invention of the Fresnel lens in the early nineteenth century was a turning point; its rings of glass gathered light that older mirrors wasted and threw a beam visible more than twenty miles out to sea.",
+      "es": "Antes de la radio y del posicionamiento por satélite, los marineros que se acercaban a una costa de noche dependían de los faros. A cada luz se le asignaba un patrón propio, o característica: uno podía destellar dos veces cada diez segundos, otro brillar de forma continua con un sector rojo. Al cronometrar los destellos, un navegante podía identificar qué faro tenía a la vista y fijar la posición del barco en una carta. Los fareros vivían en el lugar, recortando mechas, puliendo lentes y dando cuerda al mecanismo que hacía girar la lámpara. La invención de la lente de Fresnel a principios del siglo XIX fue un punto de inflexión; sus anillos de vidrio captaban luz que los espejos antiguos desperdiciaban y lanzaban un haz visible a más de veinte millas mar adentro."
+    },
+    "stem": {
+      "en": "As used in the passage, the word \"characteristic\" most nearly means",
+      "es": "Tal como se usa en el pasaje, la palabra \"characteristic\" significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "personality",
+        "es": "personalidad"
+      },
+      {
+        "en": "location",
+        "es": "ubicación"
+      },
+      {
+        "en": "brightness",
+        "es": "brillo"
+      },
+      {
+        "en": "identifying pattern",
+        "es": "patrón distintivo"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "The passage defines it in the same sentence: \"a distinct pattern, or characteristic,\" followed by examples of flash patterns.",
+      "es": "El pasaje lo define en la misma oración: \"un patrón propio, o característica\", seguido de ejemplos de patrones de destellos."
+    },
+    "trap": {
+      "en": "\"Personality\" is the everyday-meaning trap; here the word is a technical label for a light's pattern, so read the words around it.",
+      "es": "\"Personalidad\" es la trampa del significado cotidiano; aquí la palabra es una etiqueta técnica para el patrón de una luz, así que lee las palabras que la rodean."
+    },
+    "strategyRef": "pc.vocab-in-context",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0008",
+    "subtest": "PC",
+    "topic": "main-idea",
+    "difficulty": 1,
+    "passage": {
+      "en": "Beavers are sometimes called ecosystem engineers because their dams reshape the land around them. By blocking a stream with branches and mud, a beaver family creates a pond deep enough to hide the entrance to its lodge from predators. The pond slows the current, so silt settles instead of washing downstream, and the surrounding soil stays wet through dry months. Frogs, ducks, and fish move into the new wetland, and dead trees along the edge become nesting sites for woodpeckers. Landowners are not always pleased, since a rising pond can flood a road or a field. Yet in many watersheds, biologists now reintroduce beavers on purpose to restore streams that have run dry.",
+      "es": "A los castores a veces se les llama ingenieros del ecosistema porque sus presas remodelan el terreno a su alrededor. Al bloquear un arroyo con ramas y lodo, una familia de castores crea un estanque lo bastante profundo para ocultar de los depredadores la entrada de su madriguera. El estanque frena la corriente, de modo que el sedimento se asienta en lugar de irse río abajo, y el suelo circundante se mantiene húmedo durante los meses secos. Ranas, patos y peces se instalan en el nuevo humedal, y los árboles muertos de la orilla se convierten en sitios de anidación para los pájaros carpinteros. Los dueños de tierras no siempre están contentos, porque un estanque en aumento puede inundar un camino o un campo. Aun así, en muchas cuencas los biólogos hoy reintroducen castores a propósito para recuperar arroyos que se han secado."
+    },
+    "stem": {
+      "en": "The main idea of the passage is that beavers",
+      "es": "La idea principal del pasaje es que los castores"
+    },
+    "choices": [
+      {
+        "en": "are a nuisance to landowners",
+        "es": "son una molestia para los dueños de tierras"
+      },
+      {
+        "en": "build dams to store food for winter",
+        "es": "construyen presas para guardar comida para el invierno"
+      },
+      {
+        "en": "transform the landscape in ways that support other species",
+        "es": "transforman el paisaje de maneras que favorecen a otras especies"
+      },
+      {
+        "en": "are becoming rare in most watersheds",
+        "es": "se están volviendo escasos en la mayoría de las cuencas"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "The opening and closing sentences frame beavers as engineers whose ponds create wetlands that other animals use.",
+      "es": "La primera y la última oración presentan a los castores como ingenieros cuyos estanques crean humedales que otros animales aprovechan."
+    },
+    "trap": {
+      "en": "\"A nuisance to landowners\" is one sentence of contrast, not the main point; \"store food\" is never mentioned at all.",
+      "es": "\"Una molestia para los dueños\" es una sola oración de contraste, no la idea central; \"guardar comida\" nunca se menciona."
+    },
+    "strategyRef": "pc.main-idea",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0009",
+    "subtest": "PC",
+    "topic": "negative",
+    "difficulty": 2,
+    "passage": {
+      "en": "Beavers are sometimes called ecosystem engineers because their dams reshape the land around them. By blocking a stream with branches and mud, a beaver family creates a pond deep enough to hide the entrance to its lodge from predators. The pond slows the current, so silt settles instead of washing downstream, and the surrounding soil stays wet through dry months. Frogs, ducks, and fish move into the new wetland, and dead trees along the edge become nesting sites for woodpeckers. Landowners are not always pleased, since a rising pond can flood a road or a field. Yet in many watersheds, biologists now reintroduce beavers on purpose to restore streams that have run dry.",
+      "es": "A los castores a veces se les llama ingenieros del ecosistema porque sus presas remodelan el terreno a su alrededor. Al bloquear un arroyo con ramas y lodo, una familia de castores crea un estanque lo bastante profundo para ocultar de los depredadores la entrada de su madriguera. El estanque frena la corriente, de modo que el sedimento se asienta en lugar de irse río abajo, y el suelo circundante se mantiene húmedo durante los meses secos. Ranas, patos y peces se instalan en el nuevo humedal, y los árboles muertos de la orilla se convierten en sitios de anidación para los pájaros carpinteros. Los dueños de tierras no siempre están contentos, porque un estanque en aumento puede inundar un camino o un campo. Aun así, en muchas cuencas los biólogos hoy reintroducen castores a propósito para recuperar arroyos que se han secado."
+    },
+    "stem": {
+      "en": "According to the passage, all of the following result from a beaver dam EXCEPT",
+      "es": "Según el pasaje, todo lo siguiente resulta de una presa de castores EXCEPTO"
+    },
+    "choices": [
+      {
+        "en": "silt settling in the pond",
+        "es": "sedimento que se asienta en el estanque"
+      },
+      {
+        "en": "a faster current downstream",
+        "es": "una corriente más rápida río abajo"
+      },
+      {
+        "en": "new habitat for ducks and frogs",
+        "es": "nuevo hábitat para patos y ranas"
+      },
+      {
+        "en": "soil that stays wet in dry months",
+        "es": "suelo que se mantiene húmedo en los meses secos"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "The passage says the pond slows the current; three other choices are stated directly as results.",
+      "es": "El pasaje dice que el estanque frena la corriente; las otras tres opciones se mencionan directamente como resultados."
+    },
+    "trap": {
+      "en": "In an EXCEPT question, the three true statements are the distractors; mark each one you find in the text and choose the one left over.",
+      "es": "En una pregunta con EXCEPTO, las tres afirmaciones verdaderas son los distractores; marca cada una que encuentres en el texto y elige la que sobra."
+    },
+    "strategyRef": "pc.negative-stem",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0010",
+    "subtest": "PC",
+    "topic": "inference",
+    "difficulty": 2,
+    "passage": {
+      "en": "A password alone is a weak lock. If it is guessed, leaked, or reused from another site, anyone holding it can walk right in. Two-factor authentication adds a second requirement: after the password, the system asks for something only the real user has, usually a code from a phone app or a small hardware key. A thief who has stolen the password but not the phone is stopped at the second step. The extra step costs a few seconds per login, which is why some people turn it off. Security teams argue that this trade is lopsided: the inconvenience is trivial, while the breach it prevents can take months to undo.",
+      "es": "Una contraseña por sí sola es una cerradura débil. Si se adivina, se filtra o se reutiliza de otro sitio, cualquiera que la tenga puede entrar sin más. La autenticación de dos factores añade un segundo requisito: después de la contraseña, el sistema pide algo que solo el usuario real tiene, normalmente un código de una aplicación del teléfono o una pequeña llave física. Un ladrón que robó la contraseña pero no el teléfono se detiene en el segundo paso. El paso adicional cuesta unos segundos por inicio de sesión, y por eso algunas personas lo desactivan. Los equipos de seguridad sostienen que este intercambio es desigual: la molestia es trivial, mientras que la intrusión que evita puede tardar meses en repararse."
+    },
+    "stem": {
+      "en": "The passage implies that people who disable two-factor authentication",
+      "es": "El pasaje da a entender que quienes desactivan la autenticación de dos factores"
+    },
+    "choices": [
+      {
+        "en": "underestimate the cost of a breach compared with a few seconds",
+        "es": "subestiman el costo de una intrusión frente a unos segundos"
+      },
+      {
+        "en": "have never had a password stolen",
+        "es": "nunca han tenido una contraseña robada"
+      },
+      {
+        "en": "usually use hardware keys instead",
+        "es": "suelen usar llaves físicas en su lugar"
+      },
+      {
+        "en": "are fully protected by their password alone",
+        "es": "están totalmente protegidos solo con su contraseña"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The final sentence calls the trade \"lopsided,\" meaning the seconds saved are tiny next to a breach that takes months to fix.",
+      "es": "La última oración llama \"desigual\" al intercambio: los segundos ahorrados son mínimos frente a una intrusión que tarda meses en repararse."
+    },
+    "trap": {
+      "en": "\"Fully protected by their password alone\" contradicts the first sentence; \"never had a password stolen\" is an assumption the text never makes.",
+      "es": "\"Totalmente protegidos solo con su contraseña\" contradice la primera oración; \"nunca han tenido una contraseña robada\" es una suposición que el texto no hace."
+    },
+    "strategyRef": "pc.inference",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0011",
+    "subtest": "PC",
+    "topic": "vocab",
+    "difficulty": 1,
+    "passage": {
+      "en": "A password alone is a weak lock. If it is guessed, leaked, or reused from another site, anyone holding it can walk right in. Two-factor authentication adds a second requirement: after the password, the system asks for something only the real user has, usually a code from a phone app or a small hardware key. A thief who has stolen the password but not the phone is stopped at the second step. The extra step costs a few seconds per login, which is why some people turn it off. Security teams argue that this trade is lopsided: the inconvenience is trivial, while the breach it prevents can take months to undo.",
+      "es": "Una contraseña por sí sola es una cerradura débil. Si se adivina, se filtra o se reutiliza de otro sitio, cualquiera que la tenga puede entrar sin más. La autenticación de dos factores añade un segundo requisito: después de la contraseña, el sistema pide algo que solo el usuario real tiene, normalmente un código de una aplicación del teléfono o una pequeña llave física. Un ladrón que robó la contraseña pero no el teléfono se detiene en el segundo paso. El paso adicional cuesta unos segundos por inicio de sesión, y por eso algunas personas lo desactivan. Los equipos de seguridad sostienen que este intercambio es desigual: la molestia es trivial, mientras que la intrusión que evita puede tardar meses en repararse."
+    },
+    "stem": {
+      "en": "As used in the passage, \"trivial\" most nearly means",
+      "es": "Tal como se usa en el pasaje, \"trivial\" significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "confusing",
+        "es": "confusa"
+      },
+      {
+        "en": "frequent",
+        "es": "frecuente"
+      },
+      {
+        "en": "expensive",
+        "es": "costosa"
+      },
+      {
+        "en": "unimportant",
+        "es": "insignificante"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "The sentence contrasts a trivial inconvenience with a breach that takes months to undo, so trivial means minor.",
+      "es": "La oración contrasta una molestia trivial con una intrusión que tarda meses en repararse, así que trivial significa menor."
+    },
+    "trap": {
+      "en": "\"Expensive\" reverses the contrast: the whole point is that the inconvenience costs almost nothing.",
+      "es": "\"Costosa\" invierte el contraste: el punto es que la molestia casi no cuesta nada."
+    },
+    "strategyRef": "pc.vocab-in-context",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0012",
+    "subtest": "PC",
+    "topic": "detail",
+    "difficulty": 1,
+    "passage": {
+      "en": "Composting turns kitchen scraps and yard waste into dark, crumbly material that feeds garden soil. A working pile needs a rough balance between \"greens,\" such as vegetable peelings and fresh grass, which supply nitrogen, and \"browns,\" such as dry leaves and cardboard, which supply carbon. Too many greens and the pile turns slimy and sour; too many browns and it sits cold and does nothing. Turning the heap every week or two lets in air, which the decomposing microbes need. Meat, dairy, and oily foods should be left out because they attract rats and smell as they rot. In a well-managed pile, finished compost is ready in two to four months.",
+      "es": "El compostaje convierte los restos de cocina y los desechos del jardín en un material oscuro y desmenuzable que alimenta la tierra del huerto. Una pila que funciona necesita un equilibrio aproximado entre \"verdes\", como cáscaras de verduras y pasto fresco, que aportan nitrógeno, y \"marrones\", como hojas secas y cartón, que aportan carbono. Con demasiados verdes, la pila se vuelve viscosa y agria; con demasiados marrones, se queda fría y no hace nada. Voltear el montón cada una o dos semanas deja entrar aire, que los microbios descomponedores necesitan. La carne, los lácteos y los alimentos grasosos deben quedar fuera porque atraen ratas y huelen mal al pudrirse. En una pila bien manejada, el compost terminado está listo en dos a cuatro meses."
+    },
+    "stem": {
+      "en": "According to the passage, a compost pile that is slimy and sour probably has",
+      "es": "Según el pasaje, una pila de compost viscosa y agria probablemente tiene"
+    },
+    "choices": [
+      {
+        "en": "too little water",
+        "es": "muy poca agua"
+      },
+      {
+        "en": "too many greens",
+        "es": "demasiados verdes"
+      },
+      {
+        "en": "too many browns",
+        "es": "demasiados marrones"
+      },
+      {
+        "en": "too much air",
+        "es": "demasiado aire"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "The passage states directly: \"Too many greens and the pile turns slimy and sour.\"",
+      "es": "El pasaje lo dice directamente: \"Con demasiados verdes, la pila se vuelve viscosa y agria\"."
+    },
+    "trap": {
+      "en": "\"Too many browns\" is the swapped-pair trap: browns make the pile cold and inactive, not slimy.",
+      "es": "\"Demasiados marrones\" es la trampa del par invertido: los marrones hacen que la pila quede fría e inactiva, no viscosa."
+    },
+    "strategyRef": "pc.question-first",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0013",
+    "subtest": "PC",
+    "topic": "negative",
+    "difficulty": 3,
+    "passage": {
+      "en": "Composting turns kitchen scraps and yard waste into dark, crumbly material that feeds garden soil. A working pile needs a rough balance between \"greens,\" such as vegetable peelings and fresh grass, which supply nitrogen, and \"browns,\" such as dry leaves and cardboard, which supply carbon. Too many greens and the pile turns slimy and sour; too many browns and it sits cold and does nothing. Turning the heap every week or two lets in air, which the decomposing microbes need. Meat, dairy, and oily foods should be left out because they attract rats and smell as they rot. In a well-managed pile, finished compost is ready in two to four months.",
+      "es": "El compostaje convierte los restos de cocina y los desechos del jardín en un material oscuro y desmenuzable que alimenta la tierra del huerto. Una pila que funciona necesita un equilibrio aproximado entre \"verdes\", como cáscaras de verduras y pasto fresco, que aportan nitrógeno, y \"marrones\", como hojas secas y cartón, que aportan carbono. Con demasiados verdes, la pila se vuelve viscosa y agria; con demasiados marrones, se queda fría y no hace nada. Voltear el montón cada una o dos semanas deja entrar aire, que los microbios descomponedores necesitan. La carne, los lácteos y los alimentos grasosos deben quedar fuera porque atraen ratas y huelen mal al pudrirse. En una pila bien manejada, el compost terminado está listo en dos a cuatro meses."
+    },
+    "stem": {
+      "en": "Which of the following is NOT recommended by the passage?",
+      "es": "¿Cuál de las siguientes acciones NO recomienda el pasaje?"
+    },
+    "choices": [
+      {
+        "en": "Turning the heap every week or two",
+        "es": "Voltear el montón cada una o dos semanas"
+      },
+      {
+        "en": "Mixing dry leaves with vegetable peelings",
+        "es": "Mezclar hojas secas con cáscaras de verduras"
+      },
+      {
+        "en": "Adding meat scraps for extra nitrogen",
+        "es": "Agregar restos de carne para obtener más nitrógeno"
+      },
+      {
+        "en": "Waiting several months for finished compost",
+        "es": "Esperar varios meses para obtener compost terminado"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "The passage says meat should be left out because it attracts rats and smells; the other three actions match its advice.",
+      "es": "El pasaje dice que la carne debe quedar fuera porque atrae ratas y huele mal; las otras tres acciones coinciden con sus consejos."
+    },
+    "trap": {
+      "en": "\"For extra nitrogen\" makes the meat option sound scientific, but the passage links nitrogen to greens like peelings and grass, never to meat.",
+      "es": "\"Para obtener más nitrógeno\" hace que la opción de la carne suene científica, pero el pasaje vincula el nitrógeno con verdes como cáscaras y pasto, nunca con la carne."
+    },
+    "strategyRef": "pc.negative-stem",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0014",
+    "subtest": "PC",
+    "topic": "inference",
+    "difficulty": 3,
+    "passage": {
+      "en": "Loading a pallet is not simply a matter of stacking boxes until the forklift can carry no more. Heavy items belong on the bottom layer, with weight spread evenly so the load does not lean when the truck brakes. Each new layer should be offset from the one below, like bricks in a wall, so that the boxes lock together instead of forming loose columns. Nothing should hang past the pallet's edge, where it can be crushed in transit or torn open by a neighboring load. Once the stack is complete, plastic wrap is pulled tight from bottom to top and anchored to the pallet itself, not just to the boxes. A pallet built this way can survive a rough journey without a single damaged carton.",
+      "es": "Cargar una tarima no consiste simplemente en apilar cajas hasta que el montacargas no pueda con más. Los artículos pesados van en la capa inferior, con el peso repartido de manera uniforme para que la carga no se incline cuando el camión frena. Cada capa nueva debe ir desfasada respecto a la de abajo, como los ladrillos de una pared, para que las cajas se traben entre sí en lugar de formar columnas sueltas. Nada debe sobresalir del borde de la tarima, donde puede aplastarse durante el transporte o rasgarse con una carga vecina. Una vez completa la pila, el plástico de embalar se estira de abajo hacia arriba y se fija a la tarima misma, no solo a las cajas. Una tarima armada así puede sobrevivir a un viaje accidentado sin una sola caja dañada."
+    },
+    "stem": {
+      "en": "The passage suggests that boxes stacked in straight columns rather than offset layers are more likely to",
+      "es": "El pasaje sugiere que las cajas apiladas en columnas rectas, en lugar de capas desfasadas, tienen más probabilidades de"
+    },
+    "choices": [
+      {
+        "en": "shift or topple during transport",
+        "es": "desplazarse o volcarse durante el transporte"
+      },
+      {
+        "en": "exceed the forklift's weight limit",
+        "es": "superar el límite de peso del montacargas"
+      },
+      {
+        "en": "be crushed by the plastic wrap",
+        "es": "ser aplastadas por el plástico de embalar"
+      },
+      {
+        "en": "hang past the pallet's edge",
+        "es": "sobresalir del borde de la tarima"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Offset layers make boxes \"lock together instead of forming loose columns\"; loose columns are therefore the ones that come apart in transit.",
+      "es": "Las capas desfasadas hacen que las cajas \"se traben entre sí en lugar de formar columnas sueltas\"; por lo tanto, las columnas sueltas son las que se desarman en el transporte."
+    },
+    "trap": {
+      "en": "\"Hang past the edge\" borrows a real warning from a different sentence; the question is about column stacking, not overhang.",
+      "es": "\"Sobresalir del borde\" toma una advertencia real de otra oración; la pregunta trata del apilado en columnas, no del sobresaliente."
+    },
+    "strategyRef": "pc.inference",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0015",
+    "subtest": "PC",
+    "topic": "main-idea",
+    "difficulty": 2,
+    "passage": {
+      "en": "Loading a pallet is not simply a matter of stacking boxes until the forklift can carry no more. Heavy items belong on the bottom layer, with weight spread evenly so the load does not lean when the truck brakes. Each new layer should be offset from the one below, like bricks in a wall, so that the boxes lock together instead of forming loose columns. Nothing should hang past the pallet's edge, where it can be crushed in transit or torn open by a neighboring load. Once the stack is complete, plastic wrap is pulled tight from bottom to top and anchored to the pallet itself, not just to the boxes. A pallet built this way can survive a rough journey without a single damaged carton.",
+      "es": "Cargar una tarima no consiste simplemente en apilar cajas hasta que el montacargas no pueda con más. Los artículos pesados van en la capa inferior, con el peso repartido de manera uniforme para que la carga no se incline cuando el camión frena. Cada capa nueva debe ir desfasada respecto a la de abajo, como los ladrillos de una pared, para que las cajas se traben entre sí en lugar de formar columnas sueltas. Nada debe sobresalir del borde de la tarima, donde puede aplastarse durante el transporte o rasgarse con una carga vecina. Una vez completa la pila, el plástico de embalar se estira de abajo hacia arriba y se fija a la tarima misma, no solo a las cajas. Una tarima armada así puede sobrevivir a un viaje accidentado sin una sola caja dañada."
+    },
+    "stem": {
+      "en": "The passage is mainly about",
+      "es": "El pasaje trata principalmente de"
+    },
+    "choices": [
+      {
+        "en": "why forklifts have weight limits",
+        "es": "por qué los montacargas tienen límites de peso"
+      },
+      {
+        "en": "the best type of plastic wrap for shipping",
+        "es": "el mejor tipo de plástico de embalar para envíos"
+      },
+      {
+        "en": "how truck braking affects cargo",
+        "es": "cómo el frenado del camión afecta la carga"
+      },
+      {
+        "en": "how to build a pallet load that arrives undamaged",
+        "es": "cómo armar una carga en tarima que llegue sin daños"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Each sentence gives a step in stacking and wrapping, and the last sentence states the goal: no damaged cartons.",
+      "es": "Cada oración da un paso del apilado y el envoltorio, y la última oración indica el objetivo: ninguna caja dañada."
+    },
+    "trap": {
+      "en": "\"Truck braking\" and \"plastic wrap\" are single details; the main idea must cover the whole passage, not one sentence.",
+      "es": "\"El frenado del camión\" y \"el plástico de embalar\" son detalles aislados; la idea principal debe abarcar todo el pasaje, no una sola oración."
+    },
+    "strategyRef": "pc.main-idea",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0016",
+    "subtest": "PC",
+    "topic": "detail",
+    "difficulty": 2,
+    "passage": {
+      "en": "Heat exhaustion and heatstroke are stages of the same problem, but they call for different responses. In heat exhaustion the body is still fighting back: the skin is pale and sweaty, the person feels weak, dizzy, or nauseated, and the pulse is fast. Moving to shade, loosening clothing, and sipping cool water usually bring recovery within an hour. Heatstroke means the body's cooling system has failed. The skin may turn hot and dry, and the person may become confused, stumble, or lose consciousness. This is a medical emergency; the priority is to cool the person rapidly with water and fanning while help is on the way. Giving fluids by mouth to someone who is confused can cause choking.",
+      "es": "El agotamiento por calor y el golpe de calor son etapas del mismo problema, pero exigen respuestas distintas. En el agotamiento por calor el cuerpo todavía se defiende: la piel está pálida y sudorosa, la persona se siente débil, mareada o con náuseas, y el pulso es rápido. Pasar a la sombra, aflojar la ropa y beber agua fresca a sorbos suelen traer la recuperación en menos de una hora. El golpe de calor significa que el sistema de enfriamiento del cuerpo ha fallado. La piel puede volverse caliente y seca, y la persona puede confundirse, tambalearse o perder el conocimiento. Es una emergencia médica; la prioridad es enfriar a la persona rápidamente con agua y abanicando mientras llega la ayuda. Dar líquidos por la boca a alguien confundido puede causar asfixia."
+    },
+    "stem": {
+      "en": "According to the passage, which sign points to heatstroke rather than heat exhaustion?",
+      "es": "Según el pasaje, ¿qué señal indica golpe de calor en lugar de agotamiento por calor?"
+    },
+    "choices": [
+      {
+        "en": "A fast pulse",
+        "es": "Pulso rápido"
+      },
+      {
+        "en": "Confusion",
+        "es": "Confusión"
+      },
+      {
+        "en": "Pale, sweaty skin",
+        "es": "Piel pálida y sudorosa"
+      },
+      {
+        "en": "Dizziness",
+        "es": "Mareo"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Confusion is listed under heatstroke; fast pulse, pale sweaty skin, and dizziness all belong to heat exhaustion.",
+      "es": "La confusión aparece bajo golpe de calor; el pulso rápido, la piel pálida y sudorosa y el mareo pertenecen al agotamiento por calor."
+    },
+    "trap": {
+      "en": "The three distractors are real symptoms from the passage, just from the wrong condition; match each sign to its paragraph section.",
+      "es": "Los tres distractores son síntomas reales del pasaje, pero de la condición equivocada; relaciona cada señal con su parte del párrafo."
+    },
+    "strategyRef": "pc.question-first",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0017",
+    "subtest": "PC",
+    "topic": "inference",
+    "difficulty": 3,
+    "passage": {
+      "en": "Heat exhaustion and heatstroke are stages of the same problem, but they call for different responses. In heat exhaustion the body is still fighting back: the skin is pale and sweaty, the person feels weak, dizzy, or nauseated, and the pulse is fast. Moving to shade, loosening clothing, and sipping cool water usually bring recovery within an hour. Heatstroke means the body's cooling system has failed. The skin may turn hot and dry, and the person may become confused, stumble, or lose consciousness. This is a medical emergency; the priority is to cool the person rapidly with water and fanning while help is on the way. Giving fluids by mouth to someone who is confused can cause choking.",
+      "es": "El agotamiento por calor y el golpe de calor son etapas del mismo problema, pero exigen respuestas distintas. En el agotamiento por calor el cuerpo todavía se defiende: la piel está pálida y sudorosa, la persona se siente débil, mareada o con náuseas, y el pulso es rápido. Pasar a la sombra, aflojar la ropa y beber agua fresca a sorbos suelen traer la recuperación en menos de una hora. El golpe de calor significa que el sistema de enfriamiento del cuerpo ha fallado. La piel puede volverse caliente y seca, y la persona puede confundirse, tambalearse o perder el conocimiento. Es una emergencia médica; la prioridad es enfriar a la persona rápidamente con agua y abanicando mientras llega la ayuda. Dar líquidos por la boca a alguien confundido puede causar asfixia."
+    },
+    "stem": {
+      "en": "Why does the passage warn against giving fluids by mouth to a person with heatstroke?",
+      "es": "¿Por qué el pasaje advierte que no se den líquidos por la boca a una persona con golpe de calor?"
+    },
+    "choices": [
+      {
+        "en": "Cold water would lower body temperature too fast",
+        "es": "El agua fría bajaría la temperatura demasiado rápido"
+      },
+      {
+        "en": "Fluids delay the arrival of medical help",
+        "es": "Los líquidos retrasan la llegada de la ayuda médica"
+      },
+      {
+        "en": "A confused person may not swallow safely",
+        "es": "Una persona confundida puede no tragar con seguridad"
+      },
+      {
+        "en": "Heatstroke victims are never thirsty",
+        "es": "Las víctimas de golpe de calor nunca tienen sed"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "The last sentence links confusion to choking; a person who is not fully alert cannot protect their own airway.",
+      "es": "La última oración vincula la confusión con la asfixia; una persona que no está del todo alerta no puede proteger su propia vía respiratoria."
+    },
+    "trap": {
+      "en": "\"Lower body temperature too fast\" contradicts the passage, which says to cool the person rapidly; the warning is about swallowing, not cooling.",
+      "es": "\"Bajaría la temperatura demasiado rápido\" contradice el pasaje, que dice que se enfríe a la persona rápidamente; la advertencia es sobre tragar, no sobre enfriar."
+    },
+    "strategyRef": "pc.inference",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0018",
+    "subtest": "PC",
+    "topic": "vocab",
+    "difficulty": 3,
+    "passage": {
+      "en": "A magnetic compass does not point to the North Pole. It points to magnetic north, a spot in the Arctic that wanders slowly from year to year. The angle between true north and magnetic north at any location is called declination, and it is printed on the margin of every topographic map along with the date it was measured. In some places the difference is negligible; in others it exceeds twenty degrees. A hiker who plots a bearing on the map and then follows the raw compass needle, ignoring declination, will drift steadily off course. Over a mile the error may be a few hundred feet; over ten miles it can put the hiker in the wrong valley.",
+      "es": "Una brújula magnética no apunta al Polo Norte. Apunta al norte magnético, un punto en el Ártico que se desplaza lentamente de un año a otro. El ángulo entre el norte verdadero y el norte magnético en cualquier lugar se llama declinación, y se imprime en el margen de todo mapa topográfico junto con la fecha en que se midió. En algunos lugares la diferencia es insignificante; en otros supera los veinte grados. Un excursionista que traza un rumbo en el mapa y luego sigue la aguja de la brújula tal cual, ignorando la declinación, se desviará poco a poco de su ruta. En una milla el error puede ser de unos cientos de pies; en diez millas puede dejarlo en el valle equivocado."
+    },
+    "stem": {
+      "en": "As used in the passage, \"negligible\" most nearly means",
+      "es": "Tal como se usa en el pasaje, \"negligible\" significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "too small to matter",
+        "es": "demasiado pequeña para importar"
+      },
+      {
+        "en": "dangerous",
+        "es": "peligrosa"
+      },
+      {
+        "en": "unmeasured",
+        "es": "sin medir"
+      },
+      {
+        "en": "carefully recorded",
+        "es": "registrada con cuidado"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The sentence sets \"negligible\" against \"exceeds twenty degrees,\" so it must mean a difference so small it can be ignored.",
+      "es": "La oración contrapone \"negligible\" a \"supera los veinte grados\", así que debe significar una diferencia tan pequeña que puede ignorarse."
+    },
+    "trap": {
+      "en": "\"Unmeasured\" is the look-alike trap (neglect); the map always prints the value, so it has been measured.",
+      "es": "\"Sin medir\" es la trampa del parecido (negligencia); el mapa siempre imprime el valor, así que sí fue medido."
+    },
+    "strategyRef": "pc.vocab-in-context",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0019",
+    "subtest": "PC",
+    "topic": "inference",
+    "difficulty": 3,
+    "passage": {
+      "en": "A magnetic compass does not point to the North Pole. It points to magnetic north, a spot in the Arctic that wanders slowly from year to year. The angle between true north and magnetic north at any location is called declination, and it is printed on the margin of every topographic map along with the date it was measured. In some places the difference is negligible; in others it exceeds twenty degrees. A hiker who plots a bearing on the map and then follows the raw compass needle, ignoring declination, will drift steadily off course. Over a mile the error may be a few hundred feet; over ten miles it can put the hiker in the wrong valley.",
+      "es": "Una brújula magnética no apunta al Polo Norte. Apunta al norte magnético, un punto en el Ártico que se desplaza lentamente de un año a otro. El ángulo entre el norte verdadero y el norte magnético en cualquier lugar se llama declinación, y se imprime en el margen de todo mapa topográfico junto con la fecha en que se midió. En algunos lugares la diferencia es insignificante; en otros supera los veinte grados. Un excursionista que traza un rumbo en el mapa y luego sigue la aguja de la brújula tal cual, ignorando la declinación, se desviará poco a poco de su ruta. En una milla el error puede ser de unos cientos de pies; en diez millas puede dejarlo en el valle equivocado."
+    },
+    "stem": {
+      "en": "The passage implies that the declination printed on an old map",
+      "es": "El pasaje da a entender que la declinación impresa en un mapa antiguo"
+    },
+    "choices": [
+      {
+        "en": "was measured at the North Pole",
+        "es": "se midió en el Polo Norte"
+      },
+      {
+        "en": "may no longer be accurate",
+        "es": "puede que ya no sea exacta"
+      },
+      {
+        "en": "is always larger than twenty degrees",
+        "es": "siempre es mayor de veinte grados"
+      },
+      {
+        "en": "can be ignored on short hikes",
+        "es": "puede ignorarse en caminatas cortas"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Magnetic north \"wanders slowly from year to year\" and maps print the date of measurement, so an old value may have drifted.",
+      "es": "El norte magnético \"se desplaza lentamente de un año a otro\" y los mapas imprimen la fecha de medición, así que un valor antiguo puede haber cambiado."
+    },
+    "trap": {
+      "en": "\"Can be ignored on short hikes\" overreads the mile example: the passage says the error exists even over one mile, just smaller.",
+      "es": "\"Puede ignorarse en caminatas cortas\" exagera el ejemplo de la milla: el pasaje dice que el error existe incluso en una milla, solo que es menor."
+    },
+    "strategyRef": "pc.inference",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0020",
+    "subtest": "PC",
+    "topic": "main-idea",
+    "difficulty": 1,
+    "passage": {
+      "en": "Tire tread does more than grip the road. The grooves cut into a tire act as channels that push water out from under the rubber, so the tire stays in contact with the pavement instead of skating on a film of water. As the tread wears down, those channels grow shallow and move less water, and stopping distances in the rain grow longer. A quick check needs no tools: insert a coin into a groove, head first, and if the top of the head remains fully visible, the tread is too thin. Uneven wear, with one edge bald and the other deep, usually points to poor alignment or low air pressure rather than to old age.",
+      "es": "La banda de rodadura de un neumático hace más que agarrarse al camino. Las ranuras talladas en el neumático funcionan como canales que expulsan el agua de debajo del caucho, de modo que el neumático sigue en contacto con el pavimento en lugar de patinar sobre una película de agua. A medida que la banda se desgasta, esos canales se vuelven menos profundos y mueven menos agua, y las distancias de frenado bajo la lluvia se alargan. Una revisión rápida no requiere herramientas: inserta una moneda en una ranura, con la cara hacia abajo, y si la parte superior de la cara queda totalmente visible, la banda está demasiado delgada. El desgaste desigual, con un borde liso y el otro profundo, suele indicar mala alineación o baja presión de aire, más que vejez."
+    },
+    "stem": {
+      "en": "The main purpose of the passage is to explain",
+      "es": "El propósito principal del pasaje es explicar"
+    },
+    "choices": [
+      {
+        "en": "how to choose a new tire brand",
+        "es": "cómo elegir una nueva marca de neumáticos"
+      },
+      {
+        "en": "the history of the rubber tire",
+        "es": "la historia del neumático de caucho"
+      },
+      {
+        "en": "how to align a vehicle's wheels",
+        "es": "cómo alinear las ruedas de un vehículo"
+      },
+      {
+        "en": "why tread depth matters and how to check it",
+        "es": "por qué importa la profundidad de la banda y cómo revisarla"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "The passage first explains what tread does, then gives the coin test; both halves are about tread depth.",
+      "es": "El pasaje primero explica qué hace la banda de rodadura y luego da la prueba de la moneda; ambas partes tratan de la profundidad de la banda."
+    },
+    "trap": {
+      "en": "\"How to align wheels\" takes the last sentence, which only names alignment as a cause, and turns it into the whole topic.",
+      "es": "\"Cómo alinear las ruedas\" toma la última oración, que solo nombra la alineación como causa, y la convierte en el tema completo."
+    },
+    "strategyRef": "pc.main-idea",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0021",
+    "subtest": "PC",
+    "topic": "detail",
+    "difficulty": 1,
+    "passage": {
+      "en": "Tire tread does more than grip the road. The grooves cut into a tire act as channels that push water out from under the rubber, so the tire stays in contact with the pavement instead of skating on a film of water. As the tread wears down, those channels grow shallow and move less water, and stopping distances in the rain grow longer. A quick check needs no tools: insert a coin into a groove, head first, and if the top of the head remains fully visible, the tread is too thin. Uneven wear, with one edge bald and the other deep, usually points to poor alignment or low air pressure rather than to old age.",
+      "es": "La banda de rodadura de un neumático hace más que agarrarse al camino. Las ranuras talladas en el neumático funcionan como canales que expulsan el agua de debajo del caucho, de modo que el neumático sigue en contacto con el pavimento en lugar de patinar sobre una película de agua. A medida que la banda se desgasta, esos canales se vuelven menos profundos y mueven menos agua, y las distancias de frenado bajo la lluvia se alargan. Una revisión rápida no requiere herramientas: inserta una moneda en una ranura, con la cara hacia abajo, y si la parte superior de la cara queda totalmente visible, la banda está demasiado delgada. El desgaste desigual, con un borde liso y el otro profundo, suele indicar mala alineación o baja presión de aire, más que vejez."
+    },
+    "stem": {
+      "en": "According to the passage, uneven tread wear is most likely caused by",
+      "es": "Según el pasaje, el desgaste desigual de la banda se debe con mayor probabilidad a"
+    },
+    "choices": [
+      {
+        "en": "driving in heavy rain",
+        "es": "conducir bajo lluvia intensa"
+      },
+      {
+        "en": "the age of the tire",
+        "es": "la edad del neumático"
+      },
+      {
+        "en": "poor alignment or low air pressure",
+        "es": "mala alineación o baja presión de aire"
+      },
+      {
+        "en": "using the coin test too often",
+        "es": "usar la prueba de la moneda con demasiada frecuencia"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "The last sentence names alignment and air pressure and explicitly rules out old age.",
+      "es": "La última oración nombra la alineación y la presión de aire y descarta explícitamente la vejez."
+    },
+    "trap": {
+      "en": "\"The age of the tire\" is the exact thing the sentence says it is NOT; watch for \"rather than\" in the text.",
+      "es": "\"La edad del neumático\" es justo lo que la oración dice que NO es; fíjate en \"más que\" en el texto."
+    },
+    "strategyRef": "pc.question-first",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0022",
+    "subtest": "PC",
+    "topic": "inference",
+    "difficulty": 2,
+    "passage": {
+      "en": "When a honeybee finds a rich patch of flowers, she returns to the hive and performs a waggle dance on the vertical comb. She runs in a straight line while shaking her body, then loops back and repeats. The angle of the run, measured from straight up, matches the angle between the sun and the food source outside; the length of the run tells the distance. Other bees crowd around, touching her with their antennae, and soon leave the hive on the same heading. Because the sun moves across the sky, a bee that dances for a long time gradually shifts the angle of her run. Scientists have decoded the dance well enough to predict where the foragers will land.",
+      "es": "Cuando una abeja obrera encuentra un buen parche de flores, regresa a la colmena y realiza una danza de meneo sobre el panal vertical. Corre en línea recta mientras sacude el cuerpo, luego da la vuelta y repite. El ángulo de la corrida, medido desde la vertical hacia arriba, coincide con el ángulo entre el sol y la fuente de alimento afuera; la longitud de la corrida indica la distancia. Otras abejas se agolpan a su alrededor, tocándola con las antenas, y pronto salen de la colmena con el mismo rumbo. Como el sol se desplaza por el cielo, una abeja que baila durante mucho tiempo va cambiando poco a poco el ángulo de su corrida. Los científicos han descifrado la danza lo suficiente para predecir dónde aterrizarán las recolectoras."
+    },
+    "stem": {
+      "en": "It can be inferred that a bee whose waggle run points straight up is signaling food located",
+      "es": "Se puede inferir que una abeja cuya corrida apunta directamente hacia arriba está indicando comida ubicada"
+    },
+    "choices": [
+      {
+        "en": "in the direction of the sun",
+        "es": "en la dirección del sol"
+      },
+      {
+        "en": "very close to the hive",
+        "es": "muy cerca de la colmena"
+      },
+      {
+        "en": "at a great distance",
+        "es": "a gran distancia"
+      },
+      {
+        "en": "directly beneath the hive",
+        "es": "justo debajo de la colmena"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The angle from straight up equals the angle between the sun and the food, so an angle of zero means the food lies toward the sun.",
+      "es": "El ángulo desde la vertical equivale al ángulo entre el sol y la comida, así que un ángulo de cero significa que la comida está hacia el sol."
+    },
+    "trap": {
+      "en": "\"Very close\" confuses the two signals: direction comes from the angle, distance from the length of the run.",
+      "es": "\"Muy cerca\" confunde las dos señales: la dirección viene del ángulo, la distancia de la longitud de la corrida."
+    },
+    "strategyRef": "pc.inference",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0023",
+    "subtest": "PC",
+    "topic": "negative",
+    "difficulty": 1,
+    "passage": {
+      "en": "When a honeybee finds a rich patch of flowers, she returns to the hive and performs a waggle dance on the vertical comb. She runs in a straight line while shaking her body, then loops back and repeats. The angle of the run, measured from straight up, matches the angle between the sun and the food source outside; the length of the run tells the distance. Other bees crowd around, touching her with their antennae, and soon leave the hive on the same heading. Because the sun moves across the sky, a bee that dances for a long time gradually shifts the angle of her run. Scientists have decoded the dance well enough to predict where the foragers will land.",
+      "es": "Cuando una abeja obrera encuentra un buen parche de flores, regresa a la colmena y realiza una danza de meneo sobre el panal vertical. Corre en línea recta mientras sacude el cuerpo, luego da la vuelta y repite. El ángulo de la corrida, medido desde la vertical hacia arriba, coincide con el ángulo entre el sol y la fuente de alimento afuera; la longitud de la corrida indica la distancia. Otras abejas se agolpan a su alrededor, tocándola con las antenas, y pronto salen de la colmena con el mismo rumbo. Como el sol se desplaza por el cielo, una abeja que baila durante mucho tiempo va cambiando poco a poco el ángulo de su corrida. Los científicos han descifrado la danza lo suficiente para predecir dónde aterrizarán las recolectoras."
+    },
+    "stem": {
+      "en": "According to the passage, the waggle dance communicates all of the following EXCEPT",
+      "es": "Según el pasaje, la danza de meneo comunica todo lo siguiente EXCEPTO"
+    },
+    "choices": [
+      {
+        "en": "the direction of the food",
+        "es": "la dirección de la comida"
+      },
+      {
+        "en": "the type of flower found",
+        "es": "el tipo de flor encontrada"
+      },
+      {
+        "en": "the distance to the food",
+        "es": "la distancia a la comida"
+      },
+      {
+        "en": "a heading that adjusts as the sun moves",
+        "es": "un rumbo que se ajusta a medida que el sol se mueve"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Direction, distance, and the sun-tracking shift are all described; the kind of flower is never mentioned.",
+      "es": "La dirección, la distancia y el ajuste según el sol se describen; el tipo de flor nunca se menciona."
+    },
+    "trap": {
+      "en": "\"Type of flower\" sounds like something a bee would share, but the question asks what the passage says, not what seems reasonable.",
+      "es": "\"El tipo de flor\" suena como algo que una abeja compartiría, pero la pregunta se refiere a lo que dice el pasaje, no a lo que parece razonable."
+    },
+    "strategyRef": "pc.negative-stem",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0024",
+    "subtest": "PC",
+    "topic": "main-idea",
+    "difficulty": 2,
+    "passage": {
+      "en": "The roads of ancient Rome were built to last, and many still carry traffic today. Engineers began by digging a trench several feet deep and packing it with layers: large stones at the bottom, then gravel or crushed brick, then a surface of fitted paving blocks. The center was raised slightly so rain drained to ditches on either side. Milestones marked the distance to the nearest city, and way stations offered fresh horses to official couriers. The primary purpose was military: legions could march twenty miles a day on a paved road, arriving at a frontier before news of the trouble had grown stale. Trade and travelers followed the soldiers, and towns sprang up wherever the roads crossed.",
+      "es": "Los caminos de la antigua Roma se construyeron para durar, y muchos todavía tienen tráfico hoy. Los ingenieros comenzaban cavando una zanja de varios pies de profundidad y la rellenaban por capas: piedras grandes en el fondo, luego grava o ladrillo triturado, y por último una superficie de bloques de pavimento ajustados. El centro se elevaba un poco para que la lluvia escurriera hacia zanjas a ambos lados. Los miliarios marcaban la distancia a la ciudad más cercana, y las postas ofrecían caballos frescos a los correos oficiales. El propósito principal era militar: las legiones podían marchar veinte millas al día por un camino pavimentado y llegar a la frontera antes de que la noticia del problema se hubiera vuelto vieja. El comercio y los viajeros siguieron a los soldados, y surgieron pueblos dondequiera que los caminos se cruzaban."
+    },
+    "stem": {
+      "en": "Which statement best expresses the main idea of the passage?",
+      "es": "¿Qué enunciado expresa mejor la idea principal del pasaje?"
+    },
+    "choices": [
+      {
+        "en": "Roman roads were used mostly by merchants",
+        "es": "Los caminos romanos eran usados sobre todo por comerciantes"
+      },
+      {
+        "en": "Rain was the greatest threat to Roman roads",
+        "es": "La lluvia era la mayor amenaza para los caminos romanos"
+      },
+      {
+        "en": "Milestones were the most important feature of Roman roads",
+        "es": "Los miliarios eran el rasgo más importante de los caminos romanos"
+      },
+      {
+        "en": "Roman roads were carefully engineered structures that served the army first",
+        "es": "Los caminos romanos eran obras de ingeniería cuidadosa que servían primero al ejército"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "The passage details the layered construction and then states that \"the primary purpose was military.\"",
+      "es": "El pasaje detalla la construcción por capas y luego afirma que \"el propósito principal era militar\"."
+    },
+    "trap": {
+      "en": "\"Used mostly by merchants\" reverses the order in the text: trade \"followed the soldiers,\" it did not come first.",
+      "es": "\"Usados sobre todo por comerciantes\" invierte el orden del texto: el comercio \"siguió a los soldados\", no vino primero."
+    },
+    "strategyRef": "pc.main-idea",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0025",
+    "subtest": "PC",
+    "topic": "vocab",
+    "difficulty": 2,
+    "passage": {
+      "en": "The roads of ancient Rome were built to last, and many still carry traffic today. Engineers began by digging a trench several feet deep and packing it with layers: large stones at the bottom, then gravel or crushed brick, then a surface of fitted paving blocks. The center was raised slightly so rain drained to ditches on either side. Milestones marked the distance to the nearest city, and way stations offered fresh horses to official couriers. The primary purpose was military: legions could march twenty miles a day on a paved road, arriving at a frontier before news of the trouble had grown stale. Trade and travelers followed the soldiers, and towns sprang up wherever the roads crossed.",
+      "es": "Los caminos de la antigua Roma se construyeron para durar, y muchos todavía tienen tráfico hoy. Los ingenieros comenzaban cavando una zanja de varios pies de profundidad y la rellenaban por capas: piedras grandes en el fondo, luego grava o ladrillo triturado, y por último una superficie de bloques de pavimento ajustados. El centro se elevaba un poco para que la lluvia escurriera hacia zanjas a ambos lados. Los miliarios marcaban la distancia a la ciudad más cercana, y las postas ofrecían caballos frescos a los correos oficiales. El propósito principal era militar: las legiones podían marchar veinte millas al día por un camino pavimentado y llegar a la frontera antes de que la noticia del problema se hubiera vuelto vieja. El comercio y los viajeros siguieron a los soldados, y surgieron pueblos dondequiera que los caminos se cruzaban."
+    },
+    "stem": {
+      "en": "As used in the passage, \"stale\" most nearly means",
+      "es": "Tal como se usa en el pasaje, \"stale\" significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "urgent",
+        "es": "urgente"
+      },
+      {
+        "en": "false",
+        "es": "falsa"
+      },
+      {
+        "en": "no longer fresh",
+        "es": "ya no reciente"
+      },
+      {
+        "en": "secret",
+        "es": "secreta"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "News grows stale with time; the legions arrived before the report had become old and useless.",
+      "es": "Una noticia se vuelve stale con el tiempo; las legiones llegaban antes de que el informe fuera viejo e inútil."
+    },
+    "trap": {
+      "en": "\"False\" is a common guess because stale news feels unreliable, but the passage is about timing, not truth.",
+      "es": "\"Falsa\" es una suposición común porque una noticia stale parece poco confiable, pero el pasaje habla de tiempo, no de veracidad."
+    },
+    "strategyRef": "pc.vocab-in-context",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0026",
+    "subtest": "PC",
+    "topic": "inference",
+    "difficulty": 1,
+    "passage": {
+      "en": "A meeting without an agenda usually runs long and decides little. Sending a short agenda the day before does three things. It tells people what to prepare, so that the first ten minutes are not spent explaining background. It lets anyone who is not actually needed decline the invitation. And it gives the person running the meeting a script to steer back to when discussion wanders. The best agendas list each item as a question to be answered, with a time limit and the name of whoever will answer it. At the end, two minutes are reserved for reading back the decisions made and who owns each next step. Meetings run this way often finish early.",
+      "es": "Una reunión sin orden del día suele alargarse y decidir poco. Enviar un orden del día breve el día anterior logra tres cosas. Indica a la gente qué preparar, para que los primeros diez minutos no se gasten en explicar antecedentes. Permite que quien realmente no sea necesario rechace la invitación. Y le da a la persona que dirige la reunión un guion al cual volver cuando la conversación se desvía. Los mejores órdenes del día presentan cada punto como una pregunta por responder, con un límite de tiempo y el nombre de quien la responderá. Al final se reservan dos minutos para repasar las decisiones tomadas y quién se encarga de cada paso siguiente. Las reuniones que se manejan así a menudo terminan antes de tiempo."
+    },
+    "stem": {
+      "en": "The passage implies that a meeting whose agenda is sent the day before",
+      "es": "El pasaje da a entender que una reunión cuyo orden del día se envía el día anterior"
+    },
+    "choices": [
+      {
+        "en": "starts productive work sooner",
+        "es": "empieza el trabajo productivo más pronto"
+      },
+      {
+        "en": "requires more attendees",
+        "es": "requiere más asistentes"
+      },
+      {
+        "en": "will not need a leader",
+        "es": "no necesitará quien la dirija"
+      },
+      {
+        "en": "always lasts exactly two minutes",
+        "es": "siempre dura exactamente dos minutos"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Because people arrive prepared, \"the first ten minutes are not spent explaining background,\" so real work begins earlier.",
+      "es": "Como la gente llega preparada, \"los primeros diez minutos no se gastan en explicar antecedentes\", así que el trabajo real empieza antes."
+    },
+    "trap": {
+      "en": "\"Requires more attendees\" is backwards: the agenda lets unneeded people decline, so attendance shrinks.",
+      "es": "\"Requiere más asistentes\" es al revés: el orden del día permite que la gente innecesaria rechace la invitación, así que la asistencia disminuye."
+    },
+    "strategyRef": "pc.inference",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0027",
+    "subtest": "PC",
+    "topic": "main-idea",
+    "difficulty": 3,
+    "passage": {
+      "en": "A meeting without an agenda usually runs long and decides little. Sending a short agenda the day before does three things. It tells people what to prepare, so that the first ten minutes are not spent explaining background. It lets anyone who is not actually needed decline the invitation. And it gives the person running the meeting a script to steer back to when discussion wanders. The best agendas list each item as a question to be answered, with a time limit and the name of whoever will answer it. At the end, two minutes are reserved for reading back the decisions made and who owns each next step. Meetings run this way often finish early.",
+      "es": "Una reunión sin orden del día suele alargarse y decidir poco. Enviar un orden del día breve el día anterior logra tres cosas. Indica a la gente qué preparar, para que los primeros diez minutos no se gasten en explicar antecedentes. Permite que quien realmente no sea necesario rechace la invitación. Y le da a la persona que dirige la reunión un guion al cual volver cuando la conversación se desvía. Los mejores órdenes del día presentan cada punto como una pregunta por responder, con un límite de tiempo y el nombre de quien la responderá. Al final se reservan dos minutos para repasar las decisiones tomadas y quién se encarga de cada paso siguiente. Las reuniones que se manejan así a menudo terminan antes de tiempo."
+    },
+    "stem": {
+      "en": "The author's main purpose in the passage is to",
+      "es": "El propósito principal del autor en el pasaje es"
+    },
+    "choices": [
+      {
+        "en": "complain about coworkers who arrive late",
+        "es": "quejarse de los compañeros que llegan tarde"
+      },
+      {
+        "en": "compare meetings in different industries",
+        "es": "comparar reuniones en distintas industrias"
+      },
+      {
+        "en": "recommend a specific practice and explain its benefits",
+        "es": "recomendar una práctica específica y explicar sus beneficios"
+      },
+      {
+        "en": "argue that most meetings should be canceled",
+        "es": "sostener que la mayoría de las reuniones deberían cancelarse"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "The passage promotes one habit, sending an agenda, and lists what it accomplishes; that is a recommendation with reasons.",
+      "es": "El pasaje promueve un hábito, enviar el orden del día, y enumera lo que logra; eso es una recomendación con razones."
+    },
+    "trap": {
+      "en": "\"Most meetings should be canceled\" exaggerates one benefit (unneeded people can decline) into a claim the author never makes.",
+      "es": "\"La mayoría de las reuniones deberían cancelarse\" exagera un beneficio (la gente innecesaria puede rechazar) hasta una afirmación que el autor nunca hace."
+    },
+    "strategyRef": "pc.main-idea",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0028",
+    "subtest": "PC",
+    "topic": "detail",
+    "difficulty": 3,
+    "passage": {
+      "en": "Desert plants survive by refusing to waste water. Many cacti have no leaves at all; their green stems handle photosynthesis, and the spines that replaced the leaves cast small patches of shade while discouraging thirsty animals. A thick, waxy skin seals moisture inside. Some species open their pores only at night, when the air is cooler, taking in carbon dioxide and storing it for use once the sun returns. Root systems are either very shallow and wide, to catch a brief shower before it evaporates, or extremely deep, reaching water far below the surface. After a rare rain, a cactus can swell noticeably within days, its ribbed body expanding like an accordion.",
+      "es": "Las plantas del desierto sobreviven negándose a desperdiciar agua. Muchos cactus no tienen hojas; sus tallos verdes se encargan de la fotosíntesis, y las espinas que reemplazaron a las hojas proyectan pequeñas zonas de sombra mientras disuaden a los animales sedientos. Una piel gruesa y cerosa sella la humedad en el interior. Algunas especies abren sus poros solo de noche, cuando el aire es más fresco, absorbiendo dióxido de carbono y guardándolo para usarlo cuando vuelva el sol. Los sistemas de raíces son o muy superficiales y extensos, para captar una lluvia breve antes de que se evapore, o extremadamente profundos, hasta alcanzar agua muy por debajo de la superficie. Después de una lluvia poco frecuente, un cactus puede hincharse notablemente en pocos días, expandiendo su cuerpo acanalado como un acordeón."
+    },
+    "stem": {
+      "en": "According to the passage, why do some desert plants open their pores only at night?",
+      "es": "Según el pasaje, ¿por qué algunas plantas del desierto abren sus poros solo de noche?"
+    },
+    "choices": [
+      {
+        "en": "To absorb dew that collects on the spines",
+        "es": "Para absorber el rocío que se acumula en las espinas"
+      },
+      {
+        "en": "To avoid animals that feed after dark",
+        "es": "Para evitar a los animales que se alimentan de noche"
+      },
+      {
+        "en": "Because photosynthesis stops in darkness",
+        "es": "Porque la fotosíntesis se detiene en la oscuridad"
+      },
+      {
+        "en": "Because cooler air reduces water loss",
+        "es": "Porque el aire más fresco reduce la pérdida de agua"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "The passage links night-time pores to cooler air, and the opening sentence frames every adaptation as a way to avoid wasting water.",
+      "es": "El pasaje vincula los poros nocturnos con el aire más fresco, y la primera oración presenta cada adaptación como una forma de no desperdiciar agua."
+    },
+    "trap": {
+      "en": "\"Photosynthesis stops in darkness\" is true in general but is not the reason given; the text says the carbon dioxide is stored until the sun returns.",
+      "es": "\"La fotosíntesis se detiene en la oscuridad\" es cierto en general, pero no es la razón dada; el texto dice que el dióxido de carbono se guarda hasta que vuelve el sol."
+    },
+    "strategyRef": "pc.question-first",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0029",
+    "subtest": "PC",
+    "topic": "vocab",
+    "difficulty": 2,
+    "passage": {
+      "en": "Desert plants survive by refusing to waste water. Many cacti have no leaves at all; their green stems handle photosynthesis, and the spines that replaced the leaves cast small patches of shade while discouraging thirsty animals. A thick, waxy skin seals moisture inside. Some species open their pores only at night, when the air is cooler, taking in carbon dioxide and storing it for use once the sun returns. Root systems are either very shallow and wide, to catch a brief shower before it evaporates, or extremely deep, reaching water far below the surface. After a rare rain, a cactus can swell noticeably within days, its ribbed body expanding like an accordion.",
+      "es": "Las plantas del desierto sobreviven negándose a desperdiciar agua. Muchos cactus no tienen hojas; sus tallos verdes se encargan de la fotosíntesis, y las espinas que reemplazaron a las hojas proyectan pequeñas zonas de sombra mientras disuaden a los animales sedientos. Una piel gruesa y cerosa sella la humedad en el interior. Algunas especies abren sus poros solo de noche, cuando el aire es más fresco, absorbiendo dióxido de carbono y guardándolo para usarlo cuando vuelva el sol. Los sistemas de raíces son o muy superficiales y extensos, para captar una lluvia breve antes de que se evapore, o extremadamente profundos, hasta alcanzar agua muy por debajo de la superficie. Después de una lluvia poco frecuente, un cactus puede hincharse notablemente en pocos días, expandiendo su cuerpo acanalado como un acordeón."
+    },
+    "stem": {
+      "en": "As used in the passage, \"discouraging\" most nearly means",
+      "es": "Tal como se usa en el pasaje, \"discouraging\" significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "feeding",
+        "es": "alimentando"
+      },
+      {
+        "en": "deterring",
+        "es": "ahuyentando"
+      },
+      {
+        "en": "attracting",
+        "es": "atrayendo"
+      },
+      {
+        "en": "disappointing",
+        "es": "decepcionando"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Spines keep thirsty animals from eating the plant; in this context discouraging means driving off or deterring.",
+      "es": "Las espinas impiden que los animales sedientos se coman la planta; en este contexto discouraging significa ahuyentar o disuadir."
+    },
+    "trap": {
+      "en": "\"Disappointing\" is the everyday-emotion trap; spines do not hurt an animal's feelings, they keep it away.",
+      "es": "\"Decepcionando\" es la trampa de la emoción cotidiana; las espinas no hieren los sentimientos de un animal, lo mantienen alejado."
+    },
+    "strategyRef": "pc.vocab-in-context",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0030",
+    "subtest": "PC",
+    "topic": "main-idea",
+    "difficulty": 3,
+    "passage": {
+      "en": "Three-dimensional printing builds an object one thin layer at a time, following a digital model, rather than cutting it from a larger block. Its greatest advantage is not speed, since a single part can take hours, but freedom. Shapes that a milling machine cannot reach, such as hollow lattices or channels that curve inside a solid, are no harder to print than a plain cube. For a repair shop far from any supplier, that means a replacement bracket can be printed overnight instead of waiting weeks for shipping. The technology has clear limits: printed metal parts may be weaker than forged ones, and large production runs are still cheaper by traditional methods.",
+      "es": "La impresión tridimensional construye un objeto capa por capa, siguiendo un modelo digital, en lugar de cortarlo de un bloque más grande. Su mayor ventaja no es la velocidad, ya que una sola pieza puede tardar horas, sino la libertad. Formas que una fresadora no puede alcanzar, como rejillas huecas o canales que se curvan dentro de un sólido, no son más difíciles de imprimir que un cubo simple. Para un taller de reparación lejos de cualquier proveedor, eso significa que un soporte de repuesto puede imprimirse de un día para otro en vez de esperar semanas por el envío. La tecnología tiene límites claros: las piezas metálicas impresas pueden ser más débiles que las forjadas, y las grandes series de producción siguen siendo más baratas con métodos tradicionales."
+    },
+    "stem": {
+      "en": "Which statement best summarizes the passage?",
+      "es": "¿Qué enunciado resume mejor el pasaje?"
+    },
+    "choices": [
+      {
+        "en": "3D printing's main strength is design freedom, though it has real limits",
+        "es": "La principal fortaleza de la impresión 3D es la libertad de diseño, aunque tiene límites reales"
+      },
+      {
+        "en": "3D printing is faster than every traditional method",
+        "es": "La impresión 3D es más rápida que cualquier método tradicional"
+      },
+      {
+        "en": "Printed metal parts are stronger than forged ones",
+        "es": "Las piezas metálicas impresas son más fuertes que las forjadas"
+      },
+      {
+        "en": "Repair shops should abandon traditional suppliers",
+        "es": "Los talleres de reparación deberían abandonar a los proveedores tradicionales"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The passage names freedom as the greatest advantage, gives an example, and closes with the technology's limits; only one choice covers both halves.",
+      "es": "El pasaje señala la libertad como la mayor ventaja, da un ejemplo y cierra con los límites de la tecnología; solo una opción abarca ambas partes."
+    },
+    "trap": {
+      "en": "\"Faster than every traditional method\" contradicts the text, which says speed is not the advantage; \"stronger than forged\" flips a stated limit.",
+      "es": "\"Más rápida que cualquier método tradicional\" contradice el texto, que dice que la velocidad no es la ventaja; \"más fuertes que las forjadas\" invierte un límite mencionado."
+    },
+    "strategyRef": "pc.main-idea",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0031",
+    "subtest": "PC",
+    "topic": "sequence",
+    "difficulty": 1,
+    "passage": {
+      "en": "Changing a forklift battery is a routine job in our warehouse, but the order of the steps matters. The operator first parks the lift on the marked pad, sets the brake and switches the machine off. Only then does she unplug the cable that connects the battery to the truck. With the cable free, she hooks the hoist to the battery lugs and lifts the pack out onto the roller stand. A charged battery is rolled in from the charging bay, lowered into the compartment and reconnected. Before driving away, the operator logs the swap on the whiteboard so the next shift knows which pack is charging.",
+      "es": "Cambiar la batería de un montacargas es una tarea rutinaria en nuestro almacén, pero el orden de los pasos importa. La operadora primero estaciona el montacargas en la zona marcada, pone el freno y apaga la máquina. Solo entonces desconecta el cable que une la batería con el vehículo. Con el cable libre, engancha el polipasto a las orejas de la batería y saca el paquete hacia el soporte de rodillos. Una batería cargada se rueda desde la zona de carga, se baja al compartimento y se reconecta. Antes de retirarse, la operadora anota el cambio en la pizarra para que el siguiente turno sepa qué paquete se está cargando."
+    },
+    "stem": {
+      "en": "According to the passage, what does the operator do immediately after switching the machine off?",
+      "es": "Según el pasaje, ¿qué hace la operadora inmediatamente después de apagar la máquina?"
+    },
+    "choices": [
+      {
+        "en": "Unplugs the battery cable",
+        "es": "Desconecta el cable de la batería"
+      },
+      {
+        "en": "Hooks the hoist to the battery",
+        "es": "Engancha el polipasto a la batería"
+      },
+      {
+        "en": "Logs the swap on the whiteboard",
+        "es": "Anota el cambio en la pizarra"
+      },
+      {
+        "en": "Rolls in a charged battery",
+        "es": "Rueda una batería cargada"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The passage says \"only then does she unplug the cable,\" placing that step right after switching off.",
+      "es": "El pasaje dice \"solo entonces desconecta el cable\", lo que ubica ese paso justo después de apagar."
+    },
+    "trap": {
+      "en": "Hooking the hoist is the next step after unplugging, so it is one step too late.",
+      "es": "Enganchar el polipasto es el paso siguiente a desconectar, así que llega un paso tarde."
+    },
+    "strategyRef": "pc.question-first",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0032",
+    "subtest": "PC",
+    "topic": "negative",
+    "difficulty": 2,
+    "passage": {
+      "en": "Changing a forklift battery is a routine job in our warehouse, but the order of the steps matters. The operator first parks the lift on the marked pad, sets the brake and switches the machine off. Only then does she unplug the cable that connects the battery to the truck. With the cable free, she hooks the hoist to the battery lugs and lifts the pack out onto the roller stand. A charged battery is rolled in from the charging bay, lowered into the compartment and reconnected. Before driving away, the operator logs the swap on the whiteboard so the next shift knows which pack is charging.",
+      "es": "Cambiar la batería de un montacargas es una tarea rutinaria en nuestro almacén, pero el orden de los pasos importa. La operadora primero estaciona el montacargas en la zona marcada, pone el freno y apaga la máquina. Solo entonces desconecta el cable que une la batería con el vehículo. Con el cable libre, engancha el polipasto a las orejas de la batería y saca el paquete hacia el soporte de rodillos. Una batería cargada se rueda desde la zona de carga, se baja al compartimento y se reconecta. Antes de retirarse, la operadora anota el cambio en la pizarra para que el siguiente turno sepa qué paquete se está cargando."
+    },
+    "stem": {
+      "en": "The passage mentions all of the following equipment EXCEPT",
+      "es": "El pasaje menciona todos los siguientes equipos EXCEPTO"
+    },
+    "choices": [
+      {
+        "en": "a hoist",
+        "es": "un polipasto"
+      },
+      {
+        "en": "a battery charger meter",
+        "es": "un medidor del cargador de batería"
+      },
+      {
+        "en": "a roller stand",
+        "es": "un soporte de rodillos"
+      },
+      {
+        "en": "a whiteboard",
+        "es": "una pizarra"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "The hoist, roller stand and whiteboard all appear in the passage; no meter or gauge is mentioned.",
+      "es": "El polipasto, el soporte de rodillos y la pizarra aparecen en el pasaje; no se menciona ningún medidor."
+    },
+    "trap": {
+      "en": "Readers who see \"charging bay\" may assume a meter is described, but the passage never names one.",
+      "es": "Quien lee \"zona de carga\" puede suponer que se describe un medidor, pero el pasaje nunca lo nombra."
+    },
+    "strategyRef": "pc.negative-stem",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0033",
+    "subtest": "PC",
+    "topic": "vocab",
+    "difficulty": 1,
+    "passage": {
+      "en": "A vacuum flask keeps coffee hot for hours because of what is missing from it. Between its inner and outer walls is a narrow gap from which nearly all the air has been removed. Heat normally escapes by conduction through a material or by convection as warm air rises, but with almost no air in the gap, neither process can carry much energy across it. The inner wall is also coated with a shiny layer that reflects heat radiation back toward the liquid. The flask cannot retain heat forever, since the stopper and the neck still conduct a little, but it slows the loss enough that coffee poured at dawn is still warm at noon.",
+      "es": "Un termo al vacío mantiene el café caliente durante horas gracias a lo que le falta. Entre su pared interior y la exterior hay un espacio estrecho del que se ha extraído casi todo el aire. El calor normalmente escapa por conducción a través de un material o por convección cuando el aire caliente sube, pero con casi nada de aire en el espacio, ninguno de los dos procesos puede transportar mucha energía. La pared interior está además recubierta con una capa brillante que refleja la radiación de calor hacia el líquido. El termo no puede retener el calor para siempre, ya que el tapón y el cuello todavía conducen un poco, pero frena la pérdida lo suficiente para que el café servido al amanecer siga tibio al mediodía."
+    },
+    "stem": {
+      "en": "As used in the passage, the word \"retain\" most nearly means",
+      "es": "Tal como se usa en el pasaje, la palabra \"retain\" significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "create",
+        "es": "crear"
+      },
+      {
+        "en": "measure",
+        "es": "medir"
+      },
+      {
+        "en": "keep",
+        "es": "conservar"
+      },
+      {
+        "en": "release",
+        "es": "liberar"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "The flask \"cannot retain heat forever\" but slows its loss; retain here means keep or hold.",
+      "es": "El termo \"no puede retener el calor para siempre\" pero frena su pérdida; retain aquí significa conservar."
+    },
+    "trap": {
+      "en": "\"Release\" is the opposite of what the flask does with heat.",
+      "es": "\"Liberar\" es lo contrario de lo que hace el termo con el calor."
+    },
+    "strategyRef": "pc.vocab-in-context",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0034",
+    "subtest": "PC",
+    "topic": "detail",
+    "difficulty": 1,
+    "passage": {
+      "en": "A vacuum flask keeps coffee hot for hours because of what is missing from it. Between its inner and outer walls is a narrow gap from which nearly all the air has been removed. Heat normally escapes by conduction through a material or by convection as warm air rises, but with almost no air in the gap, neither process can carry much energy across it. The inner wall is also coated with a shiny layer that reflects heat radiation back toward the liquid. The flask cannot retain heat forever, since the stopper and the neck still conduct a little, but it slows the loss enough that coffee poured at dawn is still warm at noon.",
+      "es": "Un termo al vacío mantiene el café caliente durante horas gracias a lo que le falta. Entre su pared interior y la exterior hay un espacio estrecho del que se ha extraído casi todo el aire. El calor normalmente escapa por conducción a través de un material o por convección cuando el aire caliente sube, pero con casi nada de aire en el espacio, ninguno de los dos procesos puede transportar mucha energía. La pared interior está además recubierta con una capa brillante que refleja la radiación de calor hacia el líquido. El termo no puede retener el calor para siempre, ya que el tapón y el cuello todavía conducen un poco, pero frena la pérdida lo suficiente para que el café servido al amanecer siga tibio al mediodía."
+    },
+    "stem": {
+      "en": "According to the passage, the shiny coating on the inner wall",
+      "es": "Según el pasaje, la capa brillante de la pared interior"
+    },
+    "choices": [
+      {
+        "en": "removes air from the gap",
+        "es": "extrae el aire del espacio"
+      },
+      {
+        "en": "prevents the stopper from conducting heat",
+        "es": "evita que el tapón conduzca calor"
+      },
+      {
+        "en": "makes the coffee taste better",
+        "es": "hace que el café sepa mejor"
+      },
+      {
+        "en": "reflects heat radiation back toward the liquid",
+        "es": "refleja la radiación de calor hacia el líquido"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "The passage states that the shiny layer reflects heat radiation back toward the liquid.",
+      "es": "El pasaje afirma que la capa brillante refleja la radiación de calor hacia el líquido."
+    },
+    "trap": {
+      "en": "Removing air is the job of the vacuum gap, not the coating.",
+      "es": "Extraer el aire es función del espacio al vacío, no del recubrimiento."
+    },
+    "strategyRef": "pc.question-first",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0035",
+    "subtest": "PC",
+    "topic": "author-tone",
+    "difficulty": 2,
+    "passage": {
+      "en": "If you visit a rocky shore at low tide, look for the shallow pools left behind among the boulders. Each one is a small world that changes twice a day. When the tide goes out, the water in the pool warms in the sun and grows saltier as some of it evaporates. Crabs retreat under ledges, and sea anemones pull in their tentacles to avoid drying out. When the tide returns, cooler ocean water floods the pool, the anemones open again and small fish dart in to feed. A tide pool is one of the easiest places to watch how living things cope with a harsh, shifting environment, so bring patience and step carefully.",
+      "es": "Si visitas una costa rocosa con marea baja, busca las pozas poco profundas que quedan entre las rocas. Cada una es un pequeño mundo que cambia dos veces al día. Cuando la marea baja, el agua de la poza se calienta al sol y se vuelve más salada porque parte de ella se evapora. Los cangrejos se refugian bajo las repisas y las anémonas recogen sus tentáculos para no secarse. Cuando la marea vuelve, agua más fría del océano inunda la poza, las anémonas se abren de nuevo y pececillos entran a alimentarse. Una poza de marea es uno de los lugares más fáciles para observar cómo los seres vivos enfrentan un entorno duro y cambiante, así que lleva paciencia y pisa con cuidado."
+    },
+    "stem": {
+      "en": "The author's main purpose in this passage is to",
+      "es": "El propósito principal del autor en este pasaje es"
+    },
+    "choices": [
+      {
+        "en": "encourage readers to observe tide pools carefully",
+        "es": "animar a los lectores a observar las pozas de marea con cuidado"
+      },
+      {
+        "en": "warn readers that tide pools are dangerous",
+        "es": "advertir a los lectores que las pozas de marea son peligrosas"
+      },
+      {
+        "en": "argue that crabs are more adaptable than anemones",
+        "es": "argumentar que los cangrejos se adaptan mejor que las anémonas"
+      },
+      {
+        "en": "explain how tides are caused by the moon",
+        "es": "explicar cómo la luna causa las mareas"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The passage opens with \"look for\" and closes with \"bring patience and step carefully,\" inviting the reader to observe.",
+      "es": "El pasaje abre con \"busca\" y cierra con \"lleva paciencia y pisa con cuidado\", invitando al lector a observar."
+    },
+    "trap": {
+      "en": "\"Step carefully\" is advice to protect the pool and the visitor, not a warning that pools are dangerous.",
+      "es": "\"Pisa con cuidado\" es un consejo para proteger la poza y al visitante, no una advertencia de peligro."
+    },
+    "strategyRef": "pc.inference",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0036",
+    "subtest": "PC",
+    "topic": "sequence",
+    "difficulty": 2,
+    "passage": {
+      "en": "If you visit a rocky shore at low tide, look for the shallow pools left behind among the boulders. Each one is a small world that changes twice a day. When the tide goes out, the water in the pool warms in the sun and grows saltier as some of it evaporates. Crabs retreat under ledges, and sea anemones pull in their tentacles to avoid drying out. When the tide returns, cooler ocean water floods the pool, the anemones open again and small fish dart in to feed. A tide pool is one of the easiest places to watch how living things cope with a harsh, shifting environment, so bring patience and step carefully.",
+      "es": "Si visitas una costa rocosa con marea baja, busca las pozas poco profundas que quedan entre las rocas. Cada una es un pequeño mundo que cambia dos veces al día. Cuando la marea baja, el agua de la poza se calienta al sol y se vuelve más salada porque parte de ella se evapora. Los cangrejos se refugian bajo las repisas y las anémonas recogen sus tentáculos para no secarse. Cuando la marea vuelve, agua más fría del océano inunda la poza, las anémonas se abren de nuevo y pececillos entran a alimentarse. Una poza de marea es uno de los lugares más fáciles para observar cómo los seres vivos enfrentan un entorno duro y cambiante, así que lleva paciencia y pisa con cuidado."
+    },
+    "stem": {
+      "en": "According to the passage, what happens first after the tide returns?",
+      "es": "Según el pasaje, ¿qué ocurre primero después de que vuelve la marea?"
+    },
+    "choices": [
+      {
+        "en": "Small fish dart in to feed",
+        "es": "Pececillos entran a alimentarse"
+      },
+      {
+        "en": "Cooler ocean water floods the pool",
+        "es": "Agua más fría del océano inunda la poza"
+      },
+      {
+        "en": "The water grows saltier",
+        "es": "El agua se vuelve más salada"
+      },
+      {
+        "en": "Crabs retreat under ledges",
+        "es": "Los cangrejos se refugian bajo las repisas"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "The passage lists the flooding first, then the anemones opening, then the fish arriving.",
+      "es": "El pasaje menciona primero la inundación, luego la apertura de las anémonas y después la llegada de los peces."
+    },
+    "trap": {
+      "en": "Growing saltier and crabs retreating happen when the tide goes OUT, not when it returns.",
+      "es": "Volverse más salada y el refugio de los cangrejos ocurren cuando la marea BAJA, no cuando vuelve."
+    },
+    "strategyRef": "pc.question-first",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0037",
+    "subtest": "PC",
+    "topic": "sequence",
+    "difficulty": 3,
+    "passage": {
+      "en": "The lighthouse on Gull Point took four seasons to build, and each one brought a different task. In the first summer, masons cut a level foundation into the rock while boats ferried granite blocks from the mainland quarry. Storms ended work by October. The second summer was spent raising the tower itself, course by course, with each block bolted to the one beneath it. In the third season the crew fitted the iron lantern room and the spiral stair. Only in the fourth summer did the lens arrive, packed in straw, and the keeper lit the lamp for the first time on a September evening. Ships had been wrecking on the point for decades; after that night, the records show almost none.",
+      "es": "El faro de Gull Point tardó cuatro temporadas en construirse, y cada una trajo una tarea distinta. En el primer verano, los albañiles tallaron una base nivelada en la roca mientras los botes traían bloques de granito desde la cantera en tierra firme. Las tormentas terminaron el trabajo en octubre. El segundo verano se dedicó a levantar la torre, hilada por hilada, con cada bloque atornillado al de abajo. En la tercera temporada la cuadrilla instaló la sala de la linterna de hierro y la escalera de caracol. Solo en el cuarto verano llegó la lente, empacada en paja, y el guardián encendió la lámpara por primera vez una tarde de septiembre. Los barcos habían naufragado en la punta durante décadas; después de esa noche, los registros muestran casi ninguno."
+    },
+    "stem": {
+      "en": "According to the passage, the iron lantern room was installed",
+      "es": "Según el pasaje, la sala de la linterna de hierro se instaló"
+    },
+    "choices": [
+      {
+        "en": "before the foundation was cut",
+        "es": "antes de tallar la base"
+      },
+      {
+        "en": "during the same season as the lens",
+        "es": "en la misma temporada que la lente"
+      },
+      {
+        "en": "after the tower was raised but before the lens arrived",
+        "es": "después de levantar la torre pero antes de que llegara la lente"
+      },
+      {
+        "en": "after the lamp was first lit",
+        "es": "después de encender la lámpara por primera vez"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "The tower was raised in the second season, the lantern room fitted in the third, and the lens arrived in the fourth.",
+      "es": "La torre se levantó en la segunda temporada, la sala de la linterna en la tercera y la lente llegó en la cuarta."
+    },
+    "trap": {
+      "en": "\"Same season as the lens\" merges the third and fourth summers, which the passage keeps separate.",
+      "es": "\"En la misma temporada que la lente\" fusiona el tercer y el cuarto verano, que el pasaje mantiene separados."
+    },
+    "strategyRef": "pc.question-first",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0038",
+    "subtest": "PC",
+    "topic": "inference",
+    "difficulty": 2,
+    "passage": {
+      "en": "The lighthouse on Gull Point took four seasons to build, and each one brought a different task. In the first summer, masons cut a level foundation into the rock while boats ferried granite blocks from the mainland quarry. Storms ended work by October. The second summer was spent raising the tower itself, course by course, with each block bolted to the one beneath it. In the third season the crew fitted the iron lantern room and the spiral stair. Only in the fourth summer did the lens arrive, packed in straw, and the keeper lit the lamp for the first time on a September evening. Ships had been wrecking on the point for decades; after that night, the records show almost none.",
+      "es": "El faro de Gull Point tardó cuatro temporadas en construirse, y cada una trajo una tarea distinta. En el primer verano, los albañiles tallaron una base nivelada en la roca mientras los botes traían bloques de granito desde la cantera en tierra firme. Las tormentas terminaron el trabajo en octubre. El segundo verano se dedicó a levantar la torre, hilada por hilada, con cada bloque atornillado al de abajo. En la tercera temporada la cuadrilla instaló la sala de la linterna de hierro y la escalera de caracol. Solo en el cuarto verano llegó la lente, empacada en paja, y el guardián encendió la lámpara por primera vez una tarde de septiembre. Los barcos habían naufragado en la punta durante décadas; después de esa noche, los registros muestran casi ninguno."
+    },
+    "stem": {
+      "en": "It can be inferred from the passage that the lighthouse",
+      "es": "Del pasaje se puede inferir que el faro"
+    },
+    "choices": [
+      {
+        "en": "was built entirely by local fishermen",
+        "es": "fue construido enteramente por pescadores locales"
+      },
+      {
+        "en": "was completed ahead of schedule",
+        "es": "se terminó antes de lo previsto"
+      },
+      {
+        "en": "used a lens made on the island",
+        "es": "usó una lente fabricada en la isla"
+      },
+      {
+        "en": "greatly reduced shipwrecks near Gull Point",
+        "es": "redujo mucho los naufragios cerca de Gull Point"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Wrecks were common for decades and \"almost none\" after the lamp was lit; the lighthouse clearly made the difference.",
+      "es": "Los naufragios eran comunes durante décadas y \"casi ninguno\" tras encender la lámpara; el faro claramente marcó la diferencia."
+    },
+    "trap": {
+      "en": "The passage never gives a schedule, so \"ahead of schedule\" cannot be inferred.",
+      "es": "El pasaje nunca da un cronograma, así que \"antes de lo previsto\" no se puede inferir."
+    },
+    "strategyRef": "pc.inference",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0039",
+    "subtest": "PC",
+    "topic": "negative",
+    "difficulty": 1,
+    "passage": {
+      "en": "Welcome to the Elm Street community garden. Each member is assigned one plot and is responsible for keeping it planted and weeded from April through October. Water is available from the shared hose on the north fence; please coil it after use so nobody trips. Compost bins accept vegetable scraps and dead plants but not meat, dairy or diseased leaves. Tools in the shed may be borrowed for the day and must be cleaned before they go back. We ask that no chemical pesticides be used anywhere on the site, since several members grow food for young children. Questions can be left in the mailbox by the gate, and a volunteer answers them every Saturday.",
+      "es": "Bienvenido al huerto comunitario de Elm Street. A cada miembro se le asigna una parcela y es responsable de mantenerla sembrada y sin malezas de abril a octubre. El agua está disponible en la manguera compartida de la cerca norte; por favor enróllala después de usarla para que nadie tropiece. Los contenedores de composta aceptan restos de verduras y plantas muertas, pero no carne, lácteos ni hojas enfermas. Las herramientas del cobertizo se pueden pedir prestadas por el día y deben limpiarse antes de devolverlas. Pedimos que no se usen pesticidas químicos en ningún lugar del sitio, ya que varios miembros cultivan alimentos para niños pequeños. Las preguntas se pueden dejar en el buzón junto a la puerta, y un voluntario las responde cada sábado."
+    },
+    "stem": {
+      "en": "According to the passage, which of the following may NOT be placed in the compost bins?",
+      "es": "Según el pasaje, ¿cuál de los siguientes NO se puede colocar en los contenedores de composta?"
+    },
+    "choices": [
+      {
+        "en": "Dairy products",
+        "es": "Productos lácteos"
+      },
+      {
+        "en": "Vegetable scraps",
+        "es": "Restos de verduras"
+      },
+      {
+        "en": "Dead plants",
+        "es": "Plantas muertas"
+      },
+      {
+        "en": "Weeds pulled from a plot",
+        "es": "Malezas arrancadas de una parcela"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The passage lists meat, dairy and diseased leaves as not accepted; vegetable scraps and dead plants are allowed.",
+      "es": "El pasaje enumera carne, lácteos y hojas enfermas como no aceptados; los restos de verduras y las plantas muertas sí se permiten."
+    },
+    "trap": {
+      "en": "Pulled weeds are dead plants, which the bins accept; only diseased leaves are excluded.",
+      "es": "Las malezas arrancadas son plantas muertas, que los contenedores aceptan; solo se excluyen las hojas enfermas."
+    },
+    "strategyRef": "pc.negative-stem",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0040",
+    "subtest": "PC",
+    "topic": "author-tone",
+    "difficulty": 1,
+    "passage": {
+      "en": "Welcome to the Elm Street community garden. Each member is assigned one plot and is responsible for keeping it planted and weeded from April through October. Water is available from the shared hose on the north fence; please coil it after use so nobody trips. Compost bins accept vegetable scraps and dead plants but not meat, dairy or diseased leaves. Tools in the shed may be borrowed for the day and must be cleaned before they go back. We ask that no chemical pesticides be used anywhere on the site, since several members grow food for young children. Questions can be left in the mailbox by the gate, and a volunteer answers them every Saturday.",
+      "es": "Bienvenido al huerto comunitario de Elm Street. A cada miembro se le asigna una parcela y es responsable de mantenerla sembrada y sin malezas de abril a octubre. El agua está disponible en la manguera compartida de la cerca norte; por favor enróllala después de usarla para que nadie tropiece. Los contenedores de composta aceptan restos de verduras y plantas muertas, pero no carne, lácteos ni hojas enfermas. Las herramientas del cobertizo se pueden pedir prestadas por el día y deben limpiarse antes de devolverlas. Pedimos que no se usen pesticidas químicos en ningún lugar del sitio, ya que varios miembros cultivan alimentos para niños pequeños. Las preguntas se pueden dejar en el buzón junto a la puerta, y un voluntario las responde cada sábado."
+    },
+    "stem": {
+      "en": "The tone of this passage is best described as",
+      "es": "El tono de este pasaje se describe mejor como"
+    },
+    "choices": [
+      {
+        "en": "angry and threatening",
+        "es": "enojado y amenazante"
+      },
+      {
+        "en": "welcoming and practical",
+        "es": "acogedor y práctico"
+      },
+      {
+        "en": "humorous and playful",
+        "es": "humorístico y juguetón"
+      },
+      {
+        "en": "sad and nostalgic",
+        "es": "triste y nostálgico"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "The passage opens with \"Welcome,\" uses \"please\" and \"we ask,\" and gives clear, useful instructions.",
+      "es": "El pasaje abre con \"Bienvenido\", usa \"por favor\" y \"pedimos\", y da instrucciones claras y útiles."
+    },
+    "trap": {
+      "en": "The list of rules may feel strict, but nothing in the wording is angry or threatening.",
+      "es": "La lista de reglas puede parecer estricta, pero nada en la redacción es enojado ni amenazante."
+    },
+    "strategyRef": "pc.inference",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0041",
+    "subtest": "PC",
+    "topic": "sequence",
+    "difficulty": 2,
+    "passage": {
+      "en": "Frozen seafood travels through what the industry calls a cold chain, and any weak link can spoil an entire load. At the dock, the catch is packed in ice and moved into a blast freezer within two hours. From the freezer it is loaded onto a refrigerated truck whose interior has been chilled in advance, since a warm trailer would begin to thaw the cargo before the doors even close. A temperature logger rides with the pallets and records a reading every ten minutes. When the truck reaches the distribution center, staff download the logger before they unload anything. If the record shows a rise above the limit, the shipment is held for inspection rather than sent on to stores.",
+      "es": "Los mariscos congelados viajan por lo que la industria llama cadena de frío, y cualquier eslabón débil puede arruinar una carga entera. En el muelle, la captura se empaca en hielo y se lleva a un congelador de ráfaga en menos de dos horas. Del congelador se carga en un camión refrigerado cuyo interior se ha enfriado de antemano, ya que un remolque tibio empezaría a descongelar la carga antes incluso de cerrar las puertas. Un registrador de temperatura viaja con las tarimas y toma una lectura cada diez minutos. Cuando el camión llega al centro de distribución, el personal descarga los datos del registrador antes de bajar cualquier cosa. Si el registro muestra una subida por encima del límite, el envío se retiene para inspección en lugar de enviarse a las tiendas."
+    },
+    "stem": {
+      "en": "According to the passage, what do staff at the distribution center do before unloading the truck?",
+      "es": "Según el pasaje, ¿qué hace el personal del centro de distribución antes de descargar el camión?"
+    },
+    "choices": [
+      {
+        "en": "Pack the catch in ice",
+        "es": "Empacan la captura en hielo"
+      },
+      {
+        "en": "Chill the trailer in advance",
+        "es": "Enfrían el remolque de antemano"
+      },
+      {
+        "en": "Download the temperature logger",
+        "es": "Descargan los datos del registrador de temperatura"
+      },
+      {
+        "en": "Send the shipment on to stores",
+        "es": "Envían la carga a las tiendas"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "The passage says staff \"download the logger before they unload anything.\"",
+      "es": "El pasaje dice que el personal \"descarga los datos del registrador antes de bajar cualquier cosa\"."
+    },
+    "trap": {
+      "en": "Chilling the trailer happens before loading at the freezer, not at the distribution center.",
+      "es": "Enfriar el remolque ocurre antes de cargar en el congelador, no en el centro de distribución."
+    },
+    "strategyRef": "pc.question-first",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0042",
+    "subtest": "PC",
+    "topic": "vocab",
+    "difficulty": 2,
+    "passage": {
+      "en": "Frozen seafood travels through what the industry calls a cold chain, and any weak link can spoil an entire load. At the dock, the catch is packed in ice and moved into a blast freezer within two hours. From the freezer it is loaded onto a refrigerated truck whose interior has been chilled in advance, since a warm trailer would begin to thaw the cargo before the doors even close. A temperature logger rides with the pallets and records a reading every ten minutes. When the truck reaches the distribution center, staff download the logger before they unload anything. If the record shows a rise above the limit, the shipment is held for inspection rather than sent on to stores.",
+      "es": "Los mariscos congelados viajan por lo que la industria llama cadena de frío, y cualquier eslabón débil puede arruinar una carga entera. En el muelle, la captura se empaca en hielo y se lleva a un congelador de ráfaga en menos de dos horas. Del congelador se carga en un camión refrigerado cuyo interior se ha enfriado de antemano, ya que un remolque tibio empezaría a descongelar la carga antes incluso de cerrar las puertas. Un registrador de temperatura viaja con las tarimas y toma una lectura cada diez minutos. Cuando el camión llega al centro de distribución, el personal descarga los datos del registrador antes de bajar cualquier cosa. Si el registro muestra una subida por encima del límite, el envío se retiene para inspección en lugar de enviarse a las tiendas."
+    },
+    "stem": {
+      "en": "As used in the passage, the word \"held\" most nearly means",
+      "es": "Tal como se usa en el pasaje, la palabra \"held\" significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "carried",
+        "es": "cargado"
+      },
+      {
+        "en": "believed",
+        "es": "creído"
+      },
+      {
+        "en": "gripped",
+        "es": "sujetado"
+      },
+      {
+        "en": "kept back",
+        "es": "retenido"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "A shipment \"held for inspection rather than sent on\" is one that is kept back; the contrast with \"sent on\" is the clue.",
+      "es": "Un envío \"retenido para inspección en lugar de enviarse\" es uno que se detiene; el contraste con \"enviarse\" es la pista."
+    },
+    "trap": {
+      "en": "\"Gripped\" is the physical sense of held and does not fit a shipment waiting for inspection.",
+      "es": "\"Sujetado\" es el sentido físico de held y no encaja con un envío que espera inspección."
+    },
+    "strategyRef": "pc.vocab-in-context",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0043",
+    "subtest": "PC",
+    "topic": "sequence",
+    "difficulty": 1,
+    "passage": {
+      "en": "Bread rises because of a living ingredient. When a baker mixes yeast into warm water and flour, the yeast begins to feed on sugars in the dough. As it feeds, it releases carbon dioxide gas. The gas cannot escape easily, because kneading has developed a stretchy network of protein called gluten that traps the bubbles. Over an hour or two the trapped gas doubles the size of the dough. In the oven, the heat makes the bubbles expand once more and then kills the yeast, while the gluten sets and holds the final shape. A loaf that did not rise usually points to yeast that was old or water that was too hot.",
+      "es": "El pan sube gracias a un ingrediente vivo. Cuando un panadero mezcla levadura con agua tibia y harina, la levadura empieza a alimentarse de los azúcares de la masa. Al alimentarse, libera gas dióxido de carbono. El gas no puede escapar con facilidad porque el amasado ha formado una red elástica de proteína llamada gluten que atrapa las burbujas. En una o dos horas, el gas atrapado duplica el tamaño de la masa. En el horno, el calor hace que las burbujas se expandan una vez más y luego mata la levadura, mientras el gluten se endurece y conserva la forma final. Un pan que no subió suele indicar levadura vieja o agua demasiado caliente."
+    },
+    "stem": {
+      "en": "According to the passage, what happens right after the yeast begins to feed on sugars?",
+      "es": "Según el pasaje, ¿qué ocurre justo después de que la levadura empieza a alimentarse de los azúcares?"
+    },
+    "choices": [
+      {
+        "en": "It releases carbon dioxide gas",
+        "es": "Libera gas dióxido de carbono"
+      },
+      {
+        "en": "The gluten sets in the oven",
+        "es": "El gluten se endurece en el horno"
+      },
+      {
+        "en": "The heat kills the yeast",
+        "es": "El calor mata la levadura"
+      },
+      {
+        "en": "The baker kneads the dough",
+        "es": "El panadero amasa la masa"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The passage says \"as it feeds, it releases carbon dioxide gas,\" the immediate next event.",
+      "es": "El pasaje dice \"al alimentarse, libera gas dióxido de carbono\", el evento inmediatamente siguiente."
+    },
+    "trap": {
+      "en": "Killing the yeast and setting the gluten happen much later, in the oven.",
+      "es": "Matar la levadura y endurecer el gluten ocurren mucho después, en el horno."
+    },
+    "strategyRef": "pc.question-first",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0044",
+    "subtest": "PC",
+    "topic": "detail",
+    "difficulty": 2,
+    "passage": {
+      "en": "Bread rises because of a living ingredient. When a baker mixes yeast into warm water and flour, the yeast begins to feed on sugars in the dough. As it feeds, it releases carbon dioxide gas. The gas cannot escape easily, because kneading has developed a stretchy network of protein called gluten that traps the bubbles. Over an hour or two the trapped gas doubles the size of the dough. In the oven, the heat makes the bubbles expand once more and then kills the yeast, while the gluten sets and holds the final shape. A loaf that did not rise usually points to yeast that was old or water that was too hot.",
+      "es": "El pan sube gracias a un ingrediente vivo. Cuando un panadero mezcla levadura con agua tibia y harina, la levadura empieza a alimentarse de los azúcares de la masa. Al alimentarse, libera gas dióxido de carbono. El gas no puede escapar con facilidad porque el amasado ha formado una red elástica de proteína llamada gluten que atrapa las burbujas. En una o dos horas, el gas atrapado duplica el tamaño de la masa. En el horno, el calor hace que las burbujas se expandan una vez más y luego mata la levadura, mientras el gluten se endurece y conserva la forma final. Un pan que no subió suele indicar levadura vieja o agua demasiado caliente."
+    },
+    "stem": {
+      "en": "According to the passage, what traps the gas bubbles inside the dough?",
+      "es": "Según el pasaje, ¿qué atrapa las burbujas de gas dentro de la masa?"
+    },
+    "choices": [
+      {
+        "en": "Sugar dissolved in warm water",
+        "es": "Azúcar disuelta en agua tibia"
+      },
+      {
+        "en": "A stretchy protein network called gluten",
+        "es": "Una red elástica de proteína llamada gluten"
+      },
+      {
+        "en": "The crust that forms in the oven",
+        "es": "La corteza que se forma en el horno"
+      },
+      {
+        "en": "The yeast cells themselves",
+        "es": "Las propias células de levadura"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "The passage states that kneading develops gluten, which \"traps the bubbles.\"",
+      "es": "El pasaje afirma que el amasado forma gluten, que \"atrapa las burbujas\"."
+    },
+    "trap": {
+      "en": "Yeast makes the gas but does not hold it; that role belongs to gluten.",
+      "es": "La levadura produce el gas pero no lo retiene; ese papel corresponde al gluten."
+    },
+    "strategyRef": "pc.question-first",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0045",
+    "subtest": "PC",
+    "topic": "author-tone",
+    "difficulty": 3,
+    "passage": {
+      "en": "To all grinding-bay staff: this is the third memo on eye protection since January, and I would rather not write a fourth. Last week two people were found working without goggles, one of them a lead technician who should know better. The goggles are not optional, they are not uncomfortable once adjusted, and they are not expensive to replace if scratched. What is expensive is an eye injury, for the person who suffers it and for the crew that has to cover the shift. Starting Monday, supervisors will check every station at the top of each hour. Anyone without goggles will be sent to the locker room to get them, and repeat cases will be written up.",
+      "es": "A todo el personal del área de esmerilado: este es el tercer memorando sobre protección ocular desde enero, y preferiría no escribir un cuarto. La semana pasada se encontró a dos personas trabajando sin gafas, una de ellas un técnico principal que debería saberlo mejor. Las gafas no son opcionales, no son incómodas una vez ajustadas y no son caras de reemplazar si se rayan. Lo que sí es caro es una lesión ocular, para quien la sufre y para el equipo que tiene que cubrir el turno. A partir del lunes, los supervisores revisarán cada estación al inicio de cada hora. Quien no tenga gafas será enviado al vestidor a buscarlas, y los casos repetidos serán reportados por escrito."
+    },
+    "stem": {
+      "en": "The author's attitude toward the staff can best be described as",
+      "es": "La actitud del autor hacia el personal se describe mejor como"
+    },
+    "choices": [
+      {
+        "en": "amused by their carelessness",
+        "es": "divertido por su descuido"
+      },
+      {
+        "en": "indifferent to whether rules are followed",
+        "es": "indiferente a si se cumplen las reglas"
+      },
+      {
+        "en": "frustrated but concerned for their safety",
+        "es": "frustrado pero preocupado por su seguridad"
+      },
+      {
+        "en": "grateful for their hard work",
+        "es": "agradecido por su esfuerzo"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "\"I would rather not write a fourth\" and \"should know better\" show frustration, while the focus on injury shows concern.",
+      "es": "\"Preferiría no escribir un cuarto\" y \"debería saberlo mejor\" muestran frustración, mientras que el énfasis en la lesión muestra preocupación."
+    },
+    "trap": {
+      "en": "Announcing hourly checks and write-ups is the opposite of indifference.",
+      "es": "Anunciar revisiones cada hora y reportes escritos es lo contrario de la indiferencia."
+    },
+    "strategyRef": "pc.inference",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0046",
+    "subtest": "PC",
+    "topic": "negative",
+    "difficulty": 3,
+    "passage": {
+      "en": "To all grinding-bay staff: this is the third memo on eye protection since January, and I would rather not write a fourth. Last week two people were found working without goggles, one of them a lead technician who should know better. The goggles are not optional, they are not uncomfortable once adjusted, and they are not expensive to replace if scratched. What is expensive is an eye injury, for the person who suffers it and for the crew that has to cover the shift. Starting Monday, supervisors will check every station at the top of each hour. Anyone without goggles will be sent to the locker room to get them, and repeat cases will be written up.",
+      "es": "A todo el personal del área de esmerilado: este es el tercer memorando sobre protección ocular desde enero, y preferiría no escribir un cuarto. La semana pasada se encontró a dos personas trabajando sin gafas, una de ellas un técnico principal que debería saberlo mejor. Las gafas no son opcionales, no son incómodas una vez ajustadas y no son caras de reemplazar si se rayan. Lo que sí es caro es una lesión ocular, para quien la sufre y para el equipo que tiene que cubrir el turno. A partir del lunes, los supervisores revisarán cada estación al inicio de cada hora. Quien no tenga gafas será enviado al vestidor a buscarlas, y los casos repetidos serán reportados por escrito."
+    },
+    "stem": {
+      "en": "According to the memo, all of the following are true of the goggles EXCEPT that they",
+      "es": "Según el memorando, todo lo siguiente es cierto sobre las gafas EXCEPTO que"
+    },
+    "choices": [
+      {
+        "en": "are required, not optional",
+        "es": "son obligatorias, no opcionales"
+      },
+      {
+        "en": "are comfortable once adjusted",
+        "es": "son cómodas una vez ajustadas"
+      },
+      {
+        "en": "are cheap to replace when scratched",
+        "es": "son baratas de reemplazar si se rayan"
+      },
+      {
+        "en": "are provided free at each station",
+        "es": "se entregan gratis en cada estación"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "The memo says goggles are required, comfortable once adjusted and inexpensive to replace; it says they are kept in the locker room, not given out free at stations.",
+      "es": "El memorando dice que las gafas son obligatorias, cómodas una vez ajustadas y baratas de reemplazar; dice que están en el vestidor, no que se entreguen gratis en cada estación."
+    },
+    "trap": {
+      "en": "\"Not expensive to replace\" is easy to misread as \"free\"; the memo never says they cost nothing or sit at each station.",
+      "es": "\"No son caras de reemplazar\" se confunde fácilmente con \"gratis\"; el memorando nunca dice que no cuesten nada ni que estén en cada estación."
+    },
+    "strategyRef": "pc.negative-stem",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0047",
+    "subtest": "PC",
+    "topic": "main-idea",
+    "difficulty": 2,
+    "passage": {
+      "en": "Every autumn, monarch butterflies from across the northern plains fly south to a handful of mountain forests, a trip that can cover thousands of kilometers. What makes the journey remarkable is that no single butterfly has made it before. The monarchs that leave in September are several generations removed from those that flew north the previous spring, yet they arrive at the same groves their great-grandparents left. Scientists believe the insects steer by the angle of the sun, corrected by an internal clock, and may also sense the earth's magnetic field. The route is still not fully understood, which is one reason volunteers tag thousands of monarchs each year and report where the tagged insects are found.",
+      "es": "Cada otoño, las mariposas monarca de las llanuras del norte vuelan hacia el sur a un puñado de bosques de montaña, un viaje que puede cubrir miles de kilómetros. Lo que hace notable el viaje es que ninguna mariposa lo ha hecho antes. Las monarcas que parten en septiembre están varias generaciones alejadas de las que volaron al norte la primavera anterior, y sin embargo llegan a las mismas arboledas que dejaron sus bisabuelas. Los científicos creen que los insectos se orientan por el ángulo del sol, corregido por un reloj interno, y que quizá también perciben el campo magnético terrestre. La ruta aún no se comprende del todo, y esa es una razón por la que voluntarios marcan miles de monarcas cada año e informan dónde se encuentran los insectos marcados."
+    },
+    "stem": {
+      "en": "Which of the following best states the main idea of the passage?",
+      "es": "¿Cuál de las siguientes opciones expresa mejor la idea principal del pasaje?"
+    },
+    "choices": [
+      {
+        "en": "Monarchs complete a long migration to places they have never been, by means not yet fully explained",
+        "es": "Las monarcas completan una larga migración a lugares donde nunca han estado, por medios aún no explicados del todo"
+      },
+      {
+        "en": "Volunteers should stop tagging monarchs because it harms them",
+        "es": "Los voluntarios deberían dejar de marcar monarcas porque les hace daño"
+      },
+      {
+        "en": "Monarchs live for several years and make the trip many times",
+        "es": "Las monarcas viven varios años y hacen el viaje muchas veces"
+      },
+      {
+        "en": "The sun is the only cue monarchs use to navigate",
+        "es": "El sol es la única señal que usan las monarcas para orientarse"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The passage stresses that the migrants have never made the trip and that scientists are still working out how they navigate.",
+      "es": "El pasaje destaca que las migrantes nunca han hecho el viaje y que los científicos aún investigan cómo se orientan."
+    },
+    "trap": {
+      "en": "\"Several years, many times\" contradicts the statement that the fall migrants are generations removed from the spring ones.",
+      "es": "\"Varios años, muchas veces\" contradice la afirmación de que las migrantes de otoño están a generaciones de distancia de las de primavera."
+    },
+    "strategyRef": "pc.main-idea",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0048",
+    "subtest": "PC",
+    "topic": "vocab",
+    "difficulty": 3,
+    "passage": {
+      "en": "Every autumn, monarch butterflies from across the northern plains fly south to a handful of mountain forests, a trip that can cover thousands of kilometers. What makes the journey remarkable is that no single butterfly has made it before. The monarchs that leave in September are several generations removed from those that flew north the previous spring, yet they arrive at the same groves their great-grandparents left. Scientists believe the insects steer by the angle of the sun, corrected by an internal clock, and may also sense the earth's magnetic field. The route is still not fully understood, which is one reason volunteers tag thousands of monarchs each year and report where the tagged insects are found.",
+      "es": "Cada otoño, las mariposas monarca de las llanuras del norte vuelan hacia el sur a un puñado de bosques de montaña, un viaje que puede cubrir miles de kilómetros. Lo que hace notable el viaje es que ninguna mariposa lo ha hecho antes. Las monarcas que parten en septiembre están varias generaciones alejadas de las que volaron al norte la primavera anterior, y sin embargo llegan a las mismas arboledas que dejaron sus bisabuelas. Los científicos creen que los insectos se orientan por el ángulo del sol, corregido por un reloj interno, y que quizá también perciben el campo magnético terrestre. La ruta aún no se comprende del todo, y esa es una razón por la que voluntarios marcan miles de monarcas cada año e informan dónde se encuentran los insectos marcados."
+    },
+    "stem": {
+      "en": "As used in the passage, the word \"removed\" most nearly means",
+      "es": "Tal como se usa en el pasaje, la palabra \"removed\" significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "taken away by force",
+        "es": "llevadas por la fuerza"
+      },
+      {
+        "en": "separated by generations",
+        "es": "separadas por generaciones"
+      },
+      {
+        "en": "deleted from records",
+        "es": "borradas de los registros"
+      },
+      {
+        "en": "moved to a new home",
+        "es": "trasladadas a un nuevo hogar"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "\"Several generations removed from\" describes distance in family descent, not physical removal.",
+      "es": "\"Varias generaciones alejadas de\" describe distancia en la descendencia familiar, no una extracción física."
+    },
+    "trap": {
+      "en": "\"Taken away\" is the common meaning of removed, but it makes no sense applied to generations.",
+      "es": "\"Llevadas\" es el significado común de removed, pero no tiene sentido aplicado a generaciones."
+    },
+    "strategyRef": "pc.vocab-in-context",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0049",
+    "subtest": "PC",
+    "topic": "main-idea",
+    "difficulty": 3,
+    "passage": {
+      "en": "For a few decades in the early nineteenth century, canals were the highways of inland trade. A single mule could pull a barge carrying more grain than a dozen wagons, and canal towns grew rich on the traffic. The railroads changed that within a generation. A locomotive did not freeze in winter, did not need locks to climb a hill and could reach towns far from any river. Canal companies cut their tolls, then cut them again, but shippers kept switching. By the 1870s many canals carried only stone and coal, cargo too heavy and too cheap to justify rail rates. Today most of the old channels are hiking paths, and the towns that once depended on them survive as quiet reminders of a technology that lost the race.",
+      "es": "Durante unas décadas a principios del siglo XIX, los canales fueron las carreteras del comercio interior. Una sola mula podía tirar de una barcaza que llevaba más grano que una docena de carretas, y los pueblos junto a los canales se enriquecieron con el tráfico. Los ferrocarriles cambiaron eso en una generación. Una locomotora no se congelaba en invierno, no necesitaba esclusas para subir una colina y podía llegar a pueblos lejos de cualquier río. Las compañías de canales bajaron sus peajes, y luego los bajaron otra vez, pero los transportistas siguieron cambiando. Para la década de 1870 muchos canales solo llevaban piedra y carbón, carga demasiado pesada y barata para justificar las tarifas del tren. Hoy la mayoría de los viejos canales son senderos, y los pueblos que dependían de ellos sobreviven como recuerdos silenciosos de una tecnología que perdió la carrera."
+    },
+    "stem": {
+      "en": "The passage is mostly concerned with",
+      "es": "El pasaje se ocupa sobre todo de"
+    },
+    "choices": [
+      {
+        "en": "why mules were more efficient than wagons",
+        "es": "por qué las mulas eran más eficientes que las carretas"
+      },
+      {
+        "en": "the best hiking paths built on old canals",
+        "es": "los mejores senderos construidos sobre viejos canales"
+      },
+      {
+        "en": "how railroads displaced canals as the main carriers of inland freight",
+        "es": "cómo los ferrocarriles desplazaron a los canales como principales transportistas de carga interior"
+      },
+      {
+        "en": "how canal companies set their tolls",
+        "es": "cómo las compañías de canales fijaban sus peajes"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Every paragraph detail, from the locomotive's advantages to the falling tolls, supports the story of canals losing to rail.",
+      "es": "Cada detalle, desde las ventajas de la locomotora hasta los peajes en caída, respalda la historia de los canales perdiendo frente al tren."
+    },
+    "trap": {
+      "en": "Mules, tolls and hiking paths are each mentioned once as supporting details, not as the subject.",
+      "es": "Las mulas, los peajes y los senderos se mencionan una vez como detalles de apoyo, no como el tema."
+    },
+    "strategyRef": "pc.main-idea",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0050",
+    "subtest": "PC",
+    "topic": "inference",
+    "difficulty": 3,
+    "passage": {
+      "en": "For a few decades in the early nineteenth century, canals were the highways of inland trade. A single mule could pull a barge carrying more grain than a dozen wagons, and canal towns grew rich on the traffic. The railroads changed that within a generation. A locomotive did not freeze in winter, did not need locks to climb a hill and could reach towns far from any river. Canal companies cut their tolls, then cut them again, but shippers kept switching. By the 1870s many canals carried only stone and coal, cargo too heavy and too cheap to justify rail rates. Today most of the old channels are hiking paths, and the towns that once depended on them survive as quiet reminders of a technology that lost the race.",
+      "es": "Durante unas décadas a principios del siglo XIX, los canales fueron las carreteras del comercio interior. Una sola mula podía tirar de una barcaza que llevaba más grano que una docena de carretas, y los pueblos junto a los canales se enriquecieron con el tráfico. Los ferrocarriles cambiaron eso en una generación. Una locomotora no se congelaba en invierno, no necesitaba esclusas para subir una colina y podía llegar a pueblos lejos de cualquier río. Las compañías de canales bajaron sus peajes, y luego los bajaron otra vez, pero los transportistas siguieron cambiando. Para la década de 1870 muchos canales solo llevaban piedra y carbón, carga demasiado pesada y barata para justificar las tarifas del tren. Hoy la mayoría de los viejos canales son senderos, y los pueblos que dependían de ellos sobreviven como recuerdos silenciosos de una tecnología que perdió la carrera."
+    },
+    "stem": {
+      "en": "The passage implies that by the 1870s canals carried stone and coal because",
+      "es": "El pasaje da a entender que para la década de 1870 los canales llevaban piedra y carbón porque"
+    },
+    "choices": [
+      {
+        "en": "railroads were forbidden to carry minerals",
+        "es": "a los ferrocarriles se les prohibía transportar minerales"
+      },
+      {
+        "en": "canal boats had been redesigned for heavy loads",
+        "es": "las barcazas se habían rediseñado para cargas pesadas"
+      },
+      {
+        "en": "grain was no longer grown near the canals",
+        "es": "ya no se cultivaba grano cerca de los canales"
+      },
+      {
+        "en": "rail shipping cost too much for such low-value cargo",
+        "es": "el envío por tren costaba demasiado para carga de tan poco valor"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "The passage calls that cargo \"too heavy and too cheap to justify rail rates,\" so it stayed on the cheaper canals.",
+      "es": "El pasaje llama a esa carga \"demasiado pesada y barata para justificar las tarifas del tren\", así que se quedó en los canales, más baratos."
+    },
+    "trap": {
+      "en": "Nothing in the passage mentions a ban on railroads or a redesign of boats; those are invented reasons.",
+      "es": "Nada en el pasaje menciona una prohibición a los ferrocarriles ni un rediseño de barcazas; son razones inventadas."
+    },
+    "strategyRef": "pc.inference",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0051",
+    "subtest": "PC",
+    "topic": "author-tone",
+    "difficulty": 2,
+    "passage": {
+      "en": "I have eaten breakfast at the new corner cafe six times in three weeks, which probably tells you most of what you need to know. The oatmeal comes with roasted apples and is worth the walk by itself, and the staff remember your order by the second visit. Two complaints keep me from giving it a perfect mark. The tables are packed so tightly that a backpack on the floor blocks the aisle, and on weekends the wait for a seat can pass thirty minutes with no list to hold your place. Go on a weekday morning, order the oatmeal and leave the backpack at home.",
+      "es": "He desayunado en la nueva cafetería de la esquina seis veces en tres semanas, lo que probablemente les dice casi todo lo que necesitan saber. La avena viene con manzanas asadas y por sí sola vale la caminata, y el personal recuerda tu pedido desde la segunda visita. Dos quejas me impiden darle una calificación perfecta. Las mesas están tan juntas que una mochila en el piso bloquea el pasillo, y los fines de semana la espera por un asiento puede pasar de treinta minutos sin una lista que guarde tu lugar. Ve una mañana entre semana, pide la avena y deja la mochila en casa."
+    },
+    "stem": {
+      "en": "The author's overall attitude toward the cafe is",
+      "es": "La actitud general del autor hacia la cafetería es"
+    },
+    "choices": [
+      {
+        "en": "enthusiastic, with a few reservations",
+        "es": "entusiasta, con algunas reservas"
+      },
+      {
+        "en": "hostile and dismissive",
+        "es": "hostil y despectiva"
+      },
+      {
+        "en": "neutral and uninterested",
+        "es": "neutral e indiferente"
+      },
+      {
+        "en": "confused about whether to recommend it",
+        "es": "confundida sobre si recomendarla"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Six visits in three weeks and \"worth the walk by itself\" show enthusiasm; the two complaints are clearly labeled as minor.",
+      "es": "Seis visitas en tres semanas y \"vale la caminata por sí sola\" muestran entusiasmo; las dos quejas se presentan claramente como menores."
+    },
+    "trap": {
+      "en": "The complaints are real, but they do not make the review hostile; the closing line still tells readers to go.",
+      "es": "Las quejas son reales, pero no hacen hostil la reseña; la línea final todavía dice a los lectores que vayan."
+    },
+    "strategyRef": "pc.inference",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0052",
+    "subtest": "PC",
+    "topic": "inference",
+    "difficulty": 1,
+    "passage": {
+      "en": "I have eaten breakfast at the new corner cafe six times in three weeks, which probably tells you most of what you need to know. The oatmeal comes with roasted apples and is worth the walk by itself, and the staff remember your order by the second visit. Two complaints keep me from giving it a perfect mark. The tables are packed so tightly that a backpack on the floor blocks the aisle, and on weekends the wait for a seat can pass thirty minutes with no list to hold your place. Go on a weekday morning, order the oatmeal and leave the backpack at home.",
+      "es": "He desayunado en la nueva cafetería de la esquina seis veces en tres semanas, lo que probablemente les dice casi todo lo que necesitan saber. La avena viene con manzanas asadas y por sí sola vale la caminata, y el personal recuerda tu pedido desde la segunda visita. Dos quejas me impiden darle una calificación perfecta. Las mesas están tan juntas que una mochila en el piso bloquea el pasillo, y los fines de semana la espera por un asiento puede pasar de treinta minutos sin una lista que guarde tu lugar. Ve una mañana entre semana, pide la avena y deja la mochila en casa."
+    },
+    "stem": {
+      "en": "The author suggests going on a weekday morning most likely because",
+      "es": "El autor sugiere ir una mañana entre semana muy probablemente porque"
+    },
+    "choices": [
+      {
+        "en": "the oatmeal is served only on weekdays",
+        "es": "la avena se sirve solo entre semana"
+      },
+      {
+        "en": "the wait for a seat is shorter then",
+        "es": "la espera por un asiento es más corta entonces"
+      },
+      {
+        "en": "the staff are friendlier on weekdays",
+        "es": "el personal es más amable entre semana"
+      },
+      {
+        "en": "the cafe is closed on weekends",
+        "es": "la cafetería cierra los fines de semana"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "The only weekend problem named is the long wait with no list, so a weekday visit avoids it.",
+      "es": "El único problema de fin de semana que se menciona es la larga espera sin lista, así que una visita entre semana lo evita."
+    },
+    "trap": {
+      "en": "The passage never limits the oatmeal to weekdays; that answer invents a detail.",
+      "es": "El pasaje nunca limita la avena a los días entre semana; esa respuesta inventa un detalle."
+    },
+    "strategyRef": "pc.inference",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0053",
+    "subtest": "PC",
+    "topic": "sequence",
+    "difficulty": 3,
+    "passage": {
+      "en": "A small town's water plant turns river water into drinking water in a fixed sequence. Raw water is first screened to remove sticks, leaves and fish. A chemical called a coagulant is then stirred in, causing fine particles to clump together into heavier flakes. The water rests in a settling basin so those flakes sink to the bottom, where they are scraped away as sludge. The clearer water on top passes through beds of sand and gravel that catch anything still suspended. Finally, a measured dose of chlorine is added to kill microorganisms, and the finished water is pumped to a storage tank on the hill. Operators test samples at every stage, not just at the end, because a problem caught early is far cheaper to fix.",
+      "es": "La planta de agua de un pueblo pequeño convierte el agua del río en agua potable en una secuencia fija. El agua cruda primero pasa por rejillas que retiran ramas, hojas y peces. Luego se agita un químico llamado coagulante, que hace que las partículas finas se agrupen en copos más pesados. El agua reposa en un estanque de sedimentación para que esos copos se hundan al fondo, donde se retiran como lodo. El agua más clara de arriba pasa por lechos de arena y grava que atrapan lo que aún esté suspendido. Finalmente, se añade una dosis medida de cloro para matar microorganismos, y el agua terminada se bombea a un tanque de almacenamiento en la colina. Los operadores analizan muestras en cada etapa, no solo al final, porque un problema detectado a tiempo es mucho más barato de corregir."
+    },
+    "stem": {
+      "en": "According to the passage, the water passes through sand and gravel beds",
+      "es": "Según el pasaje, el agua pasa por los lechos de arena y grava"
+    },
+    "choices": [
+      {
+        "en": "before the coagulant is stirred in",
+        "es": "antes de agitar el coagulante"
+      },
+      {
+        "en": "after it reaches the storage tank",
+        "es": "después de llegar al tanque de almacenamiento"
+      },
+      {
+        "en": "after settling but before chlorine is added",
+        "es": "después de la sedimentación pero antes de añadir el cloro"
+      },
+      {
+        "en": "at the same time the sludge is scraped away",
+        "es": "al mismo tiempo que se retira el lodo"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "The order is screening, coagulant, settling, sand and gravel, chlorine, storage; filtration sits between settling and chlorine.",
+      "es": "El orden es rejillas, coagulante, sedimentación, arena y grava, cloro, almacenamiento; la filtración está entre la sedimentación y el cloro."
+    },
+    "trap": {
+      "en": "\"Before the coagulant\" reverses two steps; only the screens come before the coagulant.",
+      "es": "\"Antes del coagulante\" invierte dos pasos; solo las rejillas van antes del coagulante."
+    },
+    "strategyRef": "pc.question-first",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0054",
+    "subtest": "PC",
+    "topic": "negative",
+    "difficulty": 2,
+    "passage": {
+      "en": "A small town's water plant turns river water into drinking water in a fixed sequence. Raw water is first screened to remove sticks, leaves and fish. A chemical called a coagulant is then stirred in, causing fine particles to clump together into heavier flakes. The water rests in a settling basin so those flakes sink to the bottom, where they are scraped away as sludge. The clearer water on top passes through beds of sand and gravel that catch anything still suspended. Finally, a measured dose of chlorine is added to kill microorganisms, and the finished water is pumped to a storage tank on the hill. Operators test samples at every stage, not just at the end, because a problem caught early is far cheaper to fix.",
+      "es": "La planta de agua de un pueblo pequeño convierte el agua del río en agua potable en una secuencia fija. El agua cruda primero pasa por rejillas que retiran ramas, hojas y peces. Luego se agita un químico llamado coagulante, que hace que las partículas finas se agrupen en copos más pesados. El agua reposa en un estanque de sedimentación para que esos copos se hundan al fondo, donde se retiran como lodo. El agua más clara de arriba pasa por lechos de arena y grava que atrapan lo que aún esté suspendido. Finalmente, se añade una dosis medida de cloro para matar microorganismos, y el agua terminada se bombea a un tanque de almacenamiento en la colina. Los operadores analizan muestras en cada etapa, no solo al final, porque un problema detectado a tiempo es mucho más barato de corregir."
+    },
+    "stem": {
+      "en": "According to the passage, all of the following are removed or destroyed during treatment EXCEPT",
+      "es": "Según el pasaje, todo lo siguiente se retira o se destruye durante el tratamiento EXCEPTO"
+    },
+    "choices": [
+      {
+        "en": "leaves",
+        "es": "las hojas"
+      },
+      {
+        "en": "sludge",
+        "es": "el lodo"
+      },
+      {
+        "en": "microorganisms",
+        "es": "los microorganismos"
+      },
+      {
+        "en": "chlorine",
+        "es": "el cloro"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Leaves are screened out, sludge is scraped away and microorganisms are killed; chlorine is added, not removed.",
+      "es": "Las hojas se retiran con rejillas, el lodo se raspa y los microorganismos se matan; el cloro se añade, no se retira."
+    },
+    "trap": {
+      "en": "Chlorine is named in the treatment steps, so a hasty reader may lump it in with things taken out.",
+      "es": "El cloro aparece en los pasos del tratamiento, así que un lector apresurado puede agruparlo con lo que se retira."
+    },
+    "strategyRef": "pc.negative-stem",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0055",
+    "subtest": "PC",
+    "topic": "author-tone",
+    "difficulty": 3,
+    "passage": {
+      "en": "I am asking the night and day crews to adopt a written handover starting next week, and I want to explain why rather than simply order it. Twice this month a machine that had been flagged as running hot on the night shift was started cold in the morning by someone who had never heard about it. Nobody did anything wrong; the information simply lived in one person's head and went home with them. The handover form has four lines: equipment status, open work orders, safety concerns and anything unusual. Filling it out takes five minutes at the end of a shift. Five minutes is a small price for making sure the next crew starts the day with everything we know.",
+      "es": "Les pido a los equipos de noche y de día que adopten un relevo por escrito a partir de la próxima semana, y quiero explicar por qué en lugar de simplemente ordenarlo. Dos veces este mes, una máquina que en el turno de noche se había señalado como sobrecalentada fue arrancada en frío por la mañana por alguien que nunca lo supo. Nadie hizo nada mal; la información simplemente vivía en la cabeza de una persona y se fue a casa con ella. El formulario de relevo tiene cuatro líneas: estado del equipo, órdenes de trabajo abiertas, preocupaciones de seguridad y cualquier cosa inusual. Llenarlo toma cinco minutos al final del turno. Cinco minutos es un precio pequeño para asegurar que el siguiente equipo empiece el día con todo lo que sabemos."
+    },
+    "stem": {
+      "en": "The author's primary purpose in writing this passage is to",
+      "es": "El propósito principal del autor al escribir este pasaje es"
+    },
+    "choices": [
+      {
+        "en": "persuade the crews to accept a new procedure by explaining its reasons",
+        "es": "convencer a los equipos de aceptar un nuevo procedimiento explicando sus razones"
+      },
+      {
+        "en": "blame the night crew for an equipment failure",
+        "es": "culpar al equipo de noche por una falla del equipo"
+      },
+      {
+        "en": "describe how the flagged machine was repaired",
+        "es": "describir cómo se reparó la máquina señalada"
+      },
+      {
+        "en": "announce that the night shift will be eliminated",
+        "es": "anunciar que se eliminará el turno de noche"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The author explicitly says \"I want to explain why rather than simply order it\" and builds a case for the form.",
+      "es": "El autor dice explícitamente \"quiero explicar por qué en lugar de simplemente ordenarlo\" y argumenta a favor del formulario."
+    },
+    "trap": {
+      "en": "\"Nobody did anything wrong\" rules out blame as the purpose.",
+      "es": "\"Nadie hizo nada mal\" descarta la culpa como propósito."
+    },
+    "strategyRef": "pc.inference",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0056",
+    "subtest": "PC",
+    "topic": "detail",
+    "difficulty": 3,
+    "passage": {
+      "en": "I am asking the night and day crews to adopt a written handover starting next week, and I want to explain why rather than simply order it. Twice this month a machine that had been flagged as running hot on the night shift was started cold in the morning by someone who had never heard about it. Nobody did anything wrong; the information simply lived in one person's head and went home with them. The handover form has four lines: equipment status, open work orders, safety concerns and anything unusual. Filling it out takes five minutes at the end of a shift. Five minutes is a small price for making sure the next crew starts the day with everything we know.",
+      "es": "Les pido a los equipos de noche y de día que adopten un relevo por escrito a partir de la próxima semana, y quiero explicar por qué en lugar de simplemente ordenarlo. Dos veces este mes, una máquina que en el turno de noche se había señalado como sobrecalentada fue arrancada en frío por la mañana por alguien que nunca lo supo. Nadie hizo nada mal; la información simplemente vivía en la cabeza de una persona y se fue a casa con ella. El formulario de relevo tiene cuatro líneas: estado del equipo, órdenes de trabajo abiertas, preocupaciones de seguridad y cualquier cosa inusual. Llenarlo toma cinco minutos al final del turno. Cinco minutos es un precio pequeño para asegurar que el siguiente equipo empiece el día con todo lo que sabemos."
+    },
+    "stem": {
+      "en": "According to the passage, which of the following is one of the four lines on the handover form?",
+      "es": "Según el pasaje, ¿cuál de los siguientes es una de las cuatro líneas del formulario de relevo?"
+    },
+    "choices": [
+      {
+        "en": "Hours worked",
+        "es": "Horas trabajadas"
+      },
+      {
+        "en": "Safety concerns",
+        "es": "Preocupaciones de seguridad"
+      },
+      {
+        "en": "Parts ordered",
+        "es": "Piezas pedidas"
+      },
+      {
+        "en": "Names of crew present",
+        "es": "Nombres del personal presente"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "The four lines are equipment status, open work orders, safety concerns and anything unusual.",
+      "es": "Las cuatro líneas son estado del equipo, órdenes de trabajo abiertas, preocupaciones de seguridad y cualquier cosa inusual."
+    },
+    "trap": {
+      "en": "\"Parts ordered\" sounds like \"open work orders\" but is not what the passage lists.",
+      "es": "\"Piezas pedidas\" suena parecido a \"órdenes de trabajo abiertas\", pero no es lo que enumera el pasaje."
+    },
+    "strategyRef": "pc.question-first",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0057",
+    "subtest": "PC",
+    "topic": "main-idea",
+    "difficulty": 1,
+    "passage": {
+      "en": "Plants that live in deserts cannot escape the heat, so they have evolved ways to hold on to water. Many have small, waxy leaves that lose little moisture to the air, and some drop their leaves entirely during the driest months. Cactus stems are thick and ribbed, swelling like an accordion after a rare rain and shrinking slowly as the stored water is used. Roots may spread just under the surface to catch a brief shower, or plunge many meters down to reach groundwater. Spines discourage thirsty animals from biting into the stored supply. None of these features would help much in a rainforest, but in a place where a year's rain may fall in a single afternoon, they are the difference between living and dying.",
+      "es": "Las plantas que viven en desiertos no pueden escapar del calor, así que han desarrollado formas de retener el agua. Muchas tienen hojas pequeñas y cerosas que pierden poca humedad al aire, y algunas dejan caer sus hojas por completo en los meses más secos. Los tallos de los cactus son gruesos y con costillas, y se hinchan como un acordeón tras una lluvia rara y se encogen lentamente a medida que se usa el agua almacenada. Las raíces pueden extenderse justo bajo la superficie para captar un chubasco breve, o hundirse muchos metros para alcanzar el agua subterránea. Las espinas disuaden a los animales sedientos de morder la reserva almacenada. Ninguna de estas características serviría de mucho en una selva, pero en un lugar donde la lluvia de un año puede caer en una sola tarde, son la diferencia entre vivir y morir."
+    },
+    "stem": {
+      "en": "The main topic of this passage is",
+      "es": "El tema principal de este pasaje es"
+    },
+    "choices": [
+      {
+        "en": "why rainforests have more plant species than deserts",
+        "es": "por qué las selvas tienen más especies de plantas que los desiertos"
+      },
+      {
+        "en": "how animals in the desert find food",
+        "es": "cómo los animales del desierto encuentran comida"
+      },
+      {
+        "en": "how desert plants are adapted to conserve water",
+        "es": "cómo las plantas del desierto se adaptan para conservar el agua"
+      },
+      {
+        "en": "how much rain falls in a desert each year",
+        "es": "cuánta lluvia cae en un desierto cada año"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Every example in the passage, from waxy leaves to deep roots, is a way of holding on to water in the desert.",
+      "es": "Cada ejemplo del pasaje, desde las hojas cerosas hasta las raíces profundas, es una forma de retener agua en el desierto."
+    },
+    "trap": {
+      "en": "Rainforests and rainfall are mentioned only briefly to contrast with the desert.",
+      "es": "Las selvas y la lluvia se mencionan solo brevemente para contrastar con el desierto."
+    },
+    "strategyRef": "pc.main-idea",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0058",
+    "subtest": "PC",
+    "topic": "negative",
+    "difficulty": 1,
+    "passage": {
+      "en": "Plants that live in deserts cannot escape the heat, so they have evolved ways to hold on to water. Many have small, waxy leaves that lose little moisture to the air, and some drop their leaves entirely during the driest months. Cactus stems are thick and ribbed, swelling like an accordion after a rare rain and shrinking slowly as the stored water is used. Roots may spread just under the surface to catch a brief shower, or plunge many meters down to reach groundwater. Spines discourage thirsty animals from biting into the stored supply. None of these features would help much in a rainforest, but in a place where a year's rain may fall in a single afternoon, they are the difference between living and dying.",
+      "es": "Las plantas que viven en desiertos no pueden escapar del calor, así que han desarrollado formas de retener el agua. Muchas tienen hojas pequeñas y cerosas que pierden poca humedad al aire, y algunas dejan caer sus hojas por completo en los meses más secos. Los tallos de los cactus son gruesos y con costillas, y se hinchan como un acordeón tras una lluvia rara y se encogen lentamente a medida que se usa el agua almacenada. Las raíces pueden extenderse justo bajo la superficie para captar un chubasco breve, o hundirse muchos metros para alcanzar el agua subterránea. Las espinas disuaden a los animales sedientos de morder la reserva almacenada. Ninguna de estas características serviría de mucho en una selva, pero en un lugar donde la lluvia de un año puede caer en una sola tarde, son la diferencia entre vivir y morir."
+    },
+    "stem": {
+      "en": "According to the passage, desert plants do all of the following EXCEPT",
+      "es": "Según el pasaje, las plantas del desierto hacen todo lo siguiente EXCEPTO"
+    },
+    "choices": [
+      {
+        "en": "drop their leaves in the driest months",
+        "es": "dejar caer sus hojas en los meses más secos"
+      },
+      {
+        "en": "swell after a rain and shrink as water is used",
+        "es": "hincharse tras la lluvia y encogerse al usar el agua"
+      },
+      {
+        "en": "send roots deep to reach groundwater",
+        "es": "hundir raíces para alcanzar el agua subterránea"
+      },
+      {
+        "en": "grow large, broad leaves to capture sunlight",
+        "es": "desarrollar hojas grandes y anchas para captar la luz solar"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "The passage says desert leaves are small and waxy; large, broad leaves would lose too much water.",
+      "es": "El pasaje dice que las hojas del desierto son pequeñas y cerosas; hojas grandes y anchas perderían demasiada agua."
+    },
+    "trap": {
+      "en": "Readers who know plants need sunlight may assume broad leaves, but the passage says the opposite.",
+      "es": "Quien sabe que las plantas necesitan luz solar puede suponer hojas anchas, pero el pasaje dice lo contrario."
+    },
+    "strategyRef": "pc.negative-stem",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0059",
+    "subtest": "PC",
+    "topic": "author-tone",
+    "difficulty": 2,
+    "passage": {
+      "en": "When I started riding my bicycle to work, friends predicted I would quit by the first cold snap. Three winters later I am still at it, and the reasons are more practical than heroic. The ride takes twenty-two minutes, which is faster than the bus and only four minutes slower than driving once you count the search for parking. My monthly fuel and parking costs dropped to nearly nothing, and I no longer need a separate hour for exercise. The drawbacks are real: rain means a change of clothes at the office, and the two hills on the route are steep enough that I arrive sweaty in July. Still, I would need a very good reason to go back to the car.",
+      "es": "Cuando empecé a ir al trabajo en bicicleta, mis amigos predijeron que lo dejaría con la primera ola de frío. Tres inviernos después sigo en ello, y las razones son más prácticas que heroicas. El recorrido toma veintidós minutos, más rápido que el autobús y solo cuatro minutos más lento que manejar una vez que cuentas la búsqueda de estacionamiento. Mis gastos mensuales de gasolina y estacionamiento bajaron casi a cero, y ya no necesito una hora aparte para hacer ejercicio. Las desventajas son reales: la lluvia significa un cambio de ropa en la oficina, y las dos colinas de la ruta son tan empinadas que llego sudado en julio. Aun así, necesitaría una muy buena razón para volver al carro."
+    },
+    "stem": {
+      "en": "Which word best describes the author's attitude toward bicycle commuting?",
+      "es": "¿Qué palabra describe mejor la actitud del autor hacia ir al trabajo en bicicleta?"
+    },
+    "choices": [
+      {
+        "en": "committed",
+        "es": "comprometida"
+      },
+      {
+        "en": "regretful",
+        "es": "arrepentida"
+      },
+      {
+        "en": "boastful",
+        "es": "presumida"
+      },
+      {
+        "en": "undecided",
+        "es": "indecisa"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "\"Three winters later I am still at it\" and \"I would need a very good reason to go back\" show firm commitment despite drawbacks.",
+      "es": "\"Tres inviernos después sigo en ello\" y \"necesitaría una muy buena razón para volver\" muestran un compromiso firme pese a las desventajas."
+    },
+    "trap": {
+      "en": "The author calls the reasons \"practical than heroic,\" which rules out boasting.",
+      "es": "El autor califica las razones de \"más prácticas que heroicas\", lo que descarta la presunción."
+    },
+    "strategyRef": "pc.inference",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "pc-0060",
+    "subtest": "PC",
+    "topic": "vocab",
+    "difficulty": 2,
+    "passage": {
+      "en": "When I started riding my bicycle to work, friends predicted I would quit by the first cold snap. Three winters later I am still at it, and the reasons are more practical than heroic. The ride takes twenty-two minutes, which is faster than the bus and only four minutes slower than driving once you count the search for parking. My monthly fuel and parking costs dropped to nearly nothing, and I no longer need a separate hour for exercise. The drawbacks are real: rain means a change of clothes at the office, and the two hills on the route are steep enough that I arrive sweaty in July. Still, I would need a very good reason to go back to the car.",
+      "es": "Cuando empecé a ir al trabajo en bicicleta, mis amigos predijeron que lo dejaría con la primera ola de frío. Tres inviernos después sigo en ello, y las razones son más prácticas que heroicas. El recorrido toma veintidós minutos, más rápido que el autobús y solo cuatro minutos más lento que manejar una vez que cuentas la búsqueda de estacionamiento. Mis gastos mensuales de gasolina y estacionamiento bajaron casi a cero, y ya no necesito una hora aparte para hacer ejercicio. Las desventajas son reales: la lluvia significa un cambio de ropa en la oficina, y las dos colinas de la ruta son tan empinadas que llego sudado en julio. Aun así, necesitaría una muy buena razón para volver al carro."
+    },
+    "stem": {
+      "en": "As used in the passage, the word \"drawbacks\" most nearly means",
+      "es": "Tal como se usa en el pasaje, la palabra \"drawbacks\" significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "refunds",
+        "es": "reembolsos"
+      },
+      {
+        "en": "disadvantages",
+        "es": "desventajas"
+      },
+      {
+        "en": "delays",
+        "es": "retrasos"
+      },
+      {
+        "en": "shortcuts",
+        "es": "atajos"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "The sentence after \"drawbacks\" lists problems such as rain and steep hills, so the word means disadvantages.",
+      "es": "La oración que sigue a \"drawbacks\" enumera problemas como la lluvia y las colinas empinadas, así que la palabra significa desventajas."
+    },
+    "trap": {
+      "en": "\"Delays\" is too narrow; the hills cause sweat, not lateness.",
+      "es": "\"Retrasos\" es demasiado limitado; las colinas causan sudor, no tardanza."
+    },
+    "strategyRef": "pc.vocab-in-context",
+    "source": "original",
+    "version": 1
+  }
+]

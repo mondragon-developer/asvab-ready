@@ -1,0 +1,997 @@
+[
+  {
+    "id": "wk-prefix",
+    "subtest": "WK",
+    "topic": "prefix",
+    "title": {
+      "en": "Prefixes, Roots and Suffixes",
+      "es": "Prefijos, raíces y sufijos"
+    },
+    "minutes": 6,
+    "sections": [
+      {
+        "type": "explain",
+        "title": {
+          "en": "Break the word before you guess",
+          "es": "Divide la palabra antes de adivinar"
+        },
+        "body": {
+          "en": "Word Knowledge gives you 36 seconds per word, and you will not know every word. You do not have to. Most long English words are built from three parts: a <b>prefix</b> (front, changes direction or degree), a <b>root</b> (the core meaning, usually Latin or Greek), and a <b>suffix</b> (the tail, tells you the part of speech).<br><br>Take <i>incredible</i>: <code>in-</code> (not) + <code>cred</code> (believe) + <code>-ible</code> (able to be). \"Not able to be believed.\" You just defined the word without ever memorizing it.<br><br>The test writes the stem as \"<i>Incredible</i> most nearly means\" and the answer will be a plain synonym like <i>unbelievable</i>. Your job is to decode enough of the word to eliminate three choices that point the wrong way. Learn about forty prefixes and roots and you unlock hundreds of test words.",
+          "es": "En Word Knowledge tienes 36 segundos por palabra y no vas a conocer todas. No hace falta. La mayoría de las palabras largas en inglés se arman con tres piezas: un <b>prefijo</b> (al frente, cambia dirección o grado), una <b>raíz</b> (el significado central, casi siempre del latín o griego) y un <b>sufijo</b> (la cola, indica si es sustantivo, adjetivo o verbo).<br><br>Mira <i>incredible</i>: <code>in-</code> (no) + <code>cred</code> (creer) + <code>-ible</code> (que se puede). \"Que no se puede creer.\" Acabas de definirla sin memorizarla.<br><br>El examen la presenta como \"<i>Incredible</i> most nearly means\" y la respuesta será un sinónimo simple como <i>unbelievable</i>. Tu tarea es descifrar lo suficiente para eliminar tres opciones que apuntan en otra dirección. Con unos cuarenta prefijos y raíces desbloqueas cientos de palabras del examen."
+        }
+      },
+      {
+        "type": "example",
+        "title": {
+          "en": "Worked example: decoding two words",
+          "es": "Ejemplo resuelto: descifrar dos palabras"
+        },
+        "body": {
+          "en": "<b>\"<i>Benevolent</i> most nearly means\"</b><br>A. hostile &nbsp; B. kind &nbsp; C. wealthy &nbsp; D. careless<br><br>Split it: <code>bene</code> = good (as in <i>benefit</i>), <code>vol</code> = wish (as in <i>volunteer</i>), <code>-ent</code> = adjective. \"Wishing good.\" Hostile is the opposite, wealthy and careless are unrelated. Answer: <b>B, kind</b>.<br><br><b>\"<i>Retrospect</i> most nearly means\"</b><br>A. a prediction &nbsp; B. a review of the past &nbsp; C. a disguise &nbsp; D. a shortage<br><br><code>retro-</code> = backward (as in <i>retro</i> fashion), <code>spect</code> = look (as in <i>inspect</i>, <i>spectator</i>). \"A look backward.\" Prediction looks forward, so it is the trap opposite. Answer: <b>B</b>.<br><br>Notice the pattern: name the prefix, name the root, build a two-word phrase, then match the phrase to a choice. Twenty seconds, done.",
+          "es": "<b>\"<i>Benevolent</i> most nearly means\"</b><br>A. hostile &nbsp; B. kind &nbsp; C. wealthy &nbsp; D. careless<br><br>Divídela: <code>bene</code> = bueno (como en <i>benefit</i>), <code>vol</code> = desear (como en <i>volunteer</i>), <code>-ent</code> = adjetivo. \"Que desea el bien.\" <i>Hostile</i> es lo contrario; <i>wealthy</i> y <i>careless</i> no tienen relación. Respuesta: <b>B, kind</b> (amable).<br><br><b>\"<i>Retrospect</i> most nearly means\"</b><br>A. a prediction &nbsp; B. a review of the past &nbsp; C. a disguise &nbsp; D. a shortage<br><br><code>retro-</code> = hacia atrás (como la moda <i>retro</i>), <code>spect</code> = mirar (como en <i>inspect</i>, <i>spectator</i>). \"Una mirada hacia atrás.\" <i>Prediction</i> mira hacia adelante: es la trampa opuesta. Respuesta: <b>B</b>.<br><br>Fíjate en el patrón: nombra el prefijo, nombra la raíz, arma una frase de dos palabras y empárejala con una opción. Veinte segundos y listo."
+        }
+      },
+      {
+        "type": "trap",
+        "title": {
+          "en": "The trap: the look-alike root",
+          "es": "La trampa: la raíz que se parece"
+        },
+        "body": {
+          "en": "The most common wrong answer comes from matching <i>letters</i> instead of <i>parts</i>. A student sees <i>indifferent</i>, spots <code>differ</code>, and picks \"unusual\" or \"distinct.\" Wrong. Here <code>in-</code> + <code>different</code> means \"not making a difference to you,\" so the answer is <i>unconcerned</i>.<br><br>Same problem with <code>in-</code> itself: it means \"not\" in <i>invisible</i> but \"into\" in <i>inject</i>. And <i>inflammable</i> means flammable, not fireproof.<br><br>The fix: after you decode, <u>say the phrase in a sentence</u>. \"He was indifferent to the score\" — does \"unusual\" fit? No. \"Unconcerned\" does. If your decoded meaning produces a sentence that sounds wrong, the root fooled you; fall back to elimination and the sentence test rather than the letters.",
+          "es": "El error más común viene de emparejar <i>letras</i> en lugar de <i>partes</i>. Un estudiante ve <i>indifferent</i>, reconoce <code>differ</code> y elige \"unusual\" o \"distinct\". Incorrecto. Aquí <code>in-</code> + <code>different</code> significa \"que no te hace ninguna diferencia\", así que la respuesta es <i>unconcerned</i> (sin interés).<br><br>Lo mismo pasa con <code>in-</code> por sí solo: es \"no\" en <i>invisible</i> pero \"hacia adentro\" en <i>inject</i>. Y <i>inflammable</i> significa inflamable, no a prueba de fuego.<br><br>La solución: después de descifrar, <u>di la frase dentro de una oración</u>. \"He was indifferent to the score\": ¿encaja \"unusual\"? No. \"Unconcerned\" sí. Si tu significado descifrado produce una oración que suena mal, la raíz te engañó; vuelve a la eliminación y a la prueba de la oración, no a las letras."
+        }
+      },
+      {
+        "type": "drill",
+        "title": {
+          "en": "Drill",
+          "es": "Práctica"
+        },
+        "body": {
+          "en": "Make forty flash cards: twenty prefixes (un-, in-, dis-, mis-, pre-, post-, sub-, super-, trans-, bene-, mal-, anti-, inter-, re-, ex-) and twenty roots (cred, spect, dict, port, scrib, vert, ject, duc, mit, bio, chron, graph). Review them for five minutes daily until each takes under two seconds.<br><br>Then run prefix sets in the app at the real pace: <b>36 seconds per item</b>, aiming for 20 seconds, and for every miss write the word split into its parts before moving on.",
+          "es": "Haz cuarenta tarjetas: veinte prefijos (un-, in-, dis-, mis-, pre-, post-, sub-, super-, trans-, bene-, mal-, anti-, inter-, re-, ex-) y veinte raíces (cred, spect, dict, port, scrib, vert, ject, duc, mit, bio, chron, graph). Repásalas cinco minutos al día hasta que cada una te tome menos de dos segundos.<br><br>Luego practica sets de prefijos en la app al ritmo real: <b>36 segundos por reactivo</b>, buscando llegar a 20, y por cada error escribe la palabra separada en sus partes antes de continuar."
+        }
+      }
+    ]
+  },
+  {
+    "id": "wk-context",
+    "subtest": "WK",
+    "topic": "context",
+    "title": {
+      "en": "Substitution and Opposites: The Two Sentence Tricks",
+      "es": "Sustitución y opuestos: los dos trucos para oraciones"
+    },
+    "minutes": 6,
+    "sections": [
+      {
+        "type": "explain",
+        "title": {
+          "en": "Two tricks for sentence items",
+          "es": "Dos trucos para reactivos con oración"
+        },
+        "body": {
+          "en": "About half of Word Knowledge items give you a sentence with one word underlined: \"The sergeant gave a <u>terse</u> reply.\" The sentence is a gift. Use it with two tricks.<br><br><b>Trick 1, substitution.</b> Cover the underlined word and read the sentence with each answer choice dropped in. Only one choice keeps the sentence natural. \"The sergeant gave a <i>brief</i> reply\" sounds right; \"gave a <i>generous</i> reply\" does not.<br><br><b>Trick 2, opposites.</b> If you know what the word is <i>not</i>, cross out every choice that means the opposite or is unrelated. Test writers almost always plant one antonym among the choices because students who half-know a word grab it.<br><br>Substitute first, eliminate opposites second, and the sentence does most of the work even when the word is new to you.",
+          "es": "Cerca de la mitad de los reactivos de Word Knowledge te dan una oración con una palabra subrayada: \"The sergeant gave a <u>terse</u> reply.\" La oración es un regalo. Aprovéchala con dos trucos.<br><br><b>Truco 1, sustitución.</b> Tapa la palabra subrayada y lee la oración metiendo cada opción de respuesta. Solo una mantiene la oración natural. \"The sergeant gave a <i>brief</i> reply\" suena bien; \"gave a <i>generous</i> reply\" no.<br><br><b>Truco 2, opuestos.</b> Si sabes lo que la palabra <i>no</i> es, tacha toda opción que signifique lo contrario o no tenga relación. Quienes escriben el examen casi siempre plantan un antónimo entre las opciones porque el estudiante que conoce la palabra a medias se lanza por él.<br><br>Sustituye primero, elimina opuestos después, y la oración hace casi todo el trabajo aunque la palabra sea nueva para ti."
+        }
+      },
+      {
+        "type": "example",
+        "title": {
+          "en": "Worked example",
+          "es": "Ejemplo resuelto"
+        },
+        "body": {
+          "en": "<b>\"The recruits were <u>apprehensive</u> before the night jump.\"</b><br>A. eager &nbsp; B. uneasy &nbsp; C. exhausted &nbsp; D. prepared<br><br><b>Step 1, substitute.</b> \"The recruits were <i>eager</i> before the night jump\" – possible. \"...were <i>uneasy</i>\" – possible. \"...were <i>exhausted</i>\" – possible but odd before a jump. \"...were <i>prepared</i>\" – possible. Substitution narrows but does not finish; that is normal.<br><br><b>Step 2, decode and use opposites.</b> <code>apprehend</code> means to grasp, and \"apprehensive\" carries the feeling of grasping at a worry. It is a nervous word. <i>Eager</i> is its opposite, so cross it out. <i>Prepared</i> is neutral, not a feeling; cross it out. <i>Exhausted</i> is about energy, not nerves.<br><br>Answer: <b>B, uneasy</b>. Total time about 25 seconds, well under the 36-second budget.",
+          "es": "<b>\"The recruits were <u>apprehensive</u> before the night jump.\"</b><br>A. eager &nbsp; B. uneasy &nbsp; C. exhausted &nbsp; D. prepared<br><br><b>Paso 1, sustituye.</b> \"The recruits were <i>eager</i> before the night jump\": posible. \"...were <i>uneasy</i>\": posible. \"...were <i>exhausted</i>\": posible, aunque raro antes de un salto. \"...were <i>prepared</i>\": posible. La sustitución reduce pero no termina; eso es normal.<br><br><b>Paso 2, descifra y usa opuestos.</b> <code>apprehend</code> es atrapar, y \"apprehensive\" carga la sensación de estar atrapado por una preocupación. Es una palabra de nervios. <i>Eager</i> (entusiasmado) es su opuesto: táchalo. <i>Prepared</i> es neutro, no un sentimiento: táchalo. <i>Exhausted</i> habla de energía, no de nervios.<br><br>Respuesta: <b>B, uneasy</b> (inquieto). Tiempo total unos 25 segundos, muy por debajo de los 36."
+        }
+      },
+      {
+        "type": "trap",
+        "title": {
+          "en": "The trap: the word that fits the story",
+          "es": "La trampa: la palabra que encaja en la historia"
+        },
+        "body": {
+          "en": "The classic wrong answer is the choice that fits the <i>situation</i> instead of the <i>word</i>. In \"The recruits were apprehensive before the night jump,\" a student thinks \"before a jump you'd be prepared\" and picks D. But the question is not \"what were the recruits?\"; it is \"what does <i>apprehensive</i> mean?\"<br><br>Test writers exploit this on purpose: they build a sentence where two or three choices make sense as a story, and only one is the actual synonym.<br><br>The fix: after substitution, ask yourself, \"Would this choice still be right if the sentence were about a completely different topic?\" A true synonym works everywhere: \"She was apprehensive about the exam\" still means uneasy, not prepared. If the choice only works because of the jump, it is the story trap.",
+          "es": "La respuesta incorrecta clásica es la opción que encaja con la <i>situación</i> en lugar de con la <i>palabra</i>. En \"The recruits were apprehensive before the night jump\", el estudiante piensa \"antes de un salto estarías preparado\" y elige D. Pero la pregunta no es \"¿cómo estaban los reclutas?\", sino \"¿qué significa <i>apprehensive</i>?\".<br><br>Quienes escriben el examen lo hacen a propósito: arman una oración donde dos o tres opciones tienen sentido como historia y solo una es el sinónimo real.<br><br>La solución: después de sustituir, pregúntate: \"¿Esta opción seguiría siendo correcta si la oración hablara de otro tema?\". Un sinónimo verdadero funciona en todas partes: \"She was apprehensive about the exam\" sigue significando inquieta, no preparada. Si la opción solo funciona por el salto, es la trampa de la historia."
+        }
+      },
+      {
+        "type": "drill",
+        "title": {
+          "en": "Drill",
+          "es": "Práctica"
+        },
+        "body": {
+          "en": "Practice context items in the app in sets of fifteen. For each one, physically cover the underlined word with your finger and read all four substitutions aloud before choosing; then cross out the antonym if there is one.<br><br>Pace: <b>36 seconds per item</b> is the official budget, but sentence items should take you 20 to 25 seconds. If a set takes more than nine minutes, you are rereading; trust the substitution and move.",
+          "es": "Practica reactivos de contexto en la app en sets de quince. En cada uno, tapa físicamente la palabra subrayada con el dedo y lee en voz baja las cuatro sustituciones antes de elegir; luego tacha el antónimo si lo hay.<br><br>Ritmo: <b>36 segundos por reactivo</b> es el presupuesto oficial, pero los reactivos con oración deberían tomarte de 20 a 25 segundos. Si un set te toma más de nueve minutos, estás releyendo; confía en la sustitución y avanza."
+        }
+      }
+    ]
+  },
+  {
+    "id": "pc-question-types",
+    "subtest": "PC",
+    "topic": "main-idea",
+    "title": {
+      "en": "Read the Question First: The Four Question Types",
+      "es": "Lee la pregunta primero: los cuatro tipos de preguntas"
+    },
+    "minutes": 7,
+    "sections": [
+      {
+        "type": "explain",
+        "title": {
+          "en": "Question first, then passage",
+          "es": "Primero la pregunta, luego el pasaje"
+        },
+        "body": {
+          "en": "Paragraph Comprehension gives you about 162 seconds per item, which sounds generous until you read a passage twice. The fix is simple: <b>read the question stem before the passage</b>. Then you read with a purpose instead of trying to memorize everything.<br><br>Every PC item is one of four types:<br><ul><li><b>Main idea</b>: \"The passage is mainly about...\" / \"The best title would be...\" Look for the sentence the rest of the paragraph supports.</li><li><b>Detail</b>: \"According to the passage, ...\" The answer is stated word-for-word or nearly so. Scan for it.</li><li><b>Inference</b>: \"It can be concluded that...\" / \"The author would most likely agree...\" The answer is not stated but must follow from what is.</li><li><b>Vocabulary in context</b>: \"As used in the passage, <i>X</i> most nearly means...\" Substitute.</li></ul>Label the type in your head first; each type has its own attack.",
+          "es": "Paragraph Comprehension te da unos 162 segundos por reactivo, lo cual suena generoso hasta que lees un pasaje dos veces. La solución es simple: <b>lee la pregunta antes del pasaje</b>. Así lees con un propósito en lugar de intentar memorizarlo todo.<br><br>Cada reactivo de PC es de uno de cuatro tipos:<br><ul><li><b>Idea principal</b> (main idea): \"The passage is mainly about...\" / \"The best title would be...\" Busca la oración que el resto del párrafo sostiene.</li><li><b>Detalle</b> (detail): \"According to the passage, ...\" La respuesta está dicha casi textualmente. Escanea para encontrarla.</li><li><b>Inferencia</b> (inference): \"It can be concluded that...\" / \"The author would most likely agree...\" No está dicha, pero se desprende de lo que sí está.</li><li><b>Vocabulario en contexto</b>: \"As used in the passage, <i>X</i> most nearly means...\" Sustituye.</li></ul>Etiqueta el tipo mentalmente primero; cada tipo tiene su propio ataque."
+        }
+      },
+      {
+        "type": "example",
+        "title": {
+          "en": "Worked example: a main-idea item",
+          "es": "Ejemplo resuelto: un reactivo de idea principal"
+        },
+        "body": {
+          "en": "<b>Stem read first:</b> \"The passage is primarily concerned with...\" So this is main idea; I will read looking for the claim the other sentences serve.<br><br><b>Passage:</b> \"Many people assume hydration means drinking when thirsty. By the time thirst appears, however, the body has already lost about two percent of its water. Athletes who wait for thirst finish workouts weaker and recover more slowly. For that reason, coaches schedule water breaks by the clock rather than by feel.\"<br><br>A. the causes of thirst<br>B. why waiting for thirst is a poor hydration guide<br>C. how coaches design workouts<br>D. the amount of water athletes lose<br><br>Sentence 1 sets up a common belief; sentences 2 to 4 all knock it down. The two-percent figure (D) and the coaches (C) are <i>support</i>, not the point. A is too broad and never explained. Answer: <b>B</b>. Time: about 70 seconds.",
+          "es": "<b>Pregunta leída primero:</b> \"The passage is primarily concerned with...\" Es idea principal; leeré buscando la afirmación a la que sirven las demás oraciones.<br><br><b>Pasaje:</b> \"Many people assume hydration means drinking when thirsty. By the time thirst appears, however, the body has already lost about two percent of its water. Athletes who wait for thirst finish workouts weaker and recover more slowly. For that reason, coaches schedule water breaks by the clock rather than by feel.\"<br><br>A. the causes of thirst<br>B. why waiting for thirst is a poor hydration guide<br>C. how coaches design workouts<br>D. the amount of water athletes lose<br><br>La oración 1 plantea una creencia común; las oraciones 2 a 4 la derriban. La cifra del dos por ciento (D) y los entrenadores (C) son <i>apoyo</i>, no el punto. A es demasiado amplia y nunca se explica. Respuesta: <b>B</b>. Tiempo: unos 70 segundos."
+        }
+      },
+      {
+        "type": "trap",
+        "title": {
+          "en": "The trap: the true-but-narrow choice",
+          "es": "La trampa: la opción verdadera pero estrecha"
+        },
+        "body": {
+          "en": "On main-idea items, the wrong answer students choose most is a <b>detail that is actually in the passage</b>. In the hydration example, D (\"the amount of water athletes lose\") is literally true; the passage says two percent. The student thinks \"I remember reading that\" and picks it.<br><br>But a main idea must cover the <i>whole</i> paragraph. Ask: \"Does every sentence help make this point?\" Sentence 4 about coaches has nothing to do with the amount of water lost, so D fails.<br><br>The opposite trap is the too-broad choice (A, \"the causes of thirst\"), which sounds important but is never discussed.<br><br>Rule: a correct main idea is wide enough to cover every sentence and narrow enough that you could not write it about a different paragraph. Test each survivor against the first and last sentences; those usually carry the point.",
+          "es": "En los reactivos de idea principal, la respuesta incorrecta más elegida es un <b>detalle que sí aparece en el pasaje</b>. En el ejemplo de la hidratación, D (\"the amount of water athletes lose\") es literalmente cierto; el pasaje dice dos por ciento. El estudiante piensa \"me acuerdo de haber leído eso\" y lo elige.<br><br>Pero la idea principal debe cubrir <i>todo</i> el párrafo. Pregúntate: \"¿Cada oración ayuda a sostener este punto?\". La oración 4 sobre los entrenadores no tiene nada que ver con la cantidad de agua perdida, así que D falla.<br><br>La trampa contraria es la opción demasiado amplia (A, \"the causes of thirst\"), que suena importante pero nunca se discute.<br><br>Regla: una idea principal correcta es lo bastante amplia para cubrir cada oración y lo bastante específica para que no pudieras escribirla sobre otro párrafo. Prueba cada sobreviviente contra la primera y la última oración; ahí suele estar el punto."
+        }
+      },
+      {
+        "type": "drill",
+        "title": {
+          "en": "Drill",
+          "es": "Práctica"
+        },
+        "body": {
+          "en": "Run PC sets of ten in the app. Before reading any passage, write the letter of the type in the margin: M, D, I or V. Only then read.<br><br>Hold yourself to <b>162 seconds per item</b> on the clock, but aim for 90 seconds on main-idea and detail items so you bank time for inference. After each set, check whether your misses cluster in one type and do a focused set of that type next.",
+          "es": "Haz sets de diez reactivos de PC en la app. Antes de leer cualquier pasaje, anota en el margen la letra del tipo: M, D, I o V. Solo entonces lee.<br><br>Respeta <b>162 segundos por reactivo</b> en el reloj, pero apunta a 90 segundos en los de idea principal y detalle para ahorrar tiempo para las inferencias. Al terminar cada set, revisa si tus errores se concentran en un tipo y haz enseguida un set enfocado en ese tipo."
+        }
+      }
+    ]
+  },
+  {
+    "id": "pc-inference",
+    "subtest": "PC",
+    "topic": "inference",
+    "title": {
+      "en": "Inference Without Outside Knowledge; NOT/EXCEPT Stems",
+      "es": "Inferencia sin conocimiento externo; preguntas con NOT/EXCEPT"
+    },
+    "minutes": 7,
+    "sections": [
+      {
+        "type": "explain",
+        "title": {
+          "en": "What an inference is (and is not)",
+          "es": "Qué es una inferencia (y qué no)"
+        },
+        "body": {
+          "en": "An inference question asks what \"can be concluded\" or what the author \"would most likely agree\" with. Students hear \"conclude\" and start thinking. Stop. On the ASVAB, an inference is <b>the smallest step</b> beyond what is written, and it must be supported by words on the page.<br><br>The rule: <u>the passage is the whole universe</u>. What you know about the topic from life, work or school does not exist. If the passage says \"the unit trained in the desert for six months,\" you may infer they were prepared for heat. You may not infer they went to Iraq, even if you happen to know they did.<br><br><b>NOT / EXCEPT stems</b> flip the task: \"All of the following are mentioned EXCEPT...\" Three choices are in the passage, one is not. Circle the capital word, then check each choice off against the text like a shopping list. The unchecked one is your answer.",
+          "es": "Una pregunta de inferencia pide qué \"can be concluded\" o con qué \"the author would most likely agree\". El estudiante oye \"concluir\" y se pone a pensar. Detente. En el ASVAB, una inferencia es <b>el paso más pequeño</b> más allá de lo escrito, y debe apoyarse en palabras de la página.<br><br>La regla: <u>el pasaje es todo el universo</u>. Lo que sabes del tema por tu vida, tu trabajo o la escuela no existe. Si el pasaje dice \"the unit trained in the desert for six months\", puedes inferir que estaban preparados para el calor. No puedes inferir que fueron a Irak, aunque sepas que así fue.<br><br>Las preguntas con <b>NOT / EXCEPT</b> invierten la tarea: \"All of the following are mentioned EXCEPT...\" Tres opciones están en el pasaje, una no. Encierra la palabra en mayúsculas y luego palomea cada opción contra el texto como una lista del súper. La que quede sin palomear es tu respuesta."
+        }
+      },
+      {
+        "type": "example",
+        "title": {
+          "en": "Worked example: one inference, one EXCEPT",
+          "es": "Ejemplo resuelto: una inferencia y un EXCEPT"
+        },
+        "body": {
+          "en": "<b>Passage:</b> \"The lighthouse keeper's log for March lists 14 nights of fog, three broken lamp lenses and one supply boat that never arrived. His April entries are shorter, and the last one reads only, 'Lens fixed. Boat tomorrow.'\"<br><br><b>Q1: It can be inferred that the keeper...</b><br>A. was fired in April &nbsp; B. had supplies delayed at least once &nbsp; C. enjoyed the fog &nbsp; D. lived on the mainland<br><br>Only B has support: \"one supply boat that never arrived.\" A, C and D are invented. Answer: <b>B</b>.<br><br><b>Q2: All of the following are mentioned in the log EXCEPT</b><br>A. fog &nbsp; B. broken lenses &nbsp; C. a storm &nbsp; D. a boat<br><br>Check them off: fog, yes (14 nights). Lenses, yes (three broken). Boat, yes (twice). Storm: never stated; fog is not a storm. Answer: <b>C</b>. Each item took about 60 seconds.",
+          "es": "<b>Pasaje:</b> \"The lighthouse keeper's log for March lists 14 nights of fog, three broken lamp lenses and one supply boat that never arrived. His April entries are shorter, and the last one reads only, 'Lens fixed. Boat tomorrow.'\"<br><br><b>P1: It can be inferred that the keeper...</b><br>A. was fired in April &nbsp; B. had supplies delayed at least once &nbsp; C. enjoyed the fog &nbsp; D. lived on the mainland<br><br>Solo B tiene apoyo: \"one supply boat that never arrived\". A, C y D son inventadas. Respuesta: <b>B</b>.<br><br><b>P2: All of the following are mentioned in the log EXCEPT</b><br>A. fog &nbsp; B. broken lenses &nbsp; C. a storm &nbsp; D. a boat<br><br>Palomea: niebla, sí (14 noches). Lentes, sí (tres rotos). Bote, sí (dos veces). Tormenta: nunca se menciona; niebla no es tormenta. Respuesta: <b>C</b>. Cada reactivo tomó unos 60 segundos."
+        }
+      },
+      {
+        "type": "trap",
+        "title": {
+          "en": "Two traps: the reasonable guess and the missed NOT",
+          "es": "Dos trampas: la suposición razonable y el NOT que no viste"
+        },
+        "body": {
+          "en": "<b>Trap 1, the reasonable guess.</b> In the lighthouse item, students pick A (\"was fired\") because shorter entries and a bare final line <i>feel</i> like someone leaving. That is a story you wrote, not the author. A correct inference has a sentence you can point to. If you cannot put your finger on the supporting words, the choice is wrong no matter how sensible it sounds.<br><br><b>Trap 2, reading past the NOT.</b> On \"All of the following are mentioned EXCEPT,\" a rushed student sees \"fog\" in the passage, sees \"fog\" in choice A, and clicks it, choosing something that <i>is</i> mentioned. The word EXCEPT reversed the task and they missed it.<br><br>The fix for both: underline the stem's key word (<i>inferred</i>, <i>EXCEPT</i>, <i>NOT</i>) before reading, and for every choice write a tiny Y or N next to it. Guessing stops when you make yourself point to text.",
+          "es": "<b>Trampa 1, la suposición razonable.</b> En el reactivo del faro, el estudiante elige A (\"was fired\") porque las entradas cortas y esa última línea seca <i>se sienten</i> como alguien que se va. Esa historia la escribiste tú, no el autor. Una inferencia correcta tiene una oración que puedes señalar. Si no puedes poner el dedo sobre las palabras que la sostienen, la opción está mal por muy sensata que suene.<br><br><b>Trampa 2, pasar de largo el NOT.</b> En \"All of the following are mentioned EXCEPT\", el estudiante apurado ve \"fog\" en el pasaje, ve \"fog\" en la opción A y la marca, eligiendo algo que <i>sí</i> se menciona. La palabra EXCEPT invirtió la tarea y no la vio.<br><br>La solución para ambas: subraya la palabra clave (<i>inferred</i>, <i>EXCEPT</i>, <i>NOT</i>) antes de leer, y junto a cada opción escribe S o N. Las adivinanzas se acaban cuando te obligas a señalar el texto."
+        }
+      },
+      {
+        "type": "drill",
+        "title": {
+          "en": "Drill",
+          "es": "Práctica"
+        },
+        "body": {
+          "en": "Do inference sets of eight in the app. For every choice you pick, say out loud the exact phrase in the passage that proves it; if you cannot, change your answer before submitting. Then do a set of negative (NOT/EXCEPT) items and check off choices against the text one by one.<br><br>Budget: <b>162 seconds per item</b>. Inference items may legitimately use 120 seconds; NOT/EXCEPT items should finish in 90 because the check-off method is mechanical.",
+          "es": "Haz sets de ocho reactivos de inferencia en la app. Por cada opción que elijas, di en voz alta la frase exacta del pasaje que la prueba; si no puedes, cambia tu respuesta antes de enviar. Luego haz un set de reactivos negativos (NOT/EXCEPT) y palomea cada opción contra el texto una por una.<br><br>Presupuesto: <b>162 segundos por reactivo</b>. Los de inferencia pueden tomar legítimamente 120 segundos; los de NOT/EXCEPT deberían terminar en 90 porque el método de palomear es mecánico."
+        }
+      }
+    ]
+  },
+  {
+    "id": "ar-percent",
+    "subtest": "AR",
+    "topic": "percent",
+    "title": {
+      "en": "Percent: Part = % × Whole",
+      "es": "Porcentaje: parte = % × total"
+    },
+    "minutes": 7,
+    "sections": [
+      {
+        "type": "explain",
+        "title": {
+          "en": "One sentence covers every percent problem",
+          "es": "Una sola frase resuelve todo problema de porcentaje"
+        },
+        "body": {
+          "en": "Every percent problem on the ASVAB is the same sentence with one blank: <b>part = percent × whole</b>. Turn the percent into a decimal (25% → 0.25), decide which of the three you are missing, and solve.<br><br><ul><li><b>Find the part:</b> \"What is 15% of 80?\" → 0.15 × 80 = 12.</li><li><b>Find the whole:</b> \"12 is 15% of what?\" → 12 ÷ 0.15 = 80.</li><li><b>Find the percent:</b> \"12 is what % of 80?\" → 12 ÷ 80 = 0.15 = 15%.</li></ul>Word problems dress this up as <b>discount</b> (subtract the part), <b>tax or tip</b> (add the part), or <b>percent change</b> (change ÷ original). The fastest shortcut: to find the price <i>after</i> a 20% discount, multiply by 0.80 in one step; after 8% tax, multiply by 1.08. One multiplication instead of two.",
+          "es": "Todo problema de porcentaje en el ASVAB es la misma frase con un espacio en blanco: <b>parte = porcentaje × total</b>. Convierte el porcentaje a decimal (25% → 0.25), decide cuál de los tres te falta y despeja.<br><br><ul><li><b>Hallar la parte:</b> \"What is 15% of 80?\" → 0.15 × 80 = 12.</li><li><b>Hallar el total:</b> \"12 is 15% of what?\" → 12 ÷ 0.15 = 80.</li><li><b>Hallar el porcentaje:</b> \"12 is what % of 80?\" → 12 ÷ 80 = 0.15 = 15%.</li></ul>Los problemas verbales lo disfrazan de <b>descuento</b> (resta la parte), <b>impuesto o propina</b> (suma la parte) o <b>cambio porcentual</b> (cambio ÷ original). El atajo más rápido: para el precio <i>después</i> de un descuento del 20%, multiplica por 0.80 en un solo paso; después de 8% de impuesto, multiplica por 1.08. Una multiplicación en lugar de dos."
+        }
+      },
+      {
+        "type": "example",
+        "title": {
+          "en": "Worked example: discount, then tax",
+          "es": "Ejemplo resuelto: descuento y luego impuesto"
+        },
+        "body": {
+          "en": "<b>A jacket lists for $60. It is marked 25% off, and sales tax is 8%. What is the final price?</b><br><br><b>Step 1, discount.</b> Keep 100% − 25% = 75% of the price.<br>60 × 0.75 = 45. (Check: 25% of 60 is 15; 60 − 15 = 45.)<br><br><b>Step 2, tax on the discounted price.</b> Pay 100% + 8% = 108%.<br>45 × 1.08 = 45 + (45 × 0.08) = 45 + 3.60 = <b>$48.60</b>.<br><br>Now a percent-change item: <b>A recruit's run time drops from 16 minutes to 14 minutes. What is the percent decrease?</b><br>Change = 16 − 14 = 2. Divide by the <i>original</i>: 2 ÷ 16 = 0.125 = <b>12.5%</b>.<br><br>Notice the original is the starting number (16), not the ending one. Dividing by 14 would give 14.3%, a value that will appear among the wrong choices.",
+          "es": "<b>Una chamarra cuesta $60. Tiene 25% de descuento y el impuesto es de 8%. ¿Cuál es el precio final?</b><br><br><b>Paso 1, descuento.</b> Pagas 100% − 25% = 75% del precio.<br>60 × 0.75 = 45. (Comprobación: 25% de 60 es 15; 60 − 15 = 45.)<br><br><b>Paso 2, impuesto sobre el precio ya rebajado.</b> Pagas 100% + 8% = 108%.<br>45 × 1.08 = 45 + (45 × 0.08) = 45 + 3.60 = <b>$48.60</b>.<br><br>Ahora un cambio porcentual: <b>El tiempo de carrera de un recluta baja de 16 a 14 minutos. ¿Cuál es el porcentaje de disminución?</b><br>Cambio = 16 − 14 = 2. Divide entre el <i>original</i>: 2 ÷ 16 = 0.125 = <b>12.5%</b>.<br><br>Ojo: el original es el número inicial (16), no el final. Dividir entre 14 daría 14.3%, un valor que aparecerá entre las opciones incorrectas."
+        }
+      },
+      {
+        "type": "trap",
+        "title": {
+          "en": "The trap: adding percents together",
+          "es": "La trampa: sumar porcentajes"
+        },
+        "body": {
+          "en": "The wrong answer students produce most on the jacket problem is <b>$49.80</b>. They reason: \"25% off and 8% tax is a net 17% off, so 60 × 0.83.\" Percents cannot be added when they act on different bases. The discount is 25% of $60, but the tax is 8% of $45. Combining them as 0.75 × 1.08 = 0.81 gives the true net (81%, not 83%).<br><br>A second trap on percent change: dividing by the <i>new</i> value instead of the original. \"From 16 to 14\" is a 12.5% drop, but \"from 14 to 16\" is a 14.3% rise. The percent depends on where you started.<br><br>A third: forgetting the question asks for the <i>discount amount</i> ($15) rather than the <i>sale price</i> ($45). Both numbers will be in the choices. Reread the last line of the problem before you click.",
+          "es": "La respuesta incorrecta que más produce el estudiante en el problema de la chamarra es <b>$49.80</b>. Razona: \"25% de descuento y 8% de impuesto es un 17% neto de descuento, así que 60 × 0.83\". Los porcentajes no se pueden sumar cuando actúan sobre bases distintas. El descuento es 25% de $60, pero el impuesto es 8% de $45. Combinarlos como 0.75 × 1.08 = 0.81 da el neto verdadero (81%, no 83%).<br><br>Segunda trampa en cambio porcentual: dividir entre el valor <i>nuevo</i> en lugar del original. \"De 16 a 14\" es una baja de 12.5%, pero \"de 14 a 16\" es una subida de 14.3%. El porcentaje depende de dónde empezaste.<br><br>Tercera: olvidar que la pregunta pide el <i>monto del descuento</i> ($15) y no el <i>precio de oferta</i> ($45). Ambos números estarán entre las opciones. Relee la última línea del problema antes de marcar."
+        }
+      },
+      {
+        "type": "formulas",
+        "title": {
+          "en": "Formula card",
+          "es": "Tarjeta de fórmulas"
+        },
+        "body": {
+          "en": "<ul><li><b>part = % × whole</b> (write % as a decimal)</li><li><b>% = part ÷ whole</b>, then × 100</li><li><b>whole = part ÷ %</b></li><li><b>Sale price</b> = original × (1 − discount) &nbsp; e.g. 20% off → × 0.80</li><li><b>Price with tax</b> = price × (1 + tax) &nbsp; e.g. 8% tax → × 1.08</li><li><b>% change</b> = (new − original) ÷ original</li><li><b>Successive changes</b> multiply: 25% off then 8% tax → × 0.75 × 1.08</li><li>Mental anchors: 10% = move the decimal one place; 5% = half of that; 1% = two places; 50% = half; 25% = quarter; 33⅓% = third.</li></ul>",
+          "es": "<ul><li><b>parte = % × total</b> (escribe el % como decimal)</li><li><b>% = parte ÷ total</b>, luego × 100</li><li><b>total = parte ÷ %</b></li><li><b>Precio de oferta</b> = original × (1 − descuento) &nbsp; ej. 20% off → × 0.80</li><li><b>Precio con impuesto</b> = precio × (1 + impuesto) &nbsp; ej. 8% → × 1.08</li><li><b>% de cambio</b> = (nuevo − original) ÷ original</li><li><b>Cambios sucesivos</b> se multiplican: 25% de descuento y luego 8% de impuesto → × 0.75 × 1.08</li><li>Anclas mentales: 10% = mueve el punto un lugar; 5% = la mitad de eso; 1% = dos lugares; 50% = mitad; 25% = cuarto; 33⅓% = tercio.</li></ul>"
+        }
+      },
+      {
+        "type": "drill",
+        "title": {
+          "en": "Drill",
+          "es": "Práctica"
+        },
+        "body": {
+          "en": "Do fifteen percent problems in the app, and before computing, write which of the three (part, %, whole) is missing. Do the arithmetic on paper the first round, then the second round with the one-step multipliers (× 0.80, × 1.08) only.<br><br>Pace: the official budget is <b>220 seconds per item</b>, but percent items should be done in 60 to 75 seconds so you can spend the surplus on rate and work problems later in the section.",
+          "es": "Resuelve quince problemas de porcentaje en la app y, antes de calcular, escribe cuál de los tres (parte, %, total) falta. Haz la aritmética en papel la primera ronda; la segunda ronda, solo con los multiplicadores de un paso (× 0.80, × 1.08).<br><br>Ritmo: el presupuesto oficial es <b>220 segundos por reactivo</b>, pero los de porcentaje deberían salir en 60 a 75 segundos para que el tiempo sobrante lo gastes en problemas de tasas y trabajo más adelante en la sección."
+        }
+      }
+    ]
+  },
+  {
+    "id": "ar-rate",
+    "subtest": "AR",
+    "topic": "rate",
+    "title": {
+      "en": "Ratio, Proportion and Rates (d = r·t)",
+      "es": "Razón, proporción y tasas (d = r·t)"
+    },
+    "minutes": 7,
+    "sections": [
+      {
+        "type": "explain",
+        "title": {
+          "en": "Three cousins of the same idea",
+          "es": "Tres primos de la misma idea"
+        },
+        "body": {
+          "en": "A <b>ratio</b> compares two amounts: 3 boots to 2 belts, written 3:2 or 3/2. A <b>proportion</b> says two ratios are equal: 3/2 = 9/x. A <b>rate</b> is a ratio with units, like 60 miles per hour, and the most tested rate formula is <b>distance = rate × time</b>.<br><br>Proportions are solved by <b>cross-multiplying</b>: from 3/2 = 9/x you get 3x = 18, so x = 6. The only discipline needed is keeping the same kind of thing on top in both fractions (boots over belts on both sides).<br><br>For d = r·t, cover the letter you want with your thumb and read the other two: need time? t = d ÷ r. Need rate? r = d ÷ t. Every \"two cars leave at the same time\" problem is just this formula written twice, once per car, joined by what the two cars share (usually time or distance).",
+          "es": "Una <b>razón</b> (ratio) compara dos cantidades: 3 botas por 2 cinturones, escrito 3:2 o 3/2. Una <b>proporción</b> dice que dos razones son iguales: 3/2 = 9/x. Una <b>tasa</b> (rate) es una razón con unidades, como 60 millas por hora, y la fórmula de tasa más evaluada es <b>distancia = velocidad × tiempo</b>.<br><br>Las proporciones se resuelven <b>multiplicando en cruz</b>: de 3/2 = 9/x obtienes 3x = 18, así que x = 6. La única disciplina necesaria es poner el mismo tipo de cosa arriba en ambas fracciones (botas sobre cinturones de los dos lados).<br><br>Para d = r·t, tapa con el pulgar la letra que buscas y lee las otras dos: ¿necesitas tiempo? t = d ÷ r. ¿Velocidad? r = d ÷ t. Todo problema de \"dos autos salen al mismo tiempo\" es esta fórmula escrita dos veces, una por auto, unidas por lo que ambos comparten (normalmente el tiempo o la distancia)."
+        }
+      },
+      {
+        "type": "example",
+        "title": {
+          "en": "Worked example: a proportion and a d = r·t",
+          "es": "Ejemplo resuelto: una proporción y un d = r·t"
+        },
+        "body": {
+          "en": "<b>A map uses 2 inches for every 15 miles. Two towns are 7 inches apart on the map. How far apart are they?</b><br><br>Set inches over miles on both sides: 2/15 = 7/x.<br>Cross-multiply: 2x = 105.<br>x = 52.5 miles.<br><br><b>A convoy leaves base at 8:00 a.m. at 45 mph. A jeep leaves the same base at 9:00 a.m. at 60 mph on the same road. When does the jeep catch the convoy?</b><br><br>Let t = hours the jeep drives. The convoy has driven t + 1 hours. They meet when distances are equal:<br>60t = 45(t + 1)<br>60t = 45t + 45<br>15t = 45<br>t = 3 hours.<br>Jeep left at 9:00, so it catches up at <b>12:00 noon</b>. Check: jeep 60 × 3 = 180 miles; convoy 45 × 4 = 180 miles. Same distance, confirmed.",
+          "es": "<b>Un mapa usa 2 pulgadas por cada 15 millas. Dos pueblos están a 7 pulgadas en el mapa. ¿A qué distancia real están?</b><br><br>Pon pulgadas sobre millas de ambos lados: 2/15 = 7/x.<br>Multiplica en cruz: 2x = 105.<br>x = 52.5 millas.<br><br><b>Un convoy sale de la base a las 8:00 a.m. a 45 mph. Un jeep sale de la misma base a las 9:00 a.m. a 60 mph por la misma carretera. ¿A qué hora alcanza el jeep al convoy?</b><br><br>Sea t = horas que maneja el jeep. El convoy lleva t + 1 horas. Se encuentran cuando las distancias son iguales:<br>60t = 45(t + 1)<br>60t = 45t + 45<br>15t = 45<br>t = 3 horas.<br>El jeep salió a las 9:00, así que lo alcanza a las <b>12:00 del mediodía</b>. Comprobación: jeep 60 × 3 = 180 millas; convoy 45 × 4 = 180 millas. Misma distancia, confirmado."
+        }
+      },
+      {
+        "type": "trap",
+        "title": {
+          "en": "The trap: averaging the speeds",
+          "es": "La trampa: promediar las velocidades"
+        },
+        "body": {
+          "en": "The classic wrong answer on round-trip problems: \"A truck goes 60 miles at 30 mph and returns at 60 mph. What is its average speed?\" Almost everyone answers <b>45 mph</b>, the average of 30 and 60. It is wrong.<br><br>Average speed is <i>total distance ÷ total time</i>. Going: 60 ÷ 30 = 2 hours. Returning: 60 ÷ 60 = 1 hour. Total 120 miles in 3 hours = <b>40 mph</b>. The slow leg takes longer, so it drags the average down. You cannot average rates unless the times are equal.<br><br>Second trap: flipped proportions. Writing 2/15 = x/7 (inches over miles on the left, miles over inches on the right) gives x = 0.93, a nonsense answer that will still be listed. Label the top and bottom of both fractions in words before cross-multiplying.<br><br>Third: mixing units. Minutes on one side, hours on the other. Convert first, always.",
+          "es": "La respuesta incorrecta clásica en problemas de ida y vuelta: \"Un camión recorre 60 millas a 30 mph y regresa a 60 mph. ¿Cuál es su velocidad promedio?\". Casi todos contestan <b>45 mph</b>, el promedio de 30 y 60. Está mal.<br><br>La velocidad promedio es <i>distancia total ÷ tiempo total</i>. Ida: 60 ÷ 30 = 2 horas. Vuelta: 60 ÷ 60 = 1 hora. Total 120 millas en 3 horas = <b>40 mph</b>. El tramo lento dura más y jala el promedio hacia abajo. No puedes promediar velocidades a menos que los tiempos sean iguales.<br><br>Segunda trampa: proporciones volteadas. Escribir 2/15 = x/7 (pulgadas sobre millas a la izquierda, millas sobre pulgadas a la derecha) da x = 0.93, un disparate que igual aparecerá en las opciones. Etiqueta con palabras arriba y abajo de ambas fracciones antes de multiplicar en cruz.<br><br>Tercera: mezclar unidades. Minutos de un lado, horas del otro. Convierte primero, siempre."
+        }
+      },
+      {
+        "type": "formulas",
+        "title": {
+          "en": "Formula card",
+          "es": "Tarjeta de fórmulas"
+        },
+        "body": {
+          "en": "<ul><li><b>Proportion:</b> a/b = c/d → a·d = b·c (cross-multiply)</li><li><b>d = r × t</b> &nbsp; r = d ÷ t &nbsp; t = d ÷ r</li><li><b>Average speed</b> = total distance ÷ total time (never the average of the rates)</li><li><b>Catch-up:</b> faster rate × t = slower rate × (t + head start)</li><li><b>Toward each other:</b> closing speed = r₁ + r₂; time to meet = gap ÷ (r₁ + r₂)</li><li><b>Same direction:</b> gap grows at r₁ − r₂</li><li><b>Unit price / unit rate:</b> total ÷ number of units</li><li>Quick conversions: 1 hour = 60 min; 1 mile = 5,280 ft; 1 km ≈ 0.62 mi</li></ul>",
+          "es": "<ul><li><b>Proporción:</b> a/b = c/d → a·d = b·c (multiplica en cruz)</li><li><b>d = r × t</b> &nbsp; r = d ÷ t &nbsp; t = d ÷ r</li><li><b>Velocidad promedio</b> = distancia total ÷ tiempo total (nunca el promedio de las velocidades)</li><li><b>Alcance:</b> velocidad mayor × t = velocidad menor × (t + ventaja)</li><li><b>Uno hacia el otro:</b> velocidad de acercamiento = r₁ + r₂; tiempo de encuentro = separación ÷ (r₁ + r₂)</li><li><b>Misma dirección:</b> la separación crece a r₁ − r₂</li><li><b>Precio o tasa unitaria:</b> total ÷ número de unidades</li><li>Conversiones rápidas: 1 hora = 60 min; 1 milla = 5,280 pies; 1 km ≈ 0.62 mi</li></ul>"
+        }
+      },
+      {
+        "type": "drill",
+        "title": {
+          "en": "Drill",
+          "es": "Práctica"
+        },
+        "body": {
+          "en": "Run twelve rate and proportion items in the app. For proportions, write the word labels (\"in/mi\") on both fractions before cross-multiplying. For motion problems, draw a one-line sketch with the two movers and write d = r·t for each before touching numbers.<br><br>Pace: <b>220 seconds per item</b> is the budget; proportions should take 60 seconds and two-mover problems up to 150. If a problem passes 200 seconds, guess from the sketch and flag it for review.",
+          "es": "Resuelve doce reactivos de tasas y proporciones en la app. En las proporciones, escribe las etiquetas (\"pulg/mi\") en ambas fracciones antes de multiplicar en cruz. En los de movimiento, haz un bosquejo de una línea con los dos móviles y escribe d = r·t para cada uno antes de tocar los números.<br><br>Ritmo: <b>220 segundos por reactivo</b> es el presupuesto; las proporciones deberían tomar 60 segundos y los problemas de dos móviles hasta 150. Si un problema pasa de 200 segundos, adivina a partir del bosquejo y márcalo para revisarlo."
+        }
+      }
+    ]
+  },
+  {
+    "id": "ar-want-have-connect",
+    "subtest": "AR",
+    "topic": "average",
+    "title": {
+      "en": "WANT · HAVE · CONNECT and Backsolving",
+      "es": "WANT · HAVE · CONNECT y resolver desde las opciones"
+    },
+    "minutes": 8,
+    "sections": [
+      {
+        "type": "explain",
+        "title": {
+          "en": "A method for every word problem",
+          "es": "Un método para todo problema verbal"
+        },
+        "body": {
+          "en": "Arithmetic Reasoning is not hard math; it is reading under pressure. Students lose points because they start computing before they know what they are computing. Use three words on every problem:<br><br><ul><li><b>WANT</b>: write the exact thing the question asks for, with its unit. \"Average speed in mph.\" \"Number of cans.\"</li><li><b>HAVE</b>: list the numbers given, each with a label. Do not list the ones the problem mentions but does not need.</li><li><b>CONNECT</b>: name the formula or relationship that turns HAVE into WANT. Average = sum ÷ count. Total = rate × time. Part = % × whole.</li></ul>Only after CONNECT do you calculate. This costs fifteen seconds and saves the ninety seconds you would spend on the wrong calculation.<br><br>When CONNECT is unclear, <b>backsolve</b>: the answer is one of four choices, so try the middle one, see whether it makes the story true, and move up or down.",
+          "es": "Arithmetic Reasoning no es matemática difícil; es lectura bajo presión. Los estudiantes pierden puntos porque empiezan a calcular antes de saber qué están calculando. Usa tres palabras en cada problema:<br><br><ul><li><b>WANT</b> (quiero): escribe exactamente lo que pide la pregunta, con su unidad. \"Velocidad promedio en mph.\" \"Número de latas.\"</li><li><b>HAVE</b> (tengo): lista los números dados, cada uno con etiqueta. No incluyas los que el problema menciona pero no necesita.</li><li><b>CONNECT</b> (conecto): nombra la fórmula o relación que convierte HAVE en WANT. Promedio = suma ÷ cantidad. Total = tasa × tiempo. Parte = % × total.</li></ul>Solo después de CONNECT calculas. Esto cuesta quince segundos y ahorra los noventa que gastarías en el cálculo equivocado.<br><br>Cuando CONNECT no está claro, <b>resuelve desde las opciones</b> (backsolve): la respuesta es una de cuatro, así que prueba la de en medio, verifica si hace verdadera la historia y sube o baja."
+        }
+      },
+      {
+        "type": "example",
+        "title": {
+          "en": "Worked example: a missing-score average, two ways",
+          "es": "Ejemplo resuelto: el promedio con una nota faltante, de dos formas"
+        },
+        "body": {
+          "en": "<b>A soldier scored 82, 76 and 91 on three tests. What must she score on the fourth to average exactly 85?</b><br>A. 85 &nbsp; B. 88 &nbsp; C. 91 &nbsp; D. 94<br><br><b>WANT:</b> the fourth score. <b>HAVE:</b> 82, 76, 91; target average 85; four tests. <b>CONNECT:</b> average = sum ÷ count, so sum = average × count.<br><br>Needed total: 85 × 4 = 340.<br>Current total: 82 + 76 + 91 = 249.<br>Fourth score: 340 − 249 = <b>91</b>. Answer C.<br><br><b>Backsolving the same item.</b> Try B, 88: 249 + 88 = 337; 337 ÷ 4 = 84.25. Too low, so go higher. Try C, 91: 249 + 91 = 340; 340 ÷ 4 = 85. Exactly right. Two tries, done.<br><br>Backsolving is slower on this one, but on problems where you cannot see the equation, it is the difference between a guess and a point.",
+          "es": "<b>Una soldado obtuvo 82, 76 y 91 en tres exámenes. ¿Cuánto debe sacar en el cuarto para promediar exactamente 85?</b><br>A. 85 &nbsp; B. 88 &nbsp; C. 91 &nbsp; D. 94<br><br><b>WANT:</b> la cuarta nota. <b>HAVE:</b> 82, 76, 91; promedio meta 85; cuatro exámenes. <b>CONNECT:</b> promedio = suma ÷ cantidad, así que suma = promedio × cantidad.<br><br>Total necesario: 85 × 4 = 340.<br>Total actual: 82 + 76 + 91 = 249.<br>Cuarta nota: 340 − 249 = <b>91</b>. Respuesta C.<br><br><b>El mismo reactivo desde las opciones.</b> Prueba B, 88: 249 + 88 = 337; 337 ÷ 4 = 84.25. Muy bajo, así que sube. Prueba C, 91: 249 + 91 = 340; 340 ÷ 4 = 85. Exacto. Dos intentos y listo.<br><br>Aquí backsolving es más lento, pero en problemas donde no ves la ecuación, es la diferencia entre adivinar y ganar el punto."
+        }
+      },
+      {
+        "type": "trap",
+        "title": {
+          "en": "The trap: answering a question nobody asked",
+          "es": "La trampa: responder una pregunta que nadie hizo"
+        },
+        "body": {
+          "en": "On the average problem, the most-chosen wrong answer is <b>A, 85</b>. The student reasons, \"to average 85 she needs an 85,\" which ignores that she is currently below 85 (249 ÷ 3 = 83). The test deliberately lists the target average as a choice.<br><br>The second trap is finishing one step early. A problem asks \"how much <i>more</i> does she need,\" the student computes the total (340) and picks it because 340 is sitting in the choices. WANT would have caught this: the unit of the answer was \"points on one test,\" not \"total points.\"<br><br>Third: using a number the problem mentioned but does not need. \"Three tests over two weeks\" – the \"two weeks\" is decoration. If a HAVE item has no place in CONNECT, cross it out.<br><br>Every one of these is a reading error, not a math error, and the WANT line prevents all three.",
+          "es": "En el problema del promedio, la respuesta incorrecta más elegida es <b>A, 85</b>. El estudiante razona \"para promediar 85 necesita un 85\", ignorando que ahora está por debajo de 85 (249 ÷ 3 = 83). El examen pone a propósito el promedio meta como opción.<br><br>La segunda trampa es terminar un paso antes. El problema pide \"cuánto <i>más</i> necesita\", el estudiante calcula el total (340) y lo elige porque 340 está entre las opciones. La línea WANT lo habría atrapado: la unidad de la respuesta era \"puntos en un examen\", no \"puntos totales\".<br><br>Tercera: usar un número que el problema menciona pero no necesita. \"Tres exámenes en dos semanas\": las \"dos semanas\" son decoración. Si un dato de HAVE no tiene lugar en CONNECT, táchalo.<br><br>Cada uno de estos es un error de lectura, no de matemáticas, y la línea WANT evita los tres."
+        }
+      },
+      {
+        "type": "formulas",
+        "title": {
+          "en": "Formula card",
+          "es": "Tarjeta de fórmulas"
+        },
+        "body": {
+          "en": "<ul><li><b>Average</b> = sum ÷ count &nbsp; → &nbsp; <b>sum</b> = average × count</li><li><b>Missing value</b> = (target average × new count) − current sum</li><li><b>Weighted average</b> = (n₁·a₁ + n₂·a₂) ÷ (n₁ + n₂)</li><li><b>Total</b> = rate × time; <b>part</b> = % × whole; <b>cost</b> = unit price × quantity</li><li><b>Remainder problems:</b> total = divisor × quotient + remainder</li><li><b>Backsolving order:</b> try B or C first; if too small go up, if too large go down. Choices are usually listed in order.</li><li><b>Sanity check:</b> is the answer the right unit, the right size, and the thing WANT names?</li></ul>",
+          "es": "<ul><li><b>Promedio</b> = suma ÷ cantidad &nbsp; → &nbsp; <b>suma</b> = promedio × cantidad</li><li><b>Valor faltante</b> = (promedio meta × nueva cantidad) − suma actual</li><li><b>Promedio ponderado</b> = (n₁·a₁ + n₂·a₂) ÷ (n₁ + n₂)</li><li><b>Total</b> = tasa × tiempo; <b>parte</b> = % × total; <b>costo</b> = precio unitario × cantidad</li><li><b>Problemas de residuo:</b> total = divisor × cociente + residuo</li><li><b>Orden para backsolving:</b> prueba B o C primero; si queda chico sube, si queda grande baja. Las opciones suelen venir ordenadas.</li><li><b>Chequeo de cordura:</b> ¿la respuesta tiene la unidad correcta, el tamaño razonable y es lo que WANT nombra?</li></ul>"
+        }
+      },
+      {
+        "type": "drill",
+        "title": {
+          "en": "Drill",
+          "es": "Práctica"
+        },
+        "body": {
+          "en": "Take a mixed AR set of fifteen in the app. On scratch paper, write WANT, HAVE and CONNECT for every single item before calculating, even the easy ones, until it becomes automatic. On five of them, force yourself to backsolve from the choices instead of solving algebraically.<br><br>Pace: <b>220 seconds per item</b>. Your target is 120 seconds average, with WANT/HAVE/CONNECT taking no more than 20 of those.",
+          "es": "Haz un set mixto de quince reactivos de AR en la app. En papel, escribe WANT, HAVE y CONNECT en cada reactivo antes de calcular, incluso en los fáciles, hasta que sea automático. En cinco de ellos, oblígate a resolver desde las opciones en lugar de con álgebra.<br><br>Ritmo: <b>220 segundos por reactivo</b>. Tu meta es un promedio de 120 segundos, con WANT/HAVE/CONNECT ocupando no más de 20."
+        }
+      }
+    ]
+  },
+  {
+    "id": "mk-linear-equations",
+    "subtest": "MK",
+    "topic": "linear-equation",
+    "title": {
+      "en": "Linear Equations and Inequalities (the Flip Rule)",
+      "es": "Ecuaciones e inecuaciones lineales (la regla del volteo)"
+    },
+    "minutes": 7,
+    "sections": [
+      {
+        "type": "explain",
+        "title": {
+          "en": "Undo operations in reverse order",
+          "es": "Deshaz las operaciones en orden inverso"
+        },
+        "body": {
+          "en": "A linear equation is a balance scale. Whatever you do to one side, do to the other, and your goal is to get <i>x</i> alone. Work in the <b>reverse order of operations</b>: undo addition and subtraction first, then multiplication and division.<br><br><code>3x + 7 = 22</code> → subtract 7 from both sides: <code>3x = 15</code> → divide by 3: <code>x = 5</code>.<br><br>If <i>x</i> appears on both sides, gather the x-terms on one side and the numbers on the other before you divide.<br><br><b>Inequalities</b> use the exact same moves with one extra rule, the <b>flip rule</b>: when you multiply or divide both sides by a <u>negative</u> number, reverse the inequality sign. <code>−2x &gt; 8</code> → divide by −2 → <code>x &lt; −4</code>. Adding or subtracting never flips it. Multiplying by a positive never flips it. Only a negative multiplier or divisor does.",
+          "es": "Una ecuación lineal es una balanza. Lo que hagas de un lado, hazlo del otro, y tu meta es dejar la <i>x</i> sola. Trabaja en el <b>orden inverso de las operaciones</b>: primero deshaz sumas y restas, luego multiplicaciones y divisiones.<br><br><code>3x + 7 = 22</code> → resta 7 de ambos lados: <code>3x = 15</code> → divide entre 3: <code>x = 5</code>.<br><br>Si la <i>x</i> aparece en ambos lados, junta los términos con x en un lado y los números en el otro antes de dividir.<br><br>Las <b>inecuaciones</b> usan exactamente los mismos pasos con una regla extra, la <b>regla del volteo</b>: cuando multiplicas o divides ambos lados entre un número <u>negativo</u>, invierte el signo de desigualdad. <code>−2x &gt; 8</code> → divide entre −2 → <code>x &lt; −4</code>. Sumar o restar nunca lo voltea. Multiplicar por un positivo nunca lo voltea. Solo un multiplicador o divisor negativo lo hace."
+        }
+      },
+      {
+        "type": "example",
+        "title": {
+          "en": "Worked example: both sides, then an inequality",
+          "es": "Ejemplo resuelto: x en ambos lados y luego una inecuación"
+        },
+        "body": {
+          "en": "<b>Solve: 5x − 4 = 2x + 11</b><br>Subtract 2x from both sides: <code>3x − 4 = 11</code><br>Add 4 to both sides: <code>3x = 15</code><br>Divide by 3: <code>x = 5</code><br>Check: 5(5) − 4 = 21 and 2(5) + 11 = 21. Balanced.<br><br><b>Solve: 9 − 3x ≥ 21</b><br>Subtract 9: <code>−3x ≥ 12</code><br>Divide by −3 and <b>flip</b>: <code>x ≤ −4</code><br>Check with x = −5 (should work): 9 − 3(−5) = 9 + 15 = 24 ≥ 21, true. Check with x = 0 (should fail): 9 − 0 = 9 ≥ 21, false. The flip was correct.<br><br>Testing one number on each side of the boundary takes ten seconds and catches every sign error you will ever make on this topic.",
+          "es": "<b>Resuelve: 5x − 4 = 2x + 11</b><br>Resta 2x de ambos lados: <code>3x − 4 = 11</code><br>Suma 4 a ambos lados: <code>3x = 15</code><br>Divide entre 3: <code>x = 5</code><br>Comprobación: 5(5) − 4 = 21 y 2(5) + 11 = 21. Balanceado.<br><br><b>Resuelve: 9 − 3x ≥ 21</b><br>Resta 9: <code>−3x ≥ 12</code><br>Divide entre −3 y <b>voltea</b>: <code>x ≤ −4</code><br>Prueba con x = −5 (debe funcionar): 9 − 3(−5) = 9 + 15 = 24 ≥ 21, cierto. Prueba con x = 0 (debe fallar): 9 − 0 = 9 ≥ 21, falso. El volteo fue correcto.<br><br>Probar un número de cada lado de la frontera toma diez segundos y atrapa todo error de signo que puedas cometer en este tema."
+        }
+      },
+      {
+        "type": "trap",
+        "title": {
+          "en": "The trap: forgetting the flip, or flipping too often",
+          "es": "La trampa: olvidar el volteo o voltear de más"
+        },
+        "body": {
+          "en": "On <code>9 − 3x ≥ 21</code>, the most common wrong answer is <b>x ≥ −4</b>: the student divides by −3 and keeps the sign. Choice lists always include this mirror image. Plug in x = 0: 9 ≥ 21 is false, so x ≥ −4 cannot be right. The check takes five seconds; do it.<br><br>The opposite error is flipping when you subtract a negative or move a term across. Moving −3x to the other side to get <code>9 ≥ 21 + 3x</code> is addition, so no flip. Only division or multiplication by a negative flips.<br><br>On equations, the usual slip is a sign error when gathering terms: <code>5x − 4 = 2x + 11</code> becomes <code>3x = 7</code> because the student subtracted 4 instead of adding it. Always check by substituting your answer into the <i>original</i> equation, not into your rewritten version, which may already contain the mistake.",
+          "es": "En <code>9 − 3x ≥ 21</code>, la respuesta incorrecta más común es <b>x ≥ −4</b>: el estudiante divide entre −3 y conserva el signo. Las opciones siempre incluyen esta imagen espejo. Sustituye x = 0: 9 ≥ 21 es falso, así que x ≥ −4 no puede ser. La comprobación toma cinco segundos; hazla.<br><br>El error contrario es voltear cuando restas un negativo o pasas un término al otro lado. Pasar −3x al otro lado para obtener <code>9 ≥ 21 + 3x</code> es una suma, así que no hay volteo. Solo dividir o multiplicar entre un negativo voltea.<br><br>En ecuaciones, el descuido usual es un error de signo al juntar términos: <code>5x − 4 = 2x + 11</code> se convierte en <code>3x = 7</code> porque el estudiante restó 4 en lugar de sumarlo. Siempre comprueba sustituyendo tu respuesta en la ecuación <i>original</i>, no en tu versión reescrita, que puede ya traer el error."
+        }
+      },
+      {
+        "type": "formulas",
+        "title": {
+          "en": "Formula card",
+          "es": "Tarjeta de fórmulas"
+        },
+        "body": {
+          "en": "<ul><li><b>Isolate x:</b> undo + and − first, then × and ÷.</li><li><b>Both sides:</b> move x-terms to one side, constants to the other, then divide.</li><li><b>Distribute first:</b> <code>2(x + 3) = 2x + 6</code> before anything else.</li><li><b>Fractions:</b> multiply every term by the common denominator to clear them.</li><li><b>Flip rule:</b> multiplying or dividing by a negative reverses &lt; ↔ &gt; and ≤ ↔ ≥.</li><li><b>No flip</b> for adding, subtracting, or multiplying by a positive.</li><li><b>Number line:</b> open circle for &lt; or &gt;; filled circle for ≤ or ≥.</li><li><b>Check:</b> substitute into the original; for inequalities test one value on each side of the boundary.</li></ul>",
+          "es": "<ul><li><b>Aísla la x:</b> deshaz + y − primero, luego × y ÷.</li><li><b>Ambos lados:</b> pasa los términos con x a un lado, las constantes al otro, luego divide.</li><li><b>Distribuye primero:</b> <code>2(x + 3) = 2x + 6</code> antes que nada.</li><li><b>Fracciones:</b> multiplica cada término por el denominador común para eliminarlas.</li><li><b>Regla del volteo:</b> multiplicar o dividir entre un negativo invierte &lt; ↔ &gt; y ≤ ↔ ≥.</li><li><b>Sin volteo</b> al sumar, restar o multiplicar por un positivo.</li><li><b>Recta numérica:</b> círculo abierto para &lt; o &gt;; círculo relleno para ≤ o ≥.</li><li><b>Comprueba:</b> sustituye en la original; en inecuaciones prueba un valor de cada lado de la frontera.</li></ul>"
+        }
+      },
+      {
+        "type": "drill",
+        "title": {
+          "en": "Drill",
+          "es": "Práctica"
+        },
+        "body": {
+          "en": "Do twelve linear-equation items and six inequality items in the app. Write every step on one line each; no mental shortcuts until your accuracy is above 90%. On each inequality, test a number on both sides of your boundary before submitting.<br><br>Pace: <b>124 seconds per item</b> is the MK budget; these should take 45 to 60 seconds, which frees time for geometry.",
+          "es": "Resuelve doce reactivos de ecuaciones lineales y seis de inecuaciones en la app. Escribe cada paso en una línea; nada de atajos mentales hasta que tu precisión pase de 90%. En cada inecuación, prueba un número de cada lado de tu frontera antes de enviar.<br><br>Ritmo: <b>124 segundos por reactivo</b> es el presupuesto de MK; estos deberían tomar de 45 a 60 segundos, lo que libera tiempo para geometría."
+        }
+      }
+    ]
+  },
+  {
+    "id": "mk-geometry-card",
+    "subtest": "MK",
+    "topic": "triangles",
+    "title": {
+      "en": "Geometry Formula Card",
+      "es": "Tarjeta de fórmulas de geometría"
+    },
+    "minutes": 8,
+    "sections": [
+      {
+        "type": "explain",
+        "title": {
+          "en": "Ten formulas cover almost every geometry item",
+          "es": "Diez fórmulas cubren casi todo reactivo de geometría"
+        },
+        "body": {
+          "en": "The ASVAB does not give you a formula sheet, so you must be the formula sheet. The good news is the list is short.<br><br><b>Perimeter</b> is the distance around: add up the sides. <b>Area</b> is the space inside, always in square units. <b>Volume</b> is space filled, in cubic units. If your answer's unit is wrong, your formula was wrong.<br><br>Triangles carry the most items. Angles inside any triangle add to 180°. A right triangle obeys <b>a² + b² = c²</b>, with <i>c</i> the hypotenuse (the side opposite the right angle, always the longest). Memorize the <b>Pythagorean triples</b> 3-4-5, 5-12-13 and 8-15-17 plus their multiples (6-8-10, 9-12-15): when two sides match a triple, the third is free and you skip the square root entirely.<br><br>Circles: π ≈ 3.14, and the radius is half the diameter. Every circle problem starts by finding <i>r</i>.",
+          "es": "El ASVAB no te da un formulario, así que tú debes ser el formulario. La buena noticia es que la lista es corta.<br><br>El <b>perímetro</b> es la distancia alrededor: suma los lados. El <b>área</b> es el espacio interior, siempre en unidades cuadradas. El <b>volumen</b> es espacio lleno, en unidades cúbicas. Si la unidad de tu respuesta está mal, tu fórmula estaba mal.<br><br>Los triángulos traen la mayor cantidad de reactivos. Los ángulos internos de cualquier triángulo suman 180°. Un triángulo rectángulo cumple <b>a² + b² = c²</b>, con <i>c</i> la hipotenusa (el lado opuesto al ángulo recto, siempre el más largo). Memoriza las <b>ternas pitagóricas</b> 3-4-5, 5-12-13 y 8-15-17 más sus múltiplos (6-8-10, 9-12-15): cuando dos lados coinciden con una terna, el tercero sale gratis y te saltas la raíz cuadrada.<br><br>Círculos: π ≈ 3.14, y el radio es la mitad del diámetro. Todo problema de círculo empieza por hallar <i>r</i>."
+        }
+      },
+      {
+        "type": "example",
+        "title": {
+          "en": "Worked example: a triple, a circle and a box",
+          "es": "Ejemplo resuelto: una terna, un círculo y una caja"
+        },
+        "body": {
+          "en": "<b>A ladder leans against a wall. Its foot is 9 ft from the wall and its top is 12 ft up. How long is the ladder?</b><br>9 and 12 are 3 × (3, 4), so the hypotenuse is 3 × 5 = <b>15 ft</b>. Confirm: 81 + 144 = 225 = 15². No square root needed.<br><br><b>A circular patch has a diameter of 10 in. What is its area? (Use π ≈ 3.14.)</b><br>r = 10 ÷ 2 = 5. A = πr² = 3.14 × 25 = <b>78.5 in²</b>. Circumference would be 2πr = 3.14 × 10 = 31.4 in; the test lists both, so read which one is asked.<br><br><b>A crate is 4 ft × 3 ft × 2 ft. What is its volume?</b><br>V = l × w × h = 4 × 3 × 2 = <b>24 ft³</b>.<br><br>Three items, about 40 seconds each, all from memory.",
+          "es": "<b>Una escalera se apoya en una pared. Su base está a 9 pies de la pared y su punta a 12 pies de altura. ¿Cuánto mide la escalera?</b><br>9 y 12 son 3 × (3, 4), así que la hipotenusa es 3 × 5 = <b>15 pies</b>. Confirma: 81 + 144 = 225 = 15². Sin raíz cuadrada.<br><br><b>Un parche circular tiene 10 pulgadas de diámetro. ¿Cuál es su área? (Usa π ≈ 3.14.)</b><br>r = 10 ÷ 2 = 5. A = πr² = 3.14 × 25 = <b>78.5 in²</b>. La circunferencia sería 2πr = 3.14 × 10 = 31.4 in; el examen pone ambas, así que lee cuál te piden.<br><br><b>Una caja mide 4 × 3 × 2 pies. ¿Cuál es su volumen?</b><br>V = l × a × h = 4 × 3 × 2 = <b>24 ft³</b>.<br><br>Tres reactivos, unos 40 segundos cada uno, todo de memoria."
+        }
+      },
+      {
+        "type": "trap",
+        "title": {
+          "en": "The trap: diameter used as radius",
+          "es": "La trampa: usar el diámetro como radio"
+        },
+        "body": {
+          "en": "On the circle item, the wrong answer students produce most is <b>314 in²</b>: they plug the diameter 10 straight into πr² and get 3.14 × 100. It is always among the choices. Rule: the first thing you write on any circle problem is <code>r = </code>. If the problem gives a diameter, halve it before doing anything else.<br><br>On triangles, the trap is treating a given leg as the hypotenuse. \"Hypotenuse 13, one leg 5, find the other\" is 12 (from 5-12-13); students who compute √(13² + 5²) get about 13.9, which will be listed. The hypotenuse is always alone on the right side of a² + b² = c².<br><br>On area, the slip is forgetting the ½ in triangle area (½ × base × height); doubling the true value is a classic distractor. And on perimeter versus area, the units tell you: feet means perimeter, square feet means area.",
+          "es": "En el reactivo del círculo, la respuesta incorrecta que más produce el estudiante es <b>314 in²</b>: mete el diámetro 10 directo en πr² y obtiene 3.14 × 100. Siempre está entre las opciones. Regla: lo primero que escribes en cualquier problema de círculo es <code>r = </code>. Si el problema da un diámetro, divídelo a la mitad antes de hacer cualquier otra cosa.<br><br>En triángulos, la trampa es tratar un cateto dado como hipotenusa. \"Hipotenusa 13, un cateto 5, halla el otro\" es 12 (de 5-12-13); quien calcula √(13² + 5²) obtiene unos 13.9, y estará en la lista. La hipotenusa siempre va sola del lado derecho de a² + b² = c².<br><br>En área, el descuido es olvidar el ½ del área del triángulo (½ × base × altura); el doble del valor correcto es un distractor clásico. Y entre perímetro y área, las unidades te lo dicen: pies significa perímetro, pies cuadrados significa área."
+        }
+      },
+      {
+        "type": "formulas",
+        "title": {
+          "en": "Formula card",
+          "es": "Tarjeta de fórmulas"
+        },
+        "body": {
+          "en": "<ul><li><b>Rectangle:</b> P = 2l + 2w; A = l × w</li><li><b>Square:</b> P = 4s; A = s²</li><li><b>Triangle:</b> A = ½ × b × h; angles sum to 180°</li><li><b>Right triangle:</b> a² + b² = c²; triples 3-4-5, 5-12-13, 8-15-17 and multiples</li><li><b>Circle:</b> d = 2r; C = 2πr = πd; A = πr²; π ≈ 3.14 or 22/7</li><li><b>Box:</b> V = l × w × h; <b>Cube:</b> V = s³</li><li><b>Cylinder:</b> V = πr²h</li><li><b>Angles:</b> straight line 180°; around a point 360°; quadrilateral 360°; complementary sum to 90°, supplementary to 180°</li><li><b>Units:</b> length → ft; area → ft²; volume → ft³</li></ul>",
+          "es": "<ul><li><b>Rectángulo:</b> P = 2l + 2a; A = l × a</li><li><b>Cuadrado:</b> P = 4s; A = s²</li><li><b>Triángulo:</b> A = ½ × b × h; los ángulos suman 180°</li><li><b>Triángulo rectángulo:</b> a² + b² = c²; ternas 3-4-5, 5-12-13, 8-15-17 y múltiplos</li><li><b>Círculo:</b> d = 2r; C = 2πr = πd; A = πr²; π ≈ 3.14 o 22/7</li><li><b>Caja:</b> V = l × a × h; <b>Cubo:</b> V = s³</li><li><b>Cilindro:</b> V = πr²h</li><li><b>Ángulos:</b> línea recta 180°; alrededor de un punto 360°; cuadrilátero 360°; complementarios suman 90°, suplementarios 180°</li><li><b>Unidades:</b> longitud → ft; área → ft²; volumen → ft³</li></ul>"
+        }
+      },
+      {
+        "type": "drill",
+        "title": {
+          "en": "Drill",
+          "es": "Práctica"
+        },
+        "body": {
+          "en": "Write the formula card from memory once a day until you can do it in under two minutes with zero errors. Then do fifteen mixed geometry items in the app (triangles, circles, volume), writing the formula <i>before</i> plugging in numbers and writing <code>r =</code> first on every circle.<br><br>Pace: <b>124 seconds per item</b>; geometry with a known formula should take 40 to 70 seconds. Anything longer means you are deriving instead of recalling.",
+          "es": "Escribe la tarjeta de fórmulas de memoria una vez al día hasta que puedas hacerlo en menos de dos minutos sin errores. Luego resuelve quince reactivos mixtos de geometría en la app (triángulos, círculos, volumen), escribiendo la fórmula <i>antes</i> de meter números y escribiendo <code>r =</code> primero en cada círculo.<br><br>Ritmo: <b>124 segundos por reactivo</b>; geometría con fórmula conocida debe tomar de 40 a 70 segundos. Más que eso significa que estás deduciendo en lugar de recordar."
+        }
+      }
+    ]
+  },
+  {
+    "id": "mk-exponents-factoring",
+    "subtest": "MK",
+    "topic": "quadratics",
+    "title": {
+      "en": "Exponents, Roots and Factoring",
+      "es": "Exponentes, raíces y factorización"
+    },
+    "minutes": 8,
+    "sections": [
+      {
+        "type": "explain",
+        "title": {
+          "en": "Three tools that show up together",
+          "es": "Tres herramientas que aparecen juntas"
+        },
+        "body": {
+          "en": "<b>Exponents</b> are repeated multiplication: 2⁴ = 16. When bases match, <i>add</i> exponents to multiply (x³ · x² = x⁵) and <i>subtract</i> to divide (x⁵ ÷ x² = x³). A power of a power multiplies: (x²)³ = x⁶. Anything to the zero power is 1; a negative exponent means \"one over\" (2⁻³ = 1/8).<br><br><b>Roots</b> undo exponents. √49 = 7 because 7² = 49. But the equation <b>x² = 49 has two solutions</b>, 7 and −7, because (−7)² is also 49. When the test says \"solve,\" give both.<br><br><b>FOIL</b> multiplies two binomials: First, Outer, Inner, Last. (x + 3)(x + 5) = x² + 5x + 3x + 15 = x² + 8x + 15. <b>Factoring</b> runs FOIL backward: find two numbers that multiply to the last term and add to the middle one.<br><br>One pattern deserves its own line: <b>x² − y² = (x + y)(x − y)</b>, the difference of squares. It appears constantly.",
+          "es": "Los <b>exponentes</b> son multiplicación repetida: 2⁴ = 16. Con bases iguales, <i>suma</i> exponentes para multiplicar (x³ · x² = x⁵) y <i>resta</i> para dividir (x⁵ ÷ x² = x³). Una potencia de potencia se multiplica: (x²)³ = x⁶. Todo a la cero es 1; un exponente negativo significa \"uno entre\" (2⁻³ = 1/8).<br><br>Las <b>raíces</b> deshacen exponentes. √49 = 7 porque 7² = 49. Pero la ecuación <b>x² = 49 tiene dos soluciones</b>, 7 y −7, porque (−7)² también es 49. Cuando el examen dice \"solve\", da las dos.<br><br><b>FOIL</b> multiplica dos binomios: First, Outer, Inner, Last. (x + 3)(x + 5) = x² + 5x + 3x + 15 = x² + 8x + 15. <b>Factorizar</b> es FOIL al revés: busca dos números que multiplicados den el último término y sumados el de en medio.<br><br>Un patrón merece línea propia: <b>x² − y² = (x + y)(x − y)</b>, la diferencia de cuadrados. Aparece todo el tiempo."
+        }
+      },
+      {
+        "type": "example",
+        "title": {
+          "en": "Worked example: factor, then solve",
+          "es": "Ejemplo resuelto: factoriza y luego resuelve"
+        },
+        "body": {
+          "en": "<b>Solve: x² + 2x − 15 = 0</b><br>Need two numbers that multiply to −15 and add to +2. Pairs for 15: (1, 15), (3, 5). Since the product is negative, one is negative. −3 and +5: product −15, sum +2. Yes.<br><code>(x − 3)(x + 5) = 0</code><br>A product is zero only when a factor is zero: x − 3 = 0 → <b>x = 3</b>; x + 5 = 0 → <b>x = −5</b>.<br>Check x = 3: 9 + 6 − 15 = 0. Check x = −5: 25 − 10 − 15 = 0. Both work.<br><br><b>Simplify: (x⁴ · x²) ÷ x³</b><br>Top: x⁴⁺² = x⁶. Divide: x⁶⁻³ = <b>x³</b>.<br><br><b>Factor: 4x² − 25</b><br>Both terms are perfect squares: (2x)² and 5². Difference of squares: <b>(2x + 5)(2x − 5)</b>. FOIL it back to confirm: 4x² − 10x + 10x − 25 = 4x² − 25.",
+          "es": "<b>Resuelve: x² + 2x − 15 = 0</b><br>Busca dos números que multiplicados den −15 y sumados +2. Pares de 15: (1, 15), (3, 5). Como el producto es negativo, uno es negativo. −3 y +5: producto −15, suma +2. Sí.<br><code>(x − 3)(x + 5) = 0</code><br>Un producto es cero solo cuando un factor es cero: x − 3 = 0 → <b>x = 3</b>; x + 5 = 0 → <b>x = −5</b>.<br>Comprueba x = 3: 9 + 6 − 15 = 0. Comprueba x = −5: 25 − 10 − 15 = 0. Ambas funcionan.<br><br><b>Simplifica: (x⁴ · x²) ÷ x³</b><br>Arriba: x⁴⁺² = x⁶. Divide: x⁶⁻³ = <b>x³</b>.<br><br><b>Factoriza: 4x² − 25</b><br>Ambos términos son cuadrados perfectos: (2x)² y 5². Diferencia de cuadrados: <b>(2x + 5)(2x − 5)</b>. Aplica FOIL de regreso para confirmar: 4x² − 10x + 10x − 25 = 4x² − 25."
+        }
+      },
+      {
+        "type": "trap",
+        "title": {
+          "en": "The trap: multiplying exponents, and losing the negative root",
+          "es": "La trampa: multiplicar exponentes y perder la raíz negativa"
+        },
+        "body": {
+          "en": "The most common wrong answer on x³ · x² is <b>x⁶</b>. The student multiplies the exponents because \"it's multiplication.\" Same-base multiplication <i>adds</i> exponents; only a power of a power multiplies them. Sanity test with 2: 2³ · 2² = 8 × 4 = 32 = 2⁵, not 2⁶ = 64.<br><br>On x² = 49, students answer <b>7</b> and stop. The answer choices will show \"7 only\" and \"7 or −7,\" and the second one is right. Whenever you take a square root to solve an equation, write ± immediately.<br><br>On factoring, the sign trap: for x² + 2x − 15, students write (x + 3)(x − 5), which FOILs to x² − 2x − 15, the wrong middle sign. Always FOIL your factors back out; it costs eight seconds and the middle term tells you instantly whether your signs were right.<br><br>Also note (x + y)² is <i>not</i> x² + y²; it is x² + 2xy + y².",
+          "es": "La respuesta incorrecta más común en x³ · x² es <b>x⁶</b>. El estudiante multiplica los exponentes porque \"es multiplicación\". Con la misma base se <i>suman</i>; solo una potencia de potencia los multiplica. Prueba: 2³ · 2² = 8 × 4 = 32 = 2⁵, no 2⁶.<br><br>En x² = 49, el estudiante contesta <b>7</b> y se detiene. Las opciones mostrarán \"7 only\" y \"7 or −7\"; la segunda es la correcta. Al sacar raíz cuadrada para resolver una ecuación, escribe ± de inmediato.<br><br>En factorización, la trampa de signos: para x² + 2x − 15, el estudiante escribe (x + 3)(x − 5), que con FOIL da x² − 2x − 15, signo de en medio equivocado. Siempre aplica FOIL de regreso; cuesta ocho segundos y el término de en medio te dice al instante si los signos estaban bien.<br><br>Recuerda también que (x + y)² <i>no</i> es x² + y²; es x² + 2xy + y²."
+        }
+      },
+      {
+        "type": "formulas",
+        "title": {
+          "en": "Formula card",
+          "es": "Tarjeta de fórmulas"
+        },
+        "body": {
+          "en": "<ul><li><b>xᵃ · xᵇ = xᵃ⁺ᵇ</b> &nbsp; <b>xᵃ ÷ xᵇ = xᵃ⁻ᵇ</b> &nbsp; <b>(xᵃ)ᵇ = xᵃᵇ</b></li><li><b>x⁰ = 1</b> &nbsp; <b>x⁻ⁿ = 1/xⁿ</b> &nbsp; <b>(xy)ⁿ = xⁿyⁿ</b></li><li><b>√(ab) = √a · √b</b> → √50 = √25 · √2 = 5√2</li><li><b>x² = k → x = ±√k</b> (two roots)</li><li>Perfect squares to 15²: 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225</li><li><b>FOIL:</b> (a + b)(c + d) = ac + ad + bc + bd</li><li><b>(x + y)² = x² + 2xy + y²</b> &nbsp; <b>(x − y)² = x² − 2xy + y²</b></li><li><b>x² − y² = (x + y)(x − y)</b></li><li><b>Factor x² + bx + c:</b> find two numbers with product c and sum b</li><li><b>Zero product:</b> if (x − p)(x − q) = 0 then x = p or x = q</li></ul>",
+          "es": "<ul><li><b>xᵃ · xᵇ = xᵃ⁺ᵇ</b> &nbsp; <b>xᵃ ÷ xᵇ = xᵃ⁻ᵇ</b> &nbsp; <b>(xᵃ)ᵇ = xᵃᵇ</b></li><li><b>x⁰ = 1</b> &nbsp; <b>x⁻ⁿ = 1/xⁿ</b> &nbsp; <b>(xy)ⁿ = xⁿyⁿ</b></li><li><b>√(ab) = √a · √b</b> → √50 = √25 · √2 = 5√2</li><li><b>x² = k → x = ±√k</b> (dos raíces)</li><li>Cuadrados perfectos hasta 15²: 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225</li><li><b>FOIL:</b> (a + b)(c + d) = ac + ad + bc + bd</li><li><b>(x + y)² = x² + 2xy + y²</b> &nbsp; <b>(x − y)² = x² − 2xy + y²</b></li><li><b>x² − y² = (x + y)(x − y)</b></li><li><b>Factorizar x² + bx + c:</b> busca dos números con producto c y suma b</li><li><b>Producto cero:</b> si (x − p)(x − q) = 0 entonces x = p o x = q</li></ul>"
+        }
+      },
+      {
+        "type": "drill",
+        "title": {
+          "en": "Drill",
+          "es": "Práctica"
+        },
+        "body": {
+          "en": "Do ten exponent items, then ten factoring and quadratic items in the app. On every factoring item, FOIL your answer back out before submitting; on every square-root item, write ± before you write a number. Recite the perfect squares to 225 once a day.<br><br>Pace: <b>124 seconds per item</b>; exponent rules should take 30 seconds, factoring 60 to 90. If you cannot find the factor pair in 45 seconds, backsolve by plugging the answer choices into the original equation.",
+          "es": "Resuelve diez reactivos de exponentes y luego diez de factorización y cuadráticas en la app. En cada factorización, aplica FOIL de regreso antes de enviar; en cada raíz cuadrada, escribe ± antes de escribir un número. Recita los cuadrados perfectos hasta 225 una vez al día.<br><br>Ritmo: <b>124 segundos por reactivo</b>; las reglas de exponentes deben tomar 30 segundos, la factorización de 60 a 90. Si no encuentras el par de factores en 45 segundos, resuelve desde las opciones sustituyéndolas en la ecuación original."
+        }
+      }
+    ]
+  },
+  {
+    "id": "gs-life-science",
+    "subtest": "GS",
+    "topic": "cells",
+    "title": {
+      "en": "High-Yield Facts: Life Science and the Units Trap",
+      "es": "Datos de alto rendimiento: ciencias de la vida y la trampa de las unidades"
+    },
+    "minutes": 8,
+    "sections": [
+      {
+        "type": "explain",
+        "title": {
+          "en": "What GS actually tests",
+          "es": "Qué evalúa GS en realidad"
+        },
+        "body": {
+          "en": "General Science is a breadth test: 48 seconds per item, one fact each, no calculation. You either know it or you do not, so the job is to know the highest-frequency facts cold.<br><br><b>Cells.</b> The <b>nucleus</b> holds DNA and runs the cell. <b>Mitochondria</b> make energy (ATP) through cellular respiration. <b>Ribosomes</b> build proteins. Plant cells add a rigid <b>cell wall</b> and <b>chloroplasts</b> for photosynthesis; animal cells have neither. Cells divide by <b>mitosis</b> (two identical copies) or, for sex cells only, <b>meiosis</b> (half the chromosomes).<br><br><b>Body systems.</b> Circulatory: heart, arteries carry blood away, veins carry it back; red cells carry oxygen, white cells fight infection, platelets clot. Digestive: mouth → esophagus → stomach → small intestine (most absorption) → large intestine (water). Respiratory: gas exchange happens in the <b>alveoli</b>.<br><br><b>Genetics.</b> A dominant allele shows with one copy; recessive needs two. Two heterozygous parents (Aa × Aa) give a 3:1 ratio.",
+          "es": "General Science es una prueba de amplitud: 48 segundos por reactivo, un dato cada uno, sin cálculo. O lo sabes o no, así que la tarea es dominar los datos más frecuentes.<br><br><b>Células.</b> El <b>núcleo</b> guarda el ADN y dirige la célula. Las <b>mitocondrias</b> producen energía (ATP) por respiración celular. Los <b>ribosomas</b> fabrican proteínas. Las células vegetales añaden <b>pared celular</b> rígida y <b>cloroplastos</b> para la fotosíntesis; las animales no tienen ninguno. Se dividen por <b>mitosis</b> (dos copias idénticas) o, solo las sexuales, por <b>meiosis</b> (mitad de cromosomas).<br><br><b>Sistemas del cuerpo.</b> Circulatorio: las arterias llevan sangre hacia afuera, las venas la regresan; glóbulos rojos cargan oxígeno, blancos combaten infecciones, plaquetas coagulan. Digestivo: boca → esófago → estómago → intestino delgado (mayor absorción) → intestino grueso (agua). Respiratorio: el intercambio de gases ocurre en los <b>alvéolos</b>.<br><br><b>Genética.</b> Un alelo dominante se expresa con una copia; el recesivo necesita dos. Dos padres heterocigotos (Aa × Aa) dan proporción 3:1."
+        }
+      },
+      {
+        "type": "example",
+        "title": {
+          "en": "Worked example: three typical items",
+          "es": "Ejemplo resuelto: tres reactivos típicos"
+        },
+        "body": {
+          "en": "<b>1. Which organelle is the site of cellular respiration?</b><br>A. nucleus &nbsp; B. ribosome &nbsp; C. mitochondrion &nbsp; D. chloroplast<br>Respiration releases energy; the \"powerhouse\" is the mitochondrion. Chloroplast is the photosynthesis distractor. Answer: <b>C</b>.<br><br><b>2. Two pea plants heterozygous for tall (Tt) are crossed. What fraction of offspring are expected to be short?</b><br>Punnett square: TT, Tt, Tt, tt. Only tt is short: 1 of 4 = <b>¼ (25%)</b>. The 3:1 ratio means ¾ tall, ¼ short.<br><br><b>3. Which is the correct order of classification from broadest to most specific?</b><br>Kingdom, Phylum, Class, Order, Family, Genus, Species. Mnemonic: <i>King Philip Came Over For Good Soup</i>. A scientific name like <i>Homo sapiens</i> is Genus + species.<br><br>Each of these is answered from memory in under 20 seconds, which is the pace GS demands.",
+          "es": "<b>1. ¿Qué organelo es el sitio de la respiración celular?</b><br>A. nucleus &nbsp; B. ribosome &nbsp; C. mitochondrion &nbsp; D. chloroplast<br>La respiración libera energía; la \"central eléctrica\" es la mitocondria. El cloroplasto es el distractor de la fotosíntesis. Respuesta: <b>C</b>.<br><br><b>2. Se cruzan dos plantas de chícharo heterocigotas para altura (Tt). ¿Qué fracción de la descendencia se espera que sea baja?</b><br>Cuadro de Punnett: TT, Tt, Tt, tt. Solo tt es baja: 1 de 4 = <b>¼ (25%)</b>. La proporción 3:1 significa ¾ altas, ¼ bajas.<br><br><b>3. ¿Cuál es el orden correcto de clasificación, del más amplio al más específico?</b><br>Kingdom, Phylum, Class, Order, Family, Genus, Species (reino, filo, clase, orden, familia, género, especie). Mnemotecnia: <i>King Philip Came Over For Good Soup</i>. Un nombre científico como <i>Homo sapiens</i> es género + especie.<br><br>Cada uno se responde de memoria en menos de 20 segundos, que es el ritmo que exige GS."
+        }
+      },
+      {
+        "type": "trap",
+        "title": {
+          "en": "The trap: units and prefixes",
+          "es": "La trampa: unidades y prefijos"
+        },
+        "body": {
+          "en": "GS quietly tests the metric system, and the wrong answer is usually a factor of 10 or 1,000 off. Students see \"How many milliliters in 2.5 liters?\" and answer <b>250</b> because \"milli sounds like a hundred.\" Milli is one-thousandth, so 2.5 L = <b>2,500 mL</b>. Centi is one-hundredth (100 cm in a meter), kilo is one thousand (1,000 m in a km).<br><br>A second units trap is <b>mass versus weight</b>: mass (kg) never changes; weight (newtons) depends on gravity. On the Moon your mass is the same, your weight is one-sixth. Pick \"mass\" when the question says \"amount of matter.\"<br><br>Third: temperature. Water freezes at 0 °C = 32 °F and boils at 100 °C = 212 °F; body temperature is 37 °C = 98.6 °F. Students swap the Celsius and Fahrenheit numbers under time pressure. Anchor them to freezing and boiling and you will not.",
+          "es": "GS evalúa discretamente el sistema métrico, y la respuesta incorrecta suele estar desfasada por un factor de 10 o 1,000. El estudiante ve \"How many milliliters in 2.5 liters?\" y contesta <b>250</b> porque \"mili suena a cien\". Mili es una milésima, así que 2.5 L = <b>2,500 mL</b>. Centi es una centésima (100 cm en un metro), kilo es mil (1,000 m en un km).<br><br>Una segunda trampa de unidades es <b>masa contra peso</b>: la masa (kg) nunca cambia; el peso (newtons) depende de la gravedad. En la Luna tu masa es la misma, tu peso es un sexto. Elige \"mass\" cuando la pregunta diga \"amount of matter\".<br><br>Tercera: temperatura. El agua se congela a 0 °C = 32 °F y hierve a 100 °C = 212 °F; la temperatura corporal es 37 °C = 98.6 °F. Bajo presión, el estudiante intercambia los números de Celsius y Fahrenheit. Ánclalos al congelamiento y la ebullición y no te pasará."
+        }
+      },
+      {
+        "type": "formulas",
+        "title": {
+          "en": "Memorize list",
+          "es": "Lista para memorizar"
+        },
+        "body": {
+          "en": "<ul><li><b>Organelles:</b> nucleus = DNA/control; mitochondria = energy; ribosomes = proteins; chloroplast = photosynthesis (plants only); cell wall = plants only</li><li><b>Photosynthesis:</b> CO₂ + H₂O + light → glucose + O₂ &nbsp; <b>Respiration:</b> glucose + O₂ → CO₂ + H₂O + ATP</li><li><b>Mitosis</b> = 2 identical cells; <b>meiosis</b> = 4 sex cells, half chromosomes; humans have 46 (23 pairs)</li><li><b>Taxonomy:</b> Kingdom, Phylum, Class, Order, Family, Genus, Species</li><li><b>Blood:</b> red = O₂; white = immunity; platelets = clotting; arteries away, veins back</li><li><b>Food chain:</b> producer → primary consumer (herbivore) → secondary consumer → decomposer; energy drops about 90% per level</li><li><b>Metric:</b> kilo 1,000; centi 1/100; milli 1/1,000; 1 L = 1,000 mL; 1 kg ≈ 2.2 lb; 1 in = 2.54 cm</li><li><b>Water:</b> 0 °C / 32 °F freeze; 100 °C / 212 °F boil; density 1 g/mL</li></ul>",
+          "es": "<ul><li><b>Organelos:</b> núcleo = ADN/control; mitocondrias = energía; ribosomas = proteínas; cloroplasto = fotosíntesis (solo plantas); pared celular = solo plantas</li><li><b>Fotosíntesis:</b> CO₂ + H₂O + luz → glucosa + O₂ &nbsp; <b>Respiración:</b> glucosa + O₂ → CO₂ + H₂O + ATP</li><li><b>Mitosis</b> = 2 células idénticas; <b>meiosis</b> = 4 células sexuales, mitad de cromosomas; los humanos tienen 46 (23 pares)</li><li><b>Taxonomía:</b> Kingdom, Phylum, Class, Order, Family, Genus, Species</li><li><b>Sangre:</b> rojos = O₂; blancos = inmunidad; plaquetas = coagulación; arterias salen, venas regresan</li><li><b>Cadena alimenticia:</b> productor → consumidor primario (herbívoro) → consumidor secundario → descomponedor; la energía cae cerca de 90% por nivel</li><li><b>Métrico:</b> kilo 1,000; centi 1/100; mili 1/1,000; 1 L = 1,000 mL; 1 kg ≈ 2.2 lb; 1 in = 2.54 cm</li><li><b>Agua:</b> 0 °C / 32 °F congela; 100 °C / 212 °F hierve; densidad 1 g/mL</li></ul>"
+        }
+      },
+      {
+        "type": "drill",
+        "title": {
+          "en": "Drill",
+          "es": "Práctica"
+        },
+        "body": {
+          "en": "Turn the memorize list into flash cards and run them twice a day for a week; each card should take under three seconds. Then do GS sets of twenty in the app, mixed topics, and log every miss by topic so you know which cards to add.<br><br>Pace: <b>48 seconds per item</b> on paper, but you should answer known facts in 15 seconds and never spend more than 40 on any item. In GS, a long pause means you do not know it; guess and move.",
+          "es": "Convierte la lista en tarjetas y repásalas dos veces al día durante una semana; cada tarjeta debe tomar menos de tres segundos. Luego haz sets de veinte reactivos de GS en la app, temas mezclados, y anota cada error por tema para saber qué tarjetas agregar.<br><br>Ritmo: <b>48 segundos por reactivo</b> en papel, pero los datos que sabes deben salir en 15 segundos y nunca gastes más de 40 en ninguno. En GS, una pausa larga significa que no lo sabes; adivina y avanza."
+        }
+      }
+    ]
+  },
+  {
+    "id": "ei-ohms-law",
+    "subtest": "EI",
+    "topic": "ohms-law",
+    "title": {
+      "en": "Ohm's Law, Power, Series vs Parallel",
+      "es": "Ley de Ohm, potencia, serie contra paralelo"
+    },
+    "minutes": 8,
+    "sections": [
+      {
+        "type": "explain",
+        "title": {
+          "en": "Water in a pipe",
+          "es": "Agua en una tubería"
+        },
+        "body": {
+          "en": "Think of a circuit as water in a pipe. <b>Voltage (V, volts)</b> is the pressure pushing. <b>Current (I, amperes)</b> is how much water flows. <b>Resistance (R, ohms, Ω)</b> is how narrow the pipe is. <b>Ohm's law</b> ties them together: <b>V = I × R</b>. Cover the one you want: I = V ÷ R, R = V ÷ I.<br><br><b>Power (P, watts)</b> is how fast energy is used: <b>P = V × I</b>. A 120-volt appliance drawing 2 amps uses 240 watts.<br><br><b>Series</b> circuits have one path. Current is the same everywhere; resistances simply add (R = R₁ + R₂); if one bulb burns out, everything goes dark, like old Christmas lights.<br><br><b>Parallel</b> circuits have branches. Voltage is the same across every branch; current splits; total resistance is <i>less</i> than the smallest branch; one bulb can fail and the others stay lit. Your house is wired in parallel for exactly that reason.",
+          "es": "Un circuito es agua en una tubería. El <b>voltaje (V)</b> es la presión. La <b>corriente (I)</b> es cuánta agua fluye. La <b>resistencia (R, Ω)</b> es qué tan angosta es la tubería. La <b>ley de Ohm</b> las une: <b>V = I × R</b>. Tapa la que buscas: I = V ÷ R, R = V ÷ I.<br><br>La <b>potencia (P, watts)</b> es la rapidez con que se usa energía: <b>P = V × I</b>. Un aparato de 120 V a 2 A usa 240 W.<br><br>En <b>serie</b> hay un solo camino. La corriente es la misma en todo; las resistencias se suman (R = R₁ + R₂); si un foco se funde, todo se apaga, como las series navideñas viejas.<br><br>En <b>paralelo</b> hay ramas. El voltaje es igual en cada rama; la corriente se reparte; la resistencia total es <i>menor</i> que la rama más chica; un foco falla y los demás siguen. Por eso tu casa está en paralelo."
+        }
+      },
+      {
+        "type": "example",
+        "title": {
+          "en": "Worked example: Ohm's law, then a parallel pair",
+          "es": "Ejemplo resuelto: ley de Ohm y luego un par en paralelo"
+        },
+        "body": {
+          "en": "<b>A 12-volt battery is connected to a 4-ohm resistor. What current flows, and what power is dissipated?</b><br>I = V ÷ R = 12 ÷ 4 = <b>3 A</b>.<br>P = V × I = 12 × 3 = <b>36 W</b>. (Or P = I²R = 9 × 4 = 36 W.)<br><br><b>Two 6-ohm resistors in series across the same battery. Total resistance and current?</b><br>R = 6 + 6 = 12 Ω. I = 12 ÷ 12 = <b>1 A</b>.<br><br><b>The same two resistors in parallel.</b><br>Two equal resistors: total is half of one, 6 ÷ 2 = <b>3 Ω</b>. (General: 1/R = 1/6 + 1/6 = 2/6, so R = 3.)<br>I = 12 ÷ 3 = <b>4 A</b>.<br><br>Compare: series 12 Ω, parallel 3 Ω. Adding a parallel path always <i>lowers</i> total resistance and <i>raises</i> total current. That one comparison answers a large share of EI items.",
+          "es": "<b>Una batería de 12 V se conecta a una resistencia de 4 Ω. ¿Qué corriente fluye y qué potencia se disipa?</b><br>I = V ÷ R = 12 ÷ 4 = <b>3 A</b>.<br>P = V × I = 12 × 3 = <b>36 W</b>. (O P = I²R = 9 × 4 = 36 W.)<br><br><b>Dos resistencias de 6 Ω en serie con la misma batería. ¿Resistencia total y corriente?</b><br>R = 6 + 6 = 12 Ω. I = 12 ÷ 12 = <b>1 A</b>.<br><br><b>Las mismas dos resistencias en paralelo.</b><br>Dos iguales: el total es la mitad, 6 ÷ 2 = <b>3 Ω</b>. (General: 1/R = 1/6 + 1/6, R = 3.)<br>I = 12 ÷ 3 = <b>4 A</b>.<br><br>Compara: serie 12 Ω, paralelo 3 Ω. Agregar un camino en paralelo siempre <i>baja</i> la resistencia total y <i>sube</i> la corriente. Esa comparación responde buena parte de EI."
+        }
+      },
+      {
+        "type": "trap",
+        "title": {
+          "en": "The trap: adding parallel resistors",
+          "es": "La trampa: sumar resistencias en paralelo"
+        },
+        "body": {
+          "en": "On the parallel item, the wrong answer students produce is <b>12 Ω</b>: they add 6 + 6 as if it were series. Parallel resistance is always <i>smaller than the smallest branch</i>. If your parallel answer is bigger than any single resistor, it is wrong before you check anything else.<br><br>Second trap: mixing up which quantity is shared. Students say \"current is the same in parallel.\" No. In series, <i>current</i> is the same; in parallel, <i>voltage</i> is the same. Memory hook: <b>S</b>eries <b>S</b>ame current; <b>P</b>arallel same <b>P</b>otential (voltage).<br><br>Third: units. Kilohms and milliamps appear in stems; 2 kΩ is 2,000 Ω and 50 mA is 0.05 A. A student computing 12 ÷ 2 = 6 A for a 2 kΩ resistor is off by a thousand. Convert to base units before Ohm's law, every time.",
+          "es": "En el reactivo en paralelo, la respuesta incorrecta que produce el estudiante es <b>12 Ω</b>: suma 6 + 6 como si fuera serie. La resistencia en paralelo siempre es <i>menor que la rama más chica</i>. Si tu respuesta en paralelo es mayor que cualquier resistencia individual, está mal antes de revisar cualquier otra cosa.<br><br>Segunda trampa: confundir qué cantidad se comparte. El estudiante dice \"la corriente es igual en paralelo\". No. En serie, la <i>corriente</i> es igual; en paralelo, el <i>voltaje</i> es igual. Gancho de memoria: en <b>S</b>erie la corriente es la mi<b>S</b>ma; en <b>P</b>aralelo el <b>P</b>otencial (voltaje) es el mismo.<br><br>Tercera: unidades. Kiloohms y miliamperes aparecen en los enunciados; 2 kΩ son 2,000 Ω y 50 mA son 0.05 A. Quien calcula 12 ÷ 2 = 6 A para una resistencia de 2 kΩ se equivoca por mil. Convierte a unidades base antes de aplicar la ley de Ohm, siempre."
+        }
+      },
+      {
+        "type": "formulas",
+        "title": {
+          "en": "Formula card",
+          "es": "Tarjeta de fórmulas"
+        },
+        "body": {
+          "en": "<ul><li><b>V = I × R</b> &nbsp; I = V ÷ R &nbsp; R = V ÷ I</li><li><b>P = V × I</b> = I²R = V² ÷ R</li><li><b>Energy:</b> kWh = kW × hours (what the utility bills)</li><li><b>Series:</b> R = R₁ + R₂ + ...; same I everywhere; voltages add up to the source</li><li><b>Parallel:</b> 1/R = 1/R₁ + 1/R₂; two equal → half; two different → (R₁ × R₂) ÷ (R₁ + R₂); same V on every branch; currents add</li><li><b>Units:</b> volt (V), ampere (A), ohm (Ω), watt (W); kilo = ×1,000; milli = ÷1,000</li><li><b>Conductors:</b> silver, copper, gold, aluminum. <b>Insulators:</b> rubber, glass, plastic, dry wood</li><li><b>AC</b> = alternating (wall outlets, 60 Hz in the US); <b>DC</b> = direct (batteries)</li><li><b>Fuse / breaker</b> opens on overcurrent; <b>ground</b> gives fault current a safe path</li></ul>",
+          "es": "<ul><li><b>V = I × R</b> &nbsp; I = V ÷ R &nbsp; R = V ÷ I</li><li><b>P = V × I</b> = I²R = V² ÷ R</li><li><b>Energía:</b> kWh = kW × horas (lo que cobra la compañía de luz)</li><li><b>Serie:</b> R = R₁ + R₂ + ...; misma I en todo; los voltajes suman el de la fuente</li><li><b>Paralelo:</b> 1/R = 1/R₁ + 1/R₂; dos iguales → la mitad; dos distintas → (R₁ × R₂) ÷ (R₁ + R₂); mismo V en cada rama; las corrientes se suman</li><li><b>Unidades:</b> volt (V), ampere (A), ohm (Ω), watt (W); kilo = ×1,000; mili = ÷1,000</li><li><b>Conductores:</b> plata, cobre, oro, aluminio. <b>Aislantes:</b> hule, vidrio, plástico, madera seca</li><li><b>AC</b> = alterna (tomacorrientes, 60 Hz en EE. UU.); <b>DC</b> = directa (baterías)</li><li><b>Fusible / breaker</b> se abre por sobrecorriente; la <b>tierra</b> da a la corriente de falla un camino seguro</li></ul>"
+        }
+      },
+      {
+        "type": "drill",
+        "title": {
+          "en": "Drill",
+          "es": "Práctica"
+        },
+        "body": {
+          "en": "Draw the V = I × R triangle from memory, then do fifteen Ohm's-law and power items in the app, writing units on every number. Follow with ten series/parallel items and, before computing, say which quantity is shared (current in series, voltage in parallel).<br><br>Pace: <b>40 seconds per item</b>. One-formula items should take 20 seconds; a series-versus-parallel comparison may use the full 40. Any longer means convert units and simplify, do not re-derive.",
+          "es": "Dibuja de memoria el triángulo V = I × R y luego resuelve quince reactivos de ley de Ohm y potencia en la app, escribiendo unidades en cada número. Sigue con diez reactivos de serie/paralelo y, antes de calcular, di qué cantidad se comparte (corriente en serie, voltaje en paralelo).<br><br>Ritmo: <b>40 segundos por reactivo</b>. Los de una sola fórmula deben tomar 20 segundos; una comparación serie contra paralelo puede usar los 40 completos. Si tardas más, convierte unidades y simplifica; no vuelvas a deducir."
+        }
+      }
+    ]
+  },
+  {
+    "id": "ai-four-stroke",
+    "subtest": "AI",
+    "topic": "four-stroke",
+    "title": {
+      "en": "The Four-Stroke Cycle and Engine Systems",
+      "es": "El ciclo de cuatro tiempos y los sistemas del motor"
+    },
+    "minutes": 7,
+    "sections": [
+      {
+        "type": "explain",
+        "title": {
+          "en": "Suck, squeeze, bang, blow",
+          "es": "Admisión, compresión, explosión, escape"
+        },
+        "body": {
+          "en": "A gasoline engine turns fuel into motion in four piston strokes, two full turns of the crankshaft. Mechanics remember them as <b>suck, squeeze, bang, blow</b>:<br><ul><li><b>Intake</b>: piston moves down, intake valve open, air-fuel mixture is drawn in.</li><li><b>Compression</b>: both valves closed, piston moves up and squeezes the mixture.</li><li><b>Power</b>: spark plug fires near top dead center, the explosion drives the piston down. This is the only stroke that makes power.</li><li><b>Exhaust</b>: exhaust valve open, piston moves up and pushes burned gases out.</li></ul>The <b>camshaft</b> opens the valves at the right moment; the <b>crankshaft</b> converts the piston's up-and-down into rotation; the <b>flywheel</b> keeps it spinning smoothly between power strokes.<br><br>Around the cylinder sit the support systems: <b>cooling</b> (radiator, water pump, thermostat), <b>lubrication</b> (oil pump, filter), <b>fuel</b> (pump, injectors), <b>ignition</b> (battery, coil, plugs) and <b>exhaust</b> (manifold, catalytic converter, muffler). A <b>diesel</b> skips spark plugs: it compresses air so hard it ignites the fuel by heat alone.",
+          "es": "Un motor de gasolina convierte combustible en movimiento en cuatro carreras del pistón, dos vueltas del cigüeñal. Los mecánicos dicen <b>suck, squeeze, bang, blow</b>:<br><ul><li><b>Admisión</b> (intake): el pistón baja, la válvula de admisión abre, entra la mezcla aire-combustible.</li><li><b>Compresión</b> (compression): ambas válvulas cerradas, el pistón sube y comprime la mezcla.</li><li><b>Potencia</b> (power): la bujía dispara cerca del punto muerto superior y la explosión empuja el pistón hacia abajo. Es la única carrera que genera potencia.</li><li><b>Escape</b> (exhaust): la válvula de escape abre, el pistón sube y saca los gases quemados.</li></ul>El <b>árbol de levas</b> (camshaft) abre las válvulas a tiempo; el <b>cigüeñal</b> (crankshaft) convierte el sube-y-baja en rotación; el <b>volante</b> (flywheel) mantiene el giro parejo.<br><br>Sistemas de apoyo: <b>enfriamiento</b> (radiador, bomba de agua, termostato), <b>lubricación</b> (bomba de aceite, filtro), <b>combustible</b> (bomba, inyectores), <b>encendido</b> (batería, bobina, bujías) y <b>escape</b> (múltiple, catalizador, mofle). Un <b>diésel</b> no tiene bujías: comprime tanto el aire que el combustible se enciende solo por el calor."
+        }
+      },
+      {
+        "type": "example",
+        "title": {
+          "en": "Worked example: three typical stems",
+          "es": "Ejemplo resuelto: tres enunciados típicos"
+        },
+        "body": {
+          "en": "<b>1. During which stroke are both valves closed and the piston moving upward?</b><br>Both closed rules out intake and exhaust. Piston moving up rules out power (piston goes down). Answer: <b>compression</b>. (Exhaust also moves up, but its valve is open.)<br><br><b>2. An engine overheats only in stop-and-go traffic but runs at normal temperature on the highway. The most likely cause is...</b><br>On the highway, air rushes through the radiator anyway; in traffic the engine depends on the fan. So the answer is a <b>failed cooling fan</b> (or fan clutch), not the thermostat, which would overheat everywhere.<br><br><b>3. A four-cylinder engine completes one full cycle. How many times does the crankshaft rotate?</b><br>One four-stroke cycle = four strokes = two full revolutions, regardless of cylinder count. Answer: <b>2</b>. Students who answer 4 counted strokes, not turns.<br><br>Note the pattern: identify the stroke by valves plus piston direction, and diagnose faults by asking which system the symptom depends on.",
+          "es": "<b>1. ¿En qué carrera están cerradas ambas válvulas y el pistón sube?</b><br>Ambas cerradas descarta admisión y escape. Pistón subiendo descarta potencia (ahí baja). Respuesta: <b>compresión</b>. (En escape también sube, pero su válvula está abierta.)<br><br><b>2. Un motor se sobrecalienta solo en tráfico pesado pero mantiene temperatura normal en carretera. La causa más probable es...</b><br>En carretera el aire atraviesa el radiador de todos modos; en tráfico el motor depende del ventilador. Así que la respuesta es un <b>ventilador de enfriamiento fallado</b> (o su clutch), no el termostato, que sobrecalentaría en todas partes.<br><br><b>3. Un motor de cuatro cilindros completa un ciclo entero. ¿Cuántas vueltas da el cigüeñal?</b><br>Un ciclo de cuatro tiempos = cuatro carreras = dos vueltas completas, sin importar el número de cilindros. Respuesta: <b>2</b>. Quien contesta 4 contó carreras, no vueltas.<br><br>Fíjate en el patrón: identifica la carrera por válvulas más dirección del pistón, y diagnostica fallas preguntando de qué sistema depende el síntoma."
+        }
+      },
+      {
+        "type": "trap",
+        "title": {
+          "en": "The trap: mixing up the two strokes that go up",
+          "es": "La trampa: confundir las dos carreras que suben"
+        },
+        "body": {
+          "en": "The most common miss on stroke items is answering <b>exhaust</b> when the stem describes <b>compression</b>, or the reverse. Both move the piston up. The tiebreaker is the valves: compression has both closed (you cannot squeeze with a door open); exhaust has the exhaust valve open. Likewise intake and power both move down, and the tiebreaker is whether the intake valve is open (intake) or the plug just fired (power).<br><br>Second trap: assigning the wrong job to a shaft. \"The camshaft converts reciprocating motion to rotary motion\" is wrong; that is the <b>crankshaft</b>. The camshaft only operates the valves.<br><br>Third: diesel versus gasoline. Students pick \"spark plug\" as a diesel component. Diesels use <b>glow plugs</b> only to warm the chamber for cold starts; ignition itself is by compression. And diesels run higher compression ratios (roughly 15:1 to 20:1) than gasoline engines (roughly 8:1 to 12:1), not lower.",
+          "es": "El error más común es contestar <b>escape</b> cuando el enunciado describe <b>compresión</b>, o al revés. En ambas el pistón sube. El desempate son las válvulas: en compresión ambas están cerradas (no puedes apretar con una puerta abierta); en escape la de escape está abierta. Igual, admisión y potencia bajan, y el desempate es si la válvula de admisión está abierta (admisión) o la bujía acaba de disparar (potencia).<br><br>Segunda trampa: asignar el trabajo equivocado a un eje. \"El árbol de levas convierte el movimiento alternativo en rotativo\" es falso; eso lo hace el <b>cigüeñal</b>. El árbol de levas solo opera las válvulas.<br><br>Tercera: diésel contra gasolina. El estudiante elige \"spark plug\" como componente diésel. Los diésel usan <b>glow plugs</b> solo para calentar la cámara en arranques fríos; el encendido es por compresión. Y manejan relaciones de compresión más altas (15:1 a 20:1) que los de gasolina (8:1 a 12:1), no más bajas."
+        }
+      },
+      {
+        "type": "drill",
+        "title": {
+          "en": "Drill",
+          "es": "Práctica"
+        },
+        "body": {
+          "en": "Draw the four strokes on a card as four cylinders with arrows for piston direction and O/C for each valve, and reproduce it from memory until it takes under a minute. Then do fifteen four-stroke and engine-system items in the app.<br><br>Pace: <b>42 seconds per item</b>. Stroke-identification items should be answered in 15 seconds from the valve-plus-direction rule; diagnosis items (overheating, no-start, smoke color) can use the full 42.",
+          "es": "Dibuja en una tarjeta las cuatro carreras como cuatro cilindros con flechas para la dirección del pistón y A/C (abierta/cerrada) para cada válvula, y reprodúcela de memoria hasta que te tome menos de un minuto. Luego resuelve quince reactivos de cuatro tiempos y sistemas del motor en la app.<br><br>Ritmo: <b>42 segundos por reactivo</b>. Identificar la carrera debe tomar 15 segundos con la regla de válvulas más dirección; los de diagnóstico (sobrecalentamiento, no arranca, color del humo) pueden usar los 42 completos."
+        }
+      }
+    ]
+  },
+  {
+    "id": "si-tools-saws-joining",
+    "subtest": "SI",
+    "topic": "saws",
+    "title": {
+      "en": "Tools by Task, Saws and Joining Methods",
+      "es": "Herramientas por tarea, sierras y métodos de unión"
+    },
+    "minutes": 7,
+    "sections": [
+      {
+        "type": "explain",
+        "title": {
+          "en": "Name the job, then the tool",
+          "es": "Nombra el trabajo y luego la herramienta"
+        },
+        "body": {
+          "en": "Shop Information gives you 36 seconds per item, and most items show a picture or describe a job and ask which tool fits. Organize tools by <b>what they do</b>, not by what they look like.<br><br><b>Saws</b> are the biggest family. A <b>crosscut saw</b> cuts across the wood grain (fine teeth); a <b>rip saw</b> cuts along the grain (coarse, chisel-like teeth). A <b>hacksaw</b> cuts metal. A <b>coping saw</b> cuts curves in thin wood. A <b>backsaw</b> in a <b>miter box</b> cuts precise angles. A <b>circular saw</b> makes straight power cuts; a <b>jigsaw</b> powered curves; a <b>band saw</b> curves in thick stock.<br><br><b>Joining</b> depends on the materials. Wood: nails (fast), screws (strong, removable), glue with clamps, and joints like butt, lap, miter, dado and dovetail (strongest for drawers). Metal: bolts (removable), rivets (permanent, no heat), welding (fuses the metals), brazing and soldering (only a filler melts; soldering is the lowest temperature, used for electronics and plumbing).",
+          "es": "Shop Information te da 36 segundos por reactivo; casi todos describen un trabajo y preguntan qué herramienta corresponde. Organiza las herramientas por <b>lo que hacen</b>, no por cómo se ven.<br><br>Las <b>sierras</b> son la familia más grande. La <b>crosscut saw</b> corta a través de la veta (dientes finos); la <b>rip saw</b> a lo largo (dientes gruesos, tipo cincel). La <b>hacksaw</b> corta metal. La <b>coping saw</b> corta curvas en madera delgada. La <b>backsaw</b> con <b>miter box</b> corta ángulos exactos. La <b>circular saw</b> hace cortes rectos a motor; la <b>jigsaw</b> curvas a motor; la <b>band saw</b> curvas en material grueso.<br><br>La <b>unión</b> depende del material. Madera: clavos (rápido), tornillos (fuerte, desmontable), pegamento con prensas, y uniones <b>butt</b>, <b>lap</b>, <b>miter</b>, <b>dado</b> y <b>dovetail</b> (cola de milano, la más fuerte para cajones). Metal: pernos (desmontable), remaches (permanente, sin calor), <b>welding</b> (funde los metales), <b>brazing</b> y <b>soldering</b> (solo se funde un aporte; soldering es la más fría, para electrónica y plomería)."
+        }
+      },
+      {
+        "type": "example",
+        "title": {
+          "en": "Worked example: three item types",
+          "es": "Ejemplo resuelto: tres tipos de reactivo"
+        },
+        "body": {
+          "en": "<b>1. Which saw is best for cutting a 2×4 to length across the grain by hand?</b><br>A. rip saw &nbsp; B. crosscut saw &nbsp; C. hacksaw &nbsp; D. coping saw<br>\"To length\" means across the grain. Hacksaw is for metal; coping is for curves. Answer: <b>B</b>.<br><br><b>2. Two pieces of sheet metal must be joined permanently without heat. Use...</b><br>A. welding &nbsp; B. soldering &nbsp; C. rivets &nbsp; D. bolts<br>Welding and soldering use heat. Bolts are removable, not \"permanent.\" Answer: <b>C, rivets</b>.<br><br><b>3. Which joint is strongest for the corner of a drawer?</b><br>A. butt &nbsp; B. miter &nbsp; C. dovetail &nbsp; D. lap<br>Dovetail pins interlock and resist being pulled apart, exactly the force a drawer sees. Answer: <b>C</b>. Butt is weakest, miter is for looks, lap is medium.<br><br>Each took under 20 seconds because the question named the job and your tool list was already sorted by job.",
+          "es": "<b>1. ¿Qué sierra es mejor para cortar a mano un 2×4 a la medida?</b><br>A. rip saw &nbsp; B. crosscut saw &nbsp; C. hacksaw &nbsp; D. coping saw<br>\"A la medida\" es a través de la veta. Hacksaw es para metal; coping para curvas. Respuesta: <b>B</b>.<br><br><b>2. Dos láminas de metal deben unirse de forma permanente sin calor. Usa...</b><br>A. welding &nbsp; B. soldering &nbsp; C. rivets &nbsp; D. bolts<br>Welding y soldering usan calor. Los pernos son desmontables, no \"permanentes\". Respuesta: <b>C, rivets</b> (remaches).<br><br><b>3. ¿Qué unión es la más fuerte para la esquina de un cajón?</b><br>A. butt &nbsp; B. miter &nbsp; C. dovetail &nbsp; D. lap<br>La cola de milano se entrelaza y resiste el jalón, justo la fuerza de un cajón. Respuesta: <b>C</b>. Butt es la más débil, miter es para apariencia, lap es intermedia.<br><br>Cada uno tomó menos de 20 segundos porque la pregunta nombró el trabajo."
+        }
+      },
+      {
+        "type": "trap",
+        "title": {
+          "en": "The trap: rip vs crosscut, and solder vs weld",
+          "es": "La trampa: rip contra crosscut, y soldering contra welding"
+        },
+        "body": {
+          "en": "The most common miss: choosing <b>rip saw</b> for cutting a board to length. Students remember \"rip = wood\" and stop. Rip saws go <i>with</i> the grain, along the board's length, to make it narrower. Cutting to length is across the grain: <b>crosscut</b>. Memory hook: you <i>rip</i> a sheet of paper along its length.<br><br>Second trap: choosing <b>welding</b> for electronics or copper pipe. Welding melts the base metal itself, far too hot for circuit boards. Soldering (below about 840 °F) melts only the filler; brazing is the same idea but hotter, with a stronger joint. Order of heat: solder &lt; braze &lt; weld.<br><br>Third: <b>nails versus screws</b>. \"Which fastener is easily removed and gives the strongest hold?\" is screws. Nails are faster but pull out. And a <b>lag screw</b> is turned with a wrench, not a screwdriver, because it has a hex head.",
+          "es": "El error más común: elegir <b>rip saw</b> para cortar una tabla a la medida. El estudiante recuerda \"rip = madera\" y se detiene. Los serruchos de hilo van <i>con</i> la veta, a lo largo de la tabla, para angostarla. Cortar a la medida es a través de la veta: <b>crosscut</b>. Gancho de memoria: un papel se <i>rasga</i> (rip) a lo largo.<br><br>Segunda trampa: elegir <b>welding</b> para electrónica o tubería de cobre. Welding funde el metal base, demasiado caliente para tarjetas de circuito. Soldering (por debajo de unos 840 °F) funde solo el aporte; brazing es la misma idea pero más caliente, con unión más fuerte. Orden de calor: solder &lt; braze &lt; weld.<br><br>Tercera: <b>clavos contra tornillos</b>. \"¿Qué sujetador se quita fácilmente y da el agarre más fuerte?\" son los tornillos. Los clavos son más rápidos pero se zafan. Y un <b>tirafondo</b> (lag screw) se gira con llave, no con desarmador, porque tiene cabeza hexagonal."
+        }
+      },
+      {
+        "type": "drill",
+        "title": {
+          "en": "Drill",
+          "es": "Práctica"
+        },
+        "body": {
+          "en": "Make a two-column card: left column the job (cut across grain, cut metal, cut curves, join permanently without heat, join electronics, strongest drawer joint, removable metal joint), right column the tool or method. Quiz yourself from the left column only.<br><br>Then do twenty saw, fastener and joint items in the app. Pace: <b>36 seconds per item</b>; recognition items should take 15 seconds. If a picture is unfamiliar, eliminate the tools you <i>can</i> name and guess in under 30 seconds.",
+          "es": "Haz una tarjeta de dos columnas: a la izquierda el trabajo (cortar a través de la veta, cortar metal, cortar curvas, unir permanentemente sin calor, unir electrónica, unión más fuerte de cajón, unión metálica desmontable), a la derecha la herramienta o el método. Pregúntate solo desde la columna izquierda.<br><br>Luego resuelve veinte reactivos de sierras, sujetadores y uniones en la app. Ritmo: <b>36 segundos por reactivo</b>; los de reconocimiento deben tomar 15 segundos. Si una imagen no te resulta familiar, elimina las herramientas que <i>sí</i> puedes nombrar y adivina en menos de 30 segundos."
+        }
+      }
+    ]
+  },
+  {
+    "id": "mc-simple-machines",
+    "subtest": "MC",
+    "topic": "levers",
+    "title": {
+      "en": "Levers, Pulleys, Gears: Mechanical Advantage Rules",
+      "es": "Palancas, poleas, engranes: reglas de la ventaja mecánica"
+    },
+    "minutes": 8,
+    "sections": [
+      {
+        "type": "explain",
+        "title": {
+          "en": "Trade distance for force",
+          "es": "Cambia distancia por fuerza"
+        },
+        "body": {
+          "en": "Every simple machine obeys one law: <b>work in = work out</b>, and work = force × distance. A machine cannot give free work; it lets you push with <i>less force</i> over <i>more distance</i>. <b>Mechanical advantage (MA)</b> is the multiplier: MA = load ÷ effort.<br><br><b>Levers.</b> MA = effort arm ÷ load arm, measured from the fulcrum. Three classes: <b>first</b> (fulcrum in the middle: seesaw, crowbar), <b>second</b> (load in the middle: wheelbarrow, MA always &gt; 1), <b>third</b> (effort in the middle: tweezers, broom, MA &lt; 1 but faster).<br><br><b>Pulleys.</b> A fixed pulley only changes direction (MA 1). In a block-and-tackle, <b>MA = rope segments supporting the load</b>. You pull MA times as far as the load rises.<br><br><b>Gears.</b> Meshed gears turn opposite ways; a chain or belt keeps them turning the same way. A 10-tooth driving a 30-tooth turns it at ⅓ the speed with 3× the torque.",
+          "es": "Toda máquina simple obedece una ley: <b>trabajo que entra = trabajo que sale</b>, y trabajo = fuerza × distancia. Una máquina no regala trabajo; te deja empujar con <i>menos fuerza</i> por <i>más distancia</i>. La <b>ventaja mecánica (MA)</b> es el multiplicador: MA = carga ÷ esfuerzo.<br><br><b>Palancas.</b> MA = brazo del esfuerzo ÷ brazo de la carga, medidos desde el fulcro. Tres clases: <b>primera</b> (fulcro en medio: sube y baja, barreta), <b>segunda</b> (carga en medio: carretilla, MA siempre &gt; 1), <b>tercera</b> (esfuerzo en medio: pinzas, escoba, MA &lt; 1 pero más rápida).<br><br><b>Poleas.</b> Una polea fija solo cambia la dirección (MA 1). En un aparejo, <b>MA = tramos de cuerda que sostienen la carga</b>. Jalas MA veces lo que sube la carga.<br><br><b>Engranes.</b> Los acoplados giran en sentidos opuestos; una banda o cadena los mantiene en el mismo sentido. Uno de 10 dientes que mueve uno de 30 lo gira a ⅓ de velocidad con 3× el torque."
+        }
+      },
+      {
+        "type": "example",
+        "title": {
+          "en": "Worked example: one of each",
+          "es": "Ejemplo resuelto: uno de cada tipo"
+        },
+        "body": {
+          "en": "<b>1. A 60-in crowbar has its fulcrum 6 in from the load end. What effort lifts a 300-lb rock?</b><br>Effort arm = 60 − 6 = 54 in; load arm = 6 in. MA = 54 ÷ 6 = 9. Effort = 300 ÷ 9 ≈ <b>33 lb</b>.<br><br><b>2. A block-and-tackle has 4 rope segments supporting the load. Lifting a 200-lb crate 3 ft needs what pull, and how much rope?</b><br>MA = 4. Pull = 200 ÷ 4 = <b>50 lb</b>. Rope = 3 × 4 = <b>12 ft</b>. Check: 50 × 12 = 600 ft·lb in; 200 × 3 = 600 ft·lb out. Equal.<br><br><b>3. Gear A (12 teeth) drives gear B (36 teeth) at 900 rpm clockwise. Gear B?</b><br>36 ÷ 12 = 3, so B turns 3× slower: 900 ÷ 3 = <b>300 rpm</b>, <b>counterclockwise</b> because meshed gears reverse.<br><br>Every one reduces to \"count the arms, count the ropes, count the teeth.\"",
+          "es": "<b>1. Una barreta de 60 in tiene el fulcro a 6 in del extremo de la carga. ¿Qué esfuerzo levanta una roca de 300 lb?</b><br>Brazo del esfuerzo = 54 in; brazo de la carga = 6 in. MA = 9. Esfuerzo = 300 ÷ 9 ≈ <b>33 lb</b>.<br><br><b>2. Un aparejo con 4 tramos de cuerda sostiene la carga. Levantar 200 lb a 3 pies, ¿qué jalón y cuánta cuerda requiere?</b><br>MA = 4. Jalón = 200 ÷ 4 = <b>50 lb</b>. Cuerda = 3 × 4 = <b>12 pies</b>. Comprueba: 50 × 12 = 600 entran; 200 × 3 = 600 salen.<br><br><b>3. El engrane A (12 dientes) mueve al B (36 dientes) a 900 rpm, sentido horario. ¿Y B?</b><br>36 ÷ 12 = 3, así que B gira 3× más lento: 900 ÷ 3 = <b>300 rpm</b>, y <b>antihorario</b> porque los acoplados invierten.<br><br>Todo se reduce a contar brazos, cuerdas y dientes."
+        }
+      },
+      {
+        "type": "trap",
+        "title": {
+          "en": "The trap: counting pulleys instead of ropes",
+          "es": "La trampa: contar poleas en lugar de cuerdas"
+        },
+        "body": {
+          "en": "On pulley items, students answer with the <b>number of pulleys</b>. A two-pulley system might have MA 2, 3 or 4 depending on how the rope is threaded. Count only the rope segments that pull <i>up</i> on the moving block; the segment running from a fixed pulley to your hand does not count.<br><br>Second trap: <b>gear speed backward</b>. \"Big gear drives small gear\" makes the small one spin <i>faster</i>, not slower. Students reason \"bigger is stronger\" and pick the slower number. Rule: rpm × teeth is equal for both gears, so fewer teeth always means faster.<br><br>Third: <b>measuring lever arms from the wrong point</b>. Arms are measured from the fulcrum, not from the ends of the bar. On the crowbar, using 60 as the effort arm instead of 54 gives MA 10 and an effort of 30 lb, which will be one of the choices.",
+          "es": "En reactivos de poleas, el estudiante contesta con el <b>número de poleas</b>. Un sistema de dos poleas puede tener MA 2, 3 o 4 según cómo esté pasada la cuerda. Cuenta solo los tramos que jalan <i>hacia arriba</i> el bloque móvil; el tramo que va de una polea fija a tu mano no cuenta.<br><br>Segunda trampa: <b>velocidad de engranes al revés</b>. \"El grande mueve al chico\" hace que el chico gire <i>más rápido</i>, no más lento. El estudiante razona \"más grande es más fuerte\" y elige el número menor. Regla: rpm × dientes es igual para ambos, así que menos dientes siempre significa más rápido.<br><br>Tercera: <b>medir los brazos de palanca desde el punto equivocado</b>. Se miden desde el fulcro, no desde los extremos de la barra. En la barreta, usar 60 como brazo del esfuerzo en lugar de 54 da MA 10 y un esfuerzo de 30 lb, que será una de las opciones."
+        }
+      },
+      {
+        "type": "formulas",
+        "title": {
+          "en": "Formula card",
+          "es": "Tarjeta de fórmulas"
+        },
+        "body": {
+          "en": "<ul><li><b>Work</b> = force × distance; work in = work out (ideal machine)</li><li><b>MA</b> = load ÷ effort = effort distance ÷ load distance</li><li><b>Lever:</b> MA = effort arm ÷ load arm; balance: F₁ × d₁ = F₂ × d₂</li><li>Class 1: fulcrum middle (seesaw). Class 2: load middle (wheelbarrow). Class 3: effort middle (tweezers)</li><li><b>Pulley:</b> MA = supporting rope segments; rope pulled = MA × lift height</li><li><b>Gears:</b> rpm₁ × teeth₁ = rpm₂ × teeth₂; meshed = opposite direction; belt/chain = same direction; torque rises as speed falls</li><li><b>Wheel and axle:</b> MA = wheel radius ÷ axle radius</li><li><b>Inclined plane:</b> MA = ramp length ÷ height</li><li><b>Screw:</b> finer thread (smaller pitch) = higher MA</li><li><b>Power</b> = work ÷ time; 1 hp = 550 ft·lb/s ≈ 746 W</li></ul>",
+          "es": "<ul><li><b>Trabajo</b> = fuerza × distancia; trabajo que entra = trabajo que sale (máquina ideal)</li><li><b>MA</b> = carga ÷ esfuerzo = distancia del esfuerzo ÷ distancia de la carga</li><li><b>Palanca:</b> MA = brazo del esfuerzo ÷ brazo de la carga; equilibrio: F₁ × d₁ = F₂ × d₂</li><li>Clase 1: fulcro en medio (sube y baja). Clase 2: carga en medio (carretilla). Clase 3: esfuerzo en medio (pinzas)</li><li><b>Polea:</b> MA = tramos de cuerda que sostienen; cuerda jalada = MA × altura levantada</li><li><b>Engranes:</b> rpm₁ × dientes₁ = rpm₂ × dientes₂; acoplados = sentido opuesto; banda/cadena = mismo sentido; el torque sube cuando la velocidad baja</li><li><b>Rueda y eje:</b> MA = radio de la rueda ÷ radio del eje</li><li><b>Plano inclinado:</b> MA = longitud de la rampa ÷ altura</li><li><b>Tornillo:</b> rosca más fina (menor paso) = mayor MA</li><li><b>Potencia</b> = trabajo ÷ tiempo; 1 hp = 550 ft·lb/s ≈ 746 W</li></ul>"
+        }
+      },
+      {
+        "type": "drill",
+        "title": {
+          "en": "Drill",
+          "es": "Práctica"
+        },
+        "body": {
+          "en": "Do fifteen lever, pulley and gear items in the app. On every pulley picture, physically trace each rope segment with your finger and count aloud before answering. On every gear item, write \"small = fast, meshed = reverse\" in the margin first.<br><br>Pace: <b>88 seconds per item</b>. Direction-only and class-only items should take 20 seconds; calculation items 60 to 80. Use the work-in = work-out check on any answer you are unsure of; it takes ten seconds.",
+          "es": "Resuelve quince reactivos de palancas, poleas y engranes en la app. En cada imagen de poleas, sigue físicamente cada tramo de cuerda con el dedo y cuenta en voz alta antes de responder. En cada reactivo de engranes, escribe primero en el margen \"chico = rápido, acoplados = invierten\".<br><br>Ritmo: <b>88 segundos por reactivo</b>. Los de solo dirección o solo clase deben tomar 20 segundos; los de cálculo, de 60 a 80. Usa la comprobación trabajo que entra = trabajo que sale en cualquier respuesta dudosa; toma diez segundos."
+        }
+      }
+    ]
+  },
+  {
+    "id": "ao-mirror-odd-piece",
+    "subtest": "AO",
+    "topic": "puzzle",
+    "title": {
+      "en": "The Mirror Rule and the Odd-Piece Method",
+      "es": "La regla del espejo y el método de la pieza rara"
+    },
+    "minutes": 6,
+    "sections": [
+      {
+        "type": "explain",
+        "title": {
+          "en": "Two rules that solve both AO item types",
+          "es": "Dos reglas que resuelven ambos tipos de reactivos de AO"
+        },
+        "body": {
+          "en": "Assembling Objects has two item types, about 72 seconds each. Both reward method over staring.<br><br><b>Connector items</b> show two shapes, each with a labeled point (A, B), and ask which answer joins them at those points with a line. The killer rule is the <b>mirror rule</b>: <u>shapes may be rotated but never flipped</u>. A rotated shape is the same shape; a mirror image is not. For each answer ask \"could I turn the original into this, or would I have to flip it?\" Flipped means wrong. Then check that the line touches the same points (A on the same corner, B on the same edge) as in the question.<br><br><b>Puzzle items</b> show loose pieces and ask which assembled figure uses exactly those pieces. Use the <b>odd-piece method</b>: pick the strangest piece (a sliver, a notch, the only curve) and hunt for it in each answer. Any answer without it is gone. Repeat with the next-strangest.",
+          "es": "Assembling Objects tiene dos tipos de reactivos, unos 72 segundos cada uno. Ambos premian el método sobre quedarse mirando.<br><br>Los <b>reactivos de conectores</b> muestran dos figuras con puntos marcados (A, B) y preguntan qué respuesta las une en esos puntos con una línea. La regla decisiva es la <b>regla del espejo</b>: <u>las figuras pueden rotarse pero nunca voltearse</u>. Una figura rotada es la misma; una imagen espejo no. En cada respuesta pregúntate \"¿podría girar la original hasta esto, o tendría que voltearla?\". Volteada es incorrecta. Luego verifica que la línea toque los mismos puntos (A en la misma esquina, B en el mismo borde).<br><br>Los <b>reactivos de rompecabezas</b> muestran piezas sueltas y preguntan qué figura armada las usa exactamente. Usa el <b>método de la pieza rara</b>: elige la más extraña (una astilla, una muesca, la única curva) y búscala en cada respuesta. La que no la tenga se descarta. Repite con la siguiente."
+        }
+      },
+      {
+        "type": "example",
+        "title": {
+          "en": "Worked example: one connector, one puzzle",
+          "es": "Ejemplo resuelto: un conector y un rompecabezas"
+        },
+        "body": {
+          "en": "<b>Connector item.</b> The question shows a right triangle with point A where the short leg meets the hypotenuse, and an L-shape with point B at the tip of its long arm.<br><br>Answer 1 shows the triangle's long leg on the right instead of the left; no rotation produces that, only a flip. Gone. Answer 2 has the line touching the right-angle corner, not A's corner. Gone. Answer 3 shows the L rotated 90°, line from the correct triangle corner to the tip of the long arm. Answer 4 attaches to the L's short arm. Gone. <b>Answer 3.</b> About 45 seconds.<br><br><b>Puzzle item.</b> Pieces: a large square, two identical right triangles, one thin trapezoid. The trapezoid is the odd piece. Answers 1 and 4 show only triangles and rectangles: gone. Answer 2 has a trapezoid but three triangles: gone, wrong count. <b>Answer 3</b> remains; confirm the square is there. About 40 seconds.",
+          "es": "<b>Reactivo de conector.</b> La pregunta muestra un triángulo rectángulo con el punto A donde el cateto corto toca la hipotenusa, y una L con el punto B en la punta de su brazo largo.<br><br>La respuesta 1 muestra el cateto largo a la derecha; ninguna rotación produce eso, solo un volteo. Fuera. La respuesta 2 tiene la línea en la esquina del ángulo recto, no en la de A. Fuera. La respuesta 3 muestra la L rotada 90°, con la línea desde la esquina correcta hasta la punta del brazo largo. La respuesta 4 se une al brazo corto. Fuera. <b>Respuesta 3.</b> Unos 45 segundos.<br><br><b>Reactivo de rompecabezas.</b> Piezas: un cuadrado grande, dos triángulos rectángulos idénticos y un trapecio delgado. El trapecio es la pieza rara. Las respuestas 1 y 4 muestran solo triángulos y rectángulos: fuera. La 2 tiene trapecio pero tres triángulos: fuera, conteo incorrecto. Queda la <b>respuesta 3</b>; confirma el cuadrado. Unos 40 segundos."
+        }
+      },
+      {
+        "type": "trap",
+        "title": {
+          "en": "The trap: the flipped shape that looks right",
+          "es": "La trampa: la figura volteada que parece correcta"
+        },
+        "body": {
+          "en": "The wrong answer most students pick on connector items is the one with a <b>mirror-image shape</b> and a perfectly placed line. The line is the bait: the student checks A and B, sees them on the right spots, and never notices the triangle has been flipped. Test writers build one such choice into nearly every item.<br><br>The fix is order: check <i>shape orientation first</i>, line second. Pick one asymmetric feature (the longest side, a notch, a lone bump) and trace where it should end up under rotation. If it lands on the wrong side, you are looking at a reflection.<br><br>On puzzle items, the trap is the answer that uses the right <i>kinds</i> of pieces in the wrong <i>count</i> or <i>size</i>: three small triangles where the question gave two, or a square that has quietly become a rectangle. After the odd-piece pass, count pieces in your surviving answer and compare it with the pile.",
+          "es": "La respuesta incorrecta que más eligen en conectores es la que tiene una <b>figura en espejo</b> y una línea perfectamente colocada. La línea es la carnada: el estudiante revisa A y B, los ve en los lugares correctos y nunca nota que el triángulo está volteado. Quienes escriben el examen meten una opción así en casi todos los reactivos.<br><br>La solución es el orden: revisa <i>la orientación de la figura primero</i>, la línea después. Elige un rasgo asimétrico (el lado más largo, una muesca, una protuberancia sola) y sigue dónde debería quedar al rotar. Si cae del lado equivocado, estás viendo un reflejo.<br><br>En rompecabezas, la trampa es la respuesta que usa los <i>tipos</i> correctos de piezas en <i>cantidad</i> o <i>tamaño</i> equivocados: tres triángulos chicos donde la pregunta dio dos, o un cuadrado que discretamente se volvió rectángulo. Después de la pasada de la pieza rara, cuenta las piezas en tu respuesta sobreviviente y compáralas con el montón."
+        }
+      },
+      {
+        "type": "drill",
+        "title": {
+          "en": "Drill",
+          "es": "Práctica"
+        },
+        "body": {
+          "en": "Do AO sets of ten in the app, alternating connector and puzzle items. On every connector item, say \"rotate or flip?\" for each choice before you look at the line. On every puzzle item, name the odd piece out loud before scanning the answers.<br><br>Pace: <b>72 seconds per item</b> is the budget; aim for 45. If you are past 60 seconds on an item, eliminate what you can, pick, and move on; AO rewards steady pace far more than certainty on any one item.",
+          "es": "Haz sets de diez reactivos de AO en la app, alternando conectores y rompecabezas. En cada conector, di \"¿rotar o voltear?\" para cada opción antes de mirar la línea. En cada rompecabezas, nombra la pieza rara en voz alta antes de recorrer las respuestas.<br><br>Ritmo: <b>72 segundos por reactivo</b> es el presupuesto; apunta a 45. Si pasas de 60 segundos en un reactivo, elimina lo que puedas, elige y avanza; AO premia el ritmo constante mucho más que la certeza en un solo reactivo."
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,3202 @@
+[
+  {
+    "id": "ei-0001",
+    "subtest": "EI",
+    "topic": "ohms-law",
+    "difficulty": 2,
+    "stem": {
+      "en": "A 12-volt circuit has a resistance of 4 ohms. What current flows?",
+      "es": "Un circuito de 12 voltios tiene una resistencia de 4 ohmios. ¿Qué corriente circula?"
+    },
+    "choices": [
+      {
+        "en": "3 A",
+        "es": "3 A"
+      },
+      {
+        "en": "48 A",
+        "es": "48 A"
+      },
+      {
+        "en": "8 A",
+        "es": "8 A"
+      },
+      {
+        "en": "0.33 A",
+        "es": "0.33 A"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "I = V / R = 12 / 4 = 3 amps.",
+      "es": "I = V / R = 12 / 4 = 3 amperios."
+    },
+    "trap": {
+      "en": "48 A is the multiply-instead-of-divide error. Ohm's triangle: V on top, I and R below.",
+      "es": "48 A es el error de multiplicar en vez de dividir. Triángulo de Ohm: V arriba, I y R abajo."
+    },
+    "strategyRef": "ei.ohm-triangle",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0002",
+    "subtest": "EI",
+    "topic": "parallel",
+    "difficulty": 3,
+    "stem": {
+      "en": "Two 10-ohm resistors are connected in parallel. The equivalent resistance is",
+      "es": "Dos resistencias de 10 ohmios se conectan en paralelo. La resistencia equivalente es"
+    },
+    "choices": [
+      {
+        "en": "20 Ω",
+        "es": "20 Ω"
+      },
+      {
+        "en": "10 Ω",
+        "es": "10 Ω"
+      },
+      {
+        "en": "5 Ω",
+        "es": "5 Ω"
+      },
+      {
+        "en": "2.5 Ω",
+        "es": "2.5 Ω"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Two equal resistors in parallel give R/2 = 5 Ω. In parallel the total is always smaller than the smallest branch.",
+      "es": "Dos resistencias iguales en paralelo dan R/2 = 5 Ω. En paralelo, el total siempre es menor que la rama más pequeña."
+    },
+    "trap": {
+      "en": "Series adds (20 Ω); parallel shrinks. If the answer is bigger than either resistor, it is the series answer.",
+      "es": "Serie suma (20 Ω); paralelo reduce. Si la respuesta es mayor que cualquiera de las dos, es la respuesta de serie."
+    },
+    "strategyRef": "ei.series-parallel",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0003",
+    "subtest": "EI",
+    "topic": "ohms-law",
+    "difficulty": 1,
+    "stem": {
+      "en": "A current of 2 A flows through a 6-ohm resistor. What is the voltage across the resistor?",
+      "es": "Una corriente de 2 A circula por una resistencia de 6 ohmios. ¿Cuál es el voltaje en la resistencia?"
+    },
+    "choices": [
+      {
+        "en": "3 V",
+        "es": "3 V"
+      },
+      {
+        "en": "8 V",
+        "es": "8 V"
+      },
+      {
+        "en": "12 V",
+        "es": "12 V"
+      },
+      {
+        "en": "0.33 V",
+        "es": "0.33 V"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "V = I × R = 2 A × 6 Ω = 12 volts.",
+      "es": "V = I × R = 2 A × 6 Ω = 12 voltios."
+    },
+    "trap": {
+      "en": "\"3 V\" divides R by I and \"8 V\" adds them. Cover V in the triangle and what remains is I × R.",
+      "es": "\"3 V\" divide R entre I y \"8 V\" los suma. Tapa V en el triángulo y lo que queda es I × R."
+    },
+    "strategyRef": "ei.ohm-triangle",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0004",
+    "subtest": "EI",
+    "topic": "ohms-law",
+    "difficulty": 2,
+    "stem": {
+      "en": "A 24 V supply pushes 0.5 A through a heater element. What is the element's resistance?",
+      "es": "Una fuente de 24 V hace circular 0.5 A por un elemento calefactor. ¿Cuál es la resistencia del elemento?"
+    },
+    "choices": [
+      {
+        "en": "12 Ω",
+        "es": "12 Ω"
+      },
+      {
+        "en": "24.5 Ω",
+        "es": "24.5 Ω"
+      },
+      {
+        "en": "0.02 Ω",
+        "es": "0.02 Ω"
+      },
+      {
+        "en": "48 Ω",
+        "es": "48 Ω"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "R = V / I = 24 / 0.5 = 48 ohms. Dividing by one half doubles the number.",
+      "es": "R = V / I = 24 / 0.5 = 48 ohmios. Dividir entre un medio duplica el número."
+    },
+    "trap": {
+      "en": "\"12 Ω\" multiplies 24 by 0.5 instead of dividing. Dividing by a fraction makes the result larger, not smaller.",
+      "es": "\"12 Ω\" multiplica 24 por 0.5 en vez de dividir. Dividir entre una fracción hace el resultado más grande, no más pequeño."
+    },
+    "strategyRef": "ei.ohm-triangle",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0005",
+    "subtest": "EI",
+    "topic": "power",
+    "difficulty": 1,
+    "stem": {
+      "en": "An appliance plugged into a 120 V outlet draws 5 A. How much power does it use?",
+      "es": "Un aparato conectado a un tomacorriente de 120 V consume 5 A. ¿Cuánta potencia usa?"
+    },
+    "choices": [
+      {
+        "en": "600 W",
+        "es": "600 W"
+      },
+      {
+        "en": "24 W",
+        "es": "24 W"
+      },
+      {
+        "en": "125 W",
+        "es": "125 W"
+      },
+      {
+        "en": "2,880 W",
+        "es": "2,880 W"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "P = V × I = 120 V × 5 A = 600 watts.",
+      "es": "P = V × I = 120 V × 5 A = 600 vatios."
+    },
+    "trap": {
+      "en": "\"24 W\" divides and \"125 W\" adds. Power is the product of volts and amps.",
+      "es": "\"24 W\" divide y \"125 W\" suma. La potencia es el producto de voltios por amperios."
+    },
+    "strategyRef": "ei.ohm-triangle",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0006",
+    "subtest": "EI",
+    "topic": "power",
+    "difficulty": 2,
+    "stem": {
+      "en": "A light bulb is rated 60 W at 120 V. How much current does it draw when lit?",
+      "es": "Un foco está especificado para 60 W a 120 V. ¿Cuánta corriente consume encendido?"
+    },
+    "choices": [
+      {
+        "en": "2 A",
+        "es": "2 A"
+      },
+      {
+        "en": "0.5 A",
+        "es": "0.5 A"
+      },
+      {
+        "en": "60 A",
+        "es": "60 A"
+      },
+      {
+        "en": "7,200 A",
+        "es": "7,200 A"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "I = P / V = 60 W / 120 V = 0.5 A.",
+      "es": "I = P / V = 60 W / 120 V = 0.5 A."
+    },
+    "trap": {
+      "en": "\"2 A\" flips the division (120 / 60). Watts divided by volts gives amps, not the other way around.",
+      "es": "\"2 A\" invierte la división (120 / 60). Vatios entre voltios da amperios, no al revés."
+    },
+    "strategyRef": "ei.ohm-triangle",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0007",
+    "subtest": "EI",
+    "topic": "power",
+    "difficulty": 3,
+    "stem": {
+      "en": "A current of 3 A flows through a 10-ohm resistor. How much power is dissipated as heat?",
+      "es": "Una corriente de 3 A circula por una resistencia de 10 ohmios. ¿Cuánta potencia se disipa en forma de calor?"
+    },
+    "choices": [
+      {
+        "en": "30 W",
+        "es": "30 W"
+      },
+      {
+        "en": "300 W",
+        "es": "300 W"
+      },
+      {
+        "en": "3.3 W",
+        "es": "3.3 W"
+      },
+      {
+        "en": "90 W",
+        "es": "90 W"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "P = I² × R = 3² × 10 = 9 × 10 = 90 W. Equivalently, V = 3 × 10 = 30 V and P = V × I = 30 × 3 = 90 W.",
+      "es": "P = I² × R = 3² × 10 = 9 × 10 = 90 W. De forma equivalente, V = 3 × 10 = 30 V y P = V × I = 30 × 3 = 90 W."
+    },
+    "trap": {
+      "en": "\"30 W\" forgets to square the current (or stops after computing the voltage). Power grows with the square of current.",
+      "es": "\"30 W\" olvida elevar la corriente al cuadrado (o se detiene tras calcular el voltaje). La potencia crece con el cuadrado de la corriente."
+    },
+    "strategyRef": "ei.ohm-triangle",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0008",
+    "subtest": "EI",
+    "topic": "series",
+    "difficulty": 1,
+    "stem": {
+      "en": "Resistors of 5 Ω, 10 Ω and 15 Ω are connected in series. What is the total resistance?",
+      "es": "Resistencias de 5 Ω, 10 Ω y 15 Ω se conectan en serie. ¿Cuál es la resistencia total?"
+    },
+    "choices": [
+      {
+        "en": "2.7 Ω",
+        "es": "2.7 Ω"
+      },
+      {
+        "en": "10 Ω",
+        "es": "10 Ω"
+      },
+      {
+        "en": "30 Ω",
+        "es": "30 Ω"
+      },
+      {
+        "en": "15 Ω",
+        "es": "15 Ω"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "In series the same current passes through each resistor, so resistances simply add: 5 + 10 + 15 = 30 Ω.",
+      "es": "En serie, la misma corriente pasa por cada resistencia, así que las resistencias simplemente se suman: 5 + 10 + 15 = 30 Ω."
+    },
+    "trap": {
+      "en": "\"2.7 Ω\" is the parallel result; \"10 Ω\" is the average. Series total is always larger than the largest resistor.",
+      "es": "\"2.7 Ω\" es el resultado en paralelo; \"10 Ω\" es el promedio. El total en serie siempre es mayor que la resistencia más grande."
+    },
+    "strategyRef": "ei.series-parallel",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0009",
+    "subtest": "EI",
+    "topic": "parallel",
+    "difficulty": 3,
+    "stem": {
+      "en": "A 6 Ω resistor and a 3 Ω resistor are connected in parallel. What is the equivalent resistance?",
+      "es": "Una resistencia de 6 Ω y una de 3 Ω se conectan en paralelo. ¿Cuál es la resistencia equivalente?"
+    },
+    "choices": [
+      {
+        "en": "4.5 Ω",
+        "es": "4.5 Ω"
+      },
+      {
+        "en": "2 Ω",
+        "es": "2 Ω"
+      },
+      {
+        "en": "9 Ω",
+        "es": "9 Ω"
+      },
+      {
+        "en": "18 Ω",
+        "es": "18 Ω"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "For two resistors, R = (R1 × R2) / (R1 + R2) = (6 × 3) / (6 + 3) = 18 / 9 = 2 Ω. The result is smaller than the smallest branch, as it must be in parallel.",
+      "es": "Para dos resistencias, R = (R1 × R2) / (R1 + R2) = (6 × 3) / (6 + 3) = 18 / 9 = 2 Ω. El resultado es menor que la rama más pequeña, como debe ser en paralelo."
+    },
+    "trap": {
+      "en": "\"18 Ω\" stops after multiplying; \"9 Ω\" is the series sum. Parallel never gives more than the smallest resistor.",
+      "es": "\"18 Ω\" se detiene tras multiplicar; \"9 Ω\" es la suma en serie. En paralelo nunca se obtiene más que la resistencia más pequeña."
+    },
+    "strategyRef": "ei.series-parallel",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0010",
+    "subtest": "EI",
+    "topic": "parallel",
+    "difficulty": 2,
+    "stem": {
+      "en": "Three identical 30 Ω resistors are wired in parallel. The combined resistance is",
+      "es": "Tres resistencias idénticas de 30 Ω se conectan en paralelo. La resistencia combinada es"
+    },
+    "choices": [
+      {
+        "en": "10 Ω",
+        "es": "10 Ω"
+      },
+      {
+        "en": "3.3 Ω",
+        "es": "3.3 Ω"
+      },
+      {
+        "en": "30 Ω",
+        "es": "30 Ω"
+      },
+      {
+        "en": "90 Ω",
+        "es": "90 Ω"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "For N equal resistors in parallel, divide one value by N: 30 / 3 = 10 Ω.",
+      "es": "Para N resistencias iguales en paralelo, divide un valor entre N: 30 / 3 = 10 Ω."
+    },
+    "trap": {
+      "en": "\"90 Ω\" is the series answer; \"3.3 Ω\" divides the count by the resistance instead of the resistance by the count.",
+      "es": "\"90 Ω\" es la respuesta en serie; \"3.3 Ω\" divide la cantidad entre la resistencia en lugar de la resistencia entre la cantidad."
+    },
+    "strategyRef": "ei.series-parallel",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0011",
+    "subtest": "EI",
+    "topic": "series",
+    "difficulty": 3,
+    "stem": {
+      "en": "Two 4 Ω resistors are connected in series across a 12 V battery. What current flows in the circuit?",
+      "es": "Dos resistencias de 4 Ω se conectan en serie a una batería de 12 V. ¿Qué corriente circula por el circuito?"
+    },
+    "choices": [
+      {
+        "en": "0.75 A",
+        "es": "0.75 A"
+      },
+      {
+        "en": "1.5 A",
+        "es": "1.5 A"
+      },
+      {
+        "en": "3 A",
+        "es": "3 A"
+      },
+      {
+        "en": "6 A",
+        "es": "6 A"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Total series resistance = 4 + 4 = 8 Ω. Then I = V / R = 12 / 8 = 1.5 A, and that same current flows through both resistors.",
+      "es": "Resistencia total en serie = 4 + 4 = 8 Ω. Luego I = V / R = 12 / 8 = 1.5 A, y esa misma corriente pasa por ambas resistencias."
+    },
+    "trap": {
+      "en": "\"3 A\" uses only one resistor (12 / 4) and \"0.75 A\" halves it again. Find the total resistance first, then apply Ohm's law once.",
+      "es": "\"3 A\" usa una sola resistencia (12 / 4) y \"0.75 A\" la divide otra vez. Primero calcula la resistencia total y luego aplica la ley de Ohm una sola vez."
+    },
+    "strategyRef": "ei.series-parallel",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0012",
+    "subtest": "EI",
+    "topic": "circuit-basics",
+    "difficulty": 1,
+    "stem": {
+      "en": "A wire in a flashlight circuit breaks, leaving a gap. The circuit is now",
+      "es": "Un cable del circuito de una linterna se rompe y deja un espacio. El circuito ahora está"
+    },
+    "choices": [
+      {
+        "en": "open, and no current flows",
+        "es": "abierto, y no circula corriente"
+      },
+      {
+        "en": "closed, and current flows normally",
+        "es": "cerrado, y la corriente circula normalmente"
+      },
+      {
+        "en": "shorted, and excess current flows",
+        "es": "en cortocircuito, y circula corriente excesiva"
+      },
+      {
+        "en": "grounded, and the battery voltage drops to zero",
+        "es": "a tierra, y el voltaje de la batería cae a cero"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Current needs a complete loop. Any break, whether a cut wire or an open switch, makes the circuit open and stops the flow.",
+      "es": "La corriente necesita un lazo completo. Cualquier interrupción, ya sea un cable cortado o un interruptor abierto, deja el circuito abierto y detiene el flujo."
+    },
+    "trap": {
+      "en": "\"Shorted\" is the opposite fault: a short is an unwanted extra path, not a missing one.",
+      "es": "\"En cortocircuito\" es la falla opuesta: un corto es un camino extra no deseado, no un camino faltante."
+    },
+    "strategyRef": "ei.component-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0013",
+    "subtest": "EI",
+    "topic": "circuit-basics",
+    "difficulty": 2,
+    "stem": {
+      "en": "Which situation best describes a short circuit?",
+      "es": "¿Qué situación describe mejor un cortocircuito?"
+    },
+    "choices": [
+      {
+        "en": "A switch is left open, so the load receives no current",
+        "es": "Un interruptor queda abierto, así que la carga no recibe corriente"
+      },
+      {
+        "en": "Too many resistors are wired in series, so current becomes very small",
+        "es": "Demasiadas resistencias se conectan en serie, así que la corriente se vuelve muy pequeña"
+      },
+      {
+        "en": "The battery is discharged, so voltage falls to zero",
+        "es": "La batería está descargada, así que el voltaje cae a cero"
+      },
+      {
+        "en": "Current bypasses the load through an unintended path of very low resistance, so current rises sharply",
+        "es": "La corriente evita la carga por un camino no previsto de muy baja resistencia, y la corriente aumenta bruscamente"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "A short gives current an easy path around the load. With almost no resistance, Ohm's law says current becomes very large, which is why fuses and breakers exist.",
+      "es": "Un corto le da a la corriente un camino fácil que evita la carga. Casi sin resistencia, la ley de Ohm dice que la corriente se vuelve muy grande; por eso existen los fusibles y los interruptores automáticos."
+    },
+    "trap": {
+      "en": "\"Switch left open\" is an open circuit. Open = no current; short = too much current.",
+      "es": "\"Interruptor abierto\" es un circuito abierto. Abierto = sin corriente; corto = demasiada corriente."
+    },
+    "strategyRef": "ei.component-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0014",
+    "subtest": "EI",
+    "topic": "series-vs-parallel",
+    "difficulty": 1,
+    "stem": {
+      "en": "In an older string of holiday lights wired in series, one bulb burns out. What happens to the other bulbs?",
+      "es": "En una tira antigua de luces navideñas conectadas en serie, un foco se quema. ¿Qué pasa con los demás focos?"
+    },
+    "choices": [
+      {
+        "en": "They glow brighter",
+        "es": "Brillan más"
+      },
+      {
+        "en": "They are unaffected",
+        "es": "No se ven afectados"
+      },
+      {
+        "en": "They all go out",
+        "es": "Todos se apagan"
+      },
+      {
+        "en": "They glow dimmer but stay lit",
+        "es": "Brillan menos pero siguen encendidos"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "A burned-out bulb is an open circuit, and in series there is only one path, so the break stops current to every bulb.",
+      "es": "Un foco quemado es un circuito abierto, y en serie solo hay un camino, así que la interrupción corta la corriente a todos los focos."
+    },
+    "trap": {
+      "en": "\"Unaffected\" is how parallel wiring behaves, which is why modern house circuits are parallel.",
+      "es": "\"No se ven afectados\" es el comportamiento del cableado en paralelo, y por eso los circuitos modernos de una casa son en paralelo."
+    },
+    "strategyRef": "ei.series-parallel",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0015",
+    "subtest": "EI",
+    "topic": "series-vs-parallel",
+    "difficulty": 2,
+    "stem": {
+      "en": "In a parallel circuit, which quantity is the same across every branch?",
+      "es": "En un circuito en paralelo, ¿qué magnitud es igual en todas las ramas?"
+    },
+    "choices": [
+      {
+        "en": "Voltage",
+        "es": "El voltaje"
+      },
+      {
+        "en": "Current",
+        "es": "La corriente"
+      },
+      {
+        "en": "Resistance",
+        "es": "La resistencia"
+      },
+      {
+        "en": "Power",
+        "es": "La potencia"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Every parallel branch connects to the same two points, so each sees the full source voltage. Current divides among branches according to their resistance.",
+      "es": "Cada rama en paralelo se conecta a los mismos dos puntos, así que todas reciben el voltaje completo de la fuente. La corriente se reparte entre las ramas según su resistencia."
+    },
+    "trap": {
+      "en": "\"Current\" is what stays the same in a series circuit. Series: same current; parallel: same voltage.",
+      "es": "\"La corriente\" es lo que se mantiene igual en un circuito en serie. Serie: misma corriente; paralelo: mismo voltaje."
+    },
+    "strategyRef": "ei.series-parallel",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0016",
+    "subtest": "EI",
+    "topic": "components",
+    "difficulty": 1,
+    "stem": {
+      "en": "The main job of a resistor in a circuit is to",
+      "es": "La función principal de una resistencia en un circuito es"
+    },
+    "choices": [
+      {
+        "en": "store electric charge for later use",
+        "es": "almacenar carga eléctrica para usarla después"
+      },
+      {
+        "en": "limit the amount of current that flows",
+        "es": "limitar la cantidad de corriente que circula"
+      },
+      {
+        "en": "convert alternating current to direct current",
+        "es": "convertir corriente alterna en corriente continua"
+      },
+      {
+        "en": "amplify a weak signal",
+        "es": "amplificar una señal débil"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Resistors oppose current and drop voltage, converting some energy to heat. Storing charge is a capacitor's job, rectifying is a diode's, and amplifying is a transistor's.",
+      "es": "Las resistencias se oponen a la corriente y reducen el voltaje, convirtiendo parte de la energía en calor. Almacenar carga es tarea del capacitor, rectificar es del diodo y amplificar es del transistor."
+    },
+    "trap": {
+      "en": "Each distractor is a real component's role. Match the verb to the part: limit → resistor, store → capacitor, one-way → diode, amplify → transistor.",
+      "es": "Cada distractor es la función real de otro componente. Relaciona el verbo con la pieza: limitar → resistencia, almacenar → capacitor, un solo sentido → diodo, amplificar → transistor."
+    },
+    "strategyRef": "ei.component-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0017",
+    "subtest": "EI",
+    "topic": "components",
+    "difficulty": 2,
+    "stem": {
+      "en": "A capacitor is a component that",
+      "es": "Un capacitor es un componente que"
+    },
+    "choices": [
+      {
+        "en": "stores energy in a magnetic field around a coil",
+        "es": "almacena energía en un campo magnético alrededor de una bobina"
+      },
+      {
+        "en": "allows current to pass in only one direction",
+        "es": "permite el paso de corriente en un solo sentido"
+      },
+      {
+        "en": "stores energy in an electric field between two conductive plates",
+        "es": "almacena energía en un campo eléctrico entre dos placas conductoras"
+      },
+      {
+        "en": "steps voltage up or down",
+        "es": "eleva o reduce el voltaje"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Capacitors hold charge on plates separated by an insulator (dielectric). They block steady DC once charged and are used for filtering, timing and smoothing.",
+      "es": "Los capacitores retienen carga en placas separadas por un aislante (dieléctrico). Bloquean la CC constante una vez cargados y se usan para filtrar, temporizar y suavizar."
+    },
+    "trap": {
+      "en": "\"Magnetic field around a coil\" is the inductor. Capacitor = plates and electric field; inductor = coil and magnetic field.",
+      "es": "\"Campo magnético alrededor de una bobina\" es el inductor. Capacitor = placas y campo eléctrico; inductor = bobina y campo magnético."
+    },
+    "strategyRef": "ei.component-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0018",
+    "subtest": "EI",
+    "topic": "components",
+    "difficulty": 3,
+    "stem": {
+      "en": "Which component is a coil of wire that resists sudden changes in current by storing energy in a magnetic field?",
+      "es": "¿Qué componente es una bobina de alambre que se opone a los cambios bruscos de corriente almacenando energía en un campo magnético?"
+    },
+    "choices": [
+      {
+        "en": "Capacitor",
+        "es": "Capacitor"
+      },
+      {
+        "en": "Rheostat",
+        "es": "Reóstato"
+      },
+      {
+        "en": "Thermistor",
+        "es": "Termistor"
+      },
+      {
+        "en": "Inductor",
+        "es": "Inductor"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "An inductor (choke) builds a magnetic field as current rises and releases it as current falls, opposing changes. A rheostat is a variable resistor and a thermistor changes resistance with temperature.",
+      "es": "Un inductor (choque) forma un campo magnético cuando la corriente sube y lo libera cuando baja, oponiéndose a los cambios. Un reóstato es una resistencia variable y un termistor cambia su resistencia con la temperatura."
+    },
+    "trap": {
+      "en": "\"Capacitor\" opposes changes in voltage, not current. Inductor = current, capacitor = voltage.",
+      "es": "\"Capacitor\" se opone a los cambios de voltaje, no de corriente. Inductor = corriente; capacitor = voltaje."
+    },
+    "strategyRef": "ei.component-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0019",
+    "subtest": "EI",
+    "topic": "components",
+    "difficulty": 2,
+    "stem": {
+      "en": "A diode is used in a circuit mainly because it",
+      "es": "Un diodo se usa en un circuito principalmente porque"
+    },
+    "choices": [
+      {
+        "en": "increases the voltage of a signal",
+        "es": "aumenta el voltaje de una señal"
+      },
+      {
+        "en": "stores charge between two plates",
+        "es": "almacena carga entre dos placas"
+      },
+      {
+        "en": "lets current flow in one direction only",
+        "es": "deja pasar la corriente en un solo sentido"
+      },
+      {
+        "en": "opens the circuit when current is too high",
+        "es": "abre el circuito cuando la corriente es demasiado alta"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "A diode conducts when forward-biased and blocks when reverse-biased, which makes it the building block of rectifiers that turn AC into DC.",
+      "es": "Un diodo conduce con polarización directa y bloquea con polarización inversa, lo que lo convierte en la base de los rectificadores que convierten CA en CC."
+    },
+    "trap": {
+      "en": "\"Opens the circuit when current is too high\" is a fuse. A diode does not protect against overcurrent; it controls direction.",
+      "es": "\"Abre el circuito cuando la corriente es demasiado alta\" es un fusible. El diodo no protege contra sobrecorriente; controla la dirección."
+    },
+    "strategyRef": "ei.component-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0020",
+    "subtest": "EI",
+    "topic": "components",
+    "difficulty": 2,
+    "stem": {
+      "en": "A transistor is most commonly used to",
+      "es": "Un transistor se usa con mayor frecuencia para"
+    },
+    "choices": [
+      {
+        "en": "store energy for a camera flash",
+        "es": "almacenar energía para el flash de una cámara"
+      },
+      {
+        "en": "step household voltage down for a charger",
+        "es": "reducir el voltaje doméstico para un cargador"
+      },
+      {
+        "en": "melt and open the circuit during an overload",
+        "es": "fundirse y abrir el circuito durante una sobrecarga"
+      },
+      {
+        "en": "amplify a signal or act as an electronic switch",
+        "es": "amplificar una señal o funcionar como interruptor electrónico"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "A small current or voltage at one terminal controls a much larger current through the others, so transistors amplify signals and switch loads on and off.",
+      "es": "Una pequeña corriente o voltaje en un terminal controla una corriente mucho mayor entre los otros, por lo que los transistores amplifican señales y encienden o apagan cargas."
+    },
+    "trap": {
+      "en": "The distractors describe a capacitor, a transformer and a fuse. Only the transistor controls a big current with a small one.",
+      "es": "Los distractores describen un capacitor, un transformador y un fusible. Solo el transistor controla una corriente grande con una pequeña."
+    },
+    "strategyRef": "ei.component-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0021",
+    "subtest": "EI",
+    "topic": "transformer",
+    "difficulty": 3,
+    "stem": {
+      "en": "A transformer has 100 turns on its primary coil and 500 turns on its secondary. If 12 V AC is applied to the primary, the secondary voltage is",
+      "es": "Un transformador tiene 100 vueltas en el primario y 500 en el secundario. Si se aplican 12 V de CA al primario, el voltaje del secundario es"
+    },
+    "choices": [
+      {
+        "en": "60 V",
+        "es": "60 V"
+      },
+      {
+        "en": "2.4 V",
+        "es": "2.4 V"
+      },
+      {
+        "en": "12 V",
+        "es": "12 V"
+      },
+      {
+        "en": "500 V",
+        "es": "500 V"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Voltage scales with the turns ratio: 500 / 100 = 5, so 12 V × 5 = 60 V. More secondary turns = step-up. Transformers work only with changing (AC) current.",
+      "es": "El voltaje se escala con la relación de vueltas: 500 / 100 = 5, así que 12 V × 5 = 60 V. Más vueltas en el secundario = elevador. Los transformadores solo funcionan con corriente variable (CA)."
+    },
+    "trap": {
+      "en": "\"2.4 V\" inverts the ratio (step-down). Compare turns: secondary has more, so the voltage must go up.",
+      "es": "\"2.4 V\" invierte la relación (reductor). Compara las vueltas: el secundario tiene más, así que el voltaje debe subir."
+    },
+    "strategyRef": "ei.component-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0022",
+    "subtest": "EI",
+    "topic": "protection",
+    "difficulty": 1,
+    "stem": {
+      "en": "What does a fuse do when the current through it exceeds its rating?",
+      "es": "¿Qué hace un fusible cuando la corriente que lo atraviesa supera su valor nominal?"
+    },
+    "choices": [
+      {
+        "en": "It stores the extra energy until the load needs it",
+        "es": "Almacena la energía sobrante hasta que la carga la necesite"
+      },
+      {
+        "en": "Its internal wire melts, opening the circuit",
+        "es": "Su alambre interno se funde y abre el circuito"
+      },
+      {
+        "en": "It lowers the voltage to a safe level",
+        "es": "Reduce el voltaje a un nivel seguro"
+      },
+      {
+        "en": "It increases its resistance gradually to slow the current",
+        "es": "Aumenta su resistencia poco a poco para frenar la corriente"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "A fuse is a deliberate weak link: the thin element heats and melts at the rated current, breaking the path before wiring overheats.",
+      "es": "Un fusible es un eslabón débil intencional: el elemento delgado se calienta y se funde a la corriente nominal, interrumpiendo el camino antes de que el cableado se sobrecaliente."
+    },
+    "trap": {
+      "en": "\"Lowers the voltage\" describes a regulator or transformer. A fuse is all-or-nothing: it either conducts or it is blown.",
+      "es": "\"Reduce el voltaje\" describe un regulador o un transformador. Un fusible es todo o nada: conduce o está quemado."
+    },
+    "strategyRef": "ei.safety",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0023",
+    "subtest": "EI",
+    "topic": "protection",
+    "difficulty": 2,
+    "stem": {
+      "en": "What is the main practical difference between a circuit breaker and a fuse?",
+      "es": "¿Cuál es la principal diferencia práctica entre un interruptor automático y un fusible?"
+    },
+    "choices": [
+      {
+        "en": "A breaker protects against low voltage; a fuse protects against high voltage",
+        "es": "El interruptor automático protege contra bajo voltaje; el fusible contra alto voltaje"
+      },
+      {
+        "en": "A breaker works only on DC; a fuse works only on AC",
+        "es": "El interruptor automático funciona solo con CC; el fusible solo con CA"
+      },
+      {
+        "en": "A breaker limits current continuously; a fuse never opens the circuit",
+        "es": "El interruptor automático limita la corriente de forma continua; el fusible nunca abre el circuito"
+      },
+      {
+        "en": "A breaker can be reset after it trips; a fuse must be replaced",
+        "es": "El interruptor automático se puede restablecer después de dispararse; el fusible debe reemplazarse"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Both open the circuit on overcurrent. A breaker uses a thermal or magnetic mechanism that can be switched back on; a blown fuse is destroyed.",
+      "es": "Ambos abren el circuito por sobrecorriente. El interruptor automático usa un mecanismo térmico o magnético que puede volver a encenderse; un fusible quemado queda destruido."
+    },
+    "trap": {
+      "en": "Both devices respond to current, not voltage, and both work on AC and DC when rated for it. Only the reset ability differs.",
+      "es": "Ambos dispositivos responden a la corriente, no al voltaje, y ambos funcionan con CA y CC si están especificados para ello. Solo difiere la posibilidad de restablecer."
+    },
+    "strategyRef": "ei.safety",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0024",
+    "subtest": "EI",
+    "topic": "components",
+    "difficulty": 2,
+    "stem": {
+      "en": "A relay is best described as",
+      "es": "Un relé se describe mejor como"
+    },
+    "choices": [
+      {
+        "en": "a device that converts AC to DC",
+        "es": "un dispositivo que convierte CA en CC"
+      },
+      {
+        "en": "a resistor whose value changes with temperature",
+        "es": "una resistencia cuyo valor cambia con la temperatura"
+      },
+      {
+        "en": "a switch operated by an electromagnet, letting a small current control a larger one",
+        "es": "un interruptor accionado por un electroimán, que permite que una corriente pequeña controle una mayor"
+      },
+      {
+        "en": "a coil that transfers energy between two circuits by induction",
+        "es": "una bobina que transfiere energía entre dos circuitos por inducción"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Energizing the relay coil pulls contacts closed (or open), so a low-power control circuit, such as a car's ignition switch, can operate a high-current load like the starter motor.",
+      "es": "Energizar la bobina del relé cierra (o abre) los contactos, de modo que un circuito de control de baja potencia, como la llave de encendido de un auto, puede operar una carga de alta corriente como el motor de arranque."
+    },
+    "trap": {
+      "en": "\"Transfers energy between two circuits by induction\" is a transformer, which also has a coil but no moving contacts.",
+      "es": "\"Transfiere energía entre dos circuitos por inducción\" es un transformador, que también tiene bobina pero no contactos móviles."
+    },
+    "strategyRef": "ei.component-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0025",
+    "subtest": "EI",
+    "topic": "ac-dc",
+    "difficulty": 1,
+    "stem": {
+      "en": "Standard household outlets in the United States supply approximately",
+      "es": "Los tomacorrientes domésticos estándar en Estados Unidos suministran aproximadamente"
+    },
+    "choices": [
+      {
+        "en": "240 V AC at 50 Hz",
+        "es": "240 V de CA a 50 Hz"
+      },
+      {
+        "en": "120 V AC at 60 Hz",
+        "es": "120 V de CA a 60 Hz"
+      },
+      {
+        "en": "120 V DC",
+        "es": "120 V de CC"
+      },
+      {
+        "en": "12 V AC at 60 Hz",
+        "es": "12 V de CA a 60 Hz"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "US residential service is 120 V alternating current that reverses direction 60 times per second. 240 V is used only for large appliances such as dryers and ranges, and many other countries use 230 V at 50 Hz.",
+      "es": "El servicio residencial en EE. UU. es corriente alterna de 120 V que invierte su dirección 60 veces por segundo. Los 240 V se usan solo para electrodomésticos grandes como secadoras y estufas, y muchos otros países usan 230 V a 50 Hz."
+    },
+    "trap": {
+      "en": "\"120 V DC\" gets the voltage right but the type wrong: wall power is AC; batteries supply DC.",
+      "es": "\"120 V de CC\" acierta el voltaje pero no el tipo: la energía de la pared es CA; las baterías dan CC."
+    },
+    "strategyRef": "ei.units",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0026",
+    "subtest": "EI",
+    "topic": "ac-dc",
+    "difficulty": 3,
+    "stem": {
+      "en": "Which device is used to convert alternating current into direct current?",
+      "es": "¿Qué dispositivo se usa para convertir corriente alterna en corriente continua?"
+    },
+    "choices": [
+      {
+        "en": "Rectifier",
+        "es": "Rectificador"
+      },
+      {
+        "en": "Inverter",
+        "es": "Inversor"
+      },
+      {
+        "en": "Transformer",
+        "es": "Transformador"
+      },
+      {
+        "en": "Capacitor",
+        "es": "Capacitor"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "A rectifier, built from diodes, passes only one polarity of the AC wave, producing pulsing DC that a capacitor then smooths. An inverter does the reverse job (DC → AC).",
+      "es": "Un rectificador, hecho con diodos, deja pasar solo una polaridad de la onda de CA, produciendo CC pulsante que luego un capacitor suaviza. Un inversor hace el trabajo inverso (CC → CA)."
+    },
+    "trap": {
+      "en": "\"Inverter\" is the mirror-image device: it turns a battery's DC into AC. \"Transformer\" changes AC voltage but never produces DC.",
+      "es": "\"Inversor\" es el dispositivo en espejo: convierte la CC de una batería en CA. \"Transformador\" cambia el voltaje de CA pero nunca produce CC."
+    },
+    "strategyRef": "ei.component-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0027",
+    "subtest": "EI",
+    "topic": "materials",
+    "difficulty": 2,
+    "stem": {
+      "en": "Which of the following materials is a semiconductor?",
+      "es": "¿Cuál de los siguientes materiales es un semiconductor?"
+    },
+    "choices": [
+      {
+        "en": "Copper",
+        "es": "Cobre"
+      },
+      {
+        "en": "Silicon",
+        "es": "Silicio"
+      },
+      {
+        "en": "Rubber",
+        "es": "Caucho"
+      },
+      {
+        "en": "Glass",
+        "es": "Vidrio"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Silicon conducts poorly on its own but its conductivity can be precisely controlled by doping, which is why it is the basis of diodes, transistors and chips. Copper is a conductor; rubber and glass are insulators.",
+      "es": "El silicio conduce mal por sí solo, pero su conductividad puede controlarse con precisión mediante dopaje, por eso es la base de diodos, transistores y chips. El cobre es conductor; el caucho y el vidrio son aislantes."
+    },
+    "trap": {
+      "en": "\"Glass\" is also made largely of silicon compounds, but it is an insulator; pure crystalline silicon is the semiconductor.",
+      "es": "\"Vidrio\" también está hecho en gran parte de compuestos de silicio, pero es aislante; el silicio cristalino puro es el semiconductor."
+    },
+    "strategyRef": "ei.component-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0028",
+    "subtest": "EI",
+    "topic": "wire-gauge",
+    "difficulty": 3,
+    "stem": {
+      "en": "Which of these copper wires has the largest diameter and can safely carry the most current?",
+      "es": "¿Cuál de estos cables de cobre tiene el mayor diámetro y puede conducir con seguridad la mayor corriente?"
+    },
+    "choices": [
+      {
+        "en": "10 AWG",
+        "es": "10 AWG"
+      },
+      {
+        "en": "12 AWG",
+        "es": "12 AWG"
+      },
+      {
+        "en": "14 AWG",
+        "es": "14 AWG"
+      },
+      {
+        "en": "18 AWG",
+        "es": "18 AWG"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "In the American Wire Gauge system, a smaller number means a thicker wire. 10 AWG is thicker than 12 AWG (typical for 20 A circuits) and 14 AWG (15 A circuits); 18 AWG is thin lamp cord.",
+      "es": "En el sistema AWG, un número más pequeño significa un cable más grueso. El 10 AWG es más grueso que el 12 AWG (típico en circuitos de 20 A) y el 14 AWG (circuitos de 15 A); el 18 AWG es cable delgado de lámpara."
+    },
+    "trap": {
+      "en": "\"18 AWG\" is the intuitive pick because bigger numbers feel bigger. AWG runs backwards: the number counts drawing steps, so more steps = thinner.",
+      "es": "\"18 AWG\" es la elección intuitiva porque los números más grandes parecen más grandes. El AWG va al revés: el número cuenta pasos de estirado, así que más pasos = más delgado."
+    },
+    "strategyRef": "ei.units",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0029",
+    "subtest": "EI",
+    "topic": "color-code",
+    "difficulty": 3,
+    "stem": {
+      "en": "A resistor has color bands red, violet, orange and gold. Its value is",
+      "es": "Una resistencia tiene bandas de color rojo, violeta, naranja y dorado. Su valor es"
+    },
+    "choices": [
+      {
+        "en": "27 kΩ ±10 %",
+        "es": "27 kΩ ±10 %"
+      },
+      {
+        "en": "2.7 kΩ ±5 %",
+        "es": "2.7 kΩ ±5 %"
+      },
+      {
+        "en": "273 Ω ±5 %",
+        "es": "273 Ω ±5 %"
+      },
+      {
+        "en": "27 kΩ ±5 %",
+        "es": "27 kΩ ±5 %"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Red = 2, violet = 7, orange = multiplier 10³, so 27 × 1,000 = 27,000 Ω = 27 kΩ. Gold as the fourth band means ±5 % tolerance (silver would be ±10 %).",
+      "es": "Rojo = 2, violeta = 7, naranja = multiplicador 10³, así que 27 × 1,000 = 27,000 Ω = 27 kΩ. Dorado en la cuarta banda significa tolerancia de ±5 % (plateado sería ±10 %)."
+    },
+    "trap": {
+      "en": "\"273 Ω\" treats the third band as a digit instead of a multiplier. The third band tells you how many zeros to add.",
+      "es": "\"273 Ω\" trata la tercera banda como un dígito en lugar de un multiplicador. La tercera banda indica cuántos ceros agregar."
+    },
+    "strategyRef": "ei.color-code",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0030",
+    "subtest": "EI",
+    "topic": "color-code",
+    "difficulty": 2,
+    "stem": {
+      "en": "A resistor's first three bands are brown, black and red. What is its resistance?",
+      "es": "Las tres primeras bandas de una resistencia son marrón, negro y rojo. ¿Cuál es su resistencia?"
+    },
+    "choices": [
+      {
+        "en": "10 Ω",
+        "es": "10 Ω"
+      },
+      {
+        "en": "100 Ω",
+        "es": "100 Ω"
+      },
+      {
+        "en": "1,000 Ω (1 kΩ)",
+        "es": "1,000 Ω (1 kΩ)"
+      },
+      {
+        "en": "10,000 Ω (10 kΩ)",
+        "es": "10,000 Ω (10 kΩ)"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Brown = 1, black = 0, red = multiplier 10² (add two zeros): 10 followed by 00 = 1,000 Ω.",
+      "es": "Marrón = 1, negro = 0, rojo = multiplicador 10² (agrega dos ceros): 10 seguido de 00 = 1,000 Ω."
+    },
+    "trap": {
+      "en": "\"100 Ω\" adds only one zero, confusing red (2) with brown (1). Order: black 0, brown 1, red 2, orange 3, yellow 4, green 5, blue 6, violet 7, gray 8, white 9.",
+      "es": "\"100 Ω\" agrega solo un cero, confundiendo rojo (2) con marrón (1). Orden: negro 0, marrón 1, rojo 2, naranja 3, amarillo 4, verde 5, azul 6, violeta 7, gris 8, blanco 9."
+    },
+    "strategyRef": "ei.color-code",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0031",
+    "subtest": "EI",
+    "topic": "wire-colors",
+    "difficulty": 1,
+    "stem": {
+      "en": "In standard US residential wiring, a wire with white insulation is normally the",
+      "es": "En el cableado residencial estándar de EE. UU., un cable con aislamiento blanco normalmente es el"
+    },
+    "choices": [
+      {
+        "en": "neutral conductor",
+        "es": "conductor neutro"
+      },
+      {
+        "en": "hot conductor",
+        "es": "conductor vivo (fase)"
+      },
+      {
+        "en": "ground conductor",
+        "es": "conductor de tierra"
+      },
+      {
+        "en": "high-voltage conductor",
+        "es": "conductor de alto voltaje"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "White (or gray) is neutral, black (or red) is hot, and green or bare copper is the equipment ground. Neutral carries current back to the panel and is not the same as ground.",
+      "es": "Blanco (o gris) es neutro, negro (o rojo) es vivo, y verde o cobre desnudo es la tierra del equipo. El neutro lleva la corriente de regreso al tablero y no es lo mismo que la tierra."
+    },
+    "trap": {
+      "en": "\"Ground\" is the classic mix-up because neutral and ground are bonded at the panel. In the walls they are different wires with different colors.",
+      "es": "\"Tierra\" es la confusión clásica porque el neutro y la tierra se unen en el tablero. Dentro de las paredes son cables distintos con colores distintos."
+    },
+    "strategyRef": "ei.safety",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0032",
+    "subtest": "EI",
+    "topic": "wire-colors",
+    "difficulty": 1,
+    "stem": {
+      "en": "The equipment grounding conductor in a US branch circuit is identified by",
+      "es": "El conductor de puesta a tierra del equipo en un circuito derivado de EE. UU. se identifica por"
+    },
+    "choices": [
+      {
+        "en": "black insulation",
+        "es": "aislamiento negro"
+      },
+      {
+        "en": "green insulation or bare copper",
+        "es": "aislamiento verde o cobre desnudo"
+      },
+      {
+        "en": "white insulation",
+        "es": "aislamiento blanco"
+      },
+      {
+        "en": "red insulation",
+        "es": "aislamiento rojo"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Green or bare = ground. It normally carries no current and exists only to give fault current a safe path back so a breaker trips.",
+      "es": "Verde o desnudo = tierra. Normalmente no lleva corriente y existe solo para dar a la corriente de falla un camino seguro de regreso para que se dispare el interruptor."
+    },
+    "trap": {
+      "en": "\"Black\" and \"red\" are both hot conductors. Touching either while grounded is the shock hazard the ground wire is meant to prevent.",
+      "es": "\"Negro\" y \"rojo\" son conductores vivos. Tocar cualquiera de ellos estando en contacto con tierra es el peligro de descarga que el cable de tierra busca evitar."
+    },
+    "strategyRef": "ei.safety",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0033",
+    "subtest": "EI",
+    "topic": "units",
+    "difficulty": 2,
+    "stem": {
+      "en": "Capacitance is measured in which unit?",
+      "es": "¿En qué unidad se mide la capacitancia?"
+    },
+    "choices": [
+      {
+        "en": "Henry",
+        "es": "Henrio"
+      },
+      {
+        "en": "Ohm",
+        "es": "Ohmio"
+      },
+      {
+        "en": "Farad",
+        "es": "Faradio"
+      },
+      {
+        "en": "Hertz",
+        "es": "Hercio"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Farad (F) is capacitance; henry (H) is inductance; ohm (Ω) is resistance; hertz (Hz) is frequency. Practical capacitors are usually microfarads (µF) or picofarads (pF).",
+      "es": "Faradio (F) es capacitancia; henrio (H) es inductancia; ohmio (Ω) es resistencia; hercio (Hz) es frecuencia. Los capacitores prácticos suelen ser de microfaradios (µF) o picofaradios (pF)."
+    },
+    "trap": {
+      "en": "\"Henry\" is the paired unit for the paired component: capacitor → farad, inductor → henry.",
+      "es": "\"Henrio\" es la unidad del componente gemelo: capacitor → faradio, inductor → henrio."
+    },
+    "strategyRef": "ei.units",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0034",
+    "subtest": "EI",
+    "topic": "units",
+    "difficulty": 2,
+    "stem": {
+      "en": "The henry is the unit of",
+      "es": "El henrio es la unidad de"
+    },
+    "choices": [
+      {
+        "en": "capacitance",
+        "es": "capacitancia"
+      },
+      {
+        "en": "frequency",
+        "es": "frecuencia"
+      },
+      {
+        "en": "electrical power",
+        "es": "potencia eléctrica"
+      },
+      {
+        "en": "inductance",
+        "es": "inductancia"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "One henry is the inductance that produces 1 V when current changes at 1 A per second. Capacitance is in farads, frequency in hertz, and power in watts.",
+      "es": "Un henrio es la inductancia que produce 1 V cuando la corriente cambia a razón de 1 A por segundo. La capacitancia se mide en faradios, la frecuencia en hercios y la potencia en vatios."
+    },
+    "trap": {
+      "en": "\"Capacitance\" is the usual swap. Link the names: Henry → inductor coil; Faraday → capacitor.",
+      "es": "\"Capacitancia\" es el intercambio habitual. Relaciona los nombres: Henry → bobina inductora; Faraday → capacitor."
+    },
+    "strategyRef": "ei.units",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0035",
+    "subtest": "EI",
+    "topic": "schematics",
+    "difficulty": 1,
+    "stem": {
+      "en": "On a schematic diagram, a zigzag (sawtooth) line between two straight leads represents a",
+      "es": "En un diagrama esquemático, una línea en zigzag entre dos conductores rectos representa"
+    },
+    "choices": [
+      {
+        "en": "capacitor",
+        "es": "un capacitor"
+      },
+      {
+        "en": "inductor",
+        "es": "un inductor"
+      },
+      {
+        "en": "resistor",
+        "es": "una resistencia"
+      },
+      {
+        "en": "battery",
+        "es": "una batería"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "The zigzag is the resistor symbol. A capacitor is two parallel lines, an inductor is a series of loops or humps, and a battery is alternating long and short parallel lines.",
+      "es": "El zigzag es el símbolo de la resistencia. Un capacitor son dos líneas paralelas, un inductor es una serie de bucles o jorobas, y una batería son líneas paralelas largas y cortas alternadas."
+    },
+    "trap": {
+      "en": "\"Inductor\" is drawn with rounded loops, not sharp corners. Sharp = resistor; round = coil.",
+      "es": "\"Inductor\" se dibuja con bucles redondeados, no con esquinas afiladas. Afilado = resistencia; redondeado = bobina."
+    },
+    "strategyRef": "ei.component-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0036",
+    "subtest": "EI",
+    "topic": "schematics",
+    "difficulty": 2,
+    "stem": {
+      "en": "A schematic symbol showing two short parallel lines of equal length, with a lead attached to each, represents a",
+      "es": "Un símbolo esquemático con dos líneas paralelas cortas de igual longitud, con un conductor unido a cada una, representa"
+    },
+    "choices": [
+      {
+        "en": "battery cell",
+        "es": "una celda de batería"
+      },
+      {
+        "en": "switch",
+        "es": "un interruptor"
+      },
+      {
+        "en": "transformer",
+        "es": "un transformador"
+      },
+      {
+        "en": "capacitor",
+        "es": "un capacitor"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Two equal parallel plates with a gap = capacitor. A cell uses one long and one short line (the long line is positive). A switch is a lead with a pivoting arm, and a transformer is two coils side by side.",
+      "es": "Dos placas paralelas iguales con un espacio = capacitor. Una celda usa una línea larga y una corta (la larga es el positivo). Un interruptor es un conductor con un brazo pivotante, y un transformador son dos bobinas lado a lado."
+    },
+    "trap": {
+      "en": "\"Battery cell\" is the near-twin symbol, but its lines are unequal in length. Equal lines = capacitor.",
+      "es": "\"Celda de batería\" es el símbolo casi gemelo, pero sus líneas son de longitud desigual. Líneas iguales = capacitor."
+    },
+    "strategyRef": "ei.component-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0037",
+    "subtest": "EI",
+    "topic": "safety",
+    "difficulty": 2,
+    "stem": {
+      "en": "Why is the metal case of an appliance connected to the ground wire?",
+      "es": "¿Por qué la carcasa metálica de un electrodoméstico se conecta al cable de tierra?"
+    },
+    "choices": [
+      {
+        "en": "So that if a hot wire touches the case, fault current flows to ground and trips the breaker instead of passing through a person",
+        "es": "Para que, si un cable vivo toca la carcasa, la corriente de falla vaya a tierra y dispare el interruptor en lugar de pasar por una persona"
+      },
+      {
+        "en": "To increase the voltage available to the motor",
+        "es": "Para aumentar el voltaje disponible para el motor"
+      },
+      {
+        "en": "To complete the normal circuit so the appliance can run",
+        "es": "Para completar el circuito normal y que el aparato funcione"
+      },
+      {
+        "en": "To reduce the appliance's power consumption",
+        "es": "Para reducir el consumo de energía del aparato"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The ground wire is a safety path that normally carries no current. During a fault it provides a low-resistance route back to the panel, so current spikes and the breaker opens quickly.",
+      "es": "El cable de tierra es un camino de seguridad que normalmente no lleva corriente. Durante una falla ofrece una ruta de baja resistencia de regreso al tablero, la corriente se dispara y el interruptor abre rápidamente."
+    },
+    "trap": {
+      "en": "\"Completes the normal circuit\" is the neutral's job. Ground is for faults only; if it carries current under normal operation, something is wrong.",
+      "es": "\"Completa el circuito normal\" es la función del neutro. La tierra es solo para fallas; si lleva corriente en operación normal, algo está mal."
+    },
+    "strategyRef": "ei.safety",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0038",
+    "subtest": "EI",
+    "topic": "safety",
+    "difficulty": 3,
+    "stem": {
+      "en": "A ground-fault circuit interrupter (GFCI) outlet protects people by",
+      "es": "Un tomacorriente con interruptor de falla a tierra (GFCI) protege a las personas porque"
+    },
+    "choices": [
+      {
+        "en": "limiting the outlet's voltage to a safe 12 V",
+        "es": "limita el voltaje del tomacorriente a 12 V seguros"
+      },
+      {
+        "en": "cutting power within milliseconds when it senses that current leaving on the hot wire does not match current returning on the neutral",
+        "es": "corta la energía en milisegundos cuando detecta que la corriente que sale por el cable vivo no coincide con la que regresa por el neutro"
+      },
+      {
+        "en": "tripping only when the total current exceeds the breaker rating",
+        "es": "se dispara solo cuando la corriente total supera el valor del interruptor"
+      },
+      {
+        "en": "blocking DC while allowing AC to pass",
+        "es": "bloquea la CC mientras deja pasar la CA"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "A GFCI compares hot and neutral current. A difference of a few milliamps means current is leaking somewhere else, possibly through a person, so it trips far faster and at far lower current than a breaker.",
+      "es": "Un GFCI compara la corriente del vivo y del neutro. Una diferencia de unos pocos miliamperios significa que la corriente se está fugando por otro lado, posiblemente a través de una persona, así que se dispara mucho más rápido y con mucha menos corriente que un interruptor."
+    },
+    "trap": {
+      "en": "\"Trips when current exceeds the breaker rating\" is what a breaker does. A lethal shock can be far below 15 A, which is why GFCIs look for imbalance, not magnitude.",
+      "es": "\"Se dispara cuando la corriente supera el valor del interruptor\" es lo que hace el interruptor automático. Una descarga letal puede ser muy inferior a 15 A; por eso el GFCI busca desequilibrio, no magnitud."
+    },
+    "strategyRef": "ei.safety",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0039",
+    "subtest": "EI",
+    "topic": "batteries",
+    "difficulty": 1,
+    "stem": {
+      "en": "Four 1.5 V cells are connected in series. What is the total voltage?",
+      "es": "Cuatro celdas de 1.5 V se conectan en serie. ¿Cuál es el voltaje total?"
+    },
+    "choices": [
+      {
+        "en": "1.5 V",
+        "es": "1.5 V"
+      },
+      {
+        "en": "3 V",
+        "es": "3 V"
+      },
+      {
+        "en": "12 V",
+        "es": "12 V"
+      },
+      {
+        "en": "6 V",
+        "es": "6 V"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "In series, voltages add: 4 × 1.5 V = 6 V. This is how a 6 V lantern battery or a 9 V battery (six 1.5 V cells) is built.",
+      "es": "En serie, los voltajes se suman: 4 × 1.5 V = 6 V. Así se construye una batería de linterna de 6 V o una de 9 V (seis celdas de 1.5 V)."
+    },
+    "trap": {
+      "en": "\"1.5 V\" is the parallel result: parallel keeps the voltage and adds capacity; series adds voltage.",
+      "es": "\"1.5 V\" es el resultado en paralelo: en paralelo se conserva el voltaje y se suma la capacidad; en serie se suma el voltaje."
+    },
+    "strategyRef": "ei.series-parallel",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0040",
+    "subtest": "EI",
+    "topic": "batteries",
+    "difficulty": 3,
+    "stem": {
+      "en": "Two identical 12 V batteries are connected in parallel (positive to positive, negative to negative). The combination provides",
+      "es": "Dos baterías idénticas de 12 V se conectan en paralelo (positivo con positivo, negativo con negativo). La combinación proporciona"
+    },
+    "choices": [
+      {
+        "en": "24 V with the same capacity",
+        "es": "24 V con la misma capacidad"
+      },
+      {
+        "en": "24 V with twice the capacity",
+        "es": "24 V con el doble de capacidad"
+      },
+      {
+        "en": "12 V with twice the capacity (run time)",
+        "es": "12 V con el doble de capacidad (autonomía)"
+      },
+      {
+        "en": "6 V with twice the capacity",
+        "es": "6 V con el doble de capacidad"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Parallel connection keeps voltage the same but doubles the available charge (amp-hours), so the load runs twice as long. Series would give 24 V at the original capacity.",
+      "es": "La conexión en paralelo mantiene el mismo voltaje pero duplica la carga disponible (amperios-hora), así que la carga funciona el doble de tiempo. En serie se obtendrían 24 V con la capacidad original."
+    },
+    "trap": {
+      "en": "\"24 V with twice the capacity\" wants both benefits at once. You get one or the other: series = more volts, parallel = more amp-hours.",
+      "es": "\"24 V con el doble de capacidad\" quiere ambos beneficios a la vez. Se obtiene uno u otro: serie = más voltios; paralelo = más amperios-hora."
+    },
+    "strategyRef": "ei.series-parallel",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0041",
+    "subtest": "EI",
+    "topic": "circuit-basics",
+    "difficulty": 1,
+    "stem": {
+      "en": "Electric current is best defined as",
+      "es": "La corriente eléctrica se define mejor como"
+    },
+    "choices": [
+      {
+        "en": "the flow of electric charge past a point each second",
+        "es": "el flujo de carga eléctrica que pasa por un punto cada segundo"
+      },
+      {
+        "en": "the electrical pressure that pushes electrons",
+        "es": "la presión eléctrica que empuja a los electrones"
+      },
+      {
+        "en": "the opposition a material offers to charge flow",
+        "es": "la oposición que un material ofrece al flujo de carga"
+      },
+      {
+        "en": "the energy stored in a battery",
+        "es": "la energía almacenada en una batería"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Current (amperes) is charge per unit time. \"Pressure\" describes voltage, \"opposition\" describes resistance, and stored energy is measured in joules or watt-hours.",
+      "es": "La corriente (amperios) es carga por unidad de tiempo. \"Presión\" describe el voltaje, \"oposición\" describe la resistencia, y la energía almacenada se mide en julios o vatios-hora."
+    },
+    "trap": {
+      "en": "\"Electrical pressure\" is the water-pipe analogy for voltage, not current. Voltage pushes; current is what actually moves.",
+      "es": "\"Presión eléctrica\" es la analogía de la tubería de agua para el voltaje, no para la corriente. El voltaje empuja; la corriente es lo que realmente se mueve."
+    },
+    "strategyRef": "ei.units",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0042",
+    "subtest": "EI",
+    "topic": "circuit-basics",
+    "difficulty": 2,
+    "stem": {
+      "en": "A flashlight has a battery, a bulb and a switch in one loop. When the switch is open,",
+      "es": "Una linterna tiene una batería, un foco y un interruptor en un solo lazo. Cuando el interruptor está abierto,"
+    },
+    "choices": [
+      {
+        "en": "current flows and the bulb lights normally",
+        "es": "la corriente fluye y el foco enciende normalmente"
+      },
+      {
+        "en": "no current flows because the loop is broken",
+        "es": "no fluye corriente porque el lazo está interrumpido"
+      },
+      {
+        "en": "current doubles because it has less resistance",
+        "es": "la corriente se duplica porque hay menos resistencia"
+      },
+      {
+        "en": "the battery is short-circuited",
+        "es": "la batería queda en cortocircuito"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "\"Open\" means there is a gap in the path, so no complete loop exists and the bulb is off. \"Closed\" completes the circuit and the bulb lights.",
+      "es": "\"Abierto\" significa que hay una separación en el camino, así que no existe un lazo completo y el foco está apagado. \"Cerrado\" completa el circuito y el foco enciende."
+    },
+    "trap": {
+      "en": "In everyday language \"open\" sounds like \"on\" (an open door lets you through). In circuits it is the reverse: open = off.",
+      "es": "En el lenguaje cotidiano \"abierto\" suena a \"encendido\" (una puerta abierta deja pasar). En circuitos es al revés: abierto = apagado."
+    },
+    "strategyRef": "ei.component-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0043",
+    "subtest": "EI",
+    "topic": "units",
+    "difficulty": 1,
+    "stem": {
+      "en": "Electrical resistance is measured in",
+      "es": "La resistencia eléctrica se mide en"
+    },
+    "choices": [
+      {
+        "en": "volts",
+        "es": "voltios"
+      },
+      {
+        "en": "amperes",
+        "es": "amperios"
+      },
+      {
+        "en": "ohms",
+        "es": "ohmios"
+      },
+      {
+        "en": "watts",
+        "es": "vatios"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "The ohm (Ω) is the unit of resistance. Volts measure voltage, amperes measure current and watts measure power.",
+      "es": "El ohmio (Ω) es la unidad de resistencia. Los voltios miden voltaje, los amperios corriente y los vatios potencia."
+    },
+    "trap": {
+      "en": "\"Watts\" is chosen when resistors are remembered as things that get hot; heat is the power dissipated, not the resistance itself.",
+      "es": "\"Vatios\" se elige cuando se recuerda que las resistencias se calientan; el calor es la potencia disipada, no la resistencia en sí."
+    },
+    "strategyRef": "ei.units",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0044",
+    "subtest": "EI",
+    "topic": "units",
+    "difficulty": 3,
+    "stem": {
+      "en": "A meter reads 250 milliamperes. Expressed in amperes, that current is",
+      "es": "Un medidor marca 250 miliamperios. Expresada en amperios, esa corriente es"
+    },
+    "choices": [
+      {
+        "en": "0.025 A",
+        "es": "0.025 A"
+      },
+      {
+        "en": "0.25 A",
+        "es": "0.25 A"
+      },
+      {
+        "en": "2.5 A",
+        "es": "2.5 A"
+      },
+      {
+        "en": "25 A",
+        "es": "25 A"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Milli means one-thousandth, so divide by 1,000: 250 mA ÷ 1,000 = 0.25 A.",
+      "es": "Mili significa una milésima, así que se divide entre 1,000: 250 mA ÷ 1,000 = 0.25 A."
+    },
+    "trap": {
+      "en": "\"0.025 A\" divides by 10,000 and \"2.5 A\" by 100. Milli is exactly three decimal places.",
+      "es": "\"0.025 A\" divide entre 10,000 y \"2.5 A\" entre 100. Mili son exactamente tres lugares decimales."
+    },
+    "strategyRef": "ei.units",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0045",
+    "subtest": "EI",
+    "topic": "materials",
+    "difficulty": 1,
+    "stem": {
+      "en": "Which of the following materials conducts electricity best?",
+      "es": "¿Cuál de los siguientes materiales conduce mejor la electricidad?"
+    },
+    "choices": [
+      {
+        "en": "Rubber",
+        "es": "Caucho"
+      },
+      {
+        "en": "Glass",
+        "es": "Vidrio"
+      },
+      {
+        "en": "Copper",
+        "es": "Cobre"
+      },
+      {
+        "en": "Dry wood",
+        "es": "Madera seca"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Metals such as copper have many free electrons that move easily, so they conduct well. Rubber, glass and dry wood are insulators with very few free electrons.",
+      "es": "Los metales como el cobre tienen muchos electrones libres que se mueven con facilidad, por eso conducen bien. El caucho, el vidrio y la madera seca son aislantes con muy pocos electrones libres."
+    },
+    "trap": {
+      "en": "\"Dry wood\" is sometimes chosen because wet wood can conduct, but the question specifies dry, which is an insulator.",
+      "es": "\"Madera seca\" a veces se elige porque la madera húmeda puede conducir, pero la pregunta especifica seca, que es aislante."
+    },
+    "strategyRef": "ei.component-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0046",
+    "subtest": "EI",
+    "topic": "materials",
+    "difficulty": 2,
+    "stem": {
+      "en": "Silver conducts electricity slightly better than copper. Why is copper, not silver, used for ordinary building wire?",
+      "es": "La plata conduce la electricidad un poco mejor que el cobre. ¿Por qué se usa cobre, y no plata, para el cableado común de edificios?"
+    },
+    "choices": [
+      {
+        "en": "Silver is far more expensive",
+        "es": "La plata es mucho más cara"
+      },
+      {
+        "en": "Silver is an insulator at room temperature",
+        "es": "La plata es aislante a temperatura ambiente"
+      },
+      {
+        "en": "Silver melts at a lower temperature than the wire carries",
+        "es": "La plata se funde a una temperatura menor que la que soporta el cable"
+      },
+      {
+        "en": "Silver cannot be drawn into wire",
+        "es": "La plata no se puede estirar en forma de alambre"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Silver is the best common conductor, but its cost rules it out for bulk wiring. Copper gives nearly the same conductivity at a fraction of the price.",
+      "es": "La plata es el mejor conductor común, pero su costo la descarta para cableado masivo. El cobre ofrece casi la misma conductividad a una fracción del precio."
+    },
+    "trap": {
+      "en": "The three technical-sounding options are all false: silver is a metal conductor, has a high melting point and is very ductile. The reason is simply economic.",
+      "es": "Las tres opciones de aspecto técnico son falsas: la plata es un metal conductor, tiene un punto de fusión alto y es muy dúctil. La razón es simplemente económica."
+    },
+    "strategyRef": "ei.component-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0047",
+    "subtest": "EI",
+    "topic": "materials",
+    "difficulty": 3,
+    "stem": {
+      "en": "As the temperature of a copper wire rises, its electrical resistance",
+      "es": "A medida que sube la temperatura de un alambre de cobre, su resistencia eléctrica"
+    },
+    "choices": [
+      {
+        "en": "decreases",
+        "es": "disminuye"
+      },
+      {
+        "en": "stays exactly the same",
+        "es": "se mantiene exactamente igual"
+      },
+      {
+        "en": "drops to zero",
+        "es": "cae a cero"
+      },
+      {
+        "en": "increases",
+        "es": "aumenta"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "In metals, heat makes the atoms vibrate more, which scatters the moving electrons and raises resistance. That is why a bulb filament has a much higher resistance hot than cold.",
+      "es": "En los metales, el calor hace vibrar más a los átomos, lo que dispersa a los electrones en movimiento y eleva la resistencia. Por eso el filamento de un foco tiene mucha más resistencia caliente que frío."
+    },
+    "trap": {
+      "en": "\"Decreases\" is true for semiconductors and for some special components (thermistors), which is where the confusion comes from. Metals go the other way.",
+      "es": "\"Disminuye\" es cierto para los semiconductores y algunos componentes especiales (termistores), y de ahí viene la confusión. Los metales van en sentido contrario."
+    },
+    "strategyRef": "ei.component-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0048",
+    "subtest": "EI",
+    "topic": "ohms-law",
+    "difficulty": 2,
+    "stem": {
+      "en": "A 9 V battery is connected across a 450 Ω resistor. The current through the resistor is",
+      "es": "Una batería de 9 V se conecta a una resistencia de 450 Ω. La corriente a través de la resistencia es"
+    },
+    "choices": [
+      {
+        "en": "0.002 A",
+        "es": "0.002 A"
+      },
+      {
+        "en": "0.02 A (20 mA)",
+        "es": "0.02 A (20 mA)"
+      },
+      {
+        "en": "0.2 A",
+        "es": "0.2 A"
+      },
+      {
+        "en": "50 A",
+        "es": "50 A"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "I = V ÷ R = 9 V ÷ 450 Ω = 0.02 A, which is 20 mA.",
+      "es": "I = V ÷ R = 9 V ÷ 450 Ω = 0.02 A, es decir, 20 mA."
+    },
+    "trap": {
+      "en": "\"50 A\" divides the wrong way (450 ÷ 9). Cover I in the triangle: V sits over R, so it is volts divided by ohms.",
+      "es": "\"50 A\" divide al revés (450 ÷ 9). Cubre la I en el triángulo: la V queda sobre la R, así que son voltios entre ohmios."
+    },
+    "strategyRef": "ei.ohm-triangle",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0049",
+    "subtest": "EI",
+    "topic": "ohms-law",
+    "difficulty": 3,
+    "stem": {
+      "en": "A heating element draws 8 A from a 240 V supply. If the same element is connected to 120 V instead, the current becomes",
+      "es": "Un elemento calefactor consume 8 A de una fuente de 240 V. Si el mismo elemento se conecta a 120 V, la corriente pasa a ser"
+    },
+    "choices": [
+      {
+        "en": "16 A",
+        "es": "16 A"
+      },
+      {
+        "en": "8 A",
+        "es": "8 A"
+      },
+      {
+        "en": "4 A",
+        "es": "4 A"
+      },
+      {
+        "en": "2 A",
+        "es": "2 A"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "First find the fixed resistance: R = 240 V ÷ 8 A = 30 Ω. Then I = 120 V ÷ 30 Ω = 4 A. Halving the voltage halves the current.",
+      "es": "Primero se halla la resistencia fija: R = 240 V ÷ 8 A = 30 Ω. Luego I = 120 V ÷ 30 Ω = 4 A. Reducir el voltaje a la mitad reduce la corriente a la mitad."
+    },
+    "trap": {
+      "en": "\"16 A\" assumes current goes up when voltage goes down, which is the power-formula confusion (P = V × I with fixed P). Here the resistance is fixed, not the power.",
+      "es": "\"16 A\" supone que la corriente sube cuando el voltaje baja, la confusión de la fórmula de potencia (P = V × I con P fija). Aquí lo fijo es la resistencia, no la potencia."
+    },
+    "strategyRef": "ei.ohm-triangle",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0050",
+    "subtest": "EI",
+    "topic": "power",
+    "difficulty": 3,
+    "stem": {
+      "en": "A 1,500 W space heater runs for 4 hours. How much electrical energy does it consume?",
+      "es": "Un calefactor de 1,500 W funciona durante 4 horas. ¿Cuánta energía eléctrica consume?"
+    },
+    "choices": [
+      {
+        "en": "1.5 kWh",
+        "es": "1.5 kWh"
+      },
+      {
+        "en": "375 kWh",
+        "es": "375 kWh"
+      },
+      {
+        "en": "0.6 kWh",
+        "es": "0.6 kWh"
+      },
+      {
+        "en": "6 kWh",
+        "es": "6 kWh"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Energy = power × time. 1,500 W = 1.5 kW, and 1.5 kW × 4 h = 6 kWh, the unit that appears on an electric bill.",
+      "es": "Energía = potencia × tiempo. 1,500 W = 1.5 kW, y 1.5 kW × 4 h = 6 kWh, la unidad que aparece en el recibo de luz."
+    },
+    "trap": {
+      "en": "\"1.5 kWh\" forgets to multiply by the 4 hours; \"375 kWh\" divides by time instead of multiplying.",
+      "es": "\"1.5 kWh\" olvida multiplicar por las 4 horas; \"375 kWh\" divide entre el tiempo en vez de multiplicar."
+    },
+    "strategyRef": "ei.units",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0051",
+    "subtest": "EI",
+    "topic": "ac-dc",
+    "difficulty": 1,
+    "stem": {
+      "en": "Which of the following is a source of direct current (DC)?",
+      "es": "¿Cuál de las siguientes es una fuente de corriente continua (CC)?"
+    },
+    "choices": [
+      {
+        "en": "A car battery",
+        "es": "La batería de un automóvil"
+      },
+      {
+        "en": "A household wall outlet",
+        "es": "Un tomacorriente doméstico"
+      },
+      {
+        "en": "A high-voltage transmission line",
+        "es": "Una línea de transmisión de alta tensión"
+      },
+      {
+        "en": "The alternator in a power plant",
+        "es": "El alternador de una central eléctrica"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Batteries and cells always deliver DC: current in one direction from a fixed positive to a fixed negative terminal. Outlets, transmission lines and plant alternators all carry AC.",
+      "es": "Las baterías y pilas siempre entregan CC: corriente en un solo sentido desde un borne positivo fijo hacia uno negativo fijo. Los tomacorrientes, las líneas de transmisión y los alternadores de las centrales manejan CA."
+    },
+    "trap": {
+      "en": "\"Household wall outlet\" gets picked because it powers DC gadgets, but those gadgets contain an adapter that converts the AC first.",
+      "es": "\"Tomacorriente doméstico\" se elige porque alimenta aparatos de CC, pero esos aparatos tienen un adaptador que primero convierte la CA."
+    },
+    "strategyRef": "ei.component-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0052",
+    "subtest": "EI",
+    "topic": "ac-dc",
+    "difficulty": 2,
+    "stem": {
+      "en": "US household power is 60 Hz alternating current. This means the current",
+      "es": "La electricidad doméstica en EE. UU. es corriente alterna de 60 Hz. Esto significa que la corriente"
+    },
+    "choices": [
+      {
+        "en": "reverses direction 60 times each second",
+        "es": "invierte su sentido 60 veces por segundo"
+      },
+      {
+        "en": "completes 60 full cycles each second",
+        "es": "completa 60 ciclos completos por segundo"
+      },
+      {
+        "en": "peaks at 60 volts",
+        "es": "alcanza un máximo de 60 voltios"
+      },
+      {
+        "en": "delivers 60 watts to each outlet",
+        "es": "entrega 60 vatios a cada tomacorriente"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Hertz counts complete cycles per second. Each cycle has two reversals (forward then back), so 60 Hz is 120 direction changes per second. Voltage is a separate number, about 120 V.",
+      "es": "El hertz cuenta ciclos completos por segundo. Cada ciclo tiene dos inversiones (ida y vuelta), así que 60 Hz son 120 cambios de sentido por segundo. El voltaje es otro número, unos 120 V."
+    },
+    "trap": {
+      "en": "\"Reverses direction 60 times\" is half the truth: a cycle includes both reversals, so the count is 120.",
+      "es": "\"Invierte su sentido 60 veces\" es la mitad de la verdad: un ciclo incluye ambas inversiones, así que son 120."
+    },
+    "strategyRef": "ei.units",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0053",
+    "subtest": "EI",
+    "topic": "magnetism",
+    "difficulty": 1,
+    "stem": {
+      "en": "The pull of an electromagnet can be made stronger by",
+      "es": "La fuerza de un electroimán puede aumentarse"
+    },
+    "choices": [
+      {
+        "en": "replacing the iron core with a plastic rod",
+        "es": "reemplazando el núcleo de hierro por una varilla de plástico"
+      },
+      {
+        "en": "reducing the current in the coil",
+        "es": "reduciendo la corriente en la bobina"
+      },
+      {
+        "en": "adding more turns of wire to the coil",
+        "es": "agregando más vueltas de alambre a la bobina"
+      },
+      {
+        "en": "using thicker insulation on the wire",
+        "es": "usando un aislamiento más grueso en el alambre"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Field strength grows with more turns, more current and a magnetic (iron) core. Plastic does not concentrate the field, less current weakens it, and insulation thickness has no effect on magnetism.",
+      "es": "La intensidad del campo aumenta con más vueltas, más corriente y un núcleo magnético (hierro). El plástico no concentra el campo, menos corriente lo debilita y el grosor del aislamiento no afecta el magnetismo."
+    },
+    "trap": {
+      "en": "\"Thicker insulation\" sounds like a bigger, better coil, but insulation only separates the turns; it adds nothing to the field.",
+      "es": "\"Aislamiento más grueso\" suena a una bobina más grande y mejor, pero el aislamiento solo separa las vueltas; no aporta nada al campo."
+    },
+    "strategyRef": "ei.component-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0054",
+    "subtest": "EI",
+    "topic": "magnetism",
+    "difficulty": 2,
+    "stem": {
+      "en": "An electric generator produces a voltage by",
+      "es": "Un generador eléctrico produce un voltaje"
+    },
+    "choices": [
+      {
+        "en": "storing charge between two metal plates",
+        "es": "almacenando carga entre dos placas metálicas"
+      },
+      {
+        "en": "a chemical reaction between two different metals",
+        "es": "mediante una reacción química entre dos metales distintos"
+      },
+      {
+        "en": "heating a coil of wire until it glows",
+        "es": "calentando una bobina de alambre hasta que brille"
+      },
+      {
+        "en": "moving a coil of wire through a magnetic field",
+        "es": "moviendo una bobina de alambre a través de un campo magnético"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "This is electromagnetic induction: relative motion between a conductor and a magnetic field induces a voltage. The plates describe a capacitor and the chemical reaction describes a battery.",
+      "es": "Esto es inducción electromagnética: el movimiento relativo entre un conductor y un campo magnético induce un voltaje. Las placas describen un capacitor y la reacción química describe una batería."
+    },
+    "trap": {
+      "en": "\"Chemical reaction\" is how a battery makes voltage, and batteries are often confused with generators because both are sources.",
+      "es": "\"Reacción química\" es como una batería produce voltaje, y las baterías se confunden a menudo con los generadores porque ambos son fuentes."
+    },
+    "strategyRef": "ei.component-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0055",
+    "subtest": "EI",
+    "topic": "magnetism",
+    "difficulty": 2,
+    "stem": {
+      "en": "In an electric motor, electrical energy is converted mainly into",
+      "es": "En un motor eléctrico, la energía eléctrica se convierte principalmente en"
+    },
+    "choices": [
+      {
+        "en": "mechanical energy of rotation",
+        "es": "energía mecánica de rotación"
+      },
+      {
+        "en": "chemical energy",
+        "es": "energía química"
+      },
+      {
+        "en": "light energy",
+        "es": "energía luminosa"
+      },
+      {
+        "en": "stored electric charge",
+        "es": "carga eléctrica almacenada"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "A motor uses the force between a current-carrying coil and a magnetic field to spin a shaft. A generator is the same machine run in reverse: motion in, electricity out.",
+      "es": "Un motor usa la fuerza entre una bobina con corriente y un campo magnético para hacer girar un eje. Un generador es la misma máquina en sentido inverso: entra movimiento, sale electricidad."
+    },
+    "trap": {
+      "en": "Motors do get warm, but heat is a loss, not the purpose. The main output is motion.",
+      "es": "Los motores sí se calientan, pero el calor es una pérdida, no el propósito. La salida principal es el movimiento."
+    },
+    "strategyRef": "ei.component-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0056",
+    "subtest": "EI",
+    "topic": "magnetism",
+    "difficulty": 3,
+    "stem": {
+      "en": "A bar magnet is cut in half across its middle. The result is",
+      "es": "Un imán de barra se corta por la mitad. El resultado es"
+    },
+    "choices": [
+      {
+        "en": "one piece that is all north and one that is all south",
+        "es": "una pieza que es toda norte y otra que es toda sur"
+      },
+      {
+        "en": "two smaller complete magnets, each with a north and a south pole",
+        "es": "dos imanes completos más pequeños, cada uno con un polo norte y un polo sur"
+      },
+      {
+        "en": "two pieces with no magnetism at all",
+        "es": "dos piezas sin magnetismo alguno"
+      },
+      {
+        "en": "one magnet and one non-magnetic piece",
+        "es": "un imán y una pieza no magnética"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Magnetic poles always come in pairs. Every piece, no matter how small, has both a north and a south pole; an isolated single pole has never been found.",
+      "es": "Los polos magnéticos siempre vienen en pares. Cada pieza, por pequeña que sea, tiene un polo norte y un polo sur; nunca se ha encontrado un polo aislado."
+    },
+    "trap": {
+      "en": "\"All north and all south\" treats the poles like two ends of a stick you can separate. They are not separable.",
+      "es": "\"Toda norte y toda sur\" trata los polos como dos extremos de un palo que se pueden separar. No son separables."
+    },
+    "strategyRef": "ei.component-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0057",
+    "subtest": "EI",
+    "topic": "series",
+    "difficulty": 1,
+    "stem": {
+      "en": "In a series circuit with several resistors, the current",
+      "es": "En un circuito en serie con varias resistencias, la corriente"
+    },
+    "choices": [
+      {
+        "en": "is largest right next to the battery",
+        "es": "es mayor justo al lado de la batería"
+      },
+      {
+        "en": "splits between the resistors",
+        "es": "se reparte entre las resistencias"
+      },
+      {
+        "en": "is the same through every resistor",
+        "es": "es la misma a través de cada resistencia"
+      },
+      {
+        "en": "is zero in the middle of the loop",
+        "es": "es cero en la mitad del lazo"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "A series circuit has only one path, so whatever charge passes one component must pass all the others. Voltage, not current, is what divides among series resistors.",
+      "es": "Un circuito en serie tiene un solo camino, así que la carga que pasa por un componente debe pasar por todos los demás. Lo que se reparte entre resistencias en serie es el voltaje, no la corriente."
+    },
+    "trap": {
+      "en": "\"Splits between the resistors\" is the parallel rule. In series nothing splits because there is no branch to split into.",
+      "es": "\"Se reparte entre las resistencias\" es la regla de paralelo. En serie nada se reparte porque no hay ramas."
+    },
+    "strategyRef": "ei.series-parallel",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0058",
+    "subtest": "EI",
+    "topic": "series",
+    "difficulty": 3,
+    "stem": {
+      "en": "Resistors of 2 Ω, 3 Ω and 5 Ω are connected in series across a 20 V battery. What is the voltage across the 5 Ω resistor?",
+      "es": "Resistencias de 2 Ω, 3 Ω y 5 Ω se conectan en serie a una batería de 20 V. ¿Cuál es el voltaje en la resistencia de 5 Ω?"
+    },
+    "choices": [
+      {
+        "en": "2 V",
+        "es": "2 V"
+      },
+      {
+        "en": "4 V",
+        "es": "4 V"
+      },
+      {
+        "en": "20 V",
+        "es": "20 V"
+      },
+      {
+        "en": "10 V",
+        "es": "10 V"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Total resistance = 2 + 3 + 5 = 10 Ω, so the current is 20 V ÷ 10 Ω = 2 A everywhere. Across the 5 Ω resistor: V = 2 A × 5 Ω = 10 V (half the battery voltage, because it is half the resistance).",
+      "es": "Resistencia total = 2 + 3 + 5 = 10 Ω, así que la corriente es 20 V ÷ 10 Ω = 2 A en todo el circuito. En la resistencia de 5 Ω: V = 2 A × 5 Ω = 10 V (la mitad del voltaje de la batería, porque es la mitad de la resistencia)."
+    },
+    "trap": {
+      "en": "\"20 V\" applies the full source voltage to one resistor, which is the parallel rule. \"4 V\" divides 20 V by 5 instead of using Ohm's law.",
+      "es": "\"20 V\" aplica todo el voltaje de la fuente a una sola resistencia, que es la regla de paralelo. \"4 V\" divide 20 V entre 5 en lugar de usar la ley de Ohm."
+    },
+    "strategyRef": "ei.series-parallel",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0059",
+    "subtest": "EI",
+    "topic": "parallel",
+    "difficulty": 2,
+    "stem": {
+      "en": "A 12 V battery feeds two parallel branches: one with a 4 Ω resistor and one with a 6 Ω resistor. What current flows through the 4 Ω branch?",
+      "es": "Una batería de 12 V alimenta dos ramas en paralelo: una con una resistencia de 4 Ω y otra con una de 6 Ω. ¿Qué corriente fluye por la rama de 4 Ω?"
+    },
+    "choices": [
+      {
+        "en": "3 A",
+        "es": "3 A"
+      },
+      {
+        "en": "2 A",
+        "es": "2 A"
+      },
+      {
+        "en": "1.2 A",
+        "es": "1.2 A"
+      },
+      {
+        "en": "5 A",
+        "es": "5 A"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Each parallel branch sees the full 12 V. I = 12 V ÷ 4 Ω = 3 A. The 6 Ω branch carries 2 A, and the battery supplies the sum, 5 A.",
+      "es": "Cada rama en paralelo recibe los 12 V completos. I = 12 V ÷ 4 Ω = 3 A. La rama de 6 Ω lleva 2 A, y la batería suministra la suma, 5 A."
+    },
+    "trap": {
+      "en": "\"5 A\" is the total current from the battery, not the branch current. \"2 A\" is the other branch. Read which branch the question asks about.",
+      "es": "\"5 A\" es la corriente total de la batería, no la de la rama. \"2 A\" es la otra rama. Lee bien por cuál rama pregunta."
+    },
+    "strategyRef": "ei.series-parallel",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0060",
+    "subtest": "EI",
+    "topic": "series-vs-parallel",
+    "difficulty": 2,
+    "stem": {
+      "en": "A second resistor is connected in parallel with a resistor already in a circuit. The total resistance of the pair",
+      "es": "Se conecta una segunda resistencia en paralelo con una que ya está en un circuito. La resistencia total del par"
+    },
+    "choices": [
+      {
+        "en": "is larger than either resistor alone",
+        "es": "es mayor que cualquiera de las dos por separado"
+      },
+      {
+        "en": "is smaller than either resistor alone",
+        "es": "es menor que cualquiera de las dos por separado"
+      },
+      {
+        "en": "stays equal to the original resistor",
+        "es": "sigue siendo igual a la resistencia original"
+      },
+      {
+        "en": "becomes zero",
+        "es": "se vuelve cero"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "A parallel branch adds another path for current, so more current flows for the same voltage, which means lower total resistance. Series connections add resistance; parallel connections reduce it.",
+      "es": "Una rama en paralelo agrega otro camino para la corriente, así que fluye más corriente con el mismo voltaje, lo que significa menor resistencia total. Las conexiones en serie suman resistencia; las conexiones en paralelo la reducen."
+    },
+    "trap": {
+      "en": "\"Larger than either\" is the series instinct: more parts, more resistance. In parallel, more paths means less resistance.",
+      "es": "\"Mayor que cualquiera\" es el instinto de serie: más partes, más resistencia. En paralelo, más caminos significa menos resistencia."
+    },
+    "strategyRef": "ei.series-parallel",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0061",
+    "subtest": "EI",
+    "topic": "schematics",
+    "difficulty": 1,
+    "stem": {
+      "en": "On a schematic, a circle with an X drawn inside it, with a lead on each side, most commonly represents a",
+      "es": "En un esquema, un círculo con una X dibujada adentro y un conductor a cada lado representa por lo general"
+    },
+    "choices": [
+      {
+        "en": "fuse",
+        "es": "un fusible"
+      },
+      {
+        "en": "switch",
+        "es": "un interruptor"
+      },
+      {
+        "en": "lamp",
+        "es": "una lámpara"
+      },
+      {
+        "en": "ground connection",
+        "es": "una conexión a tierra"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "The circle-with-X is the standard lamp (light bulb) symbol. A fuse is a small rectangle or a line with a bump, a switch is a hinged line that breaks the path, and ground is a set of stacked horizontal lines.",
+      "es": "El círculo con X es el símbolo estándar de lámpara (foco). Un fusible es un rectángulo pequeño o una línea con una protuberancia, un interruptor es una línea articulada que rompe el camino, y tierra son líneas horizontales apiladas."
+    },
+    "trap": {
+      "en": "\"Fuse\" is chosen because both are drawn inline on a wire; but a fuse has no circle and no X.",
+      "es": "\"Fusible\" se elige porque ambos se dibujan en línea sobre un conductor; pero un fusible no tiene círculo ni X."
+    },
+    "strategyRef": "ei.component-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0062",
+    "subtest": "EI",
+    "topic": "schematics",
+    "difficulty": 2,
+    "stem": {
+      "en": "A schematic symbol made of three short horizontal lines, each shorter than the one above it, at the end of a wire represents",
+      "es": "Un símbolo esquemático formado por tres líneas horizontales cortas, cada una más corta que la de arriba, al final de un conductor representa"
+    },
+    "choices": [
+      {
+        "en": "a capacitor",
+        "es": "un capacitor"
+      },
+      {
+        "en": "a battery",
+        "es": "una batería"
+      },
+      {
+        "en": "an antenna",
+        "es": "una antena"
+      },
+      {
+        "en": "ground",
+        "es": "tierra"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "The tapering stack of lines is the ground symbol. A capacitor is two equal parallel lines; a battery alternates long and short lines; an antenna is drawn as a V or a fan shape.",
+      "es": "La pila de líneas que se van acortando es el símbolo de tierra. Un capacitor son dos líneas paralelas iguales; una batería alterna líneas largas y cortas; una antena se dibuja como una V o un abanico."
+    },
+    "trap": {
+      "en": "\"Battery\" also uses stacked lines, but its lines alternate long-short in pairs and have a lead at both ends; ground has a lead on only one side.",
+      "es": "\"Batería\" también usa líneas apiladas, pero alterna larga-corta en pares y tiene conductor en ambos extremos; tierra solo tiene conductor de un lado."
+    },
+    "strategyRef": "ei.component-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0063",
+    "subtest": "EI",
+    "topic": "color-code",
+    "difficulty": 2,
+    "stem": {
+      "en": "A resistor is banded yellow, violet, red, gold. Its value is",
+      "es": "Una resistencia tiene bandas amarillo, violeta, rojo, dorado. Su valor es"
+    },
+    "choices": [
+      {
+        "en": "4,700 Ω ±5 %",
+        "es": "4,700 Ω ±5 %"
+      },
+      {
+        "en": "470 Ω ±5 %",
+        "es": "470 Ω ±5 %"
+      },
+      {
+        "en": "47,000 Ω ±5 %",
+        "es": "47,000 Ω ±5 %"
+      },
+      {
+        "en": "472 Ω ±10 %",
+        "es": "472 Ω ±10 %"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Yellow = 4, violet = 7, so the digits are 47. Red as the third band means multiply by 10², giving 4,700 Ω (4.7 kΩ). Gold = ±5 % tolerance.",
+      "es": "Amarillo = 4, violeta = 7, así que los dígitos son 47. Rojo como tercera banda significa multiplicar por 10², lo que da 4,700 Ω (4.7 kΩ). Dorado = tolerancia ±5 %."
+    },
+    "trap": {
+      "en": "\"472 Ω\" reads the multiplier band as a third digit. The third band tells you how many zeros to add, not a number to append.",
+      "es": "\"472 Ω\" lee la banda multiplicadora como un tercer dígito. La tercera banda indica cuántos ceros agregar, no un número que se añade."
+    },
+    "strategyRef": "ei.color-code",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0064",
+    "subtest": "EI",
+    "topic": "color-code",
+    "difficulty": 3,
+    "stem": {
+      "en": "Which set of color bands marks a 1,000 Ω (1 kΩ) resistor with ±10 % tolerance?",
+      "es": "¿Qué conjunto de bandas de color marca una resistencia de 1,000 Ω (1 kΩ) con tolerancia de ±10 %?"
+    },
+    "choices": [
+      {
+        "en": "Brown, black, brown, gold",
+        "es": "Marrón, negro, marrón, dorado"
+      },
+      {
+        "en": "Brown, black, red, silver",
+        "es": "Marrón, negro, rojo, plateado"
+      },
+      {
+        "en": "Brown, black, orange, silver",
+        "es": "Marrón, negro, naranja, plateado"
+      },
+      {
+        "en": "Black, brown, red, gold",
+        "es": "Negro, marrón, rojo, dorado"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Brown = 1, black = 0 gives \"10\"; red multiplier = ×100, so 1,000 Ω. Silver is ±10 %, gold is ±5 %. Brown-black-brown is 100 Ω and brown-black-orange is 10,000 Ω.",
+      "es": "Marrón = 1, negro = 0 da \"10\"; multiplicador rojo = ×100, así que 1,000 Ω. Plateado es ±10 %, dorado es ±5 %. Marrón-negro-marrón es 100 Ω y marrón-negro-naranja es 10,000 Ω."
+    },
+    "trap": {
+      "en": "\"Black, brown, red, gold\" has the right colors in the wrong order (01 × 100 = 100 Ω) and the wrong tolerance. Band order matters.",
+      "es": "\"Negro, marrón, rojo, dorado\" tiene los colores correctos en orden incorrecto (01 × 100 = 100 Ω) y la tolerancia equivocada. El orden de las bandas importa."
+    },
+    "strategyRef": "ei.color-code",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0065",
+    "subtest": "EI",
+    "topic": "semiconductors",
+    "difficulty": 1,
+    "stem": {
+      "en": "The three terminals of a bipolar junction transistor are called the",
+      "es": "Los tres terminales de un transistor de unión bipolar se llaman"
+    },
+    "choices": [
+      {
+        "en": "anode, cathode and gate",
+        "es": "ánodo, cátodo y compuerta"
+      },
+      {
+        "en": "primary, secondary and core",
+        "es": "primario, secundario y núcleo"
+      },
+      {
+        "en": "emitter, base and collector",
+        "es": "emisor, base y colector"
+      },
+      {
+        "en": "positive, negative and ground",
+        "es": "positivo, negativo y tierra"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "A small current into the base controls a larger current between collector and emitter. Anode and cathode belong to diodes, and primary and secondary belong to transformers.",
+      "es": "Una pequeña corriente en la base controla una corriente mayor entre colector y emisor. Ánodo y cátodo pertenecen a los diodos, y primario y secundario a los transformadores."
+    },
+    "trap": {
+      "en": "\"Anode, cathode and gate\" mixes diode terms with a thyristor term. Two-terminal parts use anode/cathode; the three-lead transistor has its own names.",
+      "es": "\"Ánodo, cátodo y compuerta\" mezcla términos de diodo con uno de tiristor. Los componentes de dos terminales usan ánodo/cátodo; el transistor de tres patas tiene sus propios nombres."
+    },
+    "strategyRef": "ei.component-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0066",
+    "subtest": "EI",
+    "topic": "semiconductors",
+    "difficulty": 2,
+    "stem": {
+      "en": "An integrated circuit (IC) is best described as",
+      "es": "Un circuito integrado (CI) se describe mejor como"
+    },
+    "choices": [
+      {
+        "en": "a single large transistor in a metal can",
+        "es": "un solo transistor grande en una cápsula metálica"
+      },
+      {
+        "en": "a coil of wire wound on an iron core",
+        "es": "una bobina de alambre enrollada en un núcleo de hierro"
+      },
+      {
+        "en": "a mechanical switch operated by a magnet",
+        "es": "un interruptor mecánico accionado por un imán"
+      },
+      {
+        "en": "many transistors, resistors and other parts built together on one small chip",
+        "es": "muchos transistores, resistencias y otros componentes construidos juntos en un pequeño chip"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "An IC packs a complete circuit, sometimes billions of transistors, onto one piece of silicon. The coil describes an inductor or electromagnet; the magnet-operated switch describes a relay or reed switch.",
+      "es": "Un CI reúne un circuito completo, a veces miles de millones de transistores, en una sola pieza de silicio. La bobina describe un inductor o electroimán; el interruptor accionado por imán describe un relé o un interruptor de lengüeta."
+    },
+    "trap": {
+      "en": "\"A single large transistor\" confuses the package (a chip looks like one part) with the contents (an entire circuit).",
+      "es": "\"Un solo transistor grande\" confunde el encapsulado (un chip parece una sola pieza) con el contenido (un circuito completo)."
+    },
+    "strategyRef": "ei.component-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0067",
+    "subtest": "EI",
+    "topic": "semiconductors",
+    "difficulty": 2,
+    "stem": {
+      "en": "A small signal applied to the base of a transistor controls a much larger current between its collector and emitter. This ability is called",
+      "es": "Una señal pequeña aplicada a la base de un transistor controla una corriente mucho mayor entre su colector y su emisor. Esta capacidad se llama"
+    },
+    "choices": [
+      {
+        "en": "amplification",
+        "es": "amplificación"
+      },
+      {
+        "en": "rectification",
+        "es": "rectificación"
+      },
+      {
+        "en": "induction",
+        "es": "inducción"
+      },
+      {
+        "en": "capacitance",
+        "es": "capacitancia"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Amplification means a weak input shapes a strong output. Rectification (turning AC into DC) is the diode's job, induction belongs to coils and magnets, and capacitance to capacitors.",
+      "es": "Amplificación significa que una entrada débil da forma a una salida fuerte. La rectificación (convertir CA en CC) es tarea del diodo, la inducción pertenece a bobinas e imanes, y la capacitancia a los capacitores."
+    },
+    "trap": {
+      "en": "\"Rectification\" is the other famous semiconductor job, but it is done by diodes, and it changes AC to DC rather than making a signal bigger.",
+      "es": "\"Rectificación\" es la otra función famosa de los semiconductores, pero la hacen los diodos, y convierte CA en CC en lugar de agrandar una señal."
+    },
+    "strategyRef": "ei.component-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0068",
+    "subtest": "EI",
+    "topic": "semiconductors",
+    "difficulty": 3,
+    "stem": {
+      "en": "To make pure silicon useful in a transistor, tiny amounts of other elements are added to create N-type and P-type regions. This process is called",
+      "es": "Para que el silicio puro sea útil en un transistor, se agregan cantidades mínimas de otros elementos para crear regiones tipo N y tipo P. Este proceso se llama"
+    },
+    "choices": [
+      {
+        "en": "annealing",
+        "es": "recocido"
+      },
+      {
+        "en": "doping",
+        "es": "dopaje"
+      },
+      {
+        "en": "soldering",
+        "es": "soldadura"
+      },
+      {
+        "en": "plating",
+        "es": "galvanizado"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Doping adds impurity atoms that either donate free electrons (N-type) or create \"holes\" (P-type). Where an N region meets a P region you get the junction that makes diodes and transistors work.",
+      "es": "El dopaje agrega átomos de impureza que donan electrones libres (tipo N) o crean \"huecos\" (tipo P). Donde una región N toca una región P se forma la unión que hace funcionar diodos y transistores."
+    },
+    "trap": {
+      "en": "\"Annealing\" and \"plating\" are real manufacturing steps for metals, which makes them sound plausible, but neither changes how silicon conducts.",
+      "es": "\"Recocido\" y \"galvanizado\" son pasos reales de fabricación con metales, y por eso suenan creíbles, pero ninguno cambia cómo conduce el silicio."
+    },
+    "strategyRef": "ei.component-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0069",
+    "subtest": "EI",
+    "topic": "transformer",
+    "difficulty": 1,
+    "stem": {
+      "en": "A transformer can change voltage only when it is supplied with",
+      "es": "Un transformador puede cambiar el voltaje solo cuando se alimenta con"
+    },
+    "choices": [
+      {
+        "en": "steady direct current",
+        "es": "corriente continua constante"
+      },
+      {
+        "en": "static electric charge",
+        "es": "carga eléctrica estática"
+      },
+      {
+        "en": "alternating current",
+        "es": "corriente alterna"
+      },
+      {
+        "en": "either AC or DC equally well",
+        "es": "CA o CC por igual"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "A transformer works by induction: the changing magnetic field from the primary coil induces voltage in the secondary. Steady DC makes a constant field, so nothing is induced and the output is zero.",
+      "es": "Un transformador funciona por inducción: el campo magnético cambiante de la bobina primaria induce voltaje en la secundaria. La CC constante crea un campo constante, así que no se induce nada y la salida es cero."
+    },
+    "trap": {
+      "en": "\"Either AC or DC\" is picked because both are electricity; but induction needs change, and pure DC does not change.",
+      "es": "\"CA o CC por igual\" se elige porque ambas son electricidad; pero la inducción necesita cambio, y la CC pura no cambia."
+    },
+    "strategyRef": "ei.component-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0070",
+    "subtest": "EI",
+    "topic": "transformer",
+    "difficulty": 2,
+    "stem": {
+      "en": "A transformer has 1,000 turns on its primary coil and 50 turns on its secondary coil. It is a",
+      "es": "Un transformador tiene 1,000 vueltas en su bobina primaria y 50 vueltas en la secundaria. Es un"
+    },
+    "choices": [
+      {
+        "en": "step-up transformer that raises the voltage",
+        "es": "transformador elevador que aumenta el voltaje"
+      },
+      {
+        "en": "isolation transformer that keeps the voltage the same",
+        "es": "transformador de aislamiento que mantiene el mismo voltaje"
+      },
+      {
+        "en": "transformer that raises both voltage and current",
+        "es": "transformador que aumenta tanto el voltaje como la corriente"
+      },
+      {
+        "en": "step-down transformer that lowers the voltage",
+        "es": "transformador reductor que disminuye el voltaje"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Fewer secondary turns than primary turns means a lower output voltage: 50 ÷ 1,000 = 1/20, so 120 V in would give 6 V out. More turns on the secondary would step the voltage up.",
+      "es": "Menos vueltas en la secundaria que en la primaria significa un voltaje de salida menor: 50 ÷ 1,000 = 1/20, así que 120 V de entrada darían 6 V de salida. Más vueltas en la secundaria elevarían el voltaje."
+    },
+    "trap": {
+      "en": "\"Raises both voltage and current\" is impossible: power out cannot exceed power in, so when voltage goes down, available current goes up, and vice versa.",
+      "es": "\"Aumenta tanto el voltaje como la corriente\" es imposible: la potencia de salida no puede superar la de entrada, así que cuando el voltaje baja, la corriente disponible sube, y viceversa."
+    },
+    "strategyRef": "ei.component-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0071",
+    "subtest": "EI",
+    "topic": "transformer",
+    "difficulty": 3,
+    "stem": {
+      "en": "An ideal step-down transformer draws 2 A at 240 V on its primary and delivers 24 V on its secondary. The secondary current is",
+      "es": "Un transformador reductor ideal toma 2 A a 240 V en su primario y entrega 24 V en su secundario. La corriente en el secundario es"
+    },
+    "choices": [
+      {
+        "en": "20 A",
+        "es": "20 A"
+      },
+      {
+        "en": "0.2 A",
+        "es": "0.2 A"
+      },
+      {
+        "en": "2 A",
+        "es": "2 A"
+      },
+      {
+        "en": "200 A",
+        "es": "200 A"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "In an ideal transformer, power in = power out. Primary power: 240 V × 2 A = 480 W. Secondary current: 480 W ÷ 24 V = 20 A. The voltage dropped by 10, so the current rose by 10.",
+      "es": "En un transformador ideal, potencia de entrada = potencia de salida. Potencia del primario: 240 V × 2 A = 480 W. Corriente del secundario: 480 W ÷ 24 V = 20 A. El voltaje bajó 10 veces, así que la corriente subió 10 veces."
+    },
+    "trap": {
+      "en": "\"0.2 A\" scales the current down along with the voltage. Voltage and current move in opposite directions across a transformer.",
+      "es": "\"0.2 A\" reduce la corriente junto con el voltaje. El voltaje y la corriente se mueven en sentidos opuestos en un transformador."
+    },
+    "strategyRef": "ei.units",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0072",
+    "subtest": "EI",
+    "topic": "batteries",
+    "difficulty": 1,
+    "stem": {
+      "en": "A dry cell, such as an AA battery, produces electricity by converting",
+      "es": "Una pila seca, como una batería AA, produce electricidad al convertir"
+    },
+    "choices": [
+      {
+        "en": "mechanical energy into electrical energy",
+        "es": "energía mecánica en energía eléctrica"
+      },
+      {
+        "en": "chemical energy into electrical energy",
+        "es": "energía química en energía eléctrica"
+      },
+      {
+        "en": "light energy into electrical energy",
+        "es": "energía luminosa en energía eléctrica"
+      },
+      {
+        "en": "heat energy into electrical energy",
+        "es": "energía térmica en energía eléctrica"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "A cell has two different electrodes in an electrolyte; the chemical reaction between them pushes electrons through the external circuit. Mechanical conversion is a generator; light conversion is a solar cell.",
+      "es": "Una pila tiene dos electrodos distintos en un electrolito; la reacción química entre ellos empuja electrones por el circuito externo. La conversión mecánica es un generador; la conversión de luz es una celda solar."
+    },
+    "trap": {
+      "en": "\"Heat energy\" seems plausible because a working battery gets warm, but heat is a by-product, not the source.",
+      "es": "\"Energía térmica\" parece creíble porque una batería en uso se calienta, pero el calor es un subproducto, no la fuente."
+    },
+    "strategyRef": "ei.component-role",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0073",
+    "subtest": "EI",
+    "topic": "wire-gauge",
+    "difficulty": 1,
+    "stem": {
+      "en": "In the American Wire Gauge (AWG) system, as the gauge number gets larger the wire",
+      "es": "En el sistema American Wire Gauge (AWG), a medida que el número de calibre aumenta, el cable"
+    },
+    "choices": [
+      {
+        "en": "gets thicker",
+        "es": "se vuelve más grueso"
+      },
+      {
+        "en": "carries more current safely",
+        "es": "transporta más corriente con seguridad"
+      },
+      {
+        "en": "gets thinner",
+        "es": "se vuelve más delgado"
+      },
+      {
+        "en": "stays the same size but has thicker insulation",
+        "es": "mantiene el mismo grosor pero con aislamiento más grueso"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "AWG runs backwards: 10 AWG is thicker than 14 AWG, which is thicker than 22 AWG. Thinner wire has more resistance and a lower safe current rating.",
+      "es": "El AWG funciona al revés: el 10 AWG es más grueso que el 14 AWG, que es más grueso que el 22 AWG. Un cable más delgado tiene más resistencia y una capacidad de corriente segura menor."
+    },
+    "trap": {
+      "en": "\"Gets thicker\" is the intuitive guess (bigger number, bigger wire). AWG counts the number of drawing steps, so more steps means a thinner wire.",
+      "es": "\"Se vuelve más grueso\" es la suposición intuitiva (número mayor, cable mayor). El AWG cuenta las pasadas de estirado, así que más pasadas significa un cable más delgado."
+    },
+    "strategyRef": "ei.units",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0074",
+    "subtest": "EI",
+    "topic": "wire-gauge",
+    "difficulty": 2,
+    "stem": {
+      "en": "Which copper wire size is the standard minimum for a 20-ampere household branch circuit?",
+      "es": "¿Qué calibre de cable de cobre es el mínimo estándar para un circuito derivado doméstico de 20 amperios?"
+    },
+    "choices": [
+      {
+        "en": "14 AWG",
+        "es": "14 AWG"
+      },
+      {
+        "en": "18 AWG",
+        "es": "18 AWG"
+      },
+      {
+        "en": "22 AWG",
+        "es": "22 AWG"
+      },
+      {
+        "en": "12 AWG",
+        "es": "12 AWG"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Common US practice: 14 AWG for 15 A circuits, 12 AWG for 20 A circuits and 10 AWG for 30 A circuits. 18 and 22 AWG are lamp-cord and signal-wire sizes.",
+      "es": "Práctica común en EE. UU.: 14 AWG para circuitos de 15 A, 12 AWG para circuitos de 20 A y 10 AWG para circuitos de 30 A. Los calibres 18 y 22 AWG son para cordones de lámpara y cables de señal."
+    },
+    "trap": {
+      "en": "\"14 AWG\" is the 15 A size; using it on a 20 A breaker lets the wire overheat before the breaker trips.",
+      "es": "\"14 AWG\" es el calibre para 15 A; usarlo con un disyuntor de 20 A permite que el cable se sobrecaliente antes de que el disyuntor se dispare."
+    },
+    "strategyRef": "ei.safety",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0075",
+    "subtest": "EI",
+    "topic": "wire-gauge",
+    "difficulty": 3,
+    "stem": {
+      "en": "A wire that is too thin for the current it must carry will",
+      "es": "Un cable demasiado delgado para la corriente que debe transportar"
+    },
+    "choices": [
+      {
+        "en": "overheat, because its higher resistance turns more of the current into heat",
+        "es": "se sobrecalentará, porque su mayor resistencia convierte más corriente en calor"
+      },
+      {
+        "en": "carry the current with less voltage drop",
+        "es": "transportará la corriente con menor caída de voltaje"
+      },
+      {
+        "en": "act as an insulator and stop the current",
+        "es": "actuará como aislante y detendrá la corriente"
+      },
+      {
+        "en": "deliver more power to the load",
+        "es": "entregará más potencia a la carga"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Heat in a wire is I² × R. A thinner wire has more resistance, so the same current produces more heat and a larger voltage drop, leaving less for the load. That is why ampacity tables exist.",
+      "es": "El calor en un cable es I² × R. Un cable más delgado tiene más resistencia, así que la misma corriente produce más calor y mayor caída de voltaje, dejando menos para la carga. Por eso existen las tablas de ampacidad."
+    },
+    "trap": {
+      "en": "\"Less voltage drop\" and \"more power to the load\" reverse the effect; thin wire wastes power in itself.",
+      "es": "\"Menor caída de voltaje\" y \"más potencia a la carga\" invierten el efecto; el cable delgado desperdicia potencia en sí mismo."
+    },
+    "strategyRef": "ei.safety",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0076",
+    "subtest": "EI",
+    "topic": "wire-colors",
+    "difficulty": 2,
+    "stem": {
+      "en": "In a standard US 120 V branch circuit, the wire that is normally \"hot\" (energized) has insulation colored",
+      "es": "En un circuito derivado estándar de 120 V en EE. UU., el cable que normalmente está \"vivo\" (energizado) tiene aislamiento de color"
+    },
+    "choices": [
+      {
+        "en": "white",
+        "es": "blanco"
+      },
+      {
+        "en": "black",
+        "es": "negro"
+      },
+      {
+        "en": "green",
+        "es": "verde"
+      },
+      {
+        "en": "bare copper with no insulation",
+        "es": "cobre desnudo sin aislamiento"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Black (or red for a second hot) carries the energized conductor. White is the neutral, and green or bare copper is the equipment ground.",
+      "es": "El negro (o rojo para un segundo vivo) lleva el conductor energizado. El blanco es el neutro, y el verde o el cobre desnudo es la tierra del equipo."
+    },
+    "trap": {
+      "en": "\"White\" is dangerous to assume safe: it is the return path and can carry current, but it is not the hot conductor.",
+      "es": "\"Blanco\" es peligroso de suponer seguro: es el camino de retorno y puede llevar corriente, pero no es el conductor vivo."
+    },
+    "strategyRef": "ei.color-code",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0077",
+    "subtest": "EI",
+    "topic": "protection",
+    "difficulty": 1,
+    "stem": {
+      "en": "A 15 A fuse in a circuit keeps blowing every time it is replaced. The correct action is to",
+      "es": "Un fusible de 15 A en un circuito se quema cada vez que se reemplaza. La acción correcta es"
+    },
+    "choices": [
+      {
+        "en": "install a 30 A fuse so it stops blowing",
+        "es": "instalar un fusible de 30 A para que deje de quemarse"
+      },
+      {
+        "en": "wrap the fuse in aluminum foil",
+        "es": "envolver el fusible en papel aluminio"
+      },
+      {
+        "en": "find and fix whatever is drawing too much current",
+        "es": "buscar y corregir lo que está consumiendo demasiada corriente"
+      },
+      {
+        "en": "bypass the fuse holder with a piece of wire",
+        "es": "puentear el portafusibles con un trozo de cable"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "A repeatedly blowing fuse is a warning that the circuit is overloaded or shorted. The fuse is sized to protect the wiring; the other three options defeat that protection and risk a fire.",
+      "es": "Un fusible que se quema repetidamente es una advertencia de que el circuito está sobrecargado o en cortocircuito. El fusible está dimensionado para proteger el cableado; las otras tres opciones anulan esa protección y arriesgan un incendio."
+    },
+    "trap": {
+      "en": "\"Install a 30 A fuse\" feels like a fix because the symptom disappears, but the wiring is still rated for 15 A and will now overheat silently.",
+      "es": "\"Instalar un fusible de 30 A\" parece una solución porque el síntoma desaparece, pero el cableado sigue siendo para 15 A y ahora se sobrecalentará sin aviso."
+    },
+    "strategyRef": "ei.safety",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0078",
+    "subtest": "EI",
+    "topic": "protection",
+    "difficulty": 3,
+    "stem": {
+      "en": "A fuse must be connected in series with the circuit it protects, rather than in parallel, because",
+      "es": "Un fusible debe conectarse en serie con el circuito que protege, y no en paralelo, porque"
+    },
+    "choices": [
+      {
+        "en": "a parallel fuse would be too small to see",
+        "es": "un fusible en paralelo sería demasiado pequeño para verse"
+      },
+      {
+        "en": "series connection lets the fuse measure the circuit voltage",
+        "es": "la conexión en serie permite que el fusible mida el voltaje del circuito"
+      },
+      {
+        "en": "in series the fuse carries no current and stays cool",
+        "es": "en serie el fusible no lleva corriente y se mantiene frío"
+      },
+      {
+        "en": "only in series does all the load current pass through the fuse, so an overload can melt it and break the path",
+        "es": "solo en serie toda la corriente de la carga pasa por el fusible, de modo que una sobrecarga puede fundirlo y abrir el camino"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "A fuse works by carrying the current and melting when it is too high. In parallel, current could bypass the fuse and the load would keep running even after the fuse opened.",
+      "es": "Un fusible funciona llevando la corriente y fundiéndose cuando es demasiado alta. En paralelo, la corriente podría rodear el fusible y la carga seguiría funcionando incluso después de que el fusible se abriera."
+    },
+    "trap": {
+      "en": "\"Carries no current and stays cool\" is exactly backwards: the fuse must carry the full current to do its job.",
+      "es": "\"No lleva corriente y se mantiene frío\" es justo al revés: el fusible debe llevar toda la corriente para cumplir su función."
+    },
+    "strategyRef": "ei.series-parallel",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0079",
+    "subtest": "EI",
+    "topic": "safety",
+    "difficulty": 1,
+    "stem": {
+      "en": "Before replacing a wall switch, the safest first step is to",
+      "es": "Antes de reemplazar un interruptor de pared, el primer paso más seguro es"
+    },
+    "choices": [
+      {
+        "en": "turn off the circuit breaker and confirm the wires are dead with a tester",
+        "es": "apagar el disyuntor y confirmar con un probador que los cables no tienen corriente"
+      },
+      {
+        "en": "put on rubber gloves and work with the power on",
+        "es": "ponerse guantes de goma y trabajar con la corriente encendida"
+      },
+      {
+        "en": "work quickly so the wires are touched for only a moment",
+        "es": "trabajar rápido para tocar los cables solo por un instante"
+      },
+      {
+        "en": "flip the switch itself to the off position",
+        "es": "poner el propio interruptor en posición de apagado"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "De-energize at the breaker, then verify with a non-contact tester or meter, because breakers can be mislabeled. A switch in the off position still has a live wire on its supply side.",
+      "es": "Se desenergiza en el disyuntor y luego se verifica con un probador sin contacto o un multímetro, porque los disyuntores pueden estar mal rotulados. Un interruptor en posición de apagado todavía tiene un cable vivo en su lado de alimentación."
+    },
+    "trap": {
+      "en": "\"Flip the switch off\" is the everyday reflex, but the switch only interrupts the load; the wire feeding the switch box is still energized.",
+      "es": "\"Poner el interruptor en apagado\" es el reflejo cotidiano, pero el interruptor solo corta la carga; el cable que alimenta la caja del interruptor sigue energizado."
+    },
+    "strategyRef": "ei.safety",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ei-0080",
+    "subtest": "EI",
+    "topic": "safety",
+    "difficulty": 2,
+    "stem": {
+      "en": "Which condition makes an electric shock from a given voltage more dangerous?",
+      "es": "¿Qué condición hace más peligrosa una descarga eléctrica con un voltaje dado?"
+    },
+    "choices": [
+      {
+        "en": "Dry, callused skin",
+        "es": "Piel seca y callosa"
+      },
+      {
+        "en": "Standing on a rubber mat",
+        "es": "Estar parado sobre un tapete de goma"
+      },
+      {
+        "en": "Wearing insulated boots",
+        "es": "Usar botas aisladas"
+      },
+      {
+        "en": "Wet skin",
+        "es": "Piel mojada"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Shock severity depends on the current through the body, and current = voltage ÷ resistance. Wet skin lowers body resistance sharply, so the same voltage drives far more current. Rubber mats and insulated boots add resistance and reduce it.",
+      "es": "La gravedad de una descarga depende de la corriente que atraviesa el cuerpo, y corriente = voltaje ÷ resistencia. La piel mojada reduce mucho la resistencia del cuerpo, así que el mismo voltaje impulsa mucha más corriente. Los tapetes de goma y las botas aisladas agregan resistencia y la reducen."
+    },
+    "trap": {
+      "en": "\"Dry, callused skin\" is the opposite: it is one of the highest-resistance conditions for the body.",
+      "es": "\"Piel seca y callosa\" es lo contrario: es una de las condiciones de mayor resistencia para el cuerpo."
+    },
+    "strategyRef": "ei.safety",
+    "source": "original",
+    "version": 1
+  }
+]

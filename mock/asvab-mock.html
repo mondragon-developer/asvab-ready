@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ASVAB Ready</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+:root{
+  --paper:#F5F6F2; --surface:#FFFFFF; --ink:#1B2233; --ink-2:#4A5264; --ink-3:#8A90A0;
+  --line:#D9DCD3; --olive:#5F7A2E; --olive-soft:#E9EFDC; --brass:#B8901F; --brass-soft:#F5EBCB;
+  --good:#2F7D4E; --warn:#B5651D; --crit:#B3261E; --good-soft:#DFF0E5; --warn-soft:#F8E6D6; --crit-soft:#F6DCDA;
+  --navy:#1B2233; --navy-2:#27324A; --on-navy:#F5F6F2;
+  --radius:10px; --shadow:0 1px 2px rgba(27,34,51,.08),0 4px 14px rgba(27,34,51,.06);
+  --display:"Barlow Condensed","Arial Narrow",Impact,sans-serif; --body:"Source Sans 3","Segoe UI",Roboto,sans-serif; --mono:"JetBrains Mono",Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
+  --paper:#141A26; --surface:#1C2433; --ink:#E8EAE3; --ink-2:#B6BCC9; --ink-3:#7E8697; --line:#2E3849;
+  --olive:#9BB85A; --olive-soft:#26301B; --brass:#D9B24A; --brass-soft:#3A2F12;
+  --good:#6FBF8A; --warn:#E0955A; --crit:#E5766D; --good-soft:#1B3325; --warn-soft:#3A2617; --crit-soft:#3B1E1C;
+  --navy:#0E131C; --navy-2:#1C2433; --on-navy:#E8EAE3; --shadow:0 1px 2px rgba(0,0,0,.4),0 4px 14px rgba(0,0,0,.3);
+}}
+:root[data-theme="dark"]{
+  --paper:#141A26; --surface:#1C2433; --ink:#E8EAE3; --ink-2:#B6BCC9; --ink-3:#7E8697; --line:#2E3849;
+  --olive:#9BB85A; --olive-soft:#26301B; --brass:#D9B24A; --brass-soft:#3A2F12;
+  --good:#6FBF8A; --warn:#E0955A; --crit:#E5766D; --good-soft:#1B3325; --warn-soft:#3A2617; --crit-soft:#3B1E1C;
+  --navy:#0E131C; --navy-2:#1C2433; --on-navy:#E8EAE3; --shadow:0 1px 2px rgba(0,0,0,.4),0 4px 14px rgba(0,0,0,.3);
+}
+*{box-sizing:border-box} html,body{margin:0}
+body{background:var(--paper);color:var(--ink);font:16px/1.5 var(--body);-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:var(--display);font-weight:600;line-height:1.05;margin:0;text-wrap:balance;letter-spacing:.005em}
+h1{font-size:2.2rem} h2{font-size:1.6rem} h3{font-size:1.2rem}
+p{margin:0} a{color:var(--olive)}
+button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
+button:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--brass);outline-offset:2px}
+.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.eyebrow{font-family:var(--display);text-transform:uppercase;letter-spacing:.08em;font-size:.8rem;color:var(--ink-3);font-weight:600}
+.muted{color:var(--ink-2)} .small{font-size:.875rem}
+
+/* shell */
+.app{min-height:100vh;display:grid;grid-template-rows:auto 1fr auto}
+header.top{position:sticky;top:0;z-index:5;background:var(--navy);color:var(--on-navy);display:flex;align-items:center;gap:12px;padding:10px 16px;border-bottom:1px solid #000}
+.brand{font-family:var(--display);font-weight:700;font-size:1.35rem;letter-spacing:.02em;display:flex;align-items:center;gap:8px;white-space:nowrap}
+.timerchip{white-space:nowrap}
+@media(max-width:480px){.timerchip .lbl{display:none}.brand{font-size:1.2rem}}
+.brand .chev{width:22px;height:22px;background:var(--brass);clip-path:polygon(0 30%,50% 0,100% 30%,100% 55%,50% 25%,0 55%);}
+.spacer{flex:1}
+.timerchip{display:flex;align-items:center;gap:8px;background:var(--navy-2);border:1px solid #3A4661;border-radius:999px;padding:4px 10px 4px 8px;font-family:var(--mono);font-size:.95rem;font-variant-numeric:tabular-nums}
+.timerchip .dot{width:8px;height:8px;border-radius:50%;background:var(--ink-3)}
+.timerchip.run .dot{background:var(--brass);box-shadow:0 0 0 3px rgba(184,144,31,.25)}
+.timerchip.warn .dot{background:var(--warn)} .timerchip.crit .dot{background:var(--crit)}
+.timerchip .lbl{font-family:var(--display);font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:#AEB6C8}
+.iconbtn{padding:6px 10px;border-radius:8px;background:var(--navy-2);border:1px solid #3A4661;font-family:var(--display);font-size:.85rem;letter-spacing:.06em;text-transform:uppercase;color:var(--on-navy)}
+main{padding:18px 16px 96px;max-width:1040px;width:100%;margin:0 auto}
+nav.tabs{position:fixed;bottom:0;left:0;right:0;background:var(--surface);border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(6,1fr);z-index:5;padding-bottom:env(safe-area-inset-bottom)}
+nav.tabs button{padding:8px 2px 8px;display:flex;flex-direction:column;align-items:center;gap:3px;font-family:var(--display);font-size:.8rem;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-3);border-top:3px solid transparent}
+nav.tabs button.on{color:var(--olive);border-top-color:var(--olive)}
+nav.tabs svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+@media(min-width:900px){
+  .app{grid-template-columns:220px 1fr;grid-template-rows:auto 1fr}
+  header.top{grid-column:1/-1}
+  nav.tabs{position:sticky;top:57px;align-self:start;height:calc(100vh - 57px);grid-template-columns:1fr;grid-auto-rows:min-content;border-top:0;border-right:1px solid var(--line);padding:12px 10px}
+  nav.tabs button{flex-direction:row;justify-content:flex-start;gap:10px;padding:10px 12px;border-top:0;border-left:3px solid transparent;border-radius:0 8px 8px 0;font-size:.95rem}
+  nav.tabs button.on{border-left-color:var(--olive);background:var(--olive-soft)}
+  main{padding:28px 32px 48px}
+}
+.screen{display:none} .screen.on{display:block}
+.grid{display:grid;gap:14px} .g2{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))} .g3{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px}
+.card.lift{box-shadow:var(--shadow)}
+.stack{display:grid;gap:10px}
+.row{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:10px 16px;border-radius:8px;font-family:var(--display);font-size:1.05rem;letter-spacing:.04em;text-transform:uppercase;font-weight:600;border:1px solid transparent}
+.btn.primary{background:var(--olive);color:#fff} .btn.primary:hover{filter:brightness(1.08)}
+.btn.ghost{border-color:var(--line);color:var(--ink)} .btn.ghost:hover{background:var(--olive-soft)}
+.btn.brass{background:var(--brass);color:#1B2233}
+.btn[disabled]{opacity:.45;cursor:not-allowed}
+.pill{display:inline-flex;align-items:center;gap:6px;padding:2px 9px;border-radius:999px;font-family:var(--display);font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;font-weight:600;border:1px solid var(--line);color:var(--ink-2)}
+.pill.afqt{background:var(--brass-soft);border-color:transparent;color:var(--ink)}
+.pill.good{background:var(--good-soft);color:var(--good);border-color:transparent}
+.pill.warn{background:var(--warn-soft);color:var(--warn);border-color:transparent}
+.pill.crit{background:var(--crit-soft);color:var(--crit);border-color:transparent}
+.pill.olive{background:var(--olive-soft);color:var(--olive);border-color:transparent}
+
+/* home */
+.hero{display:grid;gap:16px;grid-template-columns:1fr;align-items:center}
+@media(min-width:700px){.hero{grid-template-columns:auto 1fr}}
+.gauge{display:grid;place-items:center;position:relative;width:150px;height:150px}
+.gauge svg{position:absolute;inset:0}
+.gauge .n{font-family:var(--mono);font-size:2.4rem;font-weight:500;line-height:1}
+.gauge .l{font-family:var(--display);font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3)}
+.mastery{display:grid;gap:8px}
+.mrow{display:grid;grid-template-columns:44px 1fr 48px;align-items:center;gap:10px;font-size:.9rem}
+.mrow .k{font-family:var(--display);font-weight:600;letter-spacing:.04em}
+.bar{height:8px;border-radius:4px;background:var(--line);overflow:hidden}
+.bar i{display:block;height:100%;background:var(--olive);border-radius:4px}
+.bar i.afqt{background:var(--brass)}
+.mrow .v{text-align:right;font-family:var(--mono);font-size:.85rem}
+
+/* subtest tiles */
+.tiles{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}
+.tile{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:12px;text-align:left;display:grid;gap:4px;transition:transform .12s}
+.tile:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
+.tile .ab{font-family:var(--display);font-size:1.6rem;font-weight:700;line-height:1}
+.tile .nm{font-size:.85rem;color:var(--ink-2);line-height:1.2}
+.tile .meta{font-family:var(--mono);font-size:.72rem;color:var(--ink-3)}
+
+/* question player */
+.player{display:grid;gap:14px;max-width:720px}
+.qhead{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.pace{height:5px;border-radius:3px;background:var(--line);overflow:hidden;flex:1;min-width:120px}
+.pace i{display:block;height:100%;width:0;background:var(--olive);transition:width .5s linear}
+.pace.warn i{background:var(--warn)} .pace.crit i{background:var(--crit)}
+.stem{font-size:1.15rem;line-height:1.45}
+.passage{background:var(--olive-soft);border-left:3px solid var(--olive);padding:12px 14px;border-radius:6px;font-size:.98rem}
+.choices{display:grid;gap:8px}
+.choice{display:grid;grid-template-columns:34px 1fr;align-items:center;gap:10px;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);text-align:left;font-size:1rem}
+.choice .k{font-family:var(--display);font-weight:700;width:28px;height:28px;border-radius:6px;display:grid;place-items:center;background:var(--paper);border:1px solid var(--line)}
+.choice:hover{border-color:var(--olive)}
+.choice.sel{border-color:var(--olive);background:var(--olive-soft)}
+.choice.ok{border-color:var(--good);background:var(--good-soft)} .choice.ok .k{background:var(--good);color:#fff;border-color:transparent}
+.choice.bad{border-color:var(--crit);background:var(--crit-soft)} .choice.bad .k{background:var(--crit);color:#fff;border-color:transparent}
+.expl{border:1px solid var(--line);border-radius:var(--radius);padding:14px;display:grid;gap:8px;background:var(--surface)}
+.expl .trap{border-left:3px solid var(--warn);padding-left:10px}
+.expl .tip{border-left:3px solid var(--brass);padding-left:10px}
+.media{display:grid;place-items:center;padding:8px;background:var(--surface);border:1px solid var(--line);border-radius:8px}
+.media svg{max-width:100%;height:auto}
+
+/* test lobby */
+.mode{display:grid;gap:8px;padding:16px;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface);text-align:left}
+.mode:hover{border-color:var(--olive);box-shadow:var(--shadow)}
+.mode .t{font-family:var(--display);font-size:1.3rem;font-weight:600}
+table{border-collapse:collapse;width:100%;font-size:.9rem}
+th,td{text-align:left;padding:7px 8px;border-bottom:1px solid var(--line)}
+th{font-family:var(--display);letter-spacing:.06em;text-transform:uppercase;font-size:.78rem;color:var(--ink-3);font-weight:600}
+td.n{font-family:var(--mono);text-align:right} th.n{text-align:right}
+.tablewrap{overflow-x:auto}
+
+/* results */
+.big{font-family:var(--mono);font-size:2.6rem;line-height:1}
+.scorerow{display:grid;grid-template-columns:1fr auto;gap:8px;padding:8px 0;border-bottom:1px solid var(--line)}
+.scorerow:last-child{border-bottom:0}
+.rank{display:grid;grid-template-columns:28px 1fr auto;gap:10px;align-items:center;padding:8px 0;border-bottom:1px solid var(--line)}
+.rank .no{font-family:var(--display);font-weight:700;color:var(--ink-3)}
+.rank:last-child{border-bottom:0}
+
+/* strategy */
+details{border:1px solid var(--line);border-radius:var(--radius);background:var(--surface)}
+details+details{margin-top:8px}
+summary{cursor:pointer;padding:12px 14px;font-family:var(--display);font-size:1.15rem;font-weight:600;list-style:none;display:flex;align-items:center;gap:10px}
+summary::-webkit-details-marker{display:none}
+summary .ab{color:var(--olive);width:36px}
+details .body{padding:0 14px 14px;display:grid;gap:8px;max-width:70ch}
+details ul{margin:0;padding-left:18px;display:grid;gap:4px}
+.toast{position:fixed;left:50%;bottom:80px;transform:translateX(-50%);background:var(--navy);color:var(--on-navy);padding:10px 16px;border-radius:999px;font-family:var(--display);letter-spacing:.04em;opacity:0;pointer-events:none;transition:opacity .2s;z-index:9}
+.toast.show{opacity:1}
+@media(min-width:900px){.toast{bottom:28px}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+.footnote{font-size:.8rem;color:var(--ink-3);max-width:70ch}
+</style>
+</head>
+<body>
+<div class="app">
+<header class="top">
+  <div class="brand"><span class="chev"></span><span data-i="brand">ASVAB Ready</span></div>
+  <div class="spacer"></div>
+  <div class="timerchip" id="chip" title="Timer"><span class="dot"></span><span class="lbl" id="chipLbl">Idle</span><span id="chipTime">00:00</span></div>
+  <button class="iconbtn" id="langBtn" aria-label="Switch language">ES</button>
+</header>
+
+<nav class="tabs" id="tabs">
+  <button data-go="home" class="on"><svg viewBox="0 0 24 24"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg><span data-i="nav.home">Home</span></button>
+  <button data-go="learn"><svg viewBox="0 0 24 24"><path d="M4 5h7a3 3 0 0 1 3 3v12a2 2 0 0 0-2-2H4z"/><path d="M20 5h-7a3 3 0 0 0-3 3v12a2 2 0 0 1 2-2h8z"/></svg><span data-i="nav.learn">Learn</span></button>
+  <button data-go="practice"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/></svg><span data-i="nav.practice">Practice</span></button>
+  <button data-go="test"><svg viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h4"/></svg><span data-i="nav.test">Test</span></button>
+  <button data-go="results"><svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg><span data-i="nav.results">Results</span></button>
+  <button data-go="strategy"><svg viewBox="0 0 24 24"><path d="M12 3l2.5 5.5L20 9l-4 4 1 6-5-3-5 3 1-6-4-4 5.5-.5z"/></svg><span data-i="nav.strategy">Strategy</span></button>
+</nav>
+
+<main>
+<!-- HOME -->
+<section class="screen on" id="s-home">
+  <div class="stack" style="gap:18px">
+    <div>
+      <div class="eyebrow" data-i="home.eyebrow">Diagnostic taken Sep 1 · sample data</div>
+      <h1 data-i="home.title">Where you stand</h1>
+    </div>
+    <div class="card lift hero">
+      <div class="gauge">
+        <svg viewBox="0 0 150 150"><circle cx="75" cy="75" r="64" fill="none" stroke="var(--line)" stroke-width="10"/><circle cx="75" cy="75" r="64" fill="none" stroke="var(--brass)" stroke-width="10" stroke-linecap="round" stroke-dasharray="402" stroke-dashoffset="181" transform="rotate(-90 75 75)"/></svg>
+        <div style="text-align:center"><div class="n">55</div><div class="l" data-i="home.afqt">est. AFQT</div></div>
+      </div>
+      <div class="stack">
+        <h2 data-i="home.cat">Category IIIA · qualifies for all branches</h2>
+        <p class="muted" data-i="home.catNote">Word Knowledge is your cheapest gain: each WK point is worth ≈1.3 AFQT points. Ten words a day for three weeks moves this needle.</p>
+        <div class="row">
+          <button class="btn primary" data-go="practice" data-sub="WK" data-i="home.cta1">Practice Word Knowledge</button>
+          <button class="btn ghost" data-go="test" data-i="home.cta2">Take a full test</button>
+        </div>
+      </div>
+    </div>
+    <div class="grid g2">
+      <div class="card">
+        <div class="row" style="justify-content:space-between"><h3 data-i="home.mastery">Mastery by subtest</h3><span class="pill afqt">AFQT</span></div>
+        <div class="mastery" style="margin-top:12px" id="mastery"></div>
+      </div>
+      <div class="card stack">
+        <h3 data-i="home.stats">This week</h3>
+        <div class="scorerow"><span data-i="home.st1">Study time</span><span class="mono">3 h 42 m</span></div>
+        <div class="scorerow"><span data-i="home.st2">Questions answered</span><span class="mono">214</span></div>
+        <div class="scorerow"><span data-i="home.st3">Accuracy (timed)</span><span class="mono">71 %</span></div>
+        <div class="scorerow"><span data-i="home.st4">Accuracy (untimed)</span><span class="mono">78 %</span></div>
+        <p class="small muted" data-i="home.st5">Timed and untimed accuracy are within 10 points — good sign, you are not depending on extra time.</p>
+      </div>
+    </div>
+    <div>
+      <div class="eyebrow" data-i="home.subs">The ten subtests · CAT-ASVAB</div>
+      <div class="tiles" id="tiles" style="margin-top:8px"></div>
+    </div>
+  </div>
+</section>
+
+<!-- LEARN -->
+<section class="screen" id="s-learn">
+  <div class="stack" style="gap:18px">
+    <div><div class="eyebrow" data-i="learn.eyebrow">Learn</div><h1 data-i="learn.title">Lessons by topic</h1></div>
+    <div class="row" id="learnFilter"></div>
+    <div class="grid g3" id="lessons"></div>
+    <div class="card stack" id="lessonSample">
+      <div class="row"><span class="pill afqt">AR</span><span class="eyebrow" data-i="learn.sampleEyebrow">Sample lesson</span></div>
+      <h2 data-i="learn.sampleTitle">Percent problems: part = % × whole</h2>
+      <p data-i="learn.sampleP1">Every percent question hides three numbers: the part, the percent and the whole. You are always given two and asked for the third. Write the three slots before touching the numbers.</p>
+      <div class="passage" data-i="learn.sampleEx">Worked example — A jacket costs $80 and is marked 25 % off. What is the sale price? Slots: whole = 80, percent = 25, part = ? → part = 0.25 × 80 = 20. The question asks for the sale price, not the discount: 80 − 20 = <b>$60</b>.</div>
+      <p data-i="learn.sampleP2">Trap to name: the intermediate value. $20 will be one of the four choices. Reread the last sentence of the question before you click.</p>
+      <div class="row"><button class="btn primary" data-go="practice" data-sub="AR" data-i="learn.sampleBtn">Practice this topic</button><span class="small muted" data-i="learn.sampleLevels">Level 1 · Level 2 · Level 3 · quiz</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- PRACTICE -->
+<section class="screen" id="s-practice">
+  <div class="stack" style="gap:18px">
+    <div><div class="eyebrow" data-i="practice.eyebrow">Practice · untimed, instant explanations</div><h1 data-i="practice.title">Drill one subtest</h1></div>
+    <div class="row" id="practicePick"></div>
+    <div class="player" id="practicePlayer"></div>
+  </div>
+</section>
+
+<!-- TEST -->
+<section class="screen" id="s-test">
+  <div class="stack" style="gap:18px" id="testLobby">
+    <div><div class="eyebrow" data-i="test.eyebrow">Test · real timers, no going back</div><h1 data-i="test.title">Evaluate yourself</h1></div>
+    <div class="grid g3">
+      <button class="mode" data-mode="diag"><span class="t" data-i="test.m1">Diagnostic</span><span class="muted small" data-i="test.m1d">5 questions from each subtest, official pace. About 35 minutes. Produces your first AFQT estimate and weak-area ranking.</span><span class="pill olive" data-i="test.m1p">Start here</span></button>
+      <button class="mode" data-mode="full"><span class="t" data-i="test.m2">Full CAT-ASVAB</span><span class="muted small" data-i="test.m2d">All 10 subtests, 135 scored questions, official time limits, adaptive difficulty, no back button. About 2 hours.</span><span class="pill" data-i="test.m2p">2 h</span></button>
+      <button class="mode" data-mode="sub"><span class="t" data-i="test.m3">Single subtest</span><span class="muted small" data-i="test.m3d">One subtest under its official clock. Good for pacing drills on the fast sections (WK, EI, GS).</span><span class="pill" data-i="test.m3p">6–55 min</span></button>
+    </div>
+    <div class="card">
+      <h3 data-i="test.tableTitle">Official CAT-ASVAB layout (verified Sep 2026)</h3>
+      <div class="tablewrap" style="margin-top:10px"><table><thead><tr><th data-i="test.th1">Subtest</th><th class="n" data-i="test.th2">Scored</th><th class="n" data-i="test.th3">Minutes</th><th class="n" data-i="test.th4">Per item</th><th data-i="test.th5">Counts for</th></tr></thead><tbody id="layout"></tbody></table></div>
+      <p class="footnote" style="margin-top:8px" data-i="test.tableNote">Tryout (unscored) questions may add 15 items and extra time to any subtest on the real test; the app announces them so you are not surprised.</p>
+    </div>
+  </div>
+  <div class="player" id="testPlayer" style="display:none"></div>
+</section>
+
+<!-- RESULTS -->
+<section class="screen" id="s-results">
+  <div class="stack" style="gap:18px">
+    <div><div class="eyebrow" data-i="results.eyebrow">Results · Diagnostic, Sep 1 · sample data</div><h1 data-i="results.title">Score simulator</h1></div>
+    <div class="grid g2">
+      <div class="card lift stack">
+        <div class="eyebrow" data-i="results.afqt">Estimated AFQT percentile</div>
+        <div class="row" style="align-items:baseline;gap:14px"><span class="big">55</span><span class="pill afqt">IIIA</span></div>
+        <p class="small muted" data-i="results.formula">AFQT = 2·VE + AR + MK, where VE comes from WK + PC. Standard scores below are estimates from a 50-item diagnostic; the real test uses item-response theory, so treat this as ±5 points.</p>
+        <div class="scorerow"><span>VE (WK + PC)</span><span class="mono">52</span></div>
+        <div class="scorerow"><span>AR</span><span class="mono">49</span></div>
+        <div class="scorerow"><span>MK</span><span class="mono">54</span></div>
+      </div>
+      <div class="card stack">
+        <div class="eyebrow" data-i="results.lines">Line scores · Army (sums of standard scores)</div>
+        <div class="scorerow"><span>GT · General Technical (VE+AR)</span><span class="mono">101</span></div>
+        <div class="scorerow"><span>CL · Clerical (VE+AR+MK)</span><span class="mono">155</span></div>
+        <div class="scorerow"><span>EL · Electronics (GS+AR+MK+EI)</span><span class="mono">198</span></div>
+        <div class="scorerow"><span>ST · Skilled Technical (GS+VE+MK+MC)</span><span class="mono">207</span></div>
+        <div class="row small" style="margin-top:6px"><span class="pill">Army</span><span class="pill" style="opacity:.6">Navy</span><span class="pill" style="opacity:.6">Air Force</span><span class="pill" style="opacity:.6">Marines</span></div>
+        <p class="footnote" data-i="results.linesNote">Branch minimums change with recruiting needs. Last checked Sep 3 2026 — confirm with your recruiter.</p>
+      </div>
+    </div>
+    <div class="grid g2">
+      <div class="card">
+        <h3 data-i="results.weak">Where to spend your next hour</h3>
+        <p class="small muted" style="margin:4px 0 8px" data-i="results.weakNote">Ranked by gap × AFQT leverage, not by raw score.</p>
+        <div class="rank"><span class="no">1</span><span>Word Knowledge <span class="pill afqt">×1.3</span></span><span class="pill crit">58 %</span></div>
+        <div class="rank"><span class="no">2</span><span>Arithmetic Reasoning <span class="pill afqt">×1.0</span></span><span class="pill warn">62 %</span></div>
+        <div class="rank"><span class="no">3</span><span>Paragraph Comprehension <span class="pill afqt">×0.8</span></span><span class="pill warn">70 %</span></div>
+        <div class="rank"><span class="no">4</span><span>Electronics Information</span><span class="pill crit">40 %</span></div>
+        <div class="rank"><span class="no">5</span><span>Mathematics Knowledge <span class="pill afqt">×1.0</span></span><span class="pill good">80 %</span></div>
+      </div>
+      <div class="card stack">
+        <h3 data-i="results.timing">Timing report</h3>
+        <div class="scorerow"><span>WK · <span class="muted" data-i="results.t1">avg per item</span></span><span class="mono">51 s <span class="pill crit">+15 s</span></span></div>
+        <div class="scorerow"><span>AR · <span class="muted" data-i="results.t1">avg per item</span></span><span class="mono">142 s <span class="pill good">−78 s</span></span></div>
+        <div class="scorerow"><span>EI · <span class="muted" data-i="results.t2">unanswered at time-out</span></span><span class="mono">3 <span class="pill crit" data-i="results.pen">penalty</span></span></div>
+        <p class="small muted" data-i="results.timingNote">You are over budget on WK and left three EI items unanswered — the one case the real CAT punishes. Drill WK at 36 s per word and always submit a guess before the clock ends.</p>
+      </div>
+    </div>
+    <div class="card stack">
+      <h3 data-i="results.review">Review a missed question</h3>
+      <p class="muted small" data-i="results.reviewNote">Every miss links to the trick that would have saved it.</p>
+      <div class="expl">
+        <div><b>WK ·</b> <span data-i="results.rq">"The sergeant gave a <u>terse</u> reply." Terse most nearly means —</span></div>
+        <div class="row"><span class="pill crit" data-i="results.you">You: lengthy</span><span class="pill good" data-i="results.ans">Answer: brief</span></div>
+        <div class="tip"><b data-i="results.tipL">Trick:</b> <span data-i="results.tipT">Substitute each choice into the sentence. A "lengthy reply" and a "brief reply" are opposites — when two choices are opposites, one of them is usually right. Terse = short and blunt.</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STRATEGY -->
+<section class="screen" id="s-strategy">
+  <div class="stack" style="gap:18px">
+    <div><div class="eyebrow" data-i="strategy.eyebrow">Strategy · clues and tricks</div><h1 data-i="strategy.title">How the test is beaten</h1></div>
+    <div class="card stack">
+      <h3 data-i="strategy.catTitle">Six rules of the adaptive test</h3>
+      <ol style="margin:0;padding-left:20px;display:grid;gap:6px;max-width:70ch" id="catRules"></ol>
+    </div>
+    <div id="cheats"></div>
+    <div class="card stack">
+      <h3 data-i="strategy.dayTitle">Test day</h3>
+      <p class="muted" data-i="strategy.day">Photo ID. No calculator, ever. Arrive early — late means rescheduled. Sleep instead of cramming, eat breakfast, use the bathroom before the test. Do not press stray keys. Retest waits: 1 month, 1 month, then 6 months, and the most recent score counts, not the highest.</p>
+    </div>
+  </div>
+</section>
+</main>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+/* ---------- data: official layout (single source of truth) ---------- */
+const SUBTESTS=[
+ {ab:'GS',en:'General Science',es:'Ciencias generales',n:15,min:12,afqt:false},
+ {ab:'AR',en:'Arithmetic Reasoning',es:'Razonamiento aritmético',n:15,min:55,afqt:true},
+ {ab:'WK',en:'Word Knowledge',es:'Vocabulario',n:15,min:9,afqt:true},
+ {ab:'PC',en:'Paragraph Comprehension',es:'Comprensión de párrafos',n:10,min:27,afqt:true},
+ {ab:'MK',en:'Mathematics Knowledge',es:'Conocimientos matemáticos',n:15,min:31,afqt:true},
+ {ab:'EI',en:'Electronics Information',es:'Electrónica',n:15,min:10,afqt:false},
+ {ab:'AI',en:'Auto Information',es:'Automotriz',n:10,min:7,afqt:false},
+ {ab:'SI',en:'Shop Information',es:'Taller y herramientas',n:10,min:6,afqt:false},
+ {ab:'MC',en:'Mechanical Comprehension',es:'Comprensión mecánica',n:15,min:22,afqt:false},
+ {ab:'AO',en:'Assembling Objects',es:'Ensamble de objetos',n:15,min:18,afqt:false},
+];
+const MASTERY={GS:66,AR:62,WK:58,PC:70,MK:80,EI:40,AI:55,SI:60,MC:64,AO:72};
+
+/* ---------- sample questions (all original) ---------- */
+const AO_SVG=`<svg viewBox="0 0 520 150" width="520" height="150" role="img" aria-label="Assembling objects item">
+<g fill="none" stroke="currentColor" stroke-width="2">
+<rect x="10" y="20" width="130" height="110" rx="4" stroke-dasharray="4 4" opacity=".5"/>
+<polygon points="30,60 70,30 100,55 75,95 40,90"/><circle cx="70" cy="30" r="3" fill="currentColor"/><text x="76" y="26" font-size="12" fill="currentColor" stroke="none">A</text>
+<rect x="55" y="100" width="45" height="18"/><circle cx="55" cy="109" r="3" fill="currentColor"/><text x="40" y="113" font-size="12" fill="currentColor" stroke="none">B</text>
+</g>
+<g fill="none" stroke="currentColor" stroke-width="2" transform="translate(160,0)">
+<rect x="0" y="20" width="80" height="110" rx="4"/><text x="5" y="16" font-size="12" fill="currentColor" stroke="none">A</text>
+<polygon points="20,55 60,25 90,50 65,90 30,85" transform="translate(-10,15) scale(.7)"/><rect x="40" y="95" width="32" height="13" transform="rotate(30 56 101)"/>
+</g>
+<g fill="none" stroke="currentColor" stroke-width="2" transform="translate(250,0)">
+<rect x="0" y="20" width="80" height="110" rx="4"/><text x="5" y="16" font-size="12" fill="currentColor" stroke="none">B</text>
+<polygon points="20,55 60,25 90,50 65,90 30,85" transform="translate(5,20) scale(.7)"/><line x1="47" y1="37" x2="17" y2="100"/><rect x="5" y="100" width="32" height="13"/>
+</g>
+<g fill="none" stroke="currentColor" stroke-width="2" transform="translate(340,0)">
+<rect x="0" y="20" width="80" height="110" rx="4"/><text x="5" y="16" font-size="12" fill="currentColor" stroke="none">C</text>
+<polygon points="20,55 60,25 90,50 65,90 30,85" transform="translate(65,20) scale(-.7,.7)"/><line x1="33" y1="37" x2="60" y2="100"/><rect x="45" y="100" width="32" height="13"/>
+</g>
+<g fill="none" stroke="currentColor" stroke-width="2" transform="translate(430,0)">
+<rect x="0" y="20" width="80" height="110" rx="4"/><text x="5" y="16" font-size="12" fill="currentColor" stroke="none">D</text>
+<polygon points="20,55 60,25 90,50 65,90 30,85" transform="translate(5,20) scale(.7)"/><line x1="38" y1="82" x2="17" y2="100"/><rect x="5" y="100" width="32" height="13"/>
+</g></svg>`;
+const Q={
+ GS:[{s:{en:'Which part of the cell contains the genetic material in a plant or animal cell?',es:'¿Qué parte de la célula contiene el material genético en una célula vegetal o animal?'},c:[{en:'Ribosome',es:'Ribosoma'},{en:'Nucleus',es:'Núcleo'},{en:'Cell wall',es:'Pared celular'},{en:'Mitochondrion',es:'Mitocondria'}],a:1,e:{en:'The nucleus holds the chromosomes (DNA). Ribosomes build proteins, mitochondria release energy, and only plant cells have a cell wall.',es:'El núcleo contiene los cromosomas (ADN). Los ribosomas fabrican proteínas, las mitocondrias liberan energía y solo las células vegetales tienen pared celular.'},t:{en:'"Mitochondrion" is the popular distractor: it is the powerhouse, not the library.',es:'"Mitocondria" es el distractor típico: es la central de energía, no la biblioteca.'}},
+   {s:{en:'At sea level, water boils at',es:'A nivel del mar, el agua hierve a'},c:[{en:'212 °C',es:'212 °C'},{en:'100 °F',es:'100 °F'},{en:'100 °C',es:'100 °C'},{en:'32 °F',es:'32 °F'}],a:2,e:{en:'100 °C = 212 °F is the boiling point; 0 °C = 32 °F is freezing.',es:'100 °C = 212 °F es el punto de ebullición; 0 °C = 32 °F es la congelación.'},t:{en:'Unit trap. Read the unit before the number: "212 °C" pairs the right number with the wrong scale.',es:'Trampa de unidades. Lee la unidad antes que el número: "212 °C" junta el número correcto con la escala equivocada.'}}],
+ AR:[{s:{en:'A jacket costs $80 and is marked 25 % off. What is the sale price?',es:'Una chaqueta cuesta $80 y tiene 25 % de descuento. ¿Cuál es el precio de venta?'},c:[{en:'$20',es:'$20'},{en:'$55',es:'$55'},{en:'$60',es:'$60'},{en:'$65',es:'$65'}],a:2,e:{en:'Discount = 0.25 × 80 = 20. Sale price = 80 − 20 = 60.',es:'Descuento = 0,25 × 80 = 20. Precio de venta = 80 − 20 = 60.'},t:{en:'Intermediate-value trap: $20 is the discount, not the price. Reread what is asked before clicking.',es:'Trampa del valor intermedio: $20 es el descuento, no el precio. Relee qué se pregunta antes de responder.'}},
+   {s:{en:'A truck uses 12 gallons of fuel to travel 180 miles. At the same rate, how many gallons does it need for 300 miles?',es:'Un camión usa 12 galones de combustible para recorrer 180 millas. Al mismo ritmo, ¿cuántos galones necesita para 300 millas?'},c:[{en:'15',es:'15'},{en:'18',es:'18'},{en:'20',es:'20'},{en:'24',es:'24'}],a:2,e:{en:'Set the proportion 12/180 = x/300 → x = 12 × 300 ÷ 180 = 20.',es:'Plantea la proporción 12/180 = x/300 → x = 12 × 300 ÷ 180 = 20.'},t:{en:'WANT (gallons for 300 mi) · HAVE (12 gal per 180 mi) · CONNECT (proportion). Write the three slots first.',es:'QUIERO (galones para 300 mi) · TENGO (12 gal por 180 mi) · CONECTO (proporción). Escribe los tres espacios primero.'}}],
+ WK:[{s:{en:'The sergeant gave a <u>terse</u> reply. Terse most nearly means',es:'El sargento dio una respuesta <u>tersa</u> (terse). "Terse" significa casi lo mismo que'},c:[{en:'lengthy',es:'extensa'},{en:'brief',es:'breve'},{en:'polite',es:'cortés'},{en:'confusing',es:'confusa'}],a:1,e:{en:'Terse means short and to the point, sometimes bluntly so.',es:'"Terse" significa corta y directa, a veces incluso brusca.'},t:{en:'"Lengthy" and "brief" are opposites — when two choices are opposites, one of them is usually right.',es:'"Extensa" y "breve" son opuestas: cuando dos opciones son opuestas, una de ellas suele ser la correcta.'}},
+   {s:{en:'<u>Benevolent</u> most nearly means',es:'<u>Benevolent</u> significa casi lo mismo que'},c:[{en:'hostile',es:'hostil'},{en:'wealthy',es:'adinerado'},{en:'kind',es:'bondadoso'},{en:'ancient',es:'antiguo'}],a:2,e:{en:'bene- (good) + vol (wish): wishing good to others.',es:'bene- (bien) + vol (querer): que desea el bien a los demás.'},t:{en:'Prefix polarity: bene- is positive, so eliminate the negative choice "hostile" immediately.',es:'Polaridad del prefijo: bene- es positivo; elimina de inmediato la opción negativa "hostil".'}}],
+ PC:[{p:{en:'Night-vision devices do not create light; they amplify it. A tube collects the faint light of stars or the moon, converts it to electrons, multiplies those electrons thousands of times, and turns them back into a visible green image. On a night with no light at all, the device shows nothing.',es:'Los dispositivos de visión nocturna no crean luz: la amplifican. Un tubo recoge la luz tenue de las estrellas o la luna, la convierte en electrones, los multiplica miles de veces y los vuelve a convertir en una imagen verde visible. En una noche sin luz alguna, el dispositivo no muestra nada.'},s:{en:'According to the passage, why would a night-vision device fail inside a sealed, unlit room?',es:'Según el pasaje, ¿por qué fallaría un dispositivo de visión nocturna dentro de un cuarto sellado y sin luz?'},c:[{en:'The tube overheats in closed spaces',es:'El tubo se sobrecalienta en espacios cerrados'},{en:'There is no light to amplify',es:'No hay luz que amplificar'},{en:'Green images need moonlight specifically',es:'Las imágenes verdes necesitan luz de luna específicamente'},{en:'Electrons cannot be multiplied indoors',es:'Los electrones no pueden multiplicarse en interiores'}],a:1,e:{en:'The passage says the device amplifies existing light and "shows nothing" with no light at all.',es:'El pasaje dice que el dispositivo amplifica la luz existente y "no muestra nada" sin luz.'},t:{en:'Read the question first, then hunt for the sentence that answers it. Choices A, C, D add outside claims the passage never makes.',es:'Lee la pregunta primero y luego busca la oración que la responde. Las opciones A, C y D añaden afirmaciones que el pasaje nunca hace.'}}],
+ MK:[{s:{en:'If 3x − 7 = 11, what is x?',es:'Si 3x − 7 = 11, ¿cuánto vale x?'},c:[{en:'4',es:'4'},{en:'6',es:'6'},{en:'8',es:'8'},{en:'18',es:'18'}],a:1,e:{en:'3x = 18 → x = 6.',es:'3x = 18 → x = 6.'},t:{en:'Backsolve: try B (6): 18 − 7 = 11 ✓. Starting from the middle choices saves time.',es:'Sustituye: prueba B (6): 18 − 7 = 11 ✓. Empezar por las opciones del medio ahorra tiempo.'}},
+   {s:{en:'The area of a circle with diameter 10 is',es:'El área de un círculo de diámetro 10 es'},c:[{en:'10π',es:'10π'},{en:'25π',es:'25π'},{en:'100π',es:'100π'},{en:'20π',es:'20π'}],a:1,e:{en:'Radius = 5, area = πr² = 25π.',es:'Radio = 5, área = πr² = 25π.'},t:{en:'Diameter-vs-radius trap: 100π is what you get if you square the diameter.',es:'Trampa diámetro/radio: 100π es lo que sale si elevas al cuadrado el diámetro.'}}],
+ EI:[{s:{en:'A 12-volt circuit has a resistance of 4 ohms. What current flows?',es:'Un circuito de 12 voltios tiene una resistencia de 4 ohmios. ¿Qué corriente circula?'},c:[{en:'3 A',es:'3 A'},{en:'48 A',es:'48 A'},{en:'8 A',es:'8 A'},{en:'0.33 A',es:'0,33 A'}],a:0,e:{en:'I = V / R = 12 / 4 = 3 amps.',es:'I = V / R = 12 / 4 = 3 amperios.'},t:{en:'48 A is the multiply-instead-of-divide error. Ohm\'s triangle: V on top, I and R below.',es:'48 A es el error de multiplicar en vez de dividir. Triángulo de Ohm: V arriba, I y R abajo.'}},
+   {s:{en:'Two 10-ohm resistors are connected in parallel. The equivalent resistance is',es:'Dos resistencias de 10 ohmios se conectan en paralelo. La resistencia equivalente es'},c:[{en:'20 Ω',es:'20 Ω'},{en:'10 Ω',es:'10 Ω'},{en:'5 Ω',es:'5 Ω'},{en:'2.5 Ω',es:'2,5 Ω'}],a:2,e:{en:'Two equal resistors in parallel give R/2 = 5 Ω. In parallel the total is always smaller than the smallest branch.',es:'Dos resistencias iguales en paralelo dan R/2 = 5 Ω. En paralelo, el total siempre es menor que la rama más pequeña.'},t:{en:'Series adds (20 Ω); parallel shrinks. If the answer is bigger than either resistor, it is the series answer.',es:'Serie suma (20 Ω); paralelo reduce. Si la respuesta es mayor que cualquiera de las dos, es la respuesta de serie.'}}],
+ AI:[{s:{en:'In a four-stroke gasoline engine, the spark plug fires at the start of which stroke?',es:'En un motor de gasolina de cuatro tiempos, la bujía salta al inicio de qué tiempo?'},c:[{en:'Intake',es:'Admisión'},{en:'Compression',es:'Compresión'},{en:'Power',es:'Explosión (potencia)'},{en:'Exhaust',es:'Escape'}],a:2,e:{en:'Intake → Compression → Power → Exhaust. The spark ignites the compressed mixture and drives the piston down on the power stroke.',es:'Admisión → Compresión → Explosión → Escape. La chispa enciende la mezcla comprimida y empuja el pistón en el tiempo de explosión.'},t:{en:'"Suck, squeeze, bang, blow." The bang is the power stroke.',es:'"Aspira, aprieta, explota, expulsa." La explosión es el tiempo de potencia.'}}],
+ SI:[{s:{en:'Which saw is designed to cut curves in wood?',es:'¿Qué sierra está diseñada para cortar curvas en madera?'},c:[{en:'Rip saw',es:'Sierra de hilo'},{en:'Hacksaw',es:'Sierra para metal'},{en:'Coping saw',es:'Sierra de marquetería'},{en:'Crosscut saw',es:'Sierra de trocear'}],a:2,e:{en:'The coping saw\'s thin blade turns inside the cut. Rip cuts with the grain, crosscut across it, hacksaw is for metal.',es:'La hoja delgada de la sierra de marquetería gira dentro del corte. La de hilo corta a favor de la veta, la de trocear en contra y la de metal es para metal.'},t:{en:'Eliminate by domain first: the hacksaw is a metal tool, so it goes out immediately.',es:'Elimina por dominio primero: la sierra para metal no es para madera, así que sale de inmediato.'}}],
+ MC:[{s:{en:'A crowbar is 1.5 m long with the fulcrum 0.25 m from the load. What is its mechanical advantage?',es:'Una barreta mide 1,5 m con el punto de apoyo a 0,25 m de la carga. ¿Cuál es su ventaja mecánica?'},c:[{en:'1.5',es:'1,5'},{en:'5',es:'5'},{en:'6',es:'6'},{en:'0.2',es:'0,2'}],a:1,e:{en:'Effort arm = 1.5 − 0.25 = 1.25 m. MA = effort arm ÷ load arm = 1.25 ÷ 0.25 = 5.',es:'Brazo de esfuerzo = 1,5 − 0,25 = 1,25 m. VM = brazo de esfuerzo ÷ brazo de carga = 1,25 ÷ 0,25 = 5.'},t:{en:'The trap is using the full 1.5 m as the effort arm (giving 6). Sketch the lever and subtract.',es:'La trampa es usar los 1,5 m completos como brazo de esfuerzo (da 6). Dibuja la palanca y resta.'}}],
+ AO:[{s:{en:'Which drawing shows the two shapes connected at points A and B?',es:'¿Qué dibujo muestra las dos figuras conectadas por los puntos A y B?'},c:[{en:'A',es:'A'},{en:'B',es:'B'},{en:'C',es:'C'},{en:'D',es:'D'}],a:1,m:AO_SVG,e:{en:'Only B keeps the line attached at the pentagon\'s top vertex (A) and the left edge of the bar (B).',es:'Solo B mantiene la línea unida al vértice superior del pentágono (A) y al borde izquierdo de la barra (B).'},t:{en:'C is the mirror trap: the pentagon is flipped, and mirror images are never correct. D moves the connector to the wrong vertex.',es:'C es la trampa del espejo: el pentágono está volteado, y las imágenes en espejo nunca son correctas. D mueve el conector al vértice equivocado.'}}],
+};
+
+/* ---------- i18n ---------- */
+const I18N={
+ en:{brand:'ASVAB Ready','nav.home':'Home','nav.learn':'Learn','nav.practice':'Practice','nav.test':'Test','nav.results':'Results','nav.strategy':'Strategy',
+  'home.eyebrow':'Diagnostic taken Sep 1 · sample data','home.title':'Where you stand','home.afqt':'est. AFQT','home.cat':'Category IIIA · qualifies for all branches','home.catNote':'Word Knowledge is your cheapest gain: each WK point is worth ≈1.3 AFQT points. Ten words a day for three weeks moves this needle.','home.cta1':'Practice Word Knowledge','home.cta2':'Take a full test','home.mastery':'Mastery by subtest','home.stats':'This week','home.st1':'Study time','home.st2':'Questions answered','home.st3':'Accuracy (timed)','home.st4':'Accuracy (untimed)','home.st5':'Timed and untimed accuracy are within 10 points — good sign, you are not depending on extra time.','home.subs':'The ten subtests · CAT-ASVAB',
+  'learn.eyebrow':'Learn','learn.title':'Lessons by topic','learn.sampleEyebrow':'Sample lesson','learn.sampleTitle':'Percent problems: part = % × whole','learn.sampleP1':'Every percent question hides three numbers: the part, the percent and the whole. You are always given two and asked for the third. Write the three slots before touching the numbers.','learn.sampleEx':'Worked example — A jacket costs $80 and is marked 25 % off. What is the sale price? Slots: whole = 80, percent = 25, part = ? → part = 0.25 × 80 = 20. The question asks for the sale price, not the discount: 80 − 20 = <b>$60</b>.','learn.sampleP2':'Trap to name: the intermediate value. $20 will be one of the four choices. Reread the last sentence of the question before you click.','learn.sampleBtn':'Practice this topic','learn.sampleLevels':'Level 1 · Level 2 · Level 3 · quiz',
+  'practice.eyebrow':'Practice · untimed, instant explanations','practice.title':'Drill one subtest',
+  'test.eyebrow':'Test · real timers, no going back','test.title':'Evaluate yourself','test.m1':'Diagnostic','test.m1d':'5 questions from each subtest, official pace. About 35 minutes. Produces your first AFQT estimate and weak-area ranking.','test.m1p':'Start here','test.m2':'Full CAT-ASVAB','test.m2d':'All 10 subtests, 135 scored questions, official time limits, adaptive difficulty, no back button. About 2 hours.','test.m2p':'2 h','test.m3':'Single subtest','test.m3d':'One subtest under its official clock. Good for pacing drills on the fast sections (WK, EI, GS).','test.m3p':'6–55 min','test.tableTitle':'Official CAT-ASVAB layout (verified Sep 2026)','test.th1':'Subtest','test.th2':'Scored','test.th3':'Minutes','test.th4':'Per item','test.th5':'Counts for','test.tableNote':'Tryout (unscored) questions may add 15 items and extra time to any subtest on the real test; the app announces them so you are not surprised.',
+  'results.eyebrow':'Results · Diagnostic, Sep 1 · sample data','results.title':'Score simulator','results.afqt':'Estimated AFQT percentile','results.formula':'AFQT = 2·VE + AR + MK, where VE comes from WK + PC. Standard scores below are estimates from a 50-item diagnostic; the real test uses item-response theory, so treat this as ±5 points.','results.lines':'Line scores · Army (sums of standard scores)','results.linesNote':'Branch minimums change with recruiting needs. Last checked Sep 3 2026 — confirm with your recruiter.','results.weak':'Where to spend your next hour','results.weakNote':'Ranked by gap × AFQT leverage, not by raw score.','results.timing':'Timing report','results.t1':'avg per item','results.t2':'unanswered at time-out','results.pen':'penalty','results.timingNote':'You are over budget on WK and left three EI items unanswered — the one case the real CAT punishes. Drill WK at 36 s per word and always submit a guess before the clock ends.','results.review':'Review a missed question','results.reviewNote':'Every miss links to the trick that would have saved it.','results.rq':'"The sergeant gave a <u>terse</u> reply." Terse most nearly means —','results.you':'You: lengthy','results.ans':'Answer: brief','results.tipL':'Trick:','results.tipT':'Substitute each choice into the sentence. A "lengthy reply" and a "brief reply" are opposites — when two choices are opposites, one of them is usually right. Terse = short and blunt.',
+  'strategy.eyebrow':'Strategy · clues and tricks','strategy.title':'How the test is beaten','strategy.catTitle':'Six rules of the adaptive test','strategy.dayTitle':'Test day','strategy.day':'Photo ID. No calculator, ever. Arrive early — late means rescheduled. Sleep instead of cramming, eat breakfast, use the bathroom before the test. Do not press stray keys. Retest waits: 1 month, 1 month, then 6 months, and the most recent score counts, not the highest.',
+  idle:'Idle',stopwatch:'Session',countdown:'Time left',pace:'Pace',check:'Check',next:'Next',submit:'Submit & next',why:'Why',trap:'Trap',trick:'Trick',all:'All',minutes:'min',perItem:'s / item',afqtY:'AFQT + jobs',afqtN:'Jobs only',qOf:'Question',of:'of',finished:'Subtest finished',finishedSub:'Time and answers recorded. On the real test you would move to the next subtest now.',backToLobby:'Back to test modes',timeout:'Time is up — unanswered items count as wrong (this is the real penalty case).',noBack:'No back button in Test mode — just like MEPS.',lessons:'lessons',startCat:'Begin',catNote:'Once you press Begin the official clock starts and you cannot go back to a question.',
+  rules:['The first five questions of each subtest set your difficulty path — give them extra care.','Never skip, never leave blank: a single wrong guess costs nothing.','Avoid strings of wrong answers; if stuck for 1–2 minutes, eliminate and move on.','Budget time so you never speed-guess the last 3–4 items — that is the case the scoring penalizes.','Hard questions mean you are doing well; the test converges everyone to about 50 % correct.','Elimination: drop absolutes ("always", "never"); when two choices are opposites one is usually right; two choices that mean the same thing are both wrong; otherwise always guess the same letter.'],
+ },
+ es:{brand:'ASVAB Ready','nav.home':'Inicio','nav.learn':'Aprender','nav.practice':'Practicar','nav.test':'Examen','nav.results':'Resultados','nav.strategy':'Estrategia',
+  'home.eyebrow':'Diagnóstico del 1 sep · datos de ejemplo','home.title':'Dónde estás','home.afqt':'AFQT est.','home.cat':'Categoría IIIA · califica para todas las ramas','home.catNote':'Vocabulario (WK) es tu ganancia más barata: cada punto de WK vale ≈1,3 puntos de AFQT. Diez palabras al día durante tres semanas mueven esta aguja.','home.cta1':'Practicar vocabulario','home.cta2':'Hacer un examen completo','home.mastery':'Dominio por subprueba','home.stats':'Esta semana','home.st1':'Tiempo de estudio','home.st2':'Preguntas respondidas','home.st3':'Precisión (con tiempo)','home.st4':'Precisión (sin tiempo)','home.st5':'La precisión con y sin tiempo difiere menos de 10 puntos: buena señal, no dependes del tiempo extra.','home.subs':'Las diez subpruebas · CAT-ASVAB',
+  'learn.eyebrow':'Aprender','learn.title':'Lecciones por tema','learn.sampleEyebrow':'Lección de ejemplo','learn.sampleTitle':'Problemas de porcentaje: parte = % × total','learn.sampleP1':'Toda pregunta de porcentaje esconde tres números: la parte, el porcentaje y el total. Siempre te dan dos y te piden el tercero. Escribe los tres espacios antes de tocar los números.','learn.sampleEx':'Ejemplo resuelto — Una chaqueta cuesta $80 con 25 % de descuento. ¿Cuál es el precio de venta? Espacios: total = 80, porcentaje = 25, parte = ? → parte = 0,25 × 80 = 20. La pregunta pide el precio de venta, no el descuento: 80 − 20 = <b>$60</b>.','learn.sampleP2':'Trampa a nombrar: el valor intermedio. $20 será una de las cuatro opciones. Relee la última oración de la pregunta antes de responder.','learn.sampleBtn':'Practicar este tema','learn.sampleLevels':'Nivel 1 · Nivel 2 · Nivel 3 · quiz',
+  'practice.eyebrow':'Práctica · sin tiempo, explicación inmediata','practice.title':'Entrena una subprueba',
+  'test.eyebrow':'Examen · cronómetros reales, sin retroceder','test.title':'Evalúate','test.m1':'Diagnóstico','test.m1d':'5 preguntas de cada subprueba al ritmo oficial. Unos 35 minutos. Produce tu primera estimación de AFQT y el ranking de áreas débiles.','test.m1p':'Empieza aquí','test.m2':'CAT-ASVAB completo','test.m2d':'Las 10 subpruebas, 135 preguntas puntuadas, tiempos oficiales, dificultad adaptativa, sin botón de retroceso. Unas 2 horas.','test.m2p':'2 h','test.m3':'Una subprueba','test.m3d':'Una subprueba con su reloj oficial. Ideal para practicar ritmo en las secciones rápidas (WK, EI, GS).','test.m3p':'6–55 min','test.tableTitle':'Estructura oficial del CAT-ASVAB (verificada sep 2026)','test.th1':'Subprueba','test.th2':'Puntuadas','test.th3':'Minutos','test.th4':'Por ítem','test.th5':'Cuenta para','test.tableNote':'En el examen real, las preguntas de prueba (no puntuadas) pueden añadir 15 ítems y tiempo extra a cualquier subprueba; la app lo anuncia para que no te sorprenda.',
+  'results.eyebrow':'Resultados · Diagnóstico, 1 sep · datos de ejemplo','results.title':'Simulador de puntaje','results.afqt':'Percentil AFQT estimado','results.formula':'AFQT = 2·VE + AR + MK, donde VE sale de WK + PC. Los puntajes estándar de abajo son estimaciones a partir de un diagnóstico de 50 ítems; el examen real usa teoría de respuesta al ítem, así que considera ±5 puntos.','results.lines':'Puntajes de línea · Army (sumas de puntajes estándar)','results.linesNote':'Los mínimos por rama cambian según las necesidades de reclutamiento. Última verificación 3 sep 2026 — confírmalo con tu reclutador.','results.weak':'Dónde invertir tu próxima hora','results.weakNote':'Ordenado por brecha × peso en el AFQT, no por puntaje bruto.','results.timing':'Informe de tiempos','results.t1':'promedio por ítem','results.t2':'sin responder al agotarse el tiempo','results.pen':'penalización','results.timingNote':'Excedes el presupuesto en WK y dejaste tres ítems de EI sin responder: el único caso que el CAT real castiga. Entrena WK a 36 s por palabra y siempre envía una respuesta antes de que acabe el reloj.','results.review':'Revisa una pregunta fallada','results.reviewNote':'Cada fallo enlaza con el truco que lo habría evitado.','results.rq':'"The sergeant gave a <u>terse</u> reply." Terse significa casi lo mismo que —','results.you':'Tú: lengthy','results.ans':'Respuesta: brief','results.tipL':'Truco:','results.tipT':'Sustituye cada opción en la oración. "Lengthy reply" y "brief reply" son opuestas: cuando dos opciones son opuestas, una suele ser la correcta. Terse = corto y seco.',
+  'strategy.eyebrow':'Estrategia · pistas y trucos','strategy.title':'Cómo se vence el examen','strategy.catTitle':'Seis reglas del examen adaptativo','strategy.dayTitle':'El día del examen','strategy.day':'Identificación con foto. Nunca calculadora. Llega temprano: tarde significa reprogramado. Duerme en vez de empollar, desayuna, ve al baño antes. No pulses teclas de más. Esperas para repetir: 1 mes, 1 mes y luego 6 meses; cuenta el puntaje más reciente, no el más alto.',
+  idle:'En espera',stopwatch:'Sesión',countdown:'Restante',pace:'Ritmo',check:'Comprobar',next:'Siguiente',submit:'Enviar y seguir',why:'Por qué',trap:'Trampa',trick:'Truco',all:'Todas',minutes:'min',perItem:'s / ítem',afqtY:'AFQT + empleos',afqtN:'Solo empleos',qOf:'Pregunta',of:'de',finished:'Subprueba terminada',finishedSub:'Tiempo y respuestas registrados. En el examen real pasarías ahora a la siguiente subprueba.',backToLobby:'Volver a los modos',timeout:'Se acabó el tiempo: los ítems sin responder cuentan como incorrectos (este es el caso penalizado real).',noBack:'Sin botón de retroceso en modo Examen — igual que en MEPS.',lessons:'lecciones',startCat:'Comenzar',catNote:'Al pulsar Comenzar arranca el reloj oficial y no podrás volver a una pregunta.',
+  rules:['Las primeras cinco preguntas de cada subprueba fijan tu ruta de dificultad: dales cuidado extra.','Nunca saltes ni dejes en blanco: un solo fallo al adivinar no cuesta nada.','Evita rachas de fallos; si te atascas 1–2 minutos, elimina y sigue.','Administra el tiempo para no adivinar a toda prisa los últimos 3–4 ítems: ese es el caso que la puntuación penaliza.','Las preguntas difíciles significan que vas bien; el examen lleva a todos a ~50 % de aciertos.','Eliminación: descarta absolutos ("siempre", "nunca"); si dos opciones son opuestas una suele ser correcta; dos opciones que significan lo mismo están ambas mal; si no, adivina siempre la misma letra.'],
+ }
+};
+const CHEATS={
+ WK:{en:['Break the word: prefix + root + suffix (bene- good, mal- bad, -less without).','Guess polarity from the prefix and drop opposite-polarity choices.','Substitute each choice into the sentence; the right one reads naturally.','Budget: 36 s per word. Know it or guess and move.'],es:['Descompón la palabra: prefijo + raíz + sufijo (bene- bien, mal- mal, -less sin).','Adivina la polaridad por el prefijo y descarta las opciones de polaridad opuesta.','Sustituye cada opción en la oración; la correcta suena natural.','Presupuesto: 36 s por palabra. La sabes o adivinas y sigues.']},
+ PC:{en:['Read the question first, then the passage with that job in mind.','Four types: main idea, detail, inference, vocabulary in context.','Traps: too specific / too general, outside knowledge, "NOT / EXCEPT" stems.','Inference test: "Would the author agree, using only what is written?"'],es:['Lee la pregunta primero y luego el pasaje con esa tarea en mente.','Cuatro tipos: idea principal, detalle, inferencia, vocabulario en contexto.','Trampas: demasiado específico / general, conocimiento externo, enunciados con "NOT / EXCEPT".','Prueba de inferencia: "¿Estaría de acuerdo el autor usando solo lo escrito?"']},
+ AR:{en:['WANT · HAVE · CONNECT before any arithmetic.','Five formulas cover most items: d = rt, part = % × whole, proportions, area, average.','Backsolve from choice B or C.','"5 less than x" = x − 5. Check that the answer is what was asked, not an intermediate.'],es:['QUIERO · TENGO · CONECTO antes de cualquier cálculo.','Cinco fórmulas cubren casi todo: d = vt, parte = % × total, proporciones, área, promedio.','Sustituye desde la opción B o C.','"5 menos que x" = x − 5. Verifica que la respuesta sea lo pedido, no un valor intermedio.']},
+ MK:{en:['Memorize the formula card: areas, volumes, a²+b²=c², slope, exponent rules, quadratic.','Pick numbers for variable answers (2, 3, 10 — never 0, 1, −1).','Traps: distributing negatives, both roots of x²=9, radius vs diameter, flipping inequalities.'],es:['Memoriza la tarjeta de fórmulas: áreas, volúmenes, a²+b²=c², pendiente, exponentes, cuadrática.','Elige números para respuestas con variables (2, 3, 10 — nunca 0, 1, −1).','Trampas: distribuir negativos, ambas raíces de x²=9, radio vs diámetro, invertir desigualdades.']},
+ GS:{en:['One flashcard per fact: GS is 300 small facts.','Unit trap: read the unit before the number.','Mnemonics: King Philip Came Over For Good Soup; My Very Educated Mother Just Served Us Nachos.'],es:['Una tarjeta por dato: GS son 300 datos pequeños.','Trampa de unidades: lee la unidad antes que el número.','Mnemotecnias: reino → especie; orden de los planetas.']},
+ EI:{en:['V = IR and P = VI; the triangle prevents multiply/divide errors.','Series: same current, resistances add. Parallel: same voltage, total shrinks.','Diode one-way; capacitor stores, passes AC; inductor resists change; transformer AC only.'],es:['V = IR y P = VI; el triángulo evita errores de multiplicar/dividir.','Serie: misma corriente, las resistencias se suman. Paralelo: mismo voltaje, el total se reduce.','Diodo de un solo sentido; capacitor almacena y deja pasar CA; inductor resiste cambios; transformador solo CA.']},
+ AS:{en:['Four-stroke: intake, compression, power, exhaust. Diesel ignites by compression.','Tools: infer the use from the shape; eliminate tools from the wrong material domain.','Welding melts the base metal; brazing and soldering only add filler.'],es:['Cuatro tiempos: admisión, compresión, explosión, escape. El diésel enciende por compresión.','Herramientas: deduce el uso por la forma; elimina las del material equivocado.','Soldar por fusión funde el metal base; la soldadura fuerte y blanda solo añaden aporte.']},
+ MC:{en:['MA = load ÷ effort = effort arm ÷ load arm. Sketch the lever.','Pulleys: MA = supporting rope segments; a fixed pulley only changes direction.','Gears: ratio = driven ÷ driver teeth; meshed gears reverse; less effort never means less work.'],es:['VM = carga ÷ esfuerzo = brazo de esfuerzo ÷ brazo de carga. Dibuja la palanca.','Poleas: VM = segmentos de cuerda que sostienen; la polea fija solo cambia la dirección.','Engranajes: relación = dientes conducido ÷ motriz; los engranajes engranados giran al revés; menos esfuerzo nunca es menos trabajo.']},
+ AO:{en:['Rotations are allowed; mirror images never are — a flipped piece kills the choice.','Connectors: check exactly where the dot sits and where the line enters.','Puzzles: pick the oddest piece and scan all four choices for it.'],es:['Se permiten rotaciones; las imágenes en espejo nunca — una pieza volteada elimina la opción.','Conectores: revisa exactamente dónde está el punto y por dónde entra la línea.','Rompecabezas: elige la pieza más rara y búscala en las cuatro opciones.']},
+};
+
+/* ---------- state ---------- */
+let lang='en'; const t=k=>I18N[lang][k]??k; const L=o=>o[lang]??o.en;
+const $=s=>document.querySelector(s); const $$=s=>[...document.querySelectorAll(s)];
+function toast(m){const e=$('#toast');e.textContent=m;e.classList.add('show');clearTimeout(e._t);e._t=setTimeout(()=>e.classList.remove('show'),2600)}
+const fmt=s=>{s=Math.max(0,Math.round(s));return String(Math.floor(s/60)).padStart(2,'0')+':'+String(s%60).padStart(2,'0')};
+
+/* Timer: one component, two modes (stopwatch / countdown). */
+const Timer={mode:'idle',start:0,limit:0,elapsed:0,handle:null,onEnd:null,
+ run(mode,limitSec,onEnd){this.stop();this.mode=mode;this.limit=limitSec||0;this.start=Date.now();this.elapsed=0;this.onEnd=onEnd;this.handle=setInterval(()=>this.tick(),250);this.tick()},
+ stop(){clearInterval(this.handle);this.handle=null;this.mode='idle';this.paint()},
+ tick(){this.elapsed=(Date.now()-this.start)/1000;if(this.mode==='countdown'&&this.elapsed>=this.limit){const cb=this.onEnd;this.stop();cb&&cb();return}this.paint();Pace.tick()},
+ paint(){const c=$('#chip'),lbl=$('#chipLbl'),tm=$('#chipTime');c.classList.remove('run','warn','crit');
+  if(this.mode==='idle'){lbl.textContent=t('idle');tm.textContent='00:00';return}
+  c.classList.add('run');
+  if(this.mode==='stopwatch'){lbl.textContent=t('stopwatch');tm.textContent=fmt(this.elapsed)}
+  else{const left=this.limit-this.elapsed;lbl.textContent=t('countdown');tm.textContent=fmt(left);if(left<=this.limit*.1)c.classList.add('crit');else if(left<=this.limit*.2)c.classList.add('warn')}}
+};
+/* Pace: compares time on the current item with the official per-item budget. */
+const Pace={itemStart:0,budget:0,el:null,
+ begin(budget,el){this.itemStart=Date.now();this.budget=budget;this.el=el;this.tick()},
+ tick(){if(!this.el||!this.el.isConnected)return;const s=(Date.now()-this.itemStart)/1000;const r=Math.min(1,s/this.budget);this.el.querySelector('i').style.width=(r*100)+'%';this.el.classList.toggle('warn',r>=.75&&r<1);this.el.classList.toggle('crit',r>=1);this.el.title=Math.round(s)+' s / '+this.budget+' s'}
+};
+
+/* ---------- navigation ---------- */
+function go(id,sub){$$('.screen').forEach(s=>s.classList.toggle('on',s.id==='s-'+id));$$('nav.tabs button').forEach(b=>b.classList.toggle('on',b.dataset.go===id));window.scrollTo({top:0});
+ if(id==='practice')startPractice(sub||practiceSub);
+ if(id!=='practice'&&id!=='test'&&Timer.mode==='stopwatch')Timer.stop();}
+document.addEventListener('click',e=>{const b=e.target.closest('[data-go]');if(b){go(b.dataset.go,b.dataset.sub)}});
+
+/* ---------- render: home ---------- */
+function renderHome(){
+ $('#mastery').innerHTML=SUBTESTS.map(s=>`<div class="mrow"><span class="k">${s.ab}</span><div class="bar"><i class="${s.afqt?'afqt':''}" style="width:${MASTERY[s.ab]}%"></i></div><span class="v">${MASTERY[s.ab]} %</span></div>`).join('');
+ $('#tiles').innerHTML=SUBTESTS.map(s=>`<button class="tile" data-go="practice" data-sub="${s.ab}"><span class="ab">${s.ab}</span><span class="nm">${L(s)}</span><span class="meta">${s.n} q · ${s.min} ${t('minutes')}${s.afqt?' · AFQT':''}</span></button>`).join('');
+}
+/* ---------- render: learn ---------- */
+const LESSONS={GS:6,AR:8,WK:5,PC:4,MK:9,EI:5,AI:4,SI:4,MC:6,AO:2};
+function renderLearn(){
+ $('#learnFilter').innerHTML=`<span class="pill olive">${t('all')}</span>`+SUBTESTS.map(s=>`<span class="pill">${s.ab}</span>`).join('');
+ $('#lessons').innerHTML=SUBTESTS.map(s=>`<div class="card stack" style="gap:6px"><div class="row" style="justify-content:space-between"><span class="pill ${s.afqt?'afqt':''}">${s.ab}</span><span class="small muted mono">${LESSONS[s.ab]} ${t('lessons')}</span></div><h3>${L(s)}</h3><div class="bar"><i class="${s.afqt?'afqt':''}" style="width:${MASTERY[s.ab]}%"></i></div></div>`).join('');
+}
+/* ---------- render: test lobby ---------- */
+function renderLayout(){
+ $('#layout').innerHTML=SUBTESTS.map(s=>`<tr><td><b>${s.ab}</b> · ${L(s)}</td><td class="n">${s.n}</td><td class="n">${s.min}</td><td class="n">${Math.round(s.min*60/s.n)}</td><td>${s.afqt?`<span class="pill afqt">${t('afqtY')}</span>`:`<span class="small muted">${t('afqtN')}</span>`}</td></tr>`).join('');
+}
+/* ---------- question player (shared by Practice and Test) ---------- */
+function questionView(sub,q,i,total,mode){
+ const s=SUBTESTS.find(x=>x.ab===sub);const budget=Math.round(s.min*60/s.n);
+ return `<div class="qhead"><span class="pill ${s.afqt?'afqt':''}">${sub}</span><span class="small muted">${t('qOf')} ${i+1} ${t('of')} ${total}</span><span class="small muted mono">${t('pace')} ${budget}s</span><div class="pace" id="pace"><i></i></div></div>
+ ${q.p?`<div class="passage">${L(q.p)}</div>`:''}
+ ${q.m?`<div class="media">${q.m}</div>`:''}
+ <div class="stem">${L(q.s)}</div>
+ <div class="choices" id="choices">${q.c.map((c,k)=>`<button class="choice" data-k="${k}"><span class="k">${'ABCD'[k]}</span><span>${L(c)}</span></button>`).join('')}</div>
+ <div class="row" id="actions"><button class="btn primary" id="check" disabled>${mode==='test'?t('submit'):t('check')}</button>${mode==='test'?`<span class="small muted">${t('noBack')}</span>`:''}</div>
+ <div id="expl"></div>`;
+}
+let practiceSub='WK',pIdx=0;
+function startPractice(sub){practiceSub=sub||'WK';pIdx=0;
+ $('#practicePick').innerHTML=SUBTESTS.map(s=>`<button class="pill ${s.ab===practiceSub?'olive':''}" data-p="${s.ab}">${s.ab}</button>`).join('');
+ $$('#practicePick [data-p]').forEach(b=>b.onclick=()=>startPractice(b.dataset.p));
+ if(Timer.mode!=='stopwatch')Timer.run('stopwatch');
+ showPractice();
+}
+function showPractice(){const bank=Q[practiceSub]||Q.WK;const q=bank[pIdx%bank.length];const host=$('#practicePlayer');
+ host.innerHTML=questionView(practiceSub,q,pIdx%bank.length,bank.length,'practice');
+ const s=SUBTESTS.find(x=>x.ab===practiceSub);Pace.begin(Math.round(s.min*60/s.n),host.querySelector('#pace'));
+ wirePlayer(host,q,'practice',()=>{pIdx++;showPractice()});
+}
+function wirePlayer(host,q,mode,onNext){let sel=null;const btn=host.querySelector('#check');
+ host.querySelectorAll('.choice').forEach(c=>c.onclick=()=>{if(host.dataset.done)return;host.querySelectorAll('.choice').forEach(x=>x.classList.remove('sel'));c.classList.add('sel');sel=+c.dataset.k;btn.disabled=false});
+ btn.onclick=()=>{if(host.dataset.done){onNext();return}host.dataset.done='1';
+  if(mode==='test'){onNext();return}
+  host.querySelectorAll('.choice').forEach(c=>{const k=+c.dataset.k;if(k===q.a)c.classList.add('ok');else if(k===sel)c.classList.add('bad')});
+  host.querySelector('#expl').innerHTML=`<div class="expl"><div><b>${t('why')}:</b> ${L(q.e)}</div><div class="trap"><b>${t('trap')}:</b> ${L(q.t)}</div></div>`;
+  btn.textContent=t('next')};
+}
+/* ---------- test mode ---------- */
+let testQueue=[],tIdx=0,testSub='WK';
+$$('.mode').forEach(m=>m.onclick=()=>{const mode=m.dataset.mode;testSub=mode==='diag'?'GS':'WK';beginTest(mode)});
+function beginTest(mode){const s=SUBTESTS.find(x=>x.ab===testSub);const bank=Q[testSub];testQueue=Array.from({length:s.n},(_,i)=>bank[i%bank.length]);tIdx=0;
+ $('#testLobby').style.display='none';const host=$('#testPlayer');host.style.display='grid';
+ host.innerHTML=`<div class="card lift stack"><div class="eyebrow">${mode==='diag'?t('test.m1'):mode==='full'?t('test.m2'):t('test.m3')}</div><h2>${testSub} · ${L(s)}</h2><div class="row"><span class="pill">${s.n} q</span><span class="pill">${s.min} ${t('minutes')}</span><span class="pill">${Math.round(s.min*60/s.n)} ${t('perItem')}</span></div><p class="muted">${t('catNote')}</p><div class="row"><button class="btn brass" id="begin">${t('startCat')}</button><button class="btn ghost" id="lobby">${t('backToLobby')}</button></div></div>`;
+ host.querySelector('#begin').onclick=()=>{Timer.run('countdown',s.min*60,()=>{toast(t('timeout'));finishTest()});showTest()};
+ host.querySelector('#lobby').onclick=backToLobby;
+}
+function showTest(){const host=$('#testPlayer');const q=testQueue[tIdx];const s=SUBTESTS.find(x=>x.ab===testSub);
+ host.removeAttribute('data-done');host.innerHTML=questionView(testSub,q,tIdx,testQueue.length,'test');Pace.begin(Math.round(s.min*60/s.n),host.querySelector('#pace'));
+ wirePlayer(host,q,'test',()=>{tIdx++;if(tIdx>=testQueue.length)finishTest();else showTest()});
+}
+function finishTest(){Timer.stop();const host=$('#testPlayer');host.innerHTML=`<div class="card lift stack"><h2>${t('finished')}</h2><p class="muted">${t('finishedSub')}</p><div class="row"><button class="btn primary" data-go="results">${t('nav.results')}</button><button class="btn ghost" id="lobby">${t('backToLobby')}</button></div></div>`;host.querySelector('#lobby').onclick=backToLobby}
+function backToLobby(){Timer.stop();$('#testPlayer').style.display='none';$('#testLobby').style.display='grid'}
+/* ---------- strategy ---------- */
+function renderStrategy(){$('#catRules').innerHTML=I18N[lang].rules.map(r=>`<li>${r}</li>`).join('');
+ const names={WK:'WK',PC:'PC',AR:'AR',MK:'MK',GS:'GS',EI:'EI',AS:'AI · SI',MC:'MC',AO:'AO'};
+ $('#cheats').innerHTML=Object.entries(CHEATS).map(([k,v],i)=>`<details ${i===0?'open':''}><summary><span class="ab">${names[k]}</span>${k==='AS'?(lang==='es'?'Automotriz y taller':'Auto & Shop'):L(SUBTESTS.find(s=>s.ab===k))}</summary><div class="body"><ul>${v[lang].map(x=>`<li>${x}</li>`).join('')}</ul></div></details>`).join('');
+}
+/* ---------- i18n apply ---------- */
+function applyLang(){document.documentElement.lang=lang;$('#langBtn').textContent=lang==='en'?'ES':'EN';
+ $$('[data-i]').forEach(el=>{const v=I18N[lang][el.dataset.i];if(v!==undefined)el.innerHTML=v});
+ renderHome();renderLearn();renderLayout();renderStrategy();Timer.paint();
+ if($('#s-practice').classList.contains('on'))showPractice();
+}
+$('#langBtn').onclick=()=>{lang=lang==='en'?'es':'en';applyLang()};
+applyLang();
+</script>
+</body>
+</html>

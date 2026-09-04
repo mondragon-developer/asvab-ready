@@ -1,0 +1,3202 @@
+[
+  {
+    "id": "mc-0001",
+    "subtest": "MC",
+    "topic": "levers",
+    "difficulty": 2,
+    "stem": {
+      "en": "A crowbar is 1.5 m long with the fulcrum 0.25 m from the load. What is its mechanical advantage?",
+      "es": "Una barreta mide 1.5 m con el punto de apoyo a 0.25 m de la carga. ¿Cuál es su ventaja mecánica?"
+    },
+    "choices": [
+      {
+        "en": "1.5",
+        "es": "1.5"
+      },
+      {
+        "en": "5",
+        "es": "5"
+      },
+      {
+        "en": "6",
+        "es": "6"
+      },
+      {
+        "en": "0.2",
+        "es": "0.2"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Effort arm = 1.5 − 0.25 = 1.25 m. MA = effort arm ÷ load arm = 1.25 ÷ 0.25 = 5.",
+      "es": "Brazo de esfuerzo = 1.5 − 0.25 = 1.25 m. VM = brazo de esfuerzo ÷ brazo de carga = 1.25 ÷ 0.25 = 5."
+    },
+    "trap": {
+      "en": "The trap is using the full 1.5 m as the effort arm (giving 6). Sketch the lever and subtract.",
+      "es": "La trampa es usar los 1.5 m completos como brazo de esfuerzo (da 6). Dibuja la palanca y resta."
+    },
+    "strategyRef": "mc.sketch-lever",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0002",
+    "subtest": "MC",
+    "topic": "levers",
+    "difficulty": 1,
+    "stem": {
+      "en": "A lever has its fulcrum 0.5 m from a 200 N load, and the effort is applied 2 m from the fulcrum on the other side. What effort force balances the load?",
+      "es": "Una palanca tiene su punto de apoyo a 0.5 m de una carga de 200 N, y el esfuerzo se aplica a 2 m del apoyo del otro lado. ¿Qué fuerza de esfuerzo equilibra la carga?"
+    },
+    "choices": [
+      {
+        "en": "50 N",
+        "es": "50 N"
+      },
+      {
+        "en": "800 N",
+        "es": "800 N"
+      },
+      {
+        "en": "100 N",
+        "es": "100 N"
+      },
+      {
+        "en": "25 N",
+        "es": "25 N"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "F₁d₁ = F₂d₂: 200 × 0.5 = F × 2, so F = 100 ÷ 2 = 50 N. The long effort arm divides the force by 4.",
+      "es": "F₁d₁ = F₂d₂: 200 × 0.5 = F × 2, así que F = 100 ÷ 2 = 50 N. El brazo largo de esfuerzo divide la fuerza entre 4."
+    },
+    "trap": {
+      "en": "800 N comes from multiplying by the long arm instead of dividing; 100 N stops after computing 200 × 0.5.",
+      "es": "800 N sale de multiplicar por el brazo largo en vez de dividir; 100 N es quedarse en 200 × 0.5."
+    },
+    "strategyRef": "mc.sketch-lever",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0003",
+    "subtest": "MC",
+    "topic": "pulleys",
+    "difficulty": 1,
+    "stem": {
+      "en": "A block and tackle has four rope segments supporting the load. Ignoring friction, what effort is needed to lift a 400 N crate?",
+      "es": "Un aparejo (block and tackle) tiene cuatro tramos de cuerda sosteniendo la carga. Sin fricción, ¿qué esfuerzo se necesita para levantar una caja de 400 N?"
+    },
+    "choices": [
+      {
+        "en": "200 N",
+        "es": "200 N"
+      },
+      {
+        "en": "100 N",
+        "es": "100 N"
+      },
+      {
+        "en": "400 N",
+        "es": "400 N"
+      },
+      {
+        "en": "50 N",
+        "es": "50 N"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Mechanical advantage equals the number of rope segments holding the load: 4. Effort = 400 ÷ 4 = 100 N.",
+      "es": "La ventaja mecánica es igual al número de tramos que sostienen la carga: 4. Esfuerzo = 400 ÷ 4 = 100 N."
+    },
+    "trap": {
+      "en": "200 N is what you get by counting the two pulley blocks instead of the four supporting segments.",
+      "es": "200 N sale de contar los dos bloques de poleas en vez de los cuatro tramos que sostienen."
+    },
+    "strategyRef": "mc.pulley-segments",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0004",
+    "subtest": "MC",
+    "topic": "gears",
+    "difficulty": 2,
+    "stem": {
+      "en": "A 20-tooth gear turning at 300 rpm drives a 60-tooth gear. How fast does the 60-tooth gear turn?",
+      "es": "Un engrane de 20 dientes que gira a 300 rpm mueve a uno de 60 dientes. ¿A qué velocidad gira el engrane de 60 dientes?"
+    },
+    "choices": [
+      {
+        "en": "900 rpm",
+        "es": "900 rpm"
+      },
+      {
+        "en": "300 rpm",
+        "es": "300 rpm"
+      },
+      {
+        "en": "100 rpm",
+        "es": "100 rpm"
+      },
+      {
+        "en": "20 rpm",
+        "es": "20 rpm"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Teeth × rpm is the same for meshed gears: 20 × 300 = 60 × N, so N = 6000 ÷ 60 = 100 rpm. The bigger gear turns slower but with three times the torque.",
+      "es": "Dientes × rpm es igual en engranes acoplados: 20 × 300 = 60 × N, así que N = 6000 ÷ 60 = 100 rpm. El engrane grande gira más lento pero con tres veces el par."
+    },
+    "trap": {
+      "en": "900 rpm inverts the ratio. A bigger driven gear always turns slower than the driver.",
+      "es": "900 rpm invierte la relación. Un engrane conducido más grande siempre gira más lento que el motriz."
+    },
+    "strategyRef": "mc.gear-direction",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0005",
+    "subtest": "MC",
+    "topic": "inclined-plane",
+    "difficulty": 2,
+    "stem": {
+      "en": "A ramp is 5 m long and rises 1 m. Ignoring friction, how much force is needed to push a 500 N cart up the ramp?",
+      "es": "Una rampa mide 5 m de largo y sube 1 m. Sin fricción, ¿cuánta fuerza se necesita para empujar un carrito de 500 N por la rampa?"
+    },
+    "choices": [
+      {
+        "en": "500 N",
+        "es": "500 N"
+      },
+      {
+        "en": "2,500 N",
+        "es": "2,500 N"
+      },
+      {
+        "en": "400 N",
+        "es": "400 N"
+      },
+      {
+        "en": "100 N",
+        "es": "100 N"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "MA of an inclined plane = length ÷ height = 5 ÷ 1 = 5. Force = 500 ÷ 5 = 100 N. The cart is pushed 5 m instead of lifted 1 m, so the work (500 J) is unchanged.",
+      "es": "VM de un plano inclinado = longitud ÷ altura = 5 ÷ 1 = 5. Fuerza = 500 ÷ 5 = 100 N. El carrito se empuja 5 m en vez de levantarse 1 m, así que el trabajo (500 J) no cambia."
+    },
+    "trap": {
+      "en": "400 N comes from subtracting the height from the weight, which mixes units and means nothing.",
+      "es": "400 N sale de restar la altura al peso, lo que mezcla unidades y no significa nada."
+    },
+    "strategyRef": "mc.less-effort-not-less-work",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0006",
+    "subtest": "MC",
+    "topic": "wheel-and-axle",
+    "difficulty": 2,
+    "stem": {
+      "en": "A hand crank has a wheel radius of 30 cm attached to an axle of radius 5 cm. What is its mechanical advantage when the effort is applied at the wheel?",
+      "es": "Una manivela tiene una rueda de 30 cm de radio unida a un eje de 5 cm de radio. ¿Cuál es su ventaja mecánica cuando el esfuerzo se aplica en la rueda?"
+    },
+    "choices": [
+      {
+        "en": "6",
+        "es": "6"
+      },
+      {
+        "en": "1/6",
+        "es": "1/6"
+      },
+      {
+        "en": "35",
+        "es": "35"
+      },
+      {
+        "en": "25",
+        "es": "25"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "A wheel and axle is a rotating lever: MA = wheel radius ÷ axle radius = 30 ÷ 5 = 6. A 10 N push on the rim produces 60 N at the axle.",
+      "es": "La rueda y eje es una palanca giratoria: VM = radio de la rueda ÷ radio del eje = 30 ÷ 5 = 6. Un empuje de 10 N en el borde produce 60 N en el eje."
+    },
+    "trap": {
+      "en": "35 and 25 come from adding or subtracting the radii; MA is a ratio, so divide.",
+      "es": "35 y 25 salen de sumar o restar los radios; la VM es una razón, así que divide."
+    },
+    "strategyRef": "mc.sketch-lever",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0007",
+    "subtest": "MC",
+    "topic": "hydraulics",
+    "difficulty": 2,
+    "stem": {
+      "en": "In a hydraulic jack, the small piston has an area of 2 cm² and the large piston 50 cm². A 40 N push on the small piston lifts how much on the large one?",
+      "es": "En un gato hidráulico, el pistón chico tiene un área de 2 cm² y el grande 50 cm². Un empuje de 40 N en el pistón chico levanta cuánto en el grande?"
+    },
+    "choices": [
+      {
+        "en": "1.6 N",
+        "es": "1.6 N"
+      },
+      {
+        "en": "1,000 N",
+        "es": "1,000 N"
+      },
+      {
+        "en": "2,000 N",
+        "es": "2,000 N"
+      },
+      {
+        "en": "100 N",
+        "es": "100 N"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Pressure is the same on both pistons: 40 ÷ 2 = 20 N/cm². Force on the large piston = 20 × 50 = 1,000 N. The area ratio (25) is the mechanical advantage.",
+      "es": "La presión es igual en ambos pistones: 40 ÷ 2 = 20 N/cm². Fuerza en el pistón grande = 20 × 50 = 1,000 N. La razón de áreas (25) es la ventaja mecánica."
+    },
+    "trap": {
+      "en": "2,000 N is 40 × 50, forgetting to divide by the small area first.",
+      "es": "2,000 N es 40 × 50, olvidando dividir primero entre el área chica."
+    },
+    "strategyRef": "mc.pressure-area",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0008",
+    "subtest": "MC",
+    "topic": "pressure",
+    "difficulty": 1,
+    "stem": {
+      "en": "A box weighing 800 N rests on a floor. Its bottom face measures 0.04 m². What pressure does it exert on the floor?",
+      "es": "Una caja de 800 N descansa en el piso. Su base mide 0.04 m². ¿Qué presión ejerce sobre el piso?"
+    },
+    "choices": [
+      {
+        "en": "32 Pa",
+        "es": "32 Pa"
+      },
+      {
+        "en": "200 Pa",
+        "es": "200 Pa"
+      },
+      {
+        "en": "20,000 Pa",
+        "es": "20,000 Pa"
+      },
+      {
+        "en": "2,000 Pa",
+        "es": "2,000 Pa"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Pressure = force ÷ area = 800 ÷ 0.04 = 20,000 Pa (N/m²). Dividing by a small decimal makes the result larger than the force.",
+      "es": "Presión = fuerza ÷ área = 800 ÷ 0.04 = 20,000 Pa (N/m²). Dividir entre un decimal pequeño da un resultado mayor que la fuerza."
+    },
+    "trap": {
+      "en": "32 Pa multiplies instead of divides; 2,000 Pa is a decimal slip (800 ÷ 0.4).",
+      "es": "32 Pa multiplica en vez de dividir; 2,000 Pa es un error de decimal (800 ÷ 0.4)."
+    },
+    "strategyRef": "mc.pressure-area",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0009",
+    "subtest": "MC",
+    "topic": "work-power-energy",
+    "difficulty": 1,
+    "stem": {
+      "en": "A worker pushes a crate with a steady 50 N force across 4 m of level floor. How much work is done on the crate?",
+      "es": "Un trabajador empuja una caja con una fuerza constante de 50 N a lo largo de 4 m de piso plano. ¿Cuánto trabajo realiza sobre la caja?"
+    },
+    "choices": [
+      {
+        "en": "12.5 J",
+        "es": "12.5 J"
+      },
+      {
+        "en": "54 J",
+        "es": "54 J"
+      },
+      {
+        "en": "100 J",
+        "es": "100 J"
+      },
+      {
+        "en": "200 J",
+        "es": "200 J"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Work = force × distance = 50 N × 4 m = 200 joules.",
+      "es": "Trabajo = fuerza × distancia = 50 N × 4 m = 200 joules."
+    },
+    "trap": {
+      "en": "Work multiplies; 12.5 J divides and 54 J adds. Only multiplication gives joules (N·m).",
+      "es": "El trabajo multiplica; 12.5 J divide y 54 J suma. Solo la multiplicación da joules (N·m)."
+    },
+    "strategyRef": "mc.less-effort-not-less-work",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0010",
+    "subtest": "MC",
+    "topic": "work-power-energy",
+    "difficulty": 1,
+    "stem": {
+      "en": "A motor does 600 J of work in 3 seconds. What is its power output?",
+      "es": "Un motor realiza 600 J de trabajo en 3 segundos. ¿Cuál es su potencia?"
+    },
+    "choices": [
+      {
+        "en": "200 W",
+        "es": "200 W"
+      },
+      {
+        "en": "1,800 W",
+        "es": "1,800 W"
+      },
+      {
+        "en": "600 W",
+        "es": "600 W"
+      },
+      {
+        "en": "300 W",
+        "es": "300 W"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Power = work ÷ time = 600 ÷ 3 = 200 watts. Power is how fast work is done.",
+      "es": "Potencia = trabajo ÷ tiempo = 600 ÷ 3 = 200 watts. La potencia es qué tan rápido se hace el trabajo."
+    },
+    "trap": {
+      "en": "1,800 W multiplies work by time. Doing the same work in more time means less power, so divide.",
+      "es": "1,800 W multiplica trabajo por tiempo. Hacer el mismo trabajo en más tiempo es menos potencia, así que divide."
+    },
+    "strategyRef": "mc.less-effort-not-less-work",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0011",
+    "subtest": "MC",
+    "topic": "force-mass-acceleration",
+    "difficulty": 1,
+    "stem": {
+      "en": "What net force is required to accelerate a 10 kg cart at 4 m/s²?",
+      "es": "¿Qué fuerza neta se requiere para acelerar un carrito de 10 kg a 4 m/s²?"
+    },
+    "choices": [
+      {
+        "en": "2.5 N",
+        "es": "2.5 N"
+      },
+      {
+        "en": "40 N",
+        "es": "40 N"
+      },
+      {
+        "en": "14 N",
+        "es": "14 N"
+      },
+      {
+        "en": "98 N",
+        "es": "98 N"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "F = m × a = 10 × 4 = 40 N.",
+      "es": "F = m × a = 10 × 4 = 40 N."
+    },
+    "trap": {
+      "en": "98 N is the cart's weight (10 × 9.8), which is not asked. 14 N adds mass and acceleration.",
+      "es": "98 N es el peso del carrito (10 × 9.8), que no se pregunta. 14 N suma masa y aceleración."
+    },
+    "strategyRef": "mc.less-effort-not-less-work",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0012",
+    "subtest": "MC",
+    "topic": "torque",
+    "difficulty": 2,
+    "stem": {
+      "en": "A 25 N force is applied perpendicular to a wrench handle at a point 0.4 m from the bolt. What torque is applied to the bolt?",
+      "es": "Se aplica una fuerza de 25 N perpendicular al mango de una llave en un punto a 0.4 m del perno. ¿Qué par (torque) recibe el perno?"
+    },
+    "choices": [
+      {
+        "en": "62.5 N·m",
+        "es": "62.5 N·m"
+      },
+      {
+        "en": "0.016 N·m",
+        "es": "0.016 N·m"
+      },
+      {
+        "en": "10 N·m",
+        "es": "10 N·m"
+      },
+      {
+        "en": "25 N·m",
+        "es": "25 N·m"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Torque = force × lever arm = 25 × 0.4 = 10 N·m.",
+      "es": "Par = fuerza × brazo de palanca = 25 × 0.4 = 10 N·m."
+    },
+    "trap": {
+      "en": "62.5 divides instead of multiplying; 25 N·m ignores the distance entirely.",
+      "es": "62.5 divide en vez de multiplicar; 25 N·m ignora la distancia por completo."
+    },
+    "strategyRef": "mc.sketch-lever",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0013",
+    "subtest": "MC",
+    "topic": "levers",
+    "difficulty": 3,
+    "stem": {
+      "en": "A wheelbarrow's load sits 0.3 m behind the wheel axle, and the handles are gripped 1.2 m behind the axle. What is the mechanical advantage?",
+      "es": "La carga de una carretilla está a 0.3 m detrás del eje de la rueda, y las agarraderas se sujetan a 1.2 m detrás del eje. ¿Cuál es la ventaja mecánica?"
+    },
+    "choices": [
+      {
+        "en": "0.25",
+        "es": "0.25"
+      },
+      {
+        "en": "3",
+        "es": "3"
+      },
+      {
+        "en": "1.5",
+        "es": "1.5"
+      },
+      {
+        "en": "4",
+        "es": "4"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "The wheel is the fulcrum, so both distances are already measured from it. MA = effort arm ÷ load arm = 1.2 ÷ 0.3 = 4. A wheelbarrow is a class-2 lever: load between fulcrum and effort.",
+      "es": "La rueda es el punto de apoyo, así que ambas distancias ya están medidas desde él. VM = brazo de esfuerzo ÷ brazo de carga = 1.2 ÷ 0.3 = 4. La carretilla es una palanca de segundo género: carga entre apoyo y esfuerzo."
+    },
+    "trap": {
+      "en": "3 comes from subtracting 0.3 from 1.2 first. That subtraction is only needed when distances are given from opposite ends, not from the fulcrum.",
+      "es": "3 sale de restar 0.3 a 1.2 primero. Esa resta solo se necesita cuando las distancias se dan desde extremos opuestos, no desde el apoyo."
+    },
+    "strategyRef": "mc.sketch-lever",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0014",
+    "subtest": "MC",
+    "topic": "gears",
+    "difficulty": 3,
+    "stem": {
+      "en": "A 10-tooth gear drives a 40-tooth gear. If 5 N·m of torque is applied to the 10-tooth gear, what torque (ignoring losses) appears on the 40-tooth gear?",
+      "es": "Un engrane de 10 dientes mueve a uno de 40. Si se aplican 5 N·m de par al engrane de 10 dientes, ¿qué par (sin pérdidas) aparece en el de 40 dientes?"
+    },
+    "choices": [
+      {
+        "en": "20 N·m",
+        "es": "20 N·m"
+      },
+      {
+        "en": "1.25 N·m",
+        "es": "1.25 N·m"
+      },
+      {
+        "en": "5 N·m",
+        "es": "5 N·m"
+      },
+      {
+        "en": "80 N·m",
+        "es": "80 N·m"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Gear ratio = 40 ÷ 10 = 4. The driven gear turns at one-quarter the speed and receives four times the torque: 5 × 4 = 20 N·m. Speed and torque trade off.",
+      "es": "Relación = 40 ÷ 10 = 4. El engrane conducido gira a un cuarto de la velocidad y recibe cuatro veces el par: 5 × 4 = 20 N·m. Velocidad y par se intercambian."
+    },
+    "trap": {
+      "en": "1.25 N·m applies the speed reduction to torque; bigger driven gear = slower but stronger.",
+      "es": "1.25 N·m aplica la reducción de velocidad al par; engrane conducido más grande = más lento pero más fuerte."
+    },
+    "strategyRef": "mc.gear-direction",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0015",
+    "subtest": "MC",
+    "topic": "hydraulics",
+    "difficulty": 3,
+    "stem": {
+      "en": "The small piston of a hydraulic press has an area of 2 cm² and the large piston 50 cm². If the small piston is pushed in 25 cm, how far does the large piston rise?",
+      "es": "El pistón chico de una prensa hidráulica tiene un área de 2 cm² y el grande 50 cm². Si el pistón chico se empuja 25 cm, ¿cuánto sube el pistón grande?"
+    },
+    "choices": [
+      {
+        "en": "25 cm",
+        "es": "25 cm"
+      },
+      {
+        "en": "1 cm",
+        "es": "1 cm"
+      },
+      {
+        "en": "625 cm",
+        "es": "625 cm"
+      },
+      {
+        "en": "12.5 cm",
+        "es": "12.5 cm"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Fluid volume moved is the same on both sides: 2 × 25 = 50 cm³ = 50 × d, so d = 1 cm. The press multiplies force 25 times, so distance is divided by 25.",
+      "es": "El volumen de fluido desplazado es igual en ambos lados: 2 × 25 = 50 cm³ = 50 × d, así que d = 1 cm. La prensa multiplica la fuerza 25 veces, así que la distancia se divide entre 25."
+    },
+    "trap": {
+      "en": "Answering 25 cm assumes both pistons move equally. Force gained means distance lost.",
+      "es": "Responder 25 cm supone que ambos pistones se mueven igual. Ganar fuerza implica perder distancia."
+    },
+    "strategyRef": "mc.less-effort-not-less-work",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0016",
+    "subtest": "MC",
+    "topic": "pulleys",
+    "difficulty": 3,
+    "stem": {
+      "en": "A pulley system with three rope segments supporting the load is used to raise a 300 N load by 1 m. How much rope must be pulled through the effort end?",
+      "es": "Un sistema de poleas con tres tramos de cuerda sosteniendo la carga se usa para subir 1 m una carga de 300 N. ¿Cuánta cuerda hay que jalar por el extremo del esfuerzo?"
+    },
+    "choices": [
+      {
+        "en": "1 m",
+        "es": "1 m"
+      },
+      {
+        "en": "0.33 m",
+        "es": "0.33 m"
+      },
+      {
+        "en": "3 m",
+        "es": "3 m"
+      },
+      {
+        "en": "9 m",
+        "es": "9 m"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Each of the three segments must shorten by 1 m, so 3 m of rope passes through the hand. Effort is 300 ÷ 3 = 100 N, and 100 N × 3 m = 300 J, the same work as lifting directly.",
+      "es": "Cada uno de los tres tramos debe acortarse 1 m, así que pasan 3 m de cuerda por la mano. El esfuerzo es 300 ÷ 3 = 100 N, y 100 N × 3 m = 300 J, el mismo trabajo que levantar directo."
+    },
+    "trap": {
+      "en": "0.33 m divides the distance by the MA; the distance is multiplied, not divided.",
+      "es": "0.33 m divide la distancia entre la VM; la distancia se multiplica, no se divide."
+    },
+    "strategyRef": "mc.pulley-segments",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0017",
+    "subtest": "MC",
+    "topic": "gears",
+    "difficulty": 1,
+    "stem": {
+      "en": "Three gears are meshed in a straight row. If the first gear turns clockwise, which way does the third gear turn?",
+      "es": "Tres engranes están acoplados en fila. Si el primero gira en sentido horario, ¿hacia dónde gira el tercero?"
+    },
+    "choices": [
+      {
+        "en": "Counterclockwise",
+        "es": "Antihorario"
+      },
+      {
+        "en": "It depends on the size of the middle gear",
+        "es": "Depende del tamaño del engrane de en medio"
+      },
+      {
+        "en": "Counterclockwise, at twice the speed",
+        "es": "Antihorario, al doble de velocidad"
+      },
+      {
+        "en": "Clockwise",
+        "es": "Horario"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Every pair of meshed gears reverses direction. Gear 1 clockwise → gear 2 counterclockwise → gear 3 clockwise. Odd-numbered gears in a chain match the first.",
+      "es": "Cada par de engranes acoplados invierte el sentido. Engrane 1 horario → engrane 2 antihorario → engrane 3 horario. Los engranes impares de una cadena coinciden con el primero."
+    },
+    "trap": {
+      "en": "Size affects speed, never direction. Count the reversals.",
+      "es": "El tamaño afecta la velocidad, nunca el sentido. Cuenta las inversiones."
+    },
+    "strategyRef": "mc.gear-direction",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0018",
+    "subtest": "MC",
+    "topic": "gears",
+    "difficulty": 3,
+    "stem": {
+      "en": "An idler gear is placed between a driver gear and a driven gear. What does the idler change?",
+      "es": "Se coloca un engrane loco (idler) entre un engrane motriz y uno conducido. ¿Qué cambia el engrane loco?"
+    },
+    "choices": [
+      {
+        "en": "The direction of the driven gear only; the speed ratio stays the same",
+        "es": "Solo el sentido del engrane conducido; la relación de velocidad no cambia"
+      },
+      {
+        "en": "It doubles the speed ratio",
+        "es": "Duplica la relación de velocidad"
+      },
+      {
+        "en": "It halves the speed of the driven gear",
+        "es": "Reduce a la mitad la velocidad del conducido"
+      },
+      {
+        "en": "It increases the torque on the driven gear",
+        "es": "Aumenta el par en el engrane conducido"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The overall ratio depends only on the first and last gears' tooth counts; the idler's teeth cancel out. Its only effect is to add one reversal so driver and driven turn the same way.",
+      "es": "La relación total depende solo de los dientes del primer y último engrane; los del loco se cancelan. Su único efecto es agregar una inversión para que motriz y conducido giren igual."
+    },
+    "trap": {
+      "en": "Any intermediate gear feels like it should change speed; it does not, because it is both driven and driver with the same tooth count.",
+      "es": "Parece que cualquier engrane intermedio debería cambiar la velocidad; no lo hace, porque es conducido y motriz con el mismo número de dientes."
+    },
+    "strategyRef": "mc.gear-direction",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0019",
+    "subtest": "MC",
+    "topic": "levers",
+    "difficulty": 1,
+    "stem": {
+      "en": "A pair of tweezers, where you squeeze in the middle to pinch something at the tips, is an example of which class of lever?",
+      "es": "Unas pinzas de depilar, donde aprietas en medio para sujetar algo en las puntas, son ejemplo de qué clase de palanca?"
+    },
+    "choices": [
+      {
+        "en": "First class",
+        "es": "Primer género"
+      },
+      {
+        "en": "Third class",
+        "es": "Tercer género"
+      },
+      {
+        "en": "Second class",
+        "es": "Segundo género"
+      },
+      {
+        "en": "It is not a lever",
+        "es": "No es una palanca"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "The fulcrum is the joined end, the effort is in the middle, and the load is at the tips. Effort between fulcrum and load defines a third-class lever, which trades force for control and range.",
+      "es": "El punto de apoyo es el extremo unido, el esfuerzo está en medio y la carga en las puntas. Esfuerzo entre apoyo y carga define una palanca de tercer género, que cambia fuerza por control y alcance."
+    },
+    "trap": {
+      "en": "Pliers are first class (fulcrum in the middle); tweezers look similar but the pivot is at the end.",
+      "es": "Las pinzas comunes son de primer género (apoyo en medio); las de depilar parecen iguales pero el pivote está en el extremo."
+    },
+    "strategyRef": "mc.sketch-lever",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0020",
+    "subtest": "MC",
+    "topic": "levers",
+    "difficulty": 3,
+    "stem": {
+      "en": "Which statement is true of every third-class lever, such as a fishing rod or a human forearm?",
+      "es": "¿Qué afirmación es cierta para toda palanca de tercer género, como una caña de pescar o el antebrazo humano?"
+    },
+    "choices": [
+      {
+        "en": "It multiplies the applied force",
+        "es": "Multiplica la fuerza aplicada"
+      },
+      {
+        "en": "It only changes the direction of the force",
+        "es": "Solo cambia la dirección de la fuerza"
+      },
+      {
+        "en": "The load moves farther and faster than the effort, but more force is needed than the load's weight",
+        "es": "La carga se mueve más lejos y más rápido que el esfuerzo, pero se necesita más fuerza que el peso de la carga"
+      },
+      {
+        "en": "Its mechanical advantage is always exactly 1",
+        "es": "Su ventaja mecánica siempre es exactamente 1"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Because the effort arm is shorter than the load arm, MA is less than 1. The payoff is speed and distance at the load end, which is why a rod tip whips fast.",
+      "es": "Como el brazo de esfuerzo es más corto que el de carga, la VM es menor que 1. La ganancia es velocidad y distancia en el extremo de la carga, por eso la punta de la caña se mueve rápido."
+    },
+    "trap": {
+      "en": "It is tempting to assume every machine multiplies force; class-3 levers multiply distance instead.",
+      "es": "Es tentador suponer que toda máquina multiplica la fuerza; las palancas de tercer género multiplican la distancia."
+    },
+    "strategyRef": "mc.sketch-lever",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0021",
+    "subtest": "MC",
+    "topic": "pulleys",
+    "difficulty": 2,
+    "stem": {
+      "en": "A single fixed pulley is mounted on a ceiling beam and a rope runs over it to lift a bucket. What advantage does this pulley provide?",
+      "es": "Una sola polea fija está montada en una viga del techo y una cuerda pasa por ella para subir una cubeta. ¿Qué ventaja da esta polea?"
+    },
+    "choices": [
+      {
+        "en": "It halves the force needed",
+        "es": "Reduce a la mitad la fuerza necesaria"
+      },
+      {
+        "en": "It doubles the lifting speed",
+        "es": "Duplica la velocidad de elevación"
+      },
+      {
+        "en": "It halves the rope that must be pulled",
+        "es": "Reduce a la mitad la cuerda que hay que jalar"
+      },
+      {
+        "en": "It only changes the direction of the pull, letting you pull down instead of up",
+        "es": "Solo cambia la dirección del jalón, permitiendo jalar hacia abajo en vez de hacia arriba"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Only one rope segment supports the load, so MA = 1: the effort equals the weight. The benefit is convenience, since pulling down uses body weight.",
+      "es": "Solo un tramo de cuerda sostiene la carga, así que VM = 1: el esfuerzo es igual al peso. El beneficio es comodidad, porque jalar hacia abajo aprovecha el peso del cuerpo."
+    },
+    "trap": {
+      "en": "A pulley must move with the load to multiply force; a fixed pulley never does.",
+      "es": "Una polea debe moverse con la carga para multiplicar la fuerza; la fija nunca lo hace."
+    },
+    "strategyRef": "mc.pulley-segments",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0022",
+    "subtest": "MC",
+    "topic": "pulleys",
+    "difficulty": 2,
+    "stem": {
+      "en": "Which pulley arrangement lets you lift a load with the least effort?",
+      "es": "¿Qué arreglo de poleas permite levantar una carga con el menor esfuerzo?"
+    },
+    "choices": [
+      {
+        "en": "A block and tackle in which four rope segments hold the load",
+        "es": "Un aparejo en el que cuatro tramos de cuerda sostienen la carga"
+      },
+      {
+        "en": "A single fixed pulley with a very long rope",
+        "es": "Una sola polea fija con una cuerda muy larga"
+      },
+      {
+        "en": "One fixed pulley of very large diameter",
+        "es": "Una polea fija de diámetro muy grande"
+      },
+      {
+        "en": "A single movable pulley with two rope segments holding the load",
+        "es": "Una sola polea móvil con dos tramos sosteniendo la carga"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "MA equals the count of rope segments supporting the movable block. Four segments give MA 4; two give MA 2; a fixed pulley gives 1 regardless of its diameter or rope length.",
+      "es": "La VM es igual al número de tramos de cuerda que sostienen el bloque móvil. Cuatro tramos dan VM 4; dos dan VM 2; una polea fija da 1 sin importar su diámetro o la longitud de la cuerda."
+    },
+    "trap": {
+      "en": "Pulley diameter and rope length are distractors; they change nothing about the force.",
+      "es": "El diámetro de la polea y el largo de la cuerda son distractores; no cambian nada de la fuerza."
+    },
+    "strategyRef": "mc.pulley-segments",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0023",
+    "subtest": "MC",
+    "topic": "inclined-plane",
+    "difficulty": 1,
+    "stem": {
+      "en": "Two ramps reach the same loading dock height. Ramp A is 3 m long; ramp B is 9 m long. Compared with ramp A, pushing the same crate up ramp B requires:",
+      "es": "Dos rampas llegan a la misma altura de un muelle de carga. La rampa A mide 3 m; la B mide 9 m. Comparado con la A, empujar la misma caja por la rampa B requiere:"
+    },
+    "choices": [
+      {
+        "en": "Less force and less work",
+        "es": "Menos fuerza y menos trabajo"
+      },
+      {
+        "en": "Less force but the same work",
+        "es": "Menos fuerza pero el mismo trabajo"
+      },
+      {
+        "en": "The same force over a longer distance",
+        "es": "La misma fuerza en una distancia mayor"
+      },
+      {
+        "en": "More force because the distance is longer",
+        "es": "Más fuerza porque la distancia es mayor"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "The longer ramp has three times the MA, so one-third the force, but the crate travels three times as far. Force × distance, the work, equals the crate's weight × height either way.",
+      "es": "La rampa larga tiene tres veces la VM, así que un tercio de la fuerza, pero la caja recorre tres veces más. Fuerza × distancia, el trabajo, es igual al peso × altura en ambos casos."
+    },
+    "trap": {
+      "en": "No simple machine reduces work; it only spreads the same work over more distance.",
+      "es": "Ninguna máquina simple reduce el trabajo; solo reparte el mismo trabajo en más distancia."
+    },
+    "strategyRef": "mc.less-effort-not-less-work",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0024",
+    "subtest": "MC",
+    "topic": "wedges",
+    "difficulty": 3,
+    "stem": {
+      "en": "Two steel wedges are the same width at the back. Wedge X is long and thin; wedge Y is short and thick. Which is easier to drive into a log, and why?",
+      "es": "Dos cuñas de acero tienen el mismo ancho en la parte trasera. La cuña X es larga y delgada; la Y es corta y gruesa. ¿Cuál es más fácil de clavar en un tronco y por qué?"
+    },
+    "choices": [
+      {
+        "en": "Y, because a thicker wedge is stronger",
+        "es": "La Y, porque una cuña gruesa es más fuerte"
+      },
+      {
+        "en": "Both the same, because the back width is equal",
+        "es": "Las dos igual, porque el ancho trasero es igual"
+      },
+      {
+        "en": "X, because a longer, thinner wedge has a higher mechanical advantage",
+        "es": "La X, porque una cuña más larga y delgada tiene mayor ventaja mecánica"
+      },
+      {
+        "en": "Y, because it needs fewer hammer blows to seat",
+        "es": "La Y, porque necesita menos golpes para asentarse"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "A wedge is a moving inclined plane: MA = length ÷ thickness. Longer for the same thickness means each blow spreads the log with more force but the wedge must travel farther.",
+      "es": "La cuña es un plano inclinado móvil: VM = longitud ÷ grosor. Más larga para el mismo grosor significa que cada golpe abre el tronco con más fuerza, pero la cuña debe avanzar más."
+    },
+    "trap": {
+      "en": "Fewer blows for Y is the distance trade-off, not the force; each blow on Y needs to be much harder.",
+      "es": "Menos golpes para la Y es el intercambio de distancia, no de fuerza; cada golpe en la Y debe ser mucho más fuerte."
+    },
+    "strategyRef": "mc.less-effort-not-less-work",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0025",
+    "subtest": "MC",
+    "topic": "screws",
+    "difficulty": 2,
+    "stem": {
+      "en": "Two screw jacks have the same handle length. Jack P has fine threads (many threads per inch); jack Q has coarse threads. Which is true?",
+      "es": "Dos gatos de tornillo tienen el mismo largo de manivela. El gato P tiene rosca fina (muchos hilos por pulgada); el Q, rosca gruesa. ¿Qué es cierto?"
+    },
+    "choices": [
+      {
+        "en": "Q lifts with less effort per turn",
+        "es": "El Q levanta con menos esfuerzo por vuelta"
+      },
+      {
+        "en": "They have the same mechanical advantage",
+        "es": "Tienen la misma ventaja mecánica"
+      },
+      {
+        "en": "P raises the load higher on each turn",
+        "es": "El P sube más la carga en cada vuelta"
+      },
+      {
+        "en": "P lifts with less effort but needs more turns for the same height",
+        "es": "El P levanta con menos esfuerzo pero necesita más vueltas para la misma altura"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Screw MA = handle circumference ÷ pitch. Fine threads have a smaller pitch, so each turn raises the load less and multiplies force more.",
+      "es": "VM del tornillo = circunferencia de la manivela ÷ paso. La rosca fina tiene menor paso, así que cada vuelta sube menos la carga y multiplica más la fuerza."
+    },
+    "trap": {
+      "en": "Coarse threads move faster, not easier. Pitch and effort go in the same direction.",
+      "es": "La rosca gruesa avanza más rápido, no más fácil. El paso y el esfuerzo van en la misma dirección."
+    },
+    "strategyRef": "mc.less-effort-not-less-work",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0026",
+    "subtest": "MC",
+    "topic": "hydraulics",
+    "difficulty": 1,
+    "stem": {
+      "en": "Pascal's principle states that pressure applied to a confined fluid is:",
+      "es": "El principio de Pascal dice que la presión aplicada a un fluido confinado:"
+    },
+    "choices": [
+      {
+        "en": "Transmitted equally in all directions throughout the fluid",
+        "es": "Se transmite por igual en todas direcciones en todo el fluido"
+      },
+      {
+        "en": "Greatest at the point where it is applied",
+        "es": "Es mayor en el punto donde se aplica"
+      },
+      {
+        "en": "Lost as the fluid moves through the lines",
+        "es": "Se pierde conforme el fluido avanza por las líneas"
+      },
+      {
+        "en": "Converted into heat",
+        "es": "Se convierte en calor"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Because liquids barely compress, a pressure increase anywhere shows up everywhere at once. This is why brake fluid delivers the same pressure to all four wheels.",
+      "es": "Como los líquidos casi no se comprimen, un aumento de presión en cualquier punto aparece en todos a la vez. Por eso el líquido de frenos lleva la misma presión a las cuatro ruedas."
+    },
+    "trap": {
+      "en": "The force can differ from piston to piston (because area differs), but the pressure is the same.",
+      "es": "La fuerza puede diferir entre pistones (porque el área difiere), pero la presión es la misma."
+    },
+    "strategyRef": "mc.pressure-area",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0027",
+    "subtest": "MC",
+    "topic": "pressure",
+    "difficulty": 2,
+    "stem": {
+      "en": "Why does a freshly sharpened knife cut with less effort than a dull one?",
+      "es": "¿Por qué un cuchillo recién afilado corta con menos esfuerzo que uno desafilado?"
+    },
+    "choices": [
+      {
+        "en": "The sharp blade is heavier",
+        "es": "La hoja afilada pesa más"
+      },
+      {
+        "en": "The same force acts on a much smaller edge area, creating higher pressure",
+        "es": "La misma fuerza actúa en un área de filo mucho menor, creando mayor presión"
+      },
+      {
+        "en": "Sharpening lowers the blade's friction coefficient",
+        "es": "Afilar reduce el coeficiente de fricción de la hoja"
+      },
+      {
+        "en": "The sharp blade stores energy like a spring",
+        "es": "La hoja afilada almacena energía como un resorte"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Pressure = force ÷ area. Shrinking the contact area at the edge multiplies the pressure until it exceeds what the material can resist.",
+      "es": "Presión = fuerza ÷ área. Reducir el área de contacto en el filo multiplica la presión hasta superar lo que el material resiste."
+    },
+    "trap": {
+      "en": "Whenever a question changes only the area, think pressure, not friction or weight.",
+      "es": "Cuando una pregunta solo cambia el área, piensa en presión, no en fricción ni en peso."
+    },
+    "strategyRef": "mc.pressure-area",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0028",
+    "subtest": "MC",
+    "topic": "fluids",
+    "difficulty": 2,
+    "stem": {
+      "en": "A water tank has two identical small holes, one near the top and one near the bottom. Which stream shoots out farther, and why?",
+      "es": "Un tanque de agua tiene dos agujeros pequeños idénticos, uno cerca de la parte superior y otro cerca del fondo. ¿Qué chorro sale más lejos y por qué?"
+    },
+    "choices": [
+      {
+        "en": "The top one, because it is closer to the air",
+        "es": "El de arriba, porque está más cerca del aire"
+      },
+      {
+        "en": "Both the same, because the holes are identical",
+        "es": "Los dos igual, porque los agujeros son idénticos"
+      },
+      {
+        "en": "The bottom one, because pressure increases with depth",
+        "es": "El de abajo, porque la presión aumenta con la profundidad"
+      },
+      {
+        "en": "The bottom one, because water is denser at the bottom",
+        "es": "El de abajo, porque el agua es más densa en el fondo"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "The weight of the water above each hole sets the pressure there. Deeper means more water above, more pressure, and a faster jet.",
+      "es": "El peso del agua sobre cada agujero determina la presión ahí. Más profundo significa más agua encima, más presión y un chorro más rápido."
+    },
+    "trap": {
+      "en": "Water density is essentially constant; the correct reason is depth, not density.",
+      "es": "La densidad del agua es prácticamente constante; la razón correcta es la profundidad, no la densidad."
+    },
+    "strategyRef": "mc.pressure-area",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0029",
+    "subtest": "MC",
+    "topic": "work-power-energy",
+    "difficulty": 3,
+    "stem": {
+      "en": "A pendulum is released from one side. Ignoring air resistance, at which point is its kinetic energy greatest?",
+      "es": "Se suelta un péndulo desde un lado. Sin resistencia del aire, ¿en qué punto es mayor su energía cinética?"
+    },
+    "choices": [
+      {
+        "en": "At the release point",
+        "es": "En el punto de liberación"
+      },
+      {
+        "en": "At the highest point on the far side",
+        "es": "En el punto más alto del lado opuesto"
+      },
+      {
+        "en": "Halfway down on either side",
+        "es": "A la mitad de la bajada en cualquier lado"
+      },
+      {
+        "en": "At the bottom of the swing",
+        "es": "En el punto más bajo de la oscilación"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Energy is conserved: potential energy is highest at the top (zero speed) and converts fully to kinetic energy at the lowest point, where speed is maximum.",
+      "es": "La energía se conserva: la potencial es máxima arriba (velocidad cero) y se convierte por completo en cinética en el punto más bajo, donde la velocidad es máxima."
+    },
+    "trap": {
+      "en": "At either high point the bob stops momentarily, so kinetic energy is zero there, not maximum.",
+      "es": "En cualquier punto alto la masa se detiene un instante, así que la energía cinética es cero ahí, no máxima."
+    },
+    "strategyRef": "mc.less-effort-not-less-work",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0030",
+    "subtest": "MC",
+    "topic": "friction",
+    "difficulty": 2,
+    "stem": {
+      "en": "It takes 60 N to start a heavy box sliding across a floor but only 45 N to keep it sliding at steady speed. This shows that:",
+      "es": "Se necesitan 60 N para que una caja pesada empiece a deslizarse sobre el piso, pero solo 45 N para mantenerla deslizándose a velocidad constante. Esto muestra que:"
+    },
+    "choices": [
+      {
+        "en": "Static friction is greater than kinetic (sliding) friction",
+        "es": "La fricción estática es mayor que la cinética (de deslizamiento)"
+      },
+      {
+        "en": "The box gets lighter once it moves",
+        "es": "La caja se vuelve más ligera al moverse"
+      },
+      {
+        "en": "Kinetic friction is greater than static friction",
+        "es": "La fricción cinética es mayor que la estática"
+      },
+      {
+        "en": "Friction disappears once an object is moving",
+        "es": "La fricción desaparece cuando el objeto se mueve"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Surfaces at rest settle into each other, so breaking them loose takes more force than keeping them sliding. The 45 N exactly balances kinetic friction at constant speed.",
+      "es": "Las superficies en reposo se asientan una en otra, así que despegarlas requiere más fuerza que mantenerlas deslizando. Los 45 N equilibran exactamente la fricción cinética a velocidad constante."
+    },
+    "trap": {
+      "en": "Friction is reduced while sliding, not gone; if it vanished, no force would be needed to keep steady speed.",
+      "es": "La fricción se reduce al deslizar, no desaparece; si desapareciera no haría falta fuerza para mantener la velocidad."
+    },
+    "strategyRef": "mc.stability",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0031",
+    "subtest": "MC",
+    "topic": "friction",
+    "difficulty": 3,
+    "stem": {
+      "en": "A brick is dragged across a table lying flat, then dragged again standing on its narrow end. Ignoring small differences, the sliding friction force is:",
+      "es": "Un ladrillo se arrastra sobre una mesa acostado, y luego se arrastra de nuevo parado sobre su extremo angosto. Ignorando diferencias menores, la fuerza de fricción de deslizamiento es:"
+    },
+    "choices": [
+      {
+        "en": "Greater when flat, because more surface touches the table",
+        "es": "Mayor acostado, porque toca más superficie"
+      },
+      {
+        "en": "About the same, because friction depends on the normal force and the materials, not the contact area",
+        "es": "Casi igual, porque la fricción depende de la fuerza normal y los materiales, no del área de contacto"
+      },
+      {
+        "en": "Greater on end, because pressure is higher",
+        "es": "Mayor parado, porque la presión es mayor"
+      },
+      {
+        "en": "Zero on end, because the area is so small",
+        "es": "Cero parado, porque el área es muy pequeña"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Friction = coefficient × normal force. The brick's weight and the surfaces are unchanged, so friction is unchanged. Smaller area raises pressure, which offsets the reduced area.",
+      "es": "Fricción = coeficiente × fuerza normal. El peso del ladrillo y las superficies no cambian, así que la fricción no cambia. Menor área sube la presión, lo que compensa el área reducida."
+    },
+    "trap": {
+      "en": "Area changes pressure, not friction. Keep the two ideas separate.",
+      "es": "El área cambia la presión, no la fricción. Mantén separadas las dos ideas."
+    },
+    "strategyRef": "mc.pressure-area",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0032",
+    "subtest": "MC",
+    "topic": "stability",
+    "difficulty": 1,
+    "stem": {
+      "en": "Which change makes a floor lamp less likely to tip over?",
+      "es": "¿Qué cambio hace que una lámpara de pie tenga menos probabilidad de volcarse?"
+    },
+    "choices": [
+      {
+        "en": "Using a taller, thinner pole",
+        "es": "Usar un poste más alto y delgado"
+      },
+      {
+        "en": "Adding weight to the top",
+        "es": "Agregar peso en la parte superior"
+      },
+      {
+        "en": "Making the base wider and heavier",
+        "es": "Hacer la base más ancha y pesada"
+      },
+      {
+        "en": "Placing it on a thick carpet",
+        "es": "Ponerla sobre una alfombra gruesa"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Stability improves with a lower center of gravity and a wider base, because the object must be tilted farther before its center of gravity passes outside the base.",
+      "es": "La estabilidad mejora con un centro de gravedad más bajo y una base más ancha, porque el objeto debe inclinarse más antes de que su centro de gravedad salga de la base."
+    },
+    "trap": {
+      "en": "Weight helps only when it is low; weight at the top raises the center of gravity and makes tipping easier.",
+      "es": "El peso ayuda solo si está abajo; peso arriba sube el centro de gravedad y facilita el vuelco."
+    },
+    "strategyRef": "mc.stability",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0033",
+    "subtest": "MC",
+    "topic": "stability",
+    "difficulty": 3,
+    "stem": {
+      "en": "A tall crate is slowly tilted on one bottom edge. At what moment will it fall over instead of settling back?",
+      "es": "Una caja alta se inclina despacio sobre un borde inferior. ¿En qué momento se vuelca en vez de regresar?"
+    },
+    "choices": [
+      {
+        "en": "When it is tilted more than 45 degrees",
+        "es": "Cuando se inclina más de 45 grados"
+      },
+      {
+        "en": "As soon as the opposite edge leaves the floor",
+        "es": "En cuanto el borde opuesto se despega del piso"
+      },
+      {
+        "en": "When its top is higher than its width",
+        "es": "Cuando su parte superior es más alta que su ancho"
+      },
+      {
+        "en": "When the vertical line through its center of gravity passes beyond the edge it is pivoting on",
+        "es": "Cuando la línea vertical por su centro de gravedad pasa más allá del borde sobre el que pivota"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Gravity acts through the center of gravity. While that line still lands inside the base (the pivot edge), gravity's torque rights the crate; once it crosses outside, the torque flips it over.",
+      "es": "La gravedad actúa por el centro de gravedad. Mientras esa línea caiga dentro de la base (el borde de pivote), el par de la gravedad endereza la caja; cuando cruza afuera, el par la voltea."
+    },
+    "trap": {
+      "en": "45 degrees is a guess that only works for a cube; the real rule depends on the shape and the height of the center of gravity.",
+      "es": "45 grados es una suposición que solo funciona para un cubo; la regla real depende de la forma y de la altura del centro de gravedad."
+    },
+    "strategyRef": "mc.stability",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0034",
+    "subtest": "MC",
+    "topic": "springs",
+    "difficulty": 2,
+    "stem": {
+      "en": "A spring stretches 2 cm when a 10 N weight is hung from it. If the weight is replaced with 30 N (within the spring's limit), how far will it stretch?",
+      "es": "Un resorte se estira 2 cm cuando se le cuelga un peso de 10 N. Si el peso se cambia por 30 N (dentro del límite del resorte), ¿cuánto se estirará?"
+    },
+    "choices": [
+      {
+        "en": "6 cm",
+        "es": "6 cm"
+      },
+      {
+        "en": "4 cm",
+        "es": "4 cm"
+      },
+      {
+        "en": "2 cm",
+        "es": "2 cm"
+      },
+      {
+        "en": "18 cm",
+        "es": "18 cm"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Hooke's law: stretch is proportional to force. Three times the force gives three times the stretch: 3 × 2 = 6 cm. The spring constant is 10 ÷ 2 = 5 N/cm.",
+      "es": "Ley de Hooke: el estiramiento es proporcional a la fuerza. Tres veces la fuerza da tres veces el estiramiento: 3 × 2 = 6 cm. La constante del resorte es 10 ÷ 2 = 5 N/cm."
+    },
+    "trap": {
+      "en": "4 cm adds 2 cm per extra weight instead of scaling; 18 cm squares the ratio.",
+      "es": "4 cm suma 2 cm por cada peso extra en vez de escalar; 18 cm eleva la razón al cuadrado."
+    },
+    "strategyRef": "mc.less-effort-not-less-work",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0035",
+    "subtest": "MC",
+    "topic": "torque",
+    "difficulty": 2,
+    "stem": {
+      "en": "A mechanic cannot loosen a stuck nut with a short wrench. Slipping a length of pipe over the handle helps because it:",
+      "es": "Un mecánico no puede aflojar una tuerca atorada con una llave corta. Meter un tubo sobre el mango ayuda porque:"
+    },
+    "choices": [
+      {
+        "en": "Reduces friction in the threads",
+        "es": "Reduce la fricción en la rosca"
+      },
+      {
+        "en": "Increases the lever arm, so the same hand force produces more torque",
+        "es": "Aumenta el brazo de palanca, así la misma fuerza de la mano produce más par"
+      },
+      {
+        "en": "Makes the wrench heavier, adding force",
+        "es": "Hace la llave más pesada y agrega fuerza"
+      },
+      {
+        "en": "Lets the mechanic push faster",
+        "es": "Permite al mecánico empujar más rápido"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Torque = force × distance from the pivot. Doubling the handle length doubles the torque for the same push. The trade-off is that the hand must travel farther.",
+      "es": "Par = fuerza × distancia al pivote. Duplicar el largo del mango duplica el par para el mismo empuje. El intercambio es que la mano debe recorrer más."
+    },
+    "trap": {
+      "en": "Friction in the threads is unchanged; the pipe attacks the problem with more torque, not less resistance.",
+      "es": "La fricción de la rosca no cambia; el tubo ataca el problema con más par, no con menos resistencia."
+    },
+    "strategyRef": "mc.sketch-lever",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0036",
+    "subtest": "MC",
+    "topic": "fluids",
+    "difficulty": 2,
+    "stem": {
+      "en": "Water flows steadily through a pipe that narrows from a wide section to a narrow section. In the narrow section the water:",
+      "es": "El agua fluye de forma constante por una tubería que se estrecha de una sección ancha a una angosta. En la sección angosta el agua:"
+    },
+    "choices": [
+      {
+        "en": "Slows down because it is squeezed",
+        "es": "Se frena porque se comprime"
+      },
+      {
+        "en": "Stops until pressure builds up",
+        "es": "Se detiene hasta que sube la presión"
+      },
+      {
+        "en": "Speeds up so the same volume passes each second",
+        "es": "Se acelera para que pase el mismo volumen cada segundo"
+      },
+      {
+        "en": "Flows at the same speed but at higher pressure",
+        "es": "Fluye a la misma velocidad pero con mayor presión"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Water is nearly incompressible, so the volume per second is constant along the pipe. A smaller cross-section forces higher speed, like a thumb over a garden hose. Pressure actually drops in the fast, narrow section.",
+      "es": "El agua es casi incompresible, así que el volumen por segundo es constante a lo largo del tubo. Una sección menor obliga a mayor velocidad, como un pulgar sobre una manguera. La presión de hecho baja en la sección angosta y rápida."
+    },
+    "trap": {
+      "en": "Intuition says a squeeze slows things down; for a continuous flow, a squeeze speeds it up.",
+      "es": "La intuición dice que apretar frena; en un flujo continuo, apretar acelera."
+    },
+    "strategyRef": "mc.pressure-area",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0037",
+    "subtest": "MC",
+    "topic": "buoyancy",
+    "difficulty": 2,
+    "stem": {
+      "en": "A solid steel ball sinks, yet a steel ship floats. Why does the ship float?",
+      "es": "Una bola de acero sólida se hunde, pero un barco de acero flota. ¿Por qué flota el barco?"
+    },
+    "choices": [
+      {
+        "en": "Ship steel is treated to be lighter than water",
+        "es": "El acero naval se trata para ser más ligero que el agua"
+      },
+      {
+        "en": "Salt water pushes harder on large objects",
+        "es": "El agua salada empuja más fuerte a los objetos grandes"
+      },
+      {
+        "en": "The engines constantly push the ship upward",
+        "es": "Los motores empujan el barco hacia arriba constantemente"
+      },
+      {
+        "en": "The hollow hull displaces a volume of water whose weight equals the ship's weight",
+        "es": "El casco hueco desplaza un volumen de agua cuyo peso es igual al del barco"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Archimedes: buoyant force equals the weight of the displaced water. The hull's air-filled shape makes the ship's average density less than water, so it sinks only until enough water is displaced.",
+      "es": "Arquímedes: la fuerza de flotación es igual al peso del agua desplazada. La forma hueca llena de aire hace que la densidad promedio del barco sea menor que la del agua, así que se hunde solo hasta desplazar suficiente agua."
+    },
+    "trap": {
+      "en": "The material is the same steel; shape and average density are what change.",
+      "es": "El material es el mismo acero; lo que cambia es la forma y la densidad promedio."
+    },
+    "strategyRef": "mc.pressure-area",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0038",
+    "subtest": "MC",
+    "topic": "heat-expansion",
+    "difficulty": 1,
+    "stem": {
+      "en": "Why are small gaps left between sections of railroad track and bridge decking?",
+      "es": "¿Por qué se dejan pequeños espacios entre secciones de vía de tren y de tableros de puentes?"
+    },
+    "choices": [
+      {
+        "en": "To allow the metal to expand in hot weather without buckling",
+        "es": "Para que el metal se expanda en clima caliente sin pandearse"
+      },
+      {
+        "en": "To let rainwater drain",
+        "es": "Para que drene el agua de lluvia"
+      },
+      {
+        "en": "To reduce the weight of the structure",
+        "es": "Para reducir el peso de la estructura"
+      },
+      {
+        "en": "To make the sections easier to replace",
+        "es": "Para facilitar el reemplazo de secciones"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Most materials grow in length when heated. Without expansion joints, summer heat would push the sections against each other and warp them.",
+      "es": "La mayoría de los materiales se alargan al calentarse. Sin juntas de expansión, el calor del verano empujaría las secciones entre sí y las deformaría."
+    },
+    "trap": {
+      "en": "Drainage and replacement are side benefits at best; thermal expansion is the engineering reason.",
+      "es": "El drenaje y el reemplazo son beneficios secundarios a lo mucho; la expansión térmica es la razón de ingeniería."
+    },
+    "strategyRef": "mc.stability",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0039",
+    "subtest": "MC",
+    "topic": "heat-expansion",
+    "difficulty": 3,
+    "stem": {
+      "en": "Running hot water over the metal lid of a glass jar makes the lid easier to unscrew. The best explanation is that:",
+      "es": "Dejar correr agua caliente sobre la tapa metálica de un frasco de vidrio facilita desenroscarla. La mejor explicación es que:"
+    },
+    "choices": [
+      {
+        "en": "The heat softens the seal so it stops gripping",
+        "es": "El calor ablanda el sello y deja de agarrar"
+      },
+      {
+        "en": "The metal lid expands more than the glass, loosening the fit",
+        "es": "La tapa metálica se expande más que el vidrio y afloja el ajuste"
+      },
+      {
+        "en": "The glass shrinks when heated",
+        "es": "El vidrio se encoge al calentarse"
+      },
+      {
+        "en": "Hot water lubricates the threads",
+        "es": "El agua caliente lubrica la rosca"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Metals expand more per degree than glass, and the lid heats faster since it is outside and thin. The lid grows slightly larger than the glass mouth, freeing the threads.",
+      "es": "Los metales se expanden más por grado que el vidrio, y la tapa se calienta más rápido porque está afuera y es delgada. La tapa crece un poco más que la boca del frasco y libera la rosca."
+    },
+    "trap": {
+      "en": "Glass expands too, just less; it does not shrink. The difference in expansion is the key.",
+      "es": "El vidrio también se expande, solo que menos; no se encoge. La diferencia de expansión es la clave."
+    },
+    "strategyRef": "mc.stability",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0040",
+    "subtest": "MC",
+    "topic": "structures",
+    "difficulty": 2,
+    "stem": {
+      "en": "Two identical wooden planks each span the same gap between two sawhorses. One lies flat; the other stands on its narrow edge. With the same weight placed in the middle, which plank bends less?",
+      "es": "Dos tablas de madera idénticas cruzan el mismo espacio entre dos caballetes. Una está acostada; la otra parada sobre su borde angosto. Con el mismo peso en el centro, ¿qué tabla se flexiona menos?"
+    },
+    "choices": [
+      {
+        "en": "The flat plank, because more wood touches the sawhorses",
+        "es": "La acostada, porque más madera toca los caballetes"
+      },
+      {
+        "en": "Both bend the same, because they are the same plank",
+        "es": "Las dos igual, porque son la misma tabla"
+      },
+      {
+        "en": "The plank on edge, because its depth in the direction of the load is greater",
+        "es": "La parada, porque su altura en la dirección de la carga es mayor"
+      },
+      {
+        "en": "It depends on the weight; heavier loads favor the flat plank",
+        "es": "Depende del peso; cargas mayores favorecen la acostada"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "A beam's stiffness grows sharply with its depth in the direction of bending. That is why floor joists and I-beams are installed tall and narrow, not flat.",
+      "es": "La rigidez de una viga crece mucho con su altura en la dirección de la flexión. Por eso las vigas de piso y los perfiles I se instalan altos y angostos, no acostados."
+    },
+    "trap": {
+      "en": "Contact area at the supports has nothing to do with bending in the middle.",
+      "es": "El área de contacto en los apoyos no tiene nada que ver con la flexión en el centro."
+    },
+    "strategyRef": "mc.stability",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0041",
+    "subtest": "MC",
+    "topic": "springs",
+    "difficulty": 3,
+    "stem": {
+      "en": "One spring stretches 8 cm under a certain weight. If two identical springs are hung side by side (in parallel) and share that same weight, how far does each stretch?",
+      "es": "Un resorte se estira 8 cm bajo cierto peso. Si dos resortes idénticos se cuelgan lado a lado (en paralelo) y comparten ese mismo peso, ¿cuánto se estira cada uno?"
+    },
+    "choices": [
+      {
+        "en": "16 cm",
+        "es": "16 cm"
+      },
+      {
+        "en": "8 cm",
+        "es": "8 cm"
+      },
+      {
+        "en": "2 cm",
+        "es": "2 cm"
+      },
+      {
+        "en": "4 cm",
+        "es": "4 cm"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "In parallel, each spring carries half the load, so by Hooke's law each stretches half as much: 4 cm. Parallel springs act stiffer; springs in series (end to end) act softer and would stretch 16 cm total.",
+      "es": "En paralelo, cada resorte carga la mitad del peso, así que por la ley de Hooke cada uno se estira la mitad: 4 cm. Los resortes en paralelo actúan más rígidos; en serie (uno tras otro) actúan más blandos y se estirarían 16 cm en total."
+    },
+    "trap": {
+      "en": "16 cm is the series case; 8 cm forgets that the load is shared.",
+      "es": "16 cm es el caso en serie; 8 cm olvida que la carga se comparte."
+    },
+    "strategyRef": "mc.less-effort-not-less-work",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0042",
+    "subtest": "MC",
+    "topic": "force-mass-acceleration",
+    "difficulty": 1,
+    "stem": {
+      "en": "A 4 kg cart on a smooth floor is pushed with a net force of 12 N. What is its acceleration?",
+      "es": "Un carrito de 4 kg sobre un piso liso se empuja con una fuerza neta de 12 N. ¿Cuál es su aceleración?"
+    },
+    "choices": [
+      {
+        "en": "3 m/s²",
+        "es": "3 m/s²"
+      },
+      {
+        "en": "48 m/s²",
+        "es": "48 m/s²"
+      },
+      {
+        "en": "0.33 m/s²",
+        "es": "0.33 m/s²"
+      },
+      {
+        "en": "8 m/s²",
+        "es": "8 m/s²"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Newton's second law: a = F ÷ m = 12 ÷ 4 = 3 m/s².",
+      "es": "Segunda ley de Newton: a = F ÷ m = 12 ÷ 4 = 3 m/s²."
+    },
+    "trap": {
+      "en": "48 comes from multiplying force by mass; 0.33 from dividing the wrong way (m ÷ F).",
+      "es": "48 sale de multiplicar fuerza por masa; 0.33 de dividir al revés (m ÷ F)."
+    },
+    "strategyRef": "mc.stability",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0043",
+    "subtest": "MC",
+    "topic": "force-mass-acceleration",
+    "difficulty": 2,
+    "stem": {
+      "en": "The same net force is applied to two sleds on ice. Sled 2 has twice the mass of sled 1. Compared with sled 1, sled 2 will accelerate at:",
+      "es": "Se aplica la misma fuerza neta a dos trineos sobre hielo. El trineo 2 tiene el doble de masa que el trineo 1. Comparado con el trineo 1, el trineo 2 acelerará a:"
+    },
+    "choices": [
+      {
+        "en": "twice the rate",
+        "es": "el doble"
+      },
+      {
+        "en": "half the rate",
+        "es": "la mitad"
+      },
+      {
+        "en": "the same rate",
+        "es": "la misma tasa"
+      },
+      {
+        "en": "one quarter the rate",
+        "es": "un cuarto"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "With F fixed, a = F ÷ m, so doubling the mass halves the acceleration.",
+      "es": "Con F fija, a = F ÷ m, así que duplicar la masa reduce la aceleración a la mitad."
+    },
+    "trap": {
+      "en": "\"Twice\" reverses the relationship; \"the same\" forgets that mass resists acceleration.",
+      "es": "\"El doble\" invierte la relación; \"la misma\" olvida que la masa resiste la aceleración."
+    },
+    "strategyRef": "mc.stability",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0044",
+    "subtest": "MC",
+    "topic": "force-mass-acceleration",
+    "difficulty": 1,
+    "stem": {
+      "en": "A hockey puck slides across frictionless ice in a straight line at a constant 5 m/s. What is the net force acting on the puck?",
+      "es": "Un disco de hockey se desliza en línea recta sobre hielo sin fricción a 5 m/s constantes. ¿Cuál es la fuerza neta que actúa sobre el disco?"
+    },
+    "choices": [
+      {
+        "en": "A forward force equal to its weight",
+        "es": "Una fuerza hacia adelante igual a su peso"
+      },
+      {
+        "en": "A small forward force to keep it moving",
+        "es": "Una pequeña fuerza hacia adelante para mantenerlo en movimiento"
+      },
+      {
+        "en": "Zero",
+        "es": "Cero"
+      },
+      {
+        "en": "A backward force equal to its weight",
+        "es": "Una fuerza hacia atrás igual a su peso"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Constant velocity means zero acceleration, so by Newton's first law the net force is zero. Weight and the ice's upward push cancel; nothing pushes it forward or back.",
+      "es": "Velocidad constante significa aceleración cero, así que por la primera ley de Newton la fuerza neta es cero. El peso y el empuje del hielo hacia arriba se cancelan; nada lo empuja hacia adelante ni hacia atrás."
+    },
+    "trap": {
+      "en": "The classic trap is believing motion needs a continuous push. Only a change in motion needs a net force.",
+      "es": "La trampa clásica es creer que el movimiento necesita un empuje continuo. Solo un cambio de movimiento requiere fuerza neta."
+    },
+    "strategyRef": "mc.stability",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0045",
+    "subtest": "MC",
+    "topic": "force-mass-acceleration",
+    "difficulty": 3,
+    "stem": {
+      "en": "A 1,500 kg car speeds up from rest to 20 m/s in 10 s on a level road. What average net force produced this change?",
+      "es": "Un auto de 1,500 kg pasa del reposo a 20 m/s en 10 s en una carretera plana. ¿Qué fuerza neta promedio produjo este cambio?"
+    },
+    "choices": [
+      {
+        "en": "30,000 N",
+        "es": "30,000 N"
+      },
+      {
+        "en": "150 N",
+        "es": "150 N"
+      },
+      {
+        "en": "750 N",
+        "es": "750 N"
+      },
+      {
+        "en": "3,000 N",
+        "es": "3,000 N"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "First find acceleration: a = Δv ÷ t = 20 ÷ 10 = 2 m/s². Then F = m × a = 1,500 × 2 = 3,000 N.",
+      "es": "Primero la aceleración: a = Δv ÷ t = 20 ÷ 10 = 2 m/s². Luego F = m × a = 1,500 × 2 = 3,000 N."
+    },
+    "trap": {
+      "en": "30,000 N uses the speed (20) instead of the acceleration (2); 150 N divides mass by time.",
+      "es": "30,000 N usa la velocidad (20) en vez de la aceleración (2); 150 N divide la masa entre el tiempo."
+    },
+    "strategyRef": "mc.stability",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0046",
+    "subtest": "MC",
+    "topic": "gravity-weight",
+    "difficulty": 1,
+    "stem": {
+      "en": "A 2 kg steel ball and a 0.5 kg steel ball are released at the same instant from the same height. Ignoring air resistance, which hits the ground first?",
+      "es": "Una bola de acero de 2 kg y otra de 0.5 kg se sueltan en el mismo instante desde la misma altura. Ignorando la resistencia del aire, ¿cuál llega primero al suelo?"
+    },
+    "choices": [
+      {
+        "en": "They land at the same time",
+        "es": "Llegan al mismo tiempo"
+      },
+      {
+        "en": "The 2 kg ball, by a wide margin",
+        "es": "La bola de 2 kg, por mucho"
+      },
+      {
+        "en": "The 0.5 kg ball, because it is lighter",
+        "es": "La bola de 0.5 kg, porque es más ligera"
+      },
+      {
+        "en": "The 2 kg ball, but only slightly",
+        "es": "La bola de 2 kg, pero solo un poco"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "In free fall every object accelerates at g (about 9.8 m/s²) regardless of mass. The heavier ball feels more gravity, but it also has more inertia, and the two effects cancel exactly.",
+      "es": "En caída libre todo objeto acelera a g (unos 9.8 m/s²) sin importar su masa. La bola más pesada siente más gravedad, pero también tiene más inercia, y ambos efectos se cancelan exactamente."
+    },
+    "trap": {
+      "en": "\"Heavier falls faster\" is the everyday intuition; it is only true when air resistance matters.",
+      "es": "\"Lo más pesado cae más rápido\" es la intuición cotidiana; solo es cierto cuando importa la resistencia del aire."
+    },
+    "strategyRef": "mc.stability",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0047",
+    "subtest": "MC",
+    "topic": "gravity-weight",
+    "difficulty": 2,
+    "stem": {
+      "en": "A toolbox has a mass of 12 kg on Earth. It is taken to the Moon, where gravity is about one sixth of Earth's. What is its mass on the Moon?",
+      "es": "Una caja de herramientas tiene una masa de 12 kg en la Tierra. Se lleva a la Luna, donde la gravedad es aproximadamente un sexto de la terrestre. ¿Cuál es su masa en la Luna?"
+    },
+    "choices": [
+      {
+        "en": "2 kg",
+        "es": "2 kg"
+      },
+      {
+        "en": "12 kg",
+        "es": "12 kg"
+      },
+      {
+        "en": "72 kg",
+        "es": "72 kg"
+      },
+      {
+        "en": "0 kg",
+        "es": "0 kg"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Mass is the amount of matter and does not change with location. Its weight (the pull of gravity) would drop to one sixth, but its mass stays 12 kg.",
+      "es": "La masa es la cantidad de materia y no cambia con el lugar. Su peso (la atracción de la gravedad) bajaría a un sexto, pero su masa sigue siendo 12 kg."
+    },
+    "trap": {
+      "en": "2 kg confuses mass with weight. The question asks for mass, not weight.",
+      "es": "2 kg confunde masa con peso. La pregunta pide masa, no peso."
+    },
+    "strategyRef": "mc.stability",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0048",
+    "subtest": "MC",
+    "topic": "gravity-weight",
+    "difficulty": 3,
+    "stem": {
+      "en": "A wrench is dropped from rest off a tower. Using g = 10 m/s² and ignoring air resistance, how far has it fallen after 3 seconds?",
+      "es": "Una llave se deja caer desde el reposo desde una torre. Usando g = 10 m/s² e ignorando la resistencia del aire, ¿qué distancia ha caído después de 3 segundos?"
+    },
+    "choices": [
+      {
+        "en": "30 m",
+        "es": "30 m"
+      },
+      {
+        "en": "90 m",
+        "es": "90 m"
+      },
+      {
+        "en": "45 m",
+        "es": "45 m"
+      },
+      {
+        "en": "15 m",
+        "es": "15 m"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Distance from rest = ½ × g × t² = ½ × 10 × 3² = ½ × 10 × 9 = 45 m. (Its speed at that moment is 30 m/s, not its distance.)",
+      "es": "Distancia desde el reposo = ½ × g × t² = ½ × 10 × 3² = ½ × 10 × 9 = 45 m. (Su velocidad en ese momento es 30 m/s, no su distancia.)"
+    },
+    "trap": {
+      "en": "30 is the speed (g × t) mistaken for distance; 90 forgets the ½.",
+      "es": "30 es la velocidad (g × t) confundida con distancia; 90 olvida el ½."
+    },
+    "strategyRef": "mc.stability",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0049",
+    "subtest": "MC",
+    "topic": "mechanical-advantage",
+    "difficulty": 1,
+    "stem": {
+      "en": "A worker lifts a 400 N engine block using a hoist while pulling with only 80 N. What is the mechanical advantage of the hoist?",
+      "es": "Un trabajador levanta un bloque de motor de 400 N con un aparejo jalando con solo 80 N. ¿Cuál es la ventaja mecánica del aparejo?"
+    },
+    "choices": [
+      {
+        "en": "0.2",
+        "es": "0.2"
+      },
+      {
+        "en": "320",
+        "es": "320"
+      },
+      {
+        "en": "480",
+        "es": "480"
+      },
+      {
+        "en": "5",
+        "es": "5"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Mechanical advantage = load ÷ effort = 400 ÷ 80 = 5. The machine multiplies the worker's force five times.",
+      "es": "Ventaja mecánica = carga ÷ esfuerzo = 400 ÷ 80 = 5. La máquina multiplica cinco veces la fuerza del trabajador."
+    },
+    "trap": {
+      "en": "0.2 divides effort by load (upside down); 320 and 480 subtract or add instead of dividing.",
+      "es": "0.2 divide esfuerzo entre carga (al revés); 320 y 480 restan o suman en vez de dividir."
+    },
+    "strategyRef": "mc.less-effort-not-less-work",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0050",
+    "subtest": "MC",
+    "topic": "mechanical-advantage",
+    "difficulty": 2,
+    "stem": {
+      "en": "An ideal machine has a mechanical advantage of 4. To raise a load 1 m, how far must the effort end move?",
+      "es": "Una máquina ideal tiene una ventaja mecánica de 4. Para subir una carga 1 m, ¿qué distancia debe moverse el extremo del esfuerzo?"
+    },
+    "choices": [
+      {
+        "en": "4 m",
+        "es": "4 m"
+      },
+      {
+        "en": "0.25 m",
+        "es": "0.25 m"
+      },
+      {
+        "en": "1 m",
+        "es": "1 m"
+      },
+      {
+        "en": "2 m",
+        "es": "2 m"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "A machine trades distance for force. With MA = 4 the effort is one quarter of the load, so the effort must travel four times as far: 4 m. Work in (¼F × 4 m) equals work out (F × 1 m).",
+      "es": "Una máquina cambia distancia por fuerza. Con VM = 4 el esfuerzo es un cuarto de la carga, así que el esfuerzo debe recorrer cuatro veces más: 4 m. El trabajo de entrada (¼F × 4 m) es igual al de salida (F × 1 m)."
+    },
+    "trap": {
+      "en": "0.25 m reverses the trade-off; 1 m forgets that less effort must mean more distance.",
+      "es": "0.25 m invierte el intercambio; 1 m olvida que menos esfuerzo implica más distancia."
+    },
+    "strategyRef": "mc.less-effort-not-less-work",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0051",
+    "subtest": "MC",
+    "topic": "mechanical-advantage",
+    "difficulty": 3,
+    "stem": {
+      "en": "A winch receives 500 J of work from its operator and delivers 400 J of useful work to the load. What is its efficiency?",
+      "es": "Un malacate recibe 500 J de trabajo de su operador y entrega 400 J de trabajo útil a la carga. ¿Cuál es su eficiencia?"
+    },
+    "choices": [
+      {
+        "en": "125%",
+        "es": "125%"
+      },
+      {
+        "en": "80%",
+        "es": "80%"
+      },
+      {
+        "en": "20%",
+        "es": "20%"
+      },
+      {
+        "en": "90%",
+        "es": "90%"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Efficiency = work output ÷ work input = 400 ÷ 500 = 0.8 = 80%. The missing 100 J was lost to friction and heat.",
+      "es": "Eficiencia = trabajo de salida ÷ trabajo de entrada = 400 ÷ 500 = 0.8 = 80%. Los 100 J que faltan se perdieron en fricción y calor."
+    },
+    "trap": {
+      "en": "125% divides the wrong way (input ÷ output); no real machine exceeds 100%. 20% is the loss, not the efficiency.",
+      "es": "125% divide al revés (entrada ÷ salida); ninguna máquina real supera el 100%. 20% es la pérdida, no la eficiencia."
+    },
+    "strategyRef": "mc.less-effort-not-less-work",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0052",
+    "subtest": "MC",
+    "topic": "mechanical-advantage",
+    "difficulty": 2,
+    "stem": {
+      "en": "Measured by its arm lengths, a lever should give a mechanical advantage of 6, but when tested it only multiplies force by 5. What best explains the difference?",
+      "es": "Medida por sus brazos, una palanca debería dar una ventaja mecánica de 6, pero al probarla solo multiplica la fuerza por 5. ¿Qué explica mejor la diferencia?"
+    },
+    "choices": [
+      {
+        "en": "The load was heavier than expected",
+        "es": "La carga era más pesada de lo esperado"
+      },
+      {
+        "en": "The lever was used upside down",
+        "es": "La palanca se usó al revés"
+      },
+      {
+        "en": "Friction at the fulcrum and the lever's own weight waste part of the effort",
+        "es": "La fricción en el punto de apoyo y el peso de la propia palanca desperdician parte del esfuerzo"
+      },
+      {
+        "en": "Mechanical advantage cannot be measured on a lever",
+        "es": "La ventaja mecánica no se puede medir en una palanca"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "The ideal MA (6) comes from geometry alone. The actual MA (5) is always lower because friction and the machine's own weight absorb some of the effort. Efficiency here is 5 ÷ 6 ≈ 83%.",
+      "es": "La VM ideal (6) proviene solo de la geometría. La VM real (5) siempre es menor porque la fricción y el peso de la máquina absorben parte del esfuerzo. La eficiencia aquí es 5 ÷ 6 ≈ 83%."
+    },
+    "trap": {
+      "en": "A heavier load changes the effort needed, not the ratio; the ratio drops only because of losses.",
+      "es": "Una carga más pesada cambia el esfuerzo necesario, no la razón; la razón baja solo por las pérdidas."
+    },
+    "strategyRef": "mc.less-effort-not-less-work",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0053",
+    "subtest": "MC",
+    "topic": "mechanical-advantage",
+    "difficulty": 3,
+    "stem": {
+      "en": "A ramp is 6 m long and rises 1.5 m. Pushing a 480 N crate up it actually requires 150 N of effort. What is the efficiency of the ramp?",
+      "es": "Una rampa mide 6 m de largo y sube 1.5 m. Empujar una caja de 480 N por ella requiere en realidad 150 N de esfuerzo. ¿Cuál es la eficiencia de la rampa?"
+    },
+    "choices": [
+      {
+        "en": "125%",
+        "es": "125%"
+      },
+      {
+        "en": "32%",
+        "es": "32%"
+      },
+      {
+        "en": "100%",
+        "es": "100%"
+      },
+      {
+        "en": "80%",
+        "es": "80%"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Ideal MA = length ÷ height = 6 ÷ 1.5 = 4. Actual MA = load ÷ effort = 480 ÷ 150 = 3.2. Efficiency = actual ÷ ideal = 3.2 ÷ 4 = 0.8 = 80%.",
+      "es": "VM ideal = largo ÷ altura = 6 ÷ 1.5 = 4. VM real = carga ÷ esfuerzo = 480 ÷ 150 = 3.2. Eficiencia = real ÷ ideal = 3.2 ÷ 4 = 0.8 = 80%."
+    },
+    "trap": {
+      "en": "32% is the actual MA (3.2) read as a percent; 125% divides ideal by actual.",
+      "es": "32% es la VM real (3.2) leída como porcentaje; 125% divide ideal entre real."
+    },
+    "strategyRef": "mc.less-effort-not-less-work",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0054",
+    "subtest": "MC",
+    "topic": "pulleys",
+    "difficulty": 2,
+    "stem": {
+      "en": "A block-and-tackle has four rope segments supporting the movable block. Ignoring friction, what effort lifts a 600 N load?",
+      "es": "Un polipasto tiene cuatro tramos de cuerda sosteniendo el bloque móvil. Ignorando la fricción, ¿qué esfuerzo levanta una carga de 600 N?"
+    },
+    "choices": [
+      {
+        "en": "150 N",
+        "es": "150 N"
+      },
+      {
+        "en": "300 N",
+        "es": "300 N"
+      },
+      {
+        "en": "600 N",
+        "es": "600 N"
+      },
+      {
+        "en": "2,400 N",
+        "es": "2,400 N"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Each supporting segment carries an equal share of the load: 600 ÷ 4 = 150 N. The MA of a pulley system equals the number of segments holding up the movable block.",
+      "es": "Cada tramo de soporte carga una parte igual: 600 ÷ 4 = 150 N. La VM de un sistema de poleas es igual al número de tramos que sostienen el bloque móvil."
+    },
+    "trap": {
+      "en": "300 N counts pulleys instead of rope segments; 2,400 N multiplies instead of dividing.",
+      "es": "300 N cuenta poleas en vez de tramos de cuerda; 2,400 N multiplica en vez de dividir."
+    },
+    "strategyRef": "mc.pulley-segments",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0055",
+    "subtest": "MC",
+    "topic": "pulleys",
+    "difficulty": 1,
+    "stem": {
+      "en": "A single pulley is bolted to a ceiling beam. A rope passes over it, with a bucket on one end and a worker pulling down on the other. What does this pulley do for the worker?",
+      "es": "Una sola polea está atornillada a una viga del techo. Una cuerda pasa sobre ella, con una cubeta en un extremo y un trabajador jalando hacia abajo en el otro. ¿Qué hace esta polea por el trabajador?"
+    },
+    "choices": [
+      {
+        "en": "Halves the effort needed",
+        "es": "Reduce el esfuerzo a la mitad"
+      },
+      {
+        "en": "Changes the direction of the pull but not the effort needed",
+        "es": "Cambia la dirección del jalón pero no el esfuerzo necesario"
+      },
+      {
+        "en": "Doubles the effort needed",
+        "es": "Duplica el esfuerzo necesario"
+      },
+      {
+        "en": "Reduces the work needed",
+        "es": "Reduce el trabajo necesario"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "A fixed pulley has one rope segment supporting the load, so its MA is 1. Its only benefit is convenience: the worker can pull down (using body weight) instead of lifting up.",
+      "es": "Una polea fija tiene un solo tramo de cuerda sosteniendo la carga, así que su VM es 1. Su único beneficio es la comodidad: el trabajador puede jalar hacia abajo (usando su peso) en vez de levantar."
+    },
+    "trap": {
+      "en": "\"Halves the effort\" describes a movable pulley, not a fixed one. No pulley reduces work.",
+      "es": "\"Reduce a la mitad\" describe una polea móvil, no una fija. Ninguna polea reduce el trabajo."
+    },
+    "strategyRef": "mc.pulley-segments",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0056",
+    "subtest": "MC",
+    "topic": "gears",
+    "difficulty": 2,
+    "stem": {
+      "en": "A 12-tooth pinion on a drill motor turns at 1,800 rpm and meshes directly with a 48-tooth gear on the chuck. At what speed does the chuck gear turn?",
+      "es": "Un piñón de 12 dientes en el motor de un taladro gira a 1,800 rpm y engrana directamente con un engranaje de 48 dientes en el mandril. ¿A qué velocidad gira el engranaje del mandril?"
+    },
+    "choices": [
+      {
+        "en": "7,200 rpm",
+        "es": "7,200 rpm"
+      },
+      {
+        "en": "1,800 rpm",
+        "es": "1,800 rpm"
+      },
+      {
+        "en": "450 rpm",
+        "es": "450 rpm"
+      },
+      {
+        "en": "150 rpm",
+        "es": "150 rpm"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Teeth × rpm is the same for both gears: 12 × 1,800 = 48 × rpm, so rpm = 21,600 ÷ 48 = 450 rpm. Four times the teeth means one quarter the speed (and the opposite direction).",
+      "es": "Dientes × rpm es igual en ambos engranajes: 12 × 1,800 = 48 × rpm, así que rpm = 21,600 ÷ 48 = 450 rpm. Cuatro veces los dientes significa un cuarto de la velocidad (y sentido contrario)."
+    },
+    "trap": {
+      "en": "7,200 rpm applies the ratio backwards; 150 rpm divides by 12 instead of by 4.",
+      "es": "7,200 rpm aplica la relación al revés; 150 rpm divide entre 12 en vez de entre 4."
+    },
+    "strategyRef": "mc.gear-direction",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0057",
+    "subtest": "MC",
+    "topic": "work-power-energy",
+    "difficulty": 1,
+    "stem": {
+      "en": "A mover carries a 200 N box across a level warehouse floor at a steady walking speed for 30 m. How much work does the mover do on the box during the walk?",
+      "es": "Un cargador lleva una caja de 200 N por el piso plano de una bodega a paso constante durante 30 m. ¿Cuánto trabajo hace el cargador sobre la caja durante la caminata?"
+    },
+    "choices": [
+      {
+        "en": "6,000 J",
+        "es": "6,000 J"
+      },
+      {
+        "en": "230 J",
+        "es": "230 J"
+      },
+      {
+        "en": "200 J",
+        "es": "200 J"
+      },
+      {
+        "en": "Essentially zero",
+        "es": "Prácticamente cero"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Work = force × distance in the direction of the force. The mover pushes up on the box, but the box moves sideways, so no work is done on it in the physics sense (the mover gets tired, but that is energy spent inside the body, not work on the box).",
+      "es": "Trabajo = fuerza × distancia en la dirección de la fuerza. El cargador empuja la caja hacia arriba, pero la caja se mueve de lado, así que no se hace trabajo sobre ella en el sentido físico (el cargador se cansa, pero esa es energía gastada dentro del cuerpo, no trabajo sobre la caja)."
+    },
+    "trap": {
+      "en": "6,000 J multiplies weight by a horizontal distance; weight acts vertically, so that product is meaningless here.",
+      "es": "6,000 J multiplica el peso por una distancia horizontal; el peso actúa verticalmente, así que ese producto no significa nada aquí."
+    },
+    "strategyRef": "mc.less-effort-not-less-work",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0058",
+    "subtest": "MC",
+    "topic": "work-power-energy",
+    "difficulty": 2,
+    "stem": {
+      "en": "A motor does 600 J of work in 20 s. What power does it develop?",
+      "es": "Un motor realiza 600 J de trabajo en 20 s. ¿Qué potencia desarrolla?"
+    },
+    "choices": [
+      {
+        "en": "30 W",
+        "es": "30 W"
+      },
+      {
+        "en": "12,000 W",
+        "es": "12,000 W"
+      },
+      {
+        "en": "620 W",
+        "es": "620 W"
+      },
+      {
+        "en": "0.03 W",
+        "es": "0.03 W"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Power = work ÷ time = 600 ÷ 20 = 30 W. Power measures how fast work is done.",
+      "es": "Potencia = trabajo ÷ tiempo = 600 ÷ 20 = 30 W. La potencia mide qué tan rápido se realiza el trabajo."
+    },
+    "trap": {
+      "en": "12,000 W multiplies instead of dividing; 0.03 W divides time by work.",
+      "es": "12,000 W multiplica en vez de dividir; 0.03 W divide tiempo entre trabajo."
+    },
+    "strategyRef": "mc.less-effort-not-less-work",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0059",
+    "subtest": "MC",
+    "topic": "work-power-energy",
+    "difficulty": 3,
+    "stem": {
+      "en": "Two identical crates are lifted onto the same 2 m shelf. Crate 1 is lifted straight up; crate 2 is pushed up a long, frictionless ramp. Which statement is true?",
+      "es": "Dos cajas idénticas se suben al mismo estante de 2 m. La caja 1 se levanta en línea recta; la caja 2 se empuja por una rampa larga sin fricción. ¿Qué afirmación es verdadera?"
+    },
+    "choices": [
+      {
+        "en": "Crate 2 needs less work because the ramp helps",
+        "es": "La caja 2 necesita menos trabajo porque la rampa ayuda"
+      },
+      {
+        "en": "Both need the same work; the ramp only lowers the force",
+        "es": "Ambas necesitan el mismo trabajo; la rampa solo reduce la fuerza"
+      },
+      {
+        "en": "Crate 2 needs more work because it travels farther",
+        "es": "La caja 2 necesita más trabajo porque recorre más distancia"
+      },
+      {
+        "en": "Crate 1 gains more potential energy",
+        "es": "La caja 1 gana más energía potencial"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Both crates end up with the same gain in potential energy (weight × 2 m), so the work done is the same. The ramp reduces the force needed but increases the distance by the same factor.",
+      "es": "Ambas cajas terminan con la misma ganancia de energía potencial (peso × 2 m), así que el trabajo realizado es el mismo. La rampa reduce la fuerza necesaria pero aumenta la distancia en el mismo factor."
+    },
+    "trap": {
+      "en": "The lure is \"less effort = less work\". Machines never reduce work; without friction they only redistribute it between force and distance.",
+      "es": "La tentación es \"menos esfuerzo = menos trabajo\". Las máquinas nunca reducen el trabajo; sin fricción solo lo redistribuyen entre fuerza y distancia."
+    },
+    "strategyRef": "mc.less-effort-not-less-work",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0060",
+    "subtest": "MC",
+    "topic": "friction",
+    "difficulty": 2,
+    "stem": {
+      "en": "A technician pushes a heavy cabinet across a shop floor. She notices it takes a hard shove to get it moving, but once it slides she can keep it going with less force. Why?",
+      "es": "Una técnica empuja un gabinete pesado por el piso de un taller. Nota que se necesita un empujón fuerte para que empiece a moverse, pero una vez que se desliza puede mantenerlo con menos fuerza. ¿Por qué?"
+    },
+    "choices": [
+      {
+        "en": "The cabinet gets lighter as it moves",
+        "es": "El gabinete se vuelve más ligero al moverse"
+      },
+      {
+        "en": "Kinetic friction is greater than static friction",
+        "es": "La fricción cinética es mayor que la estática"
+      },
+      {
+        "en": "Static friction is greater than kinetic friction",
+        "es": "La fricción estática es mayor que la cinética"
+      },
+      {
+        "en": "Air resistance helps push it along",
+        "es": "La resistencia del aire ayuda a empujarlo"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Surfaces at rest interlock more tightly, so the maximum static friction is higher than the kinetic (sliding) friction. Once sliding begins, the friction force drops.",
+      "es": "Las superficies en reposo se traban con más fuerza, por eso la fricción estática máxima es mayor que la cinética (de deslizamiento). Al empezar a deslizar, la fuerza de fricción baja."
+    },
+    "trap": {
+      "en": "Choice B states the relationship backwards; the words \"static\" and \"kinetic\" are easy to swap under time pressure.",
+      "es": "La opción B invierte la relación; las palabras \"estática\" y \"cinética\" se confunden fácilmente bajo presión."
+    },
+    "strategyRef": "mc.less-effort-not-less-work",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0061",
+    "subtest": "MC",
+    "topic": "stability",
+    "difficulty": 1,
+    "stem": {
+      "en": "Four boxes of the same weight are placed on the bed of a truck that will take sharp turns. Which box is least likely to tip over?",
+      "es": "Cuatro cajas del mismo peso se colocan en la plataforma de un camión que tomará curvas cerradas. ¿Qué caja tiene menos probabilidad de volcarse?"
+    },
+    "choices": [
+      {
+        "en": "A tall, narrow box with heavy items on top",
+        "es": "Una caja alta y angosta con objetos pesados arriba"
+      },
+      {
+        "en": "A tall, narrow box with heavy items at the bottom",
+        "es": "Una caja alta y angosta con objetos pesados abajo"
+      },
+      {
+        "en": "A short, wide box with heavy items on top",
+        "es": "Una caja baja y ancha con objetos pesados arriba"
+      },
+      {
+        "en": "A short, wide box with heavy items at the bottom",
+        "es": "Una caja baja y ancha con objetos pesados abajo"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Stability increases with a wider base and a lower center of gravity. The short, wide box with weight at the bottom has both, so it must tilt farthest before its center of gravity passes outside its base.",
+      "es": "La estabilidad aumenta con una base más ancha y un centro de gravedad más bajo. La caja baja y ancha con el peso abajo tiene ambas cosas, así que debe inclinarse más antes de que su centro de gravedad salga de su base."
+    },
+    "trap": {
+      "en": "Choices B and C each have only one of the two stabilizing features; pick the one with both.",
+      "es": "Las opciones B y C tienen solo una de las dos características estabilizadoras; elige la que tiene ambas."
+    },
+    "strategyRef": "mc.stability",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0062",
+    "subtest": "MC",
+    "topic": "torque",
+    "difficulty": 2,
+    "stem": {
+      "en": "A mechanic applies 80 N perpendicular to the end of a 0.25 m wrench. What torque does she apply to the bolt?",
+      "es": "Una mecánica aplica 80 N perpendicularmente al extremo de una llave de 0.25 m. ¿Qué torque aplica al perno?"
+    },
+    "choices": [
+      {
+        "en": "20 N·m",
+        "es": "20 N·m"
+      },
+      {
+        "en": "320 N·m",
+        "es": "320 N·m"
+      },
+      {
+        "en": "80.25 N·m",
+        "es": "80.25 N·m"
+      },
+      {
+        "en": "200 N·m",
+        "es": "200 N·m"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Torque = force × perpendicular distance = 80 × 0.25 = 20 N·m.",
+      "es": "Torque = fuerza × distancia perpendicular = 80 × 0.25 = 20 N·m."
+    },
+    "trap": {
+      "en": "320 N·m divides force by the arm; 80.25 adds them. Torque is always a product.",
+      "es": "320 N·m divide la fuerza entre el brazo; 80.25 los suma. El torque siempre es un producto."
+    },
+    "strategyRef": "mc.sketch-lever",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0063",
+    "subtest": "MC",
+    "topic": "springs",
+    "difficulty": 2,
+    "stem": {
+      "en": "A spring stretches 4 cm when a 20 N weight hangs from it. Within its elastic limit, how far will it stretch under 50 N?",
+      "es": "Un resorte se estira 4 cm cuando cuelga de él un peso de 20 N. Dentro de su límite elástico, ¿cuánto se estirará con 50 N?"
+    },
+    "choices": [
+      {
+        "en": "8 cm",
+        "es": "8 cm"
+      },
+      {
+        "en": "10 cm",
+        "es": "10 cm"
+      },
+      {
+        "en": "12.5 cm",
+        "es": "12.5 cm"
+      },
+      {
+        "en": "34 cm",
+        "es": "34 cm"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Hooke's law: stretch is proportional to force. 50 ÷ 20 = 2.5 times the force gives 2.5 × 4 = 10 cm.",
+      "es": "Ley de Hooke: el estiramiento es proporcional a la fuerza. 50 ÷ 20 = 2.5 veces la fuerza da 2.5 × 4 = 10 cm."
+    },
+    "trap": {
+      "en": "8 cm simply doubles; 12.5 divides 50 by 4 instead of scaling the 4 cm.",
+      "es": "8 cm solo duplica; 12.5 divide 50 entre 4 en vez de escalar los 4 cm."
+    },
+    "strategyRef": "mc.less-effort-not-less-work",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0064",
+    "subtest": "MC",
+    "topic": "inclined-plane",
+    "difficulty": 2,
+    "stem": {
+      "en": "A frictionless ramp is 8 m long and rises 2 m. What force is needed to push a 400 N barrel up the ramp at constant speed?",
+      "es": "Una rampa sin fricción mide 8 m de largo y sube 2 m. ¿Qué fuerza se necesita para empujar un barril de 400 N por la rampa a velocidad constante?"
+    },
+    "choices": [
+      {
+        "en": "1,600 N",
+        "es": "1,600 N"
+      },
+      {
+        "en": "50 N",
+        "es": "50 N"
+      },
+      {
+        "en": "100 N",
+        "es": "100 N"
+      },
+      {
+        "en": "200 N",
+        "es": "200 N"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "MA of a ramp = length ÷ height = 8 ÷ 2 = 4. Effort = load ÷ MA = 400 ÷ 4 = 100 N.",
+      "es": "VM de una rampa = largo ÷ altura = 8 ÷ 2 = 4. Esfuerzo = carga ÷ VM = 400 ÷ 4 = 100 N."
+    },
+    "trap": {
+      "en": "50 N divides by the length (8) instead of the MA (4); 1,600 N multiplies.",
+      "es": "50 N divide entre el largo (8) en vez de la VM (4); 1,600 N multiplica."
+    },
+    "strategyRef": "mc.less-effort-not-less-work",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0065",
+    "subtest": "MC",
+    "topic": "wedges",
+    "difficulty": 1,
+    "stem": {
+      "en": "Two steel wedges are the same width at the back but one is twice as long as the other. Which is easier to drive into a log, and why?",
+      "es": "Dos cuñas de acero tienen el mismo ancho en la parte trasera, pero una es el doble de larga que la otra. ¿Cuál es más fácil de clavar en un tronco y por qué?"
+    },
+    "choices": [
+      {
+        "en": "The short one, because it is lighter",
+        "es": "La corta, porque es más ligera"
+      },
+      {
+        "en": "The short one, because it has a bigger angle",
+        "es": "La corta, porque tiene un ángulo mayor"
+      },
+      {
+        "en": "Neither; both need the same force",
+        "es": "Ninguna; ambas necesitan la misma fuerza"
+      },
+      {
+        "en": "The long one, because its taper is more gradual",
+        "es": "La larga, porque su afilado es más gradual"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "A wedge is a moving inclined plane. MA = length ÷ thickness, so the longer, thinner-angled wedge gives more mechanical advantage and needs less driving force (though it must travel farther).",
+      "es": "Una cuña es un plano inclinado móvil. VM = largo ÷ grosor, así que la cuña más larga y de ángulo más fino da mayor ventaja mecánica y necesita menos fuerza para clavarse (aunque debe avanzar más)."
+    },
+    "trap": {
+      "en": "A bigger angle makes a wedge harder to drive, not easier; weight is irrelevant to its MA.",
+      "es": "Un ángulo mayor hace la cuña más difícil de clavar, no más fácil; el peso no afecta su VM."
+    },
+    "strategyRef": "mc.less-effort-not-less-work",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0066",
+    "subtest": "MC",
+    "topic": "wedges",
+    "difficulty": 2,
+    "stem": {
+      "en": "Which of the following tools does NOT work mainly as a wedge?",
+      "es": "¿Cuál de las siguientes herramientas NO funciona principalmente como cuña?"
+    },
+    "choices": [
+      {
+        "en": "A screwdriver turning a screw",
+        "es": "Un desarmador girando un tornillo"
+      },
+      {
+        "en": "A chisel splitting wood",
+        "es": "Un cincel partiendo madera"
+      },
+      {
+        "en": "A knife slicing bread",
+        "es": "Un cuchillo rebanando pan"
+      },
+      {
+        "en": "A rubber doorstop holding a door",
+        "es": "Un tope de goma sosteniendo una puerta"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "A wedge converts a push along its length into a sideways splitting or holding force. Chisels, knives and doorstops all do that. A screwdriver being turned acts as a wheel and axle (the handle is the wheel, the shaft the axle).",
+      "es": "Una cuña convierte un empuje a lo largo en una fuerza lateral de corte o sujeción. Cinceles, cuchillos y topes de puerta hacen eso. Un desarmador al girar actúa como rueda y eje (el mango es la rueda, la varilla el eje)."
+    },
+    "trap": {
+      "en": "The doorstop is the sneaky one: it is a wedge that holds rather than splits. Do not reject it just because nothing gets cut.",
+      "es": "El tope de puerta es el engañoso: es una cuña que sujeta en vez de partir. No lo descartes solo porque nada se corta."
+    },
+    "strategyRef": "mc.less-effort-not-less-work",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0067",
+    "subtest": "MC",
+    "topic": "screws",
+    "difficulty": 2,
+    "stem": {
+      "en": "A bolt has a thread pitch of 2 mm (it advances 2 mm per full turn). How far does it move into the nut after 5 complete turns?",
+      "es": "Un perno tiene un paso de rosca de 2 mm (avanza 2 mm por vuelta completa). ¿Cuánto entra en la tuerca después de 5 vueltas completas?"
+    },
+    "choices": [
+      {
+        "en": "2.5 mm",
+        "es": "2.5 mm"
+      },
+      {
+        "en": "10 mm",
+        "es": "10 mm"
+      },
+      {
+        "en": "7 mm",
+        "es": "7 mm"
+      },
+      {
+        "en": "20 mm",
+        "es": "20 mm"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Advance = pitch × turns = 2 × 5 = 10 mm.",
+      "es": "Avance = paso × vueltas = 2 × 5 = 10 mm."
+    },
+    "trap": {
+      "en": "2.5 divides turns by pitch; 7 adds them; 20 doubles the correct product.",
+      "es": "2.5 divide vueltas entre paso; 7 los suma; 20 duplica el producto correcto."
+    },
+    "strategyRef": "mc.less-effort-not-less-work",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0068",
+    "subtest": "MC",
+    "topic": "screws",
+    "difficulty": 3,
+    "stem": {
+      "en": "Two screws have the same diameter, but screw X has threads spaced closer together (a finer pitch) than screw Y. Driven with the same screwdriver, which statement is correct?",
+      "es": "Dos tornillos tienen el mismo diámetro, pero el tornillo X tiene las roscas más juntas (paso más fino) que el tornillo Y. Con el mismo desarmador, ¿qué afirmación es correcta?"
+    },
+    "choices": [
+      {
+        "en": "X needs more force per turn but fewer turns",
+        "es": "X necesita más fuerza por vuelta pero menos vueltas"
+      },
+      {
+        "en": "X and Y need the same number of turns",
+        "es": "X y Y necesitan el mismo número de vueltas"
+      },
+      {
+        "en": "X needs less force per turn but more turns",
+        "es": "X necesita menos fuerza por vuelta pero más vueltas"
+      },
+      {
+        "en": "Y has the greater mechanical advantage",
+        "es": "Y tiene mayor ventaja mecánica"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "A screw is an inclined plane wrapped around a cylinder. A finer pitch is a gentler slope: MA = circumference ÷ pitch goes up, so less force is needed per turn, but the screw advances less each turn and needs more turns.",
+      "es": "Un tornillo es un plano inclinado enrollado en un cilindro. Un paso más fino es una pendiente más suave: VM = circunferencia ÷ paso aumenta, así que se necesita menos fuerza por vuelta, pero el tornillo avanza menos en cada vuelta y necesita más vueltas."
+    },
+    "trap": {
+      "en": "Choice A swaps the two halves of the trade-off. Less effort always comes with more distance (turns).",
+      "es": "La opción A intercambia las dos mitades del intercambio. Menos esfuerzo siempre viene con más distancia (vueltas)."
+    },
+    "strategyRef": "mc.less-effort-not-less-work",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0069",
+    "subtest": "MC",
+    "topic": "wheel-and-axle",
+    "difficulty": 2,
+    "stem": {
+      "en": "A valve wheel has a radius of 20 cm and turns a shaft of radius 2 cm. What is the mechanical advantage of turning the shaft by the wheel?",
+      "es": "Un volante de válvula tiene un radio de 20 cm y gira un eje de radio 2 cm. ¿Cuál es la ventaja mecánica de girar el eje mediante el volante?"
+    },
+    "choices": [
+      {
+        "en": "0.1",
+        "es": "0.1"
+      },
+      {
+        "en": "18",
+        "es": "18"
+      },
+      {
+        "en": "40",
+        "es": "40"
+      },
+      {
+        "en": "10",
+        "es": "10"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "MA of a wheel and axle = wheel radius ÷ axle radius = 20 ÷ 2 = 10.",
+      "es": "VM de rueda y eje = radio de la rueda ÷ radio del eje = 20 ÷ 2 = 10."
+    },
+    "trap": {
+      "en": "18 subtracts the radii; 40 multiplies; 0.1 divides upside down.",
+      "es": "18 resta los radios; 40 multiplica; 0.1 divide al revés."
+    },
+    "strategyRef": "mc.less-effort-not-less-work",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0070",
+    "subtest": "MC",
+    "topic": "wheel-and-axle",
+    "difficulty": 1,
+    "stem": {
+      "en": "A door has a broken knob, leaving only the small square spindle sticking out. Turning the bare spindle is much harder than turning the knob was. Why?",
+      "es": "Una puerta tiene la perilla rota y solo sobresale el pequeño vástago cuadrado. Girar el vástago desnudo es mucho más difícil que girar la perilla. ¿Por qué?"
+    },
+    "choices": [
+      {
+        "en": "The knob acted as a wheel, multiplying the force applied to the spindle (axle)",
+        "es": "La perilla actuaba como rueda, multiplicando la fuerza aplicada al vástago (eje)"
+      },
+      {
+        "en": "The spindle has more friction than the knob",
+        "es": "El vástago tiene más fricción que la perilla"
+      },
+      {
+        "en": "The knob reduced the work needed to open the latch",
+        "es": "La perilla reducía el trabajo necesario para abrir el pestillo"
+      },
+      {
+        "en": "The spindle is made of harder metal",
+        "es": "El vástago es de un metal más duro"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "A doorknob is a wheel and axle. Your hand moves a large distance around the knob so a small force there becomes a large force at the narrow spindle. Without the knob you must supply that large force directly.",
+      "es": "Una perilla es una rueda y eje. Tu mano recorre una distancia grande alrededor de la perilla, así que una fuerza pequeña ahí se convierte en una fuerza grande en el vástago angosto. Sin la perilla debes aplicar esa fuerza grande directamente."
+    },
+    "trap": {
+      "en": "The knob did not reduce work; it reduced force by increasing the distance your hand travels.",
+      "es": "La perilla no reducía el trabajo; reducía la fuerza aumentando la distancia que recorre tu mano."
+    },
+    "strategyRef": "mc.less-effort-not-less-work",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0071",
+    "subtest": "MC",
+    "topic": "belts-cams",
+    "difficulty": 1,
+    "stem": {
+      "en": "Two pulleys are connected by a belt. If the belt is crossed into a figure-eight between them, how does the driven pulley turn compared with the driver?",
+      "es": "Dos poleas están conectadas por una banda. Si la banda se cruza formando un ocho entre ellas, ¿cómo gira la polea impulsada en comparación con la impulsora?"
+    },
+    "choices": [
+      {
+        "en": "Same direction, same speed",
+        "es": "Mismo sentido, misma velocidad"
+      },
+      {
+        "en": "Opposite direction",
+        "es": "Sentido opuesto"
+      },
+      {
+        "en": "Same direction, always faster",
+        "es": "Mismo sentido, siempre más rápido"
+      },
+      {
+        "en": "It does not turn",
+        "es": "No gira"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "An open (uncrossed) belt makes both pulleys turn the same way. Crossing the belt reverses the driven pulley, like meshing gears do. Speed depends on the pulley diameters, not on crossing.",
+      "es": "Una banda abierta (sin cruzar) hace que ambas poleas giren en el mismo sentido. Cruzar la banda invierte la polea impulsada, como hacen los engranajes engranados. La velocidad depende de los diámetros, no del cruce."
+    },
+    "trap": {
+      "en": "Choice A is the open-belt case; the question says the belt is crossed.",
+      "es": "La opción A es el caso de banda abierta; la pregunta dice que la banda está cruzada."
+    },
+    "strategyRef": "mc.gear-direction",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0072",
+    "subtest": "MC",
+    "topic": "belts-cams",
+    "difficulty": 2,
+    "stem": {
+      "en": "A motor pulley 30 cm in diameter turns at 200 rpm and drives a 10 cm pulley through a belt. How fast does the 10 cm pulley turn?",
+      "es": "Una polea de motor de 30 cm de diámetro gira a 200 rpm e impulsa mediante una banda a una polea de 10 cm. ¿A qué velocidad gira la polea de 10 cm?"
+    },
+    "choices": [
+      {
+        "en": "66.7 rpm",
+        "es": "66.7 rpm"
+      },
+      {
+        "en": "200 rpm",
+        "es": "200 rpm"
+      },
+      {
+        "en": "600 rpm",
+        "es": "600 rpm"
+      },
+      {
+        "en": "2,000 rpm",
+        "es": "2,000 rpm"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "The belt moves at one speed, so diameter × rpm is equal on both pulleys: 30 × 200 = 10 × rpm, giving rpm = 6,000 ÷ 10 = 600 rpm. The smaller pulley turns faster.",
+      "es": "La banda se mueve a una sola velocidad, así que diámetro × rpm es igual en ambas poleas: 30 × 200 = 10 × rpm, lo que da rpm = 6,000 ÷ 10 = 600 rpm. La polea más pequeña gira más rápido."
+    },
+    "trap": {
+      "en": "66.7 rpm applies the ratio backwards (a small pulley cannot turn slower than a big one it is belted to).",
+      "es": "66.7 rpm aplica la relación al revés (una polea pequeña no puede girar más lento que la grande a la que está conectada)."
+    },
+    "strategyRef": "mc.gear-direction",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0073",
+    "subtest": "MC",
+    "topic": "belts-cams",
+    "difficulty": 3,
+    "stem": {
+      "en": "An egg-shaped cam is mounted on a rotating shaft. A rod (the follower) rests on the cam's edge and is free to slide up and down in a guide. As the shaft spins at a steady rate, what does the follower do?",
+      "es": "Una leva con forma de huevo está montada en un eje giratorio. Una varilla (el seguidor) descansa sobre el borde de la leva y puede deslizarse arriba y abajo en una guía. Mientras el eje gira a ritmo constante, ¿qué hace el seguidor?"
+    },
+    "choices": [
+      {
+        "en": "Rotates at the same speed as the shaft",
+        "es": "Gira a la misma velocidad que el eje"
+      },
+      {
+        "en": "Stays perfectly still",
+        "es": "Permanece completamente quieto"
+      },
+      {
+        "en": "Rotates in the opposite direction",
+        "es": "Gira en sentido contrario"
+      },
+      {
+        "en": "Moves up and down once per shaft revolution",
+        "es": "Sube y baja una vez por cada vuelta del eje"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "A cam converts rotary motion into reciprocating (back-and-forth) motion. The follower rides the cam's profile, rising on the high lobe and dropping on the low side, one full cycle per turn. Engine valves are opened this way.",
+      "es": "Una leva convierte el movimiento giratorio en movimiento alternativo (de vaivén). El seguidor recorre el perfil de la leva, subiendo en el lóbulo alto y bajando en el lado bajo, un ciclo completo por vuelta. Así se abren las válvulas de un motor."
+    },
+    "trap": {
+      "en": "The follower is guided so it cannot rotate; choices A and C describe gears or belts, not cams.",
+      "es": "El seguidor está guiado y no puede girar; las opciones A y C describen engranajes o bandas, no levas."
+    },
+    "strategyRef": "mc.gear-direction",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0074",
+    "subtest": "MC",
+    "topic": "pressure",
+    "difficulty": 2,
+    "stem": {
+      "en": "A 200 N toolbox rests on a bench on a base measuring 0.04 m². What pressure does it exert on the bench?",
+      "es": "Una caja de herramientas de 200 N descansa sobre un banco con una base de 0.04 m². ¿Qué presión ejerce sobre el banco?"
+    },
+    "choices": [
+      {
+        "en": "5,000 Pa",
+        "es": "5,000 Pa"
+      },
+      {
+        "en": "8 Pa",
+        "es": "8 Pa"
+      },
+      {
+        "en": "50 Pa",
+        "es": "50 Pa"
+      },
+      {
+        "en": "800 Pa",
+        "es": "800 Pa"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Pressure = force ÷ area = 200 ÷ 0.04 = 5,000 Pa (N/m²).",
+      "es": "Presión = fuerza ÷ área = 200 ÷ 0.04 = 5,000 Pa (N/m²)."
+    },
+    "trap": {
+      "en": "8 Pa multiplies force by area; 50 Pa divides by 4 instead of 0.04 (a decimal slip).",
+      "es": "8 Pa multiplica fuerza por área; 50 Pa divide entre 4 en vez de 0.04 (error de decimales)."
+    },
+    "strategyRef": "mc.pressure-area",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0075",
+    "subtest": "MC",
+    "topic": "fluids",
+    "difficulty": 3,
+    "stem": {
+      "en": "Water flows steadily through a pipe with a cross-section of 4 cm² at 2 m/s. The pipe then narrows to 1 cm². What is the water's speed in the narrow section?",
+      "es": "El agua fluye de forma constante por una tubería de 4 cm² de sección a 2 m/s. Luego la tubería se estrecha a 1 cm². ¿Cuál es la velocidad del agua en la sección angosta?"
+    },
+    "choices": [
+      {
+        "en": "0.5 m/s",
+        "es": "0.5 m/s"
+      },
+      {
+        "en": "8 m/s",
+        "es": "8 m/s"
+      },
+      {
+        "en": "2 m/s",
+        "es": "2 m/s"
+      },
+      {
+        "en": "4 m/s",
+        "es": "4 m/s"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "The same volume must pass every point each second, so area × speed is constant: 4 × 2 = 1 × v, giving v = 8 m/s. Narrower pipe, faster flow (like putting a thumb over a hose).",
+      "es": "El mismo volumen debe pasar por cada punto cada segundo, así que área × velocidad es constante: 4 × 2 = 1 × v, lo que da v = 8 m/s. Tubería más angosta, flujo más rápido (como tapar una manguera con el pulgar)."
+    },
+    "trap": {
+      "en": "0.5 m/s applies the ratio backwards; 2 m/s assumes speed does not change.",
+      "es": "0.5 m/s aplica la relación al revés; 2 m/s supone que la velocidad no cambia."
+    },
+    "strategyRef": "mc.pressure-area",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0076",
+    "subtest": "MC",
+    "topic": "buoyancy",
+    "difficulty": 1,
+    "stem": {
+      "en": "A solid block is placed in a tank of water. Which single fact determines whether it floats?",
+      "es": "Un bloque sólido se coloca en un tanque de agua. ¿Qué único dato determina si flota?"
+    },
+    "choices": [
+      {
+        "en": "Its weight",
+        "es": "Su peso"
+      },
+      {
+        "en": "Its volume",
+        "es": "Su volumen"
+      },
+      {
+        "en": "Whether its density is less than that of water",
+        "es": "Si su densidad es menor que la del agua"
+      },
+      {
+        "en": "How deep the tank is",
+        "es": "Qué tan profundo es el tanque"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "An object floats when it is less dense than the fluid: then the water it displaces weighs more than the object does before it is fully under. Weight or volume alone do not decide it; a huge steel ship floats and a tiny pebble sinks.",
+      "es": "Un objeto flota cuando es menos denso que el fluido: entonces el agua que desplaza pesa más que el objeto antes de sumergirse por completo. El peso o el volumen por sí solos no lo deciden; un barco de acero enorme flota y una piedrita se hunde."
+    },
+    "trap": {
+      "en": "\"Its weight\" is the intuitive answer, but heavy things float all the time if they are big enough. Density combines both.",
+      "es": "\"Su peso\" es la respuesta intuitiva, pero las cosas pesadas flotan todo el tiempo si son suficientemente grandes. La densidad combina ambos."
+    },
+    "strategyRef": "mc.pressure-area",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0077",
+    "subtest": "MC",
+    "topic": "buoyancy",
+    "difficulty": 3,
+    "stem": {
+      "en": "A metal part with a volume of 0.002 m³ is held fully under water. Water has a density of 1,000 kg/m³ and g = 10 m/s². What buoyant force acts on the part?",
+      "es": "Una pieza metálica con un volumen de 0.002 m³ se mantiene totalmente sumergida en agua. El agua tiene una densidad de 1,000 kg/m³ y g = 10 m/s². ¿Qué fuerza de flotación actúa sobre la pieza?"
+    },
+    "choices": [
+      {
+        "en": "0.2 N",
+        "es": "0.2 N"
+      },
+      {
+        "en": "2 N",
+        "es": "2 N"
+      },
+      {
+        "en": "200 N",
+        "es": "200 N"
+      },
+      {
+        "en": "20 N",
+        "es": "20 N"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Archimedes: buoyant force = weight of displaced water = density × volume × g = 1,000 × 0.002 × 10 = 20 N. It does not depend on what the part is made of, only on the volume it displaces.",
+      "es": "Arquímedes: fuerza de flotación = peso del agua desplazada = densidad × volumen × g = 1,000 × 0.002 × 10 = 20 N. No depende del material de la pieza, solo del volumen que desplaza."
+    },
+    "trap": {
+      "en": "2 N forgets g; 200 N slips a decimal place in 0.002.",
+      "es": "2 N olvida g; 200 N se equivoca en un decimal de 0.002."
+    },
+    "strategyRef": "mc.pressure-area",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0078",
+    "subtest": "MC",
+    "topic": "heat-expansion",
+    "difficulty": 2,
+    "stem": {
+      "en": "A steel washer with a hole in the middle is heated evenly in an oven. What happens to the hole?",
+      "es": "Una arandela de acero con un agujero en el centro se calienta de manera uniforme en un horno. ¿Qué le pasa al agujero?"
+    },
+    "choices": [
+      {
+        "en": "It gets larger",
+        "es": "Se agranda"
+      },
+      {
+        "en": "It gets smaller",
+        "es": "Se achica"
+      },
+      {
+        "en": "It stays the same size",
+        "es": "Queda del mismo tamaño"
+      },
+      {
+        "en": "It gets smaller, then larger",
+        "es": "Se achica y luego se agranda"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Thermal expansion scales every dimension of the object, including empty spaces, as if the washer were enlarged in a photocopier. The hole grows. This is why a stuck metal lid loosens when you run hot water over it.",
+      "es": "La dilatación térmica escala todas las dimensiones del objeto, incluidos los espacios vacíos, como si la arandela se ampliara en una fotocopiadora. El agujero crece. Por eso una tapa metálica atorada se afloja al ponerle agua caliente."
+    },
+    "trap": {
+      "en": "\"Smaller\" comes from picturing the metal swelling inward into the hole; it actually expands outward in every direction.",
+      "es": "\"Se achica\" viene de imaginar el metal hinchándose hacia el agujero; en realidad se expande hacia afuera en todas direcciones."
+    },
+    "strategyRef": "mc.pressure-area",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0079",
+    "subtest": "MC",
+    "topic": "structures",
+    "difficulty": 2,
+    "stem": {
+      "en": "A uniform 4 m plank rests on two supports, one at each end. An 800 N crate is placed exactly at the middle. Ignoring the plank's own weight, how much load does each support carry?",
+      "es": "Una tabla uniforme de 4 m descansa sobre dos soportes, uno en cada extremo. Se coloca una caja de 800 N exactamente en el centro. Ignorando el peso de la tabla, ¿cuánta carga soporta cada apoyo?"
+    },
+    "choices": [
+      {
+        "en": "800 N",
+        "es": "800 N"
+      },
+      {
+        "en": "400 N",
+        "es": "400 N"
+      },
+      {
+        "en": "200 N",
+        "es": "200 N"
+      },
+      {
+        "en": "1,600 N",
+        "es": "1,600 N"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "A load at the center is equally distant from both supports, so they share it equally: 800 ÷ 2 = 400 N each. Moving the crate toward one end would shift more of the load to that support.",
+      "es": "Una carga en el centro está a la misma distancia de ambos soportes, así que la comparten por igual: 800 ÷ 2 = 400 N cada uno. Mover la caja hacia un extremo cargaría más ese soporte."
+    },
+    "trap": {
+      "en": "800 N gives each support the whole load (double counting); 200 N divides by the length instead of by the two supports.",
+      "es": "800 N da a cada soporte la carga completa (doble conteo); 200 N divide entre el largo en vez de entre los dos soportes."
+    },
+    "strategyRef": "mc.stability",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mc-0080",
+    "subtest": "MC",
+    "topic": "structures",
+    "difficulty": 3,
+    "stem": {
+      "en": "Bridge trusses and roof frames are built from many triangles rather than squares. What is the main mechanical reason?",
+      "es": "Las armaduras de puentes y los marcos de techos se construyen con muchos triángulos en vez de cuadrados. ¿Cuál es la razón mecánica principal?"
+    },
+    "choices": [
+      {
+        "en": "Triangles use less material than squares of the same size",
+        "es": "Los triángulos usan menos material que cuadrados del mismo tamaño"
+      },
+      {
+        "en": "Triangles are easier to weld",
+        "es": "Los triángulos son más fáciles de soldar"
+      },
+      {
+        "en": "A triangle cannot change shape without changing the length of a side, so it resists collapsing",
+        "es": "Un triángulo no puede cambiar de forma sin cambiar la longitud de un lado, así que resiste el colapso"
+      },
+      {
+        "en": "Triangles weigh less than squares",
+        "es": "Los triángulos pesan menos que los cuadrados"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "A four-sided frame with pinned corners can fold into a parallelogram; a triangle with the same pins is rigid because its shape is fixed by its three side lengths. Adding a diagonal to a square turns it into two triangles and locks it.",
+      "es": "Un marco de cuatro lados con esquinas articuladas puede doblarse en un paralelogramo; un triángulo con las mismas articulaciones es rígido porque su forma queda fijada por sus tres lados. Agregar una diagonal a un cuadrado lo convierte en dos triángulos y lo bloquea."
+    },
+    "trap": {
+      "en": "Choices A and D are about material and weight; the question asks about mechanics (shape rigidity).",
+      "es": "Las opciones A y D hablan de material y peso; la pregunta es sobre mecánica (rigidez de forma)."
+    },
+    "strategyRef": "mc.stability",
+    "source": "original",
+    "version": 1
+  }
+]

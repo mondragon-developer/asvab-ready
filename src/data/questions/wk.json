@@ -1,0 +1,3202 @@
+[
+  {
+    "id": "wk-0001",
+    "subtest": "WK",
+    "topic": "synonym",
+    "difficulty": 2,
+    "stem": {
+      "en": "The sergeant gave a <u>terse</u> reply. Terse most nearly means",
+      "es": "El sargento dio una respuesta <u>tersa</u> (terse). \"Terse\" significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "lengthy",
+        "es": "extensa"
+      },
+      {
+        "en": "brief",
+        "es": "breve"
+      },
+      {
+        "en": "polite",
+        "es": "cortés"
+      },
+      {
+        "en": "confusing",
+        "es": "confusa"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Terse means short and to the point, sometimes bluntly so.",
+      "es": "\"Terse\" significa corta y directa, a veces incluso brusca."
+    },
+    "trap": {
+      "en": "\"Lengthy\" and \"brief\" are opposites — when two choices are opposites, one of them is usually right.",
+      "es": "\"Extensa\" y \"breve\" son opuestas: cuando dos opciones son opuestas, una de ellas suele ser la correcta."
+    },
+    "strategyRef": "wk.opposites",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0002",
+    "subtest": "WK",
+    "topic": "prefix",
+    "difficulty": 3,
+    "stem": {
+      "en": "<u>Benevolent</u> most nearly means",
+      "es": "<u>Benevolent</u> significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "hostile",
+        "es": "hostil"
+      },
+      {
+        "en": "wealthy",
+        "es": "adinerado"
+      },
+      {
+        "en": "kind",
+        "es": "bondadoso"
+      },
+      {
+        "en": "ancient",
+        "es": "antiguo"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "bene- (good) + vol (wish): wishing good to others.",
+      "es": "bene- (bien) + vol (querer): que desea el bien a los demás."
+    },
+    "trap": {
+      "en": "Prefix polarity: bene- is positive, so eliminate the negative choice \"hostile\" immediately.",
+      "es": "Polaridad del prefijo: bene- es positivo; elimina de inmediato la opción negativa \"hostil\"."
+    },
+    "strategyRef": "wk.prefix-polarity",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0003",
+    "subtest": "WK",
+    "topic": "synonym",
+    "difficulty": 1,
+    "stem": {
+      "en": "<u>Reluctant</u> most nearly means",
+      "es": "<u>Reluctant</u> significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "eager",
+        "es": "entusiasta"
+      },
+      {
+        "en": "unwilling",
+        "es": "poco dispuesto"
+      },
+      {
+        "en": "careless",
+        "es": "descuidado"
+      },
+      {
+        "en": "silent",
+        "es": "callado"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Reluctant describes someone hesitant or unwilling to do something.",
+      "es": "\"Reluctant\" describe a alguien que duda o no quiere hacer algo."
+    },
+    "trap": {
+      "en": "\"Eager\" is the opposite trap: a reluctant person drags their feet, while an eager one rushes in.",
+      "es": "\"Entusiasta\" es la trampa del opuesto: una persona reluctant se resiste, mientras que una entusiasta se lanza."
+    },
+    "strategyRef": "wk.opposites",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0004",
+    "subtest": "WK",
+    "topic": "context",
+    "difficulty": 1,
+    "stem": {
+      "en": "In the sentence \"The rusty ladder is <u>hazardous</u>, so nobody may climb it,\" hazardous most nearly means",
+      "es": "En la oración «La escalera oxidada es <u>hazardous</u>, así que nadie puede subirla», hazardous significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "sturdy",
+        "es": "resistente"
+      },
+      {
+        "en": "tall",
+        "es": "alta"
+      },
+      {
+        "en": "useful",
+        "es": "útil"
+      },
+      {
+        "en": "dangerous",
+        "es": "peligrosa"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Hazardous means dangerous; the ban on climbing confirms the ladder is unsafe.",
+      "es": "\"Hazardous\" significa peligrosa; la prohibición de subir confirma que la escalera no es segura."
+    },
+    "trap": {
+      "en": "\"Sturdy\" is the opposite trap: a rusty ladder nobody may climb is not sturdy, so substitute each choice into the sentence.",
+      "es": "\"Resistente\" es la trampa del opuesto: una escalera oxidada que nadie puede subir no es resistente; sustituye cada opción en la oración."
+    },
+    "strategyRef": "wk.substitute",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0005",
+    "subtest": "WK",
+    "topic": "synonym",
+    "difficulty": 1,
+    "stem": {
+      "en": "<u>Abundant</u> most nearly means",
+      "es": "<u>Abundant</u> significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "plentiful",
+        "es": "abundante"
+      },
+      {
+        "en": "scarce",
+        "es": "escaso"
+      },
+      {
+        "en": "expensive",
+        "es": "costoso"
+      },
+      {
+        "en": "hidden",
+        "es": "oculto"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Abundant means existing in large quantities, more than enough.",
+      "es": "\"Abundant\" significa que existe en gran cantidad, más que suficiente."
+    },
+    "trap": {
+      "en": "\"Scarce\" is the opposite; when two choices are opposites, one of them is usually the answer.",
+      "es": "\"Escaso\" es el opuesto; cuando dos opciones son opuestas, una de ellas suele ser la respuesta."
+    },
+    "strategyRef": "wk.opposites",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0006",
+    "subtest": "WK",
+    "topic": "context",
+    "difficulty": 1,
+    "stem": {
+      "en": "In the sentence \"These boots are <u>durable</u> and should last several winters,\" durable most nearly means",
+      "es": "En la oración «Estas botas son <u>durable</u> y deberían durar varios inviernos», durable significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "stylish",
+        "es": "elegantes"
+      },
+      {
+        "en": "waterproof",
+        "es": "impermeables"
+      },
+      {
+        "en": "long-lasting",
+        "es": "duraderas"
+      },
+      {
+        "en": "inexpensive",
+        "es": "baratas"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Durable means able to withstand wear; \"last several winters\" restates it.",
+      "es": "\"Durable\" significa que resiste el desgaste; \"durar varios inviernos\" lo repite."
+    },
+    "trap": {
+      "en": "\"Waterproof\" is the association trap: boots in winter may be waterproof, but the sentence only talks about lasting.",
+      "es": "\"Impermeables\" es la trampa de asociación: las botas de invierno pueden ser impermeables, pero la oración solo habla de durar."
+    },
+    "strategyRef": "wk.substitute",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0007",
+    "subtest": "WK",
+    "topic": "synonym",
+    "difficulty": 1,
+    "stem": {
+      "en": "<u>Tedious</u> most nearly means",
+      "es": "<u>Tedious</u> significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "exciting",
+        "es": "emocionante"
+      },
+      {
+        "en": "dangerous",
+        "es": "peligroso"
+      },
+      {
+        "en": "brief",
+        "es": "breve"
+      },
+      {
+        "en": "boring",
+        "es": "aburrido"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Tedious describes a task that is long, slow and dull.",
+      "es": "\"Tedious\" describe una tarea larga, lenta y monótona."
+    },
+    "trap": {
+      "en": "\"Exciting\" is the opposite trap, and \"brief\" reverses the idea: tedious things feel endless, not short.",
+      "es": "\"Emocionante\" es la trampa del opuesto y \"breve\" invierte la idea: lo tedious parece interminable, no corto."
+    },
+    "strategyRef": "wk.substitute",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0008",
+    "subtest": "WK",
+    "topic": "context",
+    "difficulty": 1,
+    "stem": {
+      "en": "In the sentence \"Please <u>verify</u> the serial number before signing the receipt,\" verify most nearly means",
+      "es": "En la oración «Por favor, <u>verify</u> el número de serie antes de firmar el recibo», verify significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "confirm",
+        "es": "confirme"
+      },
+      {
+        "en": "copy",
+        "es": "copie"
+      },
+      {
+        "en": "ignore",
+        "es": "ignore"
+      },
+      {
+        "en": "erase",
+        "es": "borre"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Verify means to check that something is true or correct, which fits checking before signing.",
+      "es": "\"Verify\" significa comprobar que algo es cierto o correcto, lo que encaja con revisar antes de firmar."
+    },
+    "trap": {
+      "en": "\"Copy\" is the plausible-action trap: you might copy a serial number, but the point of doing it before signing is to confirm it.",
+      "es": "\"Copie\" es la trampa de la acción plausible: podrías copiar un número de serie, pero hacerlo antes de firmar tiene el fin de confirmarlo."
+    },
+    "strategyRef": "wk.substitute",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0009",
+    "subtest": "WK",
+    "topic": "synonym",
+    "difficulty": 1,
+    "stem": {
+      "en": "<u>Brittle</u> most nearly means",
+      "es": "<u>Brittle</u> significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "flexible",
+        "es": "flexible"
+      },
+      {
+        "en": "easily broken",
+        "es": "quebradizo"
+      },
+      {
+        "en": "very heavy",
+        "es": "muy pesado"
+      },
+      {
+        "en": "shiny",
+        "es": "brillante"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Brittle describes a material that snaps or shatters rather than bending.",
+      "es": "\"Brittle\" describe un material que se rompe o se quiebra en lugar de doblarse."
+    },
+    "trap": {
+      "en": "\"Flexible\" is the opposite trap: brittle things break precisely because they cannot flex.",
+      "es": "\"Flexible\" es la trampa del opuesto: lo brittle se rompe precisamente porque no puede doblarse."
+    },
+    "strategyRef": "wk.opposites",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0010",
+    "subtest": "WK",
+    "topic": "context",
+    "difficulty": 1,
+    "stem": {
+      "en": "In the sentence \"The new scale is <u>accurate</u> to within one gram,\" accurate most nearly means",
+      "es": "En la oración «La nueva báscula es <u>accurate</u> con un margen de un gramo», accurate significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "expensive",
+        "es": "cara"
+      },
+      {
+        "en": "portable",
+        "es": "portátil"
+      },
+      {
+        "en": "precise",
+        "es": "precisa"
+      },
+      {
+        "en": "faulty",
+        "es": "defectuosa"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Accurate means correct and exact; \"within one gram\" describes how precise the scale is.",
+      "es": "\"Accurate\" significa correcta y exacta; \"con un margen de un gramo\" describe qué tan precisa es la báscula."
+    },
+    "trap": {
+      "en": "\"Faulty\" is the opposite trap; a scale that measures to within one gram is working well, not badly.",
+      "es": "\"Defectuosa\" es la trampa del opuesto; una báscula que mide con un margen de un gramo funciona bien, no mal."
+    },
+    "strategyRef": "wk.substitute",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0011",
+    "subtest": "WK",
+    "topic": "context",
+    "difficulty": 1,
+    "stem": {
+      "en": "In the sentence \"There is <u>ample</u> room in the truck for two more crates,\" ample most nearly means",
+      "es": "En la oración «Hay <u>ample</u> espacio en el camión para dos cajas más», ample significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "plenty of",
+        "es": "suficiente"
+      },
+      {
+        "en": "hardly any",
+        "es": "casi nada de"
+      },
+      {
+        "en": "hidden",
+        "es": "escondido"
+      },
+      {
+        "en": "cold",
+        "es": "frío"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Ample means more than enough; the truck can easily hold two more crates.",
+      "es": "\"Ample\" significa más que suficiente; el camión puede cargar fácilmente dos cajas más."
+    },
+    "trap": {
+      "en": "\"Hardly any\" is the opposite trap: if there were hardly any room, the crates would not fit.",
+      "es": "\"Casi nada de\" es la trampa del opuesto: si casi no hubiera espacio, las cajas no cabrían."
+    },
+    "strategyRef": "wk.opposites",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0012",
+    "subtest": "WK",
+    "topic": "prefix",
+    "difficulty": 1,
+    "stem": {
+      "en": "In the sentence \"The two clinics agreed to <u>collaborate</u> on the vaccination drive,\" collaborate most nearly means",
+      "es": "En la oración «Las dos clínicas acordaron <u>collaborate</u> en la campaña de vacunación», collaborate significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "compete",
+        "es": "competir"
+      },
+      {
+        "en": "delay",
+        "es": "demorar"
+      },
+      {
+        "en": "report",
+        "es": "informar"
+      },
+      {
+        "en": "work together",
+        "es": "trabajar juntas"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Co- (together) + labor (work): to work together on a shared task.",
+      "es": "Co- (junto) + labor (trabajo): trabajar en conjunto en una tarea común."
+    },
+    "trap": {
+      "en": "\"Compete\" is the opposite trap; the prefix co- signals joining, not rivalry.",
+      "es": "\"Competir\" es la trampa del opuesto; el prefijo co- indica unión, no rivalidad."
+    },
+    "strategyRef": "wk.root",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0013",
+    "subtest": "WK",
+    "topic": "root",
+    "difficulty": 1,
+    "stem": {
+      "en": "In the sentence \"As a <u>novice</u>, she asked the mechanic to double-check her work,\" novice most nearly means",
+      "es": "En la oración «Como <u>novice</u>, le pidió al mecánico que revisara su trabajo», novice significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "expert",
+        "es": "experta"
+      },
+      {
+        "en": "supervisor",
+        "es": "supervisora"
+      },
+      {
+        "en": "beginner",
+        "es": "principiante"
+      },
+      {
+        "en": "volunteer",
+        "es": "voluntaria"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Novice shares its root with \"new\" (nov-): someone new to an activity. Asking for a double-check fits a beginner.",
+      "es": "\"Novice\" comparte raíz con \"nuevo\" (nov-): alguien nuevo en una actividad. Pedir una revisión encaja con una principiante."
+    },
+    "trap": {
+      "en": "\"Expert\" is the opposite trap; an expert would not need her work double-checked.",
+      "es": "\"Experta\" es la trampa del opuesto; una experta no necesitaría que revisaran su trabajo."
+    },
+    "strategyRef": "wk.root",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0014",
+    "subtest": "WK",
+    "topic": "synonym",
+    "difficulty": 2,
+    "stem": {
+      "en": "<u>Candid</u> most nearly means",
+      "es": "<u>Candid</u> significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "secretive",
+        "es": "reservado"
+      },
+      {
+        "en": "honest",
+        "es": "franco"
+      },
+      {
+        "en": "nervous",
+        "es": "nervioso"
+      },
+      {
+        "en": "sweet",
+        "es": "dulce"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Candid means frank and truthful, saying what you really think.",
+      "es": "\"Candid\" significa franco y sincero, que dice lo que realmente piensa."
+    },
+    "trap": {
+      "en": "\"Sweet\" is the look-alike trap (candid resembles \"candy\"); \"secretive\" is the opposite.",
+      "es": "\"Dulce\" es la trampa del parecido (candid se parece a \"candy\"); \"reservado\" es el opuesto."
+    },
+    "strategyRef": "wk.substitute",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0015",
+    "subtest": "WK",
+    "topic": "synonym",
+    "difficulty": 2,
+    "stem": {
+      "en": "<u>Deter</u> most nearly means",
+      "es": "<u>Deter</u> significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "discourage",
+        "es": "disuadir"
+      },
+      {
+        "en": "encourage",
+        "es": "alentar"
+      },
+      {
+        "en": "decide",
+        "es": "decidir"
+      },
+      {
+        "en": "delay",
+        "es": "demorar"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "To deter is to discourage someone from acting, usually through fear of consequences.",
+      "es": "\"Deter\" es disuadir a alguien de actuar, generalmente por temor a las consecuencias."
+    },
+    "trap": {
+      "en": "\"Encourage\" is the opposite trap; de- signals pushing away, so eliminate the positive choice.",
+      "es": "\"Alentar\" es la trampa del opuesto; de- indica alejar, así que elimina la opción positiva."
+    },
+    "strategyRef": "wk.prefix-polarity",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0016",
+    "subtest": "WK",
+    "topic": "synonym",
+    "difficulty": 2,
+    "stem": {
+      "en": "<u>Feasible</u> most nearly means",
+      "es": "<u>Feasible</u> significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "impossible",
+        "es": "imposible"
+      },
+      {
+        "en": "costly",
+        "es": "costoso"
+      },
+      {
+        "en": "festive",
+        "es": "festivo"
+      },
+      {
+        "en": "possible",
+        "es": "posible"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Feasible means capable of being done or carried out.",
+      "es": "\"Feasible\" significa que se puede hacer o llevar a cabo."
+    },
+    "trap": {
+      "en": "\"Impossible\" is the opposite trap and \"festive\" the look-alike (feast); feasible is about whether a plan can work.",
+      "es": "\"Imposible\" es la trampa del opuesto y \"festivo\" la del parecido; feasible se refiere a si un plan puede funcionar."
+    },
+    "strategyRef": "wk.substitute",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0017",
+    "subtest": "WK",
+    "topic": "synonym",
+    "difficulty": 2,
+    "stem": {
+      "en": "<u>Hinder</u> most nearly means",
+      "es": "<u>Hinder</u> significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "assist",
+        "es": "ayudar"
+      },
+      {
+        "en": "obstruct",
+        "es": "obstaculizar"
+      },
+      {
+        "en": "locate",
+        "es": "localizar"
+      },
+      {
+        "en": "follow",
+        "es": "seguir"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "To hinder is to get in the way of something and slow it down.",
+      "es": "\"Hinder\" es estorbar algo y frenarlo."
+    },
+    "trap": {
+      "en": "\"Assist\" is the opposite trap; \"follow\" plays on \"behind,\" which hinder resembles but does not mean.",
+      "es": "\"Ayudar\" es la trampa del opuesto; \"seguir\" juega con \"behind\", a lo que hinder se parece pero no significa."
+    },
+    "strategyRef": "wk.opposites",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0018",
+    "subtest": "WK",
+    "topic": "synonym",
+    "difficulty": 2,
+    "stem": {
+      "en": "<u>Jeopardize</u> most nearly means",
+      "es": "<u>Jeopardize</u> significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "protect",
+        "es": "proteger"
+      },
+      {
+        "en": "celebrate",
+        "es": "celebrar"
+      },
+      {
+        "en": "endanger",
+        "es": "poner en peligro"
+      },
+      {
+        "en": "measure",
+        "es": "medir"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "To jeopardize is to put something at risk of harm or failure.",
+      "es": "\"Jeopardize\" es poner algo en riesgo de daño o fracaso."
+    },
+    "trap": {
+      "en": "\"Protect\" is the opposite trap: jeopardizing a mission exposes it to danger rather than shielding it.",
+      "es": "\"Proteger\" es la trampa del opuesto: jeopardize una misión la expone al peligro en lugar de resguardarla."
+    },
+    "strategyRef": "wk.substitute",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0019",
+    "subtest": "WK",
+    "topic": "synonym",
+    "difficulty": 2,
+    "stem": {
+      "en": "<u>Meticulous</u> most nearly means",
+      "es": "<u>Meticulous</u> significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "sloppy",
+        "es": "descuidado"
+      },
+      {
+        "en": "metallic",
+        "es": "metálico"
+      },
+      {
+        "en": "hurried",
+        "es": "apresurado"
+      },
+      {
+        "en": "very careful",
+        "es": "muy cuidadoso"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Meticulous describes extreme attention to detail.",
+      "es": "\"Meticulous\" describe una atención extrema a los detalles."
+    },
+    "trap": {
+      "en": "\"Metallic\" is the look-alike trap and \"sloppy\" the opposite; a meticulous mechanic checks every bolt.",
+      "es": "\"Metálico\" es la trampa del parecido y \"descuidado\" la del opuesto; un mecánico meticulous revisa cada tornillo."
+    },
+    "strategyRef": "wk.substitute",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0020",
+    "subtest": "WK",
+    "topic": "synonym",
+    "difficulty": 2,
+    "stem": {
+      "en": "<u>Obsolete</u> most nearly means",
+      "es": "<u>Obsolete</u> significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "outdated",
+        "es": "anticuado"
+      },
+      {
+        "en": "modern",
+        "es": "moderno"
+      },
+      {
+        "en": "obvious",
+        "es": "evidente"
+      },
+      {
+        "en": "fragile",
+        "es": "frágil"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Obsolete means no longer in use because something newer has replaced it.",
+      "es": "\"Obsolete\" significa que ya no se usa porque algo más nuevo lo reemplazó."
+    },
+    "trap": {
+      "en": "\"Modern\" is the opposite trap and \"obvious\" the look-alike; obsolete equipment is old, not clear.",
+      "es": "\"Moderno\" es la trampa del opuesto y \"evidente\" la del parecido; un equipo obsolete es viejo, no claro."
+    },
+    "strategyRef": "wk.opposites",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0021",
+    "subtest": "WK",
+    "topic": "synonym",
+    "difficulty": 2,
+    "stem": {
+      "en": "<u>Vigilant</u> most nearly means",
+      "es": "<u>Vigilant</u> significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "violent",
+        "es": "violento"
+      },
+      {
+        "en": "drowsy",
+        "es": "somnoliento"
+      },
+      {
+        "en": "watchful",
+        "es": "alerta"
+      },
+      {
+        "en": "generous",
+        "es": "generoso"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Vigilant comes from the Latin root for staying awake (vigil): keeping careful watch.",
+      "es": "\"Vigilant\" viene de la raíz latina de permanecer despierto (vigilia): mantenerse en guardia."
+    },
+    "trap": {
+      "en": "\"Violent\" is the look-alike trap and \"drowsy\" the opposite; a vigilant guard stays alert, not sleepy.",
+      "es": "\"Violento\" es la trampa del parecido y \"somnoliento\" la del opuesto; un guardia vigilant se mantiene alerta, no adormilado."
+    },
+    "strategyRef": "wk.root",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0022",
+    "subtest": "WK",
+    "topic": "synonym",
+    "difficulty": 2,
+    "stem": {
+      "en": "<u>Frugal</u> most nearly means",
+      "es": "<u>Frugal</u> significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "wasteful",
+        "es": "derrochador"
+      },
+      {
+        "en": "thrifty",
+        "es": "ahorrativo"
+      },
+      {
+        "en": "fruitful",
+        "es": "fructífero"
+      },
+      {
+        "en": "angry",
+        "es": "enojado"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Frugal means careful with money and resources, avoiding waste.",
+      "es": "\"Frugal\" significa cuidadoso con el dinero y los recursos, sin desperdiciar."
+    },
+    "trap": {
+      "en": "\"Wasteful\" is the opposite trap and \"fruitful\" the look-alike; frugal is about spending little.",
+      "es": "\"Derrochador\" es la trampa del opuesto y \"fructífero\" la del parecido; frugal se refiere a gastar poco."
+    },
+    "strategyRef": "wk.opposites",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0023",
+    "subtest": "WK",
+    "topic": "prefix",
+    "difficulty": 2,
+    "stem": {
+      "en": "<u>Concur</u> most nearly means",
+      "es": "<u>Concur</u> significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "compete",
+        "es": "competir"
+      },
+      {
+        "en": "conquer",
+        "es": "conquistar"
+      },
+      {
+        "en": "object",
+        "es": "objetar"
+      },
+      {
+        "en": "agree",
+        "es": "estar de acuerdo"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Con- (together) + cur (run): to run together in opinion, meaning to agree.",
+      "es": "Con- (junto) + cur (correr): ir en la misma dirección de opinión, es decir, estar de acuerdo."
+    },
+    "trap": {
+      "en": "\"Conquer\" is the look-alike trap and \"object\" the opposite; when doctors concur, they share the same view.",
+      "es": "\"Conquistar\" es la trampa del parecido y \"objetar\" la del opuesto; cuando los médicos concur, comparten la misma opinión."
+    },
+    "strategyRef": "wk.root",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0024",
+    "subtest": "WK",
+    "topic": "context",
+    "difficulty": 2,
+    "stem": {
+      "en": "In the sentence \"The supply room is <u>adjacent</u> to the motor pool, so pickups take only a minute,\" adjacent most nearly means",
+      "es": "En la oración «El almacén está <u>adjacent</u> al parque de vehículos, así que recoger material toma solo un minuto», adjacent significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "next",
+        "es": "junto"
+      },
+      {
+        "en": "far",
+        "es": "lejos"
+      },
+      {
+        "en": "similar",
+        "es": "parecido"
+      },
+      {
+        "en": "closed",
+        "es": "cerrado"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Adjacent means next to or adjoining; a one-minute pickup shows the rooms are side by side.",
+      "es": "\"Adjacent\" significa contiguo o junto a; que recoger tome un minuto muestra que los espacios están uno al lado del otro."
+    },
+    "trap": {
+      "en": "\"Far\" is the opposite trap and contradicts the clue \"only a minute.\"",
+      "es": "\"Lejos\" es la trampa del opuesto y contradice la pista \"solo un minuto\"."
+    },
+    "strategyRef": "wk.substitute",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0025",
+    "subtest": "WK",
+    "topic": "context",
+    "difficulty": 2,
+    "stem": {
+      "en": "In the sentence \"Safety training is <u>compulsory</u> for every new hire, without exception,\" compulsory most nearly means",
+      "es": "En la oración «La capacitación en seguridad es <u>compulsory</u> para cada empleado nuevo, sin excepción», compulsory significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "optional",
+        "es": "opcional"
+      },
+      {
+        "en": "expensive",
+        "es": "costosa"
+      },
+      {
+        "en": "required",
+        "es": "obligatoria"
+      },
+      {
+        "en": "difficult",
+        "es": "difícil"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Compulsory means required by rule; \"without exception\" removes any doubt.",
+      "es": "\"Compulsory\" significa exigida por una norma; \"sin excepción\" elimina cualquier duda."
+    },
+    "trap": {
+      "en": "\"Optional\" is the opposite trap; \"without exception\" means no one can skip it.",
+      "es": "\"Opcional\" es la trampa del opuesto; \"sin excepción\" significa que nadie puede saltársela."
+    },
+    "strategyRef": "wk.substitute",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0026",
+    "subtest": "WK",
+    "topic": "context",
+    "difficulty": 2,
+    "stem": {
+      "en": "In the sentence \"A <u>diligent</u> clerk noticed the missing signature before the file was sent,\" diligent most nearly means",
+      "es": "En la oración «Un empleado <u>diligent</u> notó la firma faltante antes de que se enviara el expediente», diligent significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "lazy",
+        "es": "perezoso"
+      },
+      {
+        "en": "hardworking",
+        "es": "aplicado"
+      },
+      {
+        "en": "angry",
+        "es": "enojado"
+      },
+      {
+        "en": "new",
+        "es": "nuevo"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Diligent means careful and persistent in work; catching a missing signature is what such a worker does.",
+      "es": "\"Diligent\" significa cuidadoso y constante en el trabajo; detectar una firma faltante es propio de ese tipo de empleado."
+    },
+    "trap": {
+      "en": "\"Lazy\" is the opposite trap; a lazy clerk would have let the file go out unsigned.",
+      "es": "\"Perezoso\" es la trampa del opuesto; un empleado perezoso habría dejado salir el expediente sin firma."
+    },
+    "strategyRef": "wk.substitute",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0027",
+    "subtest": "WK",
+    "topic": "context",
+    "difficulty": 2,
+    "stem": {
+      "en": "In the sentence \"The driver tried to <u>evade</u> the checkpoint by turning down a side street,\" evade most nearly means",
+      "es": "En la oración «El conductor intentó <u>evade</u> el retén tomando una calle lateral», evade significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "avoid",
+        "es": "evitar"
+      },
+      {
+        "en": "approach",
+        "es": "acercarse a"
+      },
+      {
+        "en": "inspect",
+        "es": "inspeccionar"
+      },
+      {
+        "en": "repair",
+        "es": "reparar"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Evade means to escape or avoid; turning away down a side street is an avoidance move.",
+      "es": "\"Evade\" significa escapar o evitar; desviarse por una calle lateral es una maniobra para evitar algo."
+    },
+    "trap": {
+      "en": "\"Approach\" is the opposite trap: turning down a side street moves away from the checkpoint, not toward it.",
+      "es": "\"Acercarse a\" es la trampa del opuesto: tomar una calle lateral aleja del retén, no acerca."
+    },
+    "strategyRef": "wk.substitute",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0028",
+    "subtest": "WK",
+    "topic": "context",
+    "difficulty": 2,
+    "stem": {
+      "en": "In the sentence \"Fuel prices <u>fluctuate</u> from week to week, so the budget includes a cushion,\" fluctuate most nearly means",
+      "es": "En la oración «Los precios del combustible <u>fluctuate</u> de una semana a otra, así que el presupuesto incluye un colchón», fluctuate significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "remain steady",
+        "es": "se mantienen estables"
+      },
+      {
+        "en": "fall",
+        "es": "bajan"
+      },
+      {
+        "en": "double",
+        "es": "se duplican"
+      },
+      {
+        "en": "rise and fall",
+        "es": "suben y bajan"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Fluctuate means to change irregularly; a cushion is needed because prices move up and down.",
+      "es": "\"Fluctuate\" significa cambiar de forma irregular; se necesita un colchón porque los precios suben y bajan."
+    },
+    "trap": {
+      "en": "\"Fall\" is the half-right trap: fluctuating prices go down and up, not only down; \"remain steady\" is the opposite.",
+      "es": "\"Bajan\" es la trampa de la media verdad: los precios que fluctuate bajan y suben, no solo bajan; \"se mantienen estables\" es el opuesto."
+    },
+    "strategyRef": "wk.substitute",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0029",
+    "subtest": "WK",
+    "topic": "prefix",
+    "difficulty": 2,
+    "stem": {
+      "en": "In the sentence \"With the tank nearly empty, running out of fuel was <u>inevitable</u>,\" inevitable most nearly means",
+      "es": "En la oración «Con el tanque casi vacío, quedarse sin combustible era <u>inevitable</u>», inevitable significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "unlikely",
+        "es": "improbable"
+      },
+      {
+        "en": "unfortunate",
+        "es": "lamentable"
+      },
+      {
+        "en": "unavoidable",
+        "es": "inevitable"
+      },
+      {
+        "en": "uncertain",
+        "es": "incierto"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "In- (not) + evitable (avoidable): certain to happen. An empty tank makes the outcome unavoidable.",
+      "es": "In- (no) + evitable: seguro que ocurrirá. Un tanque vacío hace el resultado inevitable."
+    },
+    "trap": {
+      "en": "\"Unlikely\" and \"uncertain\" are opposite traps; \"unfortunate\" matches the mood but not the meaning.",
+      "es": "\"Improbable\" e \"incierto\" son trampas del opuesto; \"lamentable\" coincide con el tono pero no con el significado."
+    },
+    "strategyRef": "wk.prefix-polarity",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0030",
+    "subtest": "WK",
+    "topic": "synonym",
+    "difficulty": 3,
+    "stem": {
+      "en": "<u>Abate</u> most nearly means",
+      "es": "<u>Abate</u> significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "intensify",
+        "es": "intensificarse"
+      },
+      {
+        "en": "lessen",
+        "es": "disminuir"
+      },
+      {
+        "en": "debate",
+        "es": "debatir"
+      },
+      {
+        "en": "begin",
+        "es": "comenzar"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Abate means to become less strong or widespread, as when a storm abates.",
+      "es": "\"Abate\" significa perder fuerza o extensión, como cuando una tormenta amaina."
+    },
+    "trap": {
+      "en": "\"Intensify\" is the opposite trap and \"debate\" the look-alike; abate is about fading, not arguing.",
+      "es": "\"Intensificarse\" es la trampa del opuesto y \"debatir\" la del parecido; abate se refiere a menguar, no a discutir."
+    },
+    "strategyRef": "wk.opposites",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0031",
+    "subtest": "WK",
+    "topic": "synonym",
+    "difficulty": 3,
+    "stem": {
+      "en": "<u>Elicit</u> most nearly means",
+      "es": "<u>Elicit</u> significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "forbid",
+        "es": "prohibir"
+      },
+      {
+        "en": "conceal",
+        "es": "ocultar"
+      },
+      {
+        "en": "elect",
+        "es": "elegir"
+      },
+      {
+        "en": "draw out",
+        "es": "provocar"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "E- (out) + licit (draw): to draw out a response, as a question elicits an answer.",
+      "es": "E- (fuera) + licit (sacar): hacer salir una respuesta, como una pregunta que elicit una respuesta."
+    },
+    "trap": {
+      "en": "\"Forbid\" is the sound-alike trap with \"illicit,\" and \"conceal\" is the opposite of drawing something out.",
+      "es": "\"Prohibir\" es la trampa del parecido con \"illicit\", y \"ocultar\" es lo contrario de hacer salir algo."
+    },
+    "strategyRef": "wk.root",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0032",
+    "subtest": "WK",
+    "topic": "synonym",
+    "difficulty": 3,
+    "stem": {
+      "en": "<u>Pragmatic</u> most nearly means",
+      "es": "<u>Pragmatic</u> significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "practical",
+        "es": "práctico"
+      },
+      {
+        "en": "idealistic",
+        "es": "idealista"
+      },
+      {
+        "en": "dramatic",
+        "es": "dramático"
+      },
+      {
+        "en": "stubborn",
+        "es": "terco"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Pragmatic means dealing with things realistically, based on what works rather than on theory.",
+      "es": "\"Pragmatic\" significa enfrentar las cosas de forma realista, según lo que funciona y no según la teoría."
+    },
+    "trap": {
+      "en": "\"Idealistic\" is the opposite trap and \"dramatic\" the look-alike; a pragmatic plan focuses on results.",
+      "es": "\"Idealista\" es la trampa del opuesto y \"dramático\" la del parecido; un plan pragmatic se enfoca en resultados."
+    },
+    "strategyRef": "wk.substitute",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0033",
+    "subtest": "WK",
+    "topic": "synonym",
+    "difficulty": 3,
+    "stem": {
+      "en": "<u>Scrutinize</u> most nearly means",
+      "es": "<u>Scrutinize</u> significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "skim",
+        "es": "hojear"
+      },
+      {
+        "en": "destroy",
+        "es": "destruir"
+      },
+      {
+        "en": "examine closely",
+        "es": "examinar con detenimiento"
+      },
+      {
+        "en": "approve",
+        "es": "aprobar"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "To scrutinize is to inspect something in great detail, looking for errors or clues.",
+      "es": "\"Scrutinize\" es inspeccionar algo con gran detalle, buscando errores o pistas."
+    },
+    "trap": {
+      "en": "\"Skim\" is the opposite trap: skimming is a quick glance, while scrutinizing is a slow, careful look.",
+      "es": "\"Hojear\" es la trampa del opuesto: hojear es una mirada rápida, mientras que scrutinize es un examen lento y cuidadoso."
+    },
+    "strategyRef": "wk.substitute",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0034",
+    "subtest": "WK",
+    "topic": "synonym",
+    "difficulty": 3,
+    "stem": {
+      "en": "<u>Zealous</u> most nearly means",
+      "es": "<u>Zealous</u> significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "indifferent",
+        "es": "indiferente"
+      },
+      {
+        "en": "jealous",
+        "es": "celoso"
+      },
+      {
+        "en": "cautious",
+        "es": "cauteloso"
+      },
+      {
+        "en": "passionate",
+        "es": "fervoroso"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Zealous means full of energy and enthusiasm for a cause.",
+      "es": "\"Zealous\" significa lleno de energía y entusiasmo por una causa."
+    },
+    "trap": {
+      "en": "\"Jealous\" is the look-alike trap and \"indifferent\" the opposite; zeal is intense devotion, not envy.",
+      "es": "\"Celoso\" es la trampa del parecido e \"indiferente\" la del opuesto; el celo es devoción intensa, no envidia."
+    },
+    "strategyRef": "wk.opposites",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0035",
+    "subtest": "WK",
+    "topic": "prefix",
+    "difficulty": 3,
+    "stem": {
+      "en": "In the sentence \"An <u>impartial</u> referee was brought in so neither team could complain,\" impartial most nearly means",
+      "es": "En la oración «Se trajo a un árbitro <u>impartial</u> para que ningún equipo pudiera quejarse», impartial significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "unbiased",
+        "es": "imparcial"
+      },
+      {
+        "en": "incomplete",
+        "es": "incompleto"
+      },
+      {
+        "en": "inexperienced",
+        "es": "inexperto"
+      },
+      {
+        "en": "prejudiced",
+        "es": "prejuiciado"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Im- (not) + partial (favoring one side): fair to both sides, which is why neither team could object.",
+      "es": "Im- (no) + partial (que favorece a un lado): justo con ambos lados, por eso ningún equipo podía objetar."
+    },
+    "trap": {
+      "en": "\"Incomplete\" is the part-of-a-word trap (partial = part); \"prejudiced\" is the opposite.",
+      "es": "\"Incompleto\" es la trampa de la parte de la palabra (partial = parte); \"prejuiciado\" es el opuesto."
+    },
+    "strategyRef": "wk.prefix-polarity",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0036",
+    "subtest": "WK",
+    "topic": "context",
+    "difficulty": 3,
+    "stem": {
+      "en": "In the sentence \"After the fever broke, the patient was <u>lucid</u> and could name the day and place,\" lucid most nearly means",
+      "es": "En la oración «Cuando bajó la fiebre, el paciente estaba <u>lucid</u> y podía decir el día y el lugar», lucid significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "exhausted",
+        "es": "agotado"
+      },
+      {
+        "en": "clear-headed",
+        "es": "lúcido"
+      },
+      {
+        "en": "feverish",
+        "es": "afiebrado"
+      },
+      {
+        "en": "silent",
+        "es": "callado"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Lucid means thinking clearly; naming the day and place proves the patient's mind was clear.",
+      "es": "\"Lucid\" significa que piensa con claridad; decir el día y el lugar demuestra que su mente estaba despejada."
+    },
+    "trap": {
+      "en": "\"Feverish\" is the context trap: the fever had already broken, so the sentence describes recovery, not illness.",
+      "es": "\"Afiebrado\" es la trampa del contexto: la fiebre ya había bajado, así que la oración describe recuperación, no enfermedad."
+    },
+    "strategyRef": "wk.substitute",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0037",
+    "subtest": "WK",
+    "topic": "context",
+    "difficulty": 3,
+    "stem": {
+      "en": "In the sentence \"Sandbags were stacked along the bank to <u>mitigate</u> flood damage,\" mitigate most nearly means",
+      "es": "En la oración «Se apilaron sacos de arena a lo largo de la orilla para <u>mitigate</u> los daños por inundación», mitigate significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "worsen",
+        "es": "empeorar"
+      },
+      {
+        "en": "measure",
+        "es": "medir"
+      },
+      {
+        "en": "reduce",
+        "es": "reducir"
+      },
+      {
+        "en": "predict",
+        "es": "predecir"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Mitigate means to make something less severe; sandbags lessen the damage a flood causes.",
+      "es": "\"Mitigate\" significa hacer algo menos grave; los sacos de arena reducen el daño que causa una inundación."
+    },
+    "trap": {
+      "en": "\"Worsen\" is the opposite trap; \"measure\" and \"predict\" are things you do before a flood, not what sandbags do.",
+      "es": "\"Empeorar\" es la trampa del opuesto; \"medir\" y \"predecir\" son cosas que se hacen antes de una inundación, no lo que hacen los sacos."
+    },
+    "strategyRef": "wk.substitute",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0038",
+    "subtest": "WK",
+    "topic": "context",
+    "difficulty": 3,
+    "stem": {
+      "en": "In the sentence \"It would be <u>prudent</u> to top off the tank before crossing the desert,\" prudent most nearly means",
+      "es": "En la oración «Sería <u>prudent</u> llenar el tanque antes de cruzar el desierto», prudent significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "wise",
+        "es": "sensato"
+      },
+      {
+        "en": "reckless",
+        "es": "imprudente"
+      },
+      {
+        "en": "proud",
+        "es": "orgulloso"
+      },
+      {
+        "en": "illegal",
+        "es": "ilegal"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Prudent means showing good judgment about the future; filling up before a long empty stretch is sensible.",
+      "es": "\"Prudent\" significa mostrar buen juicio sobre el futuro; llenar el tanque antes de un tramo largo y despoblado es sensato."
+    },
+    "trap": {
+      "en": "\"Proud\" is the look-alike trap and \"reckless\" the opposite; prudence is careful planning.",
+      "es": "\"Orgulloso\" es la trampa del parecido e \"imprudente\" la del opuesto; la prudencia es planificación cuidadosa."
+    },
+    "strategyRef": "wk.substitute",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0039",
+    "subtest": "WK",
+    "topic": "context",
+    "difficulty": 3,
+    "stem": {
+      "en": "In the sentence \"The second alarm is <u>redundant</u>, but it guarantees a warning if the first one fails,\" redundant most nearly means",
+      "es": "En la oración «La segunda alarma es <u>redundant</u>, pero garantiza un aviso si la primera falla», redundant significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "louder",
+        "es": "más fuerte"
+      },
+      {
+        "en": "essential",
+        "es": "esencial"
+      },
+      {
+        "en": "defective",
+        "es": "defectuosa"
+      },
+      {
+        "en": "duplicated",
+        "es": "duplicada"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Redundant means repeating something already provided; a backup alarm duplicates the first one's job.",
+      "es": "\"Redundant\" significa que repite algo que ya existe; una alarma de respaldo duplica la función de la primera."
+    },
+    "trap": {
+      "en": "\"Essential\" is the opposite trap: the sentence explains why a non-essential duplicate is still worth having.",
+      "es": "\"Esencial\" es la trampa del opuesto: la oración explica por qué un duplicado no esencial aun así vale la pena."
+    },
+    "strategyRef": "wk.substitute",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0040",
+    "subtest": "WK",
+    "topic": "context",
+    "difficulty": 3,
+    "stem": {
+      "en": "In the sentence \"Radio contact with the outpost was <u>sporadic</u>, with hours of silence between calls,\" sporadic most nearly means",
+      "es": "En la oración «El contacto por radio con el puesto era <u>sporadic</u>, con horas de silencio entre llamadas», sporadic significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "constant",
+        "es": "constante"
+      },
+      {
+        "en": "occasional",
+        "es": "ocasional"
+      },
+      {
+        "en": "clear",
+        "es": "claro"
+      },
+      {
+        "en": "secret",
+        "es": "secreto"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Sporadic means happening irregularly and infrequently; \"hours of silence between calls\" is the clue.",
+      "es": "\"Sporadic\" significa que ocurre de forma irregular y poco frecuente; \"horas de silencio entre llamadas\" es la pista."
+    },
+    "trap": {
+      "en": "\"Constant\" is the opposite trap and contradicts the long gaps described in the sentence.",
+      "es": "\"Constante\" es la trampa del opuesto y contradice las largas pausas que describe la oración."
+    },
+    "strategyRef": "wk.substitute",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0041",
+    "subtest": "WK",
+    "topic": "root",
+    "difficulty": 1,
+    "stem": {
+      "en": "<u>Portable</u> most nearly means",
+      "es": "<u>Portable</u> significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "easy to carry",
+        "es": "fácil de transportar"
+      },
+      {
+        "en": "expensive",
+        "es": "costoso"
+      },
+      {
+        "en": "broken",
+        "es": "roto"
+      },
+      {
+        "en": "temporary",
+        "es": "temporal"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The root \"port\" means to carry, as in transport and export; portable describes something that can be carried.",
+      "es": "La raíz \"port\" significa llevar, como en transport y export; portable describe algo que se puede llevar."
+    },
+    "trap": {
+      "en": "\"Temporary\" is tempting because portable things are often used briefly, but the word says nothing about time.",
+      "es": "\"Temporal\" tienta porque lo portátil suele usarse poco tiempo, pero la palabra no dice nada sobre el tiempo."
+    },
+    "strategyRef": "wk.root",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0042",
+    "subtest": "WK",
+    "topic": "root",
+    "difficulty": 2,
+    "stem": {
+      "en": "In the sentence \"The medic tested the <u>audible</u> alarm before the night shift,\" audible most nearly means",
+      "es": "En la oración «El médico probó la alarma <u>audible</u> antes del turno nocturno», audible significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "visible",
+        "es": "visible"
+      },
+      {
+        "en": "able to be heard",
+        "es": "que se puede oír"
+      },
+      {
+        "en": "silent",
+        "es": "silenciosa"
+      },
+      {
+        "en": "broken",
+        "es": "rota"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "The root \"aud\" means hear, as in audio and auditorium; an audible alarm is one that can be heard.",
+      "es": "La raíz \"aud\" significa oír, como en audio y auditorium; una alarma audible es la que se puede oír."
+    },
+    "trap": {
+      "en": "\"Visible\" is the trap for readers who confuse \"aud\" (hear) with \"vid\" (see).",
+      "es": "\"Visible\" es la trampa para quien confunde \"aud\" (oír) con \"vid\" (ver)."
+    },
+    "strategyRef": "wk.root",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0043",
+    "subtest": "WK",
+    "topic": "root",
+    "difficulty": 2,
+    "stem": {
+      "en": "<u>Chronic</u> most nearly means",
+      "es": "<u>Chronic</u> significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "sudden",
+        "es": "repentino"
+      },
+      {
+        "en": "painful",
+        "es": "doloroso"
+      },
+      {
+        "en": "long-lasting",
+        "es": "de larga duración"
+      },
+      {
+        "en": "curable",
+        "es": "curable"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "The root \"chron\" means time, as in chronology; a chronic problem continues over a long time.",
+      "es": "La raíz \"chron\" significa tiempo, como en chronology; un problema chronic continúa durante mucho tiempo."
+    },
+    "trap": {
+      "en": "\"Painful\" comes from hearing the word in medical contexts, but chronic describes duration, not intensity.",
+      "es": "\"Doloroso\" surge de oír la palabra en contextos médicos, pero chronic describe la duración, no la intensidad."
+    },
+    "strategyRef": "wk.root",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0044",
+    "subtest": "WK",
+    "topic": "root",
+    "difficulty": 3,
+    "stem": {
+      "en": "In the sentence \"Investigators found the pilot's account of the landing <u>credible</u>,\" credible most nearly means",
+      "es": "En la oración «Los investigadores consideraron <u>credible</u> el relato del piloto sobre el aterrizaje», credible significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "detailed",
+        "es": "detallado"
+      },
+      {
+        "en": "confusing",
+        "es": "confuso"
+      },
+      {
+        "en": "brief",
+        "es": "breve"
+      },
+      {
+        "en": "believable",
+        "es": "creíble"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "The root \"cred\" means believe, as in credit and incredible; a credible account is one that can be believed.",
+      "es": "La raíz \"cred\" significa creer, como en credit e incredible; un relato credible es uno que se puede creer."
+    },
+    "trap": {
+      "en": "\"Detailed\" fits the sentence loosely, but a story can be detailed and still false; the root points to belief.",
+      "es": "\"Detallado\" encaja vagamente, pero un relato puede ser detallado y aun así falso; la raíz apunta a creer."
+    },
+    "strategyRef": "wk.root",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0045",
+    "subtest": "WK",
+    "topic": "root",
+    "difficulty": 3,
+    "stem": {
+      "en": "<u>Benediction</u> most nearly means",
+      "es": "<u>Benediction</u> significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "a blessing",
+        "es": "una bendición"
+      },
+      {
+        "en": "a curse",
+        "es": "una maldición"
+      },
+      {
+        "en": "an argument",
+        "es": "una discusión"
+      },
+      {
+        "en": "a farewell",
+        "es": "una despedida"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "\"Bene\" means good and \"dict\" means speak, so a benediction is a good saying, that is, a blessing.",
+      "es": "\"Bene\" significa bien y \"dict\" significa decir, así que una benediction es un buen decir, es decir, una bendición."
+    },
+    "trap": {
+      "en": "\"A curse\" is the polarity trap; it would match a \"mal\" prefix, not \"bene.\"",
+      "es": "\"Una maldición\" es la trampa de polaridad; correspondería al prefijo \"mal\", no a \"bene\"."
+    },
+    "strategyRef": "wk.root",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0046",
+    "subtest": "WK",
+    "topic": "root",
+    "difficulty": 1,
+    "stem": {
+      "en": "<u>Spectator</u> most nearly means",
+      "es": "<u>Spectator</u> significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "a player",
+        "es": "un jugador"
+      },
+      {
+        "en": "an onlooker",
+        "es": "un espectador"
+      },
+      {
+        "en": "a coach",
+        "es": "un entrenador"
+      },
+      {
+        "en": "a referee",
+        "es": "un árbitro"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "The root \"spect\" means look, as in inspect and spectacles; a spectator is someone who watches.",
+      "es": "La raíz \"spect\" significa mirar, como en inspect y spectacles; un spectator es alguien que mira."
+    },
+    "trap": {
+      "en": "The other choices are all people at a game, but only the onlooker is defined by looking rather than taking part.",
+      "es": "Las otras opciones son personas en un partido, pero solo el espectador se define por mirar en lugar de participar."
+    },
+    "strategyRef": "wk.root",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0047",
+    "subtest": "WK",
+    "topic": "root",
+    "difficulty": 2,
+    "stem": {
+      "en": "<u>Vivid</u> most nearly means",
+      "es": "<u>Vivid</u> significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "faded",
+        "es": "apagado"
+      },
+      {
+        "en": "quiet",
+        "es": "silencioso"
+      },
+      {
+        "en": "lively",
+        "es": "vívido"
+      },
+      {
+        "en": "careful",
+        "es": "cuidadoso"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "The root \"viv\" means life, as in survive and revive; vivid colors or memories are full of life.",
+      "es": "La raíz \"viv\" significa vida, como en survive y revive; los colores o recuerdos vivid están llenos de vida."
+    },
+    "trap": {
+      "en": "\"Faded\" is the exact opposite; it is chosen by readers who guess from the sound of the word instead of its root.",
+      "es": "\"Apagado\" es justo lo contrario; lo eligen quienes adivinan por el sonido de la palabra y no por su raíz."
+    },
+    "strategyRef": "wk.root",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0048",
+    "subtest": "WK",
+    "topic": "prefix",
+    "difficulty": 1,
+    "stem": {
+      "en": "<u>Preview</u> most nearly means",
+      "es": "<u>Preview</u> significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "a final review",
+        "es": "una revisión final"
+      },
+      {
+        "en": "a long delay",
+        "es": "una larga demora"
+      },
+      {
+        "en": "a written summary",
+        "es": "un resumen escrito"
+      },
+      {
+        "en": "an early look",
+        "es": "una mirada anticipada"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "The prefix \"pre\" means before; a preview is a view given before the real thing.",
+      "es": "El prefijo \"pre\" significa antes; un preview es una vista que se ofrece antes de lo real."
+    },
+    "trap": {
+      "en": "\"A final review\" reverses the timing: \"pre\" points to before, not after.",
+      "es": "\"Una revisión final\" invierte el orden: \"pre\" apunta a antes, no a después."
+    },
+    "strategyRef": "wk.prefix-polarity",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0049",
+    "subtest": "WK",
+    "topic": "prefix",
+    "difficulty": 2,
+    "stem": {
+      "en": "In the sentence \"The clerk ruled the letter <u>irrelevant</u> to the case and set it aside,\" irrelevant most nearly means",
+      "es": "En la oración «El secretario declaró la carta <u>irrelevant</u> para el caso y la apartó», irrelevant significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "unrelated",
+        "es": "sin relación"
+      },
+      {
+        "en": "important",
+        "es": "importante"
+      },
+      {
+        "en": "urgent",
+        "es": "urgente"
+      },
+      {
+        "en": "confusing",
+        "es": "confusa"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The prefix \"ir\" is a form of \"in\" meaning not; irrelevant means not relevant, and setting the letter aside confirms it.",
+      "es": "El prefijo \"ir\" es una forma de \"in\" que significa no; irrelevant significa no relevante, y apartar la carta lo confirma."
+    },
+    "trap": {
+      "en": "\"Important\" is the polarity trap; the negative prefix flips relevant to its opposite.",
+      "es": "\"Importante\" es la trampa de polaridad; el prefijo negativo invierte relevant a su contrario."
+    },
+    "strategyRef": "wk.prefix-polarity",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0050",
+    "subtest": "WK",
+    "topic": "prefix",
+    "difficulty": 3,
+    "stem": {
+      "en": "<u>Circumvent</u> most nearly means",
+      "es": "<u>Circumvent</u> significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "to enclose",
+        "es": "encerrar"
+      },
+      {
+        "en": "to go around",
+        "es": "rodear"
+      },
+      {
+        "en": "to approve",
+        "es": "aprobar"
+      },
+      {
+        "en": "to shorten",
+        "es": "acortar"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "The prefix \"circum\" means around, as in circumference; to circumvent a rule is to get around it.",
+      "es": "El prefijo \"circum\" significa alrededor, como en circumference; circumvent una regla es rodearla, evitarla."
+    },
+    "trap": {
+      "en": "\"To enclose\" also involves a circle, but circumvent is about avoiding, not surrounding.",
+      "es": "\"Encerrar\" también implica un círculo, pero circumvent se trata de evitar, no de rodear por completo."
+    },
+    "strategyRef": "wk.prefix-polarity",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0051",
+    "subtest": "WK",
+    "topic": "suffix",
+    "difficulty": 1,
+    "stem": {
+      "en": "<u>Fearless</u> most nearly means",
+      "es": "<u>Fearless</u> significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "cautious",
+        "es": "cauteloso"
+      },
+      {
+        "en": "angry",
+        "es": "enojado"
+      },
+      {
+        "en": "brave",
+        "es": "valiente"
+      },
+      {
+        "en": "tired",
+        "es": "cansado"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "The suffix \"less\" means without; someone without fear is brave.",
+      "es": "El sufijo \"less\" significa sin; alguien sin miedo es valiente."
+    },
+    "trap": {
+      "en": "\"Cautious\" is chosen by readers who see \"fear\" and ignore the suffix that removes it.",
+      "es": "\"Cauteloso\" lo eligen quienes ven \"fear\" e ignoran el sufijo que lo elimina."
+    },
+    "strategyRef": "wk.root",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0052",
+    "subtest": "WK",
+    "topic": "suffix",
+    "difficulty": 2,
+    "stem": {
+      "en": "<u>Tireless</u> most nearly means",
+      "es": "<u>Tireless</u> significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "slow",
+        "es": "lento"
+      },
+      {
+        "en": "careless",
+        "es": "descuidado"
+      },
+      {
+        "en": "noisy",
+        "es": "ruidoso"
+      },
+      {
+        "en": "never growing weary",
+        "es": "que nunca se cansa"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "The suffix \"less\" means without; a tireless worker acts as if without tiredness.",
+      "es": "El sufijo \"less\" significa sin; un trabajador tireless actúa como si no tuviera cansancio."
+    },
+    "trap": {
+      "en": "\"Careless\" shares the suffix, but sharing an ending does not make two words synonyms.",
+      "es": "\"Descuidado\" comparte el sufijo, pero tener la misma terminación no hace sinónimas a dos palabras."
+    },
+    "strategyRef": "wk.root",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0053",
+    "subtest": "WK",
+    "topic": "suffix",
+    "difficulty": 2,
+    "stem": {
+      "en": "<u>Fortify</u> most nearly means",
+      "es": "<u>Fortify</u> significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "to strengthen",
+        "es": "fortalecer"
+      },
+      {
+        "en": "to abandon",
+        "es": "abandonar"
+      },
+      {
+        "en": "to measure",
+        "es": "medir"
+      },
+      {
+        "en": "to decorate",
+        "es": "decorar"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "The suffix \"ify\" means to make; with the root \"fort\" (strong), fortify means to make strong.",
+      "es": "El sufijo \"ify\" significa hacer; con la raíz \"fort\" (fuerte), fortify significa hacer fuerte."
+    },
+    "trap": {
+      "en": "\"To abandon\" is the opposite of what you do with a fort you want to keep.",
+      "es": "\"Abandonar\" es lo contrario de lo que se hace con un fuerte que se quiere conservar."
+    },
+    "strategyRef": "wk.root",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0054",
+    "subtest": "WK",
+    "topic": "suffix",
+    "difficulty": 2,
+    "stem": {
+      "en": "In the sentence \"The <u>durability</u> of the new boots impressed the inspectors,\" durability most nearly means",
+      "es": "En la oración «La <u>durability</u> de las botas nuevas impresionó a los inspectores», durability significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "price",
+        "es": "precio"
+      },
+      {
+        "en": "ability to last",
+        "es": "capacidad de durar"
+      },
+      {
+        "en": "color",
+        "es": "color"
+      },
+      {
+        "en": "weight",
+        "es": "peso"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "The suffix \"ability\" turns durable (able to endure) into a noun: the quality of lasting a long time.",
+      "es": "El sufijo \"ability\" convierte durable (capaz de resistir) en sustantivo: la cualidad de durar mucho tiempo."
+    },
+    "trap": {
+      "en": "\"Weight\" is a feature of boots, but the suffix and root point to endurance, not mass.",
+      "es": "\"Peso\" es una característica de las botas, pero el sufijo y la raíz apuntan a resistencia, no a masa."
+    },
+    "strategyRef": "wk.root",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0055",
+    "subtest": "WK",
+    "topic": "suffix",
+    "difficulty": 3,
+    "stem": {
+      "en": "<u>Tenacious</u> most nearly means",
+      "es": "<u>Tenacious</u> significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "fragile",
+        "es": "frágil"
+      },
+      {
+        "en": "generous",
+        "es": "generoso"
+      },
+      {
+        "en": "persistent",
+        "es": "persistente"
+      },
+      {
+        "en": "hesitant",
+        "es": "vacilante"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "The suffix \"acious\" means full of or inclined to; with \"ten\" (hold), tenacious means holding on firmly.",
+      "es": "El sufijo \"acious\" significa lleno de o inclinado a; con \"ten\" (sostener), tenacious significa aferrarse con firmeza."
+    },
+    "trap": {
+      "en": "\"Hesitant\" describes someone who lets go easily, the reverse of holding on.",
+      "es": "\"Vacilante\" describe a alguien que suelta con facilidad, lo contrario de aferrarse."
+    },
+    "strategyRef": "wk.root",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0056",
+    "subtest": "WK",
+    "topic": "suffix",
+    "difficulty": 3,
+    "stem": {
+      "en": "In the sentence \"The archivist decided to <u>humidify</u> the storage vault to protect the old maps,\" humidify most nearly means",
+      "es": "En la oración «El archivista decidió <u>humidify</u> la bóveda de almacenamiento para proteger los mapas antiguos», humidify significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "cool down",
+        "es": "enfriar"
+      },
+      {
+        "en": "clean out",
+        "es": "limpiar"
+      },
+      {
+        "en": "seal shut",
+        "es": "sellar"
+      },
+      {
+        "en": "add moisture to",
+        "es": "añadir humedad a"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "The suffix \"ify\" means to make; humidify means to make humid, that is, to add moisture.",
+      "es": "El sufijo \"ify\" significa hacer; humidify significa hacer húmedo, es decir, añadir humedad."
+    },
+    "trap": {
+      "en": "\"Seal shut\" sounds protective, but it ignores the root \"humid\" entirely.",
+      "es": "\"Sellar\" suena protector, pero ignora por completo la raíz \"humid\"."
+    },
+    "strategyRef": "wk.root",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0057",
+    "subtest": "WK",
+    "topic": "antonym",
+    "difficulty": 1,
+    "stem": {
+      "en": "<u>Expand</u> most nearly means the OPPOSITE of",
+      "es": "<u>Expand</u> significa casi lo CONTRARIO de"
+    },
+    "choices": [
+      {
+        "en": "shrink",
+        "es": "encoger"
+      },
+      {
+        "en": "grow",
+        "es": "crecer"
+      },
+      {
+        "en": "measure",
+        "es": "medir"
+      },
+      {
+        "en": "move",
+        "es": "mover"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Expand means to grow larger, so its opposite is to shrink.",
+      "es": "Expand significa crecer, así que su contrario es encoger."
+    },
+    "trap": {
+      "en": "\"Grow\" is a synonym; the stem asks for the OPPOSITE, so read the stem twice.",
+      "es": "\"Crecer\" es un sinónimo; el enunciado pide lo CONTRARIO, así que lee el enunciado dos veces."
+    },
+    "strategyRef": "wk.opposites",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0058",
+    "subtest": "WK",
+    "topic": "antonym",
+    "difficulty": 2,
+    "stem": {
+      "en": "In the sentence \"The trail became <u>steep</u> just below the summit,\" steep most nearly means the OPPOSITE of",
+      "es": "En la oración «El sendero se volvió <u>steep</u> justo debajo de la cima», steep significa casi lo CONTRARIO de"
+    },
+    "choices": [
+      {
+        "en": "rocky",
+        "es": "rocoso"
+      },
+      {
+        "en": "level",
+        "es": "llano"
+      },
+      {
+        "en": "narrow",
+        "es": "estrecho"
+      },
+      {
+        "en": "long",
+        "es": "largo"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Steep describes a sharp incline; a level path is its opposite.",
+      "es": "Steep describe una pendiente pronunciada; un camino llano es su contrario."
+    },
+    "trap": {
+      "en": "\"Rocky\" and \"narrow\" describe trails but do not contrast with slope.",
+      "es": "\"Rocoso\" y \"estrecho\" describen senderos, pero no contrastan con la pendiente."
+    },
+    "strategyRef": "wk.opposites",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0059",
+    "subtest": "WK",
+    "topic": "antonym",
+    "difficulty": 2,
+    "stem": {
+      "en": "<u>Timid</u> most nearly means the OPPOSITE of",
+      "es": "<u>Timid</u> significa casi lo CONTRARIO de"
+    },
+    "choices": [
+      {
+        "en": "shy",
+        "es": "tímido"
+      },
+      {
+        "en": "quiet",
+        "es": "callado"
+      },
+      {
+        "en": "bold",
+        "es": "audaz"
+      },
+      {
+        "en": "small",
+        "es": "pequeño"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Timid means lacking courage or confidence; bold is its opposite.",
+      "es": "Timid significa falto de valor o confianza; audaz es su contrario."
+    },
+    "trap": {
+      "en": "\"Shy\" is the synonym trap for readers who skip the word OPPOSITE.",
+      "es": "\"Tímido\" es la trampa del sinónimo para quien se salta la palabra CONTRARIO."
+    },
+    "strategyRef": "wk.opposites",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0060",
+    "subtest": "WK",
+    "topic": "antonym",
+    "difficulty": 3,
+    "stem": {
+      "en": "In the sentence \"Fresh water was <u>scarce</u> during the long drought,\" scarce most nearly means the OPPOSITE of",
+      "es": "En la oración «El agua dulce fue <u>scarce</u> durante la larga sequía», scarce significa casi lo CONTRARIO de"
+    },
+    "choices": [
+      {
+        "en": "rare",
+        "es": "escasa"
+      },
+      {
+        "en": "clean",
+        "es": "limpia"
+      },
+      {
+        "en": "warm",
+        "es": "tibia"
+      },
+      {
+        "en": "plentiful",
+        "es": "abundante"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Scarce means in short supply; plentiful is its opposite.",
+      "es": "Scarce significa que hay poca cantidad; abundante es su contrario."
+    },
+    "trap": {
+      "en": "\"Rare\" is the synonym trap; the stem asks for the opposite meaning.",
+      "es": "\"Escasa\" es la trampa del sinónimo; el enunciado pide el significado contrario."
+    },
+    "strategyRef": "wk.opposites",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0061",
+    "subtest": "WK",
+    "topic": "antonym",
+    "difficulty": 3,
+    "stem": {
+      "en": "<u>Hostile</u> most nearly means the OPPOSITE of",
+      "es": "<u>Hostile</u> significa casi lo CONTRARIO de"
+    },
+    "choices": [
+      {
+        "en": "friendly",
+        "es": "amistoso"
+      },
+      {
+        "en": "unfriendly",
+        "es": "poco amistoso"
+      },
+      {
+        "en": "distant",
+        "es": "distante"
+      },
+      {
+        "en": "brave",
+        "es": "valiente"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Hostile means unfriendly or antagonistic; friendly is its opposite.",
+      "es": "Hostile significa poco amistoso u opuesto; amistoso es su contrario."
+    },
+    "trap": {
+      "en": "\"Unfriendly\" is a synonym and the classic trap on an OPPOSITE item.",
+      "es": "\"Poco amistoso\" es un sinónimo y la trampa clásica en un ítem de CONTRARIO."
+    },
+    "strategyRef": "wk.opposites",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0062",
+    "subtest": "WK",
+    "topic": "antonym",
+    "difficulty": 1,
+    "stem": {
+      "en": "In the sentence \"The water in the cove was <u>calm</u> at dawn,\" calm most nearly means the OPPOSITE of",
+      "es": "En la oración «El agua de la ensenada estaba <u>calm</u> al amanecer», calm significa casi lo CONTRARIO de"
+    },
+    "choices": [
+      {
+        "en": "smooth",
+        "es": "tranquila"
+      },
+      {
+        "en": "rough",
+        "es": "agitada"
+      },
+      {
+        "en": "cold",
+        "es": "fría"
+      },
+      {
+        "en": "deep",
+        "es": "profunda"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Calm water is still; rough water is its opposite.",
+      "es": "El agua calm está quieta; el agua agitada es su contrario."
+    },
+    "trap": {
+      "en": "\"Smooth\" restates calm and is the synonym trap.",
+      "es": "\"Tranquila\" repite calm y es la trampa del sinónimo."
+    },
+    "strategyRef": "wk.opposites",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0063",
+    "subtest": "WK",
+    "topic": "multiple-meaning",
+    "difficulty": 1,
+    "stem": {
+      "en": "In the sentence \"The nurse will <u>monitor</u> the patient's pulse overnight,\" monitor most nearly means",
+      "es": "En la oración «La enfermera va a <u>monitor</u> el pulso del paciente durante la noche», monitor significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "a display screen",
+        "es": "una pantalla"
+      },
+      {
+        "en": "a recording",
+        "es": "una grabación"
+      },
+      {
+        "en": "watch closely",
+        "es": "vigilar de cerca"
+      },
+      {
+        "en": "repair",
+        "es": "reparar"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Here monitor is a verb meaning to keep watch over; the sentence needs an action the nurse performs.",
+      "es": "Aquí monitor es un verbo que significa vigilar; la oración necesita una acción que realiza la enfermera."
+    },
+    "trap": {
+      "en": "\"A display screen\" is the noun meaning of monitor, which cannot replace a verb in this sentence.",
+      "es": "\"Una pantalla\" es el significado sustantivo de monitor, que no puede sustituir a un verbo en esta oración."
+    },
+    "strategyRef": "wk.substitute",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0064",
+    "subtest": "WK",
+    "topic": "multiple-meaning",
+    "difficulty": 2,
+    "stem": {
+      "en": "In the sentence \"The captain asked for a <u>brief</u> on the weather before takeoff,\" brief most nearly means",
+      "es": "En la oración «El capitán pidió un <u>brief</u> sobre el clima antes del despegue», brief significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "a short time",
+        "es": "un momento corto"
+      },
+      {
+        "en": "a legal case",
+        "es": "un caso legal"
+      },
+      {
+        "en": "a pause",
+        "es": "una pausa"
+      },
+      {
+        "en": "a summary",
+        "es": "un resumen"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "As a noun in this context, brief means a short informational report; the captain wants a summary.",
+      "es": "Como sustantivo en este contexto, brief significa un informe corto; el capitán quiere un resumen."
+    },
+    "trap": {
+      "en": "\"A short time\" is the adjective sense of brief, which does not fit \"asked for a ___ on the weather.\"",
+      "es": "\"Un momento corto\" es el sentido adjetivo de brief, que no encaja en \"pidió un ___ sobre el clima\"."
+    },
+    "strategyRef": "wk.substitute",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0065",
+    "subtest": "WK",
+    "topic": "multiple-meaning",
+    "difficulty": 2,
+    "stem": {
+      "en": "In the sentence \"The mechanic used a <u>fine</u> wire to clear the clogged nozzle,\" fine most nearly means",
+      "es": "En la oración «El mecánico usó un alambre <u>fine</u> para destapar la boquilla obstruida», fine significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "very thin",
+        "es": "muy delgado"
+      },
+      {
+        "en": "excellent",
+        "es": "excelente"
+      },
+      {
+        "en": "a penalty",
+        "es": "una multa"
+      },
+      {
+        "en": "healthy",
+        "es": "saludable"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "A fine wire is a thin one; only a thin wire could fit into a clogged nozzle.",
+      "es": "Un alambre fine es uno delgado; solo un alambre delgado cabría en una boquilla obstruida."
+    },
+    "trap": {
+      "en": "\"Excellent\" is the everyday meaning of fine, but quality is not what lets a wire clear a nozzle.",
+      "es": "\"Excelente\" es el significado cotidiano de fine, pero la calidad no es lo que permite a un alambre destapar una boquilla."
+    },
+    "strategyRef": "wk.substitute",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0066",
+    "subtest": "WK",
+    "topic": "multiple-meaning",
+    "difficulty": 3,
+    "stem": {
+      "en": "In the sentence \"The council voted to <u>table</u> the proposal until next month,\" table most nearly means",
+      "es": "En la oración «El concejo votó por <u>table</u> la propuesta hasta el mes que viene», table significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "display",
+        "es": "exhibir"
+      },
+      {
+        "en": "postpone",
+        "es": "posponer"
+      },
+      {
+        "en": "approve",
+        "es": "aprobar"
+      },
+      {
+        "en": "furnish",
+        "es": "amueblar"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "As a verb in this sense, to table a proposal is to set it aside for later; \"until next month\" confirms a delay.",
+      "es": "Como verbo en este sentido, table una propuesta es dejarla para más tarde; \"hasta el mes que viene\" confirma la demora."
+    },
+    "trap": {
+      "en": "\"Approve\" contradicts the delay in the sentence; \"furnish\" comes from thinking of a table as furniture.",
+      "es": "\"Aprobar\" contradice la demora de la oración; \"amueblar\" surge de pensar en una mesa como mueble."
+    },
+    "strategyRef": "wk.substitute",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0067",
+    "subtest": "WK",
+    "topic": "multiple-meaning",
+    "difficulty": 3,
+    "stem": {
+      "en": "In the sentence \"The pharmacist chose to <u>tender</u> her resignation on Friday,\" tender most nearly means",
+      "es": "En la oración «La farmacéutica decidió <u>tender</u> su renuncia el viernes», tender significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "soft",
+        "es": "suave"
+      },
+      {
+        "en": "gentle",
+        "es": "delicado"
+      },
+      {
+        "en": "formally offer",
+        "es": "presentar formalmente"
+      },
+      {
+        "en": "sore",
+        "es": "adolorido"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "As a verb, to tender something is to present it formally; one tenders a resignation or a payment.",
+      "es": "Como verbo, tender algo es presentarlo formalmente; se tender una renuncia o un pago."
+    },
+    "trap": {
+      "en": "\"Soft\" and \"gentle\" are the adjective senses of tender and cannot follow \"chose to.\"",
+      "es": "\"Suave\" y \"delicado\" son los sentidos adjetivos de tender y no pueden seguir a \"decidió\"."
+    },
+    "strategyRef": "wk.substitute",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0068",
+    "subtest": "WK",
+    "topic": "multiple-meaning",
+    "difficulty": 1,
+    "stem": {
+      "en": "In the sentence \"The engineer asked us to <u>plant</u> the sensor firmly in the riverbank,\" plant most nearly means",
+      "es": "En la oración «El ingeniero nos pidió <u>plant</u> el sensor con firmeza en la orilla del río», plant significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "a factory",
+        "es": "una fábrica"
+      },
+      {
+        "en": "a green organism",
+        "es": "un organismo verde"
+      },
+      {
+        "en": "water",
+        "es": "regar"
+      },
+      {
+        "en": "place firmly",
+        "es": "colocar con firmeza"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Here plant is a verb meaning to set something firmly in place, which matches \"firmly in the riverbank.\"",
+      "es": "Aquí plant es un verbo que significa fijar algo en su lugar, lo que coincide con \"con firmeza en la orilla\"."
+    },
+    "trap": {
+      "en": "\"A factory\" and \"a green organism\" are noun meanings of plant and cannot replace the verb.",
+      "es": "\"Una fábrica\" y \"un organismo verde\" son significados sustantivos de plant y no pueden sustituir al verbo."
+    },
+    "strategyRef": "wk.substitute",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0069",
+    "subtest": "WK",
+    "topic": "synonym",
+    "difficulty": 1,
+    "stem": {
+      "en": "<u>Vacant</u> most nearly means",
+      "es": "<u>Vacant</u> significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "empty",
+        "es": "vacío"
+      },
+      {
+        "en": "crowded",
+        "es": "lleno de gente"
+      },
+      {
+        "en": "noisy",
+        "es": "ruidoso"
+      },
+      {
+        "en": "clean",
+        "es": "limpio"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Vacant means unoccupied or empty, as in a vacant seat or lot.",
+      "es": "Vacant significa desocupado o vacío, como un asiento o terreno vacant."
+    },
+    "trap": {
+      "en": "\"Crowded\" is the direct opposite and is picked by guessers who ignore the \"vac\" (empty) root.",
+      "es": "\"Lleno de gente\" es el opuesto directo y lo eligen quienes ignoran la raíz \"vac\" (vacío)."
+    },
+    "strategyRef": "wk.substitute",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0070",
+    "subtest": "WK",
+    "topic": "synonym",
+    "difficulty": 2,
+    "stem": {
+      "en": "<u>Sparse</u> most nearly means",
+      "es": "<u>Sparse</u> significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "dense",
+        "es": "denso"
+      },
+      {
+        "en": "thinly scattered",
+        "es": "escaso y disperso"
+      },
+      {
+        "en": "bright",
+        "es": "brillante"
+      },
+      {
+        "en": "heavy",
+        "es": "pesado"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Sparse means present only in small, widely spaced amounts, as in sparse vegetation.",
+      "es": "Sparse significa presente solo en cantidades pequeñas y muy separadas, como la vegetación sparse."
+    },
+    "trap": {
+      "en": "\"Dense\" is the opposite trap; sparse trees are few and far apart, not packed together.",
+      "es": "\"Denso\" es la trampa del opuesto; los árboles sparse son pocos y distantes, no apretados."
+    },
+    "strategyRef": "wk.substitute",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0071",
+    "subtest": "WK",
+    "topic": "synonym",
+    "difficulty": 2,
+    "stem": {
+      "en": "<u>Rigid</u> most nearly means",
+      "es": "<u>Rigid</u> significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "flexible",
+        "es": "flexible"
+      },
+      {
+        "en": "rusty",
+        "es": "oxidado"
+      },
+      {
+        "en": "stiff",
+        "es": "rígido"
+      },
+      {
+        "en": "heavy",
+        "es": "pesado"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Rigid means unable to bend; a rigid rod or a rigid rule does not give way.",
+      "es": "Rigid significa que no se dobla; una barra o una regla rigid no cede."
+    },
+    "trap": {
+      "en": "\"Flexible\" is the opposite; \"heavy\" describes weight, not stiffness.",
+      "es": "\"Flexible\" es lo contrario; \"pesado\" describe peso, no rigidez."
+    },
+    "strategyRef": "wk.substitute",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0072",
+    "subtest": "WK",
+    "topic": "synonym",
+    "difficulty": 3,
+    "stem": {
+      "en": "<u>Conspicuous</u> most nearly means",
+      "es": "<u>Conspicuous</u> significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "hidden",
+        "es": "oculto"
+      },
+      {
+        "en": "expensive",
+        "es": "costoso"
+      },
+      {
+        "en": "fragile",
+        "es": "frágil"
+      },
+      {
+        "en": "easily noticed",
+        "es": "fácil de notar"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Conspicuous means standing out so that it is easily seen, as in a conspicuous orange vest.",
+      "es": "Conspicuous significa que resalta y se ve con facilidad, como un chaleco naranja conspicuous."
+    },
+    "trap": {
+      "en": "\"Hidden\" is the opposite; something conspicuous cannot be missed.",
+      "es": "\"Oculto\" es lo contrario; algo conspicuous no puede pasar desapercibido."
+    },
+    "strategyRef": "wk.substitute",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0073",
+    "subtest": "WK",
+    "topic": "synonym",
+    "difficulty": 3,
+    "stem": {
+      "en": "<u>Ambiguous</u> most nearly means",
+      "es": "<u>Ambiguous</u> significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "unclear",
+        "es": "poco claro"
+      },
+      {
+        "en": "obvious",
+        "es": "obvio"
+      },
+      {
+        "en": "lengthy",
+        "es": "extenso"
+      },
+      {
+        "en": "harmful",
+        "es": "dañino"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Ambiguous means open to more than one interpretation, so the meaning is unclear.",
+      "es": "Ambiguous significa que admite más de una interpretación, por lo que el significado es poco claro."
+    },
+    "trap": {
+      "en": "\"Obvious\" is the opposite trap; an obvious statement has only one reading.",
+      "es": "\"Obvio\" es la trampa del opuesto; una afirmación obvia tiene una sola lectura."
+    },
+    "strategyRef": "wk.substitute",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0074",
+    "subtest": "WK",
+    "topic": "synonym",
+    "difficulty": 1,
+    "stem": {
+      "en": "<u>Swift</u> most nearly means",
+      "es": "<u>Swift</u> significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "gentle",
+        "es": "suave"
+      },
+      {
+        "en": "fast",
+        "es": "rápido"
+      },
+      {
+        "en": "late",
+        "es": "tardío"
+      },
+      {
+        "en": "heavy",
+        "es": "pesado"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Swift means moving or happening quickly, as in a swift reply.",
+      "es": "Swift significa que se mueve u ocurre rápidamente, como una respuesta swift."
+    },
+    "trap": {
+      "en": "\"Late\" is the opposite; a swift reply arrives early, not late.",
+      "es": "\"Tardío\" es lo contrario; una respuesta swift llega pronto, no tarde."
+    },
+    "strategyRef": "wk.substitute",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0075",
+    "subtest": "WK",
+    "topic": "context",
+    "difficulty": 1,
+    "stem": {
+      "en": "In the sentence \"The recruits were <u>drenched</u> after marching through the thunderstorm,\" drenched most nearly means",
+      "es": "En la oración «Los reclutas quedaron <u>drenched</u> después de marchar bajo la tormenta», drenched significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "exhausted",
+        "es": "agotados"
+      },
+      {
+        "en": "cold",
+        "es": "con frío"
+      },
+      {
+        "en": "soaked",
+        "es": "empapados"
+      },
+      {
+        "en": "lost",
+        "es": "perdidos"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Drenched means thoroughly wet; marching through a thunderstorm is the clue.",
+      "es": "Drenched significa completamente mojado; marchar bajo una tormenta es la pista."
+    },
+    "trap": {
+      "en": "\"Exhausted\" fits the situation but not the word, which is about water, not fatigue.",
+      "es": "\"Agotados\" encaja con la situación pero no con la palabra, que se refiere al agua, no al cansancio."
+    },
+    "strategyRef": "wk.substitute",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0076",
+    "subtest": "WK",
+    "topic": "context",
+    "difficulty": 2,
+    "stem": {
+      "en": "In the sentence \"The engine's <u>persistent</u> rattle finally forced us to pull over,\" persistent most nearly means",
+      "es": "En la oración «El traqueteo <u>persistent</u> del motor finalmente nos obligó a orillarnos», persistent significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "loud",
+        "es": "fuerte"
+      },
+      {
+        "en": "faint",
+        "es": "leve"
+      },
+      {
+        "en": "sudden",
+        "es": "repentino"
+      },
+      {
+        "en": "continuing",
+        "es": "continuo"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Persistent means continuing without stopping; \"finally forced us\" shows the rattle went on for a long time.",
+      "es": "Persistent significa que continúa sin parar; \"finalmente nos obligó\" muestra que el traqueteo duró mucho tiempo."
+    },
+    "trap": {
+      "en": "\"Loud\" is a reasonable guess about a rattle, but the sentence stresses duration, not volume.",
+      "es": "\"Fuerte\" es una suposición razonable sobre un traqueteo, pero la oración destaca la duración, no el volumen."
+    },
+    "strategyRef": "wk.substitute",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0077",
+    "subtest": "WK",
+    "topic": "context",
+    "difficulty": 2,
+    "stem": {
+      "en": "In the sentence \"Her <u>industrious</u> study each evening paid off with a top score,\" industrious most nearly means",
+      "es": "En la oración «Su estudio <u>industrious</u> cada tarde dio fruto con una calificación máxima», industrious significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "hard-working",
+        "es": "esforzado"
+      },
+      {
+        "en": "lucky",
+        "es": "afortunado"
+      },
+      {
+        "en": "brief",
+        "es": "breve"
+      },
+      {
+        "en": "casual",
+        "es": "relajado"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Industrious means hard-working and persistent; studying every evening is the clue.",
+      "es": "Industrious significa trabajador y constante; estudiar cada tarde es la pista."
+    },
+    "trap": {
+      "en": "\"Lucky\" explains a top score in a different way, but luck is not a way to describe study.",
+      "es": "\"Afortunado\" explica una calificación máxima de otra manera, pero la suerte no describe el estudio."
+    },
+    "strategyRef": "wk.substitute",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0078",
+    "subtest": "WK",
+    "topic": "context",
+    "difficulty": 3,
+    "stem": {
+      "en": "In the sentence \"The supply officer's <u>economical</u> habits kept the unit under budget all year,\" economical most nearly means",
+      "es": "En la oración «Los hábitos <u>economical</u> del oficial de suministros mantuvieron a la unidad bajo presupuesto todo el año», economical significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "wasteful",
+        "es": "derrochador"
+      },
+      {
+        "en": "thrifty",
+        "es": "ahorrativo"
+      },
+      {
+        "en": "strict",
+        "es": "estricto"
+      },
+      {
+        "en": "lazy",
+        "es": "perezoso"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Economical means avoiding waste and careful about spending; staying under budget is the clue.",
+      "es": "Economical significa que evita el desperdicio y cuida el gasto; mantenerse bajo presupuesto es la pista."
+    },
+    "trap": {
+      "en": "\"Strict\" fits an officer, but the sentence is about money, and strictness alone does not save it.",
+      "es": "\"Estricto\" encaja con un oficial, pero la oración trata de dinero, y la rigidez por sí sola no lo ahorra."
+    },
+    "strategyRef": "wk.substitute",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0079",
+    "subtest": "WK",
+    "topic": "context",
+    "difficulty": 3,
+    "stem": {
+      "en": "In the sentence \"The <u>precarious</u> stack of crates swayed with every bump in the road,\" precarious most nearly means",
+      "es": "En la oración «La pila <u>precarious</u> de cajas se tambaleaba con cada bache del camino», precarious significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "heavy",
+        "es": "pesada"
+      },
+      {
+        "en": "tall",
+        "es": "alta"
+      },
+      {
+        "en": "unstable",
+        "es": "inestable"
+      },
+      {
+        "en": "valuable",
+        "es": "valiosa"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Precarious means likely to fall or collapse; swaying with every bump is the clue.",
+      "es": "Precarious significa que puede caerse o derrumbarse; tambalearse con cada bache es la pista."
+    },
+    "trap": {
+      "en": "\"Tall\" may cause swaying but describes height, not the danger the sentence emphasizes.",
+      "es": "\"Alta\" puede causar el tambaleo, pero describe la altura, no el peligro que destaca la oración."
+    },
+    "strategyRef": "wk.substitute",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "wk-0080",
+    "subtest": "WK",
+    "topic": "context",
+    "difficulty": 1,
+    "stem": {
+      "en": "In the sentence \"The instructor gave such a <u>vague</u> answer that we had to ask again,\" vague most nearly means",
+      "es": "En la oración «El instructor dio una respuesta tan <u>vague</u> que tuvimos que preguntar de nuevo», vague significa casi lo mismo que"
+    },
+    "choices": [
+      {
+        "en": "rude",
+        "es": "grosera"
+      },
+      {
+        "en": "loud",
+        "es": "ruidosa"
+      },
+      {
+        "en": "long",
+        "es": "larga"
+      },
+      {
+        "en": "unclear",
+        "es": "imprecisa"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Vague means not clear or specific; having to ask again is the clue.",
+      "es": "Vague significa poco claro o poco específico; tener que preguntar de nuevo es la pista."
+    },
+    "trap": {
+      "en": "\"Rude\" would also make someone ask again, but rudeness is about manner, not clarity.",
+      "es": "\"Grosera\" también haría que alguien preguntara de nuevo, pero la grosería es cuestión de trato, no de claridad."
+    },
+    "strategyRef": "wk.substitute",
+    "source": "original",
+    "version": 1
+  }
+]

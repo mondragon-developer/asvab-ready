@@ -1,0 +1,362 @@
+{
+ "general": {
+  "en": [
+   "The first five questions of each subtest set your difficulty path — give them extra care.",
+   "Never skip, never leave blank: a single wrong guess costs nothing.",
+   "Avoid strings of wrong answers; if stuck for 1–2 minutes, eliminate and move on.",
+   "Budget time so you never speed-guess the last 3–4 items — that is the case the scoring penalizes.",
+   "Hard questions mean you are doing well; the test converges everyone to about 50 % correct.",
+   "Elimination: drop absolutes (\"always\", \"never\"); when two choices are opposites one is usually right; two choices that mean the same thing are both wrong; otherwise always guess the same letter."
+  ],
+  "es": [
+   "Las primeras cinco preguntas de cada subprueba fijan tu ruta de dificultad: dales cuidado extra.",
+   "Nunca saltes ni dejes en blanco: un solo fallo al adivinar no cuesta nada.",
+   "Evita rachas de fallos; si te atascas 1–2 minutos, elimina y sigue.",
+   "Administra el tiempo para no adivinar a toda prisa los últimos 3–4 ítems: ese es el caso que la puntuación penaliza.",
+   "Las preguntas difíciles significan que vas bien; el examen lleva a todos a ~50 % de aciertos.",
+   "Eliminación: descarta absolutos (\"siempre\", \"nunca\"); si dos opciones son opuestas una suele ser correcta; dos opciones que significan lo mismo están ambas mal; si no, adivina siempre la misma letra."
+  ]
+ },
+ "cheatsheets": [
+  {
+   "code": "WK",
+   "label": "WK",
+   "tips": {
+    "en": [
+     "Break the word: prefix + root + suffix (bene- good, mal- bad, -less without).",
+     "Guess polarity from the prefix and drop opposite-polarity choices.",
+     "Substitute each choice into the sentence; the right one reads naturally.",
+     "Budget: 36 s per word. Know it or guess and move."
+    ],
+    "es": [
+     "Descompón la palabra: prefijo + raíz + sufijo (bene- bien, mal- mal, -less sin).",
+     "Adivina la polaridad por el prefijo y descarta las opciones de polaridad opuesta.",
+     "Sustituye cada opción en la oración; la correcta suena natural.",
+     "Presupuesto: 36 s por palabra. La sabes o adivinas y sigues."
+    ]
+   }
+  },
+  {
+   "code": "PC",
+   "label": "PC",
+   "tips": {
+    "en": [
+     "Read the question first, then the passage with that job in mind.",
+     "Four types: main idea, detail, inference, vocabulary in context.",
+     "Traps: too specific / too general, outside knowledge, \"NOT / EXCEPT\" stems.",
+     "Inference test: \"Would the author agree, using only what is written?\""
+    ],
+    "es": [
+     "Lee la pregunta primero y luego el pasaje con esa tarea en mente.",
+     "Cuatro tipos: idea principal, detalle, inferencia, vocabulario en contexto.",
+     "Trampas: demasiado específico / general, conocimiento externo, enunciados con \"NOT / EXCEPT\".",
+     "Prueba de inferencia: \"¿Estaría de acuerdo el autor usando solo lo escrito?\""
+    ]
+   }
+  },
+  {
+   "code": "AR",
+   "label": "AR",
+   "tips": {
+    "en": [
+     "WANT · HAVE · CONNECT before any arithmetic.",
+     "Five formulas cover most items: d = rt, part = % × whole, proportions, area, average.",
+     "Backsolve from choice B or C.",
+     "\"5 less than x\" = x − 5. Check that the answer is what was asked, not an intermediate."
+    ],
+    "es": [
+     "QUIERO · TENGO · CONECTO antes de cualquier cálculo.",
+     "Cinco fórmulas cubren casi todo: d = vt, parte = % × total, proporciones, área, promedio.",
+     "Sustituye desde la opción B o C.",
+     "\"5 menos que x\" = x − 5. Verifica que la respuesta sea lo pedido, no un valor intermedio."
+    ]
+   }
+  },
+  {
+   "code": "MK",
+   "label": "MK",
+   "tips": {
+    "en": [
+     "Memorize the formula card: areas, volumes, a²+b²=c², slope, exponent rules, quadratic.",
+     "Pick numbers for variable answers (2, 3, 10 — never 0, 1, −1).",
+     "Traps: distributing negatives, both roots of x²=9, radius vs diameter, flipping inequalities."
+    ],
+    "es": [
+     "Memoriza la tarjeta de fórmulas: áreas, volúmenes, a²+b²=c², pendiente, exponentes, cuadrática.",
+     "Elige números para respuestas con variables (2, 3, 10 — nunca 0, 1, −1).",
+     "Trampas: distribuir negativos, ambas raíces de x²=9, radio vs diámetro, invertir desigualdades."
+    ]
+   }
+  },
+  {
+   "code": "GS",
+   "label": "GS",
+   "tips": {
+    "en": [
+     "One flashcard per fact: GS is 300 small facts.",
+     "Unit trap: read the unit before the number.",
+     "Mnemonics: King Philip Came Over For Good Soup; My Very Educated Mother Just Served Us Nachos."
+    ],
+    "es": [
+     "Una tarjeta por dato: GS son 300 datos pequeños.",
+     "Trampa de unidades: lee la unidad antes que el número.",
+     "Mnemotecnias: reino → especie; orden de los planetas."
+    ]
+   }
+  },
+  {
+   "code": "EI",
+   "label": "EI",
+   "tips": {
+    "en": [
+     "V = IR and P = VI; the triangle prevents multiply/divide errors.",
+     "Series: same current, resistances add. Parallel: same voltage, total shrinks.",
+     "Diode one-way; capacitor stores, passes AC; inductor resists change; transformer AC only."
+    ],
+    "es": [
+     "V = IR y P = VI; el triángulo evita errores de multiplicar/dividir.",
+     "Serie: misma corriente, las resistencias se suman. Paralelo: mismo voltaje, el total se reduce.",
+     "Diodo de un solo sentido; capacitor almacena y deja pasar CA; inductor resiste cambios; transformador solo CA."
+    ]
+   }
+  },
+  {
+   "code": "AS",
+   "label": "AI · SI",
+   "tips": {
+    "en": [
+     "Four-stroke: intake, compression, power, exhaust. Diesel ignites by compression.",
+     "Tools: infer the use from the shape; eliminate tools from the wrong material domain.",
+     "Welding melts the base metal; brazing and soldering only add filler."
+    ],
+    "es": [
+     "Cuatro tiempos: admisión, compresión, explosión, escape. El diésel enciende por compresión.",
+     "Herramientas: deduce el uso por la forma; elimina las del material equivocado.",
+     "Soldar por fusión funde el metal base; la soldadura fuerte y blanda solo añaden aporte."
+    ]
+   }
+  },
+  {
+   "code": "MC",
+   "label": "MC",
+   "tips": {
+    "en": [
+     "MA = load ÷ effort = effort arm ÷ load arm. Sketch the lever.",
+     "Pulleys: MA = supporting rope segments; a fixed pulley only changes direction.",
+     "Gears: ratio = driven ÷ driver teeth; meshed gears reverse; less effort never means less work."
+    ],
+    "es": [
+     "VM = carga ÷ esfuerzo = brazo de esfuerzo ÷ brazo de carga. Dibuja la palanca.",
+     "Poleas: VM = segmentos de cuerda que sostienen; la polea fija solo cambia la dirección.",
+     "Engranajes: relación = dientes conducido ÷ motriz; los engranajes engranados giran al revés; menos esfuerzo nunca es menos trabajo."
+    ]
+   }
+  },
+  {
+   "code": "AO",
+   "label": "AO",
+   "tips": {
+    "en": [
+     "Rotations are allowed; mirror images never are — a flipped piece kills the choice.",
+     "Connectors: check exactly where the dot sits and where the line enters.",
+     "Puzzles: pick the oddest piece and scan all four choices for it."
+    ],
+    "es": [
+     "Se permiten rotaciones; las imágenes en espejo nunca — una pieza volteada elimina la opción.",
+     "Conectores: revisa exactamente dónde está el punto y por dónde entra la línea.",
+     "Rompecabezas: elige la pieza más rara y búscala en las cuatro opciones."
+    ]
+   }
+  }
+ ],
+ "tips": {
+  "wk.substitute": {
+   "en": "Substitute each choice into the sentence; the right one reads naturally.",
+   "es": "Sustituye cada opción en la oración; la correcta suena natural."
+  },
+  "wk.opposites": {
+   "en": "When two choices are opposites, one of them is usually right — decide between those two first.",
+   "es": "Cuando dos opciones son opuestas, una suele ser la correcta: decide primero entre esas dos."
+  },
+  "wk.root": {
+   "en": "Break the word into root, prefix and suffix; the root carries the meaning.",
+   "es": "Divide la palabra en raíz, prefijo y sufijo; la raíz lleva el significado."
+  },
+  "wk.prefix-polarity": {
+   "en": "Guess polarity from the prefix (bene- good, mal- bad, dis-/un- not) and drop the opposite-polarity choices.",
+   "es": "Adivina la polaridad por el prefijo (bene- bien, mal- mal, dis-/un- no) y descarta las opciones de polaridad opuesta."
+  },
+  "pc.question-first": {
+   "en": "Read the question before the passage, then hunt for the one sentence that answers it.",
+   "es": "Lee la pregunta antes del pasaje y busca la oración que la responde."
+  },
+  "pc.main-idea": {
+   "en": "The main idea is what every sentence supports — reject choices that are too specific or too broad.",
+   "es": "La idea principal es lo que todas las oraciones apoyan: descarta opciones demasiado específicas o demasiado amplias."
+  },
+  "pc.inference": {
+   "en": "Ask: would the author agree, using only what is written? Choices that add outside facts are wrong.",
+   "es": "Pregúntate: ¿estaría de acuerdo el autor usando solo lo escrito? Las opciones que añaden datos externos están mal."
+  },
+  "pc.vocab-in-context": {
+   "en": "The right meaning can replace the word in the sentence without changing it.",
+   "es": "El significado correcto puede reemplazar la palabra en la oración sin cambiarla."
+  },
+  "pc.negative-stem": {
+   "en": "NOT / EXCEPT stems reverse the task: three choices are true; find the one that is not.",
+   "es": "Los enunciados NOT / EXCEPT invierten la tarea: tres opciones son ciertas; busca la que no."
+  },
+  "ar.want-have-connect": {
+   "en": "WANT (what is asked) · HAVE (what is given) · CONNECT (the formula). Write the three before computing.",
+   "es": "QUIERO (lo pedido) · TENGO (lo dado) · CONECTO (la fórmula). Escribe los tres antes de calcular."
+  },
+  "ar.intermediate-value": {
+   "en": "Reread the last sentence: the intermediate number you computed is usually one of the choices.",
+   "es": "Relee la última oración: el número intermedio que calculaste suele ser una de las opciones."
+  },
+  "ar.backsolve": {
+   "en": "Plug the choices in, starting with B or C, then go higher or lower.",
+   "es": "Sustituye las opciones empezando por B o C, y luego sube o baja."
+  },
+  "ar.signal-words": {
+   "en": "\"5 less than x\" = x − 5; \"of\" = ×; \"per\" = ÷; \"how many times\" = ÷.",
+   "es": "\"5 menos que x\" = x − 5; \"de\" = ×; \"por\" = ÷; \"cuántas veces\" = ÷."
+  },
+  "ar.units": {
+   "en": "Convert to one unit before computing (minutes vs hours, cents vs dollars).",
+   "es": "Convierte a una sola unidad antes de calcular (minutos vs horas, centavos vs dólares)."
+  },
+  "ar.estimate": {
+   "en": "Estimate first; a rough answer eliminates two choices before you compute.",
+   "es": "Estima primero; una respuesta aproximada elimina dos opciones antes de calcular."
+  },
+  "mk.formula-card": {
+   "en": "Write the formula card from memory daily: areas, volumes, a²+b²=c², slope, exponent rules, quadratic.",
+   "es": "Escribe la tarjeta de fórmulas de memoria cada día: áreas, volúmenes, a²+b²=c², pendiente, exponentes, cuadrática."
+  },
+  "mk.backsolve": {
+   "en": "Test the choices in the equation, middle values first.",
+   "es": "Prueba las opciones en la ecuación, primero los valores del medio."
+  },
+  "mk.pick-numbers": {
+   "en": "Replace variables with 2, 3 or 10 (never 0, 1, −1) and compare choices.",
+   "es": "Reemplaza las variables por 2, 3 o 10 (nunca 0, 1, −1) y compara las opciones."
+  },
+  "mk.radius-diameter": {
+   "en": "Circle formulas use the radius; halve the diameter first.",
+   "es": "Las fórmulas del círculo usan el radio; divide el diámetro entre dos primero."
+  },
+  "mk.sign-errors": {
+   "en": "Distribute a negative to every term inside the parentheses.",
+   "es": "Distribuye el negativo a cada término dentro del paréntesis."
+  },
+  "mk.both-roots": {
+   "en": "x² = 9 has two solutions: 3 and −3.",
+   "es": "x² = 9 tiene dos soluciones: 3 y −3."
+  },
+  "mk.inequality-flip": {
+   "en": "Multiplying or dividing an inequality by a negative flips the sign.",
+   "es": "Multiplicar o dividir una desigualdad por un negativo invierte el signo."
+  },
+  "gs.flashcards": {
+   "en": "One card per fact: GS rewards 300 small facts, not 10 big ideas.",
+   "es": "Una tarjeta por dato: GS premia 300 datos pequeños, no 10 grandes ideas."
+  },
+  "gs.units": {
+   "en": "Read the unit before the number — 212 °C is the Fahrenheit trap.",
+   "es": "Lee la unidad antes que el número: 212 °C es la trampa de Fahrenheit."
+  },
+  "gs.mnemonic": {
+   "en": "Order facts with a mnemonic (King Philip Came Over For Good Soup; My Very Educated Mother…).",
+   "es": "Ordena los datos con una mnemotecnia (reino → especie; orden de los planetas)."
+  },
+  "gs.eliminate-absolutes": {
+   "en": "Choices with always / never / only are usually wrong in science.",
+   "es": "Las opciones con siempre / nunca / solo suelen estar mal en ciencias."
+  },
+  "ei.ohm-triangle": {
+   "en": "Cover the unknown in the V / I·R triangle to see whether you multiply or divide.",
+   "es": "Tapa la incógnita en el triángulo V / I·R para ver si multiplicas o divides."
+  },
+  "ei.series-parallel": {
+   "en": "Series: same current, resistances add. Parallel: same voltage, total resistance shrinks below the smallest branch.",
+   "es": "Serie: misma corriente, resistencias se suman. Paralelo: mismo voltaje, la resistencia total baja por debajo de la rama menor."
+  },
+  "ei.component-role": {
+   "en": "Name the job: diode one-way, capacitor stores, inductor resists change, transformer scales AC voltage.",
+   "es": "Nombra la función: diodo un sentido, capacitor almacena, inductor resiste cambios, transformador escala voltaje CA."
+  },
+  "ei.units": {
+   "en": "Volt = pressure, amp = flow, ohm = resistance, watt = power, hertz = cycles per second.",
+   "es": "Voltio = presión, amperio = flujo, ohmio = resistencia, vatio = potencia, hercio = ciclos por segundo."
+  },
+  "ei.color-code": {
+   "en": "Black Brown Red Orange Yellow Green Blue Violet Gray White = 0–9; third band = zeros; gold ±5 %, silver ±10 %.",
+   "es": "Negro Marrón Rojo Naranja Amarillo Verde Azul Violeta Gris Blanco = 0–9; tercera banda = ceros; dorado ±5 %, plateado ±10 %."
+  },
+  "ei.safety": {
+   "en": "Ground protects people; fuses and breakers protect wiring; GFCI trips on leakage.",
+   "es": "La tierra protege a las personas; fusibles y breakers protegen el cableado; el GFCI se dispara por fugas."
+  },
+  "as.four-stroke": {
+   "en": "Intake → compression → power → exhaust: suck, squeeze, bang, blow.",
+   "es": "Admisión → compresión → explosión → escape."
+  },
+  "as.system-role": {
+   "en": "Sort the part into its system first (cooling, fuel, ignition, brakes) and eliminate the other systems' answers.",
+   "es": "Ubica la pieza en su sistema (enfriamiento, combustible, encendido, frenos) y elimina las respuestas de otros sistemas."
+  },
+  "as.symptom-cause": {
+   "en": "Match the symptom to the system that produces it before considering parts.",
+   "es": "Relaciona el síntoma con el sistema que lo produce antes de pensar en piezas."
+  },
+  "as.domain-elimination": {
+   "en": "Eliminate tools from the wrong material domain first (a metal-cutting tool for a wood task).",
+   "es": "Elimina primero las herramientas del material equivocado (una de metal para una tarea de madera)."
+  },
+  "as.tool-shape": {
+   "en": "Infer the use from the shape: jaws grip, teeth cut, flats measure.",
+   "es": "Deduce el uso por la forma: mordazas sujetan, dientes cortan, superficies planas miden."
+  },
+  "as.material": {
+   "en": "Hardwood vs softwood, steel vs aluminum, plywood vs MDF — know one distinguishing property of each.",
+   "es": "Madera dura vs blanda, acero vs aluminio, contrachapado vs MDF: conoce una propiedad que distinga a cada uno."
+  },
+  "mc.sketch-lever": {
+   "en": "Sketch the lever and measure both arms from the fulcrum; MA = effort arm ÷ load arm.",
+   "es": "Dibuja la palanca y mide ambos brazos desde el apoyo; VM = brazo de esfuerzo ÷ brazo de carga."
+  },
+  "mc.pulley-segments": {
+   "en": "MA = rope segments supporting the load; a fixed pulley only changes direction.",
+   "es": "VM = segmentos de cuerda que sostienen la carga; una polea fija solo cambia la dirección."
+  },
+  "mc.gear-direction": {
+   "en": "Meshed gears turn opposite ways; ratio = driven teeth ÷ driver teeth; bigger driven = slower and stronger.",
+   "es": "Los engranajes engranados giran en sentidos opuestos; relación = dientes conducido ÷ motriz; conducido mayor = más lento y más fuerte."
+  },
+  "mc.less-effort-not-less-work": {
+   "en": "Machines reduce effort, never work: less force means more distance.",
+   "es": "Las máquinas reducen el esfuerzo, nunca el trabajo: menos fuerza significa más distancia."
+  },
+  "mc.pressure-area": {
+   "en": "Pressure = force ÷ area; the same force on a smaller area presses harder.",
+   "es": "Presión = fuerza ÷ área; la misma fuerza en menor área presiona más."
+  },
+  "mc.stability": {
+   "en": "Lower center of gravity and wider base = more stable.",
+   "es": "Centro de gravedad más bajo y base más ancha = más estable."
+  },
+  "ao.mirror-trap": {
+   "en": "Rotations are allowed, mirror images never — a flipped piece eliminates the choice.",
+   "es": "Se permiten rotaciones, nunca imágenes en espejo: una pieza volteada elimina la opción."
+  },
+  "ao.odd-piece": {
+   "en": "Pick the most distinctive piece and scan all four choices for it; then confirm a second piece.",
+   "es": "Elige la pieza más distintiva y búscala en las cuatro opciones; luego confirma una segunda."
+  }
+ },
+ "testDay": {
+  "en": "Photo ID. No calculator, ever. Arrive early — late means rescheduled. Sleep instead of cramming, eat breakfast, use the bathroom before the test. Do not press stray keys. Retest waits: 1 month, 1 month, then 6 months, and the most recent score counts, not the highest.",
+  "es": "Identificación con foto. Nunca calculadora. Llega temprano: tarde significa reprogramado. Duerme en vez de empollar, desayuna, ve al baño antes. No pulses teclas de más. Esperas para repetir: 1 mes, 1 mes y luego 6 meses; cuenta el puntaje más reciente, no el más alto."
+ }
+}

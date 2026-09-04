@@ -1,0 +1,3202 @@
+[
+  {
+    "id": "mk-0001",
+    "subtest": "MK",
+    "topic": "linear-equation",
+    "difficulty": 2,
+    "stem": {
+      "en": "If 3x − 7 = 11, what is x?",
+      "es": "Si 3x − 7 = 11, ¿cuánto vale x?"
+    },
+    "choices": [
+      {
+        "en": "4",
+        "es": "4"
+      },
+      {
+        "en": "6",
+        "es": "6"
+      },
+      {
+        "en": "8",
+        "es": "8"
+      },
+      {
+        "en": "18",
+        "es": "18"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "3x = 18 → x = 6.",
+      "es": "3x = 18 → x = 6."
+    },
+    "trap": {
+      "en": "Backsolve: try B (6): 18 − 7 = 11 ✓. Starting from the middle choices saves time.",
+      "es": "Sustituye: prueba B (6): 18 − 7 = 11 ✓. Empezar por las opciones del medio ahorra tiempo."
+    },
+    "strategyRef": "mk.backsolve",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0002",
+    "subtest": "MK",
+    "topic": "circle-area",
+    "difficulty": 3,
+    "stem": {
+      "en": "The area of a circle with diameter 10 is",
+      "es": "El área de un círculo de diámetro 10 es"
+    },
+    "choices": [
+      {
+        "en": "10π",
+        "es": "10π"
+      },
+      {
+        "en": "25π",
+        "es": "25π"
+      },
+      {
+        "en": "100π",
+        "es": "100π"
+      },
+      {
+        "en": "20π",
+        "es": "20π"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Radius = 5, area = πr² = 25π.",
+      "es": "Radio = 5, área = πr² = 25π."
+    },
+    "trap": {
+      "en": "Diameter-vs-radius trap: 100π is what you get if you square the diameter.",
+      "es": "Trampa diámetro/radio: 100π es lo que sale si elevas al cuadrado el diámetro."
+    },
+    "strategyRef": "mk.radius-diameter",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0003",
+    "subtest": "MK",
+    "topic": "order-of-operations",
+    "difficulty": 1,
+    "stem": {
+      "en": "What is the value of 8 + 12 ÷ 4 × 3 − 2?",
+      "es": "¿Cuál es el valor de 8 + 12 ÷ 4 × 3 − 2?"
+    },
+    "choices": [
+      {
+        "en": "13",
+        "es": "13"
+      },
+      {
+        "en": "3",
+        "es": "3"
+      },
+      {
+        "en": "15",
+        "es": "15"
+      },
+      {
+        "en": "11",
+        "es": "11"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "12 ÷ 4 = 3; 3 × 3 = 9; 8 + 9 − 2 = 15.",
+      "es": "12 ÷ 4 = 3; 3 × 3 = 9; 8 + 9 − 2 = 15."
+    },
+    "trap": {
+      "en": "Left-to-right trap: (8 + 12) ÷ 4 × 3 − 2 = 13. Division and multiplication come before addition and subtraction.",
+      "es": "Trampa de izquierda a derecha: (8 + 12) ÷ 4 × 3 − 2 = 13. División y multiplicación van antes que suma y resta."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0004",
+    "subtest": "MK",
+    "topic": "order-of-operations",
+    "difficulty": 2,
+    "stem": {
+      "en": "Evaluate 5 − 2(3 − 7)².",
+      "es": "Evalúa 5 − 2(3 − 7)²."
+    },
+    "choices": [
+      {
+        "en": "37",
+        "es": "37"
+      },
+      {
+        "en": "−59",
+        "es": "−59"
+      },
+      {
+        "en": "−27",
+        "es": "−27"
+      },
+      {
+        "en": "21",
+        "es": "21"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "3 − 7 = −4; (−4)² = 16; 2 × 16 = 32; 5 − 32 = −27.",
+      "es": "3 − 7 = −4; (−4)² = 16; 2 × 16 = 32; 5 − 32 = −27."
+    },
+    "trap": {
+      "en": "Sign-error trap: 37 treats (−4)² as −16 and then adds. Squaring a negative gives a positive; the subtraction stays.",
+      "es": "Trampa de signo: 37 trata (−4)² como −16 y luego suma. Elevar un negativo al cuadrado da positivo; la resta se mantiene."
+    },
+    "strategyRef": "mk.sign-errors",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0005",
+    "subtest": "MK",
+    "topic": "integers",
+    "difficulty": 1,
+    "stem": {
+      "en": "What is −7 + 12 − (−4)?",
+      "es": "¿Cuánto es −7 + 12 − (−4)?"
+    },
+    "choices": [
+      {
+        "en": "1",
+        "es": "1"
+      },
+      {
+        "en": "−9",
+        "es": "−9"
+      },
+      {
+        "en": "9",
+        "es": "9"
+      },
+      {
+        "en": "−23",
+        "es": "−23"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "−7 + 12 = 5; 5 − (−4) = 5 + 4 = 9.",
+      "es": "−7 + 12 = 5; 5 − (−4) = 5 + 4 = 9."
+    },
+    "trap": {
+      "en": "Double-negative trap: 1 comes from reading − (−4) as −4. Subtracting a negative is adding.",
+      "es": "Trampa del doble negativo: 1 sale de leer − (−4) como −4. Restar un negativo es sumar."
+    },
+    "strategyRef": "mk.sign-errors",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0006",
+    "subtest": "MK",
+    "topic": "integers",
+    "difficulty": 3,
+    "stem": {
+      "en": "What is the value of −2³ + (−2)³?",
+      "es": "¿Cuál es el valor de −2³ + (−2)³?"
+    },
+    "choices": [
+      {
+        "en": "−16",
+        "es": "−16"
+      },
+      {
+        "en": "0",
+        "es": "0"
+      },
+      {
+        "en": "16",
+        "es": "16"
+      },
+      {
+        "en": "−4",
+        "es": "−4"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "−2³ = −(8) = −8 and (−2)³ = −8. Sum = −16.",
+      "es": "−2³ = −(8) = −8 y (−2)³ = −8. Suma = −16."
+    },
+    "trap": {
+      "en": "Sign-error trap: 0 comes from reading −2³ as +8. Without parentheses the exponent applies to 2 only, so −2³ = −8.",
+      "es": "Trampa de signo: 0 sale de leer −2³ como +8. Sin paréntesis el exponente solo aplica al 2, así que −2³ = −8."
+    },
+    "strategyRef": "mk.sign-errors",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0007",
+    "subtest": "MK",
+    "topic": "fractions",
+    "difficulty": 1,
+    "stem": {
+      "en": "What is 2/3 + 1/4?",
+      "es": "¿Cuánto es 2/3 + 1/4?"
+    },
+    "choices": [
+      {
+        "en": "3/7",
+        "es": "3/7"
+      },
+      {
+        "en": "11/12",
+        "es": "11/12"
+      },
+      {
+        "en": "3/12",
+        "es": "3/12"
+      },
+      {
+        "en": "1/2",
+        "es": "1/2"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Common denominator 12: 8/12 + 3/12 = 11/12.",
+      "es": "Denominador común 12: 8/12 + 3/12 = 11/12."
+    },
+    "trap": {
+      "en": "Add-across trap: 3/7 adds numerators and denominators separately. Find a common denominator first.",
+      "es": "Trampa de sumar directo: 3/7 suma numeradores y denominadores por separado. Busca un denominador común primero."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0008",
+    "subtest": "MK",
+    "topic": "decimals",
+    "difficulty": 2,
+    "stem": {
+      "en": "What is 0.6 × 0.15?",
+      "es": "¿Cuánto es 0.6 × 0.15?"
+    },
+    "choices": [
+      {
+        "en": "0.9",
+        "es": "0.9"
+      },
+      {
+        "en": "0.09",
+        "es": "0.09"
+      },
+      {
+        "en": "0.009",
+        "es": "0.009"
+      },
+      {
+        "en": "0.75",
+        "es": "0.75"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "6 × 15 = 90. Three decimal places in total → 0.090 = 0.09.",
+      "es": "6 × 15 = 90. Tres cifras decimales en total → 0.090 = 0.09."
+    },
+    "trap": {
+      "en": "Decimal-place trap: 0.9 and 0.009 misplace the point; 0.75 adds instead of multiplying. Count decimal places in both factors (1 + 2 = 3).",
+      "es": "Trampa del punto decimal: 0.9 y 0.009 lo colocan mal; 0.75 suma en vez de multiplicar. Cuenta los decimales de ambos factores (1 + 2 = 3)."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0009",
+    "subtest": "MK",
+    "topic": "exponents",
+    "difficulty": 2,
+    "stem": {
+      "en": "What is 2⁵ × 2³?",
+      "es": "¿Cuánto es 2⁵ × 2³?"
+    },
+    "choices": [
+      {
+        "en": "32,768",
+        "es": "32,768"
+      },
+      {
+        "en": "65,536",
+        "es": "65,536"
+      },
+      {
+        "en": "256",
+        "es": "256"
+      },
+      {
+        "en": "64",
+        "es": "64"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Same base: add exponents. 2⁵⁺³ = 2⁸ = 256.",
+      "es": "Misma base: suma los exponentes. 2⁵⁺³ = 2⁸ = 256."
+    },
+    "trap": {
+      "en": "Exponent-rule trap: 32,768 (= 2¹⁵) multiplies the exponents; 65,536 (= 4⁸) multiplies the bases. Same base × same base → add exponents.",
+      "es": "Trampa de regla de exponentes: 32,768 (= 2¹⁵) multiplica los exponentes; 65,536 (= 4⁸) multiplica las bases. Misma base × misma base → suma exponentes."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0010",
+    "subtest": "MK",
+    "topic": "roots",
+    "difficulty": 3,
+    "stem": {
+      "en": "Simplify √48.",
+      "es": "Simplifica √48."
+    },
+    "choices": [
+      {
+        "en": "2√6",
+        "es": "2√6"
+      },
+      {
+        "en": "12√2",
+        "es": "12√2"
+      },
+      {
+        "en": "8√3",
+        "es": "8√3"
+      },
+      {
+        "en": "4√3",
+        "es": "4√3"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "48 = 16 × 3, so √48 = √16 × √3 = 4√3.",
+      "es": "48 = 16 × 3, así que √48 = √16 × √3 = 4√3."
+    },
+    "trap": {
+      "en": "Incomplete-factoring trap: 48 = 4 × 12 gives 2√12, which still contains a perfect square. Pull out the LARGEST square factor, 16.",
+      "es": "Trampa de factorización incompleta: 48 = 4 × 12 da 2√12, que aún contiene un cuadrado perfecto. Extrae el MAYOR factor cuadrado, 16."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0011",
+    "subtest": "MK",
+    "topic": "linear-equation",
+    "difficulty": 1,
+    "stem": {
+      "en": "Solve for x: 5x + 4 = 29.",
+      "es": "Resuelve para x: 5x + 4 = 29."
+    },
+    "choices": [
+      {
+        "en": "6.6",
+        "es": "6.6"
+      },
+      {
+        "en": "25",
+        "es": "25"
+      },
+      {
+        "en": "4",
+        "es": "4"
+      },
+      {
+        "en": "5",
+        "es": "5"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "5x = 29 − 4 = 25 → x = 5.",
+      "es": "5x = 29 − 4 = 25 → x = 5."
+    },
+    "trap": {
+      "en": "Wrong-order trap: 6.6 divides 29 by 5 before subtracting 4 (then adds it). Undo addition first, then division. 25 stops at 5x.",
+      "es": "Trampa de orden: 6.6 divide 29 entre 5 antes de restar 4. Deshaz la suma primero y luego la división. 25 se queda en 5x."
+    },
+    "strategyRef": "mk.backsolve",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0012",
+    "subtest": "MK",
+    "topic": "linear-equation",
+    "difficulty": 2,
+    "stem": {
+      "en": "Solve for x: 2(x − 3) = 4x + 8.",
+      "es": "Resuelve para x: 2(x − 3) = 4x + 8."
+    },
+    "choices": [
+      {
+        "en": "7",
+        "es": "7"
+      },
+      {
+        "en": "−5.5",
+        "es": "−5.5"
+      },
+      {
+        "en": "−7",
+        "es": "−7"
+      },
+      {
+        "en": "−1",
+        "es": "−1"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "2x − 6 = 4x + 8 → −6 − 8 = 4x − 2x → −14 = 2x → x = −7.",
+      "es": "2x − 6 = 4x + 8 → −6 − 8 = 4x − 2x → −14 = 2x → x = −7."
+    },
+    "trap": {
+      "en": "Distribution trap: −5.5 comes from writing 2x − 3 instead of 2x − 6. Multiply BOTH terms inside the parentheses by 2.",
+      "es": "Trampa de distribución: −5.5 sale de escribir 2x − 3 en vez de 2x − 6. Multiplica AMBOS términos del paréntesis por 2."
+    },
+    "strategyRef": "mk.backsolve",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0013",
+    "subtest": "MK",
+    "topic": "linear-equation",
+    "difficulty": 3,
+    "stem": {
+      "en": "Solve for x: x/3 + 2 = x − 4.",
+      "es": "Resuelve para x: x/3 + 2 = x − 4."
+    },
+    "choices": [
+      {
+        "en": "9",
+        "es": "9"
+      },
+      {
+        "en": "7",
+        "es": "7"
+      },
+      {
+        "en": "3",
+        "es": "3"
+      },
+      {
+        "en": "−9",
+        "es": "−9"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Multiply everything by 3: x + 6 = 3x − 12 → 18 = 2x → x = 9. Check: 9/3 + 2 = 5 = 9 − 4 ✓.",
+      "es": "Multiplica todo por 3: x + 6 = 3x − 12 → 18 = 2x → x = 9. Comprueba: 9/3 + 2 = 5 = 9 − 4 ✓."
+    },
+    "trap": {
+      "en": "Partial-multiply trap: 7 comes from multiplying x/3 by 3 but forgetting to multiply the 2 (x + 2 = 3x − 12). Every term gets the ×3.",
+      "es": "Trampa de multiplicar a medias: 7 sale de multiplicar x/3 por 3 pero olvidar el 2 (x + 2 = 3x − 12). Cada término recibe el ×3."
+    },
+    "strategyRef": "mk.backsolve",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0014",
+    "subtest": "MK",
+    "topic": "inequalities",
+    "difficulty": 1,
+    "stem": {
+      "en": "Which describes all solutions of x + 5 < 12?",
+      "es": "¿Cuál describe todas las soluciones de x + 5 < 12?"
+    },
+    "choices": [
+      {
+        "en": "x > 7",
+        "es": "x > 7"
+      },
+      {
+        "en": "x < 7",
+        "es": "x < 7"
+      },
+      {
+        "en": "x < 17",
+        "es": "x < 17"
+      },
+      {
+        "en": "x ≤ 7",
+        "es": "x ≤ 7"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Subtract 5 from both sides: x < 7.",
+      "es": "Resta 5 a ambos lados: x < 7."
+    },
+    "trap": {
+      "en": "Sign-slip trap: x < 17 adds 5 instead of subtracting; x ≤ 7 changes the strict inequality. Subtracting does not flip the sign.",
+      "es": "Trampa de signo: x < 17 suma 5 en vez de restar; x ≤ 7 cambia la desigualdad estricta. Restar no invierte el signo."
+    },
+    "strategyRef": "mk.inequality-flip",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0015",
+    "subtest": "MK",
+    "topic": "inequalities",
+    "difficulty": 3,
+    "stem": {
+      "en": "Solve for x: −3x + 4 ≥ 13.",
+      "es": "Resuelve para x: −3x + 4 ≥ 13."
+    },
+    "choices": [
+      {
+        "en": "x ≥ −3",
+        "es": "x ≥ −3"
+      },
+      {
+        "en": "x ≤ 3",
+        "es": "x ≤ 3"
+      },
+      {
+        "en": "x ≥ 3",
+        "es": "x ≥ 3"
+      },
+      {
+        "en": "x ≤ −3",
+        "es": "x ≤ −3"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "−3x ≥ 9. Divide by −3 and FLIP the sign: x ≤ −3.",
+      "es": "−3x ≥ 9. Divide entre −3 e INVIERTE el signo: x ≤ −3."
+    },
+    "trap": {
+      "en": "Inequality-flip trap: x ≥ −3 forgets to reverse the sign when dividing by a negative. Test x = −10: −3(−10) + 4 = 34 ≥ 13 ✓.",
+      "es": "Trampa de invertir: x ≥ −3 olvida invertir el signo al dividir entre un negativo. Prueba x = −10: −3(−10) + 4 = 34 ≥ 13 ✓."
+    },
+    "strategyRef": "mk.inequality-flip",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0016",
+    "subtest": "MK",
+    "topic": "systems",
+    "difficulty": 2,
+    "stem": {
+      "en": "If x + y = 10 and x − y = 4, what is the value of y?",
+      "es": "Si x + y = 10 y x − y = 4, ¿cuál es el valor de y?"
+    },
+    "choices": [
+      {
+        "en": "7",
+        "es": "7"
+      },
+      {
+        "en": "14",
+        "es": "14"
+      },
+      {
+        "en": "3",
+        "es": "3"
+      },
+      {
+        "en": "6",
+        "es": "6"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Add the equations: 2x = 14 → x = 7. Then y = 10 − 7 = 3.",
+      "es": "Suma las ecuaciones: 2x = 14 → x = 7. Luego y = 10 − 7 = 3."
+    },
+    "trap": {
+      "en": "Wrong-variable trap: 7 is x, not y. 14 stops at 2x. Read which variable is asked for.",
+      "es": "Trampa de variable equivocada: 7 es x, no y. 14 se queda en 2x. Lee qué variable se pide."
+    },
+    "strategyRef": "mk.backsolve",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0017",
+    "subtest": "MK",
+    "topic": "foil",
+    "difficulty": 1,
+    "stem": {
+      "en": "Expand (x + 3)(x + 5).",
+      "es": "Desarrolla (x + 3)(x + 5)."
+    },
+    "choices": [
+      {
+        "en": "x² + 15",
+        "es": "x² + 15"
+      },
+      {
+        "en": "x² + 15x + 8",
+        "es": "x² + 15x + 8"
+      },
+      {
+        "en": "x² + 8x + 15",
+        "es": "x² + 8x + 15"
+      },
+      {
+        "en": "x² + 8x + 8",
+        "es": "x² + 8x + 8"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "FOIL: x² + 5x + 3x + 15 = x² + 8x + 15.",
+      "es": "FOIL: x² + 5x + 3x + 15 = x² + 8x + 15."
+    },
+    "trap": {
+      "en": "Missing-middle trap: x² + 15 multiplies only First and Last. Do all four products: Outer and Inner give the 8x.",
+      "es": "Trampa del término medio: x² + 15 multiplica solo Primeros y Últimos. Haz los cuatro productos: Externos e Internos dan el 8x."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0018",
+    "subtest": "MK",
+    "topic": "factoring",
+    "difficulty": 2,
+    "stem": {
+      "en": "Factor x² − 7x + 12.",
+      "es": "Factoriza x² − 7x + 12."
+    },
+    "choices": [
+      {
+        "en": "(x + 3)(x + 4)",
+        "es": "(x + 3)(x + 4)"
+      },
+      {
+        "en": "(x − 3)(x − 4)",
+        "es": "(x − 3)(x − 4)"
+      },
+      {
+        "en": "(x − 2)(x − 6)",
+        "es": "(x − 2)(x − 6)"
+      },
+      {
+        "en": "(x − 1)(x − 12)",
+        "es": "(x − 1)(x − 12)"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Two numbers with product 12 and sum −7: −3 and −4. So (x − 3)(x − 4).",
+      "es": "Dos números con producto 12 y suma −7: −3 y −4. Así (x − 3)(x − 4)."
+    },
+    "trap": {
+      "en": "Sign-error trap: (x + 3)(x + 4) gives +7x. Positive product with negative sum means BOTH factors are negative.",
+      "es": "Trampa de signo: (x + 3)(x + 4) da +7x. Producto positivo con suma negativa significa que AMBOS factores son negativos."
+    },
+    "strategyRef": "mk.sign-errors",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0019",
+    "subtest": "MK",
+    "topic": "quadratics",
+    "difficulty": 2,
+    "stem": {
+      "en": "What are the solutions of x² − 5x − 14 = 0?",
+      "es": "¿Cuáles son las soluciones de x² − 5x − 14 = 0?"
+    },
+    "choices": [
+      {
+        "en": "x = −7 or x = 2",
+        "es": "x = −7 or x = 2"
+      },
+      {
+        "en": "x = 7 only",
+        "es": "x = 7 only"
+      },
+      {
+        "en": "x = 2 or x = 7",
+        "es": "x = 2 or x = 7"
+      },
+      {
+        "en": "x = 7 or x = −2",
+        "es": "x = 7 or x = −2"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Factor: (x − 7)(x + 2) = 0 → x = 7 or x = −2.",
+      "es": "Factoriza: (x − 7)(x + 2) = 0 → x = 7 o x = −2."
+    },
+    "trap": {
+      "en": "Both-roots trap: a factored quadratic gives two answers, with opposite signs from the factors. (x − 7) = 0 → x = +7; (x + 2) = 0 → x = −2.",
+      "es": "Trampa de las dos raíces: una cuadrática factorizada da dos respuestas, con signo opuesto al de los factores. (x − 7) = 0 → x = +7; (x + 2) = 0 → x = −2."
+    },
+    "strategyRef": "mk.both-roots",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0020",
+    "subtest": "MK",
+    "topic": "quadratics",
+    "difficulty": 3,
+    "stem": {
+      "en": "What is the sum of all real solutions of 3x² − 12 = 0?",
+      "es": "¿Cuál es la suma de todas las soluciones reales de 3x² − 12 = 0?"
+    },
+    "choices": [
+      {
+        "en": "2",
+        "es": "2"
+      },
+      {
+        "en": "4",
+        "es": "4"
+      },
+      {
+        "en": "−2",
+        "es": "−2"
+      },
+      {
+        "en": "0",
+        "es": "0"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "3x² = 12 → x² = 4 → x = 2 or x = −2. Sum = 2 + (−2) = 0.",
+      "es": "3x² = 12 → x² = 4 → x = 2 o x = −2. Suma = 2 + (−2) = 0."
+    },
+    "trap": {
+      "en": "Forgot-second-root trap: 2 counts only the positive root. x² = 4 has TWO solutions, ±2. 4 stops at x².",
+      "es": "Trampa de olvidar la segunda raíz: 2 cuenta solo la raíz positiva. x² = 4 tiene DOS soluciones, ±2. 4 se queda en x²."
+    },
+    "strategyRef": "mk.both-roots",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0021",
+    "subtest": "MK",
+    "topic": "functions",
+    "difficulty": 1,
+    "stem": {
+      "en": "If f(x) = 3x − 2, what is f(4)?",
+      "es": "Si f(x) = 3x − 2, ¿cuánto es f(4)?"
+    },
+    "choices": [
+      {
+        "en": "14",
+        "es": "14"
+      },
+      {
+        "en": "2",
+        "es": "2"
+      },
+      {
+        "en": "6",
+        "es": "6"
+      },
+      {
+        "en": "10",
+        "es": "10"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "f(4) = 3(4) − 2 = 12 − 2 = 10.",
+      "es": "f(4) = 3(4) − 2 = 12 − 2 = 10."
+    },
+    "trap": {
+      "en": "Sign-slip trap: 14 adds 2 instead of subtracting; 2 subtracts 2 from 4 before multiplying. Replace x, then follow the order of operations.",
+      "es": "Trampa de signo: 14 suma 2 en vez de restar; 2 resta 2 a 4 antes de multiplicar. Sustituye x y sigue el orden de operaciones."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0022",
+    "subtest": "MK",
+    "topic": "functions",
+    "difficulty": 2,
+    "stem": {
+      "en": "If g(x) = x² − 4x, what is g(−2)?",
+      "es": "Si g(x) = x² − 4x, ¿cuánto es g(−2)?"
+    },
+    "choices": [
+      {
+        "en": "−4",
+        "es": "−4"
+      },
+      {
+        "en": "4",
+        "es": "4"
+      },
+      {
+        "en": "12",
+        "es": "12"
+      },
+      {
+        "en": "−12",
+        "es": "−12"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "g(−2) = (−2)² − 4(−2) = 4 + 8 = 12.",
+      "es": "g(−2) = (−2)² − 4(−2) = 4 + 8 = 12."
+    },
+    "trap": {
+      "en": "Sign-error trap: −4 uses (−2)² = −4; 4 forgets that −4(−2) is +8; −12 makes both mistakes. Put the negative in parentheses before squaring.",
+      "es": "Trampa de signo: −4 usa (−2)² = −4; 4 olvida que −4(−2) es +8; −12 comete ambos errores. Pon el negativo entre paréntesis antes de elevar."
+    },
+    "strategyRef": "mk.sign-errors",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0023",
+    "subtest": "MK",
+    "topic": "functions",
+    "difficulty": 3,
+    "stem": {
+      "en": "If f(x) = 2x + 1 and g(x) = x², what is f(g(3))?",
+      "es": "Si f(x) = 2x + 1 y g(x) = x², ¿cuánto es f(g(3))?"
+    },
+    "choices": [
+      {
+        "en": "19",
+        "es": "19"
+      },
+      {
+        "en": "49",
+        "es": "49"
+      },
+      {
+        "en": "7",
+        "es": "7"
+      },
+      {
+        "en": "10",
+        "es": "10"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "g(3) = 9. f(9) = 2(9) + 1 = 19.",
+      "es": "g(3) = 9. f(9) = 2(9) + 1 = 19."
+    },
+    "trap": {
+      "en": "Order-of-composition trap: 49 is g(f(3)) = 7². Work from the inside out: g first, then f.",
+      "es": "Trampa de orden de composición: 49 es g(f(3)) = 7². Trabaja de adentro hacia afuera: primero g, luego f."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0024",
+    "subtest": "MK",
+    "topic": "angles",
+    "difficulty": 1,
+    "stem": {
+      "en": "Two angles are supplementary. If one measures 65°, what is the other?",
+      "es": "Dos ángulos son suplementarios. Si uno mide 65°, ¿cuánto mide el otro?"
+    },
+    "choices": [
+      {
+        "en": "25°",
+        "es": "25°"
+      },
+      {
+        "en": "115°",
+        "es": "115°"
+      },
+      {
+        "en": "65°",
+        "es": "65°"
+      },
+      {
+        "en": "295°",
+        "es": "295°"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Supplementary angles add to 180°. 180 − 65 = 115°.",
+      "es": "Los ángulos suplementarios suman 180°. 180 − 65 = 115°."
+    },
+    "trap": {
+      "en": "Complementary/supplementary mix-up: 25° uses 90°. Supplementary → 180°, complementary → 90°.",
+      "es": "Confusión complementario/suplementario: 25° usa 90°. Suplementario → 180°, complementario → 90°."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0025",
+    "subtest": "MK",
+    "topic": "angles",
+    "difficulty": 1,
+    "stem": {
+      "en": "Two angles of a triangle measure 48° and 67°. What is the measure of the third angle?",
+      "es": "Dos ángulos de un triángulo miden 48° y 67°. ¿Cuánto mide el tercer ángulo?"
+    },
+    "choices": [
+      {
+        "en": "115°",
+        "es": "115°"
+      },
+      {
+        "en": "75°",
+        "es": "75°"
+      },
+      {
+        "en": "55°",
+        "es": "55°"
+      },
+      {
+        "en": "65°",
+        "es": "65°"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Angles of a triangle add to 180°. 180 − 48 − 67 = 65°.",
+      "es": "Los ángulos de un triángulo suman 180°. 180 − 48 − 67 = 65°."
+    },
+    "trap": {
+      "en": "Intermediate-value trap: 115° is 48 + 67, the sum of the two known angles, not the third angle. Subtract that sum from 180°.",
+      "es": "Trampa del valor intermedio: 115° es 48 + 67, la suma de los dos ángulos conocidos, no el tercero. Resta esa suma a 180°."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0026",
+    "subtest": "MK",
+    "topic": "angles",
+    "difficulty": 2,
+    "stem": {
+      "en": "An isosceles triangle has a vertex angle of 40°. What is the measure of each base angle?",
+      "es": "Un triángulo isósceles tiene un ángulo del vértice de 40°. ¿Cuánto mide cada ángulo de la base?"
+    },
+    "choices": [
+      {
+        "en": "140°",
+        "es": "140°"
+      },
+      {
+        "en": "70°",
+        "es": "70°"
+      },
+      {
+        "en": "40°",
+        "es": "40°"
+      },
+      {
+        "en": "50°",
+        "es": "50°"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "The two base angles are equal: (180 − 40) ÷ 2 = 70°.",
+      "es": "Los dos ángulos de la base son iguales: (180 − 40) ÷ 2 = 70°."
+    },
+    "trap": {
+      "en": "Forgot-to-halve trap: 140° is the total of BOTH base angles. 50° subtracts from 90° instead of 180°.",
+      "es": "Trampa de no dividir: 140° es el total de AMBOS ángulos de la base. 50° resta de 90° en vez de 180°."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0027",
+    "subtest": "MK",
+    "topic": "triangles",
+    "difficulty": 1,
+    "stem": {
+      "en": "A right triangle has legs of 6 and 8. What is the length of the hypotenuse?",
+      "es": "Un triángulo rectángulo tiene catetos de 6 y 8. ¿Cuál es la longitud de la hipotenusa?"
+    },
+    "choices": [
+      {
+        "en": "10",
+        "es": "10"
+      },
+      {
+        "en": "14",
+        "es": "14"
+      },
+      {
+        "en": "100",
+        "es": "100"
+      },
+      {
+        "en": "7",
+        "es": "7"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "c² = 6² + 8² = 36 + 64 = 100 → c = 10. (3-4-5 triple, doubled.)",
+      "es": "c² = 6² + 8² = 36 + 64 = 100 → c = 10. (Terna 3-4-5 duplicada.)"
+    },
+    "trap": {
+      "en": "Forgot-the-root trap: 100 is c², not c. 14 simply adds the legs. Know the triples: 3-4-5, 6-8-10, 5-12-13.",
+      "es": "Trampa de olvidar la raíz: 100 es c², no c. 14 solo suma los catetos. Aprende las ternas: 3-4-5, 6-8-10, 5-12-13."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0028",
+    "subtest": "MK",
+    "topic": "triangles",
+    "difficulty": 2,
+    "stem": {
+      "en": "A right triangle has a hypotenuse of 13 and one leg of 5. What is the length of the other leg?",
+      "es": "Un triángulo rectángulo tiene hipotenusa 13 y un cateto de 5. ¿Cuál es la longitud del otro cateto?"
+    },
+    "choices": [
+      {
+        "en": "12",
+        "es": "12"
+      },
+      {
+        "en": "8",
+        "es": "8"
+      },
+      {
+        "en": "√194",
+        "es": "√194"
+      },
+      {
+        "en": "18",
+        "es": "18"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "b² = 13² − 5² = 169 − 25 = 144 → b = 12. (5-12-13 triple.)",
+      "es": "b² = 13² − 5² = 169 − 25 = 144 → b = 12. (Terna 5-12-13.)"
+    },
+    "trap": {
+      "en": "Added-instead-of-subtracted trap: √194 uses 169 + 25. When the hypotenuse is known, SUBTRACT the leg squared. 8 is 13 − 5.",
+      "es": "Trampa de sumar en vez de restar: √194 usa 169 + 25. Si conoces la hipotenusa, RESTA el cateto al cuadrado. 8 es 13 − 5."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0029",
+    "subtest": "MK",
+    "topic": "triangles",
+    "difficulty": 3,
+    "stem": {
+      "en": "A 25-foot ladder leans against a wall with its foot 7 feet from the base of the wall. How high up the wall does the ladder reach?",
+      "es": "Una escalera de 25 pies se apoya en una pared con su base a 7 pies de la pared. ¿A qué altura de la pared llega la escalera?"
+    },
+    "choices": [
+      {
+        "en": "18 ft",
+        "es": "18 pies"
+      },
+      {
+        "en": "26 ft",
+        "es": "26 pies"
+      },
+      {
+        "en": "24 ft",
+        "es": "24 pies"
+      },
+      {
+        "en": "32 ft",
+        "es": "32 pies"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "h² = 25² − 7² = 625 − 49 = 576 → h = 24 ft. (7-24-25 triple.)",
+      "es": "h² = 25² − 7² = 625 − 49 = 576 → h = 24 pies. (Terna 7-24-25.)"
+    },
+    "trap": {
+      "en": "Wrong-side trap: 18 (= 25 − 7) treats lengths as if they add in a straight line, and 26 pretends the ladder is a leg. The ladder is the hypotenuse.",
+      "es": "Trampa del lado equivocado: 18 (= 25 − 7) trata las longitudes como si se sumaran en línea, y 26 toma la escalera como cateto. La escalera es la hipotenusa."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0030",
+    "subtest": "MK",
+    "topic": "area",
+    "difficulty": 1,
+    "stem": {
+      "en": "What is the area of a triangle with a base of 10 and a height of 6?",
+      "es": "¿Cuál es el área de un triángulo con base 10 y altura 6?"
+    },
+    "choices": [
+      {
+        "en": "30",
+        "es": "30"
+      },
+      {
+        "en": "60",
+        "es": "60"
+      },
+      {
+        "en": "16",
+        "es": "16"
+      },
+      {
+        "en": "32",
+        "es": "32"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "A = ½ × base × height = ½ × 10 × 6 = 30.",
+      "es": "A = ½ × base × altura = ½ × 10 × 6 = 30."
+    },
+    "trap": {
+      "en": "Forgot-the-half trap: 60 is base × height, the area of the matching rectangle. A triangle is half of that. 16 adds the sides.",
+      "es": "Trampa de olvidar la mitad: 60 es base × altura, el área del rectángulo correspondiente. El triángulo es la mitad. 16 suma los lados."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0031",
+    "subtest": "MK",
+    "topic": "perimeter",
+    "difficulty": 2,
+    "stem": {
+      "en": "A rectangle has an area of 48 square units and a width of 6 units. What is its perimeter?",
+      "es": "Un rectángulo tiene un área de 48 unidades cuadradas y un ancho de 6 unidades. ¿Cuál es su perímetro?"
+    },
+    "choices": [
+      {
+        "en": "28",
+        "es": "28"
+      },
+      {
+        "en": "14",
+        "es": "14"
+      },
+      {
+        "en": "48",
+        "es": "48"
+      },
+      {
+        "en": "24",
+        "es": "24"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Length = 48 ÷ 6 = 8. Perimeter = 2(8 + 6) = 28.",
+      "es": "Largo = 48 ÷ 6 = 8. Perímetro = 2(8 + 6) = 28."
+    },
+    "trap": {
+      "en": "Intermediate-value trap: 14 is only length + width; you must double it. 48 repeats the area.",
+      "es": "Trampa del valor intermedio: 14 es solo largo + ancho; hay que duplicarlo. 48 repite el área."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0032",
+    "subtest": "MK",
+    "topic": "volume",
+    "difficulty": 1,
+    "stem": {
+      "en": "What is the volume of a rectangular box that is 4 inches by 5 inches by 6 inches?",
+      "es": "¿Cuál es el volumen de una caja rectangular de 4 pulgadas por 5 pulgadas por 6 pulgadas?"
+    },
+    "choices": [
+      {
+        "en": "15 in³",
+        "es": "15 pulg³"
+      },
+      {
+        "en": "60 in³",
+        "es": "60 pulg³"
+      },
+      {
+        "en": "148 in³",
+        "es": "148 pulg³"
+      },
+      {
+        "en": "120 in³",
+        "es": "120 pulg³"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "V = l × w × h = 4 × 5 × 6 = 120 in³.",
+      "es": "V = l × a × h = 4 × 5 × 6 = 120 pulg³."
+    },
+    "trap": {
+      "en": "Wrong-formula trap: 148 is the surface area, 15 adds the dimensions, 60 multiplies only two of them. Volume multiplies all three.",
+      "es": "Trampa de fórmula: 148 es el área de la superficie, 15 suma las dimensiones, 60 multiplica solo dos. El volumen multiplica las tres."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0033",
+    "subtest": "MK",
+    "topic": "volume",
+    "difficulty": 3,
+    "stem": {
+      "en": "A cylinder has a radius of 3 and a height of 10. What is its volume?",
+      "es": "Un cilindro tiene radio 3 y altura 10. ¿Cuál es su volumen?"
+    },
+    "choices": [
+      {
+        "en": "90π",
+        "es": "90π"
+      },
+      {
+        "en": "360π",
+        "es": "360π"
+      },
+      {
+        "en": "60π",
+        "es": "60π"
+      },
+      {
+        "en": "30π",
+        "es": "30π"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "V = πr²h = π × 3² × 10 = 90π.",
+      "es": "V = πr²h = π × 3² × 10 = 90π."
+    },
+    "trap": {
+      "en": "Radius-squared trap: 30π forgets to square the radius; 360π squares the diameter (6) instead; 60π is the lateral surface area 2πrh.",
+      "es": "Trampa del radio al cuadrado: 30π olvida elevar el radio; 360π eleva el diámetro (6) en su lugar; 60π es el área lateral 2πrh."
+    },
+    "strategyRef": "mk.radius-diameter",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0034",
+    "subtest": "MK",
+    "topic": "circle-circumference",
+    "difficulty": 2,
+    "stem": {
+      "en": "What is the circumference of a circle with a radius of 7?",
+      "es": "¿Cuál es la circunferencia de un círculo de radio 7?"
+    },
+    "choices": [
+      {
+        "en": "7π",
+        "es": "7π"
+      },
+      {
+        "en": "49π",
+        "es": "49π"
+      },
+      {
+        "en": "14π",
+        "es": "14π"
+      },
+      {
+        "en": "28π",
+        "es": "28π"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "C = 2πr = 2 × π × 7 = 14π.",
+      "es": "C = 2πr = 2 × π × 7 = 14π."
+    },
+    "trap": {
+      "en": "Area-vs-circumference trap: 49π is the area (πr²). 7π forgets the 2; 28π doubles the diameter as if it were the radius.",
+      "es": "Trampa área/circunferencia: 49π es el área (πr²). 7π olvida el 2; 28π duplica el diámetro como si fuera el radio."
+    },
+    "strategyRef": "mk.radius-diameter",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0035",
+    "subtest": "MK",
+    "topic": "circle-area",
+    "difficulty": 2,
+    "stem": {
+      "en": "The circumference of a circle is 16π. What is its area?",
+      "es": "La circunferencia de un círculo es 16π. ¿Cuál es su área?"
+    },
+    "choices": [
+      {
+        "en": "256π",
+        "es": "256π"
+      },
+      {
+        "en": "16π",
+        "es": "16π"
+      },
+      {
+        "en": "32π",
+        "es": "32π"
+      },
+      {
+        "en": "64π",
+        "es": "64π"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "2πr = 16π → r = 8. A = πr² = 64π.",
+      "es": "2πr = 16π → r = 8. A = πr² = 64π."
+    },
+    "trap": {
+      "en": "Diameter-as-radius trap: 256π squares 16, but 16 is the diameter (2r). Solve for r first.",
+      "es": "Trampa diámetro como radio: 256π eleva 16 al cuadrado, pero 16 es el diámetro (2r). Despeja r primero."
+    },
+    "strategyRef": "mk.radius-diameter",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0036",
+    "subtest": "MK",
+    "topic": "circle-area",
+    "difficulty": 3,
+    "stem": {
+      "en": "What is the area of a semicircle whose diameter is 12?",
+      "es": "¿Cuál es el área de un semicírculo cuyo diámetro es 12?"
+    },
+    "choices": [
+      {
+        "en": "18π",
+        "es": "18π"
+      },
+      {
+        "en": "36π",
+        "es": "36π"
+      },
+      {
+        "en": "72π",
+        "es": "72π"
+      },
+      {
+        "en": "6π",
+        "es": "6π"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "r = 6. Full circle = π × 6² = 36π. Half of that = 18π.",
+      "es": "r = 6. Círculo completo = π × 6² = 36π. La mitad = 18π."
+    },
+    "trap": {
+      "en": "Two traps in one: 36π forgets the 'semi'; 72π uses the diameter as the radius and then halves. 6π is just πr.",
+      "es": "Dos trampas en una: 36π olvida el 'semi'; 72π usa el diámetro como radio y luego divide. 6π es solo πr."
+    },
+    "strategyRef": "mk.radius-diameter",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0037",
+    "subtest": "MK",
+    "topic": "coordinate-geometry",
+    "difficulty": 2,
+    "stem": {
+      "en": "What is the slope of the line through the points (1, 2) and (4, 11)?",
+      "es": "¿Cuál es la pendiente de la recta que pasa por los puntos (1, 2) y (4, 11)?"
+    },
+    "choices": [
+      {
+        "en": "1/3",
+        "es": "1/3"
+      },
+      {
+        "en": "3",
+        "es": "3"
+      },
+      {
+        "en": "−3",
+        "es": "−3"
+      },
+      {
+        "en": "9",
+        "es": "9"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Slope = (11 − 2) ÷ (4 − 1) = 9 ÷ 3 = 3.",
+      "es": "Pendiente = (11 − 2) ÷ (4 − 1) = 9 ÷ 3 = 3."
+    },
+    "trap": {
+      "en": "Run-over-rise trap: 1/3 puts Δx on top. Slope = rise ÷ run = Δy ÷ Δx. 9 stops at the rise.",
+      "es": "Trampa de invertir: 1/3 pone Δx arriba. Pendiente = Δy ÷ Δx. 9 se queda en el cambio de y."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0038",
+    "subtest": "MK",
+    "topic": "coordinate-geometry",
+    "difficulty": 2,
+    "stem": {
+      "en": "What is the midpoint of the segment joining (−2, 5) and (6, −1)?",
+      "es": "¿Cuál es el punto medio del segmento que une (−2, 5) y (6, −1)?"
+    },
+    "choices": [
+      {
+        "en": "(4, 3)",
+        "es": "(4, 3)"
+      },
+      {
+        "en": "(2, 2)",
+        "es": "(2, 2)"
+      },
+      {
+        "en": "(2, 3)",
+        "es": "(2, 3)"
+      },
+      {
+        "en": "(−4, 6)",
+        "es": "(−4, 6)"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Midpoint = ((−2 + 6)/2, (5 + (−1))/2) = (4/2, 4/2) = (2, 2).",
+      "es": "Punto medio = ((−2 + 6)/2, (5 + (−1))/2) = (4/2, 4/2) = (2, 2)."
+    },
+    "trap": {
+      "en": "Difference-instead-of-sum trap: (4, 3) halves the differences (8 and 6). Midpoint AVERAGES the coordinates: add, then halve.",
+      "es": "Trampa de restar en vez de sumar: (4, 3) divide las diferencias (8 y 6). El punto medio PROMEDIA las coordenadas: suma y luego divide entre 2."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0039",
+    "subtest": "MK",
+    "topic": "coordinate-geometry",
+    "difficulty": 3,
+    "stem": {
+      "en": "A line with slope −2 passes through the point (2, 3). What is its y-intercept?",
+      "es": "Una recta con pendiente −2 pasa por el punto (2, 3). ¿Cuál es su intersección con el eje y?"
+    },
+    "choices": [
+      {
+        "en": "7",
+        "es": "7"
+      },
+      {
+        "en": "−1",
+        "es": "−1"
+      },
+      {
+        "en": "1",
+        "es": "1"
+      },
+      {
+        "en": "−7",
+        "es": "−7"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "y = mx + b → 3 = −2(2) + b → 3 = −4 + b → b = 7.",
+      "es": "y = mx + b → 3 = −2(2) + b → 3 = −4 + b → b = 7."
+    },
+    "trap": {
+      "en": "Sign-error trap: −1 comes from 3 = 4 + b, dropping the negative on the slope. Keep −2 × 2 = −4.",
+      "es": "Trampa de signo: −1 sale de 3 = 4 + b, perdiendo el negativo de la pendiente. Mantén −2 × 2 = −4."
+    },
+    "strategyRef": "mk.sign-errors",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0040",
+    "subtest": "MK",
+    "topic": "coordinate-geometry",
+    "difficulty": 3,
+    "stem": {
+      "en": "What is the distance between the points (1, 1) and (7, 9)?",
+      "es": "¿Cuál es la distancia entre los puntos (1, 1) y (7, 9)?"
+    },
+    "choices": [
+      {
+        "en": "14",
+        "es": "14"
+      },
+      {
+        "en": "√14",
+        "es": "√14"
+      },
+      {
+        "en": "100",
+        "es": "100"
+      },
+      {
+        "en": "10",
+        "es": "10"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Δx = 6, Δy = 8. d = √(6² + 8²) = √(36 + 64) = √100 = 10.",
+      "es": "Δx = 6, Δy = 8. d = √(6² + 8²) = √(36 + 64) = √100 = 10."
+    },
+    "trap": {
+      "en": "Forgot-to-square trap: √14 takes the root of 6 + 8 without squaring; 14 just adds Δx + Δy; 100 forgets the final root. Distance is a hypotenuse: 6-8-10.",
+      "es": "Trampa de no elevar al cuadrado: √14 saca la raíz de 6 + 8 sin elevar; 14 solo suma Δx + Δy; 100 olvida la raíz final. La distancia es una hipotenusa: 6-8-10."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0041",
+    "subtest": "MK",
+    "topic": "integers",
+    "difficulty": 1,
+    "stem": {
+      "en": "What is −8 − (−3) + (−5)?",
+      "es": "¿Cuánto es −8 − (−3) + (−5)?"
+    },
+    "choices": [
+      {
+        "en": "−16",
+        "es": "−16"
+      },
+      {
+        "en": "0",
+        "es": "0"
+      },
+      {
+        "en": "−10",
+        "es": "−10"
+      },
+      {
+        "en": "−6",
+        "es": "−6"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Subtracting a negative adds: −8 + 3 = −5. Then −5 + (−5) = −10.",
+      "es": "Restar un negativo es sumar: −8 + 3 = −5. Luego −5 + (−5) = −10."
+    },
+    "trap": {
+      "en": "Double-negative trap: −16 treats − (−3) as −3. Two minus signs make a plus.",
+      "es": "Trampa del doble negativo: −16 trata − (−3) como −3. Dos signos menos hacen un más."
+    },
+    "strategyRef": "mk.sign-errors",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0042",
+    "subtest": "MK",
+    "topic": "fractions",
+    "difficulty": 1,
+    "stem": {
+      "en": "What is 5/6 − 1/4?",
+      "es": "¿Cuánto es 5/6 − 1/4?"
+    },
+    "choices": [
+      {
+        "en": "2",
+        "es": "2"
+      },
+      {
+        "en": "2/3",
+        "es": "2/3"
+      },
+      {
+        "en": "7/24",
+        "es": "7/24"
+      },
+      {
+        "en": "7/12",
+        "es": "7/12"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Common denominator 12: 10/12 − 3/12 = 7/12.",
+      "es": "Denominador común 12: 10/12 − 3/12 = 7/12."
+    },
+    "trap": {
+      "en": "Straight-across trap: 2 subtracts numerators and denominators separately (4/2). 7/24 uses the product of the denominators without adjusting the numerators.",
+      "es": "Trampa de restar en línea: 2 resta numeradores y denominadores por separado (4/2). 7/24 usa el producto de los denominadores sin ajustar los numeradores."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0043",
+    "subtest": "MK",
+    "topic": "fractions",
+    "difficulty": 2,
+    "stem": {
+      "en": "What is 2 1/3 × 1 1/2?",
+      "es": "¿Cuánto es 2 1/3 × 1 1/2?"
+    },
+    "choices": [
+      {
+        "en": "2 1/6",
+        "es": "2 1/6"
+      },
+      {
+        "en": "3 5/6",
+        "es": "3 5/6"
+      },
+      {
+        "en": "1 5/9",
+        "es": "1 5/9"
+      },
+      {
+        "en": "3 1/2",
+        "es": "3 1/2"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Convert to improper fractions: 7/3 × 3/2 = 21/6 = 7/2 = 3 1/2.",
+      "es": "Convierte a fracciones impropias: 7/3 × 3/2 = 21/6 = 7/2 = 3 1/2."
+    },
+    "trap": {
+      "en": "Parts-separately trap: 2 1/6 multiplies whole numbers (2 × 1) and fractions (1/3 × 1/2) separately. Convert to improper fractions first.",
+      "es": "Trampa de partes separadas: 2 1/6 multiplica enteros (2 × 1) y fracciones (1/3 × 1/2) por separado. Convierte a impropias primero."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0044",
+    "subtest": "MK",
+    "topic": "fractions",
+    "difficulty": 3,
+    "stem": {
+      "en": "What is 3/4 ÷ 9/8?",
+      "es": "¿Cuánto es 3/4 ÷ 9/8?"
+    },
+    "choices": [
+      {
+        "en": "2/3",
+        "es": "2/3"
+      },
+      {
+        "en": "27/32",
+        "es": "27/32"
+      },
+      {
+        "en": "1 1/2",
+        "es": "1 1/2"
+      },
+      {
+        "en": "3/8",
+        "es": "3/8"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Multiply by the reciprocal: 3/4 × 8/9 = 24/36 = 2/3.",
+      "es": "Multiplica por el recíproco: 3/4 × 8/9 = 24/36 = 2/3."
+    },
+    "trap": {
+      "en": "No-flip trap: 27/32 multiplies without flipping the divisor. 1 1/2 flips the first fraction instead of the second.",
+      "es": "Trampa de no invertir: 27/32 multiplica sin invertir el divisor. 1 1/2 invierte la primera fracción en vez de la segunda."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0045",
+    "subtest": "MK",
+    "topic": "decimals",
+    "difficulty": 1,
+    "stem": {
+      "en": "What is 0.4 × 0.35?",
+      "es": "¿Cuánto es 0.4 × 0.35?"
+    },
+    "choices": [
+      {
+        "en": "1.4",
+        "es": "1.4"
+      },
+      {
+        "en": "0.014",
+        "es": "0.014"
+      },
+      {
+        "en": "0.14",
+        "es": "0.14"
+      },
+      {
+        "en": "14",
+        "es": "14"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "4 × 35 = 140. The factors have 1 + 2 = 3 decimal places, so the product is 0.140 = 0.14.",
+      "es": "4 × 35 = 140. Los factores tienen 1 + 2 = 3 decimales, así que el producto es 0.140 = 0.14."
+    },
+    "trap": {
+      "en": "Decimal-count trap: 1.4 keeps only two decimal places and 0.014 keeps four. Count the places in both factors: three.",
+      "es": "Trampa de contar decimales: 1.4 deja solo dos decimales y 0.014 deja cuatro. Cuenta los decimales de ambos factores: tres."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0046",
+    "subtest": "MK",
+    "topic": "decimals",
+    "difficulty": 2,
+    "stem": {
+      "en": "What is 7.2 ÷ 0.08?",
+      "es": "¿Cuánto es 7.2 ÷ 0.08?"
+    },
+    "choices": [
+      {
+        "en": "9",
+        "es": "9"
+      },
+      {
+        "en": "90",
+        "es": "90"
+      },
+      {
+        "en": "0.9",
+        "es": "0.9"
+      },
+      {
+        "en": "900",
+        "es": "900"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Move both decimal points two places: 720 ÷ 8 = 90.",
+      "es": "Mueve ambos puntos decimales dos lugares: 720 ÷ 8 = 90."
+    },
+    "trap": {
+      "en": "Uneven-shift trap: 9 moves the decimal one place in the dividend but two in the divisor. Shift both by the same amount.",
+      "es": "Trampa de corrimiento desigual: 9 mueve el punto un lugar en el dividendo pero dos en el divisor. Mueve ambos por igual."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0047",
+    "subtest": "MK",
+    "topic": "order-of-operations",
+    "difficulty": 2,
+    "stem": {
+      "en": "What is the value of 24 − 3 × 2² + 10 ÷ 5?",
+      "es": "¿Cuál es el valor de 24 − 3 × 2² + 10 ÷ 5?"
+    },
+    "choices": [
+      {
+        "en": "−10",
+        "es": "−10"
+      },
+      {
+        "en": "12",
+        "es": "12"
+      },
+      {
+        "en": "14",
+        "es": "14"
+      },
+      {
+        "en": "86",
+        "es": "86"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Exponent first: 2² = 4. Then 3 × 4 = 12 and 10 ÷ 5 = 2. Finally 24 − 12 + 2 = 14.",
+      "es": "Primero el exponente: 2² = 4. Luego 3 × 4 = 12 y 10 ÷ 5 = 2. Al final 24 − 12 + 2 = 14."
+    },
+    "trap": {
+      "en": "Squaring-the-product trap: −10 computes (3 × 2)² = 36. The exponent belongs only to the 2. 86 works left to right: (24 − 3) × 4 + 2.",
+      "es": "Trampa de elevar el producto: −10 calcula (3 × 2)² = 36. El exponente solo afecta al 2. 86 opera de izquierda a derecha: (24 − 3) × 4 + 2."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0048",
+    "subtest": "MK",
+    "topic": "exponents",
+    "difficulty": 1,
+    "stem": {
+      "en": "What is (2³)²?",
+      "es": "¿Cuánto es (2³)²?"
+    },
+    "choices": [
+      {
+        "en": "32",
+        "es": "32"
+      },
+      {
+        "en": "12",
+        "es": "12"
+      },
+      {
+        "en": "64",
+        "es": "64"
+      },
+      {
+        "en": "36",
+        "es": "36"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "A power of a power multiplies exponents: 2⁶ = 64. Or 2³ = 8 and 8² = 64.",
+      "es": "Potencia de una potencia multiplica exponentes: 2⁶ = 64. O bien 2³ = 8 y 8² = 64."
+    },
+    "trap": {
+      "en": "Add-the-exponents trap: 32 is 2⁵, from adding 3 + 2. Adding exponents is for multiplying same-base powers, not raising a power to a power.",
+      "es": "Trampa de sumar exponentes: 32 es 2⁵, de sumar 3 + 2. Sumar exponentes es para multiplicar potencias de la misma base, no para elevar una potencia a otra."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0049",
+    "subtest": "MK",
+    "topic": "exponents",
+    "difficulty": 3,
+    "stem": {
+      "en": "Simplify (4x³y)(3x²y⁴).",
+      "es": "Simplifica (4x³y)(3x²y⁴)."
+    },
+    "choices": [
+      {
+        "en": "12x⁵y⁵",
+        "es": "12x⁵y⁵"
+      },
+      {
+        "en": "7x⁵y⁵",
+        "es": "7x⁵y⁵"
+      },
+      {
+        "en": "12x⁶y⁴",
+        "es": "12x⁶y⁴"
+      },
+      {
+        "en": "7x⁶y⁴",
+        "es": "7x⁶y⁴"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Multiply coefficients: 4 × 3 = 12. Add exponents of like bases: x³ · x² = x⁵ and y¹ · y⁴ = y⁵.",
+      "es": "Multiplica coeficientes: 4 × 3 = 12. Suma exponentes de bases iguales: x³ · x² = x⁵ y y¹ · y⁴ = y⁵."
+    },
+    "trap": {
+      "en": "Mixed-rules trap: 7x⁵y⁵ adds the coefficients; 12x⁶y⁴ multiplies the exponents. Coefficients multiply, exponents add.",
+      "es": "Trampa de reglas mezcladas: 7x⁵y⁵ suma los coeficientes; 12x⁶y⁴ multiplica los exponentes. Los coeficientes se multiplican, los exponentes se suman."
+    },
+    "strategyRef": "mk.pick-numbers",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0050",
+    "subtest": "MK",
+    "topic": "roots",
+    "difficulty": 1,
+    "stem": {
+      "en": "What is √49 + √16?",
+      "es": "¿Cuánto es √49 + √16?"
+    },
+    "choices": [
+      {
+        "en": "√65",
+        "es": "√65"
+      },
+      {
+        "en": "65",
+        "es": "65"
+      },
+      {
+        "en": "11",
+        "es": "11"
+      },
+      {
+        "en": "7",
+        "es": "7"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "√49 = 7 and √16 = 4. 7 + 4 = 11.",
+      "es": "√49 = 7 y √16 = 4. 7 + 4 = 11."
+    },
+    "trap": {
+      "en": "Add-under-the-root trap: √65 adds 49 + 16 first, but √a + √b is not √(a + b). Take each root, then add.",
+      "es": "Trampa de sumar bajo la raíz: √65 suma 49 + 16 primero, pero √a + √b no es √(a + b). Saca cada raíz y luego suma."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0051",
+    "subtest": "MK",
+    "topic": "roots",
+    "difficulty": 2,
+    "stem": {
+      "en": "Simplify √72.",
+      "es": "Simplifica √72."
+    },
+    "choices": [
+      {
+        "en": "2√6",
+        "es": "2√6"
+      },
+      {
+        "en": "6√2",
+        "es": "6√2"
+      },
+      {
+        "en": "36√2",
+        "es": "36√2"
+      },
+      {
+        "en": "9√2",
+        "es": "9√2"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "72 = 36 × 2, and 36 is a perfect square. √72 = √36 · √2 = 6√2.",
+      "es": "72 = 36 × 2, y 36 es un cuadrado perfecto. √72 = √36 · √2 = 6√2."
+    },
+    "trap": {
+      "en": "Forgot-the-root trap: 36√2 pulls out 36 without taking its square root. 2√6 swaps the factors (2√6 = √24).",
+      "es": "Trampa de olvidar la raíz: 36√2 saca el 36 sin extraer su raíz. 2√6 intercambia los factores (2√6 = √24)."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0052",
+    "subtest": "MK",
+    "topic": "factors-multiples",
+    "difficulty": 1,
+    "stem": {
+      "en": "What is the greatest common factor of 36 and 54?",
+      "es": "¿Cuál es el máximo común divisor de 36 y 54?"
+    },
+    "choices": [
+      {
+        "en": "6",
+        "es": "6"
+      },
+      {
+        "en": "9",
+        "es": "9"
+      },
+      {
+        "en": "108",
+        "es": "108"
+      },
+      {
+        "en": "18",
+        "es": "18"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "36 = 2 × 2 × 3 × 3 and 54 = 2 × 3 × 3 × 3. Shared factors: 2 × 3 × 3 = 18.",
+      "es": "36 = 2 × 2 × 3 × 3 y 54 = 2 × 3 × 3 × 3. Factores compartidos: 2 × 3 × 3 = 18."
+    },
+    "trap": {
+      "en": "GCF-vs-LCM trap: 108 is the least common multiple. 6 and 9 are common factors but not the greatest one.",
+      "es": "Trampa MCD vs mcm: 108 es el mínimo común múltiplo. 6 y 9 son divisores comunes pero no el máximo."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0053",
+    "subtest": "MK",
+    "topic": "factors-multiples",
+    "difficulty": 2,
+    "stem": {
+      "en": "What is the least common multiple of 8 and 12?",
+      "es": "¿Cuál es el mínimo común múltiplo de 8 y 12?"
+    },
+    "choices": [
+      {
+        "en": "4",
+        "es": "4"
+      },
+      {
+        "en": "24",
+        "es": "24"
+      },
+      {
+        "en": "96",
+        "es": "96"
+      },
+      {
+        "en": "48",
+        "es": "48"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Multiples of 12: 12, 24, 36... The first one divisible by 8 is 24.",
+      "es": "Múltiplos de 12: 12, 24, 36... El primero divisible entre 8 es 24."
+    },
+    "trap": {
+      "en": "Product trap: 96 multiplies 8 × 12, which is a common multiple but not the least. 4 is the greatest common factor.",
+      "es": "Trampa del producto: 96 multiplica 8 × 12, que es un múltiplo común pero no el mínimo. 4 es el máximo común divisor."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0054",
+    "subtest": "MK",
+    "topic": "factors-multiples",
+    "difficulty": 3,
+    "stem": {
+      "en": "How many prime numbers are there between 20 and 40?",
+      "es": "¿Cuántos números primos hay entre 20 y 40?"
+    },
+    "choices": [
+      {
+        "en": "4",
+        "es": "4"
+      },
+      {
+        "en": "3",
+        "es": "3"
+      },
+      {
+        "en": "5",
+        "es": "5"
+      },
+      {
+        "en": "6",
+        "es": "6"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Check the odd numbers: 23, 29, 31 and 37 are prime. 21, 25, 27, 33, 35 and 39 are not. That makes 4.",
+      "es": "Revisa los impares: 23, 29, 31 y 37 son primos. 21, 25, 27, 33, 35 y 39 no lo son. Son 4."
+    },
+    "trap": {
+      "en": "Odd-equals-prime trap: 5 or 6 usually comes from counting 27, 33 or 39 as prime; each is divisible by 3.",
+      "es": "Trampa de impar = primo: 5 o 6 suele venir de contar 27, 33 o 39 como primos; cada uno es divisible entre 3."
+    },
+    "strategyRef": "mk.backsolve",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0055",
+    "subtest": "MK",
+    "topic": "expressions",
+    "difficulty": 1,
+    "stem": {
+      "en": "Simplify 5x + 3 − 2x + 7.",
+      "es": "Simplifica 5x + 3 − 2x + 7."
+    },
+    "choices": [
+      {
+        "en": "7x + 10",
+        "es": "7x + 10"
+      },
+      {
+        "en": "3x + 10",
+        "es": "3x + 10"
+      },
+      {
+        "en": "3x + 4",
+        "es": "3x + 4"
+      },
+      {
+        "en": "13x",
+        "es": "13x"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Combine like terms: 5x − 2x = 3x and 3 + 7 = 10. Result: 3x + 10.",
+      "es": "Agrupa términos semejantes: 5x − 2x = 3x y 3 + 7 = 10. Resultado: 3x + 10."
+    },
+    "trap": {
+      "en": "Sign trap: 7x + 10 adds 5x + 2x instead of subtracting. 13x combines unlike terms as if constants were x-terms.",
+      "es": "Trampa de signo: 7x + 10 suma 5x + 2x en vez de restar. 13x junta términos no semejantes como si las constantes fueran términos con x."
+    },
+    "strategyRef": "mk.sign-errors",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0056",
+    "subtest": "MK",
+    "topic": "expressions",
+    "difficulty": 2,
+    "stem": {
+      "en": "What is the value of 2a² − 3b when a = −3 and b = 4?",
+      "es": "¿Cuál es el valor de 2a² − 3b cuando a = −3 y b = 4?"
+    },
+    "choices": [
+      {
+        "en": "6",
+        "es": "6"
+      },
+      {
+        "en": "−30",
+        "es": "−30"
+      },
+      {
+        "en": "30",
+        "es": "30"
+      },
+      {
+        "en": "−6",
+        "es": "−6"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "(−3)² = 9, so 2 × 9 = 18. Then 18 − 3 × 4 = 18 − 12 = 6.",
+      "es": "(−3)² = 9, así que 2 × 9 = 18. Luego 18 − 3 × 4 = 18 − 12 = 6."
+    },
+    "trap": {
+      "en": "Negative-square trap: −30 uses (−3)² = −9. A negative squared is positive. 30 adds 3b instead of subtracting.",
+      "es": "Trampa del cuadrado negativo: −30 usa (−3)² = −9. Un negativo al cuadrado es positivo. 30 suma 3b en vez de restar."
+    },
+    "strategyRef": "mk.sign-errors",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0057",
+    "subtest": "MK",
+    "topic": "expressions",
+    "difficulty": 2,
+    "stem": {
+      "en": "Simplify 3(2x − 4) − (x + 5).",
+      "es": "Simplifica 3(2x − 4) − (x + 5)."
+    },
+    "choices": [
+      {
+        "en": "5x − 7",
+        "es": "5x − 7"
+      },
+      {
+        "en": "7x − 17",
+        "es": "7x − 17"
+      },
+      {
+        "en": "5x − 9",
+        "es": "5x − 9"
+      },
+      {
+        "en": "5x − 17",
+        "es": "5x − 17"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Distribute: 6x − 12 − x − 5. Combine: 5x − 17.",
+      "es": "Distribuye: 6x − 12 − x − 5. Agrupa: 5x − 17."
+    },
+    "trap": {
+      "en": "Minus-distribution trap: 5x − 7 subtracts x but adds 5, forgetting the minus sign applies to both terms in (x + 5).",
+      "es": "Trampa de distribuir el menos: 5x − 7 resta x pero suma 5, olvidando que el signo menos aplica a ambos términos de (x + 5)."
+    },
+    "strategyRef": "mk.sign-errors",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0058",
+    "subtest": "MK",
+    "topic": "expressions",
+    "difficulty": 3,
+    "stem": {
+      "en": "Which expression is equivalent to (6x² − 9x) ÷ 3x, for x ≠ 0?",
+      "es": "¿Qué expresión es equivalente a (6x² − 9x) ÷ 3x, para x ≠ 0?"
+    },
+    "choices": [
+      {
+        "en": "2x − 3",
+        "es": "2x − 3"
+      },
+      {
+        "en": "2x² − 3x",
+        "es": "2x² − 3x"
+      },
+      {
+        "en": "3x − 2",
+        "es": "3x − 2"
+      },
+      {
+        "en": "2x − 9",
+        "es": "2x − 9"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Divide each term by 3x: 6x² ÷ 3x = 2x and 9x ÷ 3x = 3. Result: 2x − 3. Check with x = 2: (24 − 18) ÷ 6 = 1 = 2(2) − 3.",
+      "es": "Divide cada término entre 3x: 6x² ÷ 3x = 2x y 9x ÷ 3x = 3. Resultado: 2x − 3. Comprueba con x = 2: (24 − 18) ÷ 6 = 1 = 2(2) − 3."
+    },
+    "trap": {
+      "en": "Half-division trap: 2x² − 3x divides only by 3 and forgets the x. 2x − 9 divides only the first term by 3x.",
+      "es": "Trampa de división a medias: 2x² − 3x divide solo entre 3 y olvida la x. 2x − 9 divide solo el primer término entre 3x."
+    },
+    "strategyRef": "mk.pick-numbers",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0059",
+    "subtest": "MK",
+    "topic": "inequalities",
+    "difficulty": 2,
+    "stem": {
+      "en": "Solve for x: −4x + 6 > 18.",
+      "es": "Resuelve para x: −4x + 6 > 18."
+    },
+    "choices": [
+      {
+        "en": "x > −3",
+        "es": "x > −3"
+      },
+      {
+        "en": "x < 3",
+        "es": "x < 3"
+      },
+      {
+        "en": "x < −3",
+        "es": "x < −3"
+      },
+      {
+        "en": "x > 3",
+        "es": "x > 3"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Subtract 6: −4x > 12. Divide by −4 and flip the sign: x < −3.",
+      "es": "Resta 6: −4x > 12. Divide entre −4 e invierte el signo: x < −3."
+    },
+    "trap": {
+      "en": "Flip trap: x > −3 divides by a negative without reversing the inequality. Test x = −4: −4(−4) + 6 = 22 > 18 works, so the solutions are below −3.",
+      "es": "Trampa de invertir: x > −3 divide entre un negativo sin voltear la desigualdad. Prueba x = −4: −4(−4) + 6 = 22 > 18 funciona, así que las soluciones están debajo de −3."
+    },
+    "strategyRef": "mk.inequality-flip",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0060",
+    "subtest": "MK",
+    "topic": "systems",
+    "difficulty": 2,
+    "stem": {
+      "en": "If 2x + y = 13 and x − y = 2, what is the value of x?",
+      "es": "Si 2x + y = 13 y x − y = 2, ¿cuál es el valor de x?"
+    },
+    "choices": [
+      {
+        "en": "3",
+        "es": "3"
+      },
+      {
+        "en": "5",
+        "es": "5"
+      },
+      {
+        "en": "11",
+        "es": "11"
+      },
+      {
+        "en": "4",
+        "es": "4"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Add the equations to eliminate y: 3x = 15, so x = 5. (Then y = 3.)",
+      "es": "Suma las ecuaciones para eliminar y: 3x = 15, así que x = 5. (Luego y = 3.)"
+    },
+    "trap": {
+      "en": "Wrong-variable trap: 3 is y, not x. 11 subtracts the equations and misreads the result (x + 2y = 11).",
+      "es": "Trampa de variable equivocada: 3 es y, no x. 11 resta las ecuaciones y malinterpreta el resultado (x + 2y = 11)."
+    },
+    "strategyRef": "mk.backsolve",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0061",
+    "subtest": "MK",
+    "topic": "systems",
+    "difficulty": 3,
+    "stem": {
+      "en": "If 2x + 3y = 19 and x = y + 2, what is the value of y?",
+      "es": "Si 2x + 3y = 19 y x = y + 2, ¿cuál es el valor de y?"
+    },
+    "choices": [
+      {
+        "en": "5",
+        "es": "5"
+      },
+      {
+        "en": "2",
+        "es": "2"
+      },
+      {
+        "en": "7",
+        "es": "7"
+      },
+      {
+        "en": "3",
+        "es": "3"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Substitute x = y + 2: 2(y + 2) + 3y = 19, so 2y + 4 + 3y = 19, 5y = 15, y = 3.",
+      "es": "Sustituye x = y + 2: 2(y + 2) + 3y = 19, así que 2y + 4 + 3y = 19, 5y = 15, y = 3."
+    },
+    "trap": {
+      "en": "Wrong-variable trap: 5 is x, not y. 2 comes from forgetting to distribute the 2 over (y + 2).",
+      "es": "Trampa de variable equivocada: 5 es x, no y. 2 viene de olvidar distribuir el 2 sobre (y + 2)."
+    },
+    "strategyRef": "mk.backsolve",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0062",
+    "subtest": "MK",
+    "topic": "foil",
+    "difficulty": 1,
+    "stem": {
+      "en": "Expand (x + 2)(x + 7).",
+      "es": "Desarrolla (x + 2)(x + 7)."
+    },
+    "choices": [
+      {
+        "en": "x² + 14",
+        "es": "x² + 14"
+      },
+      {
+        "en": "x² + 9x + 14",
+        "es": "x² + 9x + 14"
+      },
+      {
+        "en": "x² + 9x + 9",
+        "es": "x² + 9x + 9"
+      },
+      {
+        "en": "x² + 14x + 9",
+        "es": "x² + 14x + 9"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "First x², Outer 7x, Inner 2x, Last 14. Combine: x² + 9x + 14.",
+      "es": "Primeros x², Externos 7x, Internos 2x, Últimos 14. Agrupa: x² + 9x + 14."
+    },
+    "trap": {
+      "en": "Missing-middle trap: x² + 14 multiplies only the first and last terms. The outer and inner products give the 9x.",
+      "es": "Trampa del término medio: x² + 14 multiplica solo los primeros y últimos términos. Los productos externo e interno dan el 9x."
+    },
+    "strategyRef": "mk.pick-numbers",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0063",
+    "subtest": "MK",
+    "topic": "foil",
+    "difficulty": 2,
+    "stem": {
+      "en": "Expand (2x − 3)(x + 6).",
+      "es": "Desarrolla (2x − 3)(x + 6)."
+    },
+    "choices": [
+      {
+        "en": "2x² − 9x − 18",
+        "es": "2x² − 9x − 18"
+      },
+      {
+        "en": "2x² + 15x − 18",
+        "es": "2x² + 15x − 18"
+      },
+      {
+        "en": "2x² + 9x − 18",
+        "es": "2x² + 9x − 18"
+      },
+      {
+        "en": "2x² − 18",
+        "es": "2x² − 18"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "First 2x², Outer 12x, Inner −3x, Last −18. Combine: 2x² + 9x − 18.",
+      "es": "Primeros 2x², Externos 12x, Internos −3x, Últimos −18. Agrupa: 2x² + 9x − 18."
+    },
+    "trap": {
+      "en": "Sign trap: 2x² − 9x − 18 subtracts 12x from 3x instead of 3x from 12x. 2x² + 15x − 18 adds the middle terms as if both were positive.",
+      "es": "Trampa de signo: 2x² − 9x − 18 resta 12x de 3x en vez de 3x de 12x. 2x² + 15x − 18 suma los términos medios como si ambos fueran positivos."
+    },
+    "strategyRef": "mk.sign-errors",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0064",
+    "subtest": "MK",
+    "topic": "factoring",
+    "difficulty": 2,
+    "stem": {
+      "en": "Factor x² − 2x − 15.",
+      "es": "Factoriza x² − 2x − 15."
+    },
+    "choices": [
+      {
+        "en": "(x − 5)(x + 3)",
+        "es": "(x − 5)(x + 3)"
+      },
+      {
+        "en": "(x + 5)(x − 3)",
+        "es": "(x + 5)(x − 3)"
+      },
+      {
+        "en": "(x − 5)(x − 3)",
+        "es": "(x − 5)(x − 3)"
+      },
+      {
+        "en": "(x − 15)(x + 1)",
+        "es": "(x − 15)(x + 1)"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Find two numbers that multiply to −15 and add to −2: −5 and 3. So x² − 2x − 15 = (x − 5)(x + 3).",
+      "es": "Busca dos números que multipliquen −15 y sumen −2: −5 y 3. Así x² − 2x − 15 = (x − 5)(x + 3)."
+    },
+    "trap": {
+      "en": "Swapped-sign trap: (x + 5)(x − 3) expands to x² + 2x − 15. The larger factor must carry the negative sign to get −2x.",
+      "es": "Trampa de signos cambiados: (x + 5)(x − 3) da x² + 2x − 15. El factor mayor debe llevar el signo negativo para obtener −2x."
+    },
+    "strategyRef": "mk.sign-errors",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0065",
+    "subtest": "MK",
+    "topic": "factoring",
+    "difficulty": 3,
+    "stem": {
+      "en": "Factor 9x² − 25 completely.",
+      "es": "Factoriza 9x² − 25 por completo."
+    },
+    "choices": [
+      {
+        "en": "(3x − 5)²",
+        "es": "(3x − 5)²"
+      },
+      {
+        "en": "(3x − 5)(3x + 5)",
+        "es": "(3x − 5)(3x + 5)"
+      },
+      {
+        "en": "(9x − 5)(x + 5)",
+        "es": "(9x − 5)(x + 5)"
+      },
+      {
+        "en": "(3x − 25)(3x + 1)",
+        "es": "(3x − 25)(3x + 1)"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "This is a difference of squares: (3x)² − 5² = (3x − 5)(3x + 5).",
+      "es": "Es una diferencia de cuadrados: (3x)² − 5² = (3x − 5)(3x + 5)."
+    },
+    "trap": {
+      "en": "Perfect-square trap: (3x − 5)² expands to 9x² − 30x + 25, which has a middle term. A difference of squares factors into conjugates.",
+      "es": "Trampa del cuadrado perfecto: (3x − 5)² da 9x² − 30x + 25, que tiene término medio. Una diferencia de cuadrados se factoriza en conjugados."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0066",
+    "subtest": "MK",
+    "topic": "quadratics",
+    "difficulty": 3,
+    "stem": {
+      "en": "What are the solutions of x² + 2x − 15 = 0?",
+      "es": "¿Cuáles son las soluciones de x² + 2x − 15 = 0?"
+    },
+    "choices": [
+      {
+        "en": "x = 5 or x = −3",
+        "es": "x = 5 o x = −3"
+      },
+      {
+        "en": "x = 5 or x = 3",
+        "es": "x = 5 o x = 3"
+      },
+      {
+        "en": "x = −5 or x = 3",
+        "es": "x = −5 o x = 3"
+      },
+      {
+        "en": "x = −5 only",
+        "es": "x = −5 solamente"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Factor: (x + 5)(x − 3) = 0, so x = −5 or x = 3. Check: 9 + 6 − 15 = 0 and 25 − 10 − 15 = 0.",
+      "es": "Factoriza: (x + 5)(x − 3) = 0, así que x = −5 o x = 3. Verifica: 9 + 6 − 15 = 0 y 25 − 10 − 15 = 0."
+    },
+    "trap": {
+      "en": "Sign-flip trap: x = 5 or x = −3 reads the factors (x + 5)(x − 3) with the wrong signs; each factor equals zero at the opposite value. Both roots are needed.",
+      "es": "Trampa de signo invertido: x = 5 o x = −3 lee los factores (x + 5)(x − 3) con signos equivocados; cada factor vale cero en el valor opuesto. Se necesitan ambas raíces."
+    },
+    "strategyRef": "mk.both-roots",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0067",
+    "subtest": "MK",
+    "topic": "quadrilaterals-polygons",
+    "difficulty": 1,
+    "stem": {
+      "en": "What is the sum of the interior angles of a hexagon?",
+      "es": "¿Cuál es la suma de los ángulos interiores de un hexágono?"
+    },
+    "choices": [
+      {
+        "en": "540°",
+        "es": "540°"
+      },
+      {
+        "en": "900°",
+        "es": "900°"
+      },
+      {
+        "en": "360°",
+        "es": "360°"
+      },
+      {
+        "en": "720°",
+        "es": "720°"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Sum = (n − 2) × 180° = (6 − 2) × 180° = 720°.",
+      "es": "Suma = (n − 2) × 180° = (6 − 2) × 180° = 720°."
+    },
+    "trap": {
+      "en": "Off-by-one trap: 540° uses n − 3 (a pentagon) and 900° uses n − 1. A hexagon splits into 4 triangles.",
+      "es": "Trampa de uno de más o de menos: 540° usa n − 3 (un pentágono) y 900° usa n − 1. Un hexágono se divide en 4 triángulos."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0068",
+    "subtest": "MK",
+    "topic": "quadrilaterals-polygons",
+    "difficulty": 2,
+    "stem": {
+      "en": "One angle of a parallelogram measures 65°. What is the measure of an angle adjacent to it?",
+      "es": "Un ángulo de un paralelogramo mide 65°. ¿Cuánto mide un ángulo adyacente a él?"
+    },
+    "choices": [
+      {
+        "en": "65°",
+        "es": "65°"
+      },
+      {
+        "en": "115°",
+        "es": "115°"
+      },
+      {
+        "en": "25°",
+        "es": "25°"
+      },
+      {
+        "en": "295°",
+        "es": "295°"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Adjacent angles of a parallelogram are supplementary: 180° − 65° = 115°.",
+      "es": "Los ángulos adyacentes de un paralelogramo son suplementarios: 180° − 65° = 115°."
+    },
+    "trap": {
+      "en": "Opposite-angle trap: 65° is the measure of the OPPOSITE angle, which is equal. 25° uses 90° (complementary) instead of 180°.",
+      "es": "Trampa del ángulo opuesto: 65° es la medida del ángulo OPUESTO, que es igual. 25° usa 90° (complementario) en vez de 180°."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0069",
+    "subtest": "MK",
+    "topic": "quadrilaterals-polygons",
+    "difficulty": 3,
+    "stem": {
+      "en": "Each interior angle of a regular polygon measures 144°. How many sides does the polygon have?",
+      "es": "Cada ángulo interior de un polígono regular mide 144°. ¿Cuántos lados tiene el polígono?"
+    },
+    "choices": [
+      {
+        "en": "8",
+        "es": "8"
+      },
+      {
+        "en": "10",
+        "es": "10"
+      },
+      {
+        "en": "9",
+        "es": "9"
+      },
+      {
+        "en": "12",
+        "es": "12"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Each exterior angle is 180° − 144° = 36°. Exterior angles sum to 360°, so n = 360 ÷ 36 = 10.",
+      "es": "Cada ángulo exterior es 180° − 144° = 36°. Los exteriores suman 360°, así que n = 360 ÷ 36 = 10."
+    },
+    "trap": {
+      "en": "Wrong-formula trap: 8 and 12 come from guessing familiar polygons; an octagon's angles are 135° and a dodecagon's are 150°. Use the exterior angle.",
+      "es": "Trampa de fórmula equivocada: 8 y 12 vienen de adivinar polígonos conocidos; los del octágono miden 135° y los del dodecágono 150°. Usa el ángulo exterior."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0070",
+    "subtest": "MK",
+    "topic": "perimeter",
+    "difficulty": 1,
+    "stem": {
+      "en": "What is the perimeter of a rectangle that is 14 cm long and 6 cm wide?",
+      "es": "¿Cuál es el perímetro de un rectángulo de 14 cm de largo y 6 cm de ancho?"
+    },
+    "choices": [
+      {
+        "en": "20 cm",
+        "es": "20 cm"
+      },
+      {
+        "en": "84 cm",
+        "es": "84 cm"
+      },
+      {
+        "en": "28 cm",
+        "es": "28 cm"
+      },
+      {
+        "en": "40 cm",
+        "es": "40 cm"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "P = 2(l + w) = 2(14 + 6) = 2 × 20 = 40 cm.",
+      "es": "P = 2(l + a) = 2(14 + 6) = 2 × 20 = 40 cm."
+    },
+    "trap": {
+      "en": "Half-perimeter trap: 20 adds one length and one width only. 84 is the area (14 × 6).",
+      "es": "Trampa del medio perímetro: 20 suma solo un largo y un ancho. 84 es el área (14 × 6)."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0071",
+    "subtest": "MK",
+    "topic": "perimeter",
+    "difficulty": 2,
+    "stem": {
+      "en": "A square has an area of 81 square inches. What is its perimeter?",
+      "es": "Un cuadrado tiene un área de 81 pulgadas cuadradas. ¿Cuál es su perímetro?"
+    },
+    "choices": [
+      {
+        "en": "36 inches",
+        "es": "36 pulgadas"
+      },
+      {
+        "en": "18 inches",
+        "es": "18 pulgadas"
+      },
+      {
+        "en": "81 inches",
+        "es": "81 pulgadas"
+      },
+      {
+        "en": "324 inches",
+        "es": "324 pulgadas"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Side = √81 = 9 inches. Perimeter = 4 × 9 = 36 inches.",
+      "es": "Lado = √81 = 9 pulgadas. Perímetro = 4 × 9 = 36 pulgadas."
+    },
+    "trap": {
+      "en": "Two-sides trap: 18 doubles the side instead of multiplying by 4. 324 multiplies the area by 4 without taking the root.",
+      "es": "Trampa de dos lados: 18 duplica el lado en lugar de multiplicarlo por 4. 324 multiplica el área por 4 sin sacar la raíz."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0072",
+    "subtest": "MK",
+    "topic": "area",
+    "difficulty": 1,
+    "stem": {
+      "en": "What is the area of a triangle with a base of 12 feet and a height of 5 feet?",
+      "es": "¿Cuál es el área de un triángulo con base de 12 pies y altura de 5 pies?"
+    },
+    "choices": [
+      {
+        "en": "60 square feet",
+        "es": "60 pies cuadrados"
+      },
+      {
+        "en": "17 square feet",
+        "es": "17 pies cuadrados"
+      },
+      {
+        "en": "30 square feet",
+        "es": "30 pies cuadrados"
+      },
+      {
+        "en": "34 square feet",
+        "es": "34 pies cuadrados"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "A = ½ × base × height = ½ × 12 × 5 = 30 square feet.",
+      "es": "A = ½ × base × altura = ½ × 12 × 5 = 30 pies cuadrados."
+    },
+    "trap": {
+      "en": "Missing-half trap: 60 multiplies base by height without the ½. 34 is a perimeter-style sum (12 + 5 + 5 + 12), not an area.",
+      "es": "Trampa del medio faltante: 60 multiplica base por altura sin el ½. 34 es una suma tipo perímetro, no un área."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0073",
+    "subtest": "MK",
+    "topic": "area",
+    "difficulty": 3,
+    "stem": {
+      "en": "A rectangle measures 8 meters by 5 meters. A square 2 meters on each side is cut from one corner. What is the area of the remaining shape?",
+      "es": "Un rectángulo mide 8 metros por 5 metros. Se recorta de una esquina un cuadrado de 2 metros por lado. ¿Cuál es el área de la figura restante?"
+    },
+    "choices": [
+      {
+        "en": "40 square meters",
+        "es": "40 metros cuadrados"
+      },
+      {
+        "en": "32 square meters",
+        "es": "32 metros cuadrados"
+      },
+      {
+        "en": "36 square meters",
+        "es": "36 metros cuadrados"
+      },
+      {
+        "en": "44 square meters",
+        "es": "44 metros cuadrados"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Rectangle: 8 × 5 = 40. Cut-out square: 2 × 2 = 4. Remaining: 40 − 4 = 36 square meters.",
+      "es": "Rectángulo: 8 × 5 = 40. Cuadrado recortado: 2 × 2 = 4. Restante: 40 − 4 = 36 metros cuadrados."
+    },
+    "trap": {
+      "en": "Perimeter-of-cutout trap: 32 subtracts 8 (the square's perimeter) instead of its area 4. 40 forgets the cut-out entirely.",
+      "es": "Trampa del perímetro del recorte: 32 resta 8 (el perímetro del cuadrado) en vez de su área 4. 40 olvida el recorte por completo."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0074",
+    "subtest": "MK",
+    "topic": "area",
+    "difficulty": 2,
+    "stem": {
+      "en": "What is the area of a trapezoid with parallel sides of 10 and 16 and a height of 6?",
+      "es": "¿Cuál es el área de un trapecio con lados paralelos de 10 y 16 y altura de 6?"
+    },
+    "choices": [
+      {
+        "en": "156",
+        "es": "156"
+      },
+      {
+        "en": "96",
+        "es": "96"
+      },
+      {
+        "en": "60",
+        "es": "60"
+      },
+      {
+        "en": "78",
+        "es": "78"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "A = ½ × (b₁ + b₂) × h = ½ × (10 + 16) × 6 = 13 × 6 = 78.",
+      "es": "A = ½ × (b₁ + b₂) × h = ½ × (10 + 16) × 6 = 13 × 6 = 78."
+    },
+    "trap": {
+      "en": "Missing-half trap: 156 adds the bases and multiplies by the height without halving. 96 and 60 use only one base as if it were a rectangle.",
+      "es": "Trampa del medio faltante: 156 suma las bases y multiplica por la altura sin dividir entre 2. 96 y 60 usan solo una base como si fuera un rectángulo."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0075",
+    "subtest": "MK",
+    "topic": "circle-circumference",
+    "difficulty": 2,
+    "stem": {
+      "en": "A circle has a diameter of 10 cm. Using π ≈ 3.14, what is its circumference?",
+      "es": "Un círculo tiene un diámetro de 10 cm. Usando π ≈ 3.14, ¿cuál es su circunferencia?"
+    },
+    "choices": [
+      {
+        "en": "31.4 cm",
+        "es": "31.4 cm"
+      },
+      {
+        "en": "62.8 cm",
+        "es": "62.8 cm"
+      },
+      {
+        "en": "15.7 cm",
+        "es": "15.7 cm"
+      },
+      {
+        "en": "78.5 cm",
+        "es": "78.5 cm"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "C = πd = 3.14 × 10 = 31.4 cm.",
+      "es": "C = πd = 3.14 × 10 = 31.4 cm."
+    },
+    "trap": {
+      "en": "Radius-diameter trap: 62.8 treats 10 as the radius (2πr with r = 10). 78.5 is the area πr² with r = 5.",
+      "es": "Trampa de radio-diámetro: 62.8 toma 10 como radio (2πr con r = 10). 78.5 es el área πr² con r = 5."
+    },
+    "strategyRef": "mk.radius-diameter",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0076",
+    "subtest": "MK",
+    "topic": "circle-circumference",
+    "difficulty": 1,
+    "stem": {
+      "en": "What is the circumference of a circle with a radius of 4.5 inches? Leave the answer in terms of π.",
+      "es": "¿Cuál es la circunferencia de un círculo con radio de 4.5 pulgadas? Deja la respuesta en términos de π."
+    },
+    "choices": [
+      {
+        "en": "9π inches",
+        "es": "9π pulgadas"
+      },
+      {
+        "en": "4.5π inches",
+        "es": "4.5π pulgadas"
+      },
+      {
+        "en": "20.25π inches",
+        "es": "20.25π pulgadas"
+      },
+      {
+        "en": "18π inches",
+        "es": "18π pulgadas"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "C = 2πr = 2 × 4.5 × π = 9π inches.",
+      "es": "C = 2πr = 2 × 4.5 × π = 9π pulgadas."
+    },
+    "trap": {
+      "en": "Radius-diameter trap: 4.5π uses πr and forgets the 2. 18π doubles twice (treats 4.5 as the diameter and then uses 2πd). 20.25π is the area.",
+      "es": "Trampa de radio-diámetro: 4.5π usa πr y olvida el 2. 18π duplica dos veces. 20.25π es el área."
+    },
+    "strategyRef": "mk.radius-diameter",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0077",
+    "subtest": "MK",
+    "topic": "volume",
+    "difficulty": 2,
+    "stem": {
+      "en": "A cube has edges of 4 cm. What is its total surface area?",
+      "es": "Un cubo tiene aristas de 4 cm. ¿Cuál es su área superficial total?"
+    },
+    "choices": [
+      {
+        "en": "64 cm²",
+        "es": "64 cm²"
+      },
+      {
+        "en": "16 cm²",
+        "es": "16 cm²"
+      },
+      {
+        "en": "48 cm²",
+        "es": "48 cm²"
+      },
+      {
+        "en": "96 cm²",
+        "es": "96 cm²"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Each face is 4 × 4 = 16 cm². A cube has 6 faces: 6 × 16 = 96 cm².",
+      "es": "Cada cara mide 4 × 4 = 16 cm². Un cubo tiene 6 caras: 6 × 16 = 96 cm²."
+    },
+    "trap": {
+      "en": "Volume trap: 64 is the volume (4³), not the surface area. 16 is one face only; 48 counts only 3 faces.",
+      "es": "Trampa del volumen: 64 es el volumen (4³), no el área superficial. 16 es una sola cara; 48 cuenta solo 3 caras."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0078",
+    "subtest": "MK",
+    "topic": "probability",
+    "difficulty": 1,
+    "stem": {
+      "en": "A bag contains 3 red, 5 blue and 2 green marbles. If one marble is drawn at random, what is the probability that it is blue?",
+      "es": "Una bolsa contiene 3 canicas rojas, 5 azules y 2 verdes. Si se saca una canica al azar, ¿cuál es la probabilidad de que sea azul?"
+    },
+    "choices": [
+      {
+        "en": "1/5",
+        "es": "1/5"
+      },
+      {
+        "en": "1/2",
+        "es": "1/2"
+      },
+      {
+        "en": "5/8",
+        "es": "5/8"
+      },
+      {
+        "en": "3/10",
+        "es": "3/10"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Total marbles: 3 + 5 + 2 = 10. P(blue) = 5/10 = 1/2.",
+      "es": "Canicas totales: 3 + 5 + 2 = 10. P(azul) = 5/10 = 1/2."
+    },
+    "trap": {
+      "en": "Wrong-denominator trap: 5/8 divides by 8 (3 + 5), leaving out the green marbles. The denominator is ALL outcomes: 10.",
+      "es": "Trampa del denominador equivocado: 5/8 divide entre 8 (3 + 5) y deja fuera las verdes. El denominador son TODOS los resultados: 10."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0079",
+    "subtest": "MK",
+    "topic": "probability",
+    "difficulty": 2,
+    "stem": {
+      "en": "A fair six-sided die is rolled once. What is the probability of rolling a number greater than 4?",
+      "es": "Se lanza una vez un dado justo de seis caras. ¿Cuál es la probabilidad de obtener un número mayor que 4?"
+    },
+    "choices": [
+      {
+        "en": "1/2",
+        "es": "1/2"
+      },
+      {
+        "en": "2/3",
+        "es": "2/3"
+      },
+      {
+        "en": "1/6",
+        "es": "1/6"
+      },
+      {
+        "en": "1/3",
+        "es": "1/3"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Numbers greater than 4: 5 and 6, two outcomes out of six. P = 2/6 = 1/3.",
+      "es": "Números mayores que 4: 5 y 6, dos resultados de seis. P = 2/6 = 1/3."
+    },
+    "trap": {
+      "en": "Inclusive trap: 1/2 counts 4 itself (\"4 or greater\"). \"Greater than 4\" excludes 4. 2/3 counts the complement.",
+      "es": "Trampa de incluir: 1/2 cuenta también el 4 (\"4 o mayor\"). \"Mayor que 4\" excluye el 4. 2/3 cuenta el complemento."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "mk-0080",
+    "subtest": "MK",
+    "topic": "probability",
+    "difficulty": 3,
+    "stem": {
+      "en": "A fair coin is flipped twice. What is the probability of getting at least one head?",
+      "es": "Se lanza dos veces una moneda justa. ¿Cuál es la probabilidad de obtener al menos una cara?"
+    },
+    "choices": [
+      {
+        "en": "3/4",
+        "es": "3/4"
+      },
+      {
+        "en": "1/2",
+        "es": "1/2"
+      },
+      {
+        "en": "1/4",
+        "es": "1/4"
+      },
+      {
+        "en": "1",
+        "es": "1"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Outcomes: HH, HT, TH, TT. Three of the four include a head, so P = 3/4. Or 1 − P(no heads) = 1 − 1/4.",
+      "es": "Resultados: CC, CX, XC, XX. Tres de los cuatro incluyen una cara, así que P = 3/4. O bien 1 − P(sin caras) = 1 − 1/4."
+    },
+    "trap": {
+      "en": "Exactly-one trap: 1/2 counts only HT and TH; \"at least one\" also includes HH. 1/4 is the probability of two heads (or of none).",
+      "es": "Trampa de exactamente una: 1/2 cuenta solo CX y XC; \"al menos una\" incluye también CC. 1/4 es la probabilidad de dos caras (o de ninguna)."
+    },
+    "strategyRef": "mk.formula-card",
+    "source": "original",
+    "version": 1
+  }
+]

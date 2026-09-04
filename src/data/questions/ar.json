@@ -1,0 +1,3202 @@
+[
+  {
+    "id": "ar-0001",
+    "subtest": "AR",
+    "topic": "percent",
+    "difficulty": 2,
+    "stem": {
+      "en": "A jacket costs $80 and is marked 25 % off. What is the sale price?",
+      "es": "Una chaqueta cuesta $80 y tiene 25 % de descuento. ¿Cuál es el precio de venta?"
+    },
+    "choices": [
+      {
+        "en": "$20",
+        "es": "$20"
+      },
+      {
+        "en": "$55",
+        "es": "$55"
+      },
+      {
+        "en": "$60",
+        "es": "$60"
+      },
+      {
+        "en": "$65",
+        "es": "$65"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Discount = 0.25 × 80 = 20. Sale price = 80 − 20 = 60.",
+      "es": "Descuento = 0.25 × 80 = 20. Precio de venta = 80 − 20 = 60."
+    },
+    "trap": {
+      "en": "Intermediate-value trap: $20 is the discount, not the price. Reread what is asked before clicking.",
+      "es": "Trampa del valor intermedio: $20 es el descuento, no el precio. Relee qué se pregunta antes de responder."
+    },
+    "strategyRef": "ar.intermediate-value",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0002",
+    "subtest": "AR",
+    "topic": "proportion",
+    "difficulty": 3,
+    "stem": {
+      "en": "A truck uses 12 gallons of fuel to travel 180 miles. At the same rate, how many gallons does it need for 300 miles?",
+      "es": "Un camión usa 12 galones de combustible para recorrer 180 millas. Al mismo ritmo, ¿cuántos galones necesita para 300 millas?"
+    },
+    "choices": [
+      {
+        "en": "15",
+        "es": "15"
+      },
+      {
+        "en": "18",
+        "es": "18"
+      },
+      {
+        "en": "20",
+        "es": "20"
+      },
+      {
+        "en": "24",
+        "es": "24"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Set the proportion 12/180 = x/300 → x = 12 × 300 ÷ 180 = 20.",
+      "es": "Plantea la proporción 12/180 = x/300 → x = 12 × 300 ÷ 180 = 20."
+    },
+    "trap": {
+      "en": "WANT (gallons for 300 mi) · HAVE (12 gal per 180 mi) · CONNECT (proportion). Write the three slots first.",
+      "es": "QUIERO (galones para 300 mi) · TENGO (12 gal por 180 mi) · CONECTO (proporción). Escribe los tres espacios primero."
+    },
+    "strategyRef": "ar.want-have-connect",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0003",
+    "subtest": "AR",
+    "topic": "percent",
+    "difficulty": 1,
+    "stem": {
+      "en": "A lunch bill is $40 and sales tax is 8 %. What is the total including tax?",
+      "es": "Una cuenta de almuerzo es de $40 y el impuesto de venta es 8 %. ¿Cuál es el total con impuesto?"
+    },
+    "choices": [
+      {
+        "en": "$43.20",
+        "es": "$43.20"
+      },
+      {
+        "en": "$3.20",
+        "es": "$3.20"
+      },
+      {
+        "en": "$48.00",
+        "es": "$48.00"
+      },
+      {
+        "en": "$32.00",
+        "es": "$32.00"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Tax = 0.08 × 40 = 3.20. Total = 40 + 3.20 = 43.20.",
+      "es": "Impuesto = 0.08 × 40 = 3.20. Total = 40 + 3.20 = 43.20."
+    },
+    "trap": {
+      "en": "Intermediate-value trap: $3.20 is the tax alone; the question asks for the total.",
+      "es": "Trampa del valor intermedio: $3.20 es solo el impuesto; la pregunta pide el total."
+    },
+    "strategyRef": "ar.intermediate-value",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0004",
+    "subtest": "AR",
+    "topic": "percent",
+    "difficulty": 2,
+    "stem": {
+      "en": "Monthly rent rose from $1,200 to $1,380. What was the percent increase?",
+      "es": "El alquiler mensual subió de $1,200 a $1,380. ¿Cuál fue el porcentaje de aumento?"
+    },
+    "choices": [
+      {
+        "en": "13 %",
+        "es": "13 %"
+      },
+      {
+        "en": "18 %",
+        "es": "18 %"
+      },
+      {
+        "en": "15 %",
+        "es": "15 %"
+      },
+      {
+        "en": "115 %",
+        "es": "115 %"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Change = 1,380 − 1,200 = 180. 180 ÷ 1,200 = 0.15 = 15 %.",
+      "es": "Cambio = 1,380 − 1,200 = 180. 180 ÷ 1,200 = 0.15 = 15 %."
+    },
+    "trap": {
+      "en": "Wrong-base trap: dividing by the NEW rent (180 ÷ 1,380 ≈ 13 %) is wrong. Percent change always uses the original value as the base.",
+      "es": "Trampa de base incorrecta: dividir entre el alquiler NUEVO (180 ÷ 1,380 ≈ 13 %) está mal. El cambio porcentual siempre usa el valor original como base."
+    },
+    "strategyRef": "ar.want-have-connect",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0005",
+    "subtest": "AR",
+    "topic": "percent",
+    "difficulty": 3,
+    "stem": {
+      "en": "A gym had 250 members. After a price increase it has 210 members. By what percent did membership decrease?",
+      "es": "Un gimnasio tenía 250 miembros. Tras una subida de precio tiene 210. ¿En qué porcentaje disminuyó la membresía?"
+    },
+    "choices": [
+      {
+        "en": "16 %",
+        "es": "16 %"
+      },
+      {
+        "en": "19 %",
+        "es": "19 %"
+      },
+      {
+        "en": "40 %",
+        "es": "40 %"
+      },
+      {
+        "en": "84 %",
+        "es": "84 %"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Drop = 250 − 210 = 40. 40 ÷ 250 = 0.16 = 16 %.",
+      "es": "Caída = 250 − 210 = 40. 40 ÷ 250 = 0.16 = 16 %."
+    },
+    "trap": {
+      "en": "40 is the number of members lost, not a percent; 84 % is what remains; 19 % comes from dividing by the new total. Base = original 250.",
+      "es": "40 es la cantidad de miembros perdidos, no un porcentaje; 84 % es lo que queda; 19 % sale de dividir entre el nuevo total. Base = 250 original."
+    },
+    "strategyRef": "ar.signal-words",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0006",
+    "subtest": "AR",
+    "topic": "ratio",
+    "difficulty": 1,
+    "stem": {
+      "en": "A recipe uses flour and sugar in a 3 : 2 ratio. If you use 9 cups of flour, how many cups of sugar do you need?",
+      "es": "Una receta usa harina y azúcar en proporción 3 : 2. Si usas 9 tazas de harina, ¿cuántas tazas de azúcar necesitas?"
+    },
+    "choices": [
+      {
+        "en": "4",
+        "es": "4"
+      },
+      {
+        "en": "9",
+        "es": "9"
+      },
+      {
+        "en": "13.5",
+        "es": "13.5"
+      },
+      {
+        "en": "6",
+        "es": "6"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "9 ÷ 3 = 3 batches. Sugar = 2 × 3 = 6 cups.",
+      "es": "9 ÷ 3 = 3 tandas. Azúcar = 2 × 3 = 6 tazas."
+    },
+    "trap": {
+      "en": "Ratio-flip trap: 13.5 comes from scaling the wrong way (9 × 3 ÷ 2). Match flour to the 3, sugar to the 2.",
+      "es": "Trampa de proporción invertida: 13.5 sale de escalar al revés (9 × 3 ÷ 2). Empareja harina con el 3 y azúcar con el 2."
+    },
+    "strategyRef": "ar.want-have-connect",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0007",
+    "subtest": "AR",
+    "topic": "ratio",
+    "difficulty": 2,
+    "stem": {
+      "en": "In a parking lot the ratio of trucks to cars is 2 : 5. If there are 84 vehicles in total, how many cars are there?",
+      "es": "En un estacionamiento la proporción de camionetas a autos es 2 : 5. Si hay 84 vehículos en total, ¿cuántos autos hay?"
+    },
+    "choices": [
+      {
+        "en": "24",
+        "es": "24"
+      },
+      {
+        "en": "48",
+        "es": "48"
+      },
+      {
+        "en": "70",
+        "es": "70"
+      },
+      {
+        "en": "60",
+        "es": "60"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "2 + 5 = 7 parts. 84 ÷ 7 = 12 per part. Cars = 5 × 12 = 60.",
+      "es": "2 + 5 = 7 partes. 84 ÷ 7 = 12 por parte. Autos = 5 × 12 = 60."
+    },
+    "trap": {
+      "en": "Intermediate-value trap: 24 is the number of trucks. Also check that trucks + cars = 84.",
+      "es": "Trampa del valor intermedio: 24 es la cantidad de camionetas. Comprueba que camionetas + autos = 84."
+    },
+    "strategyRef": "ar.intermediate-value",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0008",
+    "subtest": "AR",
+    "topic": "proportion",
+    "difficulty": 2,
+    "stem": {
+      "en": "On a map, 1 inch represents 15 miles. Two towns are 3.5 inches apart on the map. What is the actual distance between them?",
+      "es": "En un mapa, 1 pulgada representa 15 millas. Dos pueblos están a 3.5 pulgadas en el mapa. ¿Cuál es la distancia real entre ellos?"
+    },
+    "choices": [
+      {
+        "en": "45 miles",
+        "es": "45 millas"
+      },
+      {
+        "en": "60 miles",
+        "es": "60 millas"
+      },
+      {
+        "en": "52.5 miles",
+        "es": "52.5 millas"
+      },
+      {
+        "en": "18.5 miles",
+        "es": "18.5 millas"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "1/15 = 3.5/x → x = 3.5 × 15 = 52.5 miles.",
+      "es": "1/15 = 3.5/x → x = 3.5 × 15 = 52.5 millas."
+    },
+    "trap": {
+      "en": "Wrong-operation trap: 18.5 comes from adding 3.5 + 15. A scale is a multiplication, not an addition.",
+      "es": "Trampa de operación equivocada: 18.5 sale de sumar 3.5 + 15. Una escala se multiplica, no se suma."
+    },
+    "strategyRef": "ar.want-have-connect",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0009",
+    "subtest": "AR",
+    "topic": "rate",
+    "difficulty": 1,
+    "stem": {
+      "en": "A convoy drives at a steady 45 miles per hour for 4 hours. How far does it travel?",
+      "es": "Un convoy avanza a 45 millas por hora constantes durante 4 horas. ¿Qué distancia recorre?"
+    },
+    "choices": [
+      {
+        "en": "11.25 miles",
+        "es": "11.25 millas"
+      },
+      {
+        "en": "180 miles",
+        "es": "180 millas"
+      },
+      {
+        "en": "49 miles",
+        "es": "49 millas"
+      },
+      {
+        "en": "200 miles",
+        "es": "200 millas"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Distance = rate × time = 45 × 4 = 180 miles.",
+      "es": "Distancia = velocidad × tiempo = 45 × 4 = 180 millas."
+    },
+    "trap": {
+      "en": "Wrong-operation trap: 11.25 divides instead of multiplying; 49 adds. Signal word 'for 4 hours' means multiply by time.",
+      "es": "Trampa de operación equivocada: 11.25 divide en vez de multiplicar; 49 suma. 'Durante 4 horas' indica multiplicar por el tiempo."
+    },
+    "strategyRef": "ar.signal-words",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0010",
+    "subtest": "AR",
+    "topic": "rate",
+    "difficulty": 2,
+    "stem": {
+      "en": "A runner finishes a 6-mile route in 48 minutes. What is her average pace in minutes per mile?",
+      "es": "Una corredora termina una ruta de 6 millas en 48 minutos. ¿Cuál es su ritmo promedio en minutos por milla?"
+    },
+    "choices": [
+      {
+        "en": "0.125",
+        "es": "0.125"
+      },
+      {
+        "en": "8",
+        "es": "8"
+      },
+      {
+        "en": "6",
+        "es": "6"
+      },
+      {
+        "en": "9",
+        "es": "9"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Pace = minutes ÷ miles = 48 ÷ 6 = 8 minutes per mile.",
+      "es": "Ritmo = minutos ÷ millas = 48 ÷ 6 = 8 minutos por milla."
+    },
+    "trap": {
+      "en": "Units trap: 0.125 is miles per minute (6 ÷ 48), the inverse of what was asked. Let the unit 'minutes per mile' tell you what goes on top.",
+      "es": "Trampa de unidades: 0.125 son millas por minuto (6 ÷ 48), el inverso de lo pedido. La unidad 'minutos por milla' te dice qué va arriba."
+    },
+    "strategyRef": "ar.units",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0011",
+    "subtest": "AR",
+    "topic": "rate",
+    "difficulty": 3,
+    "stem": {
+      "en": "Two trucks leave the same depot at the same time in opposite directions, one at 50 mph and the other at 60 mph. After how many hours will they be 385 miles apart?",
+      "es": "Dos camiones salen del mismo depósito al mismo tiempo en direcciones opuestas, uno a 50 mph y el otro a 60 mph. ¿Después de cuántas horas estarán a 385 millas de distancia?"
+    },
+    "choices": [
+      {
+        "en": "3.5",
+        "es": "3.5"
+      },
+      {
+        "en": "7.7",
+        "es": "7.7"
+      },
+      {
+        "en": "6.4",
+        "es": "6.4"
+      },
+      {
+        "en": "7",
+        "es": "7"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "They separate at 50 + 60 = 110 mph. 385 ÷ 110 = 3.5 hours.",
+      "es": "Se separan a 50 + 60 = 110 mph. 385 ÷ 110 = 3.5 horas."
+    },
+    "trap": {
+      "en": "Single-speed trap: 7.7 and 6.4 divide by only one truck's speed. Opposite directions → add the rates.",
+      "es": "Trampa de una sola velocidad: 7.7 y 6.4 dividen entre la velocidad de un solo camión. Direcciones opuestas → suma las velocidades."
+    },
+    "strategyRef": "ar.want-have-connect",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0012",
+    "subtest": "AR",
+    "topic": "rate",
+    "difficulty": 3,
+    "stem": {
+      "en": "A driver goes 120 miles to a job site at 40 mph and returns by the same road at 60 mph. What is the average speed for the whole round trip?",
+      "es": "Un conductor recorre 120 millas hasta una obra a 40 mph y regresa por el mismo camino a 60 mph. ¿Cuál es la velocidad promedio de todo el viaje redondo?"
+    },
+    "choices": [
+      {
+        "en": "50 mph",
+        "es": "50 mph"
+      },
+      {
+        "en": "45 mph",
+        "es": "45 mph"
+      },
+      {
+        "en": "48 mph",
+        "es": "48 mph"
+      },
+      {
+        "en": "55 mph",
+        "es": "55 mph"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Time out = 120 ÷ 40 = 3 h; back = 120 ÷ 60 = 2 h. Total 240 miles ÷ 5 h = 48 mph.",
+      "es": "Ida = 120 ÷ 40 = 3 h; vuelta = 120 ÷ 60 = 2 h. Total 240 millas ÷ 5 h = 48 mph."
+    },
+    "trap": {
+      "en": "Average-of-speeds trap: 50 is (40 + 60) ÷ 2. Average speed is total distance ÷ total time, never the mean of the speeds.",
+      "es": "Trampa del promedio de velocidades: 50 es (40 + 60) ÷ 2. La velocidad promedio es distancia total ÷ tiempo total, nunca la media de las velocidades."
+    },
+    "strategyRef": "ar.intermediate-value",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0013",
+    "subtest": "AR",
+    "topic": "unit-conversion",
+    "difficulty": 1,
+    "stem": {
+      "en": "A 2-liter bottle of water is poured into cups that hold 250 milliliters each. How many cups can be filled?",
+      "es": "Una botella de 2 litros de agua se vierte en vasos de 250 mililitros cada uno. ¿Cuántos vasos se pueden llenar?"
+    },
+    "choices": [
+      {
+        "en": "8",
+        "es": "8"
+      },
+      {
+        "en": "4",
+        "es": "4"
+      },
+      {
+        "en": "10",
+        "es": "10"
+      },
+      {
+        "en": "80",
+        "es": "80"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "2 L = 2,000 mL. 2,000 ÷ 250 = 8 cups.",
+      "es": "2 L = 2,000 mL. 2,000 ÷ 250 = 8 vasos."
+    },
+    "trap": {
+      "en": "Unit-slip trap: 80 comes from using 20,000 mL; 4 from 1,000 ÷ 250. Convert liters to mL first: 1 L = 1,000 mL.",
+      "es": "Trampa de unidades: 80 sale de usar 20,000 mL; 4 de 1,000 ÷ 250. Convierte litros a mL primero: 1 L = 1,000 mL."
+    },
+    "strategyRef": "ar.units",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0014",
+    "subtest": "AR",
+    "topic": "unit-conversion",
+    "difficulty": 2,
+    "stem": {
+      "en": "A rope is 3 yards 2 feet long. What is its length in inches?",
+      "es": "Una cuerda mide 3 yardas y 2 pies. ¿Cuál es su longitud en pulgadas?"
+    },
+    "choices": [
+      {
+        "en": "110",
+        "es": "110"
+      },
+      {
+        "en": "132",
+        "es": "132"
+      },
+      {
+        "en": "60",
+        "es": "60"
+      },
+      {
+        "en": "156",
+        "es": "156"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "3 yd = 9 ft; 9 + 2 = 11 ft. 11 × 12 = 132 inches.",
+      "es": "3 yd = 9 pies; 9 + 2 = 11 pies. 11 × 12 = 132 pulgadas."
+    },
+    "trap": {
+      "en": "Unit-slip trap: 110 multiplies by 10 instead of 12; 156 treats the 3 yards as 3 feet plus 2 yards. Convert step by step: yards → feet → inches.",
+      "es": "Trampa de unidades: 110 multiplica por 10 en vez de 12; 156 mezcla yardas con pies. Convierte paso a paso: yardas → pies → pulgadas."
+    },
+    "strategyRef": "ar.units",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0015",
+    "subtest": "AR",
+    "topic": "unit-conversion",
+    "difficulty": 3,
+    "stem": {
+      "en": "A train travels at 90 kilometers per hour. What is its speed in meters per second?",
+      "es": "Un tren viaja a 90 kilómetros por hora. ¿Cuál es su velocidad en metros por segundo?"
+    },
+    "choices": [
+      {
+        "en": "15",
+        "es": "15"
+      },
+      {
+        "en": "90",
+        "es": "90"
+      },
+      {
+        "en": "150",
+        "es": "150"
+      },
+      {
+        "en": "25",
+        "es": "25"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "90 km = 90,000 m; 1 h = 3,600 s. 90,000 ÷ 3,600 = 25 m/s.",
+      "es": "90 km = 90,000 m; 1 h = 3,600 s. 90,000 ÷ 3,600 = 25 m/s."
+    },
+    "trap": {
+      "en": "Units trap: 15 divides by 60 only once (minutes, not seconds); 150 forgets the km → m step. Write the conversion factors and cancel units.",
+      "es": "Trampa de unidades: 15 divide entre 60 solo una vez (minutos, no segundos); 150 olvida convertir km → m. Escribe los factores y cancela unidades."
+    },
+    "strategyRef": "ar.units",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0016",
+    "subtest": "AR",
+    "topic": "average",
+    "difficulty": 1,
+    "stem": {
+      "en": "A recruit scores 72, 85, 93 and 78 on four quizzes. What is the mean score?",
+      "es": "Un recluta obtiene 72, 85, 93 y 78 en cuatro pruebas. ¿Cuál es la calificación promedio?"
+    },
+    "choices": [
+      {
+        "en": "80",
+        "es": "80"
+      },
+      {
+        "en": "85",
+        "es": "85"
+      },
+      {
+        "en": "328",
+        "es": "328"
+      },
+      {
+        "en": "82",
+        "es": "82"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Sum = 72 + 85 + 93 + 78 = 328. Mean = 328 ÷ 4 = 82.",
+      "es": "Suma = 72 + 85 + 93 + 78 = 328. Promedio = 328 ÷ 4 = 82."
+    },
+    "trap": {
+      "en": "Intermediate-value trap: 328 is the sum, not the mean. Divide by the count of scores.",
+      "es": "Trampa del valor intermedio: 328 es la suma, no el promedio. Divide entre la cantidad de calificaciones."
+    },
+    "strategyRef": "ar.intermediate-value",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0017",
+    "subtest": "AR",
+    "topic": "average",
+    "difficulty": 2,
+    "stem": {
+      "en": "A student has scores of 78, 85 and 91 on three tests. What score does she need on the fourth test to have an average of exactly 85?",
+      "es": "Una estudiante tiene 78, 85 y 91 en tres exámenes. ¿Qué calificación necesita en el cuarto para tener un promedio de exactamente 85?"
+    },
+    "choices": [
+      {
+        "en": "84",
+        "es": "84"
+      },
+      {
+        "en": "86",
+        "es": "86"
+      },
+      {
+        "en": "85",
+        "es": "85"
+      },
+      {
+        "en": "88",
+        "es": "88"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Needed total = 85 × 4 = 340. Current total = 78 + 85 + 91 = 254. 340 − 254 = 86.",
+      "es": "Total necesario = 85 × 4 = 340. Total actual = 78 + 85 + 91 = 254. 340 − 254 = 86."
+    },
+    "trap": {
+      "en": "Average-of-averages trap: guessing 85 (the target) or 84.67 (the current mean) ignores that the fourth score must lift the total to 340.",
+      "es": "Trampa del promedio: elegir 85 (la meta) o el promedio actual ignora que la cuarta nota debe llevar el total a 340."
+    },
+    "strategyRef": "ar.backsolve",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0018",
+    "subtest": "AR",
+    "topic": "average",
+    "difficulty": 3,
+    "stem": {
+      "en": "The average of five numbers is 24. When one number is removed, the average of the remaining four is 22. What number was removed?",
+      "es": "El promedio de cinco números es 24. Al quitar un número, el promedio de los cuatro restantes es 22. ¿Qué número se quitó?"
+    },
+    "choices": [
+      {
+        "en": "22",
+        "es": "22"
+      },
+      {
+        "en": "32",
+        "es": "32"
+      },
+      {
+        "en": "2",
+        "es": "2"
+      },
+      {
+        "en": "44",
+        "es": "44"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Sum of five = 5 × 24 = 120. Sum of four = 4 × 22 = 88. Removed = 120 − 88 = 32.",
+      "es": "Suma de cinco = 5 × 24 = 120. Suma de cuatro = 4 × 22 = 88. Quitado = 120 − 88 = 32."
+    },
+    "trap": {
+      "en": "Averages-subtraction trap: 2 is just 24 − 22. You must work with totals, not with the averages themselves.",
+      "es": "Trampa de restar promedios: 2 es solo 24 − 22. Debes trabajar con los totales, no con los promedios."
+    },
+    "strategyRef": "ar.intermediate-value",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0019",
+    "subtest": "AR",
+    "topic": "simple-interest",
+    "difficulty": 1,
+    "stem": {
+      "en": "You deposit $2,000 in an account paying 5 % simple interest per year. How much interest do you earn in 3 years?",
+      "es": "Depositas $2,000 en una cuenta que paga 5 % de interés simple anual. ¿Cuánto interés ganas en 3 años?"
+    },
+    "choices": [
+      {
+        "en": "$300",
+        "es": "$300"
+      },
+      {
+        "en": "$100",
+        "es": "$100"
+      },
+      {
+        "en": "$2,300",
+        "es": "$2,300"
+      },
+      {
+        "en": "$30",
+        "es": "$30"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "I = P × r × t = 2,000 × 0.05 × 3 = 300.",
+      "es": "I = P × r × t = 2,000 × 0.05 × 3 = 300."
+    },
+    "trap": {
+      "en": "Read the ask: $2,300 is the final balance, $100 is one year's interest. The question wants 3 years of interest only.",
+      "es": "Lee la pregunta: $2,300 es el saldo final, $100 es el interés de un año. Se pide solo el interés de 3 años."
+    },
+    "strategyRef": "ar.signal-words",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0020",
+    "subtest": "AR",
+    "topic": "simple-interest",
+    "difficulty": 2,
+    "stem": {
+      "en": "A $1,500 loan charges 4 % simple interest per year. How much must be repaid in total after 18 months?",
+      "es": "Un préstamo de $1,500 cobra 4 % de interés simple anual. ¿Cuánto debe pagarse en total después de 18 meses?"
+    },
+    "choices": [
+      {
+        "en": "$1,590",
+        "es": "$1,590"
+      },
+      {
+        "en": "$90",
+        "es": "$90"
+      },
+      {
+        "en": "$1,560",
+        "es": "$1,560"
+      },
+      {
+        "en": "$2,580",
+        "es": "$2,580"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "18 months = 1.5 years. Interest = 1,500 × 0.04 × 1.5 = 90. Total = 1,500 + 90 = 1,590.",
+      "es": "18 meses = 1.5 años. Interés = 1,500 × 0.04 × 1.5 = 90. Total = 1,500 + 90 = 1,590."
+    },
+    "trap": {
+      "en": "Units trap: $2,580 plugs in 18 as years. Convert months to years before using I = Prt; then add the principal because 'in total' was asked.",
+      "es": "Trampa de unidades: $2,580 usa 18 como años. Convierte meses a años antes de usar I = Prt; luego suma el capital porque se pide 'en total'."
+    },
+    "strategyRef": "ar.units",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0021",
+    "subtest": "AR",
+    "topic": "simple-interest",
+    "difficulty": 3,
+    "stem": {
+      "en": "An investment earned $240 in simple interest over 2 years at an annual rate of 6 %. What was the principal?",
+      "es": "Una inversión ganó $240 de interés simple en 2 años a una tasa anual de 6 %. ¿Cuál fue el capital?"
+    },
+    "choices": [
+      {
+        "en": "$2,000",
+        "es": "$2,000"
+      },
+      {
+        "en": "$4,000",
+        "es": "$4,000"
+      },
+      {
+        "en": "$1,000",
+        "es": "$1,000"
+      },
+      {
+        "en": "$1,440",
+        "es": "$1,440"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "I = P × r × t → 240 = P × 0.06 × 2 = 0.12P → P = 240 ÷ 0.12 = 2,000.",
+      "es": "I = P × r × t → 240 = P × 0.06 × 2 = 0.12P → P = 240 ÷ 0.12 = 2,000."
+    },
+    "trap": {
+      "en": "Forgot-the-time trap: $4,000 divides by 0.06 only, ignoring the 2 years. Backsolve: 2,000 × 0.06 × 2 = 240 ✓.",
+      "es": "Trampa de olvidar el tiempo: $4,000 divide solo entre 0.06 e ignora los 2 años. Comprueba: 2,000 × 0.06 × 2 = 240 ✓."
+    },
+    "strategyRef": "ar.backsolve",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0022",
+    "subtest": "AR",
+    "topic": "work-rate",
+    "difficulty": 2,
+    "stem": {
+      "en": "Machine A packs 60 boxes per hour and machine B packs 40 boxes per hour. Working together, how long will they take to pack 350 boxes?",
+      "es": "La máquina A empaca 60 cajas por hora y la máquina B 40 cajas por hora. Trabajando juntas, ¿cuánto tardarán en empacar 350 cajas?"
+    },
+    "choices": [
+      {
+        "en": "5.8 hours",
+        "es": "5.8 horas"
+      },
+      {
+        "en": "3.5 hours",
+        "es": "3.5 horas"
+      },
+      {
+        "en": "8.75 hours",
+        "es": "8.75 horas"
+      },
+      {
+        "en": "7 hours",
+        "es": "7 horas"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Combined rate = 60 + 40 = 100 boxes/hour. 350 ÷ 100 = 3.5 hours.",
+      "es": "Ritmo combinado = 60 + 40 = 100 cajas/hora. 350 ÷ 100 = 3.5 horas."
+    },
+    "trap": {
+      "en": "Single-machine trap: 5.8 and 8.75 use only one machine's rate. 'Together' means add the rates first.",
+      "es": "Trampa de una sola máquina: 5.8 y 8.75 usan el ritmo de una sola máquina. 'Juntas' significa sumar los ritmos primero."
+    },
+    "strategyRef": "ar.signal-words",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0023",
+    "subtest": "AR",
+    "topic": "work-rate",
+    "difficulty": 3,
+    "stem": {
+      "en": "One pipe can fill a tank in 6 hours and a second pipe can fill it in 3 hours. If both pipes run at once, how long does it take to fill the tank?",
+      "es": "Una tubería llena un tanque en 6 horas y otra lo llena en 3 horas. Si ambas funcionan a la vez, ¿cuánto tardan en llenar el tanque?"
+    },
+    "choices": [
+      {
+        "en": "4.5 hours",
+        "es": "4.5 horas"
+      },
+      {
+        "en": "9 hours",
+        "es": "9 horas"
+      },
+      {
+        "en": "1.5 hours",
+        "es": "1.5 horas"
+      },
+      {
+        "en": "2 hours",
+        "es": "2 horas"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Rates: 1/6 + 1/3 = 1/6 + 2/6 = 3/6 = 1/2 tank per hour → 2 hours.",
+      "es": "Ritmos: 1/6 + 1/3 = 1/6 + 2/6 = 3/6 = 1/2 tanque por hora → 2 horas."
+    },
+    "trap": {
+      "en": "Averaging trap: 4.5 averages the times; 9 adds them. Combined time is always LESS than the faster pipe alone (3 h). Add rates, not times.",
+      "es": "Trampa del promedio: 4.5 promedia los tiempos; 9 los suma. El tiempo conjunto siempre es MENOR que el de la tubería rápida sola (3 h). Suma ritmos, no tiempos."
+    },
+    "strategyRef": "ar.estimate",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0024",
+    "subtest": "AR",
+    "topic": "work-rate",
+    "difficulty": 3,
+    "stem": {
+      "en": "Two painters working together can paint a fence in 4 hours. Alone, the first painter would need 6 hours. How long would the second painter need alone?",
+      "es": "Dos pintores juntos pintan una cerca en 4 horas. Solo, el primer pintor necesitaría 6 horas. ¿Cuánto necesitaría el segundo pintor solo?"
+    },
+    "choices": [
+      {
+        "en": "12 hours",
+        "es": "12 horas"
+      },
+      {
+        "en": "2 hours",
+        "es": "2 horas"
+      },
+      {
+        "en": "10 hours",
+        "es": "10 horas"
+      },
+      {
+        "en": "24 hours",
+        "es": "24 horas"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "1/4 − 1/6 = 3/12 − 2/12 = 1/12 of the fence per hour → 12 hours alone.",
+      "es": "1/4 − 1/6 = 3/12 − 2/12 = 1/12 de la cerca por hora → 12 horas solo."
+    },
+    "trap": {
+      "en": "Wrong-operation trap: 2 hours is 6 − 4, and 10 is 6 + 4. Subtract RATES (1/4 − 1/6), then flip the result.",
+      "es": "Trampa de operación equivocada: 2 horas es 6 − 4, y 10 es 6 + 4. Resta RITMOS (1/4 − 1/6) y luego invierte el resultado."
+    },
+    "strategyRef": "ar.want-have-connect",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0025",
+    "subtest": "AR",
+    "topic": "age",
+    "difficulty": 2,
+    "stem": {
+      "en": "Marta is 3 times as old as her son. In 12 years she will be twice as old as he is then. How old is her son now?",
+      "es": "Marta tiene 3 veces la edad de su hijo. En 12 años ella tendrá el doble de la edad de él. ¿Cuántos años tiene su hijo ahora?"
+    },
+    "choices": [
+      {
+        "en": "6",
+        "es": "6"
+      },
+      {
+        "en": "24",
+        "es": "24"
+      },
+      {
+        "en": "12",
+        "es": "12"
+      },
+      {
+        "en": "36",
+        "es": "36"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Let son = x, Marta = 3x. 3x + 12 = 2(x + 12) → 3x + 12 = 2x + 24 → x = 12.",
+      "es": "Sea hijo = x, Marta = 3x. 3x + 12 = 2(x + 12) → 3x + 12 = 2x + 24 → x = 12."
+    },
+    "trap": {
+      "en": "Wrong-person trap: 36 is Marta's age now, 24 is the son's age in 12 years. Backsolve with 12: 36 + 12 = 48 = 2 × 24 ✓.",
+      "es": "Trampa de persona equivocada: 36 es la edad de Marta ahora, 24 la del hijo en 12 años. Comprueba con 12: 36 + 12 = 48 = 2 × 24 ✓."
+    },
+    "strategyRef": "ar.backsolve",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0026",
+    "subtest": "AR",
+    "topic": "age",
+    "difficulty": 3,
+    "stem": {
+      "en": "Luis is 4 years older than his sister, and the sum of their ages is 30. How old is his sister?",
+      "es": "Luis es 4 años mayor que su hermana, y la suma de sus edades es 30. ¿Cuántos años tiene su hermana?"
+    },
+    "choices": [
+      {
+        "en": "17",
+        "es": "17"
+      },
+      {
+        "en": "13",
+        "es": "13"
+      },
+      {
+        "en": "15",
+        "es": "15"
+      },
+      {
+        "en": "26",
+        "es": "26"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Sister = x, Luis = x + 4. x + (x + 4) = 30 → 2x = 26 → x = 13.",
+      "es": "Hermana = x, Luis = x + 4. x + (x + 4) = 30 → 2x = 26 → x = 13."
+    },
+    "trap": {
+      "en": "Wrong-person trap: 17 is Luis; 15 is half of 30 (ignores the 4-year gap); 26 is 2x before dividing. Check: 13 + 17 = 30 ✓.",
+      "es": "Trampa de persona equivocada: 17 es Luis; 15 es la mitad de 30 (ignora los 4 años); 26 es 2x antes de dividir. Comprueba: 13 + 17 = 30 ✓."
+    },
+    "strategyRef": "ar.backsolve",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0027",
+    "subtest": "AR",
+    "topic": "money",
+    "difficulty": 1,
+    "stem": {
+      "en": "A paycheck is $2,400. If 30 % goes straight to savings, how much is left to spend?",
+      "es": "Un sueldo es de $2,400. Si 30 % va directo a ahorros, ¿cuánto queda para gastar?"
+    },
+    "choices": [
+      {
+        "en": "$720",
+        "es": "$720"
+      },
+      {
+        "en": "$2,100",
+        "es": "$2,100"
+      },
+      {
+        "en": "$2,330",
+        "es": "$2,330"
+      },
+      {
+        "en": "$1,680",
+        "es": "$1,680"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Savings = 0.30 × 2,400 = 720. Left = 2,400 − 720 = 1,680.",
+      "es": "Ahorro = 0.30 × 2,400 = 720. Queda = 2,400 − 720 = 1,680."
+    },
+    "trap": {
+      "en": "Intermediate-value trap: $720 is the amount saved. 'Left to spend' means the other 70 %.",
+      "es": "Trampa del valor intermedio: $720 es lo ahorrado. 'Queda para gastar' es el otro 70 %."
+    },
+    "strategyRef": "ar.intermediate-value",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0028",
+    "subtest": "AR",
+    "topic": "money",
+    "difficulty": 2,
+    "stem": {
+      "en": "Ana earns $52 per shift and works 4 shifts a week. After 3 weeks she buys a $450 bicycle. How much of her earnings is left?",
+      "es": "Ana gana $52 por turno y trabaja 4 turnos por semana. Después de 3 semanas compra una bicicleta de $450. ¿Cuánto le queda de lo ganado?"
+    },
+    "choices": [
+      {
+        "en": "$624",
+        "es": "$624"
+      },
+      {
+        "en": "$208",
+        "es": "$208"
+      },
+      {
+        "en": "$158",
+        "es": "$158"
+      },
+      {
+        "en": "$174",
+        "es": "$174"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Shifts = 4 × 3 = 12. Earned = 52 × 12 = 624. Left = 624 − 450 = 174.",
+      "es": "Turnos = 4 × 3 = 12. Ganado = 52 × 12 = 624. Queda = 624 − 450 = 174."
+    },
+    "trap": {
+      "en": "Intermediate-value trap: $624 is the total earned and $208 is one week's pay. Finish the last step: subtract the bicycle.",
+      "es": "Trampa del valor intermedio: $624 es el total ganado y $208 el pago de una semana. Termina el último paso: resta la bicicleta."
+    },
+    "strategyRef": "ar.intermediate-value",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0029",
+    "subtest": "AR",
+    "topic": "money",
+    "difficulty": 3,
+    "stem": {
+      "en": "A phone plan costs $35 per month plus $0.10 for every text message over 200. Last month the bill was $47.50. How many text messages were sent?",
+      "es": "Un plan de celular cuesta $35 al mes más $0.10 por cada mensaje de texto después de 200. El mes pasado la factura fue de $47.50. ¿Cuántos mensajes se enviaron?"
+    },
+    "choices": [
+      {
+        "en": "125",
+        "es": "125"
+      },
+      {
+        "en": "475",
+        "es": "475"
+      },
+      {
+        "en": "200",
+        "es": "200"
+      },
+      {
+        "en": "325",
+        "es": "325"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Overage charge = 47.50 − 35 = 12.50. 12.50 ÷ 0.10 = 125 extra texts. Total = 200 + 125 = 325.",
+      "es": "Cargo extra = 47.50 − 35 = 12.50. 12.50 ÷ 0.10 = 125 mensajes extra. Total = 200 + 125 = 325."
+    },
+    "trap": {
+      "en": "Intermediate-value trap: 125 is only the number of messages OVER the 200 included. 475 mistakenly adds the $47.50 figure.",
+      "es": "Trampa del valor intermedio: 125 es solo la cantidad de mensajes POR ENCIMA de los 200 incluidos. 475 suma por error la cifra de $47.50."
+    },
+    "strategyRef": "ar.intermediate-value",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0030",
+    "subtest": "AR",
+    "topic": "mixture",
+    "difficulty": 2,
+    "stem": {
+      "en": "A technician mixes 8 liters of a 25 % bleach solution with 4 liters of a 10 % bleach solution. What is the bleach concentration of the mixture?",
+      "es": "Un técnico mezcla 8 litros de una solución de cloro al 25 % con 4 litros de una solución al 10 %. ¿Cuál es la concentración de cloro de la mezcla?"
+    },
+    "choices": [
+      {
+        "en": "20 %",
+        "es": "20 %"
+      },
+      {
+        "en": "17.5 %",
+        "es": "17.5 %"
+      },
+      {
+        "en": "35 %",
+        "es": "35 %"
+      },
+      {
+        "en": "15 %",
+        "es": "15 %"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Bleach = 0.25 × 8 + 0.10 × 4 = 2 + 0.4 = 2.4 L. Total = 12 L. 2.4 ÷ 12 = 0.20 = 20 %.",
+      "es": "Cloro = 0.25 × 8 + 0.10 × 4 = 2 + 0.4 = 2.4 L. Total = 12 L. 2.4 ÷ 12 = 0.20 = 20 %."
+    },
+    "trap": {
+      "en": "Simple-average trap: 17.5 % averages the two percents, ignoring that there is twice as much of the 25 % solution. 35 % adds them.",
+      "es": "Trampa del promedio simple: 17.5 % promedia los dos porcentajes e ignora que hay el doble de solución al 25 %. 35 % los suma."
+    },
+    "strategyRef": "ar.estimate",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0031",
+    "subtest": "AR",
+    "topic": "mixture",
+    "difficulty": 3,
+    "stem": {
+      "en": "A café blends coffee that costs $8 per pound with coffee that costs $12 per pound to make 20 pounds of a blend worth $9 per pound. How many pounds of the $8 coffee are used?",
+      "es": "Un café mezcla granos de $8 por libra con granos de $12 por libra para obtener 20 libras de una mezcla de $9 por libra. ¿Cuántas libras del café de $8 se usan?"
+    },
+    "choices": [
+      {
+        "en": "15",
+        "es": "15"
+      },
+      {
+        "en": "5",
+        "es": "5"
+      },
+      {
+        "en": "10",
+        "es": "10"
+      },
+      {
+        "en": "18",
+        "es": "18"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "8x + 12(20 − x) = 9 × 20 → 8x + 240 − 12x = 180 → −4x = −60 → x = 15.",
+      "es": "8x + 12(20 − x) = 9 × 20 → 8x + 240 − 12x = 180 → −4x = −60 → x = 15."
+    },
+    "trap": {
+      "en": "Wrong-component trap: 5 is the amount of the $12 coffee. Estimate first: $9 is much closer to $8, so most of the blend must be the cheaper coffee.",
+      "es": "Trampa del componente equivocado: 5 es la cantidad del café de $12. Estima primero: $9 está mucho más cerca de $8, así que la mayoría debe ser el café barato."
+    },
+    "strategyRef": "ar.estimate",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0032",
+    "subtest": "AR",
+    "topic": "area-perimeter",
+    "difficulty": 1,
+    "stem": {
+      "en": "A rectangular garden is 12 feet long and 8 feet wide. How many feet of fencing are needed to enclose it?",
+      "es": "Un jardín rectangular mide 12 pies de largo y 8 pies de ancho. ¿Cuántos pies de cerca se necesitan para rodearlo?"
+    },
+    "choices": [
+      {
+        "en": "20",
+        "es": "20"
+      },
+      {
+        "en": "96",
+        "es": "96"
+      },
+      {
+        "en": "40",
+        "es": "40"
+      },
+      {
+        "en": "48",
+        "es": "48"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Perimeter = 2(12 + 8) = 2 × 20 = 40 feet.",
+      "es": "Perímetro = 2(12 + 8) = 2 × 20 = 40 pies."
+    },
+    "trap": {
+      "en": "Area-vs-perimeter trap: 96 is the area (12 × 8). Fencing goes around the edge, so use perimeter. 20 forgets to double.",
+      "es": "Trampa área/perímetro: 96 es el área (12 × 8). La cerca va por el borde, así que usa el perímetro. 20 olvida duplicar."
+    },
+    "strategyRef": "ar.signal-words",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0033",
+    "subtest": "AR",
+    "topic": "area-perimeter",
+    "difficulty": 2,
+    "stem": {
+      "en": "A room measures 15 feet by 12 feet. Carpet costs $3 per square foot. How much will it cost to carpet the whole room?",
+      "es": "Una habitación mide 15 pies por 12 pies. La alfombra cuesta $3 por pie cuadrado. ¿Cuánto costará alfombrar toda la habitación?"
+    },
+    "choices": [
+      {
+        "en": "$180",
+        "es": "$180"
+      },
+      {
+        "en": "$162",
+        "es": "$162"
+      },
+      {
+        "en": "$54",
+        "es": "$54"
+      },
+      {
+        "en": "$540",
+        "es": "$540"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Area = 15 × 12 = 180 sq ft. Cost = 180 × 3 = 540.",
+      "es": "Área = 15 × 12 = 180 pies². Costo = 180 × 3 = 540."
+    },
+    "trap": {
+      "en": "Intermediate-value trap: $180 is the area, not the cost. $162 multiplies the perimeter (54) by 3.",
+      "es": "Trampa del valor intermedio: $180 es el área, no el costo. $162 multiplica el perímetro (54) por 3."
+    },
+    "strategyRef": "ar.intermediate-value",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0034",
+    "subtest": "AR",
+    "topic": "area-perimeter",
+    "difficulty": 3,
+    "stem": {
+      "en": "A square patio has sides of 9 feet. It will be covered with square tiles that are 1.5 feet on each side. How many tiles are needed?",
+      "es": "Un patio cuadrado tiene lados de 9 pies. Se cubrirá con losetas cuadradas de 1.5 pies por lado. ¿Cuántas losetas se necesitan?"
+    },
+    "choices": [
+      {
+        "en": "54",
+        "es": "54"
+      },
+      {
+        "en": "6",
+        "es": "6"
+      },
+      {
+        "en": "81",
+        "es": "81"
+      },
+      {
+        "en": "36",
+        "es": "36"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Tiles per side = 9 ÷ 1.5 = 6. Total = 6 × 6 = 36. (Or 81 ÷ 2.25 = 36.)",
+      "es": "Losetas por lado = 9 ÷ 1.5 = 6. Total = 6 × 6 = 36. (O 81 ÷ 2.25 = 36.)"
+    },
+    "trap": {
+      "en": "Unit-slip trap: 54 divides the area (81 sq ft) by the tile's side length (1.5 ft) instead of its area (2.25 sq ft). 6 is tiles along one side only.",
+      "es": "Trampa de unidades: 54 divide el área (81 pies²) entre el lado de la loseta (1.5 pies) en vez de su área (2.25 pies²). 6 son las losetas de un solo lado."
+    },
+    "strategyRef": "ar.units",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0035",
+    "subtest": "AR",
+    "topic": "remainder",
+    "difficulty": 1,
+    "stem": {
+      "en": "A baker has 47 cookies and packs them 6 to a box. How many cookies are left over after filling as many boxes as possible?",
+      "es": "Un panadero tiene 47 galletas y las empaca de 6 en 6 por caja. ¿Cuántas galletas sobran después de llenar todas las cajas posibles?"
+    },
+    "choices": [
+      {
+        "en": "7",
+        "es": "7"
+      },
+      {
+        "en": "8",
+        "es": "8"
+      },
+      {
+        "en": "5",
+        "es": "5"
+      },
+      {
+        "en": "1",
+        "es": "1"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "47 ÷ 6 = 7 boxes with remainder 5 (7 × 6 = 42; 47 − 42 = 5).",
+      "es": "47 ÷ 6 = 7 cajas y sobran 5 (7 × 6 = 42; 47 − 42 = 5)."
+    },
+    "trap": {
+      "en": "Quotient-vs-remainder trap: 7 is the number of full boxes, not the leftover cookies. 8 is the boxes needed to hold everything.",
+      "es": "Trampa cociente/residuo: 7 es la cantidad de cajas llenas, no las galletas que sobran. 8 son las cajas necesarias para guardar todo."
+    },
+    "strategyRef": "ar.signal-words",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0036",
+    "subtest": "AR",
+    "topic": "remainder",
+    "difficulty": 2,
+    "stem": {
+      "en": "A school needs buses for 200 students. Each bus holds 45 students. How many buses are needed?",
+      "es": "Una escuela necesita autobuses para 200 estudiantes. Cada autobús lleva 45 estudiantes. ¿Cuántos autobuses se necesitan?"
+    },
+    "choices": [
+      {
+        "en": "4",
+        "es": "4"
+      },
+      {
+        "en": "6",
+        "es": "6"
+      },
+      {
+        "en": "5",
+        "es": "5"
+      },
+      {
+        "en": "4.4",
+        "es": "4.4"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "200 ÷ 45 = 4 remainder 20. The 20 extra students still need a bus → 5 buses.",
+      "es": "200 ÷ 45 = 4 y sobran 20. Esos 20 estudiantes también necesitan autobús → 5 autobuses."
+    },
+    "trap": {
+      "en": "Rounding trap: 4 buses leave 20 students behind, and 4.4 buses do not exist. When there is a remainder of people, round UP.",
+      "es": "Trampa de redondeo: 4 autobuses dejan 20 estudiantes fuera, y 4.4 autobuses no existen. Si sobran personas, redondea HACIA ARRIBA."
+    },
+    "strategyRef": "ar.signal-words",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0037",
+    "subtest": "AR",
+    "topic": "remainder",
+    "difficulty": 3,
+    "stem": {
+      "en": "When a certain number is divided by 7, the remainder is 3. What is the remainder when 3 times that number is divided by 7?",
+      "es": "Cuando cierto número se divide entre 7, el residuo es 3. ¿Cuál es el residuo cuando 3 veces ese número se divide entre 7?"
+    },
+    "choices": [
+      {
+        "en": "9",
+        "es": "9"
+      },
+      {
+        "en": "3",
+        "es": "3"
+      },
+      {
+        "en": "2",
+        "es": "2"
+      },
+      {
+        "en": "1",
+        "es": "1"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Pick a number: 10 (10 ÷ 7 leaves 3). 3 × 10 = 30; 30 ÷ 7 = 4 remainder 2.",
+      "es": "Elige un número: 10 (10 ÷ 7 deja 3). 3 × 10 = 30; 30 ÷ 7 = 4 y sobran 2."
+    },
+    "trap": {
+      "en": "Remainder-overflow trap: 3 × 3 = 9, but a remainder can never be 7 or more; reduce 9 by 7 to get 2. Testing a concrete number avoids the slip.",
+      "es": "Trampa de residuo excesivo: 3 × 3 = 9, pero un residuo nunca puede ser 7 o más; réstale 7 y queda 2. Probar con un número concreto evita el error."
+    },
+    "strategyRef": "ar.backsolve",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0038",
+    "subtest": "AR",
+    "topic": "percent",
+    "difficulty": 2,
+    "stem": {
+      "en": "After a 20 % markup, a tool sells for $72. What was the price before the markup?",
+      "es": "Después de un aumento de 20 %, una herramienta se vende en $72. ¿Cuál era el precio antes del aumento?"
+    },
+    "choices": [
+      {
+        "en": "$57.60",
+        "es": "$57.60"
+      },
+      {
+        "en": "$60",
+        "es": "$60"
+      },
+      {
+        "en": "$86.40",
+        "es": "$86.40"
+      },
+      {
+        "en": "$90",
+        "es": "$90"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "1.20 × original = 72 → original = 72 ÷ 1.2 = 60.",
+      "es": "1.20 × original = 72 → original = 72 ÷ 1.2 = 60."
+    },
+    "trap": {
+      "en": "Reverse-percent trap: $57.60 takes 20 % off the final price, but 20 % of 60 is not 20 % of 72. Check: 60 × 1.2 = 72 ✓.",
+      "es": "Trampa del porcentaje inverso: $57.60 quita 20 % al precio final, pero 20 % de 60 no es 20 % de 72. Comprueba: 60 × 1.2 = 72 ✓."
+    },
+    "strategyRef": "ar.backsolve",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0039",
+    "subtest": "AR",
+    "topic": "proportion",
+    "difficulty": 1,
+    "stem": {
+      "en": "Four workers assemble 60 first-aid kits in one day. At the same rate per worker, how many kits can 10 workers assemble in one day?",
+      "es": "Cuatro trabajadores arman 60 botiquines en un día. Al mismo ritmo por trabajador, ¿cuántos botiquines pueden armar 10 trabajadores en un día?"
+    },
+    "choices": [
+      {
+        "en": "24",
+        "es": "24"
+      },
+      {
+        "en": "150",
+        "es": "150"
+      },
+      {
+        "en": "66",
+        "es": "66"
+      },
+      {
+        "en": "240",
+        "es": "240"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Each worker makes 60 ÷ 4 = 15 kits. 10 × 15 = 150 kits.",
+      "es": "Cada trabajador hace 60 ÷ 4 = 15 botiquines. 10 × 15 = 150."
+    },
+    "trap": {
+      "en": "Wrong-operation trap: 66 adds the 6 extra workers as if they were kits; 24 flips the proportion. WANT kits for 10 · HAVE 60 per 4 · CONNECT 60/4 = x/10.",
+      "es": "Trampa de operación equivocada: 66 suma los 6 trabajadores extra como si fueran botiquines; 24 invierte la proporción. QUIERO para 10 · TENGO 60 por 4 · CONECTO 60/4 = x/10."
+    },
+    "strategyRef": "ar.want-have-connect",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0040",
+    "subtest": "AR",
+    "topic": "rate",
+    "difficulty": 2,
+    "stem": {
+      "en": "A treadmill is set to 7.5 miles per hour. How far does a person run in 24 minutes at that speed?",
+      "es": "Una caminadora está a 7.5 millas por hora. ¿Qué distancia recorre una persona en 24 minutos a esa velocidad?"
+    },
+    "choices": [
+      {
+        "en": "1.8 miles",
+        "es": "1.8 millas"
+      },
+      {
+        "en": "3 miles",
+        "es": "3 millas"
+      },
+      {
+        "en": "3.2 miles",
+        "es": "3.2 millas"
+      },
+      {
+        "en": "180 miles",
+        "es": "180 millas"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "24 minutes = 24/60 = 0.4 hour. Distance = 7.5 × 0.4 = 3 miles.",
+      "es": "24 minutos = 24/60 = 0.4 hora. Distancia = 7.5 × 0.4 = 3 millas."
+    },
+    "trap": {
+      "en": "Units trap: 180 multiplies mph by minutes. Speed is per HOUR, so convert 24 minutes to 0.4 h first.",
+      "es": "Trampa de unidades: 180 multiplica mph por minutos. La velocidad es por HORA; convierte 24 minutos a 0.4 h primero."
+    },
+    "strategyRef": "ar.units",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0041",
+    "subtest": "AR",
+    "topic": "whole-numbers",
+    "difficulty": 1,
+    "stem": {
+      "en": "A warehouse receives 14 crates with 36 boxes in each crate, then ships out 187 boxes. How many boxes remain?",
+      "es": "Un almacén recibe 14 cajones con 36 cajas en cada uno y luego envía 187 cajas. ¿Cuántas cajas quedan?"
+    },
+    "choices": [
+      {
+        "en": "691",
+        "es": "691"
+      },
+      {
+        "en": "317",
+        "es": "317"
+      },
+      {
+        "en": "331",
+        "es": "331"
+      },
+      {
+        "en": "50",
+        "es": "50"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "14 × 36 = 504 boxes arrive. 504 − 187 = 317 remain.",
+      "es": "Llegan 14 × 36 = 504 cajas. Quedan 504 − 187 = 317."
+    },
+    "trap": {
+      "en": "Signal-word trap: \"ships out\" means subtract. 691 adds the 187 instead; 50 just adds 14 + 36.",
+      "es": "Trampa de palabra clave: \"envía\" significa restar. 691 suma los 187; 50 solo suma 14 + 36."
+    },
+    "strategyRef": "ar.signal-words",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0042",
+    "subtest": "AR",
+    "topic": "whole-numbers",
+    "difficulty": 1,
+    "stem": {
+      "en": "A theater has 23 rows with 18 seats in each row. If 312 tickets are sold for a show, how many seats stay empty?",
+      "es": "Un teatro tiene 23 filas con 18 asientos en cada fila. Si se venden 312 boletos para una función, ¿cuántos asientos quedan vacíos?"
+    },
+    "choices": [
+      {
+        "en": "414",
+        "es": "414"
+      },
+      {
+        "en": "92",
+        "es": "92"
+      },
+      {
+        "en": "112",
+        "es": "112"
+      },
+      {
+        "en": "102",
+        "es": "102"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Total seats: 23 × 18 = 414. Empty seats: 414 − 312 = 102.",
+      "es": "Asientos totales: 23 × 18 = 414. Vacíos: 414 − 312 = 102."
+    },
+    "trap": {
+      "en": "Stopping-early trap: 414 is the total seats, not the empty ones. Finish the second step.",
+      "es": "Trampa de parar antes: 414 son los asientos totales, no los vacíos. Termina el segundo paso."
+    },
+    "strategyRef": "ar.intermediate-value",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0043",
+    "subtest": "AR",
+    "topic": "whole-numbers",
+    "difficulty": 2,
+    "stem": {
+      "en": "A club rents 3 buses that hold 45 people each and 2 vans that hold 12 people each. If 200 people signed up for the trip, how many still need a ride?",
+      "es": "Un club renta 3 autobuses de 45 personas cada uno y 2 camionetas de 12 personas cada una. Si 200 personas se inscribieron al viaje, ¿cuántas aún necesitan transporte?"
+    },
+    "choices": [
+      {
+        "en": "41",
+        "es": "41"
+      },
+      {
+        "en": "65",
+        "es": "65"
+      },
+      {
+        "en": "159",
+        "es": "159"
+      },
+      {
+        "en": "53",
+        "es": "53"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Seats: 3 × 45 = 135 and 2 × 12 = 24, so 159 seats. 200 − 159 = 41 people without a seat.",
+      "es": "Lugares: 3 × 45 = 135 y 2 × 12 = 24, es decir 159. 200 − 159 = 41 personas sin lugar."
+    },
+    "trap": {
+      "en": "Dropped-term trap: 65 forgets the vans (200 − 135). 159 is the seat count, not the shortfall.",
+      "es": "Trampa de término omitido: 65 olvida las camionetas (200 − 135). 159 es la cantidad de lugares, no el faltante."
+    },
+    "strategyRef": "ar.intermediate-value",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0044",
+    "subtest": "AR",
+    "topic": "whole-numbers",
+    "difficulty": 2,
+    "stem": {
+      "en": "A school orders 15 packs of 24 markers and divides all the markers equally among 8 classrooms. How many markers does each classroom get?",
+      "es": "Una escuela pide 15 paquetes de 24 marcadores y reparte todos los marcadores por igual entre 8 salones. ¿Cuántos marcadores recibe cada salón?"
+    },
+    "choices": [
+      {
+        "en": "40",
+        "es": "40"
+      },
+      {
+        "en": "360",
+        "es": "360"
+      },
+      {
+        "en": "3",
+        "es": "3"
+      },
+      {
+        "en": "45",
+        "es": "45"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "15 × 24 = 360 markers. 360 ÷ 8 = 45 per classroom.",
+      "es": "15 × 24 = 360 marcadores. 360 ÷ 8 = 45 por salón."
+    },
+    "trap": {
+      "en": "Stopping-early trap: 360 is the total before dividing. 3 divides 24 by 8 and ignores the 15 packs.",
+      "es": "Trampa de parar antes: 360 es el total antes de dividir. 3 divide 24 entre 8 e ignora los 15 paquetes."
+    },
+    "strategyRef": "ar.intermediate-value",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0045",
+    "subtest": "AR",
+    "topic": "whole-numbers",
+    "difficulty": 3,
+    "stem": {
+      "en": "A print job of 2,000 pages is split evenly among 3 printers that each print 275 pages per hour. How many full hours are needed to finish the job?",
+      "es": "Un trabajo de 2,000 páginas se reparte por igual entre 3 impresoras que imprimen 275 páginas por hora cada una. ¿Cuántas horas completas se necesitan para terminar?"
+    },
+    "choices": [
+      {
+        "en": "2",
+        "es": "2"
+      },
+      {
+        "en": "8",
+        "es": "8"
+      },
+      {
+        "en": "7",
+        "es": "7"
+      },
+      {
+        "en": "3",
+        "es": "3"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Together the printers do 3 × 275 = 825 pages per hour. 2,000 ÷ 825 ≈ 2.4, so the job is not done after 2 hours; it takes 3 full hours.",
+      "es": "Juntas imprimen 3 × 275 = 825 páginas por hora. 2,000 ÷ 825 ≈ 2.4; tras 2 horas no ha terminado, así que se necesitan 3 horas."
+    },
+    "trap": {
+      "en": "Rounding-down trap: 2 hours leaves 350 pages unprinted. 8 uses one printer only (2,000 ÷ 275 ≈ 7.3).",
+      "es": "Trampa de redondear hacia abajo: con 2 horas faltan 350 páginas. 8 usa una sola impresora (2,000 ÷ 275 ≈ 7.3)."
+    },
+    "strategyRef": "ar.estimate",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0046",
+    "subtest": "AR",
+    "topic": "whole-numbers",
+    "difficulty": 3,
+    "stem": {
+      "en": "A recruit does 20 push-ups in week 1 and adds 12 push-ups each week. How many push-ups in total does he do over weeks 1 through 5?",
+      "es": "Un recluta hace 20 lagartijas en la semana 1 y agrega 12 lagartijas cada semana. ¿Cuántas lagartijas en total hace de la semana 1 a la 5?"
+    },
+    "choices": [
+      {
+        "en": "68",
+        "es": "68"
+      },
+      {
+        "en": "200",
+        "es": "200"
+      },
+      {
+        "en": "220",
+        "es": "220"
+      },
+      {
+        "en": "240",
+        "es": "240"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Weekly counts: 20, 32, 44, 56, 68. Sum: 20 + 32 + 44 + 56 + 68 = 220.",
+      "es": "Conteos semanales: 20, 32, 44, 56, 68. Suma: 20 + 32 + 44 + 56 + 68 = 220."
+    },
+    "trap": {
+      "en": "Last-term trap: 68 is only week 5. 240 adds 5 increases of 12 to 5 × 20 + ... (counts one extra increase).",
+      "es": "Trampa del último término: 68 es solo la semana 5. 240 cuenta un aumento de 12 de más."
+    },
+    "strategyRef": "ar.want-have-connect",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0047",
+    "subtest": "AR",
+    "topic": "fractions-decimals",
+    "difficulty": 1,
+    "stem": {
+      "en": "A recipe calls for 3/4 cup of sugar. How much sugar is needed for 3 batches?",
+      "es": "Una receta pide 3/4 de taza de azúcar. ¿Cuánta azúcar se necesita para 3 tandas?"
+    },
+    "choices": [
+      {
+        "en": "3 3/4 cups",
+        "es": "3 3/4 tazas"
+      },
+      {
+        "en": "1 1/2 cups",
+        "es": "1 1/2 tazas"
+      },
+      {
+        "en": "2 1/4 cups",
+        "es": "2 1/4 tazas"
+      },
+      {
+        "en": "2 3/4 cups",
+        "es": "2 3/4 tazas"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "3 × 3/4 = 9/4 = 2 1/4 cups.",
+      "es": "3 × 3/4 = 9/4 = 2 1/4 tazas."
+    },
+    "trap": {
+      "en": "Add-instead-of-multiply trap: 3 3/4 tacks the 3 onto the fraction instead of multiplying.",
+      "es": "Trampa de sumar en vez de multiplicar: 3 3/4 pega el 3 a la fracción en lugar de multiplicar."
+    },
+    "strategyRef": "ar.signal-words",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0048",
+    "subtest": "AR",
+    "topic": "fractions-decimals",
+    "difficulty": 1,
+    "stem": {
+      "en": "A gas tank holds 16 gallons and is 3/8 full. How many gallons are needed to fill it?",
+      "es": "Un tanque de gasolina tiene capacidad de 16 galones y está 3/8 lleno. ¿Cuántos galones se necesitan para llenarlo?"
+    },
+    "choices": [
+      {
+        "en": "6 gallons",
+        "es": "6 galones"
+      },
+      {
+        "en": "10 gallons",
+        "es": "10 galones"
+      },
+      {
+        "en": "3 gallons",
+        "es": "3 galones"
+      },
+      {
+        "en": "13 gallons",
+        "es": "13 galones"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "In the tank: 3/8 × 16 = 6 gallons. To fill: 16 − 6 = 10 gallons.",
+      "es": "En el tanque: 3/8 × 16 = 6 galones. Para llenar: 16 − 6 = 10 galones."
+    },
+    "trap": {
+      "en": "Wrong-quantity trap: 6 gallons is what is already in the tank. The question asks for what is missing.",
+      "es": "Trampa de cantidad equivocada: 6 galones es lo que ya hay en el tanque. La pregunta pide lo que falta."
+    },
+    "strategyRef": "ar.want-have-connect",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0049",
+    "subtest": "AR",
+    "topic": "fractions-decimals",
+    "difficulty": 2,
+    "stem": {
+      "en": "A board 9.6 feet long is cut into pieces that are each 1.2 feet long. How many pieces are there?",
+      "es": "Una tabla de 9.6 pies de largo se corta en piezas de 1.2 pies cada una. ¿Cuántas piezas hay?"
+    },
+    "choices": [
+      {
+        "en": "8",
+        "es": "8"
+      },
+      {
+        "en": "80",
+        "es": "80"
+      },
+      {
+        "en": "7",
+        "es": "7"
+      },
+      {
+        "en": "9",
+        "es": "9"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "9.6 ÷ 1.2 = 96 ÷ 12 = 8 pieces.",
+      "es": "9.6 ÷ 1.2 = 96 ÷ 12 = 8 piezas."
+    },
+    "trap": {
+      "en": "Decimal-point trap: 80 moves the decimal in only one of the numbers. Shift both by the same amount: 96 ÷ 12.",
+      "es": "Trampa del punto decimal: 80 mueve el punto en solo uno de los números. Mueve ambos por igual: 96 ÷ 12."
+    },
+    "strategyRef": "ar.estimate",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0050",
+    "subtest": "AR",
+    "topic": "fractions-decimals",
+    "difficulty": 2,
+    "stem": {
+      "en": "Sam ran 2.75 miles on Monday, 3.4 miles on Tuesday and 1.85 miles on Wednesday. How many miles did he run in all?",
+      "es": "Sam corrió 2.75 millas el lunes, 3.4 millas el martes y 1.85 millas el miércoles. ¿Cuántas millas corrió en total?"
+    },
+    "choices": [
+      {
+        "en": "7.09 miles",
+        "es": "7.09 millas"
+      },
+      {
+        "en": "6.15 miles",
+        "es": "6.15 millas"
+      },
+      {
+        "en": "8.6 miles",
+        "es": "8.6 millas"
+      },
+      {
+        "en": "8 miles",
+        "es": "8 millas"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Line up the decimal points: 2.75 + 3.40 + 1.85 = 8.00 miles.",
+      "es": "Alinea los puntos decimales: 2.75 + 3.40 + 1.85 = 8.00 millas."
+    },
+    "trap": {
+      "en": "Alignment trap: 7.09 treats 3.4 as 0.34. Write 3.4 as 3.40 before adding. 6.15 stops after two days.",
+      "es": "Trampa de alineación: 7.09 trata 3.4 como 0.34. Escribe 3.4 como 3.40 antes de sumar. 6.15 se detiene tras dos días."
+    },
+    "strategyRef": "ar.estimate",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0051",
+    "subtest": "AR",
+    "topic": "fractions-decimals",
+    "difficulty": 3,
+    "stem": {
+      "en": "A water tank was 2/3 full. After 15 gallons were used, it was 1/4 full. How many gallons does the tank hold when full?",
+      "es": "Un tanque de agua estaba 2/3 lleno. Después de usar 15 galones quedó 1/4 lleno. ¿Cuántos galones tiene el tanque cuando está lleno?"
+    },
+    "choices": [
+      {
+        "en": "18 gallons",
+        "es": "18 galones"
+      },
+      {
+        "en": "45 gallons",
+        "es": "45 galones"
+      },
+      {
+        "en": "60 gallons",
+        "es": "60 galones"
+      },
+      {
+        "en": "36 gallons",
+        "es": "36 galones"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "The 15 gallons equal 2/3 − 1/4 = 8/12 − 3/12 = 5/12 of the tank. So 5/12 of the capacity is 15, and the capacity is 15 × 12/5 = 36 gallons.",
+      "es": "Los 15 galones son 2/3 − 1/4 = 8/12 − 3/12 = 5/12 del tanque. Entonces 5/12 de la capacidad es 15 y la capacidad es 15 × 12/5 = 36 galones."
+    },
+    "trap": {
+      "en": "Wrong-fraction trap: 60 treats the 15 gallons as 1/4 of the tank; 45 treats them as 1/3. Subtract the fractions first.",
+      "es": "Trampa de fracción equivocada: 60 trata los 15 galones como 1/4 del tanque; 45 como 1/3. Resta las fracciones primero."
+    },
+    "strategyRef": "ar.want-have-connect",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0052",
+    "subtest": "AR",
+    "topic": "fractions-decimals",
+    "difficulty": 3,
+    "stem": {
+      "en": "Of 120 employees, 1/3 work the night shift. Of the remaining employees, 3/8 are part-time. How many part-time employees work days?",
+      "es": "De 120 empleados, 1/3 trabaja el turno de noche. De los empleados restantes, 3/8 son de medio tiempo. ¿Cuántos empleados de medio tiempo trabajan de día?"
+    },
+    "choices": [
+      {
+        "en": "30",
+        "es": "30"
+      },
+      {
+        "en": "45",
+        "es": "45"
+      },
+      {
+        "en": "40",
+        "es": "40"
+      },
+      {
+        "en": "50",
+        "es": "50"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Night shift: 120 ÷ 3 = 40, leaving 80 day workers. 3/8 × 80 = 30 part-time day workers.",
+      "es": "Turno de noche: 120 ÷ 3 = 40; quedan 80 de día. 3/8 × 80 = 30 de medio tiempo de día."
+    },
+    "trap": {
+      "en": "Wrong-whole trap: 45 takes 3/8 of all 120 instead of the remaining 80. 40 is the night-shift count.",
+      "es": "Trampa del todo equivocado: 45 toma 3/8 de los 120 en vez de los 80 restantes. 40 es el turno de noche."
+    },
+    "strategyRef": "ar.intermediate-value",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0053",
+    "subtest": "AR",
+    "topic": "remainder",
+    "difficulty": 2,
+    "stem": {
+      "en": "A custodian sets up 250 folding chairs in rows of 12. After filling as many complete rows as possible, how many chairs are left over?",
+      "es": "Un conserje coloca 250 sillas plegables en filas de 12. Después de llenar tantas filas completas como sea posible, ¿cuántas sillas sobran?"
+    },
+    "choices": [
+      {
+        "en": "10",
+        "es": "10"
+      },
+      {
+        "en": "20",
+        "es": "20"
+      },
+      {
+        "en": "21",
+        "es": "21"
+      },
+      {
+        "en": "8",
+        "es": "8"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "250 ÷ 12 = 20 remainder 10, since 12 × 20 = 240 and 250 − 240 = 10.",
+      "es": "250 ÷ 12 = 20 con residuo 10, porque 12 × 20 = 240 y 250 − 240 = 10."
+    },
+    "trap": {
+      "en": "Quotient-vs-remainder trap: 20 is the number of full rows, not the leftover chairs. 21 rounds the rows up.",
+      "es": "Trampa de cociente vs residuo: 20 es el número de filas completas, no las sillas sobrantes. 21 redondea las filas hacia arriba."
+    },
+    "strategyRef": "ar.signal-words",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0054",
+    "subtest": "AR",
+    "topic": "percent",
+    "difficulty": 3,
+    "stem": {
+      "en": "A coat is marked down 20%, and then the sale price is reduced by another 25%. What is the total percent off the original price?",
+      "es": "Un abrigo tiene un descuento del 20% y luego el precio rebajado se reduce otro 25%. ¿Cuál es el porcentaje total de descuento sobre el precio original?"
+    },
+    "choices": [
+      {
+        "en": "45%",
+        "es": "45%"
+      },
+      {
+        "en": "55%",
+        "es": "55%"
+      },
+      {
+        "en": "40%",
+        "es": "40%"
+      },
+      {
+        "en": "60%",
+        "es": "60%"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Pick $100. After 20% off: $80. After 25% off $80: $60. The coat costs 60% of the original, so the discount is 40%.",
+      "es": "Toma $100. Con 20% menos: $80. Con 25% menos de $80: $60. Cuesta el 60% del original, así que el descuento es 40%."
+    },
+    "trap": {
+      "en": "Adding-percents trap: 45% adds 20 + 25, but the second discount applies to the reduced price. 60% is the price paid, not the discount.",
+      "es": "Trampa de sumar porcentajes: 45% suma 20 + 25, pero el segundo descuento aplica al precio ya rebajado. 60% es lo que se paga, no el descuento."
+    },
+    "strategyRef": "ar.intermediate-value",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0055",
+    "subtest": "AR",
+    "topic": "ratio",
+    "difficulty": 1,
+    "stem": {
+      "en": "At an animal shelter the ratio of cats to dogs is 5 : 3. If there are 24 dogs, how many cats are there?",
+      "es": "En un refugio la razón de gatos a perros es 5 : 3. Si hay 24 perros, ¿cuántos gatos hay?"
+    },
+    "choices": [
+      {
+        "en": "15",
+        "es": "15"
+      },
+      {
+        "en": "32",
+        "es": "32"
+      },
+      {
+        "en": "40",
+        "es": "40"
+      },
+      {
+        "en": "64",
+        "es": "64"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "24 dogs ÷ 3 parts = 8 per part. Cats: 5 × 8 = 40.",
+      "es": "24 perros ÷ 3 partes = 8 por parte. Gatos: 5 × 8 = 40."
+    },
+    "trap": {
+      "en": "Flipped-ratio trap: 15 scales the wrong way (24 × 5 ÷ 8). 64 is the total of cats and dogs, not the cats.",
+      "es": "Trampa de razón invertida: 15 escala al revés. 64 es el total de gatos y perros, no los gatos."
+    },
+    "strategyRef": "ar.want-have-connect",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0056",
+    "subtest": "AR",
+    "topic": "ratio",
+    "difficulty": 2,
+    "stem": {
+      "en": "Three partners split a $560 profit in the ratio 2 : 3 : 5. How much does the partner with the largest share receive?",
+      "es": "Tres socios reparten una ganancia de $560 en la razón 2 : 3 : 5. ¿Cuánto recibe el socio con la mayor parte?"
+    },
+    "choices": [
+      {
+        "en": "$56",
+        "es": "$56"
+      },
+      {
+        "en": "$168",
+        "es": "$168"
+      },
+      {
+        "en": "$280",
+        "es": "$280"
+      },
+      {
+        "en": "$112",
+        "es": "$112"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Total parts: 2 + 3 + 5 = 10. Each part: $560 ÷ 10 = $56. Largest share: 5 × $56 = $280.",
+      "es": "Partes totales: 2 + 3 + 5 = 10. Cada parte: $560 ÷ 10 = $56. Parte mayor: 5 × $56 = $280."
+    },
+    "trap": {
+      "en": "One-part trap: $56 is the value of a single part, not the largest share. $168 is the middle share (3 parts).",
+      "es": "Trampa de una parte: $56 es el valor de una sola parte, no la parte mayor. $168 es la parte media (3 partes)."
+    },
+    "strategyRef": "ar.intermediate-value",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0057",
+    "subtest": "AR",
+    "topic": "ratio",
+    "difficulty": 2,
+    "stem": {
+      "en": "A class of 28 students has boys and girls in the ratio 3 : 4. How many more girls than boys are in the class?",
+      "es": "Una clase de 28 estudiantes tiene niños y niñas en la razón 3 : 4. ¿Cuántas niñas más que niños hay en la clase?"
+    },
+    "choices": [
+      {
+        "en": "1",
+        "es": "1"
+      },
+      {
+        "en": "12",
+        "es": "12"
+      },
+      {
+        "en": "4",
+        "es": "4"
+      },
+      {
+        "en": "16",
+        "es": "16"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "7 parts total, so each part is 28 ÷ 7 = 4 students. Boys 12, girls 16, difference 4.",
+      "es": "7 partes en total; cada parte es 28 ÷ 7 = 4 estudiantes. Niños 12, niñas 16, diferencia 4."
+    },
+    "trap": {
+      "en": "Ratio-as-count trap: 1 is the difference in the ratio numbers, not in students. 16 is the number of girls, not the difference.",
+      "es": "Trampa de razón como conteo: 1 es la diferencia de los números de la razón, no de estudiantes. 16 es el número de niñas, no la diferencia."
+    },
+    "strategyRef": "ar.signal-words",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0058",
+    "subtest": "AR",
+    "topic": "ratio",
+    "difficulty": 3,
+    "stem": {
+      "en": "A bag has red and blue marbles in the ratio 4 : 7. If 12 more red marbles are added, the ratio becomes 1 : 1. How many blue marbles are in the bag?",
+      "es": "Una bolsa tiene canicas rojas y azules en la razón 4 : 7. Si se agregan 12 canicas rojas más, la razón se vuelve 1 : 1. ¿Cuántas canicas azules hay en la bolsa?"
+    },
+    "choices": [
+      {
+        "en": "16",
+        "es": "16"
+      },
+      {
+        "en": "44",
+        "es": "44"
+      },
+      {
+        "en": "12",
+        "es": "12"
+      },
+      {
+        "en": "28",
+        "es": "28"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Let red = 4k and blue = 7k. After adding 12 red: 4k + 12 = 7k, so 3k = 12 and k = 4. Blue = 7 × 4 = 28.",
+      "es": "Sea rojas = 4k y azules = 7k. Al agregar 12 rojas: 4k + 12 = 7k, así que 3k = 12 y k = 4. Azules = 7 × 4 = 28."
+    },
+    "trap": {
+      "en": "Wrong-color trap: 16 is the original number of red marbles. 44 is the total after the marbles are added.",
+      "es": "Trampa de color equivocado: 16 es el número original de rojas. 44 es el total después de agregar canicas."
+    },
+    "strategyRef": "ar.backsolve",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0059",
+    "subtest": "AR",
+    "topic": "proportion",
+    "difficulty": 1,
+    "stem": {
+      "en": "On a map, 2 inches represent 35 miles. Two towns are 7 inches apart on the map. What is the actual distance between them?",
+      "es": "En un mapa, 2 pulgadas representan 35 millas. Dos pueblos están a 7 pulgadas en el mapa. ¿Cuál es la distancia real entre ellos?"
+    },
+    "choices": [
+      {
+        "en": "70 miles",
+        "es": "70 millas"
+      },
+      {
+        "en": "245 miles",
+        "es": "245 millas"
+      },
+      {
+        "en": "105 miles",
+        "es": "105 millas"
+      },
+      {
+        "en": "122.5 miles",
+        "es": "122.5 millas"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "2 inches = 35 miles, so 1 inch = 17.5 miles. 7 × 17.5 = 122.5 miles.",
+      "es": "2 pulgadas = 35 millas; 1 pulgada = 17.5 millas. 7 × 17.5 = 122.5 millas."
+    },
+    "trap": {
+      "en": "Per-inch trap: 245 uses 35 miles per inch, forgetting the scale is 35 miles per 2 inches.",
+      "es": "Trampa por pulgada: 245 usa 35 millas por pulgada, olvidando que la escala es 35 millas por 2 pulgadas."
+    },
+    "strategyRef": "ar.want-have-connect",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0060",
+    "subtest": "AR",
+    "topic": "proportion",
+    "difficulty": 2,
+    "stem": {
+      "en": "A machine fills 9 bottles every 12 seconds. At that rate, how many bottles does it fill in 2 minutes?",
+      "es": "Una máquina llena 9 botellas cada 12 segundos. A ese ritmo, ¿cuántas botellas llena en 2 minutos?"
+    },
+    "choices": [
+      {
+        "en": "90",
+        "es": "90"
+      },
+      {
+        "en": "18",
+        "es": "18"
+      },
+      {
+        "en": "54",
+        "es": "54"
+      },
+      {
+        "en": "160",
+        "es": "160"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "2 minutes = 120 seconds = 10 groups of 12 seconds. 10 × 9 = 90 bottles.",
+      "es": "2 minutos = 120 segundos = 10 grupos de 12 segundos. 10 × 9 = 90 botellas."
+    },
+    "trap": {
+      "en": "Units trap: 18 multiplies 9 by 2 minutes without converting to seconds. Convert 2 minutes to 120 seconds first.",
+      "es": "Trampa de unidades: 18 multiplica 9 por 2 minutos sin convertir a segundos. Convierte 2 minutos a 120 segundos primero."
+    },
+    "strategyRef": "ar.units",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0061",
+    "subtest": "AR",
+    "topic": "proportion",
+    "difficulty": 3,
+    "stem": {
+      "en": "A 6-foot pole casts a 4.5-foot shadow. At the same time a flagpole casts a 27-foot shadow. How tall is the flagpole?",
+      "es": "Un poste de 6 pies proyecta una sombra de 4.5 pies. Al mismo tiempo un asta proyecta una sombra de 27 pies. ¿Qué altura tiene el asta?"
+    },
+    "choices": [
+      {
+        "en": "20.25 feet",
+        "es": "20.25 pies"
+      },
+      {
+        "en": "36 feet",
+        "es": "36 pies"
+      },
+      {
+        "en": "18 feet",
+        "es": "18 pies"
+      },
+      {
+        "en": "40 feet",
+        "es": "40 pies"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Height ÷ shadow is the same for both: 6 ÷ 4.5 = 4/3. Flagpole = 27 × 4/3 = 36 feet.",
+      "es": "Altura ÷ sombra es igual para ambos: 6 ÷ 4.5 = 4/3. Asta = 27 × 4/3 = 36 pies."
+    },
+    "trap": {
+      "en": "Inverted-ratio trap: 20.25 multiplies 27 by 4.5/6 instead of 6/4.5. Keep height over shadow on both sides.",
+      "es": "Trampa de razón invertida: 20.25 multiplica 27 por 4.5/6 en vez de 6/4.5. Mantén altura sobre sombra en ambos lados."
+    },
+    "strategyRef": "ar.want-have-connect",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0062",
+    "subtest": "AR",
+    "topic": "mixture",
+    "difficulty": 2,
+    "stem": {
+      "en": "A grocer mixes 6 pounds of almonds costing $8 per pound with 4 pounds of peanuts costing $3 per pound. What is the cost per pound of the mix?",
+      "es": "Un tendero mezcla 6 libras de almendras a $8 por libra con 4 libras de cacahuates a $3 por libra. ¿Cuál es el costo por libra de la mezcla?"
+    },
+    "choices": [
+      {
+        "en": "$6.00",
+        "es": "$6.00"
+      },
+      {
+        "en": "$5.50",
+        "es": "$5.50"
+      },
+      {
+        "en": "$6.50",
+        "es": "$6.50"
+      },
+      {
+        "en": "$11.00",
+        "es": "$11.00"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Total cost: 6 × $8 + 4 × $3 = $48 + $12 = $60. Total weight: 10 pounds. $60 ÷ 10 = $6.00 per pound.",
+      "es": "Costo total: 6 × $8 + 4 × $3 = $48 + $12 = $60. Peso total: 10 libras. $60 ÷ 10 = $6.00 por libra."
+    },
+    "trap": {
+      "en": "Plain-average trap: $5.50 averages the two prices and ignores that there are more almonds. Weight the prices by pounds.",
+      "es": "Trampa del promedio simple: $5.50 promedia los dos precios e ignora que hay más almendras. Pondera los precios por libras."
+    },
+    "strategyRef": "ar.intermediate-value",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0063",
+    "subtest": "AR",
+    "topic": "mixture",
+    "difficulty": 3,
+    "stem": {
+      "en": "How many liters of pure water must be added to 10 liters of a 30% salt solution to make it a 20% salt solution?",
+      "es": "¿Cuántos litros de agua pura deben agregarse a 10 litros de una solución salina al 30% para obtener una solución al 20%?"
+    },
+    "choices": [
+      {
+        "en": "10 liters",
+        "es": "10 litros"
+      },
+      {
+        "en": "15 liters",
+        "es": "15 litros"
+      },
+      {
+        "en": "2 liters",
+        "es": "2 litros"
+      },
+      {
+        "en": "5 liters",
+        "es": "5 litros"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Salt stays fixed: 30% of 10 = 3 liters. 3 must be 20% of the new total, so the total is 3 ÷ 0.2 = 15 liters. Added water: 15 − 10 = 5 liters.",
+      "es": "La sal no cambia: 30% de 10 = 3 litros. 3 debe ser el 20% del nuevo total, así que el total es 3 ÷ 0.2 = 15 litros. Agua agregada: 15 − 10 = 5 litros."
+    },
+    "trap": {
+      "en": "Total-vs-added trap: 15 liters is the final volume, not the amount added. 10 assumes the volume must double.",
+      "es": "Trampa de total vs agregado: 15 litros es el volumen final, no lo agregado. 10 supone que el volumen debe duplicarse."
+    },
+    "strategyRef": "ar.want-have-connect",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0064",
+    "subtest": "AR",
+    "topic": "rate",
+    "difficulty": 2,
+    "stem": {
+      "en": "Two cyclists leave the same spot at the same time riding in opposite directions, one at 12 miles per hour and the other at 15 miles per hour. After how many hours are they 81 miles apart?",
+      "es": "Dos ciclistas salen del mismo punto al mismo tiempo en direcciones opuestas, uno a 12 millas por hora y el otro a 15 millas por hora. ¿Después de cuántas horas estarán a 81 millas de distancia?"
+    },
+    "choices": [
+      {
+        "en": "5.4 hours",
+        "es": "5.4 horas"
+      },
+      {
+        "en": "6.75 hours",
+        "es": "6.75 horas"
+      },
+      {
+        "en": "3 hours",
+        "es": "3 horas"
+      },
+      {
+        "en": "27 hours",
+        "es": "27 horas"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Moving apart, their speeds add: 12 + 15 = 27 miles per hour. 81 ÷ 27 = 3 hours.",
+      "es": "Al alejarse, sus velocidades se suman: 12 + 15 = 27 millas por hora. 81 ÷ 27 = 3 horas."
+    },
+    "trap": {
+      "en": "One-rider trap: 5.4 and 6.75 divide 81 by a single speed. The gap grows at the combined speed of 27 mph.",
+      "es": "Trampa de un solo ciclista: 5.4 y 6.75 dividen 81 entre una sola velocidad. La distancia crece a la velocidad combinada de 27 mph."
+    },
+    "strategyRef": "ar.want-have-connect",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0065",
+    "subtest": "AR",
+    "topic": "work-rate",
+    "difficulty": 3,
+    "stem": {
+      "en": "One pump can drain a pool in 5 hours and a second pump can drain it in 20 hours. If both pumps run together, how long will it take to drain the pool?",
+      "es": "Una bomba puede vaciar una alberca en 5 horas y una segunda bomba en 20 horas. Si ambas funcionan juntas, ¿cuánto tardarán en vaciar la alberca?"
+    },
+    "choices": [
+      {
+        "en": "12.5 hours",
+        "es": "12.5 horas"
+      },
+      {
+        "en": "4 hours",
+        "es": "4 horas"
+      },
+      {
+        "en": "25 hours",
+        "es": "25 horas"
+      },
+      {
+        "en": "2.5 hours",
+        "es": "2.5 horas"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Per hour: 1/5 + 1/20 = 4/20 + 1/20 = 5/20 = 1/4 of the pool. So the job takes 4 hours.",
+      "es": "Por hora: 1/5 + 1/20 = 4/20 + 1/20 = 5/20 = 1/4 de la alberca. El trabajo toma 4 horas."
+    },
+    "trap": {
+      "en": "Averaging trap: 12.5 averages the two times and 25 adds them, but two pumps must finish faster than the faster pump alone (under 5 hours).",
+      "es": "Trampa de promediar: 12.5 promedia los tiempos y 25 los suma, pero dos bombas deben terminar antes que la más rápida sola (menos de 5 horas)."
+    },
+    "strategyRef": "ar.estimate",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0066",
+    "subtest": "AR",
+    "topic": "unit-conversion",
+    "difficulty": 1,
+    "stem": {
+      "en": "How many seconds are there in 2.5 hours?",
+      "es": "¿Cuántos segundos hay en 2.5 horas?"
+    },
+    "choices": [
+      {
+        "en": "150",
+        "es": "150"
+      },
+      {
+        "en": "9,000",
+        "es": "9,000"
+      },
+      {
+        "en": "900",
+        "es": "900"
+      },
+      {
+        "en": "2,500",
+        "es": "2,500"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "2.5 hours × 60 = 150 minutes. 150 minutes × 60 = 9,000 seconds.",
+      "es": "2.5 horas × 60 = 150 minutos. 150 minutos × 60 = 9,000 segundos."
+    },
+    "trap": {
+      "en": "Stopping-early trap: 150 is minutes, not seconds. Convert twice: hours to minutes, then minutes to seconds.",
+      "es": "Trampa de parar antes: 150 son minutos, no segundos. Convierte dos veces: horas a minutos y minutos a segundos."
+    },
+    "strategyRef": "ar.units",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0067",
+    "subtest": "AR",
+    "topic": "money",
+    "difficulty": 1,
+    "stem": {
+      "en": "Jordan earns $14 per hour. He worked 6 hours on Monday and 4.5 hours on Tuesday. How much did he earn for the two days?",
+      "es": "Jordan gana $14 por hora. Trabajó 6 horas el lunes y 4.5 horas el martes. ¿Cuánto ganó en los dos días?"
+    },
+    "choices": [
+      {
+        "en": "$84",
+        "es": "$84"
+      },
+      {
+        "en": "$140",
+        "es": "$140"
+      },
+      {
+        "en": "$147",
+        "es": "$147"
+      },
+      {
+        "en": "$161",
+        "es": "$161"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Total hours: 6 + 4.5 = 10.5. Pay: 10.5 × $14 = $147.",
+      "es": "Horas totales: 6 + 4.5 = 10.5. Pago: 10.5 × $14 = $147."
+    },
+    "trap": {
+      "en": "Half-hour trap: $140 rounds 10.5 hours down to 10 and $161 rounds it up to 11.5. The half hour is worth $7.",
+      "es": "Trampa de la media hora: $140 redondea 10.5 horas a 10 y $161 a 11.5. La media hora vale $7."
+    },
+    "strategyRef": "ar.intermediate-value",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0068",
+    "subtest": "AR",
+    "topic": "money",
+    "difficulty": 2,
+    "stem": {
+      "en": "A taxi charges a $3 pickup fee plus $2.50 per mile. What is the fare for a 7-mile ride?",
+      "es": "Un taxi cobra $3 de banderazo más $2.50 por milla. ¿Cuál es la tarifa por un viaje de 7 millas?"
+    },
+    "choices": [
+      {
+        "en": "$17.50",
+        "es": "$17.50"
+      },
+      {
+        "en": "$20.50",
+        "es": "$20.50"
+      },
+      {
+        "en": "$38.50",
+        "es": "$38.50"
+      },
+      {
+        "en": "$24.50",
+        "es": "$24.50"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Distance charge: 7 × $2.50 = $17.50. Add the fee: $17.50 + $3 = $20.50.",
+      "es": "Cargo por distancia: 7 × $2.50 = $17.50. Suma el banderazo: $17.50 + $3 = $20.50."
+    },
+    "trap": {
+      "en": "Flat-fee trap: $17.50 forgets the pickup fee; $38.50 multiplies the fee by the miles too. The $3 is paid once.",
+      "es": "Trampa de la tarifa fija: $17.50 olvida el banderazo; $38.50 también multiplica la tarifa fija por las millas. Los $3 se pagan una vez."
+    },
+    "strategyRef": "ar.signal-words",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0069",
+    "subtest": "AR",
+    "topic": "money",
+    "difficulty": 3,
+    "stem": {
+      "en": "A technician earns $18 per hour for the first 40 hours in a week and 1.5 times that rate for each extra hour. How much does she earn in a 46-hour week?",
+      "es": "Una técnica gana $18 por hora por las primeras 40 horas de la semana y 1.5 veces esa tarifa por cada hora extra. ¿Cuánto gana en una semana de 46 horas?"
+    },
+    "choices": [
+      {
+        "en": "$828",
+        "es": "$828"
+      },
+      {
+        "en": "$882",
+        "es": "$882"
+      },
+      {
+        "en": "$1,242",
+        "es": "$1,242"
+      },
+      {
+        "en": "$918",
+        "es": "$918"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Regular: 40 × $18 = $720. Overtime rate: 1.5 × $18 = $27; 6 × $27 = $162. Total: $720 + $162 = $882.",
+      "es": "Normal: 40 × $18 = $720. Tarifa extra: 1.5 × $18 = $27; 6 × $27 = $162. Total: $720 + $162 = $882."
+    },
+    "trap": {
+      "en": "Flat-rate trap: $828 pays all 46 hours at $18; $1,242 pays all 46 at the overtime rate. Only the 6 extra hours get $27.",
+      "es": "Trampa de tarifa única: $828 paga las 46 horas a $18; $1,242 las paga todas a la tarifa extra. Solo las 6 horas extra van a $27."
+    },
+    "strategyRef": "ar.intermediate-value",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0070",
+    "subtest": "AR",
+    "topic": "simple-interest",
+    "difficulty": 2,
+    "stem": {
+      "en": "How much simple interest does $2,400 earn at 5% per year over 18 months?",
+      "es": "¿Cuánto interés simple genera $2,400 al 5% anual durante 18 meses?"
+    },
+    "choices": [
+      {
+        "en": "$180",
+        "es": "$180"
+      },
+      {
+        "en": "$120",
+        "es": "$120"
+      },
+      {
+        "en": "$2,160",
+        "es": "$2,160"
+      },
+      {
+        "en": "$2,580",
+        "es": "$2,580"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "18 months = 1.5 years. Interest = $2,400 × 0.05 × 1.5 = $120 × 1.5 = $180.",
+      "es": "18 meses = 1.5 años. Interés = $2,400 × 0.05 × 1.5 = $120 × 1.5 = $180."
+    },
+    "trap": {
+      "en": "Units trap: $2,160 uses 18 as years. $120 is one year only. $2,580 is principal plus interest, not the interest.",
+      "es": "Trampa de unidades: $2,160 usa 18 como años. $120 es solo un año. $2,580 es capital más interés, no el interés."
+    },
+    "strategyRef": "ar.units",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0071",
+    "subtest": "AR",
+    "topic": "average",
+    "difficulty": 1,
+    "stem": {
+      "en": "A cadet's four inspection scores are 78, 85, 91 and 86. What is her mean score?",
+      "es": "Las cuatro calificaciones de inspección de una cadete son 78, 85, 91 y 86. ¿Cuál es su calificación media?"
+    },
+    "choices": [
+      {
+        "en": "85.5",
+        "es": "85.5"
+      },
+      {
+        "en": "85",
+        "es": "85"
+      },
+      {
+        "en": "84",
+        "es": "84"
+      },
+      {
+        "en": "91",
+        "es": "91"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "78 + 85 + 91 + 86 = 340. 340 ÷ 4 = 85.",
+      "es": "78 + 85 + 91 + 86 = 340. 340 ÷ 4 = 85."
+    },
+    "trap": {
+      "en": "Median trap: 85.5 is the median (middle of 85 and 86), not the mean. 91 is the highest score.",
+      "es": "Trampa de la mediana: 85.5 es la mediana (entre 85 y 86), no la media. 91 es la calificación más alta."
+    },
+    "strategyRef": "ar.signal-words",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0072",
+    "subtest": "AR",
+    "topic": "average",
+    "difficulty": 2,
+    "stem": {
+      "en": "Nadia has an average of 82 on four exams. What must she score on a fifth exam to raise her average to 85?",
+      "es": "Nadia tiene un promedio de 82 en cuatro exámenes. ¿Cuánto debe sacar en un quinto examen para subir su promedio a 85?"
+    },
+    "choices": [
+      {
+        "en": "97",
+        "es": "97"
+      },
+      {
+        "en": "85",
+        "es": "85"
+      },
+      {
+        "en": "88",
+        "es": "88"
+      },
+      {
+        "en": "100",
+        "es": "100"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Needed total: 5 × 85 = 425. Current total: 4 × 82 = 328. Fifth exam: 425 − 328 = 97.",
+      "es": "Total necesario: 5 × 85 = 425. Total actual: 4 × 82 = 328. Quinto examen: 425 − 328 = 97."
+    },
+    "trap": {
+      "en": "Target-as-answer trap: scoring 85 only holds the average below 85; 88 adds the 3-point gap once instead of five times.",
+      "es": "Trampa de la meta como respuesta: sacar 85 deja el promedio debajo de 85; 88 suma la brecha de 3 puntos una vez en lugar de cinco."
+    },
+    "strategyRef": "ar.want-have-connect",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0073",
+    "subtest": "AR",
+    "topic": "average",
+    "difficulty": 3,
+    "stem": {
+      "en": "A class of 20 students averaged 70 on a test, and another class of 30 students averaged 80 on the same test. What is the average for all 50 students?",
+      "es": "Un grupo de 20 estudiantes promedió 70 en un examen y otro grupo de 30 estudiantes promedió 80 en el mismo examen. ¿Cuál es el promedio de los 50 estudiantes?"
+    },
+    "choices": [
+      {
+        "en": "75",
+        "es": "75"
+      },
+      {
+        "en": "74",
+        "es": "74"
+      },
+      {
+        "en": "78",
+        "es": "78"
+      },
+      {
+        "en": "76",
+        "es": "76"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "Total points: 20 × 70 + 30 × 80 = 1,400 + 2,400 = 3,800. 3,800 ÷ 50 = 76.",
+      "es": "Puntos totales: 20 × 70 + 30 × 80 = 1,400 + 2,400 = 3,800. 3,800 ÷ 50 = 76."
+    },
+    "trap": {
+      "en": "Unweighted-average trap: 75 averages 70 and 80 as if the classes were the same size. The larger class pulls the mean toward 80.",
+      "es": "Trampa del promedio sin ponderar: 75 promedia 70 y 80 como si los grupos fueran iguales. El grupo mayor jala la media hacia 80."
+    },
+    "strategyRef": "ar.intermediate-value",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0074",
+    "subtest": "AR",
+    "topic": "area-perimeter",
+    "difficulty": 2,
+    "stem": {
+      "en": "A rectangular garden is 15 feet long and 9 feet wide. It will be fenced on all sides except for a 3-foot gate opening. How many feet of fencing are needed?",
+      "es": "Un jardín rectangular mide 15 pies de largo y 9 pies de ancho. Se cercará por todos lados excepto por una abertura de 3 pies para la reja. ¿Cuántos pies de cerca se necesitan?"
+    },
+    "choices": [
+      {
+        "en": "48 feet",
+        "es": "48 pies"
+      },
+      {
+        "en": "135 feet",
+        "es": "135 pies"
+      },
+      {
+        "en": "45 feet",
+        "es": "45 pies"
+      },
+      {
+        "en": "132 feet",
+        "es": "132 pies"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Perimeter: 2 × (15 + 9) = 48 feet. Subtract the gate: 48 − 3 = 45 feet.",
+      "es": "Perímetro: 2 × (15 + 9) = 48 pies. Resta la reja: 48 − 3 = 45 pies."
+    },
+    "trap": {
+      "en": "Area-vs-perimeter trap: 135 is the area (15 × 9); fencing follows the edge. 48 forgets to remove the gate opening.",
+      "es": "Trampa de área vs perímetro: 135 es el área (15 × 9); la cerca sigue el borde. 48 olvida restar la abertura."
+    },
+    "strategyRef": "ar.signal-words",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0075",
+    "subtest": "AR",
+    "topic": "age",
+    "difficulty": 1,
+    "stem": {
+      "en": "Rosa is 3 years younger than her brother, and the sum of their ages is 27. How old is Rosa?",
+      "es": "Rosa es 3 años menor que su hermano y la suma de sus edades es 27. ¿Cuántos años tiene Rosa?"
+    },
+    "choices": [
+      {
+        "en": "15",
+        "es": "15"
+      },
+      {
+        "en": "9",
+        "es": "9"
+      },
+      {
+        "en": "12",
+        "es": "12"
+      },
+      {
+        "en": "24",
+        "es": "24"
+      }
+    ],
+    "answer": 2,
+    "explanation": {
+      "en": "Let Rosa = r; her brother = r + 3. r + r + 3 = 27, so 2r = 24 and r = 12.",
+      "es": "Sea Rosa = r; su hermano = r + 3. r + r + 3 = 27, así que 2r = 24 y r = 12."
+    },
+    "trap": {
+      "en": "Wrong-person trap: 15 is the brother's age. 24 is the sum before dividing by 2.",
+      "es": "Trampa de persona equivocada: 15 es la edad del hermano. 24 es la suma antes de dividir entre 2."
+    },
+    "strategyRef": "ar.backsolve",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0076",
+    "subtest": "AR",
+    "topic": "age",
+    "difficulty": 3,
+    "stem": {
+      "en": "Kim is twice as old as Jo. Five years ago, Kim was three times as old as Jo was then. How old is Kim now?",
+      "es": "Kim tiene el doble de la edad de Jo. Hace cinco años, Kim tenía el triple de la edad que Jo tenía entonces. ¿Cuántos años tiene Kim ahora?"
+    },
+    "choices": [
+      {
+        "en": "20",
+        "es": "20"
+      },
+      {
+        "en": "10",
+        "es": "10"
+      },
+      {
+        "en": "15",
+        "es": "15"
+      },
+      {
+        "en": "30",
+        "es": "30"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Let Jo = j and Kim = 2j. Five years ago: 2j − 5 = 3(j − 5) = 3j − 15, so j = 10 and Kim = 20. Check: 15 = 3 × 5.",
+      "es": "Sea Jo = j y Kim = 2j. Hace cinco años: 2j − 5 = 3(j − 5) = 3j − 15, así que j = 10 y Kim = 20. Verifica: 15 = 3 × 5."
+    },
+    "trap": {
+      "en": "Wrong-person trap: 10 is Jo's age now. 15 is Kim's age five years ago. Read which person and which time the question asks for.",
+      "es": "Trampa de persona equivocada: 10 es la edad de Jo ahora. 15 es la edad de Kim hace cinco años. Lee qué persona y qué momento pide la pregunta."
+    },
+    "strategyRef": "ar.backsolve",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0077",
+    "subtest": "AR",
+    "topic": "number-relationships",
+    "difficulty": 1,
+    "stem": {
+      "en": "The sum of three consecutive integers is 57. What is the largest of the three?",
+      "es": "La suma de tres enteros consecutivos es 57. ¿Cuál es el mayor de los tres?"
+    },
+    "choices": [
+      {
+        "en": "19",
+        "es": "19"
+      },
+      {
+        "en": "18",
+        "es": "18"
+      },
+      {
+        "en": "21",
+        "es": "21"
+      },
+      {
+        "en": "20",
+        "es": "20"
+      }
+    ],
+    "answer": 3,
+    "explanation": {
+      "en": "The middle number is 57 ÷ 3 = 19, so the integers are 18, 19, 20. The largest is 20.",
+      "es": "El número del medio es 57 ÷ 3 = 19; los enteros son 18, 19, 20. El mayor es 20."
+    },
+    "trap": {
+      "en": "Middle-number trap: 19 is the middle integer, which the division gives directly. The question asks for the largest.",
+      "es": "Trampa del número del medio: 19 es el entero del medio, que sale directo de la división. La pregunta pide el mayor."
+    },
+    "strategyRef": "ar.backsolve",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0078",
+    "subtest": "AR",
+    "topic": "number-relationships",
+    "difficulty": 2,
+    "stem": {
+      "en": "The sum of two consecutive even integers is 94. What is the smaller integer?",
+      "es": "La suma de dos enteros pares consecutivos es 94. ¿Cuál es el entero menor?"
+    },
+    "choices": [
+      {
+        "en": "48",
+        "es": "48"
+      },
+      {
+        "en": "46",
+        "es": "46"
+      },
+      {
+        "en": "47",
+        "es": "47"
+      },
+      {
+        "en": "44",
+        "es": "44"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "Let the integers be n and n + 2. 2n + 2 = 94, so n = 46. Check: 46 + 48 = 94.",
+      "es": "Sean los enteros n y n + 2. 2n + 2 = 94, así que n = 46. Verifica: 46 + 48 = 94."
+    },
+    "trap": {
+      "en": "Consecutive-integer trap: 47 uses n and n + 1 (47 + 47 = 94 is not two different even numbers). Even integers differ by 2. 48 is the larger one.",
+      "es": "Trampa de enteros consecutivos: 47 usa n y n + 1 (y 47 no es par). Los pares consecutivos difieren en 2. 48 es el mayor."
+    },
+    "strategyRef": "ar.backsolve",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0079",
+    "subtest": "AR",
+    "topic": "number-relationships",
+    "difficulty": 2,
+    "stem": {
+      "en": "Twice a number, decreased by 9, equals 35. What is the number?",
+      "es": "El doble de un número, disminuido en 9, es igual a 35. ¿Cuál es el número?"
+    },
+    "choices": [
+      {
+        "en": "13",
+        "es": "13"
+      },
+      {
+        "en": "22",
+        "es": "22"
+      },
+      {
+        "en": "44",
+        "es": "44"
+      },
+      {
+        "en": "88",
+        "es": "88"
+      }
+    ],
+    "answer": 1,
+    "explanation": {
+      "en": "2n − 9 = 35, so 2n = 44 and n = 22.",
+      "es": "2n − 9 = 35, así que 2n = 44 y n = 22."
+    },
+    "trap": {
+      "en": "Sign trap: 13 subtracts 9 from 35 instead of adding it back. 44 is 2n, not n.",
+      "es": "Trampa de signo: 13 resta 9 de 35 en lugar de sumarlo. 44 es 2n, no n."
+    },
+    "strategyRef": "ar.signal-words",
+    "source": "original",
+    "version": 1
+  },
+  {
+    "id": "ar-0080",
+    "subtest": "AR",
+    "topic": "number-relationships",
+    "difficulty": 3,
+    "stem": {
+      "en": "The larger of two numbers is 5 more than twice the smaller. Their sum is 41. What is the larger number?",
+      "es": "El mayor de dos números es 5 más que el doble del menor. Su suma es 41. ¿Cuál es el número mayor?"
+    },
+    "choices": [
+      {
+        "en": "29",
+        "es": "29"
+      },
+      {
+        "en": "12",
+        "es": "12"
+      },
+      {
+        "en": "24",
+        "es": "24"
+      },
+      {
+        "en": "36",
+        "es": "36"
+      }
+    ],
+    "answer": 0,
+    "explanation": {
+      "en": "Let the smaller be s; the larger is 2s + 5. s + 2s + 5 = 41, so 3s = 36 and s = 12. Larger: 2 × 12 + 5 = 29.",
+      "es": "Sea el menor s; el mayor es 2s + 5. s + 2s + 5 = 41, así que 3s = 36 y s = 12. Mayor: 2 × 12 + 5 = 29."
+    },
+    "trap": {
+      "en": "Wrong-number trap: 12 is the smaller number. 24 is twice the smaller without the 5. 36 is 3s before dividing.",
+      "es": "Trampa de número equivocado: 12 es el menor. 24 es el doble del menor sin el 5. 36 es 3s antes de dividir."
+    },
+    "strategyRef": "ar.backsolve",
+    "source": "original",
+    "version": 1
+  }
+]
