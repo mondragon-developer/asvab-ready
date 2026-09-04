@@ -160,5 +160,9 @@
  "settings.reset": "Reset all data",
  "settings.resetConfirm": "Click again to confirm",
  "settings.resetDone": "All data deleted",
- "settings.about": "ASVAB Ready · every question is original · scores are estimates (±5) · branch minimums change, confirm with your recruiter."
+ "settings.about": "ASVAB Ready · every question is original · scores are estimates (±5) · branch minimums change, confirm with your recruiter.",
+ "install.title": "Install ASVAB Ready",
+ "install.body": "Add it to your home screen to study offline and start faster.",
+ "install.action": "Install",
+ "install.dismiss": "Not now"
 }

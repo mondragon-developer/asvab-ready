@@ -160,5 +160,9 @@
  "settings.reset": "Borrar todos los datos",
  "settings.resetConfirm": "Pulsa otra vez para confirmar",
  "settings.resetDone": "Datos borrados",
- "settings.about": "ASVAB Ready · todas las preguntas son originales · los puntajes son estimaciones (±5) · los mínimos por rama cambian, confírmalos con tu reclutador."
+ "settings.about": "ASVAB Ready · todas las preguntas son originales · los puntajes son estimaciones (±5) · los mínimos por rama cambian, confírmalos con tu reclutador.",
+ "install.title": "Instala ASVAB Ready",
+ "install.body": "Agrégala a tu pantalla de inicio para estudiar sin conexión y abrirla más rápido.",
+ "install.action": "Instalar",
+ "install.dismiss": "Ahora no"
 }

@@ -27,6 +27,7 @@ import { ResultsScreen } from '@ui/screens/ResultsScreen';
 import { StrategyScreen } from '@ui/screens/StrategyScreen';
 import { SettingsScreen } from '@ui/screens/SettingsScreen';
 import { applyTheme } from '@ui/theme';
+import { initInstallPrompt } from '@ui/installPrompt';
 import type { AppContext } from '@ui/context';
 
 async function boot(): Promise<void> {
@@ -73,6 +74,7 @@ async function boot(): Promise<void> {
   });
   shell.mount(document.getElementById('app') as HTMLElement);
   await shell.navigate('home');
+  initInstallPrompt(i18n);
 }
 
 void boot();

@@ -20,7 +20,7 @@ Update this file at the end of every working session. Newest entry on top in the
 | 5 | Results + Strategy | ✅ | branch switcher, weak areas × leverage, timing report, missed review with tips |
 | 6 | Content bank + AO generator | ✅ | 730 items; `scripts/validate-questions.mjs`, `scripts/generate-ao.mjs` |
 | 6b | Topic taxonomy + StudyPlanBuilder + prefer-unseen picker | ✅ | `src/data/topics.json`, `analysis/StudyPlanBuilder.ts`, `QuestionBank.pick(avoid)` |
-| 7 | PWA polish | ⬜ | see backlog P1 |
+| 7 | PWA polish | 🟡 | icons, install prompt, offline verified; real-device QA outstanding |
 | 8 | Planner + spaced repetition + recovery-code sync | ⬜ | v1.1 |
 
 ## Backlog (priority order)
@@ -31,7 +31,8 @@ Update this file at the end of every working session. Newest entry on top in the
 - [ ] Lessons for the new/thin topics (only 16 lessons exist; the study plan shows a Lesson button only where one exists). Priority: WK suffix/antonym/multiple-meaning, PC author-tone/sequence, AR whole-numbers/fractions-decimals, MK exponents/expressions/probability, GS weight-3 topics, EI magnetism/semiconductors.
 - [ ] Grow GS weight-3 topics to ≥4 items (12 topics at 2) and MK weight-3 topics to ≥6 (8 topics at 3–4).
 - [x] First-run welcome card + empty states + Settings screen + backup nudge (2026-09-04)
-- [ ] PWA: real PNG icons (192/512 + maskable), `apple-touch-icon`, install prompt banner, offline smoke test (airplane mode), iOS Safari + Android Chrome QA at 390 px.
+- [x] PWA icons + install prompt + offline smoke test (2026-09-04). PNG icons 192/512 and a separate padded maskable 512 (the old single SVG was declared `any maskable` and would have been cropped by Android), `apple-touch-icon.png` 180 (iOS ignores SVG there), favicon 32. Install banner in `src/ui/installPrompt.ts`, EN/ES, dismissal remembered. Offline verified against the production build with the server stopped: app shell, all 10 question banks and lessons load from the service worker. Layout checked at a 390 px viewport.
+- [ ] PWA: QA on real devices (iOS Safari + Android Chrome) - install flow, home-screen icon, standalone status bar, airplane mode. Cannot be done from the desktop; needs a phone.
 - [ ] Offer backup export at the end of every full test (nudge on Home is done).
 - [ ] Practice: show topic chips per subtest; "Review missed" mode that drills `review.missedQueue`.
 - [ ] Results: per-subtest history sparkline (dataviz skill) and the `computedAt` date per estimate.

@@ -112,6 +112,13 @@ details .body{padding:0 14px 14px;max-width:70ch} details ul{margin:0;padding-le
 .rules[open] summary::before{transform:rotate(90deg)}
 .rules .body{padding:0 12px 12px}
 .rules li{font-size:.875rem;color:var(--ink-2);line-height:1.5}
+/* Install banner: bottom-centred, above the mobile tab bar, never over the timer chip. */
+.installbar{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(16px + env(safe-area-inset-bottom));z-index:60;
+  display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;width:min(560px,calc(100vw - 24px));
+  padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--surface);
+  box-shadow:0 10px 30px rgba(0,0,0,.28)}
+.installbar .stack{gap:2px;min-width:0}
+@media(max-width:720px){ .installbar{bottom:calc(76px + env(safe-area-inset-bottom))} }
 .lesson-section{display:grid;gap:6px;padding:14px 0;border-bottom:1px solid var(--line)} .lesson-section.passage,.lesson-section.card,.lesson-section.expl{border-bottom:0}
 .lesson-section.trap-card{border-left:3px solid var(--warn)}
 .lesson-body{max-width:65ch;line-height:1.55} .lesson-body ul{margin:6px 0 0;padding-left:20px;display:grid;gap:4px} .lesson-body code{font-family:var(--mono);font-size:.92em;background:var(--paper);padding:1px 5px;border-radius:4px}
